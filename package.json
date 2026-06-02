@@ -6,6 +6,8 @@
   "type": "module",
   "scripts": {
     "collect": "node scripts/collect.mjs",
+    "analyze": "node scripts/analyze.mjs",
+    "brief": "node scripts/collect.mjs && node scripts/analyze.mjs",
     "collect:yesterday": "node scripts/collect.mjs --date yesterday",
     "collect:body": "node scripts/collect.mjs --include-body"
   },

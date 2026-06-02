@@ -27,6 +27,9 @@ jobs:
       - name: Collect news
         run: node scripts/collect.mjs --date "${{ github.event.inputs.date || 'yesterday' }}"
 
+      - name: Analyze department briefs
+        run: node scripts/analyze.mjs --date "${{ github.event.inputs.date || 'yesterday' }}"
+
       - name: Commit collected data
         run: |
           git config user.name "github-actions[bot]"

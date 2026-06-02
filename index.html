@@ -33,6 +33,10 @@
           <span>선택 날짜</span>
           <strong id="selectedDate">-</strong>
         </div>
+        <div>
+          <span>관련 부서</span>
+          <strong id="briefTotal">0개</strong>
+        </div>
       </section>
 
       <section class="calendar-section" aria-label="수집 달력">
@@ -50,9 +54,13 @@
 
       <section class="article-section" aria-label="기사 목록">
         <div class="article-heading">
-          <h2 id="articleHeading">날짜를 선택하세요</h2>
+          <div>
+            <h2 id="articleHeading">날짜를 선택하세요</h2>
+            <p id="briefSummary" class="brief-summary"></p>
+          </div>
           <div id="publisherCounts" class="publisher-counts"></div>
         </div>
+        <div id="departmentBriefs" class="department-briefs"></div>
         <div id="articleList" class="article-list"></div>
       </section>
     </main>
