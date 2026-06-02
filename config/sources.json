@@ -1,0 +1,89 @@
+{
+  "timezone": "Asia/Seoul",
+  "sources": [
+    {
+      "id": "chosun-rss",
+      "publisher": "조선일보",
+      "type": "rss",
+      "url": "https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml",
+      "enabled": true,
+      "notes": "전체 RSS. 기사 URL 발견용 1차 소스."
+    },
+    {
+      "id": "chosun-news-sitemap",
+      "publisher": "조선일보",
+      "type": "sitemap",
+      "url": "https://www.chosun.com/arc/outboundfeeds/news-sitemap/?outputType=xml",
+      "enabled": true,
+      "notes": "RSS 누락 보완용 뉴스 sitemap."
+    },
+    {
+      "id": "joongang-latest-sitemap",
+      "publisher": "중앙일보",
+      "type": "sitemap",
+      "url": "https://www.joongang.co.kr/sitemap/latest-articles",
+      "enabled": true,
+      "notes": "중앙일보 RSS 종료로 최신기사 sitemap을 1차 소스로 사용."
+    },
+    {
+      "id": "donga-rss",
+      "publisher": "동아일보",
+      "type": "rss",
+      "url": "https://rss.donga.com/total.xml",
+      "enabled": true,
+      "notes": "전체 RSS."
+    },
+    {
+      "id": "hani-economy-rss",
+      "publisher": "한겨레",
+      "type": "rss",
+      "url": "https://www.hani.co.kr/rss/economy",
+      "enabled": true,
+      "section": "경제",
+      "notes": "RSS copyright 문구상 운영 전 저작권 검토 필요."
+    },
+    {
+      "id": "hani-society-rss",
+      "publisher": "한겨레",
+      "type": "rss",
+      "url": "https://www.hani.co.kr/rss/society",
+      "enabled": true,
+      "section": "사회",
+      "notes": "RSS copyright 문구상 운영 전 저작권 검토 필요."
+    },
+    {
+      "id": "hani-politics-rss",
+      "publisher": "한겨레",
+      "type": "rss",
+      "url": "https://www.hani.co.kr/rss/politics",
+      "enabled": true,
+      "section": "정치",
+      "notes": "RSS copyright 문구상 운영 전 저작권 검토 필요."
+    },
+    {
+      "id": "hani-international-rss",
+      "publisher": "한겨레",
+      "type": "rss",
+      "url": "https://www.hani.co.kr/rss/international",
+      "enabled": true,
+      "section": "국제",
+      "notes": "RSS copyright 문구상 운영 전 저작권 검토 필요."
+    },
+    {
+      "id": "khan-rss",
+      "publisher": "경향신문",
+      "type": "rss",
+      "url": "https://www.khan.co.kr/rss/rssdata/total_news.xml",
+      "enabled": true,
+      "notes": "전체 RSS. 공식 RSS 안내상 운영 전 이용범위 검토 필요."
+    },
+    {
+      "id": "khan-latest-sitemap",
+      "publisher": "경향신문",
+      "type": "sitemap",
+      "url": "https://www.khan.co.kr/sitemap/latest-articles.xml",
+      "enabled": true,
+      "notes": "RSS 누락 보완용 최신기사 sitemap."
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>KNOC 부서별 언론보도 브리핑</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="app-header">
+        <div>
+          <p class="eyebrow">KNOC News Brief</p>
+          <h1>언론보도 수집 현황</h1>
+        </div>
+        <div class="month-controls" aria-label="월 이동">
+          <button id="prevMonth" type="button" aria-label="이전 달">‹</button>
+          <strong id="monthLabel">-</strong>
+          <button id="nextMonth" type="button" aria-label="다음 달">›</button>
+        </div>
+      </header>
+
+      <section class="summary-bar" aria-label="수집 요약">
+        <div>
+          <span>수집 일자</span>
+          <strong id="runCount">0일</strong>
+        </div>
+        <div>
+          <span>총 기사</span>
+          <strong id="articleTotal">0건</strong>
+        </div>
+        <div>
+          <span>선택 날짜</span>
+          <strong id="selectedDate">-</strong>
+        </div>
+      </section>
+
+      <section class="calendar-section" aria-label="수집 달력">
+        <div class="weekday-row">
+          <span>일</span>
+          <span>월</span>
+          <span>화</span>
+          <span>수</span>
+          <span>목</span>
+          <span>금</span>
+          <span>토</span>
+        </div>
+        <div id="calendarGrid" class="calendar-grid"></div>
+      </section>
+
+      <section class="article-section" aria-label="기사 목록">
+        <div class="article-heading">
+          <h2 id="articleHeading">날짜를 선택하세요</h2>
+          <div id="publisherCounts" class="publisher-counts"></div>
+        </div>
+        <div id="articleList" class="article-list"></div>
+      </section>
+    </main>
+
+    <script type="module" src="assets/app.js"></script>
+  </body>
+</html>

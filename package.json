@@ -1,0 +1,15 @@
+{
+  "name": "knoc-dept-news-brief",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Date-based news collector for KNOC department briefings.",
+  "type": "module",
+  "scripts": {
+    "collect": "node scripts/collect.mjs",
+    "collect:yesterday": "node scripts/collect.mjs --date yesterday",
+    "collect:body": "node scripts/collect.mjs --include-body"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
