@@ -41,7 +41,7 @@ async function main() {
         stage0,
         departments,
         knocContext,
-        batchSize: Number(args.stage1BatchSize || process.env.STAGE1_BATCH_SIZE || process.env.LLM_BATCH_SIZE || 2),
+        batchSize: Number(args.stage1BatchSize || process.env.STAGE1_BATCH_SIZE || process.env.LLM_BATCH_SIZE || 8),
         maxArticles: Number(args.stage1MaxArticles ?? process.env.STAGE1_MAX_ARTICLES ?? process.env.LLM_MAX_ARTICLES ?? 0)
       })
     : disabledStage({
@@ -70,7 +70,7 @@ async function main() {
         inputs: stage2Inputs,
         departments,
         knocContext,
-        batchSize: Number(args.stage2BatchSize || process.env.STAGE2_BATCH_SIZE || 2),
+        batchSize: Number(args.stage2BatchSize || process.env.STAGE2_BATCH_SIZE || 4),
         maxArticles: Number(args.stage2MaxArticles ?? process.env.STAGE2_MAX_ARTICLES ?? 0)
       })
     : disabledStage({
