@@ -1,0 +1,130 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "75010a870a2a6031",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "75010a870a2a6031",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "에너지 관련 사업에 대한 금융 지원",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "미국 해상에서 추진되는 첫 상업용 부유식 액화천연가스(FLNG) 시설",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "해상 천연가스 시설",
+            "evidence_type": "paragraph",
+            "reason": "에너지전환, 저탄소 신규사업 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "75010a870a2a6031",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "에너지 관련 사업에 대한 금융 지원",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "미국 해상에서 추진되는 첫 상업용 부유식 액화천연가스(FLNG) 시설",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "해상 천연가스 시설",
+            "evidence_type": "paragraph",
+            "reason": "에너지전환, 저탄소 신규사업 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "9b9161478e3a0528",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "9b9161478e3a0528",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "외환보유액 감소와 유가 영향",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "외환보유액이 한달 만에 8억달러 넘게 줄어든 것",
+            "evidence_type": "paragraph",
+            "reason": "유가 영향으로 인한 외환보유액 관리 필요성"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.5,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "외환보유액 감소",
+            "evidence_type": "paragraph",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "9b9161478e3a0528",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "외환보유액 감소와 유가 영향",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "외환보유액이 한달 만에 8억달러 넘게 줄어든 것",
+            "evidence_type": "paragraph",
+            "reason": "유가 영향으로 인한 외환보유액 관리 필요성"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.5,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "외환보유액 감소",
+            "evidence_type": "paragraph",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      }
+    }
+  ]
+}

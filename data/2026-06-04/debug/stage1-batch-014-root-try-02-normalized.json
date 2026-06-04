@@ -1,0 +1,130 @@
+{
+  "raw_result_count": 4,
+  "accepted_result_count": 4,
+  "normalization": [
+    {
+      "article_id": "1664eb7d1c224cbc",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "1664eb7d1c224cbc",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "1664eb7d1c224cbc",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "d21d8a69ca09e8d2",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "d21d8a69ca09e8d2",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "d21d8a69ca09e8d2",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "7f603517b0787703",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "7f603517b0787703",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "에너지 관련 이슈로 한국석유공사와 연결될 가능성이 있습니다.",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "sentence",
+            "reason": "에너지 관련 부서로 연결됩니다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "7f603517b0787703",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "에너지 관련 이슈로 한국석유공사와 연결될 가능성이 있습니다.",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "sentence",
+            "reason": "에너지 관련 부서로 연결됩니다."
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "4d6406d825b5d5bf",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "4d6406d825b5d5bf",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 이슈로 한국석유공사와 연결될 가능성이 있습니다.",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "sentence",
+            "reason": "에너지 관련 부서로 연결됩니다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "4d6406d825b5d5bf",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 이슈로 한국석유공사와 연결될 가능성이 있습니다.",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "sentence",
+            "reason": "에너지 관련 부서로 연결됩니다."
+          }
+        ]
+      }
+    }
+  ]
+}

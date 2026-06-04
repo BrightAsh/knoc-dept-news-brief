@@ -1,0 +1,60 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "cec56316b38d79c6",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "원유 수송과 관련된 전략적 시위에 한국석유공사의 역할이 연관될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "초대형 원유 운반선을 선봉으로 내세운 수백척의 중국 상선단이 세계 최강을 자부하던 미 해군을 완포위한 이 장면은 단순한 항해가 아니었다. 초대형 원유 운반선 10척이 위용을 드러냈다.",
+          "evidence_type": "paragraph",
+          "reason": "원유 운반선과 관련된 내용으로 석유사업과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "베이징을 방문하는 도널드 트럼프 미 대통령에 대한 중국의 무언의 압박이자, 정밀하게 계산된 전략적 시위였다.",
+          "evidence_type": "paragraph",
+          "reason": "전략적 시위와 관련된 내용으로 경영전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "eed118ada406a7b9",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유가와 관련된 이벤트로 한국석유공사의 역할이 연관될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "스타벅스코리아의 ‘5·18 탱크데이’와 ‘4·16 사이렌’ 이벤트, 일간베스트저장소(일베)의 노무현 전 대통령 조롱·혐오 표현에 대한 문제 제기에서도 같은 책략이 읽힌다. 이 대통령은 ‘저질 장사치의 패륜행위’ ‘금수 같은 행태’ ‘인두겁’ 같은 원색적인 표현을 마다하지 않았다. 날선 비난의 효과는 즉각적이었다. 스타벅스를 향한대중의 분노가 끓어올랐고, 불매운동으로 이어졌다.",
+          "evidence_type": "paragraph",
+          "reason": "유가와 관련된 이벤트로 스마트데이터센터의 유가 정보 제공 역할과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "990bdcf88bdc3c54",
+      "candidate": false,
+      "confidence": 0.5,
+      "company_reason": "게임물관리위원회 신임 위원으로 정유 관련 전문가가 포함되어 있으나 직접적인 관련성은 낮음",
+      "departments": []
+    }
+  ]
+}
+```

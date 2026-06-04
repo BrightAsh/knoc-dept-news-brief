@@ -1,0 +1,172 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "1ab02d4cb3437fc9",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "1ab02d4cb3437fc9",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 스마트데이터센터의 유가 정보 제공 업무와 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "원-달러 환율 급등과 중동 긴장 재고조, 국내 주식시장에서 외국인 투매 등으로 4일 국고채 금리가 일제히 급등했다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 변동과 관련된 기사로 석유사업, 유통사업과 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "원-달러 환율 급등과 중동 긴장 재고조, 국내 주식시장에서 외국인 투매 등으로 4일 국고채 금리가 일제히 급등했다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 변동과 관련된 기사로 유통사업과 관련이 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "원-달러 환율 급등과 중동 긴장 재고조, 국내 주식시장에서 외국인 투매 등으로 4일 국고채 금리가 일제히 급등했다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 정보 제공 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "1ab02d4cb3437fc9",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 스마트데이터센터의 유가 정보 제공 업무와 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "원-달러 환율 급등과 중동 긴장 재고조, 국내 주식시장에서 외국인 투매 등으로 4일 국고채 금리가 일제히 급등했다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 변동과 관련된 기사로 석유사업, 유통사업과 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "원-달러 환율 급등과 중동 긴장 재고조, 국내 주식시장에서 외국인 투매 등으로 4일 국고채 금리가 일제히 급등했다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 변동과 관련된 기사로 유통사업과 관련이 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "원-달러 환율 급등과 중동 긴장 재고조, 국내 주식시장에서 외국인 투매 등으로 4일 국고채 금리가 일제히 급등했다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 정보 제공 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "52d91aeb3bbc3d0c",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "52d91aeb3bbc3d0c",
+        "candidate": true,
+        "confidence": 0.85,
+        "company_reason": "에너지 관련 기사로 한국석유공사의 에너지 전환, 저탄소 추진 업무와 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "김성환 기후에너지환경부 장관이 산업 경쟁력 강화를 위해 산업용 전기요금을 지금보다 낮출 필요가 있다고 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 정책과 관련된 기사로 저탄소 추진 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "52d91aeb3bbc3d0c",
+        "candidate": true,
+        "confidence": 0.85,
+        "company_reason": "에너지 관련 기사로 한국석유공사의 에너지 전환, 저탄소 추진 업무와 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "김성환 기후에너지환경부 장관이 산업 경쟁력 강화를 위해 산업용 전기요금을 지금보다 낮출 필요가 있다고 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 정책과 관련된 기사로 저탄소 추진 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "59be796739e66001",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "59be796739e66001",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "석유 관련 기사로 한국석유공사의 석유 비축, 전략 비축 업무와 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "우크라이나군은 러시아 국제 행사에 맞춰 장거리 공습 능력을 과시하고, 최근 러시아의 키이우 폭격을 되갚으려 한다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 비축 및 전략 비축과 관련된 기사로 석유비축처와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "59be796739e66001",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "석유 관련 기사로 한국석유공사의 석유 비축, 전략 비축 업무와 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "우크라이나군은 러시아 국제 행사에 맞춰 장거리 공습 능력을 과시하고, 최근 러시아의 키이우 폭격을 되갚으려 한다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 비축 및 전략 비축과 관련된 기사로 석유비축처와 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

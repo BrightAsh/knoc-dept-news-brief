@@ -1,0 +1,85 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "c0e9b2420d2830cc",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "고유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "6월 중고차 시세 ‘회복’ 전망…고유가에 전기차 시세 반등",
+          "evidence_type": "paragraph",
+          "reason": "고유가에 따른 중고차 시세 회복 전망은 석유사업, 유통사업과 관련이 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "6월 중고차 시세 ‘회복’ 전망…고유가에 전기차 시세 반등",
+          "evidence_type": "paragraph",
+          "reason": "고유가에 따른 중고차 시세 회복 전망은 유통사업과 관련이 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "6월 중고차 시세 ‘회복’ 전망…고유가에 전기차 시세 반등",
+          "evidence_type": "paragraph",
+          "reason": "고유가에 따른 중고차 시세 회복 전망은 비축사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "80f32e1587e90fca",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "등유 관련 기사로 한국석유공사의 석유사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "이노스페이스, ‘경량화’ 메탄엔진 핵심 기술 개발…420초 지상연소시험 성공",
+          "evidence_type": "paragraph",
+          "reason": "등유 관련 기술 개발은 석유사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "30ab01fead72eb7d",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 기사로 한국석유공사의 에너지 전환 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "4점 만점에 1.9점…이재명 정부 1년, 수송 부문 온실가스 감축 ‘낙제점'",
+          "evidence_type": "paragraph",
+          "reason": "에너지 전환 사업과 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```
