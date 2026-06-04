@@ -1,37 +1,37 @@
 {
   "target_date": "2026-06-03",
-  "generated_at": "2026-06-04T04:28:11.185Z",
+  "generated_at": "2026-06-04T05:49:25.263Z",
   "analyzer": "knoc-two-pass-llm-v1",
-  "input_article_count": 212,
+  "input_article_count": 209,
   "relevant_article_count": 0,
   "relevant_department_count": 0,
   "pipeline": {
     "stage0": {
       "analyzer": "stage0-keyword-router-v1",
-      "keyword_hit_count": 48,
-      "keyword_miss_count": 164
+      "keyword_hit_count": 47,
+      "keyword_miss_count": 162
     },
     "stage1": {
       "enabled": true,
-      "status": "partial",
+      "status": "error",
       "provider": "groq",
-      "model": "llama-3.1-8b-instant",
-      "requested_article_count": 212,
-      "analyzed_article_count": 3,
-      "candidate_count": 1,
-      "rejected_count": 2,
-      "warning_count": 105,
-      "error_count": 209
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 209,
+      "analyzed_article_count": 16,
+      "candidate_count": 0,
+      "rejected_count": 0,
+      "warning_count": 28,
+      "error_count": 13
     },
     "stage2": {
       "enabled": true,
-      "status": "ok",
+      "status": "empty",
       "provider": "groq",
       "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-      "requested_article_count": 3,
-      "analyzed_article_count": 3,
+      "requested_article_count": 0,
+      "analyzed_article_count": 0,
       "final_relevant_count": 0,
-      "final_rejected_count": 3,
+      "final_rejected_count": 0,
       "warning_count": 0,
       "error_count": 0
     }
@@ -46,32 +46,32 @@
   },
   "llm_review": {
     "enabled": true,
-    "status": "ok",
+    "status": "empty",
     "provider": "groq",
     "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-    "analyzed_article_count": 3,
+    "analyzed_article_count": 0,
     "stages": {
       "stage1": {
         "enabled": true,
-        "status": "partial",
+        "status": "error",
         "provider": "groq",
-        "model": "llama-3.1-8b-instant",
-        "requested_article_count": 212,
-        "analyzed_article_count": 3,
-        "candidate_count": 1,
-        "rejected_count": 2,
-        "warning_count": 105,
-        "error_count": 209
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 209,
+        "analyzed_article_count": 16,
+        "candidate_count": 0,
+        "rejected_count": 0,
+        "warning_count": 28,
+        "error_count": 13
       },
       "stage2": {
         "enabled": true,
-        "status": "ok",
+        "status": "empty",
         "provider": "groq",
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "requested_article_count": 3,
-        "analyzed_article_count": 3,
+        "requested_article_count": 0,
+        "analyzed_article_count": 0,
         "final_relevant_count": 0,
-        "final_rejected_count": 3,
+        "final_rejected_count": 0,
         "warning_count": 0,
         "error_count": 0
       }

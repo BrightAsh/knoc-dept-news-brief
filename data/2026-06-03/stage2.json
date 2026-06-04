@@ -1,42 +1,17 @@
 {
   "target_date": "2026-06-03",
-  "generated_at": "2026-06-04T04:28:08.484Z",
+  "generated_at": "2026-06-04T05:49:25.262Z",
   "analyzer": "stage2-llm",
   "enabled": true,
   "provider": "groq",
   "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-  "status": "ok",
-  "requested_article_count": 3,
-  "analyzed_article_count": 3,
-  "batch_size": 2,
+  "status": "empty",
+  "requested_article_count": 0,
+  "analyzed_article_count": 0,
+  "batch_size": 8,
   "errors": [],
   "warnings": [],
-  "results": [
-    {
-      "article_id": "66bb4e808003eaf5",
-      "final_relevant": false,
-      "confidence": 0.2,
-      "final_reason": "한국석유공사와 관련이 없는 정치 기사로 판단됨",
-      "review_note": "1차 C 그룹에서 D 그룹으로 변경",
-      "departments": []
-    },
-    {
-      "article_id": "079f8a23516bd69a",
-      "final_relevant": false,
-      "confidence": 0.1,
-      "final_reason": "한국석유공사와 관련이 없는 정치 기사로 판단됨",
-      "review_note": "1차 D 그룹 그대로 유지",
-      "departments": []
-    },
-    {
-      "article_id": "ec2a976249133ba4",
-      "final_relevant": false,
-      "confidence": 0.1,
-      "final_reason": "한국석유공사와 직접 관련이 없는 기사로 판단됨. 기사는 주로 코스피와 사이드카 발동에 관한 내용이며, 석유나 에너지 분야에 대한 언급이 없음.",
-      "review_note": "1차 판단에서 D 그룹으로 분류된 기사를 재검토한 결과, 한국석유공사의 업무와 관련이 없는 것으로 판단됨.",
-      "departments": []
-    }
-  ],
+  "results": [],
   "final_relevant_count": 0,
-  "final_rejected_count": 3
+  "final_rejected_count": 0
 }
