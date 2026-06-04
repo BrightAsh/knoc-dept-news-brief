@@ -19,11 +19,17 @@ jobs:
   collect:
     runs-on: ubuntu-latest
     env:
-      LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'github-models' }}
-      LLM_MODEL: ${{ vars.LLM_MODEL || 'meta/meta-llama-3.1-8b-instruct' }}
+      STAGE1_PROVIDER: ${{ vars.STAGE1_PROVIDER || 'groq' }}
+      STAGE1_MODEL: ${{ vars.STAGE1_MODEL || 'llama-3.1-8b-instant' }}
+      STAGE1_BATCH_SIZE: ${{ vars.STAGE1_BATCH_SIZE || '8' }}
+      STAGE1_MAX_ARTICLES: ${{ vars.STAGE1_MAX_ARTICLES || '0' }}
+      STAGE2_PROVIDER: ${{ vars.STAGE2_PROVIDER || 'groq' }}
+      STAGE2_MODEL: ${{ vars.STAGE2_MODEL || 'meta-llama/llama-4-scout-17b-16e-instruct' }}
+      STAGE2_BATCH_SIZE: ${{ vars.STAGE2_BATCH_SIZE || '4' }}
+      STAGE2_MAX_ARTICLES: ${{ vars.STAGE2_MAX_ARTICLES || '0' }}
+      STAGE2_REVIEW_REJECTED: ${{ vars.STAGE2_REVIEW_REJECTED || 'true' }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      LLM_MAX_ARTICLES: ${{ vars.LLM_MAX_ARTICLES || '0' }}
-      LLM_BATCH_SIZE: ${{ vars.LLM_BATCH_SIZE || '5' }}
     steps:
       - uses: actions/checkout@v4
 

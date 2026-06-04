@@ -1,10 +1,35 @@
 {
   "target_date": "2026-06-03",
-  "generated_at": "2026-06-04T01:16:45.195Z",
-  "analyzer": "llm-department-context-v1",
+  "generated_at": "2026-06-04T02:30:23.062Z",
+  "analyzer": "knoc-two-pass-llm-v1",
   "input_article_count": 392,
   "relevant_article_count": 0,
   "relevant_department_count": 0,
+  "pipeline": {
+    "stage0": {
+      "analyzer": "stage0-keyword-router-v1",
+      "keyword_hit_count": 2,
+      "keyword_miss_count": 390
+    },
+    "stage1": {
+      "enabled": false,
+      "status": "disabled",
+      "provider": "none",
+      "model": "llama-3.1-8b-instant",
+      "requested_article_count": 392,
+      "analyzed_article_count": 0,
+      "error_count": 0
+    },
+    "stage2": {
+      "enabled": false,
+      "status": "disabled",
+      "provider": "none",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 0,
+      "analyzed_article_count": 0,
+      "error_count": 0
+    }
+  },
   "overall": {
     "id": "overall",
     "label": "전체",
@@ -15,14 +40,30 @@
   },
   "llm_review": {
     "enabled": false,
-    "provider": "not-configured",
-    "model": null,
     "status": "disabled",
-    "requested_article_count": 0,
+    "provider": "none",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
     "analyzed_article_count": 0,
-    "relevant_article_count": 0,
-    "errors": [],
-    "message": "LLM provider가 설정되지 않아 분류하지 않았습니다."
+    "stages": {
+      "stage1": {
+        "enabled": false,
+        "status": "disabled",
+        "provider": "none",
+        "model": "llama-3.1-8b-instant",
+        "requested_article_count": 392,
+        "analyzed_article_count": 0,
+        "error_count": 0
+      },
+      "stage2": {
+        "enabled": false,
+        "status": "disabled",
+        "provider": "none",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 0,
+        "analyzed_article_count": 0,
+        "error_count": 0
+      }
+    }
   },
   "departments": [
     {

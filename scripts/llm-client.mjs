@@ -9,7 +9,7 @@ export function createLlmClient(env = process.env) {
       provider,
       baseUrl: env.GITHUB_MODELS_BASE_URL || "https://models.github.ai/inference",
       apiKey: env.GITHUB_MODELS_TOKEN || env.GITHUB_TOKEN,
-      model: env.LLM_MODEL || "meta/meta-llama-3.1-8b-instruct",
+      model: env.LLM_MODEL || "openai/gpt-4.1-mini",
       extraHeaders: { "X-GitHub-Api-Version": "2022-11-28" }
     });
   }
