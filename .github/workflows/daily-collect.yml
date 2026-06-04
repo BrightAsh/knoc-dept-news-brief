@@ -21,12 +21,12 @@ jobs:
     env:
       STAGE1_PROVIDER: ${{ vars.STAGE1_PROVIDER || 'groq' }}
       STAGE1_MODEL: ${{ vars.STAGE1_MODEL || 'meta-llama/llama-4-scout-17b-16e-instruct' }}
-      STAGE1_BATCH_SIZE: ${{ vars.STAGE1_BATCH_SIZE || '8' }}
+      STAGE1_BATCH_SIZE: ${{ vars.STAGE1_BATCH_SIZE || '16' }}
       STAGE1_MAX_TOKENS: ${{ vars.STAGE1_MAX_TOKENS || '1400' }}
       STAGE1_MAX_ARTICLES: ${{ vars.STAGE1_MAX_ARTICLES || '0' }}
       STAGE2_PROVIDER: ${{ vars.STAGE2_PROVIDER || 'groq' }}
       STAGE2_MODEL: ${{ vars.STAGE2_MODEL || 'meta-llama/llama-4-scout-17b-16e-instruct' }}
-      STAGE2_BATCH_SIZE: ${{ vars.STAGE2_BATCH_SIZE || '4' }}
+      STAGE2_BATCH_SIZE: ${{ vars.STAGE2_BATCH_SIZE || '8' }}
       STAGE2_MAX_TOKENS: ${{ vars.STAGE2_MAX_TOKENS || '3200' }}
       STAGE2_MAX_ARTICLES: ${{ vars.STAGE2_MAX_ARTICLES || '0' }}
       STAGE2_REVIEW_REJECTED: ${{ vars.STAGE2_REVIEW_REJECTED || 'true' }}

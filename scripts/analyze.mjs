@@ -41,7 +41,7 @@ async function main() {
         stage0,
         departments,
         knocContext,
-        batchSize: Number(args.stage1BatchSize || process.env.STAGE1_BATCH_SIZE || process.env.LLM_BATCH_SIZE || 8),
+        batchSize: Number(args.stage1BatchSize || process.env.STAGE1_BATCH_SIZE || process.env.LLM_BATCH_SIZE || 16),
         maxArticles: Number(args.stage1MaxArticles ?? process.env.STAGE1_MAX_ARTICLES ?? process.env.LLM_MAX_ARTICLES ?? 0)
       })
     : disabledStage({
@@ -70,7 +70,7 @@ async function main() {
         inputs: stage2Inputs,
         departments,
         knocContext,
-        batchSize: Number(args.stage2BatchSize || process.env.STAGE2_BATCH_SIZE || 4),
+        batchSize: Number(args.stage2BatchSize || process.env.STAGE2_BATCH_SIZE || 8),
         maxArticles: Number(args.stage2MaxArticles ?? process.env.STAGE2_MAX_ARTICLES ?? 0)
       })
     : disabledStage({
@@ -454,7 +454,7 @@ function buildStage2Inputs({ articles, stage0, stage1, reviewRejected, maxReject
       stage0: stage0Map.get(article.id),
       stage1: result,
       stage2Group: result.candidate ? "C" : "D",
-      segments: segmentArticle(article, { maxSegments: 14, maxTextChars: 2800, maxSegmentChars: 700 })
+      segments: segmentArticle(article, { maxSegments: 8, maxTextChars: 1600, maxSegmentChars: 450 })
     };
     if (result.candidate) candidates.push(input);
     else rejected.push(input);
