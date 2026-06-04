@@ -41,7 +41,7 @@ async function main() {
         stage0,
         departments,
         knocContext,
-        batchSize: Number(args.stage1BatchSize || process.env.STAGE1_BATCH_SIZE || process.env.LLM_BATCH_SIZE || 4),
+        batchSize: Number(args.stage1BatchSize || process.env.STAGE1_BATCH_SIZE || process.env.LLM_BATCH_SIZE || 2),
         maxArticles: Number(args.stage1MaxArticles ?? process.env.STAGE1_MAX_ARTICLES ?? process.env.LLM_MAX_ARTICLES ?? 0)
       })
     : disabledStage({
@@ -147,7 +147,7 @@ async function runStage1({ targetDate, client, articles, stage0, departments, kn
   const inputs = articles.map((article) => ({
     article,
     stage0: stage0Map.get(article.id),
-    segments: segmentArticle(article, { maxSegments: 5, maxTextChars: 900, maxSegmentChars: 350 })
+    segments: segmentArticle(article, { maxSegments: 3, maxTextChars: 520, maxSegmentChars: 240 })
   }));
   const selected = maxArticles > 0 ? inputs.slice(0, maxArticles) : inputs;
   const review = createReview({
@@ -169,7 +169,7 @@ async function runStage1({ targetDate, client, articles, stage0, departments, kn
       review,
       request: (items) =>
         client.chatJson(buildStage1Messages(items, departments, knocContext), {
-        maxTokens: 4200,
+        maxTokens: Number(process.env.STAGE1_MAX_TOKENS || 1400),
         temperature: 0.05
       }),
       normalize: (result, items) => normalizeStage1Result(result, items, departments)
@@ -205,7 +205,7 @@ async function runStage2({ targetDate, client, inputs, departments, knocContext,
       review,
       request: (items) =>
         client.chatJson(buildStage2Messages(items, departments, knocContext), {
-        maxTokens: 5200,
+        maxTokens: Number(process.env.STAGE2_MAX_TOKENS || 3200),
         temperature: 0.05
       }),
       normalize: (result, items) => normalizeStage2Result(result, items, departments)
@@ -274,8 +274,8 @@ function buildStage1Messages(batch, departments, knocContext) {
         {
           task:
             "각 기사를 1차 검토하라. A 그룹은 키워드 히트 기사이므로 실제 관련성이 있는지 검토하고, B 그룹은 키워드가 없더라도 문맥상 한국석유공사와 연결될 가능성이 있는지 찾아라. 관련 가능성이 있으면 candidate=true로 두고 관련 부서를 배정하라.",
-          knoc_context: knocContext,
-          departments: departmentPromptInput(departments),
+          knoc_context: compactKnocContext(knocContext),
+          departments: compactDepartmentPromptInput(departments, 90),
           articles: batch.map(({ article, stage0, segments }) => ({
             id: article.id,
             publisher: article.publisher,
@@ -340,8 +340,8 @@ function buildStage2Messages(batch, departments, knocContext) {
         {
           task:
             "각 기사를 2차 검토하라. C 그룹은 1차 후보 기사이므로 근거와 부서 배정을 정밀 검토하고, D 그룹은 1차 제외 기사이므로 누락 가능성을 본문 기반으로 재검토하라. 최종적으로 한국석유공사 업무와 관련 있는 기사만 final_relevant=true로 둔다.",
-          knoc_context: knocContext,
-          departments: departmentPromptInput(departments),
+          knoc_context: compactKnocContext(knocContext),
+          departments: compactDepartmentPromptInput(departments, 180),
           articles: batch.map(({ article, stage0, stage1, stage2Group, segments }) => ({
             id: article.id,
             publisher: article.publisher,
@@ -700,6 +700,25 @@ function departmentPromptInput(departments) {
     id: department.id,
     name: department.name,
     role: department.role
+  }));
+}
+
+function compactKnocContext(knocContext) {
+  return {
+    name: knocContext.name,
+    aliases: Array.isArray(knocContext.aliases) ? knocContext.aliases.slice(0, 5) : [],
+    role: clipText(knocContext.role || "", 420),
+    classification_policy: Array.isArray(knocContext.classification_policy)
+      ? knocContext.classification_policy.map((item) => clipText(item, 160)).slice(0, 6)
+      : []
+  };
+}
+
+function compactDepartmentPromptInput(departments, roleLength) {
+  return departments.map((department) => ({
+    id: department.id,
+    name: department.name,
+    role: clipText(department.role, roleLength)
   }));
 }
 
