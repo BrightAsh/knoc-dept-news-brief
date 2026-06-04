@@ -22,8 +22,8 @@ jobs:
       LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'github-models' }}
       LLM_MODEL: ${{ vars.LLM_MODEL || 'meta/meta-llama-3.1-8b-instruct' }}
       GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      LLM_MAX_ARTICLES: ${{ vars.LLM_MAX_ARTICLES || '80' }}
-      LLM_BATCH_SIZE: ${{ vars.LLM_BATCH_SIZE || '8' }}
+      LLM_MAX_ARTICLES: ${{ vars.LLM_MAX_ARTICLES || '0' }}
+      LLM_BATCH_SIZE: ${{ vars.LLM_BATCH_SIZE || '5' }}
     steps:
       - uses: actions/checkout@v4
 

@@ -219,11 +219,6 @@ function renderSelectedBrief() {
     return;
   }
 
-  const keywords = (department.top_keywords || [])
-    .slice(0, 8)
-    .map((item) => `<span>${escapeHtml(item.keyword)} ${Number(item.count || 0).toLocaleString("ko-KR")}</span>`)
-    .join("");
-
   els.briefPanel.innerHTML = `
     <header class="panel-header">
       <div>
@@ -233,7 +228,6 @@ function renderSelectedBrief() {
       </div>
       <strong>${Number(department.article_count || 0).toLocaleString("ko-KR")}건</strong>
     </header>
-    <div class="keyword-row">${keywords}</div>
     ${renderEvidenceList(department.items || [])}
   `;
 }
@@ -244,7 +238,7 @@ function renderOverallPanel(overall) {
       <div>
         <p class="panel-kicker">전체</p>
         <h3>회사 관련 기사 후보</h3>
-        <p>LLM이 켜져 있으면 문맥 판단 결과를, 꺼져 있으면 규칙 기반 후보를 보여줍니다.</p>
+        <p>LLM이 한국석유공사 역할과 부서 업무를 기준으로 관련성을 판단한 결과입니다.</p>
       </div>
       <strong>${Number(overall.article_count || 0).toLocaleString("ko-KR")}건</strong>
     </header>
@@ -266,7 +260,7 @@ function renderEvidenceList(items) {
             .map((department) => `<span>${escapeHtml(department.name || department.id)}</span>`)
             .join("");
           const tags = [
-            item.source ? `<span>${item.source === "llm" ? "LLM" : "Rule"}</span>` : "",
+            item.source ? `<span>${item.source === "llm" ? "LLM" : escapeHtml(item.source)}</span>` : "",
             item.evidence_type ? `<span>${evidenceLabel(item.evidence_type)}</span>` : "",
             departments,
           ]
@@ -351,11 +345,11 @@ function formatDateTime(value) {
 }
 
 function llmStatusLabel(review) {
-  if (!review?.enabled) return "LLM은 아직 꺼져 있고 규칙 기반 후보만 사용 중입니다.";
+  if (!review?.enabled) return "LLM이 설정되지 않아 자동 분류 결과가 없습니다.";
   if (review.status === "ok") {
     return `${review.provider} ${review.model}로 ${Number(review.analyzed_article_count || 0).toLocaleString("ko-KR")}건을 문맥 검토했습니다.`;
   }
-  return `LLM 상태: ${review.status}. 가능한 결과만 표시합니다.`;
+  return `LLM 상태: ${review.status}. LLM이 반환한 결과만 표시합니다.`;
 }
 
 function evidenceLabel(value) {

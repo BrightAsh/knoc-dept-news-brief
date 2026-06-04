@@ -7,8 +7,8 @@
 현재 흐름은 다음과 같습니다.
 
 1. `scripts/collect.mjs`가 5개 언론사의 RSS/sitemap에서 특정 날짜 기사를 수집합니다.
-2. `scripts/analyze.mjs`가 기사 제목·요약·본문 문단을 부서 업무와 매칭합니다.
-3. LLM이 설정되어 있으면 후보 기사에 대해 회사 관련성, 부서, 근거 문장/문단을 문맥 검토합니다.
+2. `scripts/analyze.mjs`가 LLM에 기사 제목·요약·본문 문단, 한국석유공사 역할, 22개 부서 역할을 전달합니다.
+3. LLM이 회사 관련성, 관련 부서, 근거 문장/문단을 문맥 기준으로 분류합니다.
 4. `index.html`이 GitHub Pages에서 달력, 전체 기사 후보, 부서별 근거를 보여줍니다.
 
 ## 실행
@@ -44,11 +44,14 @@ LLM_BATCH_SIZE=8
 
 지원 provider:
 
-- `rule`: LLM 없이 규칙 기반 분석만 수행
 - `github-models`: GitHub Models API 사용
 - `groq`: Groq OpenAI-compatible API 사용
 - `ollama`: 로컬 Ollama 사용
 - `openai-compatible`: 임의의 OpenAI 호환 API 사용
+
+LLM이 설정되지 않거나 호출에 실패하면 부서 분류 결과를 만들지 않습니다.
+
+현재 로컬 토큰으로 `meta/meta-llama-3.1-8b-instruct`를 직접 호출했을 때 `No access` 응답을 받았습니다. 실제 자동 분류를 위해서는 GitHub Models에서 사용할 모델 권한을 활성화하거나, repo variable/secret으로 접근 가능한 provider와 model을 지정해야 합니다.
 
 자세한 후보 비교는 [docs/llm-options.md](docs/llm-options.md)를 참고합니다.
 

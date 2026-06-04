@@ -1,5 +1,5 @@
 export function createLlmClient(env = process.env) {
-  const provider = normalizeProvider(env.LLM_PROVIDER || "rule");
+  const provider = normalizeProvider(env.LLM_PROVIDER || "none");
   if (provider === "rule" || provider === "none" || provider === "off") {
     return null;
   }
