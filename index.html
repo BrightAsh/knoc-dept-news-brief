@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>KNOC 부서별 언론보도 브리핑</title>
+    <title>KNOC 부서별 언론보도 브리프</title>
     <link rel="stylesheet" href="assets/styles.css" />
   </head>
   <body>
@@ -11,7 +11,7 @@
       <header class="app-header">
         <div>
           <p class="eyebrow">KNOC News Brief</p>
-          <h1>언론보도 수집 현황</h1>
+          <h1>부서별 언론보도 브리프</h1>
         </div>
         <div class="month-controls" aria-label="월 이동">
           <button id="prevMonth" type="button" aria-label="이전 달">‹</button>
@@ -52,15 +52,28 @@
         <div id="calendarGrid" class="calendar-grid"></div>
       </section>
 
-      <section class="article-section" aria-label="기사 목록">
-        <div class="article-heading">
+      <section class="brief-section" aria-label="분석 결과">
+        <div class="brief-heading">
           <div>
             <h2 id="articleHeading">날짜를 선택하세요</h2>
             <p id="briefSummary" class="brief-summary"></p>
           </div>
           <div id="publisherCounts" class="publisher-counts"></div>
         </div>
-        <div id="departmentBriefs" class="department-briefs"></div>
+
+        <div class="brief-layout">
+          <aside class="department-pane" aria-label="부서 선택">
+            <div id="departmentNav" class="department-nav"></div>
+          </aside>
+          <section id="briefPanel" class="brief-panel" aria-label="선택 항목 상세"></section>
+        </div>
+      </section>
+
+      <section class="article-section" aria-label="원문 기사 목록">
+        <div class="section-title">
+          <h2>원문 기사</h2>
+          <p>수집된 기사 전체 목록입니다.</p>
+        </div>
         <div id="articleList" class="article-list"></div>
       </section>
     </main>

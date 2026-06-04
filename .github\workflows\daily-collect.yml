@@ -1,0 +1,46 @@
+name: Daily news collect
+
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "YYYY-MM-DD, today, or yesterday"
+        required: false
+        default: "yesterday"
+  schedule:
+    # 00:05 Asia/Seoul every day. GitHub cron uses UTC.
+    - cron: "5 15 * * *"
+
+permissions:
+  contents: write
+  models: read
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    env:
+      LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'github-models' }}
+      LLM_MODEL: ${{ vars.LLM_MODEL || 'meta/meta-llama-3.1-8b-instruct' }}
+      GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      LLM_MAX_ARTICLES: ${{ vars.LLM_MAX_ARTICLES || '80' }}
+      LLM_BATCH_SIZE: ${{ vars.LLM_BATCH_SIZE || '8' }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Collect news
+        run: node scripts/collect.mjs --date "${{ github.event.inputs.date || 'yesterday' }}" --include-body --body-concurrency 6
+
+      - name: Analyze department briefs
+        run: node scripts/analyze.mjs --date "${{ github.event.inputs.date || 'yesterday' }}"
+
+      - name: Commit collected data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --staged --quiet || git commit -m "chore: collect news data"
+          git push

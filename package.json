@@ -9,7 +9,8 @@
     "analyze": "node scripts/analyze.mjs",
     "brief": "node scripts/collect.mjs && node scripts/analyze.mjs",
     "collect:yesterday": "node scripts/collect.mjs --date yesterday",
-    "collect:body": "node scripts/collect.mjs --include-body"
+    "collect:body": "node scripts/collect.mjs --include-body --body-concurrency 6",
+    "analyze:rule": "node scripts/analyze.mjs"
   },
   "engines": {
     "node": ">=20"

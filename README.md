@@ -1,57 +1,74 @@
 # KNOC Department News Brief
 
-한국석유공사 부서별 언론보도 브리핑을 위한 날짜 기반 수집기입니다.
+한국석유공사 부서별 언론보도 브리프를 만들기 위한 날짜 기반 수집·분석·정적 웹 UI입니다.
 
-현재 단계는 웹 UI나 LLM 요약 전 단계입니다. 특정 날짜를 입력하면 5개 언론사의 RSS/sitemap에서 해당 날짜 기사 메타데이터를 수집하고 `data/YYYY-MM-DD/` 아래에 저장합니다.
+사이트: [https://brightash.github.io/knoc-dept-news-brief/](https://brightash.github.io/knoc-dept-news-brief/)
 
-분석 설계는 `docs/analysis-pipeline.md`에 정리했습니다.
+현재 흐름은 다음과 같습니다.
 
-## 간단 웹 화면
-
-`index.html`은 정적 페이지입니다. GitHub Pages에 올리면 달력 형태로 날짜별 기사 수를 보여주고, 날짜를 누르면 하단에 해당 날짜 기사 목록이 표시됩니다.
+1. `scripts/collect.mjs`가 5개 언론사의 RSS/sitemap에서 특정 날짜 기사를 수집합니다.
+2. `scripts/analyze.mjs`가 기사 제목·요약·본문 문단을 부서 업무와 매칭합니다.
+3. LLM이 설정되어 있으면 후보 기사에 대해 회사 관련성, 부서, 근거 문장/문단을 문맥 검토합니다.
+4. `index.html`이 GitHub Pages에서 달력, 전체 기사 후보, 부서별 근거를 보여줍니다.
 
 ## 실행
 
 ```bash
 node scripts/collect.mjs --date 2026-06-01
-```
-
-전날 수집:
-
-```bash
-node scripts/collect.mjs --date yesterday
-```
-
-부서별 후보 브리핑 생성:
-
-```bash
 node scripts/analyze.mjs --date 2026-06-01
 ```
 
-본문까지 저장:
+본문 문단까지 저장:
 
 ```bash
-node scripts/collect.mjs --date 2026-06-01 --include-body
+node scripts/collect.mjs --date 2026-06-01 --include-body --body-concurrency 6
 ```
 
-기본값은 저작권 리스크를 줄이기 위해 기사 본문을 저장하지 않습니다. `--include-body`를 줄 때만 기사 페이지의 본문 후보 문단을 저장합니다.
+전날 자료 수집:
 
-## 출력
+```bash
+node scripts/collect.mjs --date yesterday --include-body
+node scripts/analyze.mjs --date yesterday
+```
+
+## LLM 설정
+
+기본 설계는 GitHub Actions에서 `GITHUB_TOKEN`으로 GitHub Models를 호출하는 방식입니다. 모델은 환경변수로 교체합니다.
+
+```text
+LLM_PROVIDER=github-models
+LLM_MODEL=meta/meta-llama-3.1-8b-instruct
+LLM_MAX_ARTICLES=80
+LLM_BATCH_SIZE=8
+```
+
+지원 provider:
+
+- `rule`: LLM 없이 규칙 기반 분석만 수행
+- `github-models`: GitHub Models API 사용
+- `groq`: Groq OpenAI-compatible API 사용
+- `ollama`: 로컬 Ollama 사용
+- `openai-compatible`: 임의의 OpenAI 호환 API 사용
+
+자세한 후보 비교는 [docs/llm-options.md](docs/llm-options.md)를 참고합니다.
+
+## 출력 구조
 
 ```text
 data/
-  2026-06-01/
+  YYYY-MM-DD/
     articles.json
+    briefs.json
     run.json
   index.json
 ```
 
-- `articles.json`: 해당 날짜 기사 목록
-- `briefs.json`: 부서별 관련 문장·문단 후보
-- `run.json`: 수집 실행 로그와 소스별 통계
-- `index.json`: 날짜별 실행 인덱스
+- `articles.json`: 해당 날짜 기사 목록과 본문 후보 문단
+- `briefs.json`: 전체 회사 관련 기사 후보와 부서별 근거
+- `run.json`: 수집 실행 로그와 언론사별 통계
+- `index.json`: 날짜별 웹 UI 인덱스
 
-## 수집 소스
+## 언론사 소스
 
 설정은 `config/sources.json`에 있습니다.
 
@@ -63,7 +80,7 @@ data/
 
 ## 다음 단계
 
-- 기사 본문 추출 정확도 개선
-- 실제 LLM provider adapter 추가
-- 문장·문단 단위 부서 매칭 정확도 개선
-- GitHub Actions로 매일 00:05 KST에 전날 자료 자동 수집
+- LLM 검토 결과를 문장/문단/전체기사 단위로 더 명확히 분리
+- 부서별 요약문 생성
+- 기사 본문 추출 품질 개선
+- GitHub Pages 화면에서 날짜별 변화 추이 추가
