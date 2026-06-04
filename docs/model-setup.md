@@ -11,6 +11,8 @@
 | fallback | `llama-3.1-8b-instant` | 빠르지만 무료 TPM이 낮습니다. batch와 입력 길이를 크게 줄여야 합니다. |
 | 2차 정밀 옵션 | `llama-3.3-70b-versatile` | 품질은 좋지만 무료 TPD가 낮습니다. 전체 D 그룹 재검토보다는 후보 기사 정밀 검토에 적합합니다. |
 
+실제 2026-06-03 전체 실행에서 `llama-3.1-8b-instant`는 무료 TPM 6000 한도에 걸렸습니다. 그래서 1차 모델이 이 값으로 설정돼 있으면, `STAGE1_ALLOW_LOW_TPM=true`가 아닌 한 코드가 자동으로 `meta-llama/llama-4-scout-17b-16e-instruct`로 올려 실행합니다.
+
 ## Groq API 키 발급
 
 1. [Groq Console](https://console.groq.com/)에 로그인합니다.
@@ -69,6 +71,7 @@ GitHub Models를 쓸 때도 paid usage를 켜지 않으면 무료 quota 소진 �
 ```text
 STAGE1_MODEL = llama-3.1-8b-instant
 STAGE1_BATCH_SIZE = 1
+STAGE1_ALLOW_LOW_TPM = true
 ```
 
 예: 2차를 70B 정밀 모델로 변경

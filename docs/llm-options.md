@@ -71,5 +71,6 @@ LLM_API_KEY=provider api key
 
 - 1차는 누락 방지가 목표라 빠르고 한도가 넉넉한 모델을 씁니다.
 - 2차는 최종 부서 배정이 목표라 1차보다 좋은 모델을 씁니다.
+- Groq `llama-3.1-8b-instant`는 무료 TPM이 낮아 1차 전체 실행에서 자동으로 Llama 4 Scout로 승격됩니다. 정말 8B를 쓰려면 `STAGE1_ALLOW_LOW_TPM=true`를 설정합니다.
 - 무료 한도를 아끼려면 먼저 `STAGE1_MAX_ARTICLES=20`, `STAGE2_MAX_ARTICLES=20`으로 테스트합니다.
 - `STAGE2_REVIEW_REJECTED=true`이면 1차에서 제외한 기사도 2차에서 다시 봅니다. 정확도는 올라가지만 호출량이 늘어납니다.

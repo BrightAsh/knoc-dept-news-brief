@@ -220,7 +220,7 @@ async function runStage2({ targetDate, client, inputs, departments, knocContext,
   return finalizeStage2(review);
 }
 
-async function runLlmBatchWithSplit({ batch, request, normalize, review }) {
+async function runLlmBatchWithSplit({ batch, request, normalize, review, attempt = 0 }) {
   try {
     const payload = await request(batch);
     const rawResults = Array.isArray(payload.results) ? payload.results : [];
@@ -232,8 +232,14 @@ async function runLlmBatchWithSplit({ batch, request, normalize, review }) {
     return { results, analyzedCount: batch.length, errors: [] };
   } catch (error) {
     const message = messageOf(error);
+    if (shouldRetryRateLimit(message) && attempt < Number(process.env.LLM_RATE_LIMIT_RETRIES || 2)) {
+      const waitMs = retryDelayMs(message);
+      review.warnings.push(`Retry batch after LLM rate limit in ${Math.round(waitMs / 1000)}s: ${message.slice(0, 220)}`);
+      await delay(waitMs);
+      return runLlmBatchWithSplit({ batch, request, normalize, review, attempt: attempt + 1 });
+    }
     if (batch.length > 1 && shouldSplitBatch(message)) {
-      review.warnings.push(`Split ${batch.length} article batch after LLM size/rate error: ${message.slice(0, 220)}`);
+      review.warnings.push(`Split ${batch.length} article batch after LLM size error: ${message.slice(0, 220)}`);
       const midpoint = Math.ceil(batch.length / 2);
       const left = await runLlmBatchWithSplit({
         batch: batch.slice(0, midpoint),
@@ -258,7 +264,20 @@ async function runLlmBatchWithSplit({ batch, request, normalize, review }) {
 }
 
 function shouldSplitBatch(message) {
-  return /request too large|tokens per minute|rate_limit_exceeded|context_length|maximum context|413/i.test(message);
+  return /request too large|context_length|maximum context|413/i.test(message);
+}
+
+function shouldRetryRateLimit(message) {
+  return /HTTP 429|rate limit reached|try again in/i.test(message);
+}
+
+function retryDelayMs(message) {
+  const seconds = Number(String(message).match(/try again in\s+([0-9.]+)s/i)?.[1] || 30);
+  return Math.ceil((Number.isFinite(seconds) ? seconds : 30) * 1000) + 1000;
+}
+
+function delay(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 function buildStage1Messages(batch, departments, knocContext) {
@@ -548,11 +567,12 @@ function createStageClient(stageName, defaults) {
     process.env[`${stageName}_LLM_PROVIDER`] ||
     defaults.provider ||
     "none";
-  const model =
+  const requestedModel =
     process.env[`${stageName}_MODEL`] ||
     process.env[`${stageName}_LLM_MODEL`] ||
     defaults.model ||
     process.env.LLM_MODEL;
+  const model = selectSafeStageModel({ stageName, provider, requestedModel });
   const env = {
     ...process.env,
     LLM_PROVIDER: provider,
@@ -574,6 +594,22 @@ function createStageClient(stageName, defaults) {
       setup_error: messageOf(error)
     };
   }
+}
+
+function selectSafeStageModel({ stageName, provider, requestedModel }) {
+  const model = String(requestedModel || "");
+  const lowTpmStage1 =
+    stageName === "STAGE1" &&
+    normalizeProviderName(provider) === "groq" &&
+    model === "llama-3.1-8b-instant";
+  if (lowTpmStage1 && !booleanEnv(process.env.STAGE1_ALLOW_LOW_TPM, false)) {
+    return process.env.STAGE1_SAFE_MODEL || "meta-llama/llama-4-scout-17b-16e-instruct";
+  }
+  return model;
+}
+
+function normalizeProviderName(value) {
+  return String(value || "").trim().toLowerCase();
 }
 
 function disabledStage({ targetDate, stage, setup, requestedArticleCount }) {
