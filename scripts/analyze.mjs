@@ -114,6 +114,23 @@ async function main() {
       2
     )
   );
+
+  if (shouldFailOnLlmError(stage1, stage2)) {
+    console.error(
+      JSON.stringify(
+        {
+          error: "LLM analysis did not complete successfully.",
+          stage1_status: stage1.status,
+          stage1_errors: (stage1.errors || []).slice(0, 3),
+          stage2_status: stage2.status,
+          stage2_errors: (stage2.errors || []).slice(0, 3)
+        },
+        null,
+        2
+      )
+    );
+    process.exitCode = 1;
+  }
 }
 
 function runStage0({ targetDate, articles, keywordConfig }) {
@@ -702,6 +719,15 @@ function finalLlmStatus(stage1, stage2) {
   if (stage2.enabled) return stage2.status;
   if (stage1.enabled) return stage1.status;
   return stage1.status || stage2.status || "disabled";
+}
+
+function shouldFailOnLlmError(stage1, stage2) {
+  if (!booleanEnv(process.env.LLM_FAIL_ON_ERROR, true)) return false;
+  const blockingStatuses = new Set(["error", "setup-error"]);
+  return (
+    (stage1.enabled && blockingStatuses.has(stage1.status)) ||
+    (stage2.enabled && blockingStatuses.has(stage2.status))
+  );
 }
 
 function normalizeStage1Result(result, batch, departments) {

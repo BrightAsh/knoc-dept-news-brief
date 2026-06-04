@@ -32,6 +32,7 @@ jobs:
       STAGE2_REVIEW_REJECTED: ${{ vars.STAGE2_REVIEW_REJECTED || 'true' }}
       LLM_REQUEST_TIMEOUT_MS: ${{ vars.LLM_REQUEST_TIMEOUT_MS || '45000' }}
       LLM_RATE_LIMIT_RETRIES: ${{ vars.LLM_RATE_LIMIT_RETRIES || '2' }}
+      LLM_FAIL_ON_ERROR: ${{ vars.LLM_FAIL_ON_ERROR || 'true' }}
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
