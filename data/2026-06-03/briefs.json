@@ -1,6 +1,6 @@
 {
   "target_date": "2026-06-03",
-  "generated_at": "2026-06-04T04:21:30.549Z",
+  "generated_at": "2026-06-04T04:28:11.185Z",
   "analyzer": "knoc-two-pass-llm-v1",
   "input_article_count": 212,
   "relevant_article_count": 0,
@@ -13,25 +13,25 @@
     },
     "stage1": {
       "enabled": true,
-      "status": "error",
+      "status": "partial",
       "provider": "groq",
       "model": "llama-3.1-8b-instant",
       "requested_article_count": 212,
-      "analyzed_article_count": 0,
-      "candidate_count": 0,
-      "rejected_count": 0,
-      "warning_count": 159,
-      "error_count": 212
+      "analyzed_article_count": 3,
+      "candidate_count": 1,
+      "rejected_count": 2,
+      "warning_count": 105,
+      "error_count": 209
     },
     "stage2": {
       "enabled": true,
-      "status": "empty",
+      "status": "ok",
       "provider": "groq",
       "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-      "requested_article_count": 0,
-      "analyzed_article_count": 0,
+      "requested_article_count": 3,
+      "analyzed_article_count": 3,
       "final_relevant_count": 0,
-      "final_rejected_count": 0,
+      "final_rejected_count": 3,
       "warning_count": 0,
       "error_count": 0
     }
@@ -46,32 +46,32 @@
   },
   "llm_review": {
     "enabled": true,
-    "status": "empty",
+    "status": "ok",
     "provider": "groq",
     "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-    "analyzed_article_count": 0,
+    "analyzed_article_count": 3,
     "stages": {
       "stage1": {
         "enabled": true,
-        "status": "error",
+        "status": "partial",
         "provider": "groq",
         "model": "llama-3.1-8b-instant",
         "requested_article_count": 212,
-        "analyzed_article_count": 0,
-        "candidate_count": 0,
-        "rejected_count": 0,
-        "warning_count": 159,
-        "error_count": 212
+        "analyzed_article_count": 3,
+        "candidate_count": 1,
+        "rejected_count": 2,
+        "warning_count": 105,
+        "error_count": 209
       },
       "stage2": {
         "enabled": true,
-        "status": "empty",
+        "status": "ok",
         "provider": "groq",
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "requested_article_count": 0,
-        "analyzed_article_count": 0,
+        "requested_article_count": 3,
+        "analyzed_article_count": 3,
         "final_relevant_count": 0,
-        "final_rejected_count": 0,
+        "final_rejected_count": 3,
         "warning_count": 0,
         "error_count": 0
       }
