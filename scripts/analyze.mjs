@@ -163,7 +163,18 @@ async function runStage1({ targetDate, client, articles, stage0, departments, kn
     return finalizeStage1(review);
   }
 
-  for (const batch of chunk(selected, Math.max(1, batchSize))) {
+  const batches = chunk(selected, Math.max(1, batchSize));
+  for (let index = 0; index < batches.length; index += 1) {
+    const batch = batches[index];
+    console.log(
+      JSON.stringify({
+        stage: "stage1",
+        batch: index + 1,
+        batch_count: batches.length,
+        article_count: batch.length,
+        model: client.model
+      })
+    );
     const outcome = await runLlmBatchWithSplit({
       batch,
       review,
@@ -199,7 +210,18 @@ async function runStage2({ targetDate, client, inputs, departments, knocContext,
     return finalizeStage2(review);
   }
 
-  for (const batch of chunk(selected, Math.max(1, batchSize))) {
+  const batches = chunk(selected, Math.max(1, batchSize));
+  for (let index = 0; index < batches.length; index += 1) {
+    const batch = batches[index];
+    console.log(
+      JSON.stringify({
+        stage: "stage2",
+        batch: index + 1,
+        batch_count: batches.length,
+        article_count: batch.length,
+        model: client.model
+      })
+    );
     const outcome = await runLlmBatchWithSplit({
       batch,
       review,

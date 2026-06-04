@@ -30,6 +30,8 @@ jobs:
       STAGE2_MAX_TOKENS: ${{ vars.STAGE2_MAX_TOKENS || '3200' }}
       STAGE2_MAX_ARTICLES: ${{ vars.STAGE2_MAX_ARTICLES || '0' }}
       STAGE2_REVIEW_REJECTED: ${{ vars.STAGE2_REVIEW_REJECTED || 'true' }}
+      LLM_REQUEST_TIMEOUT_MS: ${{ vars.LLM_REQUEST_TIMEOUT_MS || '45000' }}
+      LLM_RATE_LIMIT_RETRIES: ${{ vars.LLM_RATE_LIMIT_RETRIES || '2' }}
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
@@ -43,6 +45,7 @@ jobs:
         run: node scripts/collect.mjs --date "${{ github.event.inputs.date || 'yesterday' }}" --include-body --body-concurrency 6
 
       - name: Analyze department briefs
+        timeout-minutes: 30
         run: node scripts/analyze.mjs --date "${{ github.event.inputs.date || 'yesterday' }}"
 
       - name: Commit collected data

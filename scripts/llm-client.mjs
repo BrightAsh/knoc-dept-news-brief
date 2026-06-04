@@ -10,6 +10,7 @@ export function createLlmClient(env = process.env) {
       baseUrl: env.GITHUB_MODELS_BASE_URL || "https://models.github.ai/inference",
       apiKey: env.GITHUB_MODELS_TOKEN || env.GITHUB_TOKEN,
       model: env.LLM_MODEL || "openai/gpt-4.1-mini",
+      timeoutMs: Number(env.LLM_REQUEST_TIMEOUT_MS || 45000),
       extraHeaders: { "X-GitHub-Api-Version": "2022-11-28" }
     });
   }
@@ -19,7 +20,8 @@ export function createLlmClient(env = process.env) {
       provider,
       baseUrl: env.GROQ_BASE_URL || "https://api.groq.com/openai/v1",
       apiKey: env.GROQ_API_KEY,
-      model: env.LLM_MODEL || "meta-llama/llama-4-scout-17b-16e-instruct"
+      model: env.LLM_MODEL || "meta-llama/llama-4-scout-17b-16e-instruct",
+      timeoutMs: Number(env.LLM_REQUEST_TIMEOUT_MS || 45000)
     });
   }
 
@@ -28,7 +30,8 @@ export function createLlmClient(env = process.env) {
       provider,
       baseUrl: env.OLLAMA_BASE_URL || "http://localhost:11434/v1",
       apiKey: env.OLLAMA_API_KEY || "ollama",
-      model: env.LLM_MODEL || "llama3.1:8b"
+      model: env.LLM_MODEL || "llama3.1:8b",
+      timeoutMs: Number(env.LLM_REQUEST_TIMEOUT_MS || 120000)
     });
   }
 
@@ -37,14 +40,15 @@ export function createLlmClient(env = process.env) {
       provider,
       baseUrl: env.LLM_BASE_URL,
       apiKey: env.LLM_API_KEY,
-      model: env.LLM_MODEL
+      model: env.LLM_MODEL,
+      timeoutMs: Number(env.LLM_REQUEST_TIMEOUT_MS || 45000)
     });
   }
 
   throw new Error(`Unsupported LLM_PROVIDER: ${provider}`);
 }
 
-function openAiCompatibleClient({ provider, baseUrl, apiKey, model, extraHeaders = {} }) {
+function openAiCompatibleClient({ provider, baseUrl, apiKey, model, extraHeaders = {}, timeoutMs = 45000 }) {
   if (!baseUrl) throw new Error(`${provider} requires a base URL`);
   if (!apiKey) throw new Error(`${provider} requires an API token`);
   if (!model) throw new Error(`${provider} requires LLM_MODEL`);
@@ -55,21 +59,34 @@ function openAiCompatibleClient({ provider, baseUrl, apiKey, model, extraHeaders
     provider,
     model,
     async chatJson(messages, options = {}) {
-      const response = await fetch(endpoint, {
-        method: "POST",
-        headers: {
-          "Accept": "application/json",
-          "Authorization": `Bearer ${apiKey}`,
-          "Content-Type": "application/json",
-          ...extraHeaders
-        },
-        body: JSON.stringify({
-          model,
-          messages,
-          temperature: Number(options.temperature ?? 0.1),
-          max_tokens: Number(options.maxTokens ?? 1800)
-        })
-      });
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), Number(options.timeoutMs || timeoutMs));
+      let response;
+      try {
+        response = await fetch(endpoint, {
+          method: "POST",
+          signal: controller.signal,
+          headers: {
+            "Accept": "application/json",
+            "Authorization": `Bearer ${apiKey}`,
+            "Content-Type": "application/json",
+            ...extraHeaders
+          },
+          body: JSON.stringify({
+            model,
+            messages,
+            temperature: Number(options.temperature ?? 0.1),
+            max_tokens: Number(options.maxTokens ?? 1800)
+          })
+        });
+      } catch (error) {
+        if (error?.name === "AbortError") {
+          throw new Error(`${provider} request timed out after ${Number(options.timeoutMs || timeoutMs)}ms`);
+        }
+        throw error;
+      } finally {
+        clearTimeout(timeout);
+      }
 
       const text = await response.text();
       if (!response.ok) {
