@@ -1,10 +1,10 @@
 {
   "target_date": "2026-06-03",
-  "generated_at": "2026-06-04T23:55:20.640Z",
+  "generated_at": "2026-06-04T23:59:33.384Z",
   "analyzer": "knoc-two-pass-llm-v1",
   "input_article_count": 10,
   "relevant_article_count": 2,
-  "relevant_department_count": 3,
+  "relevant_department_count": 2,
   "pipeline": {
     "stage0": {
       "analyzer": "stage0-keyword-router-v1",
@@ -44,21 +44,21 @@
     "item_count": 2,
     "items": [
       {
-        "id": "fe01538e0d9df0f6",
+        "id": "7501e4ea71c129b2",
         "article_id": "574bdbbafc5b3244",
         "publisher": "한겨레",
         "title": "이란 “미군기지 타격”, 미국 “다 요격”…협상 판은 안 깼다",
         "url": "https://www.hani.co.kr/arti/international/international_general/1261684.html",
         "published_at": "2026-06-03T04:35:00.000Z",
         "score": 0.85,
-        "segment_text": "이란의 미군기지 공격과 미국의 대응이 석유 수급에 영향을 미칠 수 있어 한국석유공사와 관련이 있다.",
-        "reason": "이란의 미군기지 공격과 미국의 대응이 석유 수급에 영향을 미칠 수 있어 한국석유공사와 관련이 있다.",
+        "segment_text": "이란과 미국의 충돌로 인한 국제 유가 변동 가능성이 한국석유공사의 석유 수급 안정과 에너지 안보에 영향을 줄 수 있으므로 관련 기사로 판단됨",
+        "reason": "이란과 미국의 충돌로 인한 국제 유가 변동 가능성이 한국석유공사의 석유 수급 안정과 에너지 안보에 영향을 줄 수 있으므로 관련 기사로 판단됨",
         "evidence_type": "article",
         "source": "llm",
         "analysis_stage": "stage2",
         "stage0_group": "A",
         "stage1_group": "C",
-        "review_note": "1차 판단 유지",
+        "review_note": "1차 판단에서 C 그룹으로 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 유지함",
         "departments": [
           {
             "id": "petroleum_business",
@@ -67,40 +67,34 @@
             "source": "llm"
           },
           {
-            "id": "strategy",
-            "name": "경영전략처",
+            "id": "low_carbon",
+            "name": "저탄소추진처",
             "score": 0.6,
             "source": "llm"
           }
         ]
       },
       {
-        "id": "eae74551ace9f6e2",
+        "id": "6b3332ee217212ea",
         "article_id": "167e79719fd46a7b",
         "publisher": "한겨레",
         "title": "미국, 한국에 12.5% 추가관세 추진…“강제노동 상품 수입 차단 미흡”",
         "url": "https://www.hani.co.kr/arti/international/america/1261681.html",
         "published_at": "2026-06-03T03:27:00.000Z",
         "score": 0.7,
-        "segment_text": "미국의 추가관세 추진이 유가에 영향을 미칠 수 있어 한국석유공사와 관련이 있다.",
-        "reason": "미국의 추가관세 추진이 유가에 영향을 미칠 수 있어 한국석유공사와 관련이 있다.",
+        "segment_text": "미국의 추가관세 추진이 국제 유가에 영향을 줄 수 있으며, 이는 한국석유공사의 석유사업 전략에 영향을 줄 수 있으므로 관련 기사로 판단됨",
+        "reason": "미국의 추가관세 추진이 국제 유가에 영향을 줄 수 있으며, 이는 한국석유공사의 석유사업 전략에 영향을 줄 수 있으므로 관련 기사로 판단됨",
         "evidence_type": "article",
         "source": "llm",
         "analysis_stage": "stage2",
         "stage0_group": "A",
         "stage1_group": "C",
-        "review_note": "1차 판단 유지",
+        "review_note": "1차 판단에서 C 그룹으로 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 유지함",
         "departments": [
           {
             "id": "petroleum_business",
             "name": "석유사업처",
             "score": 0.7,
-            "source": "llm"
-          },
-          {
-            "id": "smart_data",
-            "name": "스마트데이터센터",
-            "score": 0.5,
             "source": "llm"
           }
         ]
@@ -185,31 +179,9 @@
       "department_id": "strategy",
       "department": "경영전략처",
       "role": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
-      "article_count": 1,
-      "segment_count": 1,
-      "items": [
-        {
-          "id": "ba76aaa69d2765f6",
-          "article_id": "574bdbbafc5b3244",
-          "publisher": "한겨레",
-          "title": "이란 “미군기지 타격”, 미국 “다 요격”…협상 판은 안 깼다",
-          "url": "https://www.hani.co.kr/arti/international/international_general/1261684.html",
-          "published_at": "2026-06-03T04:35:00.000Z",
-          "score": 0.6,
-          "segment_text": "미국과 이란이 종전을 위한 양해각서(MOU) 협상을 진행하는 가운데 이란이 2일(현지시각) 쿠웨이트와 바레인의 미군기지를 향해 미사일을 발사했다. 미군은 이를 요격했고, 이에 대한 대응으로 이란의 군사 시설을 공격했다.",
-          "reason": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당하는 경영전략처와 관련이 있다.",
-          "evidence_type": "paragraph",
-          "evidence_segment_ids": [
-            "s2",
-            "s3"
-          ],
-          "source": "llm",
-          "analysis_stage": "stage2",
-          "stage0_group": "A",
-          "stage1_group": "C",
-          "review_note": "1차 판단 유지"
-        }
-      ]
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
     },
     {
       "department_id": "finance",
@@ -255,31 +227,9 @@
       "department_id": "smart_data",
       "department": "스마트데이터센터",
       "role": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
-      "article_count": 1,
-      "segment_count": 1,
-      "items": [
-        {
-          "id": "7a1209adfc3d2439",
-          "article_id": "167e79719fd46a7b",
-          "publisher": "한겨레",
-          "title": "미국, 한국에 12.5% 추가관세 추진…“강제노동 상품 수입 차단 미흡”",
-          "url": "https://www.hani.co.kr/arti/international/america/1261681.html",
-          "published_at": "2026-06-03T03:27:00.000Z",
-          "score": 0.5,
-          "segment_text": "미국 무역대표부(USTR)가 한국 등 60개 경제권이 강제노동으로 만들어진 상품이 자국 시장에 들어오지 못하도록 막는 법적 장치와 집행 체계를 충분히 갖추지 못했다고 판단하고, 무역법 301조에 따른 추가 관세 부과를 추진하기로 했다. 한국에는 최대 12.5% 관세를 추진한다.",
-          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하는 스마트데이터센터와 관련이 있다.",
-          "evidence_type": "paragraph",
-          "evidence_segment_ids": [
-            "s2",
-            "s3"
-          ],
-          "source": "llm",
-          "analysis_stage": "stage2",
-          "stage0_group": "A",
-          "stage1_group": "C",
-          "review_note": "1차 판단 유지"
-        }
-      ]
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
     },
     {
       "department_id": "asia_business",
@@ -309,9 +259,30 @@
       "department_id": "low_carbon",
       "department": "저탄소추진처",
       "role": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
-      "article_count": 0,
-      "segment_count": 0,
-      "items": []
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "a2c21f7ec4e44d37",
+          "article_id": "574bdbbafc5b3244",
+          "publisher": "한겨레",
+          "title": "이란 “미군기지 타격”, 미국 “다 요격”…협상 판은 안 깼다",
+          "url": "https://www.hani.co.kr/arti/international/international_general/1261684.html",
+          "published_at": "2026-06-03T04:35:00.000Z",
+          "score": 0.6,
+          "segment_text": "에너지 안보와 관련된 이슈로 인해 한국석유공사의 저탄소 사업에도 영향을 줄 수 있음",
+          "reason": "저탄소추진처는 에너지전환, 저탄소 신규사업을 담당하므로 글로벌 에너지 이슈에 대한 모니터링이 필요함",
+          "evidence_type": "sentence",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 유지함"
+        }
+      ]
     },
     {
       "department_id": "global_technology_center",
@@ -337,46 +308,44 @@
       "segment_count": 2,
       "items": [
         {
-          "id": "cfcadf09a12b7d1c",
+          "id": "3067f87fee7e1765",
           "article_id": "574bdbbafc5b3244",
           "publisher": "한겨레",
           "title": "이란 “미군기지 타격”, 미국 “다 요격”…협상 판은 안 깼다",
           "url": "https://www.hani.co.kr/arti/international/international_general/1261684.html",
           "published_at": "2026-06-03T04:35:00.000Z",
           "score": 0.8,
-          "segment_text": "미국과 이란이 종전을 위한 양해각서(MOU) 협상을 진행하는 가운데 이란이 2일(현지시각) 쿠웨이트와 바레인의 미군기지를 향해 미사일을 발사했다. 미군은 이를 요격했고, 이에 대한 대응으로 이란의 군사 시설을 공격했다.",
-          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있다.",
-          "evidence_type": "paragraph",
+          "segment_text": "미국과 이란의 충돌로 인해 국제 유가가 변동할 수 있으며, 이는 한국석유공사의 석유사업 전략에 영향을 줄 수 있음",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 등을 담당하므로 이란-미국 충돌의 영향 분석이 필요함",
+          "evidence_type": "sentence",
           "evidence_segment_ids": [
-            "s2",
-            "s3"
+            "s2"
           ],
           "source": "llm",
           "analysis_stage": "stage2",
           "stage0_group": "A",
           "stage1_group": "C",
-          "review_note": "1차 판단 유지"
+          "review_note": "1차 판단에서 C 그룹으로 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 유지함"
         },
         {
-          "id": "d41a8e3208824a58",
+          "id": "3c43d4b2d7e733c8",
           "article_id": "167e79719fd46a7b",
           "publisher": "한겨레",
           "title": "미국, 한국에 12.5% 추가관세 추진…“강제노동 상품 수입 차단 미흡”",
           "url": "https://www.hani.co.kr/arti/international/america/1261681.html",
           "published_at": "2026-06-03T03:27:00.000Z",
           "score": 0.7,
-          "segment_text": "미국 무역대표부(USTR)가 한국 등 60개 경제권이 강제노동으로 만들어진 상품이 자국 시장에 들어오지 못하도록 막는 법적 장치와 집행 체계를 충분히 갖추지 못했다고 판단하고, 무역법 301조에 따른 추가 관세 부과를 추진하기로 했다. 한국에는 최대 12.5% 관세를 추진한다.",
-          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있다.",
-          "evidence_type": "paragraph",
+          "segment_text": "미국의 추가관세 추진은 국제 유가에 영향을 줄 수 있으며, 이는 한국석유공사의 석유사업 전략에 영향을 줄 수 있음",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 등을 담당하므로 국제 유가 변동에 대한 분석이 필요함",
+          "evidence_type": "sentence",
           "evidence_segment_ids": [
-            "s2",
-            "s3"
+            "s2"
           ],
           "source": "llm",
           "analysis_stage": "stage2",
           "stage0_group": "A",
           "stage1_group": "C",
-          "review_note": "1차 판단 유지"
+          "review_note": "1차 판단에서 C 그룹으로 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 유지함"
         }
       ]
     },
