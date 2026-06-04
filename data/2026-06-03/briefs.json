@@ -1,26 +1,27 @@
 {
   "target_date": "2026-06-03",
-  "generated_at": "2026-06-04T04:14:26.555Z",
+  "generated_at": "2026-06-04T04:21:30.549Z",
   "analyzer": "knoc-two-pass-llm-v1",
-  "input_article_count": 348,
+  "input_article_count": 212,
   "relevant_article_count": 0,
   "relevant_department_count": 0,
   "pipeline": {
     "stage0": {
       "analyzer": "stage0-keyword-router-v1",
-      "keyword_hit_count": 68,
-      "keyword_miss_count": 280
+      "keyword_hit_count": 48,
+      "keyword_miss_count": 164
     },
     "stage1": {
       "enabled": true,
       "status": "error",
       "provider": "groq",
       "model": "llama-3.1-8b-instant",
-      "requested_article_count": 348,
+      "requested_article_count": 212,
       "analyzed_article_count": 0,
       "candidate_count": 0,
       "rejected_count": 0,
-      "error_count": 44
+      "warning_count": 159,
+      "error_count": 212
     },
     "stage2": {
       "enabled": true,
@@ -31,6 +32,7 @@
       "analyzed_article_count": 0,
       "final_relevant_count": 0,
       "final_rejected_count": 0,
+      "warning_count": 0,
       "error_count": 0
     }
   },
@@ -54,11 +56,12 @@
         "status": "error",
         "provider": "groq",
         "model": "llama-3.1-8b-instant",
-        "requested_article_count": 348,
+        "requested_article_count": 212,
         "analyzed_article_count": 0,
         "candidate_count": 0,
         "rejected_count": 0,
-        "error_count": 44
+        "warning_count": 159,
+        "error_count": 212
       },
       "stage2": {
         "enabled": true,
@@ -69,6 +72,7 @@
         "analyzed_article_count": 0,
         "final_relevant_count": 0,
         "final_rejected_count": 0,
+        "warning_count": 0,
         "error_count": 0
       }
     }
