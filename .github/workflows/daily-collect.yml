@@ -13,10 +13,17 @@ on:
 
 permissions:
   contents: write
+  models: read
 
 jobs:
   collect:
     runs-on: ubuntu-latest
+    env:
+      LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'github-models' }}
+      LLM_MODEL: ${{ vars.LLM_MODEL || 'meta/meta-llama-3.1-8b-instruct' }}
+      GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      LLM_MAX_ARTICLES: ${{ vars.LLM_MAX_ARTICLES || '80' }}
+      LLM_BATCH_SIZE: ${{ vars.LLM_BATCH_SIZE || '8' }}
     steps:
       - uses: actions/checkout@v4
 
@@ -25,7 +32,7 @@ jobs:
           node-version: 22
 
       - name: Collect news
-        run: node scripts/collect.mjs --date "${{ github.event.inputs.date || 'yesterday' }}"
+        run: node scripts/collect.mjs --date "${{ github.event.inputs.date || 'yesterday' }}" --include-body --body-concurrency 6
 
       - name: Analyze department briefs
         run: node scripts/analyze.mjs --date "${{ github.event.inputs.date || 'yesterday' }}"

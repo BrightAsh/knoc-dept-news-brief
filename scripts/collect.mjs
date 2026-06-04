@@ -20,6 +20,8 @@ async function main() {
   const targetDate = resolveTargetDate(args.date || "yesterday");
   const includeBody = Boolean(args.includeBody);
   const maxArticleMetaFetch = Number(args.maxArticleMetaFetch || 120);
+  const bodyConcurrency = Number(args.bodyConcurrency || 6);
+  const maxBodyFetch = Number(args.maxBodyFetch || 0);
 
   const config = JSON.parse(await fs.readFile(configPath, "utf8"));
   const sources = (config.sources || []).filter((source) => source.enabled !== false);
@@ -62,30 +64,9 @@ async function main() {
   }
 
   const deduped = dedupeArticles(allArticles);
-  const enriched = [];
-  for (const article of deduped) {
-    if (!includeBody) {
-      enriched.push(article);
-      continue;
-    }
-    try {
-      const html = await fetchText(article.url);
-      const body = extractBodyText(html);
-      enriched.push({
-        ...article,
-        body_text: body,
-        body_fetched_at: new Date().toISOString(),
-        body_fetch_status: body ? "fetched" : "empty"
-      });
-    } catch (error) {
-      enriched.push({
-        ...article,
-        body_text: "",
-        body_fetch_status: "error",
-        body_fetch_error: messageOf(error)
-      });
-    }
-  }
+  const enriched = includeBody
+    ? await enrichArticlesWithBody(deduped, { bodyConcurrency, maxBodyFetch })
+    : deduped;
 
   const dayDir = path.join(dataDir, targetDate);
   await fs.mkdir(dayDir, { recursive: true });
@@ -127,9 +108,9 @@ async function collectRssSource(source, targetDate) {
   const articles = [];
 
   for (const block of blocks) {
-    const title = cleanText(firstTag(block, "title"));
+    let title = cleanText(firstTag(block, "title"));
     const url = normalizeArticleUrl(firstTag(block, "link") || firstTag(block, "guid"));
-    const description = cleanText(
+    let description = cleanText(
       firstTag(block, "description") || firstTag(block, "content:encoded")
     );
     const rawDate =
@@ -137,11 +118,22 @@ async function collectRssSource(source, targetDate) {
       firstTag(block, "dc:date") ||
       firstTag(block, "published") ||
       firstTag(block, "updated");
-    const publishedAt = normalizeDateTime(rawDate);
-    const dateKey = publishedAt ? dateInKst(new Date(publishedAt)) : null;
+    let publishedAt = normalizeDateTime(rawDate);
+    let dateKey = publishedAt ? dateInKst(new Date(publishedAt)) : null;
+    let dateConfidence = dateKey ? "feed-date" : "unknown";
 
     if (!url || !title) continue;
-    if (dateKey && dateKey !== targetDate) continue;
+    if (!dateKey) {
+      const meta = await fetchArticleMeta(url).catch(() => ({}));
+      if (meta.title) title = title || meta.title;
+      if (meta.description) description = description || meta.description;
+      if (meta.published_at) {
+        publishedAt = meta.published_at;
+        dateKey = dateInKst(new Date(publishedAt));
+        dateConfidence = "article-meta";
+      }
+    }
+    if (!dateKey || dateKey !== targetDate) continue;
 
     articles.push(
       makeArticle({
@@ -154,8 +146,8 @@ async function collectRssSource(source, targetDate) {
         url,
         description,
         published_at: publishedAt,
-        matched_date: dateKey || targetDate,
-        date_confidence: dateKey ? "feed-date" : "undated-feed-candidate"
+        matched_date: dateKey,
+        date_confidence: dateConfidence
       })
     );
   }
@@ -256,7 +248,8 @@ async function fetchText(url) {
       }
     });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    return await response.text();
+    const buffer = Buffer.from(await response.arrayBuffer());
+    return decodeResponseBuffer(buffer, response.headers.get("content-type") || "");
   } catch (error) {
     return await fetchTextWithCurl(url, error);
   } finally {
@@ -283,15 +276,76 @@ async function fetchTextWithCurl(url, originalError) {
         url
       ],
       {
-        encoding: "utf8",
+        encoding: "buffer",
         maxBuffer: 30 * 1024 * 1024
       }
     );
     if (!stdout) throw new Error("empty curl response");
-    return stdout;
+    return decodeResponseBuffer(Buffer.from(stdout), "");
   } catch (curlError) {
     throw new Error(`fetch failed: ${messageOf(originalError)}; curl fallback failed: ${messageOf(curlError)}`);
   }
+}
+
+async function enrichArticlesWithBody(articles, options) {
+  const maxBodyFetch = Number(options.maxBodyFetch || 0);
+  const targets = maxBodyFetch > 0 ? articles.slice(0, maxBodyFetch) : articles;
+  const passthrough = maxBodyFetch > 0 ? articles.slice(maxBodyFetch) : [];
+  const enriched = new Array(targets.length);
+  let cursor = 0;
+  const workerCount = Math.max(1, Math.min(Number(options.bodyConcurrency || 6), targets.length || 1));
+
+  async function worker() {
+    while (cursor < targets.length) {
+      const index = cursor;
+      cursor += 1;
+      const article = targets[index];
+      try {
+        const html = await fetchText(article.url);
+        const body = extractBodyText(html);
+        enriched[index] = {
+          ...article,
+          body_text: body,
+          body_fetched_at: new Date().toISOString(),
+          body_fetch_status: body ? "fetched" : "empty"
+        };
+      } catch (error) {
+        enriched[index] = {
+          ...article,
+          body_text: "",
+          body_fetch_status: "error",
+          body_fetch_error: messageOf(error)
+        };
+      }
+    }
+  }
+
+  await Promise.all(Array.from({ length: workerCount }, () => worker()));
+  return [...enriched, ...passthrough];
+}
+
+function decodeResponseBuffer(buffer, contentType) {
+  const sniff = buffer.toString("latin1", 0, Math.min(buffer.length, 4096));
+  const charset =
+    contentType.match(/charset=["']?([^;"'\s]+)/i)?.[1] ||
+    sniff.match(/<meta[^>]+charset=["']?([^"'>\s]+)/i)?.[1] ||
+    sniff.match(/<\?xml[^>]+encoding=["']([^"']+)["']/i)?.[1] ||
+    "utf-8";
+  const label = normalizeCharset(charset);
+  try {
+    return new TextDecoder(label).decode(buffer);
+  } catch {
+    return new TextDecoder("utf-8").decode(buffer);
+  }
+}
+
+function normalizeCharset(value) {
+  const label = String(value || "").trim().toLowerCase();
+  if (["euc-kr", "euckr", "ks_c_5601-1987", "ksc5601", "x-windows-949", "windows-949", "cp949"].includes(label)) {
+    return "windows-949";
+  }
+  if (["utf8", "utf-8"].includes(label)) return "utf-8";
+  return label || "utf-8";
 }
 
 function makeArticle(input) {
@@ -365,8 +419,12 @@ function parseArgs(argv) {
     if (arg === "--date") args.date = argv[++index];
     else if (arg === "--include-body") args.includeBody = true;
     else if (arg === "--max-article-meta-fetch") args.maxArticleMetaFetch = argv[++index];
+    else if (arg === "--body-concurrency") args.bodyConcurrency = argv[++index];
+    else if (arg === "--max-body-fetch") args.maxBodyFetch = argv[++index];
     else if (arg === "--help" || arg === "-h") {
-      console.log(`Usage: node scripts/collect.mjs [--date YYYY-MM-DD|today|yesterday] [--include-body]`);
+      console.log(
+        "Usage: node scripts/collect.mjs [--date YYYY-MM-DD|today|yesterday] [--include-body] [--body-concurrency 6]"
+      );
       process.exit(0);
     }
   }

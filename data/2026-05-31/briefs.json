@@ -1,427 +1,60 @@
 {
   "target_date": "2026-05-31",
-  "generated_at": "2026-06-02T08:51:36.785Z",
-  "analyzer": "rule-keyword-v0",
-  "input_article_count": 333,
-  "relevant_article_count": 62,
-  "relevant_department_count": 14,
+  "generated_at": "2026-06-04T00:44:39.599Z",
+  "analyzer": "rule-keyword-v1",
+  "input_article_count": 0,
+  "relevant_article_count": 0,
+  "relevant_department_count": 0,
+  "overall": {
+    "id": "overall",
+    "label": "전체",
+    "source": "rule",
+    "article_count": 0,
+    "item_count": 0,
+    "items": []
+  },
+  "llm_review": {
+    "enabled": false,
+    "provider": "rule",
+    "model": null,
+    "status": "disabled",
+    "analyzed_article_count": 0,
+    "relevant_article_count": 0,
+    "errors": [],
+    "message": "LLM_PROVIDER가 rule/none/off 이거나 설정되지 않아 규칙 기반 분석만 수행했습니다."
+  },
   "departments": [
     {
       "department_id": "secretariat",
       "department": "비서팀",
-      "role": "비서, 의전, 사장 특명사항 수행",
-      "article_count": 2,
-      "segment_count": 2,
-      "top_keywords": [
-        {
-          "keyword": "사장",
-          "count": 2
-        }
-      ],
-      "items": [
-        {
-          "id": "6d3d5290a03dc29b",
-          "article_id": "902748a3c7ce75ad",
-          "publisher": "경향신문",
-          "title": "[단독]서소문 고가 철거 돌입 직전, 공사장 안전 평가 ‘미흡’…위험 상황 대응은 ‘마이너스’",
-          "url": "https://www.khan.co.kr/article/202605311446001",
-          "published_at": "2026-05-31T05:46:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "사장"
-          ],
-          "segment_text": "[단독]서소문 고가 철거 돌입 직전, 공사장 안전 평가 ‘미흡’…위험 상황 대응은 ‘마이너스’",
-          "reason": "사장 키워드가 비서팀 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "1eedd0b8460ae1e6",
-          "article_id": "69831d7258eff6ae",
-          "publisher": "한겨레",
-          "title": "경찰, ‘감사 방해 혐의’ 권태선 방문진 이사장 무혐의",
-          "url": "https://www.hani.co.kr/arti/society/society_general/1261307.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "사장"
-          ],
-          "segment_text": "경찰, ‘감사 방해 혐의’ 권태선 방문진 이사장 무혐의",
-          "reason": "사장 키워드가 비서팀 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        }
-      ]
+      "role": "사장 일정, 의전, 대내외 메시지와 지시사항 관리",
+      "article_count": 0,
+      "segment_count": 0,
+      "top_keywords": [],
+      "items": []
     },
     {
       "department_id": "she",
       "department": "SHE추진실",
-      "role": "전사 안전·보건·환경 및 재난 전략·정책, 성과관리, 중대재해처벌법 대응",
-      "article_count": 15,
-      "segment_count": 15,
-      "top_keywords": [
-        {
-          "keyword": "사고",
-          "count": 6
-        },
-        {
-          "keyword": "안전",
-          "count": 6
-        },
-        {
-          "keyword": "환경",
-          "count": 3
-        },
-        {
-          "keyword": "보건",
-          "count": 1
-        },
-        {
-          "keyword": "재난",
-          "count": 1
-        }
-      ],
-      "items": [
-        {
-          "id": "d5d8edede9c05651",
-          "article_id": "b27ddd1bc5b3c138",
-          "publisher": "경향신문",
-          "title": "[사설]서소문 고가 ‘안전경고’ 무시한 서울시, 이러니 사고 날 밖에",
-          "url": "https://www.khan.co.kr/article/202605311842001",
-          "published_at": "2026-05-31T09:42:00.000Z",
-          "score": 10,
-          "matched_keywords": [
-            "안전",
-            "사고"
-          ],
-          "segment_text": "[사설]서소문 고가 ‘안전경고’ 무시한 서울시, 이러니 사고 날 밖에",
-          "reason": "안전, 사고 키워드가 SHE추진실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "c6f81dc20c7632aa",
-          "article_id": "33842fdd40e1ed3c",
-          "publisher": "경향신문",
-          "title": "창원 대학생 3명 사망한 교통사고··· 사고 직전 승용차 시속 161㎞",
-          "url": "https://www.khan.co.kr/article/202605311544001",
-          "published_at": "2026-05-31T06:44:00.000Z",
-          "score": 10,
-          "matched_keywords": [
-            "사고"
-          ],
-          "segment_text": "창원 대학생 3명 사망한 교통사고··· 사고 직전 승용차 시속 161㎞",
-          "reason": "사고 키워드가 SHE추진실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "9fa645f2c9702080",
-          "article_id": "3f5d32a8cf2a93ce",
-          "publisher": "한겨레",
-          "title": "산재 막는 지침서…‘ESG로 설계하는 안전보건경영’ 출간",
-          "url": "https://www.hani.co.kr/arti/society/labor/1261299.html",
-          "published_at": null,
-          "score": 10,
-          "matched_keywords": [
-            "안전",
-            "보건"
-          ],
-          "segment_text": "산재 막는 지침서…‘ESG로 설계하는 안전보건경영’ 출간",
-          "reason": "안전, 보건 키워드가 SHE추진실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "148a4acc764dda4c",
-          "article_id": "b1dd6f55b444699d",
-          "publisher": "경향신문",
-          "title": "서울시, 작년 서소문 고가 철거 직전 점검서 ‘현장 안전 미흡’",
-          "url": "https://www.khan.co.kr/article/202605312117015",
-          "published_at": "2026-05-31T12:17:01.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "안전"
-          ],
-          "segment_text": "서울시, 작년 서소문 고가 철거 직전 점검서 ‘현장 안전 미흡’",
-          "reason": "안전 키워드가 SHE추진실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "8397ea8e6f209330",
-          "article_id": "372f86ceda67a53b",
-          "publisher": "경향신문",
-          "title": "이달 롯데마트서 ‘친환경 상품’ 사면 엘포인트 5% 추가 적립",
-          "url": "https://www.khan.co.kr/article/202605312049015",
-          "published_at": "2026-05-31T11:49:01.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "환경"
-          ],
-          "segment_text": "이달 롯데마트서 ‘친환경 상품’ 사면 엘포인트 5% 추가 적립",
-          "reason": "환경 키워드가 SHE추진실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "a8fc399cec4f0213",
-          "article_id": "b62413445f7d8765",
-          "publisher": "경향신문",
-          "title": "[단독]“서소문 건널목 통행량 늘어 사고 우려”…열차 다니는 ‘고가 밑 관리’ 소홀 정황",
-          "url": "https://www.khan.co.kr/article/202605311714011",
-          "published_at": "2026-05-31T08:14:01.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "사고"
-          ],
-          "segment_text": "[단독]“서소문 건널목 통행량 늘어 사고 우려”…열차 다니는 ‘고가 밑 관리’ 소홀 정황",
-          "reason": "사고 키워드가 SHE추진실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "5ebb8a71f2e67098",
-          "article_id": "902748a3c7ce75ad",
-          "publisher": "경향신문",
-          "title": "[단독]서소문 고가 철거 돌입 직전, 공사장 안전 평가 ‘미흡’…위험 상황 대응은 ‘마이너스’",
-          "url": "https://www.khan.co.kr/article/202605311446001",
-          "published_at": "2026-05-31T05:46:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "안전"
-          ],
-          "segment_text": "[단독]서소문 고가 철거 돌입 직전, 공사장 안전 평가 ‘미흡’…위험 상황 대응은 ‘마이너스’",
-          "reason": "안전 키워드가 SHE추진실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "68862274c8850130",
-          "article_id": "1a0b0eb913b1dcf1",
-          "publisher": "경향신문",
-          "title": "코레일, 31일부터 모든 열차 정상 운행…서소문 사고 닷새만",
-          "url": "https://www.khan.co.kr/article/202605311353001",
-          "published_at": "2026-05-31T04:53:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "사고"
-          ],
-          "segment_text": "코레일, 31일부터 모든 열차 정상 운행…서소문 사고 닷새만",
-          "reason": "사고 키워드가 SHE추진실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "f2bedf5c9180732a",
-          "article_id": "7485ed6b60101aaf",
-          "publisher": "경향신문",
-          "title": "전국 하천·해수욕장 등 안전관리 요원 5700여명 배치···“최소 2인 이상 맞교대”",
-          "url": "https://www.khan.co.kr/article/202605311200011",
-          "published_at": "2026-05-31T03:00:01.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "안전"
-          ],
-          "segment_text": "전국 하천·해수욕장 등 안전관리 요원 5700여명 배치···“최소 2인 이상 맞교대”",
-          "reason": "안전 키워드가 SHE추진실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "408a9eb6d6286ec6",
-          "article_id": "513133b1968f50e3",
-          "publisher": "경향신문",
-          "title": "6월에 롯데마트서 ‘친환경 상품’ 구매시 엘포인트 5% 추가적립",
-          "url": "https://www.khan.co.kr/article/202605311005011",
-          "published_at": "2026-05-31T01:05:01.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "환경"
-          ],
-          "segment_text": "6월에 롯데마트서 ‘친환경 상품’ 구매시 엘포인트 5% 추가적립",
-          "reason": "환경 키워드가 SHE추진실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "38cccf08bef4321e",
-          "article_id": "0fd4a0382a92f82e",
-          "publisher": "한겨레",
-          "title": "“‘한국은 단검’ 트럼프 정부 입장?”…주한미군사령관 “작전 환경 설명”",
-          "url": "https://www.hani.co.kr/arti/international/international_general/1261154.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "환경"
-          ],
-          "segment_text": "“‘한국은 단검’ 트럼프 정부 입장?”…주한미군사령관 “작전 환경 설명”",
-          "reason": "환경 키워드가 SHE추진실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "78eef14d4742bc1a",
-          "article_id": "1c1d7717559afba1",
-          "publisher": "한겨레",
-          "title": "신용보증기금, 전쟁·재난 피해기업 ‘보상 90%’ 특례보험 출시",
-          "url": "https://www.hani.co.kr/arti/economy/finance/1261313.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "재난"
-          ],
-          "segment_text": "신용보증기금, 전쟁·재난 피해기업 ‘보상 90%’ 특례보험 출시",
-          "reason": "재난 키워드가 SHE추진실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "9a78ddb3e5604f72",
-          "article_id": "0560fcdcb4ce47a4",
-          "publisher": "한겨레",
-          "title": "이 대통령 “한화에어로스페이스 사고, 인명 구조에 총동원 대처”",
-          "url": "https://www.hani.co.kr/arti/politics/bluehouse/1261329.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "사고"
-          ],
-          "segment_text": "이 대통령 “한화에어로스페이스 사고, 인명 구조에 총동원 대처”",
-          "reason": "사고 키워드가 SHE추진실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "048cab42d8020565",
-          "article_id": "f22f961e64b87ece",
-          "publisher": "한겨레",
-          "title": "정원오 “안전불감 끝장” 오세훈 “허수아비 안돼”…서울 광폭 유세",
-          "url": "https://www.hani.co.kr/arti/politics/election/1261267.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "안전"
-          ],
-          "segment_text": "정원오 “안전불감 끝장” 오세훈 “허수아비 안돼”…서울 광폭 유세",
-          "reason": "안전 키워드가 SHE추진실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "5f68ea3cc58173cf",
-          "article_id": "c9829b8c03448d5f",
-          "publisher": "한겨레",
-          "title": "한화에어로 폭발 사고에…여야, 선거 로고송·율동 금지",
-          "url": "https://www.hani.co.kr/arti/politics/politics_general/1261342.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "사고"
-          ],
-          "segment_text": "한화에어로 폭발 사고에…여야, 선거 로고송·율동 금지",
-          "reason": "사고 키워드가 SHE추진실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        }
-      ]
+      "role": "전사 안전, 보건, 환경, 재난 대응과 중대재해 예방 체계 관리",
+      "article_count": 0,
+      "segment_count": 0,
+      "top_keywords": [],
+      "items": []
     },
     {
       "department_id": "audit",
       "department": "감사실",
-      "role": "감사계획 수립·시행, 일상감사, 회계·개발·비축 관련 감사",
-      "article_count": 6,
-      "segment_count": 6,
-      "top_keywords": [
-        {
-          "keyword": "조사",
-          "count": 4
-        },
-        {
-          "keyword": "감사",
-          "count": 2
-        }
-      ],
-      "items": [
-        {
-          "id": "1d2b2d5d46cb3570",
-          "article_id": "3ecac786ebd3e546",
-          "publisher": "경향신문",
-          "title": "6월 초 ‘슈퍼위크’ 맞는 종합특검···윤석열·김용현·이상민·조태용 연속 조사",
-          "url": "https://www.khan.co.kr/article/202605311515001",
-          "published_at": "2026-05-31T06:15:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "조사"
-          ],
-          "segment_text": "6월 초 ‘슈퍼위크’ 맞는 종합특검···윤석열·김용현·이상민·조태용 연속 조사",
-          "reason": "조사 키워드가 감사실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "f244829af0a519eb",
-          "article_id": "74bfdac836aa0d13",
-          "publisher": "경향신문",
-          "title": "‘비상계엄 연루 의혹’ 해경 간부 2명 중징계…특검, 해임 간부 소환 조사 예정",
-          "url": "https://www.khan.co.kr/article/202605311040001",
-          "published_at": "2026-05-31T01:40:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "조사"
-          ],
-          "segment_text": "‘비상계엄 연루 의혹’ 해경 간부 2명 중징계…특검, 해임 간부 소환 조사 예정",
-          "reason": "조사 키워드가 감사실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "6853cb3665db2bc0",
-          "article_id": "2c17aaea05cf5949",
-          "publisher": "한겨레",
-          "title": "“응급구조사 꿈꾼 17살 이채원, 기억해 주세요”…광주 피살 고교생 신상 공개",
-          "url": "https://www.hani.co.kr/arti/society/society_general/1261300.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "조사"
-          ],
-          "segment_text": "“응급구조사 꿈꾼 17살 이채원, 기억해 주세요”…광주 피살 고교생 신상 공개",
-          "reason": "조사 키워드가 감사실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "c1e917e682cc06e1",
-          "article_id": "69831d7258eff6ae",
-          "publisher": "한겨레",
-          "title": "경찰, ‘감사 방해 혐의’ 권태선 방문진 이사장 무혐의",
-          "url": "https://www.hani.co.kr/arti/society/society_general/1261307.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "감사"
-          ],
-          "segment_text": "경찰, ‘감사 방해 혐의’ 권태선 방문진 이사장 무혐의",
-          "reason": "감사 키워드가 감사실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "e0929a40da987cf3",
-          "article_id": "6d9eea4647bacf2f",
-          "publisher": "한겨레",
-          "title": "관훈클럽, 주한미국대사관에 감사패 수여",
-          "url": "https://www.hani.co.kr/arti/politics/politics_general/1261355.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "감사"
-          ],
-          "segment_text": "관훈클럽, 주한미국대사관에 감사패 수여",
-          "reason": "감사 키워드가 감사실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "706e88f831bf7c07",
-          "article_id": "f4456e8cbb4ac68e",
-          "publisher": "한겨레",
-          "title": "KBS 부산 보도국장, 국힘 박형준 캠프에 여론조사 2번 유출",
-          "url": "https://www.hani.co.kr/arti/society/media/1261357.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "조사"
-          ],
-          "segment_text": "KBS 부산 보도국장, 국힘 박형준 캠프에 여론조사 2번 유출",
-          "reason": "조사 키워드가 감사실 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        }
-      ]
+      "role": "감사 계획과 실행, 내부통제, 일상감사, 부패·비위 점검",
+      "article_count": 0,
+      "segment_count": 0,
+      "top_keywords": [],
+      "items": []
     },
     {
       "department_id": "legal",
       "department": "법무팀",
-      "role": "국내외 송무, 사업 법률 타당성 검토, 사규 및 지식재산권 관리",
+      "role": "국내외 송무, 계약·사업 법률 검토, 규제와 지식재산권 관리",
       "article_count": 0,
       "segment_count": 0,
       "top_keywords": [],
@@ -430,7 +63,7 @@
     {
       "department_id": "planning_budget",
       "department": "기획예산처",
-      "role": "이사회, 회의체, 국회·대정부 업무, 예산 통제·승인, 에특회계 세입",
+      "role": "이사회·국회·정부 대응, 예산 편성·통제, 경영계획 지원",
       "article_count": 0,
       "segment_count": 0,
       "top_keywords": [],
@@ -439,210 +72,34 @@
     {
       "department_id": "strategy",
       "department": "경영전략처",
-      "role": "신성장동력 발굴, 경영목표·운영계획, 경영평가, 언론홍보, 기업문화",
-      "article_count": 6,
-      "segment_count": 7,
-      "top_keywords": [
-        {
-          "keyword": "전략",
-          "count": 7
-        }
-      ],
-      "items": [
-        {
-          "id": "894a720d68362440",
-          "article_id": "99701599fc7b7322",
-          "publisher": "중앙일보",
-          "title": "헤즈볼라 압박 수위 높인 이스라엘…전략 요충지 보포르 점령",
-          "url": "https://www.joongang.co.kr/article/25432731",
-          "published_at": "2026-05-31T12:54:36.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "전략"
-          ],
-          "segment_text": "헤즈볼라 압박 수위 높인 이스라엘…전략 요충지 보포르 점령",
-          "reason": "전략 키워드가 경영전략처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "7a380b6a9432c806",
-          "article_id": "c4ba7a27aaa408f2",
-          "publisher": "경향신문",
-          "title": "미 ‘한국 핵잠·전작권 전환’ 지지 뒤엔…대중국 견제 전략 있다",
-          "url": "https://www.khan.co.kr/article/202605312122025",
-          "published_at": "2026-05-31T12:22:02.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "전략"
-          ],
-          "segment_text": "미 ‘한국 핵잠·전작권 전환’ 지지 뒤엔…대중국 견제 전략 있다",
-          "reason": "전략 키워드가 경영전략처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "12c5601b19632c8c",
-          "article_id": "9eb53c21ea9dd686",
-          "publisher": "경향신문",
-          "title": "최선희 “북·러, 모든 전략적 문제 공통 입장…동맹 수준”",
-          "url": "https://www.khan.co.kr/article/202605312122005",
-          "published_at": "2026-05-31T12:22:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "전략"
-          ],
-          "segment_text": "최선희 “북·러, 모든 전략적 문제 공통 입장…동맹 수준”",
-          "reason": "전략 키워드가 경영전략처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "4c8d3ad97c0dfe36",
-          "article_id": "463fc6882482ae9c",
-          "publisher": "경향신문",
-          "title": "레바논 최심부 진격 이스라엘군···연이은 맹폭에 레바논 “초토화 전략 그만”",
-          "url": "https://www.khan.co.kr/article/202605311557001",
-          "published_at": "2026-05-31T06:57:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "전략"
-          ],
-          "segment_text": "레바논 최심부 진격 이스라엘군···연이은 맹폭에 레바논 “초토화 전략 그만”",
-          "reason": "전략 키워드가 경영전략처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "fda840337416c7ab",
-          "article_id": "b72c590b3366afdb",
-          "publisher": "경향신문",
-          "title": "최선희 북한 외무상 “북·러 모든 전략적 문제 공통 입장…동맹 수준”",
-          "url": "https://www.khan.co.kr/article/202605311059001",
-          "published_at": "2026-05-31T01:59:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "전략"
-          ],
-          "segment_text": "최선희 북한 외무상 “북·러 모든 전략적 문제 공통 입장…동맹 수준”",
-          "reason": "전략 키워드가 경영전략처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "edbd8c4f81a9c000",
-          "article_id": "8cce8ef99cb412ac",
-          "publisher": "조선일보",
-          "title": "北 최선희 “북러, 모든 전략적 문제에 공통된 입장… 동맹 수준”",
-          "url": "https://www.chosun.com/politics/north_korea/2026/05/31/ANSUZK4VGJCKDOIAA6OJUVLFOA/",
-          "published_at": "2026-05-31T01:07:35.000Z",
-          "score": 2.8,
-          "matched_keywords": [
-            "전략"
-          ],
-          "segment_text": "최선희 북한 외무상이 30일 지난해 말 평양에서 사망한 알렉산드르 마체고라 러시아 대사 추모 행사에 참석해 “(북·러) 양국이 전략적 문제에 공통된 입장을 공유한다”고 말했다.",
-          "reason": "전략 키워드가 경영전략처 업무와 연결됩니다.",
-          "evidence_type": "watch"
-        }
-      ]
+      "role": "경영전략, 경영목표와 운영계획, 경영평가, 홍보와 기업문화",
+      "article_count": 0,
+      "segment_count": 0,
+      "top_keywords": [],
+      "items": []
     },
     {
       "department_id": "finance",
       "department": "재무처",
-      "role": "국내외 자금조달·상환, 자금집행, 결산, 세무, 전사 재무 리스크",
-      "article_count": 2,
-      "segment_count": 2,
-      "top_keywords": [
-        {
-          "keyword": "세금",
-          "count": 1
-        },
-        {
-          "keyword": "환율",
-          "count": 1
-        }
-      ],
-      "items": [
-        {
-          "id": "68cd0607136083b7",
-          "article_id": "5fb167a4fea6be03",
-          "publisher": "중앙일보",
-          "title": "‘생활비’로 송금하면 비과세? 유튜브 세금 팁 맹신했다간 낭패",
-          "url": "https://www.joongang.co.kr/article/25432720",
-          "published_at": "2026-05-31T08:54:37.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "세금"
-          ],
-          "segment_text": "‘생활비’로 송금하면 비과세? 유튜브 세금 팁 맹신했다간 낭패",
-          "reason": "세금 키워드가 재무처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "08c98a4f8445726b",
-          "article_id": "0ebd7352ba11771b",
-          "publisher": "경향신문",
-          "title": "7월6일부터 원·달러 24시간 거래된다…“환율 변동 부작용 줄여야”",
-          "url": "https://www.khan.co.kr/article/202605311714001",
-          "published_at": "2026-05-31T08:14:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "환율"
-          ],
-          "segment_text": "7월6일부터 원·달러 24시간 거래된다…“환율 변동 부작용 줄여야”",
-          "reason": "환율 키워드가 재무처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        }
-      ]
+      "role": "자금 조달과 상환, 자금 집행, 결산·세무, 재무 리스크 관리",
+      "article_count": 0,
+      "segment_count": 0,
+      "top_keywords": [],
+      "items": []
     },
     {
       "department_id": "esg",
       "department": "ESG경영처",
-      "role": "ESG경영, 내부통제, 동반성장, 사회공헌, 윤리·인권, 갑질·괴롭힘 예방",
-      "article_count": 2,
-      "segment_count": 2,
-      "top_keywords": [
-        {
-          "keyword": "인권",
-          "count": 1
-        },
-        {
-          "keyword": "ESG",
-          "count": 1
-        }
-      ],
-      "items": [
-        {
-          "id": "adc7ba657b20eb12",
-          "article_id": "3f5d32a8cf2a93ce",
-          "publisher": "한겨레",
-          "title": "산재 막는 지침서…‘ESG로 설계하는 안전보건경영’ 출간",
-          "url": "https://www.hani.co.kr/arti/society/labor/1261299.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "ESG"
-          ],
-          "segment_text": "산재 막는 지침서…‘ESG로 설계하는 안전보건경영’ 출간",
-          "reason": "ESG 키워드가 ESG경영처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "eb317fc0c472001b",
-          "article_id": "d4f0d934bcf22421",
-          "publisher": "한겨레",
-          "title": "인권위 “플라스틱 대체 가소제, 관리 강화해야…건강권 우려”",
-          "url": "https://www.hani.co.kr/arti/society/society_general/1261330.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "인권"
-          ],
-          "segment_text": "인권위 “플라스틱 대체 가소제, 관리 강화해야…건강권 우려”",
-          "reason": "인권 키워드가 ESG경영처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        }
-      ]
+      "role": "ESG 경영, 윤리·인권, 사회공헌, 동반성장과 내부통제 지원",
+      "article_count": 0,
+      "segment_count": 0,
+      "top_keywords": [],
+      "items": []
     },
     {
       "department_id": "infosec",
       "department": "정보보안팀",
-      "role": "정보보안 정책 수립·운영, 개인정보보호",
+      "role": "정보보안 정책과 운영, 개인정보보호, 사이버 침해 대응",
       "article_count": 0,
       "segment_count": 0,
       "top_keywords": [],
@@ -651,584 +108,52 @@
     {
       "department_id": "general_affairs",
       "department": "총무처",
-      "role": "문서·기록물, 비축유 외 자산관리, 사옥·숙소, 조달계약, 비상대비",
-      "article_count": 3,
-      "segment_count": 3,
-      "top_keywords": [
-        {
-          "keyword": "계약",
-          "count": 1
-        },
-        {
-          "keyword": "구매",
-          "count": 1
-        },
-        {
-          "keyword": "자산",
-          "count": 1
-        }
-      ],
-      "items": [
-        {
-          "id": "77b6e7be71877e7a",
-          "article_id": "eddc60665d91ee2b",
-          "publisher": "경향신문",
-          "title": "일대일 맞춤형 자산 상담 ‘하나금융 머니쇼’",
-          "url": "https://www.khan.co.kr/article/202605312049005",
-          "published_at": "2026-05-31T11:49:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "자산"
-          ],
-          "segment_text": "일대일 맞춤형 자산 상담 ‘하나금융 머니쇼’",
-          "reason": "자산 키워드가 총무처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "0d7d8fe192206bdc",
-          "article_id": "9467613be5fbbea3",
-          "publisher": "경향신문",
-          "title": "‘납품 지연’ 다원시스와 계약해지한 ITX·마음 열차 1일 다시 발주",
-          "url": "https://www.khan.co.kr/article/202605311145001",
-          "published_at": "2026-05-31T02:45:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "계약"
-          ],
-          "segment_text": "‘납품 지연’ 다원시스와 계약해지한 ITX·마음 열차 1일 다시 발주",
-          "reason": "계약 키워드가 총무처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "fe112061a3d00028",
-          "article_id": "513133b1968f50e3",
-          "publisher": "경향신문",
-          "title": "6월에 롯데마트서 ‘친환경 상품’ 구매시 엘포인트 5% 추가적립",
-          "url": "https://www.khan.co.kr/article/202605311005011",
-          "published_at": "2026-05-31T01:05:01.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "구매"
-          ],
-          "segment_text": "6월에 롯데마트서 ‘친환경 상품’ 구매시 엘포인트 5% 추가적립",
-          "reason": "구매 키워드가 총무처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        }
-      ]
+      "role": "문서·기록물, 자산·사옥·숙소 관리, 조달계약과 비상대비",
+      "article_count": 0,
+      "segment_count": 0,
+      "top_keywords": [],
+      "items": []
     },
     {
       "department_id": "hr",
       "department": "인재경영처",
-      "role": "직제·인사·채용·전보·평가, 교육훈련, 급여·복리후생, 노사관계",
-      "article_count": 10,
-      "segment_count": 10,
-      "top_keywords": [
-        {
-          "keyword": "임금",
-          "count": 4
-        },
-        {
-          "keyword": "노동",
-          "count": 3
-        },
-        {
-          "keyword": "노조",
-          "count": 2
-        },
-        {
-          "keyword": "복지",
-          "count": 1
-        },
-        {
-          "keyword": "인사",
-          "count": 1
-        }
-      ],
-      "items": [
-        {
-          "id": "ca928784ad571cd8",
-          "article_id": "21459994f935c7cf",
-          "publisher": "경향신문",
-          "title": "직장인 10명 중 7명 “플랫폼노동자·프리랜서에도 최저임금 적용해야”",
-          "url": "https://www.khan.co.kr/article/202605311213001",
-          "published_at": "2026-05-31T03:13:00.000Z",
-          "score": 10,
-          "matched_keywords": [
-            "임금",
-            "노동"
-          ],
-          "segment_text": "직장인 10명 중 7명 “플랫폼노동자·프리랜서에도 최저임금 적용해야”",
-          "reason": "임금, 노동 키워드가 인재경영처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "de3671cf93982354",
-          "article_id": "62d1e3df096bf27a",
-          "publisher": "경향신문",
-          "title": "경남 공공병원 경영난 심화…마산의료원은 임금체불 우려",
-          "url": "https://www.khan.co.kr/article/202605312105005",
-          "published_at": "2026-05-31T12:05:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "임금"
-          ],
-          "segment_text": "경남 공공병원 경영난 심화…마산의료원은 임금체불 우려",
-          "reason": "임금 키워드가 인재경영처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "dab577d5ba84fda7",
-          "article_id": "45fef79ffd400ed4",
-          "publisher": "경향신문",
-          "title": "오늘의 인사-국토교통부 외",
-          "url": "https://www.khan.co.kr/article/202605311650011",
-          "published_at": "2026-05-31T07:50:01.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "인사"
-          ],
-          "segment_text": "오늘의 인사-국토교통부 외",
-          "reason": "인사 키워드가 인재경영처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "778649a5cf84e55a",
-          "article_id": "3ef80b374861881c",
-          "publisher": "경향신문",
-          "title": "청년은 서울로, 비정규직은 지방으로…평균임금 50만원 차이",
-          "url": "https://www.khan.co.kr/article/202605311635011",
-          "published_at": "2026-05-31T07:35:01.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "임금"
-          ],
-          "segment_text": "청년은 서울로, 비정규직은 지방으로…평균임금 50만원 차이",
-          "reason": "임금 키워드가 인재경영처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "67f50b13874bbfed",
-          "article_id": "3a71ea2bf3240fcf",
-          "publisher": "경향신문",
-          "title": "타워크레인 노조, 나흘 만에 총파업 종료…노사 합의 타결",
-          "url": "https://www.khan.co.kr/article/202605311601001",
-          "published_at": "2026-05-31T07:01:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "노조"
-          ],
-          "segment_text": "타워크레인 노조, 나흘 만에 총파업 종료…노사 합의 타결",
-          "reason": "노조 키워드가 인재경영처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "6e1b5b0db0b1795d",
-          "article_id": "e553e81d3d08752b",
-          "publisher": "경향신문",
-          "title": "경남 유일 도립병원인데 “경영난에 임금 체불 우려”···위기의 마산의료원 [현장]",
-          "url": "https://www.khan.co.kr/article/202605311516001",
-          "published_at": "2026-05-31T06:16:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "임금"
-          ],
-          "segment_text": "경남 유일 도립병원인데 “경영난에 임금 체불 우려”···위기의 마산의료원 [현장]",
-          "reason": "임금 키워드가 인재경영처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "7c658fd01db8fa18",
-          "article_id": "ba6d1d8c2250cffc",
-          "publisher": "한겨레",
-          "title": "‘성과급 갈등’ 카카오 노조 “10일 4시간 부분파업”",
-          "url": "https://www.hani.co.kr/arti/economy/it/1261309.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "노조"
-          ],
-          "segment_text": "‘성과급 갈등’ 카카오 노조 “10일 4시간 부분파업”",
-          "reason": "노조 키워드가 인재경영처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "b1010b4129501b70",
-          "article_id": "3574a432caddc4ea",
-          "publisher": "한겨레",
-          "title": "[단독] ‘한국어뿐인 약식명령서’ 받은 이주노동자, 재판 기회 놓쳐 추방 위기",
-          "url": "https://www.hani.co.kr/arti/society/society_general/1261279.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "노동"
-          ],
-          "segment_text": "[단독] ‘한국어뿐인 약식명령서’ 받은 이주노동자, 재판 기회 놓쳐 추방 위기",
-          "reason": "노동 키워드가 인재경영처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "d824b1c678c9d222",
-          "article_id": "e75781fa2917f4ef",
-          "publisher": "한겨레",
-          "title": "노동부, ‘폭발’ 한화에어로 대전 사업장 작업중지",
-          "url": "https://www.hani.co.kr/arti/society/labor/1261344.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "노동"
-          ],
-          "segment_text": "노동부, ‘폭발’ 한화에어로 대전 사업장 작업중지",
-          "reason": "노동 키워드가 인재경영처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "948ab9780d5098bf",
-          "article_id": "7ce567840235848b",
-          "publisher": "한겨레",
-          "title": "복지부, ‘남녀 함께 병실 사용’ 결국 철회…반발 여론 거세",
-          "url": "https://www.hani.co.kr/arti/society/health/1261316.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "복지"
-          ],
-          "segment_text": "복지부, ‘남녀 함께 병실 사용’ 결국 철회…반발 여론 거세",
-          "reason": "복지 키워드가 인재경영처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        }
-      ]
+      "role": "조직·인사, 채용, 평가, 교육훈련, 급여·복리후생, 노사관계",
+      "article_count": 0,
+      "segment_count": 0,
+      "top_keywords": [],
+      "items": []
     },
     {
       "department_id": "smart_data",
       "department": "스마트데이터센터",
-      "role": "석유정보 생산·서비스, Opinet 운영, 국내 가격정보, 국제유가 전망, 시장동향 분석",
-      "article_count": 2,
-      "segment_count": 2,
-      "top_keywords": [
-        {
-          "keyword": "유가",
-          "count": 2
-        }
-      ],
-      "items": [
-        {
-          "id": "db5eb3f71e7fedfa",
-          "article_id": "73f46f517c8f4911",
-          "publisher": "경향신문",
-          "title": "고유가 지원금 이의신청 13만건 돌파…“건보료 산정 다시 해야” 민원도 21%",
-          "url": "https://www.khan.co.kr/article/202605312110005",
-          "published_at": "2026-05-31T12:10:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "유가"
-          ],
-          "segment_text": "고유가 지원금 이의신청 13만건 돌파…“건보료 산정 다시 해야” 민원도 21%",
-          "reason": "유가 키워드가 스마트데이터센터 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "b1069f265f1762e3",
-          "article_id": "e15d7cce024e9d7f",
-          "publisher": "경향신문",
-          "title": "‘고유가 지원금’ 열흘간 이의신청 13만건 넘어···건보료 관련 민원 21%",
-          "url": "https://www.khan.co.kr/article/202605311129001",
-          "published_at": "2026-05-31T02:29:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "유가"
-          ],
-          "segment_text": "‘고유가 지원금’ 열흘간 이의신청 13만건 넘어···건보료 관련 민원 21%",
-          "reason": "유가 키워드가 스마트데이터센터 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        }
-      ]
+      "role": "석유정보 서비스와 Opinet 운영, 유가·가격 정보, 시장동향 분석",
+      "article_count": 0,
+      "segment_count": 0,
+      "top_keywords": [],
+      "items": []
     },
     {
       "department_id": "asia_business",
       "department": "아시아사업처",
-      "role": "E&P 사업 이력·현황, 해외출자회사, 아시아·중동 사업계획·예산·원가·손익",
-      "article_count": 4,
-      "segment_count": 4,
-      "top_keywords": [
-        {
-          "keyword": "중동",
-          "count": 3
-        },
-        {
-          "keyword": "원가",
-          "count": 1
-        }
-      ],
-      "items": [
-        {
-          "id": "3c9f1434ec15e917",
-          "article_id": "271496060f5ac2b5",
-          "publisher": "한겨레",
-          "title": "“유능한 동맹 필요” 방위비로 지원 가르려는 미국…아세안서 불신 확산",
-          "url": "https://www.hani.co.kr/arti/international/international_general/1261370.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "원가"
-          ],
-          "segment_text": "“유능한 동맹 필요” 방위비로 지원 가르려는 미국…아세안서 불신 확산",
-          "reason": "원가 키워드가 아시아사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "9bf94365527b2670",
-          "article_id": "8b8c8379598a81ee",
-          "publisher": "한겨레",
-          "title": "조현 “중동 불안 속 한-아프리카 협력 중요”…50개국 외교장관회의",
-          "url": "https://www.hani.co.kr/arti/politics/politics_general/1261334.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "중동"
-          ],
-          "segment_text": "조현 “중동 불안 속 한-아프리카 협력 중요”…50개국 외교장관회의",
-          "reason": "중동 키워드가 아시아사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "8e07bfb5e7ed778a",
-          "article_id": "405fa534ff4b8b7a",
-          "publisher": "한겨레",
-          "title": "중동전쟁 여파…기관 외화증권 5천억달러 돌파 후 첫 감소",
-          "url": "https://www.hani.co.kr/arti/economy/economy_general/1261333.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "중동"
-          ],
-          "segment_text": "중동전쟁 여파…기관 외화증권 5천억달러 돌파 후 첫 감소",
-          "reason": "중동 키워드가 아시아사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "2ef11ca7115dfc94",
-          "article_id": "71ed41d21a0890f4",
-          "publisher": "한겨레",
-          "title": "EU 대표단 “트럼프 위기에 중동·우크라 전쟁까지…한·EU 더 결속해야”",
-          "url": "https://www.hani.co.kr/arti/politics/politics_general/1261278.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "중동"
-          ],
-          "segment_text": "EU 대표단 “트럼프 위기에 중동·우크라 전쟁까지…한·EU 더 결속해야”",
-          "reason": "중동 키워드가 아시아사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        }
-      ]
+      "role": "아시아·중동 E&P 사업 관리, 해외출자회사, 예산·평가·손익 관리",
+      "article_count": 0,
+      "segment_count": 0,
+      "top_keywords": [],
+      "items": []
     },
     {
       "department_id": "americas_europe_business",
       "department": "미주/유럽사업처",
-      "role": "미주·유럽 사업계획·조정·관리, Capex/Opex, 예산·원가·손익·자금수지",
-      "article_count": 12,
-      "segment_count": 12,
-      "top_keywords": [
-        {
-          "keyword": "미국",
-          "count": 7
-        },
-        {
-          "keyword": "캐나다",
-          "count": 3
-        },
-        {
-          "keyword": "유럽",
-          "count": 2
-        }
-      ],
-      "items": [
-        {
-          "id": "ef6600c63b179634",
-          "article_id": "0c8f6d1310e9d27a",
-          "publisher": "경향신문",
-          "title": "미국 때문에 돈줄 막힌 유엔, 이대로면 8월 중 파산 불가피",
-          "url": "https://www.khan.co.kr/article/202605312100005",
-          "published_at": "2026-05-31T12:00:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "미국"
-          ],
-          "segment_text": "미국 때문에 돈줄 막힌 유엔, 이대로면 8월 중 파산 불가피",
-          "reason": "미국 키워드가 미주/유럽사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "c6249e1653e9142a",
-          "article_id": "2951a25a77e32f31",
-          "publisher": "경향신문",
-          "title": "‘강훈식 특사’ 넉 달 만에 다시 캐나다로…잠수함 수주전 막바지",
-          "url": "https://www.khan.co.kr/article/202605311956001",
-          "published_at": "2026-05-31T10:56:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "캐나다"
-          ],
-          "segment_text": "‘강훈식 특사’ 넉 달 만에 다시 캐나다로…잠수함 수주전 막바지",
-          "reason": "캐나다 키워드가 미주/유럽사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "87436aa4569f8b72",
-          "article_id": "e38dcda84eeda351",
-          "publisher": "중앙일보",
-          "title": "‘특사’ 강훈식, 캐나다行…카자흐 이어 원유 공급망 다변화 노력",
-          "url": "https://www.joongang.co.kr/article/25432725",
-          "published_at": "2026-05-31T09:51:24.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "캐나다"
-          ],
-          "segment_text": "‘특사’ 강훈식, 캐나다行…카자흐 이어 원유 공급망 다변화 노력",
-          "reason": "캐나다 키워드가 미주/유럽사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "e65e5d2db02062c2",
-          "article_id": "d57a502d47feea28",
-          "publisher": "경향신문",
-          "title": "루마니아 아파트 드론 강타에 EU 제재 예고···러시아 “유럽도 전쟁 중, 편안한 수면 이제 없다” 경고도",
-          "url": "https://www.khan.co.kr/article/202605311642001",
-          "published_at": "2026-05-31T07:42:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "유럽"
-          ],
-          "segment_text": "루마니아 아파트 드론 강타에 EU 제재 예고···러시아 “유럽도 전쟁 중, 편안한 수면 이제 없다” 경고도",
-          "reason": "유럽 키워드가 미주/유럽사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "ba7f66cea0e0a209",
-          "article_id": "259898880d3f2392",
-          "publisher": "경향신문",
-          "title": "한화오션, 캐나다 최대 방산 전시회서 잠수함 수주 ‘막판 스퍼트’",
-          "url": "https://www.khan.co.kr/article/202605311054001",
-          "published_at": "2026-05-31T01:54:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "캐나다"
-          ],
-          "segment_text": "한화오션, 캐나다 최대 방산 전시회서 잠수함 수주 ‘막판 스퍼트’",
-          "reason": "캐나다 키워드가 미주/유럽사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "ffb23e59d406d9a0",
-          "article_id": "271496060f5ac2b5",
-          "publisher": "한겨레",
-          "title": "“유능한 동맹 필요” 방위비로 지원 가르려는 미국…아세안서 불신 확산",
-          "url": "https://www.hani.co.kr/arti/international/international_general/1261370.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "미국"
-          ],
-          "segment_text": "“유능한 동맹 필요” 방위비로 지원 가르려는 미국…아세안서 불신 확산",
-          "reason": "미국 키워드가 미주/유럽사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "a5c5fa7b8a334b78",
-          "article_id": "6d9eea4647bacf2f",
-          "publisher": "한겨레",
-          "title": "관훈클럽, 주한미국대사관에 감사패 수여",
-          "url": "https://www.hani.co.kr/arti/politics/politics_general/1261355.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "미국"
-          ],
-          "segment_text": "관훈클럽, 주한미국대사관에 감사패 수여",
-          "reason": "미국 키워드가 미주/유럽사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "cf4350b988430db8",
-          "article_id": "ac48d1087011be66",
-          "publisher": "한겨레",
-          "title": "러 드론 ‘나토 회원국’ 공격…유럽 불안 조장·자국 불만 여론 돌리기",
-          "url": "https://www.hani.co.kr/arti/international/europe/1261210.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "유럽"
-          ],
-          "segment_text": "러 드론 ‘나토 회원국’ 공격…유럽 불안 조장·자국 불만 여론 돌리기",
-          "reason": "유럽 키워드가 미주/유럽사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "54923af7248e8ea1",
-          "article_id": "371a8057ef71867d",
-          "publisher": "한겨레",
-          "title": "미 국방 “트럼프, 이란과 합의에 인내심…공격 재개 능력 충분”",
-          "url": "https://www.hani.co.kr/arti/international/arabafrica/1261178.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "미국"
-          ],
-          "segment_text": "미 국방 “트럼프, 이란과 합의에 인내심…공격 재개 능력 충분”",
-          "reason": "미국 키워드가 미주/유럽사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "ea1adfdff89e9a72",
-          "article_id": "442390de14ae4073",
-          "publisher": "한겨레",
-          "title": "미국 CIA에 ‘계엄 정당’ 메시지 전달 의혹 조태용, 특검에 소환",
-          "url": "https://www.hani.co.kr/arti/society/society_general/1261314.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "미국"
-          ],
-          "segment_text": "미국 CIA에 ‘계엄 정당’ 메시지 전달 의혹 조태용, 특검에 소환",
-          "reason": "미국 키워드가 미주/유럽사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "a1dde10070aa315c",
-          "article_id": "f83be43fc83712f6",
-          "publisher": "한겨레",
-          "title": "미국, 또 ‘자위적 공습’…이란 “반복되면 전혀 다른 대응” 경고",
-          "url": "https://www.hani.co.kr/arti/international/international_general/1261368.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "미국"
-          ],
-          "segment_text": "미국, 또 ‘자위적 공습’…이란 “반복되면 전혀 다른 대응” 경고",
-          "reason": "미국 키워드가 미주/유럽사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "48f3b9182bc84f74",
-          "article_id": "e3523ef278bc5388",
-          "publisher": "한겨레",
-          "title": "주일 이란대사 “미국 안 믿어…일, 복구 도우면 수십년 LNG 보장”",
-          "url": "https://www.hani.co.kr/arti/international/international_general/1261215.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "미국"
-          ],
-          "segment_text": "주일 이란대사 “미국 안 믿어…일, 복구 도우면 수십년 LNG 보장”",
-          "reason": "미국 키워드가 미주/유럽사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        }
-      ]
+      "role": "미주·유럽 E&P 사업 계획과 관리, Capex/Opex, 손익과 자금수지 관리",
+      "article_count": 0,
+      "segment_count": 0,
+      "top_keywords": [],
+      "items": []
     },
     {
       "department_id": "domestic_business_development",
       "department": "국내사업개발처",
-      "role": "국내사업 계획·투자·운영효율, 예산·원가·손익, 국내 탐사·개발",
+      "role": "국내 자원개발 사업 계획, 투자·운영, 국내 대륙붕과 신규사업 개발",
       "article_count": 0,
       "segment_count": 0,
       "top_keywords": [],
@@ -1237,7 +162,7 @@
     {
       "department_id": "low_carbon",
       "department": "저탄소추진처",
-      "role": "CCS 사업 전략·실증, 부유식 해상풍력발전사업 추진",
+      "role": "CCS 사업 전략과 실증, 부유식 해상풍력 등 저탄소 사업 추진",
       "article_count": 0,
       "segment_count": 0,
       "top_keywords": [],
@@ -1246,37 +171,16 @@
     {
       "department_id": "global_technology_center",
       "department": "글로벌기술센터",
-      "role": "E&P 기술지원, 기술전략, 연구개발, 기술자료, 시추계획·작업예산",
-      "article_count": 1,
-      "segment_count": 1,
-      "top_keywords": [
-        {
-          "keyword": "지질",
-          "count": 1
-        }
-      ],
-      "items": [
-        {
-          "id": "52d318283c66c0c6",
-          "article_id": "c000db3d4b6616a1",
-          "publisher": "경향신문",
-          "title": "강원도, 6월 지질·생태명소로 ‘강릉 순포습지’ 선정···“순채와 철새 공존하는 생태계 보고”",
-          "url": "https://www.khan.co.kr/article/202605310832001",
-          "published_at": "2026-05-30T23:32:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "지질"
-          ],
-          "segment_text": "강원도, 6월 지질·생태명소로 ‘강릉 순포습지’ 선정···“순채와 철새 공존하는 생태계 보고”",
-          "reason": "지질 키워드가 글로벌기술센터 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        }
-      ]
+      "role": "E&P 기술지원, 기술전략, 연구개발, 시추계획과 기술자료 관리",
+      "article_count": 0,
+      "segment_count": 0,
+      "top_keywords": [],
+      "items": []
     },
     {
       "department_id": "stockpiling",
       "department": "석유비축처",
-      "role": "정부 비축유 및 비축기지 운영, 비축사업장 안전·소방·재난·환경, 입출하·저장시설 총괄",
+      "role": "정부 비축유와 비축기지 운영, 비축시설 안전·소방·재난·환경 관리",
       "article_count": 0,
       "segment_count": 0,
       "top_keywords": [],
@@ -1285,56 +189,16 @@
     {
       "department_id": "petroleum_business",
       "department": "석유사업처",
-      "role": "석유사업 전략, 원유·제품·LPG 구매·판매, 트레이딩, 비축유·시설 계약, 공동비축",
-      "article_count": 2,
-      "segment_count": 2,
-      "top_keywords": [
-        {
-          "keyword": "원유",
-          "count": 1
-        },
-        {
-          "keyword": "판매",
-          "count": 1
-        }
-      ],
-      "items": [
-        {
-          "id": "18cdbe524a37c8b1",
-          "article_id": "e38dcda84eeda351",
-          "publisher": "중앙일보",
-          "title": "‘특사’ 강훈식, 캐나다行…카자흐 이어 원유 공급망 다변화 노력",
-          "url": "https://www.joongang.co.kr/article/25432725",
-          "published_at": "2026-05-31T09:51:24.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "원유"
-          ],
-          "segment_text": "‘특사’ 강훈식, 캐나다行…카자흐 이어 원유 공급망 다변화 노력",
-          "reason": "원유 키워드가 석유사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "2c3fcc3b8837f00b",
-          "article_id": "df2308e871e53f92",
-          "publisher": "한겨레",
-          "title": "그 카페 ‘두쫀쿠’ ‘버터떡’ 불법 제조였나…수만개 판매 일당 적발",
-          "url": "https://www.hani.co.kr/arti/society/health/1261343.html",
-          "published_at": null,
-          "score": 5,
-          "matched_keywords": [
-            "판매"
-          ],
-          "segment_text": "그 카페 ‘두쫀쿠’ ‘버터떡’ 불법 제조였나…수만개 판매 일당 적발",
-          "reason": "판매 키워드가 석유사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        }
-      ]
+      "role": "석유사업 전략, 원유·제품·LPG 구매와 판매, 트레이딩과 공동비축",
+      "article_count": 0,
+      "segment_count": 0,
+      "top_keywords": [],
+      "items": []
     },
     {
       "department_id": "distribution_business",
       "department": "유통사업처",
-      "role": "알뜰주유소 사업전략, 공급용 유류 구매·수입, 알뜰주유소 모집·계약관리",
+      "role": "알뜰주유소 사업전략, 석유류 구매·수입, 알뜰주유소 모집과 계약 관리",
       "article_count": 0,
       "segment_count": 0,
       "top_keywords": [],
@@ -1343,52 +207,16 @@
     {
       "department_id": "energy_infra",
       "department": "에너지인프라사업처",
-      "role": "시설 신·증설, 시설공사 설계·발주·품질·안전·환경, 에너지허브, 신규 비축시설 건설",
-      "article_count": 2,
-      "segment_count": 2,
-      "top_keywords": [
-        {
-          "keyword": "건설",
-          "count": 2
-        }
-      ],
-      "items": [
-        {
-          "id": "3060db0cafa0dbf7",
-          "article_id": "a123ef22dee97110",
-          "publisher": "경향신문",
-          "title": "압구정5구역 ‘현대건설’·신반포 19·25차 ‘삼성물산’ 시공사 선정",
-          "url": "https://www.khan.co.kr/article/202605312048005",
-          "published_at": "2026-05-31T11:48:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "건설"
-          ],
-          "segment_text": "압구정5구역 ‘현대건설’·신반포 19·25차 ‘삼성물산’ 시공사 선정",
-          "reason": "건설 키워드가 에너지인프라사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        },
-        {
-          "id": "b61370a94c71cacc",
-          "article_id": "3f4263c3914e4955",
-          "publisher": "경향신문",
-          "title": "압구정은 현대건설, 반포는 삼성물산에…공고해진 서울 도시정비 ‘2강’ 구도",
-          "url": "https://www.khan.co.kr/article/202605311411001",
-          "published_at": "2026-05-31T05:11:00.000Z",
-          "score": 5,
-          "matched_keywords": [
-            "건설"
-          ],
-          "segment_text": "압구정은 현대건설, 반포는 삼성물산에…공고해진 서울 도시정비 ‘2강’ 구도",
-          "reason": "건설 키워드가 에너지인프라사업처 업무와 연결됩니다.",
-          "evidence_type": "direct"
-        }
-      ]
+      "role": "시설공사 설계·발주·현장 관리, 에너지허브와 신규 비축시설 건설",
+      "article_count": 0,
+      "segment_count": 0,
+      "top_keywords": [],
+      "items": []
     },
     {
       "department_id": "hydrogen_ammonia",
       "department": "수소암모니아사업단",
-      "role": "저탄소 수소·암모니아 국내 도입·유통, 해외 공급처·생산거점 확보, 저장·유통 터미널 및 비축기지 구축",
+      "role": "저탄소 수소·암모니아 도입과 유통, 해외 공급처 발굴, 저장·비축 기반 구축",
       "article_count": 0,
       "segment_count": 0,
       "top_keywords": [],
