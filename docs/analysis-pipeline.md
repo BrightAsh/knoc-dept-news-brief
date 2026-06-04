@@ -31,7 +31,7 @@
 
 ## 1차: LLM 후보 검토
 
-권장 모델: `llama-3.1-8b-instant`
+권장 모델: `meta-llama/llama-4-scout-17b-16e-instruct`
 
 1차는 모든 기사에 대해 넓게 판단합니다.
 

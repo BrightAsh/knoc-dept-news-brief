@@ -19,7 +19,7 @@ export function createLlmClient(env = process.env) {
       provider,
       baseUrl: env.GROQ_BASE_URL || "https://api.groq.com/openai/v1",
       apiKey: env.GROQ_API_KEY,
-      model: env.LLM_MODEL || "llama-3.1-8b-instant"
+      model: env.LLM_MODEL || "meta-llama/llama-4-scout-17b-16e-instruct"
     });
   }
 

@@ -45,7 +45,7 @@ node scripts/analyze.mjs --date yesterday
 
 | 단계 | 기본 모델 | 역할 |
 |---|---|---|
-| 1차 | `llama-3.1-8b-instant` | A/B 그룹 전체를 빠르게 훑고 후보 기사와 부서 후보를 찾음 |
+| 1차 | `meta-llama/llama-4-scout-17b-16e-instruct` | A/B 그룹 전체를 훑고 후보 기사와 부서 후보를 찾음 |
 | 2차 | `meta-llama/llama-4-scout-17b-16e-instruct` | 1차 후보와 1차 제외 기사를 본문 기반으로 재검토하고 최종 부서 배정 |
 
 GitHub 저장소 `Settings` → `Secrets and variables` → `Actions`에서 아래 값을 설정합니다.
@@ -60,13 +60,13 @@ Variables:
 
 ```text
 STAGE1_PROVIDER = groq
-STAGE1_MODEL = llama-3.1-8b-instant
-STAGE1_BATCH_SIZE = 8
+STAGE1_MODEL = meta-llama/llama-4-scout-17b-16e-instruct
+STAGE1_BATCH_SIZE = 4
 STAGE1_MAX_ARTICLES = 0
 
 STAGE2_PROVIDER = groq
 STAGE2_MODEL = meta-llama/llama-4-scout-17b-16e-instruct
-STAGE2_BATCH_SIZE = 4
+STAGE2_BATCH_SIZE = 2
 STAGE2_MAX_ARTICLES = 0
 STAGE2_REVIEW_REJECTED = true
 ```

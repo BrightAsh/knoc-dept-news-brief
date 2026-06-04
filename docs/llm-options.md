@@ -6,20 +6,20 @@
 
 | 단계 | Provider | Model |
 |---|---|---|
-| 1차 후보 검토 | `groq` | `llama-3.1-8b-instant` |
+| 1차 후보 검토 | `groq` | `meta-llama/llama-4-scout-17b-16e-instruct` |
 | 2차 최종 검토 | `groq` | `meta-llama/llama-4-scout-17b-16e-instruct` |
 
 ## 환경변수
 
 ```text
 STAGE1_PROVIDER=groq
-STAGE1_MODEL=llama-3.1-8b-instant
-STAGE1_BATCH_SIZE=8
+STAGE1_MODEL=meta-llama/llama-4-scout-17b-16e-instruct
+STAGE1_BATCH_SIZE=4
 STAGE1_MAX_ARTICLES=0
 
 STAGE2_PROVIDER=groq
 STAGE2_MODEL=meta-llama/llama-4-scout-17b-16e-instruct
-STAGE2_BATCH_SIZE=4
+STAGE2_BATCH_SIZE=2
 STAGE2_MAX_ARTICLES=0
 STAGE2_REVIEW_REJECTED=true
 ```

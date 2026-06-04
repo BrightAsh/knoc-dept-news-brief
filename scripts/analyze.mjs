@@ -31,7 +31,7 @@ async function main() {
 
   const stage1Setup = createStageClient("STAGE1", {
     provider: process.env.LLM_PROVIDER || "none",
-    model: process.env.LLM_MODEL || "llama-3.1-8b-instant"
+    model: process.env.LLM_MODEL || "meta-llama/llama-4-scout-17b-16e-instruct"
   });
   const stage1 = stage1Setup.client
     ? await runStage1({
@@ -41,7 +41,7 @@ async function main() {
         stage0,
         departments,
         knocContext,
-        batchSize: Number(args.stage1BatchSize || process.env.STAGE1_BATCH_SIZE || process.env.LLM_BATCH_SIZE || 8),
+        batchSize: Number(args.stage1BatchSize || process.env.STAGE1_BATCH_SIZE || process.env.LLM_BATCH_SIZE || 4),
         maxArticles: Number(args.stage1MaxArticles ?? process.env.STAGE1_MAX_ARTICLES ?? process.env.LLM_MAX_ARTICLES ?? 0)
       })
     : disabledStage({
@@ -70,7 +70,7 @@ async function main() {
         inputs: stage2Inputs,
         departments,
         knocContext,
-        batchSize: Number(args.stage2BatchSize || process.env.STAGE2_BATCH_SIZE || 4),
+        batchSize: Number(args.stage2BatchSize || process.env.STAGE2_BATCH_SIZE || 2),
         maxArticles: Number(args.stage2MaxArticles ?? process.env.STAGE2_MAX_ARTICLES ?? 0)
       })
     : disabledStage({
@@ -147,7 +147,7 @@ async function runStage1({ targetDate, client, articles, stage0, departments, kn
   const inputs = articles.map((article) => ({
     article,
     stage0: stage0Map.get(article.id),
-    segments: segmentArticle(article, { maxSegments: 10, maxTextChars: 1400 })
+    segments: segmentArticle(article, { maxSegments: 5, maxTextChars: 900, maxSegmentChars: 350 })
   }));
   const selected = maxArticles > 0 ? inputs.slice(0, maxArticles) : inputs;
   const review = createReview({
@@ -164,23 +164,22 @@ async function runStage1({ targetDate, client, articles, stage0, departments, kn
   }
 
   for (const batch of chunk(selected, Math.max(1, batchSize))) {
-    try {
-      const payload = await client.chatJson(buildStage1Messages(batch, departments, knocContext), {
+    const outcome = await runLlmBatchWithSplit({
+      batch,
+      review,
+      request: (items) =>
+        client.chatJson(buildStage1Messages(items, departments, knocContext), {
         maxTokens: 4200,
         temperature: 0.05
-      });
-      const results = Array.isArray(payload.results) ? payload.results : [];
-      for (const result of results) {
-        const normalized = normalizeStage1Result(result, batch, departments);
-        if (normalized) review.results.push(normalized);
-      }
-      review.analyzed_article_count += batch.length;
-    } catch (error) {
-      review.status = review.results.length ? "partial" : "error";
-      review.errors.push(messageOf(error));
-    }
+      }),
+      normalize: (result, items) => normalizeStage1Result(result, items, departments)
+    });
+    review.results.push(...outcome.results);
+    review.analyzed_article_count += outcome.analyzedCount;
+    review.errors.push(...outcome.errors);
   }
 
+  if (review.errors.length) review.status = review.results.length ? "partial" : "error";
   if (review.status === "ok" && review.analyzed_article_count < selected.length) review.status = "partial";
   return finalizeStage1(review);
 }
@@ -201,25 +200,65 @@ async function runStage2({ targetDate, client, inputs, departments, knocContext,
   }
 
   for (const batch of chunk(selected, Math.max(1, batchSize))) {
-    try {
-      const payload = await client.chatJson(buildStage2Messages(batch, departments, knocContext), {
+    const outcome = await runLlmBatchWithSplit({
+      batch,
+      review,
+      request: (items) =>
+        client.chatJson(buildStage2Messages(items, departments, knocContext), {
         maxTokens: 5200,
         temperature: 0.05
-      });
-      const results = Array.isArray(payload.results) ? payload.results : [];
-      for (const result of results) {
-        const normalized = normalizeStage2Result(result, batch, departments);
-        if (normalized) review.results.push(normalized);
-      }
-      review.analyzed_article_count += batch.length;
-    } catch (error) {
-      review.status = review.results.length ? "partial" : "error";
-      review.errors.push(messageOf(error));
-    }
+      }),
+      normalize: (result, items) => normalizeStage2Result(result, items, departments)
+    });
+    review.results.push(...outcome.results);
+    review.analyzed_article_count += outcome.analyzedCount;
+    review.errors.push(...outcome.errors);
   }
 
+  if (review.errors.length) review.status = review.results.length ? "partial" : "error";
   if (review.status === "ok" && review.analyzed_article_count < selected.length) review.status = "partial";
   return finalizeStage2(review);
+}
+
+async function runLlmBatchWithSplit({ batch, request, normalize, review }) {
+  try {
+    const payload = await request(batch);
+    const rawResults = Array.isArray(payload.results) ? payload.results : [];
+    const results = [];
+    for (const result of rawResults) {
+      const normalized = normalize(result, batch);
+      if (normalized) results.push(normalized);
+    }
+    return { results, analyzedCount: batch.length, errors: [] };
+  } catch (error) {
+    const message = messageOf(error);
+    if (batch.length > 1 && shouldSplitBatch(message)) {
+      review.warnings.push(`Split ${batch.length} article batch after LLM size/rate error: ${message.slice(0, 220)}`);
+      const midpoint = Math.ceil(batch.length / 2);
+      const left = await runLlmBatchWithSplit({
+        batch: batch.slice(0, midpoint),
+        request,
+        normalize,
+        review
+      });
+      const right = await runLlmBatchWithSplit({
+        batch: batch.slice(midpoint),
+        request,
+        normalize,
+        review
+      });
+      return {
+        results: [...left.results, ...right.results],
+        analyzedCount: left.analyzedCount + right.analyzedCount,
+        errors: [...left.errors, ...right.errors]
+      };
+    }
+    return { results: [], analyzedCount: 0, errors: [message] };
+  }
+}
+
+function shouldSplitBatch(message) {
+  return /request too large|tokens per minute|rate_limit_exceeded|context_length|maximum context|413/i.test(message);
 }
 
 function buildStage1Messages(batch, departments, knocContext) {
@@ -374,7 +413,7 @@ function buildStage2Inputs({ articles, stage0, stage1, reviewRejected, maxReject
       stage0: stage0Map.get(article.id),
       stage1: result,
       stage2Group: result.candidate ? "C" : "D",
-      segments: segmentArticle(article, { maxSegments: 22, maxTextChars: 3800 })
+      segments: segmentArticle(article, { maxSegments: 14, maxTextChars: 2800, maxSegmentChars: 700 })
     };
     if (result.candidate) candidates.push(input);
     else rejected.push(input);
@@ -567,6 +606,7 @@ function createReview({ targetDate, stage, client, requestedArticleCount, batchS
     analyzed_article_count: 0,
     batch_size: batchSize,
     errors: [],
+    warnings: [],
     results: []
   };
 }
@@ -595,6 +635,7 @@ function summarizeStage(stage) {
     rejected_count: stage.rejected_count,
     final_relevant_count: stage.final_relevant_count,
     final_rejected_count: stage.final_rejected_count,
+    warning_count: stage.warnings?.length || 0,
     error_count: stage.errors?.length || 0
   };
 }
@@ -700,7 +741,7 @@ function createDepartmentOutputs(departments) {
   }));
 }
 
-function segmentArticle(article, { maxSegments, maxTextChars }) {
+function segmentArticle(article, { maxSegments, maxTextChars, maxSegmentChars = 900 }) {
   const segments = [];
   if (article.title) segments.push({ type: "title", text: cleanText(article.title) });
   if (article.description) {
@@ -720,7 +761,7 @@ function segmentArticle(article, { maxSegments, maxTextChars }) {
   for (const segment of segments.filter((item) => item.text.length >= 6)) {
     if (clipped.length >= maxSegments || usedChars >= maxTextChars) break;
     const remaining = maxTextChars - usedChars;
-    const text = clipText(segment.text, Math.min(900, remaining));
+    const text = clipText(segment.text, Math.min(maxSegmentChars, remaining));
     if (!text) continue;
     clipped.push({
       ...segment,

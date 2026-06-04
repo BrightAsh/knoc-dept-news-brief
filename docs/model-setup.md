@@ -6,8 +6,9 @@
 
 | 단계 | 모델 | 이유 |
 |---|---|---|
-| 1차 분류 | `llama-3.1-8b-instant` | 전체 기사를 넓게 훑고 후보를 남기는 용도. 무료 호출 수가 넉넉하고 빠릅니다. |
+| 1차 분류 | `meta-llama/llama-4-scout-17b-16e-instruct` | 전체 기사를 넓게 훑고 후보를 남기는 용도. 실제 테스트에서 8B보다 TPM 여유가 필요했습니다. |
 | 2차 분류 | `meta-llama/llama-4-scout-17b-16e-instruct` | 1차 결과를 본문 기반으로 재검토하고 최종 부서 배정하는 용도. 무료 토큰 한도가 비교적 넉넉합니다. |
+| fallback | `llama-3.1-8b-instant` | 빠르지만 무료 TPM이 낮습니다. batch와 입력 길이를 크게 줄여야 합니다. |
 | 2차 정밀 옵션 | `llama-3.3-70b-versatile` | 품질은 좋지만 무료 TPD가 낮습니다. 전체 D 그룹 재검토보다는 후보 기사 정밀 검토에 적합합니다. |
 
 ## Groq API 키 발급
@@ -38,13 +39,13 @@ API key는 Secret에만 넣습니다. 코드, README, data 파일에는 넣지 �
 
 ```text
 STAGE1_PROVIDER = groq
-STAGE1_MODEL = llama-3.1-8b-instant
-STAGE1_BATCH_SIZE = 8
+STAGE1_MODEL = meta-llama/llama-4-scout-17b-16e-instruct
+STAGE1_BATCH_SIZE = 4
 STAGE1_MAX_ARTICLES = 0
 
 STAGE2_PROVIDER = groq
 STAGE2_MODEL = meta-llama/llama-4-scout-17b-16e-instruct
-STAGE2_BATCH_SIZE = 4
+STAGE2_BATCH_SIZE = 2
 STAGE2_MAX_ARTICLES = 0
 STAGE2_REVIEW_REJECTED = true
 ```
@@ -61,10 +62,11 @@ GitHub Models를 쓸 때도 paid usage를 켜지 않으면 무료 quota 소진 �
 
 코드 수정 없이 GitHub Actions variables만 바꾸면 됩니다.
 
-예: 1차를 더 좋은 모델로 변경
+예: 1차를 빠른 fallback 모델로 변경
 
 ```text
-STAGE1_MODEL = meta-llama/llama-4-scout-17b-16e-instruct
+STAGE1_MODEL = llama-3.1-8b-instant
+STAGE1_BATCH_SIZE = 1
 ```
 
 예: 2차를 70B 정밀 모델로 변경
@@ -92,7 +94,7 @@ PowerShell에서:
 ```powershell
 $env:GROQ_API_KEY="발급받은 Groq API key"
 $env:STAGE1_PROVIDER="groq"
-$env:STAGE1_MODEL="llama-3.1-8b-instant"
+$env:STAGE1_MODEL="meta-llama/llama-4-scout-17b-16e-instruct"
 $env:STAGE2_PROVIDER="groq"
 $env:STAGE2_MODEL="meta-llama/llama-4-scout-17b-16e-instruct"
 node scripts/analyze.mjs --date 2026-06-03 --stage1-max-articles 10 --stage2-max-articles 10
