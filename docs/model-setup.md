@@ -55,7 +55,10 @@ STAGE2_REVIEW_REJECTED = true
 LLM_REQUEST_TIMEOUT_MS = 45000
 LLM_RATE_LIMIT_RETRIES = 2
 LLM_FAIL_ON_ERROR = true
+LLM_DEBUG = true
 ```
+
+LLM 오류가 나도 raw 응답과 partial 결과를 보존합니다. 저장 위치와 재실행 순서는 [debug-and-retry.md](debug-and-retry.md)를 봅니다.
 
 `MAX_ARTICLES = 0`은 전체 기사를 처리한다는 뜻입니다.
 

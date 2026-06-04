@@ -17,6 +17,10 @@ async function main() {
   const args = parseArgs(process.argv.slice(2));
   const targetDate = resolveTargetDate(args.date || "yesterday");
   const dayDir = path.join(dataDir, targetDate);
+  const debugDir = path.join(dayDir, "debug");
+  if (booleanEnv(process.env.LLM_DEBUG, true)) {
+    await fs.mkdir(debugDir, { recursive: true });
+  }
 
   const articles = JSON.parse(await fs.readFile(path.join(dayDir, "articles.json"), "utf8"));
   const departments = JSON.parse(await fs.readFile(departmentsPath, "utf8"));
@@ -41,6 +45,8 @@ async function main() {
         stage0,
         departments,
         knocContext,
+        dayDir,
+        debugDir,
         batchSize: Number(args.stage1BatchSize || process.env.STAGE1_BATCH_SIZE || process.env.LLM_BATCH_SIZE || 16),
         maxArticles: Number(args.stage1MaxArticles ?? process.env.STAGE1_MAX_ARTICLES ?? process.env.LLM_MAX_ARTICLES ?? 0)
       })
@@ -70,6 +76,8 @@ async function main() {
         inputs: stage2Inputs,
         departments,
         knocContext,
+        dayDir,
+        debugDir,
         batchSize: Number(args.stage2BatchSize || process.env.STAGE2_BATCH_SIZE || 8),
         maxArticles: Number(args.stage2MaxArticles ?? process.env.STAGE2_MAX_ARTICLES ?? 0)
       })
@@ -159,7 +167,18 @@ function runStage0({ targetDate, articles, keywordConfig }) {
   };
 }
 
-async function runStage1({ targetDate, client, articles, stage0, departments, knocContext, batchSize, maxArticles }) {
+async function runStage1({
+  targetDate,
+  client,
+  articles,
+  stage0,
+  departments,
+  knocContext,
+  dayDir,
+  debugDir,
+  batchSize,
+  maxArticles
+}) {
   const stage0Map = new Map(stage0.items.map((item) => [item.article_id, item]));
   const inputs = articles.map((article) => ({
     article,
@@ -195,8 +214,12 @@ async function runStage1({ targetDate, client, articles, stage0, departments, kn
     const outcome = await runLlmBatchWithSplit({
       batch,
       review,
+      stage: "stage1",
+      batchNumber: index + 1,
+      batchCount: batches.length,
+      debugDir,
       request: (items) =>
-        client.chatJson(buildStage1Messages(items, departments, knocContext), {
+        client.chatJsonWithMeta(buildStage1Messages(items, departments, knocContext), {
         maxTokens: Number(process.env.STAGE1_MAX_TOKENS || 1400),
         temperature: 0.05
       }),
@@ -205,6 +228,7 @@ async function runStage1({ targetDate, client, articles, stage0, departments, kn
     review.results.push(...outcome.results);
     review.analyzed_article_count += outcome.analyzedCount;
     review.errors.push(...outcome.errors);
+    await writeStagePartial(path.join(dayDir, "stage1.partial.json"), review, finalizeStage1);
   }
 
   if (review.errors.length) review.status = review.results.length ? "partial" : "error";
@@ -212,7 +236,7 @@ async function runStage1({ targetDate, client, articles, stage0, departments, kn
   return finalizeStage1(review);
 }
 
-async function runStage2({ targetDate, client, inputs, departments, knocContext, batchSize, maxArticles }) {
+async function runStage2({ targetDate, client, inputs, departments, knocContext, dayDir, debugDir, batchSize, maxArticles }) {
   const selected = maxArticles > 0 ? inputs.slice(0, maxArticles) : inputs;
   const review = createReview({
     targetDate,
@@ -242,8 +266,12 @@ async function runStage2({ targetDate, client, inputs, departments, knocContext,
     const outcome = await runLlmBatchWithSplit({
       batch,
       review,
+      stage: "stage2",
+      batchNumber: index + 1,
+      batchCount: batches.length,
+      debugDir,
       request: (items) =>
-        client.chatJson(buildStage2Messages(items, departments, knocContext), {
+        client.chatJsonWithMeta(buildStage2Messages(items, departments, knocContext), {
         maxTokens: Number(process.env.STAGE2_MAX_TOKENS || 3200),
         temperature: 0.05
       }),
@@ -252,6 +280,7 @@ async function runStage2({ targetDate, client, inputs, departments, knocContext,
     review.results.push(...outcome.results);
     review.analyzed_article_count += outcome.analyzedCount;
     review.errors.push(...outcome.errors);
+    await writeStagePartial(path.join(dayDir, "stage2.partial.json"), review, finalizeStage2);
   }
 
   if (review.errors.length) review.status = review.results.length ? "partial" : "error";
@@ -259,23 +288,115 @@ async function runStage2({ targetDate, client, inputs, departments, knocContext,
   return finalizeStage2(review);
 }
 
-async function runLlmBatchWithSplit({ batch, request, normalize, review, attempt = 0 }) {
+async function runLlmBatchWithSplit({
+  batch,
+  request,
+  normalize,
+  review,
+  stage,
+  batchNumber,
+  batchCount,
+  debugDir,
+  splitPath = "root",
+  attempt = 0
+}) {
+  const debugId = makeDebugId({ stage, batchNumber, splitPath, attempt });
+  await writeDebugJson(debugDir, `${debugId}-input.json`, {
+    stage,
+    batch_number: batchNumber,
+    batch_count: batchCount,
+    split_path: splitPath,
+    attempt: attempt + 1,
+    article_count: batch.length,
+    articles: batch.map(({ article, stage0, stage1, stage2Group, segments }) => ({
+      article_id: article.id,
+      publisher: article.publisher,
+      title: article.title,
+      url: article.url,
+      published_at: article.published_at,
+      stage0_group: stage0?.group || null,
+      stage1_candidate: stage1?.candidate ?? null,
+      stage2_group: stage2Group || null,
+      segment_count: segments?.length || 0,
+      segments: (segments || []).map((segment) => ({
+        id: segment.id,
+        type: segment.type,
+        char_count: segment.text.length,
+        preview: segment.text.slice(0, 240)
+      }))
+    }))
+  });
+
   try {
-    const payload = await request(batch);
+    const response = await request(batch);
+    const payload = response.parsed;
+    await writeDebugJson(debugDir, `${debugId}-response-summary.json`, {
+      stage,
+      batch_number: batchNumber,
+      batch_count: batchCount,
+      split_path: splitPath,
+      attempt: attempt + 1,
+      request: response.request,
+      response: response.response
+    });
+    await writeDebugText(debugDir, `${debugId}-raw-content.txt`, response.raw_content || "");
+    await writeDebugText(debugDir, `${debugId}-raw-response.json`, response.raw_response || "");
+    await writeDebugJson(debugDir, `${debugId}-parsed.json`, payload);
+
     const rawResults = Array.isArray(payload.results) ? payload.results : [];
     const results = [];
+    const normalization = [];
     for (const result of rawResults) {
       const normalized = normalize(result, batch);
+      normalization.push({
+        article_id: result?.article_id ?? null,
+        accepted: Boolean(normalized),
+        candidate: result?.candidate ?? result?.company_relevant ?? result?.final_relevant ?? null,
+        department_count: Array.isArray(result?.departments) ? result.departments.length : null,
+        raw_result: result,
+        normalized
+      });
       if (normalized) results.push(normalized);
+    }
+    await writeDebugJson(debugDir, `${debugId}-normalized.json`, {
+      raw_result_count: rawResults.length,
+      accepted_result_count: results.length,
+      normalization
+    });
+
+    if (!rawResults.length || !results.length) {
+      review.warnings.push(
+        `${debugId} returned ${rawResults.length} raw results and ${results.length} normalized results.`
+      );
     }
     return { results, analyzedCount: batch.length, errors: [] };
   } catch (error) {
     const message = messageOf(error);
+    await writeDebugError(debugDir, `${debugId}-error.json`, error, {
+      stage,
+      batch_number: batchNumber,
+      batch_count: batchCount,
+      split_path: splitPath,
+      attempt: attempt + 1,
+      article_ids: batch.map(({ article }) => article.id)
+    });
+
     if (shouldRetryRateLimit(message) && attempt < Number(process.env.LLM_RATE_LIMIT_RETRIES || 2)) {
       const waitMs = retryDelayMs(message);
       review.warnings.push(`Retry batch after LLM rate limit in ${Math.round(waitMs / 1000)}s: ${message.slice(0, 220)}`);
       await delay(waitMs);
-      return runLlmBatchWithSplit({ batch, request, normalize, review, attempt: attempt + 1 });
+      return runLlmBatchWithSplit({
+        batch,
+        request,
+        normalize,
+        review,
+        stage,
+        batchNumber,
+        batchCount,
+        debugDir,
+        splitPath,
+        attempt: attempt + 1
+      });
     }
     if (batch.length > 1 && shouldSplitBatch(message)) {
       review.warnings.push(`Split ${batch.length} article batch after LLM size error: ${message.slice(0, 220)}`);
@@ -284,13 +405,23 @@ async function runLlmBatchWithSplit({ batch, request, normalize, review, attempt
         batch: batch.slice(0, midpoint),
         request,
         normalize,
-        review
+        review,
+        stage,
+        batchNumber,
+        batchCount,
+        debugDir,
+        splitPath: `${splitPath}-a`
       });
       const right = await runLlmBatchWithSplit({
         batch: batch.slice(midpoint),
         request,
         normalize,
-        review
+        review,
+        stage,
+        batchNumber,
+        batchCount,
+        debugDir,
+        splitPath: `${splitPath}-b`
       });
       return {
         results: [...left.results, ...right.results],
@@ -1029,6 +1160,60 @@ function messageOf(error) {
 
 async function writeJson(filePath, value) {
   await fs.writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
+}
+
+async function writeStagePartial(filePath, review, finalize) {
+  const snapshot = JSON.parse(JSON.stringify(review));
+  finalize(snapshot);
+  await writeJson(filePath, snapshot);
+}
+
+async function writeDebugJson(debugDir, filename, value) {
+  if (!debugDir || !booleanEnv(process.env.LLM_DEBUG, true)) return;
+  await fs.mkdir(debugDir, { recursive: true });
+  await writeJson(path.join(debugDir, safeDebugFilename(filename)), value);
+}
+
+async function writeDebugText(debugDir, filename, value) {
+  if (!debugDir || !booleanEnv(process.env.LLM_DEBUG, true)) return;
+  await fs.mkdir(debugDir, { recursive: true });
+  await fs.writeFile(path.join(debugDir, safeDebugFilename(filename)), String(value || ""), "utf8");
+}
+
+async function writeDebugError(debugDir, filename, error, context) {
+  const debug = error?.llmDebug || {};
+  const base = filename.replace(/\.json$/i, "");
+  await writeDebugJson(debugDir, filename, {
+    ...context,
+    message: messageOf(error),
+    name: error?.name || null,
+    llm_debug: {
+      ...debug,
+      raw_response: debug.raw_response ? `[saved as ${base}-raw-response.json]` : undefined,
+      raw_content: debug.raw_content ? `[saved as ${base}-raw-content.txt]` : undefined
+    }
+  });
+  if (debug.raw_response) {
+    await writeDebugText(debugDir, `${base}-raw-response.json`, debug.raw_response);
+  }
+  if (debug.raw_content) {
+    await writeDebugText(debugDir, `${base}-raw-content.txt`, debug.raw_content);
+  }
+}
+
+function makeDebugId({ stage, batchNumber, splitPath, attempt }) {
+  return [
+    stage,
+    "batch",
+    String(batchNumber).padStart(3, "0"),
+    safeDebugFilename(splitPath || "root").replace(/\.[^.]+$/, ""),
+    "try",
+    String(attempt + 1).padStart(2, "0")
+  ].join("-");
+}
+
+function safeDebugFilename(value) {
+  return String(value || "debug").replace(/[^a-zA-Z0-9._-]/g, "_");
 }
 
 main().catch((error) => {

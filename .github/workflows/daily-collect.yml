@@ -7,6 +7,18 @@ on:
         description: "YYYY-MM-DD, today, or yesterday"
         required: false
         default: "yesterday"
+      stage1_max_articles:
+        description: "Optional stage1 article limit for sample runs. 0 means all."
+        required: false
+        default: "0"
+      stage2_max_articles:
+        description: "Optional stage2 article limit for sample runs. 0 means all."
+        required: false
+        default: "0"
+      stage2_review_rejected:
+        description: "Whether stage2 should review stage1 rejected articles."
+        required: false
+        default: "true"
   schedule:
     # 00:05 Asia/Seoul every day. GitHub cron uses UTC.
     - cron: "5 15 * * *"
@@ -23,16 +35,17 @@ jobs:
       STAGE1_MODEL: ${{ vars.STAGE1_MODEL || 'meta-llama/llama-4-scout-17b-16e-instruct' }}
       STAGE1_BATCH_SIZE: ${{ vars.STAGE1_BATCH_SIZE || '16' }}
       STAGE1_MAX_TOKENS: ${{ vars.STAGE1_MAX_TOKENS || '1400' }}
-      STAGE1_MAX_ARTICLES: ${{ vars.STAGE1_MAX_ARTICLES || '0' }}
+      STAGE1_MAX_ARTICLES: ${{ github.event.inputs.stage1_max_articles || vars.STAGE1_MAX_ARTICLES || '0' }}
       STAGE2_PROVIDER: ${{ vars.STAGE2_PROVIDER || 'groq' }}
       STAGE2_MODEL: ${{ vars.STAGE2_MODEL || 'meta-llama/llama-4-scout-17b-16e-instruct' }}
       STAGE2_BATCH_SIZE: ${{ vars.STAGE2_BATCH_SIZE || '8' }}
       STAGE2_MAX_TOKENS: ${{ vars.STAGE2_MAX_TOKENS || '3200' }}
-      STAGE2_MAX_ARTICLES: ${{ vars.STAGE2_MAX_ARTICLES || '0' }}
-      STAGE2_REVIEW_REJECTED: ${{ vars.STAGE2_REVIEW_REJECTED || 'true' }}
+      STAGE2_MAX_ARTICLES: ${{ github.event.inputs.stage2_max_articles || vars.STAGE2_MAX_ARTICLES || '0' }}
+      STAGE2_REVIEW_REJECTED: ${{ github.event.inputs.stage2_review_rejected || vars.STAGE2_REVIEW_REJECTED || 'true' }}
       LLM_REQUEST_TIMEOUT_MS: ${{ vars.LLM_REQUEST_TIMEOUT_MS || '45000' }}
       LLM_RATE_LIMIT_RETRIES: ${{ vars.LLM_RATE_LIMIT_RETRIES || '2' }}
       LLM_FAIL_ON_ERROR: ${{ vars.LLM_FAIL_ON_ERROR || 'true' }}
+      LLM_DEBUG: ${{ vars.LLM_DEBUG || 'true' }}
       GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
       GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
@@ -46,13 +59,20 @@ jobs:
         run: node scripts/collect.mjs --date "${{ github.event.inputs.date || 'yesterday' }}" --include-body --body-concurrency 6
 
       - name: Analyze department briefs
+        id: analyze
+        continue-on-error: true
         timeout-minutes: 30
         run: node scripts/analyze.mjs --date "${{ github.event.inputs.date || 'yesterday' }}"
 
       - name: Commit collected data
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
           git diff --staged --quiet || git commit -m "chore: collect news data"
           git push
+
+      - name: Fail if analysis failed
+        if: steps.analyze.outcome == 'failure'
+        run: exit 1

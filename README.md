@@ -71,6 +71,10 @@ STAGE2_BATCH_SIZE = 8
 STAGE2_MAX_TOKENS = 3200
 STAGE2_MAX_ARTICLES = 0
 STAGE2_REVIEW_REJECTED = true
+LLM_REQUEST_TIMEOUT_MS = 45000
+LLM_RATE_LIMIT_RETRIES = 2
+LLM_FAIL_ON_ERROR = true
+LLM_DEBUG = true
 ```
 
 설정 방법은 [docs/model-setup.md](docs/model-setup.md)에 정리되어 있습니다.
@@ -85,8 +89,11 @@ STAGE2_REVIEW_REJECTED = true
 data/
   YYYY-MM-DD/
     articles.json
+    debug/
     stage0.json
+    stage1.partial.json
     stage1.json
+    stage2.partial.json
     stage2.json
     briefs.json
     run.json

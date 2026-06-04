@@ -59,8 +59,18 @@ function openAiCompatibleClient({ provider, baseUrl, apiKey, model, extraHeaders
     provider,
     model,
     async chatJson(messages, options = {}) {
+      const result = await this.chatJsonWithMeta(messages, options);
+      return result.parsed;
+    },
+    async chatJsonWithMeta(messages, options = {}) {
       const controller = new AbortController();
       const timeout = setTimeout(() => controller.abort(), Number(options.timeoutMs || timeoutMs));
+      const requestBody = {
+        model,
+        messages,
+        temperature: Number(options.temperature ?? 0.1),
+        max_tokens: Number(options.maxTokens ?? 1800)
+      };
       let response;
       try {
         response = await fetch(endpoint, {
@@ -72,30 +82,78 @@ function openAiCompatibleClient({ provider, baseUrl, apiKey, model, extraHeaders
             "Content-Type": "application/json",
             ...extraHeaders
           },
-          body: JSON.stringify({
-            model,
-            messages,
-            temperature: Number(options.temperature ?? 0.1),
-            max_tokens: Number(options.maxTokens ?? 1800)
-          })
+          body: JSON.stringify(requestBody)
         });
       } catch (error) {
         if (error?.name === "AbortError") {
-          throw new Error(`${provider} request timed out after ${Number(options.timeoutMs || timeoutMs)}ms`);
+          throw withLlmDebug(new Error(`${provider} request timed out after ${Number(options.timeoutMs || timeoutMs)}ms`), {
+            provider,
+            model,
+            endpoint,
+            request: summarizeRequest(requestBody),
+            error_type: "timeout"
+          });
         }
-        throw error;
+        throw withLlmDebug(error, {
+          provider,
+          model,
+          endpoint,
+          request: summarizeRequest(requestBody),
+          error_type: "network"
+        });
       } finally {
         clearTimeout(timeout);
       }
 
       const text = await response.text();
       if (!response.ok) {
-        throw new Error(`${provider} HTTP ${response.status}: ${text.slice(0, 800)}`);
+        throw withLlmDebug(new Error(`${provider} HTTP ${response.status}: ${text.slice(0, 800)}`), {
+          provider,
+          model,
+          endpoint,
+          request: summarizeRequest(requestBody),
+          http_status: response.status,
+          raw_response: text,
+          error_type: "http"
+        });
       }
 
-      const payload = JSON.parse(text);
+      let payload;
+      try {
+        payload = JSON.parse(text);
+      } catch (error) {
+        throw withLlmDebug(new Error(`${provider} response was not JSON: ${text.slice(0, 300)}`), {
+          provider,
+          model,
+          endpoint,
+          request: summarizeRequest(requestBody),
+          http_status: response.status,
+          raw_response: text,
+          error_type: "response-json-parse"
+        });
+      }
       const content = payload.choices?.[0]?.message?.content || "";
-      return parseJsonContent(content);
+      try {
+        return {
+          parsed: parseJsonContent(content),
+          raw_content: content,
+          raw_response: text,
+          response: summarizeResponsePayload(payload),
+          request: summarizeRequest(requestBody)
+        };
+      } catch (error) {
+        throw withLlmDebug(error, {
+          provider,
+          model,
+          endpoint,
+          request: summarizeRequest(requestBody),
+          http_status: response.status,
+          raw_response: text,
+          raw_content: content,
+          response: summarizeResponsePayload(payload),
+          error_type: "content-json-parse"
+        });
+      }
     }
   };
 }
@@ -122,4 +180,35 @@ function parseJsonContent(content) {
 
 function normalizeProvider(value) {
   return String(value || "rule").trim().toLowerCase();
+}
+
+function withLlmDebug(error, debug) {
+  if (error && typeof error === "object") {
+    error.llmDebug = debug;
+  }
+  return error;
+}
+
+function summarizeRequest(requestBody) {
+  return {
+    model: requestBody.model,
+    temperature: requestBody.temperature,
+    max_tokens: requestBody.max_tokens,
+    message_count: requestBody.messages.length,
+    messages: requestBody.messages.map((message) => ({
+      role: message.role,
+      char_count: String(message.content || "").length,
+      preview: String(message.content || "").slice(0, 500)
+    }))
+  };
+}
+
+function summarizeResponsePayload(payload) {
+  return {
+    id: payload.id,
+    model: payload.model,
+    usage: payload.usage,
+    finish_reason: payload.choices?.[0]?.finish_reason,
+    content_char_count: String(payload.choices?.[0]?.message?.content || "").length
+  };
 }

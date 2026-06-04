@@ -27,6 +27,7 @@ STAGE2_REVIEW_REJECTED=true
 LLM_REQUEST_TIMEOUT_MS=45000
 LLM_RATE_LIMIT_RETRIES=2
 LLM_FAIL_ON_ERROR=true
+LLM_DEBUG=true
 ```
 
 ## 지원 provider
@@ -77,5 +78,6 @@ LLM_API_KEY=provider api key
 - Groq `llama-3.1-8b-instant`는 무료 TPM이 낮아 1차 전체 실행에서 자동으로 Llama 4 Scout로 승격됩니다. 정말 8B를 쓰려면 `STAGE1_ALLOW_LOW_TPM=true`를 설정합니다.
 - LLM 요청은 기본 45초 timeout을 둡니다. 429 rate limit은 `LLM_RATE_LIMIT_RETRIES` 횟수만큼 기다렸다가 재시도합니다.
 - LLM 단계가 `error`이면 기본적으로 workflow를 실패시켜 조용히 0건 결과가 커밋되지 않게 합니다.
+- `LLM_DEBUG=true`이면 batch별 raw 응답, parsed JSON, normalize 결과, error 로그를 `data/YYYY-MM-DD/debug/`에 저장합니다.
 - 무료 한도를 아끼려면 먼저 `STAGE1_MAX_ARTICLES=20`, `STAGE2_MAX_ARTICLES=20`으로 테스트합니다.
 - `STAGE2_REVIEW_REJECTED=true`이면 1차에서 제외한 기사도 2차에서 다시 봅니다. 정확도는 올라가지만 호출량이 늘어납니다.
