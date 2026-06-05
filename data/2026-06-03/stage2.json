@@ -1,13 +1,13 @@
 {
   "target_date": "2026-06-03",
-  "generated_at": "2026-06-05T02:07:09.324Z",
+  "generated_at": "2026-06-05T02:28:25.726Z",
   "analyzer": "stage2-llm",
   "enabled": true,
   "provider": "groq",
   "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-  "status": "partial",
+  "status": "ok",
   "requested_article_count": 17,
-  "analyzed_article_count": 15,
+  "analyzed_article_count": 17,
   "batch_size": 8,
   "errors": [
     "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499639, Requested 12052. Please try again in 33m40.2048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
@@ -179,8 +179,24 @@
       "final_reason": "공공기관 언급이나 직접적인 관련성이 낮음",
       "review_note": "1차 판단에서 공공기관 관련 내용으로 C 그룹에 포함되었으나, 직접적인 관련성이 낮아 최종적으로 제외함",
       "departments": []
+    },
+    {
+      "article_id": "51ad895d561ae6bb",
+      "final_relevant": false,
+      "confidence": 0.2,
+      "final_reason": "한국에너지공대 김경모 교수의 미국원자력학회 최우수 논문상 수상은 에너지 관련 연구이지만, 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "1차 판단에서 에너지 언급으로 관련 가능성 있음으로 분류되었으나, 실제 기사 내용은 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "972e2b5a8c7780b8",
+      "final_relevant": false,
+      "confidence": 0.3,
+      "final_reason": "산업통상부의 국제감축사업 실무 매뉴얼 제공과 국토교통부의 그린리모델링 지원 사업 등은 에너지 관련 정책이지만, 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "1차 판단에서 에너지 관련 이슈로 분류되었으나, 실제 기사 내용은 한국석유공사와 직접 관련이 없음",
+      "departments": []
     }
   ],
   "final_relevant_count": 3,
-  "final_rejected_count": 12
+  "final_rejected_count": 14
 }
