@@ -19,6 +19,10 @@ on:
         description: "Whether stage2 should review stage1 rejected articles."
         required: false
         default: "true"
+      reuse_stage1:
+        description: "Reuse existing stage0/stage1 files and rerun stage2 only."
+        required: false
+        default: "false"
   schedule:
     # 00:05 Asia/Seoul every day. GitHub cron uses UTC.
     - cron: "5 15 * * *"
@@ -62,7 +66,15 @@ jobs:
         id: analyze
         continue-on-error: true
         timeout-minutes: 30
-        run: node scripts/analyze.mjs --date "${{ github.event.inputs.date || 'yesterday' }}"
+        env:
+          TARGET_DATE: ${{ github.event.inputs.date || 'yesterday' }}
+          REUSE_STAGE1: ${{ github.event.inputs.reuse_stage1 || 'false' }}
+        run: |
+          args=(--date "$TARGET_DATE")
+          if [ "$REUSE_STAGE1" = "true" ]; then
+            args+=(--reuse-stage1)
+          fi
+          node scripts/analyze.mjs "${args[@]}"
 
       - name: Commit collected data
         if: always()

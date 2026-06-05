@@ -30,33 +30,75 @@ async function main() {
   const maxItemsPerDepartment = Number(args.maxItemsPerDepartment || 80);
   const maxOverallItems = Number(args.maxOverallItems || 200);
 
-  const stage0 = runStage0({ targetDate, articles, keywordConfig: stage0Keywords });
-  await writeJson(path.join(dayDir, "stage0.json"), stage0);
+  if (args.reuseExistingStages) {
+    const stage0 = JSON.parse(await fs.readFile(path.join(dayDir, "stage0.json"), "utf8"));
+    const stage1 = JSON.parse(await fs.readFile(path.join(dayDir, "stage1.json"), "utf8"));
+    const stage2 = JSON.parse(await fs.readFile(path.join(dayDir, "stage2.json"), "utf8"));
+    const briefs = buildBriefs({
+      targetDate,
+      articles,
+      departments,
+      stage0,
+      stage1,
+      stage2,
+      maxItemsPerDepartment,
+      maxOverallItems
+    });
+    await writeJson(path.join(dayDir, "briefs.json"), briefs);
+    await updateIndex(targetDate, briefs);
+    console.log(
+      JSON.stringify(
+        {
+          target_date: targetDate,
+          analyzer: analyzerVersion,
+          reused_existing_stages: true,
+          input_article_count: articles.length,
+          final_relevant_article_count: briefs.relevant_article_count,
+          relevant_department_count: briefs.relevant_department_count,
+          output: `data/${targetDate}/briefs.json`
+        },
+        null,
+        2
+      )
+    );
+    return;
+  }
+
+  const stage0 = args.reuseStage1
+    ? JSON.parse(await fs.readFile(path.join(dayDir, "stage0.json"), "utf8"))
+    : runStage0({ targetDate, articles, keywordConfig: stage0Keywords });
+  if (!args.reuseStage1) {
+    await writeJson(path.join(dayDir, "stage0.json"), stage0);
+  }
 
   const stage1Setup = createStageClient("STAGE1", {
     provider: process.env.LLM_PROVIDER || "none",
     model: process.env.LLM_MODEL || "meta-llama/llama-4-scout-17b-16e-instruct"
   });
-  const stage1 = stage1Setup.client
-    ? await runStage1({
-        targetDate,
-        client: stage1Setup.client,
-        articles,
-        stage0,
-        departments,
-        knocContext,
-        dayDir,
-        debugDir,
-        batchSize: Number(args.stage1BatchSize || process.env.STAGE1_BATCH_SIZE || process.env.LLM_BATCH_SIZE || 16),
-        maxArticles: Number(args.stage1MaxArticles ?? process.env.STAGE1_MAX_ARTICLES ?? process.env.LLM_MAX_ARTICLES ?? 0)
-      })
-    : disabledStage({
-        targetDate,
-        stage: "stage1",
-        setup: stage1Setup,
-        requestedArticleCount: articles.length
-      });
-  await writeJson(path.join(dayDir, "stage1.json"), stage1);
+  const stage1 = args.reuseStage1
+    ? JSON.parse(await fs.readFile(path.join(dayDir, "stage1.json"), "utf8"))
+    : stage1Setup.client
+      ? await runStage1({
+          targetDate,
+          client: stage1Setup.client,
+          articles,
+          stage0,
+          departments,
+          knocContext,
+          dayDir,
+          debugDir,
+          batchSize: Number(args.stage1BatchSize || process.env.STAGE1_BATCH_SIZE || process.env.LLM_BATCH_SIZE || 16),
+          maxArticles: Number(args.stage1MaxArticles ?? process.env.STAGE1_MAX_ARTICLES ?? process.env.LLM_MAX_ARTICLES ?? 0)
+        })
+      : disabledStage({
+          targetDate,
+          stage: "stage1",
+          setup: stage1Setup,
+          requestedArticleCount: articles.length
+        });
+  if (!args.reuseStage1) {
+    await writeJson(path.join(dayDir, "stage1.json"), stage1);
+  }
 
   const stage2Setup = createStageClient("STAGE2", {
     provider: stage1Setup.provider || process.env.LLM_PROVIDER || "none",
@@ -624,11 +666,16 @@ function buildBriefs({ targetDate, articles, departments, stage0, stage1, stage2
   const departmentMap = new Map(departmentsOutput.map((department) => [department.department_id, department]));
   const departmentNameMap = new Map(departments.map((department) => [department.id, department.name]));
   const overallItems = [];
+  const briefSelection = selectBriefResults(stage1, stage2, {
+    allowStage1Fallback: booleanEnv(process.env.STAGE1_FALLBACK_BRIEFS, false)
+  });
 
-  for (const result of stage2.results || []) {
+  for (const result of briefSelection.results) {
     if (!result.final_relevant) continue;
     const article = articleMap.get(result.article_id);
     if (!article) continue;
+    const analysisStage = result.analysis_stage || briefSelection.analysis_stage;
+    const sourceLabel = briefSelection.fallback_used ? "llm-stage1-fallback" : "llm";
 
     const commonItem = {
       id: stableId([article.id, "overall", result.final_reason]),
@@ -641,8 +688,8 @@ function buildBriefs({ targetDate, articles, departments, stage0, stage1, stage2
       segment_text: result.final_reason || article.description || article.title,
       reason: result.final_reason || "",
       evidence_type: "article",
-      source: "llm",
-      analysis_stage: "stage2",
+      source: sourceLabel,
+      analysis_stage: analysisStage,
       stage0_group: stage0Map.get(article.id)?.group || "B",
       stage1_group: stage1Map.get(article.id)?.candidate ? "C" : "D",
       review_note: result.review_note || "",
@@ -672,8 +719,8 @@ function buildBriefs({ targetDate, articles, departments, stage0, stage1, stage2
           `${departmentNameMap.get(departmentResult.department_id) || departmentResult.department_id} 업무와 연결됩니다.`,
         evidence_type: departmentResult.evidence_type,
         evidence_segment_ids: departmentResult.evidence_segment_ids,
-        source: "llm",
-        analysis_stage: "stage2",
+        source: sourceLabel,
+        analysis_stage: analysisStage,
         stage0_group: stage0Map.get(article.id)?.group || "B",
         stage1_group: stage1Map.get(article.id)?.candidate ? "C" : "D",
         review_note: result.review_note || ""
@@ -690,7 +737,9 @@ function buildBriefs({ targetDate, articles, departments, stage0, stage1, stage2
   const overall = {
     id: "overall",
     label: "전체",
-    source: "llm",
+    source: briefSelection.fallback_used ? "llm-stage1-fallback" : "llm",
+    analysis_stage: briefSelection.analysis_stage,
+    fallback_used: briefSelection.fallback_used,
     article_count: new Set(overallItems.map((item) => item.article_id)).size,
     item_count: overallItems.length,
     items: bestItemPerArticle(overallItems).sort(sortItems).slice(0, maxOverallItems)
@@ -721,13 +770,49 @@ function buildBriefs({ targetDate, articles, departments, stage0, stage1, stage2
       status: finalLlmStatus(stage1, stage2),
       provider: stage2.provider || stage1.provider || null,
       model: stage2.model || stage1.model || null,
-      analyzed_article_count: stage2.analyzed_article_count || 0,
+      analyzed_article_count: stage2.analyzed_article_count || stage1.analyzed_article_count || 0,
+      brief_source_stage: briefSelection.analysis_stage,
+      fallback_used: briefSelection.fallback_used,
       stages: {
         stage1: summarizeStage(stage1),
         stage2: summarizeStage(stage2)
       }
     },
     departments: departmentsOutput
+  };
+}
+
+function selectBriefResults(stage1, stage2, options = {}) {
+  const stage2Results = (stage2.results || []).filter((result) => result.final_relevant);
+  if (stage2Results.length > 0) {
+    return {
+      analysis_stage: "stage2",
+      fallback_used: false,
+      results: stage2Results
+    };
+  }
+
+  const stage1Candidates = (stage1.results || []).filter((result) => result.candidate);
+  if (!options.allowStage1Fallback || stage1Candidates.length === 0) {
+    return {
+      analysis_stage: "stage2",
+      fallback_used: false,
+      results: []
+    };
+  }
+
+  return {
+    analysis_stage: "stage1_fallback",
+    fallback_used: true,
+    results: stage1Candidates.map((result) => ({
+      article_id: result.article_id,
+      final_relevant: true,
+      confidence: result.confidence,
+      final_reason: result.company_reason,
+      review_note: "stage2 review unavailable; showing stage1 LLM candidate.",
+      analysis_stage: "stage1_fallback",
+      departments: result.departments || []
+    }))
   };
 }
 
@@ -1060,9 +1145,11 @@ function parseArgs(argv) {
     else if (arg === "--stage1-batch-size") args.stage1BatchSize = argv[++index];
     else if (arg === "--stage2-batch-size") args.stage2BatchSize = argv[++index];
     else if (arg === "--stage2-max-rejected") args.stage2MaxRejected = argv[++index];
+    else if (arg === "--reuse-stage1") args.reuseStage1 = true;
+    else if (arg === "--reuse-existing-stages") args.reuseExistingStages = true;
     else if (arg === "--help" || arg === "-h") {
       console.log(
-        "Usage: node scripts/analyze.mjs --date YYYY-MM-DD [--stage1-batch-size 8] [--stage2-batch-size 4]"
+        "Usage: node scripts/analyze.mjs --date YYYY-MM-DD [--stage1-batch-size 8] [--stage2-batch-size 4] [--reuse-stage1] [--reuse-existing-stages]"
       );
       process.exit(0);
     }
