@@ -1,0 +1,724 @@
+{
+  "target_date": "2026-06-05",
+  "generated_at": "2026-06-05T17:36:03.923Z",
+  "analyzer": "knoc-two-pass-llm-v1",
+  "input_article_count": 295,
+  "relevant_article_count": 7,
+  "relevant_department_count": 7,
+  "pipeline": {
+    "stage0": {
+      "analyzer": "stage0-keyword-router-v1",
+      "keyword_hit_count": 50,
+      "keyword_miss_count": 245
+    },
+    "stage1": {
+      "enabled": true,
+      "status": "partial",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 295,
+      "analyzed_article_count": 199,
+      "candidate_count": 13,
+      "rejected_count": 114,
+      "warning_count": 15,
+      "error_count": 6
+    },
+    "stage2": {
+      "enabled": true,
+      "status": "partial",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 127,
+      "analyzed_article_count": 120,
+      "final_relevant_count": 10,
+      "final_rejected_count": 108,
+      "warning_count": 19,
+      "error_count": 1
+    }
+  },
+  "overall": {
+    "id": "overall",
+    "label": "전체",
+    "source": "llm",
+    "analysis_stage": "stage2",
+    "fallback_used": false,
+    "article_count": 7,
+    "item_count": 7,
+    "items": [
+      {
+        "id": "95c4dfed6659e813",
+        "article_id": "bd7271d88232fa91",
+        "publisher": "한겨레",
+        "title": "전쟁·외국인 매도세에 환율 1539.1원…금융위기 수준으로 치솟아",
+        "url": "https://www.hani.co.kr/arti/economy/economy_general/1262130.html",
+        "published_at": "2026-06-05T06:40:00.000Z",
+        "score": 0.9,
+        "segment_text": "유가 관련 언급으로 인해 에너지 안보와 관련된 기사로 판단됨",
+        "reason": "유가 관련 언급으로 인해 에너지 안보와 관련된 기사로 판단됨",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "9cb048495dfb1ab5",
+        "article_id": "9431392256ed4413",
+        "publisher": "경향신문",
+        "title": "오만 원유 수출 터미널서 폭발···“원유 선적 중단”",
+        "url": "https://www.khan.co.kr/article/202606051217001",
+        "published_at": "2026-06-05T03:17:00.000Z",
+        "score": 0.9,
+        "segment_text": "원유 수출 터미널 폭발로 인한 원유 선적 중단 관련 기사로, 한국석유공사의 해외 자원개발 및 에너지 안보와 관련이 있음",
+        "reason": "원유 수출 터미널 폭발로 인한 원유 선적 중단 관련 기사로, 한국석유공사의 해외 자원개발 및 에너지 안보와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "asia_business",
+            "name": "아시아사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "global_technology_center",
+            "name": "글로벌기술센터",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "a1f2e1d02e6af36d",
+        "article_id": "825d0c3099d2a1a9",
+        "publisher": "한겨레",
+        "title": "“1000배 더 안전한 차세대 SMR”…미국 AI 시대 에너지 확보 길 트다 [르포]",
+        "url": "https://www.hani.co.kr/arti/international/america/1262045.html",
+        "published_at": "2026-06-04T21:00:00.000Z",
+        "score": 0.88,
+        "segment_text": "에너지 관련 내용이 포함되어 있어 한국석유공사의 에너지 사업과 관련이 있음",
+        "reason": "에너지 관련 내용이 포함되어 있어 한국석유공사의 에너지 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단 유지",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "8a215860cfce8d6c",
+        "article_id": "3f0c525af254244d",
+        "publisher": "경향신문",
+        "title": "산업부 차관, 아람코 다운스트림 사장 만나 협력 방안 집중 논의",
+        "url": "https://www.khan.co.kr/article/202606051347001",
+        "published_at": "2026-06-05T04:47:00.000Z",
+        "score": 0.8,
+        "segment_text": "석유, 에너지 관련 내용이 포함되어 있어 한국석유공사와 관련이 있을 수 있음",
+        "reason": "석유, 에너지 관련 내용이 포함되어 있어 한국석유공사와 관련이 있을 수 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "175113309b8e15cf",
+        "article_id": "a59b1b76173a0315",
+        "publisher": "경향신문",
+        "title": "[사설]1550원대 넘보는 환율, 민생 영향 최소화에 정부 주력해야",
+        "url": "https://www.khan.co.kr/article/202606051810001",
+        "published_at": "2026-06-05T09:10:00.000Z",
+        "score": 0.7,
+        "segment_text": "유가 관련 언급이 있어 에너지 안보와 관련이 있을 수 있음",
+        "reason": "유가 관련 언급이 있어 에너지 안보와 관련이 있을 수 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "8cbc64ddd2c7ab6c",
+        "article_id": "61a0253f0e2442f2",
+        "publisher": "한겨레",
+        "title": "재생에너지 ‘낭비’ 심각한 중국…화력 기반 전력망 관리 방식부터 바꿔야",
+        "url": "https://www.hani.co.kr/arti/society/environment/1262166.html",
+        "published_at": "2026-06-05T08:31:00.000Z",
+        "score": 0.7,
+        "segment_text": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+        "reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단 유지",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "85b97cd93efeb21e",
+        "article_id": "fde4161b7a1d3ff5",
+        "publisher": "경향신문",
+        "title": "가스공사 ‘LNG캐나다’ 프로젝트 16년의 결실…에너지 주권 강화 한 걸음",
+        "url": "https://www.khan.co.kr/article/202606051200011",
+        "published_at": "2026-06-05T03:00:01.000Z",
+        "score": 0.7,
+        "segment_text": "유가 관련 이슈로 한국석유공사의 석유사업, 유통사업, 가격 안정화 노력과 관련이 있을 수 있음",
+        "reason": "유가 관련 이슈로 한국석유공사의 석유사업, 유통사업, 가격 안정화 노력과 관련이 있을 수 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_review": {
+    "enabled": true,
+    "status": "partial",
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "analyzed_article_count": 120,
+    "brief_source_stage": "stage2",
+    "fallback_used": false,
+    "stages": {
+      "stage1": {
+        "enabled": true,
+        "status": "partial",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 295,
+        "analyzed_article_count": 199,
+        "candidate_count": 13,
+        "rejected_count": 114,
+        "warning_count": 15,
+        "error_count": 6
+      },
+      "stage2": {
+        "enabled": true,
+        "status": "partial",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 127,
+        "analyzed_article_count": 120,
+        "final_relevant_count": 10,
+        "final_rejected_count": 108,
+        "warning_count": 19,
+        "error_count": 1
+      }
+    }
+  },
+  "departments": [
+    {
+      "department_id": "secretariat",
+      "department": "비서팀",
+      "role": "사장 일정, 의전, 대내외 메시지, 지시사항 이행과 대외 접점 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "she",
+      "department": "SHE추진실",
+      "role": "전사 안전, 보건, 환경, 재난 대응, 중대재해 예방과 안전보건환경 관리체계를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "audit",
+      "department": "감사실",
+      "role": "감사계획과 감사 수행, 내부통제, 일상감사, 부패·비위 점검, 청렴 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "legal",
+      "department": "법무팀",
+      "role": "국내외 송무, 계약과 사업의 법률 검토, 규제 대응, 분쟁 대응, 지식재산권 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "planning_budget",
+      "department": "기획예산처",
+      "role": "이사회, 국회, 정부 대응, 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "strategy",
+      "department": "경영전략처",
+      "role": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "297b9b46c0f59837",
+          "article_id": "61a0253f0e2442f2",
+          "publisher": "한겨레",
+          "title": "재생에너지 ‘낭비’ 심각한 중국…화력 기반 전력망 관리 방식부터 바꿔야",
+          "url": "https://www.hani.co.kr/arti/society/environment/1262166.html",
+          "published_at": "2026-06-05T08:31:00.000Z",
+          "score": 0.6,
+          "segment_text": "중국은 오늘날 전세계 재생에너지 산업을 이끄는 ‘녹색전환’ 선도 국가다. 미국·이스라엘-이란 전쟁으로 전세계가 화석연료 수급에 곤란을 겪지만, 중국은 재생에너지 전환을 더욱 가속화하며 되레 그 수혜를 누릴 것으로 전망된다.",
+          "reason": "에너지 정책과 시장 동향 분석으로 한국석유공사의 경영전략과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단 유지"
+        }
+      ]
+    },
+    {
+      "department_id": "finance",
+      "department": "재무처",
+      "role": "자금 조달과 상환, 자금 집행, 결산, 세무, 환율·금리·부채 등 재무 리스크 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "esg",
+      "department": "ESG경영처",
+      "role": "ESG 경영, 윤리·인권, 사회공헌, 동반성장, 상생, 내부통제 지원 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "infosec",
+      "department": "정보보안팀",
+      "role": "정보보안 정책과 운영, 개인정보보호, 사이버 침해 대응, 정보유출 예방 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "general_affairs",
+      "department": "총무처",
+      "role": "문서와 기록물, 자산, 사옥, 숙소, 조달계약, 구매, 시설관리, 비상대비 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hr",
+      "department": "인재경영처",
+      "role": "조직, 인사, 채용, 평가, 교육훈련, 급여, 복리후생, 노사관계와 인력 운영을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "smart_data",
+      "department": "스마트데이터센터",
+      "role": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
+      "article_count": 2,
+      "segment_count": 2,
+      "items": [
+        {
+          "id": "6346edaeca541f94",
+          "article_id": "a59b1b76173a0315",
+          "publisher": "경향신문",
+          "title": "[사설]1550원대 넘보는 환율, 민생 영향 최소화에 정부 주력해야",
+          "url": "https://www.khan.co.kr/article/202606051810001",
+          "published_at": "2026-06-05T09:10:00.000Z",
+          "score": 0.6,
+          "segment_text": "유가, 국제유가, 에너지",
+          "reason": "석유정보 서비스, 유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "37018827ff27fd51",
+          "article_id": "bd7271d88232fa91",
+          "publisher": "한겨레",
+          "title": "전쟁·외국인 매도세에 환율 1539.1원…금융위기 수준으로 치솟아",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1262130.html",
+          "published_at": "2026-06-05T06:40:00.000Z",
+          "score": 0.6,
+          "segment_text": "원-달러 환율의 급등세가 5일에도 이어지며 글로벌 금융위기 때 수준으로 치솟았다. 미국·이스라엘-이란 전쟁 여파와 외국인 주식 매도세에 더해 미국에 대한 대규모 투자 약정 또한 외환시장 불안의 주요인으로 거론되고 있다.",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        }
+      ]
+    },
+    {
+      "department_id": "asia_business",
+      "department": "아시아사업처",
+      "role": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "9543567c9dc41441",
+          "article_id": "9431392256ed4413",
+          "publisher": "경향신문",
+          "title": "오만 원유 수출 터미널서 폭발···“원유 선적 중단”",
+          "url": "https://www.khan.co.kr/article/202606051217001",
+          "published_at": "2026-06-05T03:17:00.000Z",
+          "score": 0.8,
+          "segment_text": "오만의 주요 원유 수출 기지인 미나 알파할 터미널에서 무인기 공격으로 추정되는 폭발이 발생해 원유 선적이 중단됐다.",
+          "reason": "해외 자원개발 및 에너지 안보와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        }
+      ]
+    },
+    {
+      "department_id": "americas_europe_business",
+      "department": "미주/유럽사업처",
+      "role": "미주와 유럽 지역 E&P 사업, 해외광구, Capex/Opex, 사업 손익, 자금수지 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "domestic_business_development",
+      "department": "국내사업개발처",
+      "role": "국내 자원개발 사업, 국내 대륙붕, 가스전, 탐사·시추, 신규 국내 사업개발을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "low_carbon",
+      "department": "저탄소추진처",
+      "role": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
+      "article_count": 2,
+      "segment_count": 2,
+      "items": [
+        {
+          "id": "3d1e40fae2cb514b",
+          "article_id": "825d0c3099d2a1a9",
+          "publisher": "한겨레",
+          "title": "“1000배 더 안전한 차세대 SMR”…미국 AI 시대 에너지 확보 길 트다 [르포]",
+          "url": "https://www.hani.co.kr/arti/international/america/1262045.html",
+          "published_at": "2026-06-04T21:00:00.000Z",
+          "score": 0.9,
+          "segment_text": "미국 AI 시대 에너지 확보 길 트다",
+          "reason": "에너지 확보와 관련된 내용이 포함되어 있어 저탄소추진처의 업무와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단 유지"
+        },
+        {
+          "id": "3127047c21629b57",
+          "article_id": "61a0253f0e2442f2",
+          "publisher": "한겨레",
+          "title": "재생에너지 ‘낭비’ 심각한 중국…화력 기반 전력망 관리 방식부터 바꿔야",
+          "url": "https://www.hani.co.kr/arti/society/environment/1262166.html",
+          "published_at": "2026-06-05T08:31:00.000Z",
+          "score": 0.8,
+          "segment_text": "중국은 오늘날 전세계 재생에너지 산업을 이끄는 ‘녹색전환’ 선도 국가다. 미국·이스라엘-이란 전쟁으로 전세계가 화석연료 수급에 곤란을 겪지만, 중국은 재생에너지 전환을 더욱 가속화하며 되레 그 수혜를 누릴 것으로 전망된다.",
+          "reason": "재생에너지 전환과 에너지 안보 관련 정책으로 한국석유공사의 저탄소 사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단 유지"
+        }
+      ]
+    },
+    {
+      "department_id": "global_technology_center",
+      "department": "글로벌기술센터",
+      "role": "E&P 기술지원, 지질·저류층·시추 기술, 기술전략, 연구개발, 기술자료와 기술평가를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "e6cb19332315ae6b",
+          "article_id": "9431392256ed4413",
+          "publisher": "경향신문",
+          "title": "오만 원유 수출 터미널서 폭발···“원유 선적 중단”",
+          "url": "https://www.khan.co.kr/article/202606051217001",
+          "published_at": "2026-06-05T03:17:00.000Z",
+          "score": 0.6,
+          "segment_text": "오만의 주요 원유 수출 기지인 미나 알파할 터미널에서 무인기 공격으로 추정되는 폭발이 발생해 원유 선적이 중단됐다.",
+          "reason": "에너지 관련 기술 지원 및 위험 관리와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        }
+      ]
+    },
+    {
+      "department_id": "stockpiling",
+      "department": "석유비축처",
+      "role": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "petroleum_business",
+      "department": "석유사업처",
+      "role": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+      "article_count": 4,
+      "segment_count": 4,
+      "items": [
+        {
+          "id": "1b56e0d5c914418f",
+          "article_id": "3f0c525af254244d",
+          "publisher": "경향신문",
+          "title": "산업부 차관, 아람코 다운스트림 사장 만나 협력 방안 집중 논의",
+          "url": "https://www.khan.co.kr/article/202606051347001",
+          "published_at": "2026-06-05T04:47:00.000Z",
+          "score": 0.9,
+          "segment_text": "중동전쟁 불확실성이 지속하는 가운데 문신학 산업통상부 차관이 사우디아라비아 국영 석유회사 '아람코' 고위급을 만나 향후 협력 방안을 논의했다.",
+          "reason": "석유사업과 관련하여 아람코와 협력 방안을 논의하는 내용이 포함되어 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "43821ec68d158ce3",
+          "article_id": "a59b1b76173a0315",
+          "publisher": "경향신문",
+          "title": "[사설]1550원대 넘보는 환율, 민생 영향 최소화에 정부 주력해야",
+          "url": "https://www.khan.co.kr/article/202606051810001",
+          "published_at": "2026-06-05T09:10:00.000Z",
+          "score": 0.8,
+          "segment_text": "유가, 국제유가, 에너지",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "4ebb4f54e589b9f5",
+          "article_id": "bd7271d88232fa91",
+          "publisher": "한겨레",
+          "title": "전쟁·외국인 매도세에 환율 1539.1원…금융위기 수준으로 치솟아",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1262130.html",
+          "published_at": "2026-06-05T06:40:00.000Z",
+          "score": 0.8,
+          "segment_text": "원-달러 환율의 급등세가 5일에도 이어지며 글로벌 금융위기 때 수준으로 치솟았다. 미국·이스라엘-이란 전쟁 여파와 외국인 주식 매도세에 더해 미국에 대한 대규모 투자 약정 또한 외환시장 불안의 주요인으로 거론되고 있다.",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "885524c79a680a2c",
+          "article_id": "fde4161b7a1d3ff5",
+          "publisher": "경향신문",
+          "title": "가스공사 ‘LNG캐나다’ 프로젝트 16년의 결실…에너지 주권 강화 한 걸음",
+          "url": "https://www.khan.co.kr/article/202606051200011",
+          "published_at": "2026-06-05T03:00:01.000Z",
+          "score": 0.8,
+          "segment_text": "호르무즈 해협을 통과하는 선박들로부터 징수할 예정인 요금은 '통행료'가 아닌 '서비스 요금'",
+          "reason": "석유 가격과 관련된 이슈로 석유사업과 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        }
+      ]
+    },
+    {
+      "department_id": "distribution_business",
+      "department": "유통사업처",
+      "role": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "4e93b7da0aa1cc6a",
+          "article_id": "fde4161b7a1d3ff5",
+          "publisher": "경향신문",
+          "title": "가스공사 ‘LNG캐나다’ 프로젝트 16년의 결실…에너지 주권 강화 한 걸음",
+          "url": "https://www.khan.co.kr/article/202606051200011",
+          "published_at": "2026-06-05T03:00:01.000Z",
+          "score": 0.6,
+          "segment_text": "호르무즈 해협을 통과하는 선박들로부터 징수할 예정인 요금은 '통행료'가 아닌 '서비스 요금'",
+          "reason": "석유 유통과 관련된 이슈로 유통사업과 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        }
+      ]
+    },
+    {
+      "department_id": "energy_infra",
+      "department": "에너지인프라사업처",
+      "role": "에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hydrogen_ammonia",
+      "department": "수소암모니아사업단",
+      "role": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    }
+  ]
+}

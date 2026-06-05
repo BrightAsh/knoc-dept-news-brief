@@ -1,0 +1,80 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "9431392256ed4413",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "원유 수출 터미널 폭발로 인한 원유 선적 중단 관련 기사로, 한국석유공사의 해외 자원개발 및 에너지 안보와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "오만의 주요 원유 수출 기지인 미나 알파할 터미널에서 무인기 공격으로 추정되는 폭발이 발생해 원유 선적이 중단됐다.",
+          "evidence_type": "paragraph",
+          "reason": "해외 자원개발 및 에너지 안보와 관련이 있음"
+        },
+        {
+          "department_id": "global_technology_center",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "오만의 주요 원유 수출 기지인 미나 알파할 터미널에서 무인기 공격으로 추정되는 폭발이 발생해 원유 선적이 중단됐다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 기술 지원 및 위험 관리와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "fde4161b7a1d3ff5",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "LNG 프로젝트 관련 기사로, 한국석유공사의 에너지 안보 및 자원개발과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "지난 3일 7만5000t의 캐나다 액화천연가스를 실은 대형 선박이 한국가스공사 인천기지본부에 입항했다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 전환 및 저탄소 관련 사업과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.5,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "가스공사 ‘LNG캐나다’ 프로젝트 16년의 결실…에너지 주권 강화 한 걸음",
+          "evidence_type": "title",
+          "reason": "경영전략 및 에너지 안보와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "8345d87b04f8cc8a",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "공공기관의 공영주차장 관리 관련 기사로, 한국석유공사의 일반 행정 및 관리와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "general_affairs",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "대구시는 오는 8일부터 3주간 공영주차장 내 캠핑카의 이른바 '알박기 주차' 행위 등을 중점적으로 살핀다고 5일 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "일반 행정 및 관리와 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```
