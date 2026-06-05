@@ -1,6 +1,6 @@
 {
   "target_date": "2026-06-03",
-  "generated_at": "2026-06-05T00:57:08.040Z",
+  "generated_at": "2026-06-05T01:27:37.489Z",
   "analyzer": "stage2-llm",
   "enabled": true,
   "provider": "groq",
@@ -10,10 +10,12 @@
   "analyzed_article_count": 8,
   "batch_size": 8,
   "errors": [
-    "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 497350, Requested 12249. Please try again in 27m38.7072s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
-    "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 496991, Requested 6116. Please try again in 8m56.8896s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n"
+    "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499639, Requested 12052. Please try again in 33m40.2048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+    "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499279, Requested 4223. Please try again in 10m5.1456s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n"
   ],
   "warnings": [
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
+    "Retry batch after LLM rate limit in 30s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
     "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
     "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
     "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
@@ -24,89 +26,78 @@
       "article_id": "9476a3b92cd38e2a",
       "final_relevant": false,
       "confidence": 0.88,
-      "final_reason": "에너지 성장률 관련 기사이나, 한국석유공사와 직접 관련이 없음",
-      "review_note": "C 그룹에서 최종 검토 후 관련성 없음으로 판단",
-      "departments": []
-    },
-    {
-      "article_id": "38f9bf3e772839ac",
-      "final_relevant": false,
-      "confidence": 0.88,
-      "final_reason": "산업부 관련 기사이나, 한국석유공사와 직접 관련이 없음",
-      "review_note": "C 그룹에서 최종 검토 후 관련성 없음으로 판단",
+      "final_reason": "경제 성장률과 반도체 관련 기사로 한국석유공사와 직접적인 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
       "departments": []
     },
     {
       "article_id": "7afea72113ab7301",
       "final_relevant": false,
       "confidence": 0.88,
-      "final_reason": "일반 기사로 한국석유공사와 직접 관련이 없음",
-      "review_note": "C 그룹에서 최종 검토 후 관련성 없음으로 판단",
+      "final_reason": "에너지 관련 이슈지만 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
       "departments": []
-    },
-    {
-      "article_id": "972e2b5a8c7780b8",
-      "final_relevant": false,
-      "confidence": 0.88,
-      "final_reason": "에너지 정책 관련 기사이나, 한국석유공사와 직접 관련이 없음",
-      "review_note": "C 그룹에서 최종 검토 후 관련성 없음으로 판단",
-      "departments": []
-    },
-    {
-      "article_id": "ba6a312b984382bd",
-      "final_relevant": true,
-      "confidence": 0.88,
-      "final_reason": "석유 관련 사고 기사로, 한국석유공사 석유사업부와 관련이 있음",
-      "review_note": "C 그룹에서 최종 검토 후 관련성 있음으로 판단",
-      "departments": [
-        {
-          "department_id": "petroleum_business",
-          "relevance_score": 0.9,
-          "evidence_segment_ids": [
-            "s2"
-          ],
-          "evidence_text": "한화에어로 폭발사고 희생자",
-          "evidence_type": "paragraph",
-          "reason": "석유사업과 관련이 있음"
-        }
-      ]
-    },
-    {
-      "article_id": "85f74b037321b6c9",
-      "final_relevant": false,
-      "confidence": 0.88,
-      "final_reason": "일반 의료 정책 기사로 한국석유공사와 직접 관련이 없음",
-      "review_note": "C 그룹에서 최종 검토 후 관련성 없음으로 판단",
-      "departments": []
-    },
-    {
-      "article_id": "7323ffa7393be952",
-      "final_relevant": true,
-      "confidence": 0.88,
-      "final_reason": "에너지 관련 무역 기사로, 한국석유공사 석유사업부와 관련이 있음",
-      "review_note": "C 그룹에서 최종 검토 후 관련성 있음으로 판단",
-      "departments": [
-        {
-          "department_id": "petroleum_business",
-          "relevance_score": 0.9,
-          "evidence_segment_ids": [
-            "s3"
-          ],
-          "evidence_text": "미국 무역대표부가 한국을 포함한 60개 경제권이 강제노동 생산품의 수입을 차단하기 위한 법·제도와 집행 체계를 충분히 갖추지 못했다면서, 무역법 301조에 따른 추가 관세 부과를 추진하기로 했다.",
-          "evidence_type": "paragraph",
-          "reason": "에너지 관련 정책 및 무역 이슈는 석유사업 전략과 관련이 있음"
-        }
-      ]
     },
     {
       "article_id": "3198fd098fb8e3f0",
       "final_relevant": false,
       "confidence": 0.88,
-      "final_reason": "경제 성장률 관련 기사이나, 한국석유공사와 직접 관련이 없음",
-      "review_note": "C 그룹에서 최종 검토 후 관련성 없음으로 판단",
+      "final_reason": "정유 관련 언급이지만 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "9feff9b9af739d0c",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "정유 관련 언급이지만 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "298112c137200f67",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "유가 언급이지만 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "574bdbbafc5b3244",
+      "final_relevant": true,
+      "confidence": 0.88,
+      "final_reason": "이란-이스라엘 갈등으로 인한 국제 유가 변동 가능성이 있음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용과 한국석유공사의 석유 수급 업무와의 관련성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s7"
+          ],
+          "evidence_text": "케슘섬은 걸프 지역 석유·가스 수송의 핵심 항로인 호르무즈해협에 있는 이란의 가장 큰 섬이다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 수급에 영향을 줄 수 있는 국제 이슈"
+        }
+      ]
+    },
+    {
+      "article_id": "ba6a312b984382bd",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "석유 관련 이슈지만 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "85f74b037321b6c9",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "유가 관련 이슈지만 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
       "departments": []
     }
   ],
-  "final_relevant_count": 2,
-  "final_rejected_count": 6
+  "final_relevant_count": 1,
+  "final_rejected_count": 7
 }

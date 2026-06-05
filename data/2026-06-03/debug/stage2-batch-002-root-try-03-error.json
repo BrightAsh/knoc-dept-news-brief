@@ -5,16 +5,16 @@
   "split_path": "root",
   "attempt": 3,
   "article_ids": [
-    "e0c17efb20e5bcb7",
-    "9feff9b9af739d0c",
+    "7323ffa7393be952",
+    "38f9bf3e772839ac",
     "954525f1b5c92125",
     "8e66b588333e7b1e",
-    "298112c137200f67",
-    "574bdbbafc5b3244",
+    "51ad895d561ae6bb",
+    "e0c17efb20e5bcb7",
     "4b1484ec6e505539",
     "d12f293eb5f13dd9"
   ],
-  "message": "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 497350, Requested 12249. Please try again in 27m38.7072s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+  "message": "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499639, Requested 12052. Please try again in 33m40.2048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
   "name": "Error",
   "llm_debug": {
     "provider": "groq",
@@ -33,7 +33,7 @@
         },
         {
           "role": "user",
-          "char_count": 23551,
+          "char_count": 23365,
           "preview": "{\n  \"task\": \"각 기사를 2차 검토하라. C 그룹은 1차 후보 기사이므로 근거와 부서 배정을 정밀 검토하고, D 그룹은 1차 제외 기사이므로 누락 가능성을 본문 기반으로 재검토하라. 최종적으로 한국석유공사 업무와 관련 있는 기사만 final_relevant=true로 둔다.\",\n  \"knoc_context\": {\n    \"name\": \"한국석유공사\",\n    \"aliases\": [\n      \"KNOC\",\n      \"Korea National Oil Corporation\",\n      \"석유공사\"\n    ],\n    \"role\": \"한국석유공사는 대한민국의 에너지 안보와 석유 수급 안정을 위해 석유비축, 국내외 석유·가스 자원개발, 석유정보 제공, 석유유통 지원, 저탄소·수소·암모니아 등 에너지 전환 관련 사업을 수행하는 공공기관이다.\",\n    \"classification_policy\": [\n      \"기사에 한국석유공사가 직접 언급되지 않아도, 공사의 사업·위험·정책"
         }
       ]
