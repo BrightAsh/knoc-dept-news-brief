@@ -1,89 +1,83 @@
 {
   "results": [
     {
-      "article_id": "9476a3b92cd38e2a",
+      "article_id": "7323ffa7393be952",
       "final_relevant": false,
-      "confidence": 0.88,
-      "final_reason": "에너지 성장률 관련 기사이나, 한국석유공사와 직접 관련이 없음",
-      "review_note": "C 그룹에서 최종 검토 후 관련성 없음으로 판단",
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 이슈이나 한국석유공사의 직접적인 사업과 관련성이 낮음",
+      "review_note": "1차 판단에서 에너지 관련 이슈로 C 그룹에 포함되었으나, 직접적인 관련성이 낮아 최종적으로 제외함",
       "departments": []
     },
     {
       "article_id": "38f9bf3e772839ac",
       "final_relevant": false,
-      "confidence": 0.88,
-      "final_reason": "산업부 관련 기사이나, 한국석유공사와 직접 관련이 없음",
-      "review_note": "C 그룹에서 최종 검토 후 관련성 없음으로 판단",
+      "confidence": 0.7,
+      "final_reason": "산업부 관련 내용이나 한국석유공사의 직접적인 사업과 관련성이 낮음",
+      "review_note": "1차 판단에서 산업부 관련 내용으로 C 그룹에 포함되었으나, 직접적인 관련성이 낮아 최종적으로 제외함",
       "departments": []
     },
     {
-      "article_id": "7afea72113ab7301",
+      "article_id": "954525f1b5c92125",
       "final_relevant": false,
-      "confidence": 0.88,
-      "final_reason": "일반 기사로 한국석유공사와 직접 관련이 없음",
-      "review_note": "C 그룹에서 최종 검토 후 관련성 없음으로 판단",
+      "confidence": 0.9,
+      "final_reason": "지방선거 관련 기사로 공공기관의 역할과 관련성이 낮음",
+      "review_note": "1차 판단에서 공공기관 관련 내용으로 C 그룹에 포함되었으나, 직접적인 관련성이 낮아 최종적으로 제외함",
       "departments": []
     },
     {
-      "article_id": "972e2b5a8c7780b8",
-      "final_relevant": false,
-      "confidence": 0.88,
-      "final_reason": "에너지 정책 관련 기사이나, 한국석유공사와 직접 관련이 없음",
-      "review_note": "C 그룹에서 최종 검토 후 관련성 없음으로 판단",
-      "departments": []
-    },
-    {
-      "article_id": "ba6a312b984382bd",
+      "article_id": "8e66b588333e7b1e",
       "final_relevant": true,
-      "confidence": 0.88,
-      "final_reason": "석유 관련 사고 기사로, 한국석유공사 석유사업부와 관련이 있음",
-      "review_note": "C 그룹에서 최종 검토 후 관련성 있음으로 판단",
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 연구 성과로 저탄소 추진과 관련 있음",
+      "review_note": "1차 판단에서 에너지 관련 내용으로 C 그룹에 포함되었으며, 저탄소 추진과 관련 있어 최종적으로 포함함",
       "departments": [
         {
-          "department_id": "petroleum_business",
+          "department_id": "low_carbon",
           "relevance_score": 0.9,
           "evidence_segment_ids": [
+            "s1",
             "s2"
           ],
-          "evidence_text": "한화에어로 폭발사고 희생자",
-          "evidence_type": "paragraph",
-          "reason": "석유사업과 관련이 있음"
+          "evidence_text": "한국에너지공대 김경모 교수, 미국원자력학회 ‘최우수 논문상’",
+          "evidence_type": "article",
+          "reason": "에너지 관련 연구와 개발"
         }
       ]
     },
     {
-      "article_id": "85f74b037321b6c9",
+      "article_id": "e0c17efb20e5bcb7",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "경제 성장률 전망과 에너지 수요는 관련이 있으며, 이는 석유정보 서비스와 관련 있음",
+      "review_note": "1차 판단에서 에너지 관련 이슈로 C 그룹에 포함되었으며, 경제 성장률과 에너지 수요 관련 있어 최종적으로 포함함",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "OECD, 올 한국 성장률 2.6%로 올려…명목GDP는 10.4%↑",
+          "evidence_type": "paragraph",
+          "reason": "경제 성장률과 에너지 수요는 관련이 있으며, 이는 석유정보 서비스와 관련 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "4b1484ec6e505539",
       "final_relevant": false,
-      "confidence": 0.88,
-      "final_reason": "일반 의료 정책 기사로 한국석유공사와 직접 관련이 없음",
-      "review_note": "C 그룹에서 최종 검토 후 관련성 없음으로 판단",
+      "confidence": 0.6,
+      "final_reason": "공공기관 언급이나 직접적인 관련성이 낮음",
+      "review_note": "1차 판단에서 공공기관 관련 내용으로 C 그룹에 포함되었으나, 직접적인 관련성이 낮아 최종적으로 제외함",
       "departments": []
     },
     {
-      "article_id": "7323ffa7393be952",
-      "final_relevant": true,
-      "confidence": 0.88,
-      "final_reason": "에너지 관련 무역 기사로, 한국석유공사 석유사업부와 관련이 있음",
-      "review_note": "C 그룹에서 최종 검토 후 관련성 있음으로 판단",
-      "departments": [
-        {
-          "department_id": "petroleum_business",
-          "relevance_score": 0.9,
-          "evidence_segment_ids": [
-            "s3"
-          ],
-          "evidence_text": "미국 무역대표부가 한국을 포함한 60개 경제권이 강제노동 생산품의 수입을 차단하기 위한 법·제도와 집행 체계를 충분히 갖추지 못했다면서, 무역법 301조에 따른 추가 관세 부과를 추진하기로 했다.",
-          "evidence_type": "paragraph",
-          "reason": "에너지 관련 정책 및 무역 이슈는 석유사업 전략과 관련이 있음"
-        }
-      ]
-    },
-    {
-      "article_id": "3198fd098fb8e3f0",
+      "article_id": "d12f293eb5f13dd9",
       "final_relevant": false,
-      "confidence": 0.88,
-      "final_reason": "경제 성장률 관련 기사이나, 한국석유공사와 직접 관련이 없음",
-      "review_note": "C 그룹에서 최종 검토 후 관련성 없음으로 판단",
+      "confidence": 0.6,
+      "final_reason": "공공기관 언급이나 직접적인 관련성이 낮음",
+      "review_note": "1차 판단에서 공공기관 관련 내용으로 C 그룹에 포함되었으나, 직접적인 관련성이 낮아 최종적으로 제외함",
       "departments": []
     }
   ]

@@ -1,21 +1,24 @@
 {
   "target_date": "2026-06-03",
-  "generated_at": "2026-06-05T01:27:37.489Z",
+  "generated_at": "2026-06-05T02:07:09.324Z",
   "analyzer": "stage2-llm",
   "enabled": true,
   "provider": "groq",
   "model": "meta-llama/llama-4-scout-17b-16e-instruct",
   "status": "partial",
   "requested_article_count": 17,
-  "analyzed_article_count": 8,
+  "analyzed_article_count": 15,
   "batch_size": 8,
   "errors": [
     "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499639, Requested 12052. Please try again in 33m40.2048s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
-    "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499279, Requested 4223. Please try again in 10m5.1456s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n"
+    "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499279, Requested 4223. Please try again in 10m5.1456s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+    "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499211, Requested 6501. Please try again in 16m27.0336s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n"
   ],
   "warnings": [
     "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
     "Retry batch after LLM rate limit in 30s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
     "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
     "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
     "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
@@ -96,8 +99,88 @@
       "final_reason": "유가 관련 이슈지만 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
       "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
       "departments": []
+    },
+    {
+      "article_id": "7323ffa7393be952",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 이슈이나 한국석유공사의 직접적인 사업과 관련성이 낮음",
+      "review_note": "1차 판단에서 에너지 관련 이슈로 C 그룹에 포함되었으나, 직접적인 관련성이 낮아 최종적으로 제외함",
+      "departments": []
+    },
+    {
+      "article_id": "38f9bf3e772839ac",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "산업부 관련 내용이나 한국석유공사의 직접적인 사업과 관련성이 낮음",
+      "review_note": "1차 판단에서 산업부 관련 내용으로 C 그룹에 포함되었으나, 직접적인 관련성이 낮아 최종적으로 제외함",
+      "departments": []
+    },
+    {
+      "article_id": "954525f1b5c92125",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "지방선거 관련 기사로 공공기관의 역할과 관련성이 낮음",
+      "review_note": "1차 판단에서 공공기관 관련 내용으로 C 그룹에 포함되었으나, 직접적인 관련성이 낮아 최종적으로 제외함",
+      "departments": []
+    },
+    {
+      "article_id": "8e66b588333e7b1e",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 연구 성과로 저탄소 추진과 관련 있음",
+      "review_note": "1차 판단에서 에너지 관련 내용으로 C 그룹에 포함되었으며, 저탄소 추진과 관련 있어 최종적으로 포함함",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "한국에너지공대 김경모 교수, 미국원자력학회 ‘최우수 논문상’",
+          "evidence_type": "article",
+          "reason": "에너지 관련 연구와 개발"
+        }
+      ]
+    },
+    {
+      "article_id": "e0c17efb20e5bcb7",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "경제 성장률 전망과 에너지 수요는 관련이 있으며, 이는 석유정보 서비스와 관련 있음",
+      "review_note": "1차 판단에서 에너지 관련 이슈로 C 그룹에 포함되었으며, 경제 성장률과 에너지 수요 관련 있어 최종적으로 포함함",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "OECD, 올 한국 성장률 2.6%로 올려…명목GDP는 10.4%↑",
+          "evidence_type": "paragraph",
+          "reason": "경제 성장률과 에너지 수요는 관련이 있으며, 이는 석유정보 서비스와 관련 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "4b1484ec6e505539",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "공공기관 언급이나 직접적인 관련성이 낮음",
+      "review_note": "1차 판단에서 공공기관 관련 내용으로 C 그룹에 포함되었으나, 직접적인 관련성이 낮아 최종적으로 제외함",
+      "departments": []
+    },
+    {
+      "article_id": "d12f293eb5f13dd9",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "공공기관 언급이나 직접적인 관련성이 낮음",
+      "review_note": "1차 판단에서 공공기관 관련 내용으로 C 그룹에 포함되었으나, 직접적인 관련성이 낮아 최종적으로 제외함",
+      "departments": []
     }
   ],
-  "final_relevant_count": 1,
-  "final_rejected_count": 7
+  "final_relevant_count": 3,
+  "final_rejected_count": 12
 }

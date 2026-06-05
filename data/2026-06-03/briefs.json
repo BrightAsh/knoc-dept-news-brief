@@ -1,10 +1,10 @@
 {
   "target_date": "2026-06-03",
-  "generated_at": "2026-06-05T01:30:46.452Z",
+  "generated_at": "2026-06-05T02:08:16.812Z",
   "analyzer": "knoc-two-pass-llm-v1",
   "input_article_count": 211,
-  "relevant_article_count": 1,
-  "relevant_department_count": 1,
+  "relevant_article_count": 2,
+  "relevant_department_count": 2,
   "pipeline": {
     "stage0": {
       "analyzer": "stage0-keyword-router-v1",
@@ -29,11 +29,11 @@
       "provider": "groq",
       "model": "meta-llama/llama-4-scout-17b-16e-instruct",
       "requested_article_count": 17,
-      "analyzed_article_count": 8,
-      "final_relevant_count": 1,
-      "final_rejected_count": 7,
-      "warning_count": 6,
-      "error_count": 2
+      "analyzed_article_count": 15,
+      "final_relevant_count": 3,
+      "final_rejected_count": 12,
+      "warning_count": 8,
+      "error_count": 3
     }
   },
   "overall": {
@@ -42,8 +42,8 @@
     "source": "llm",
     "analysis_stage": "stage2",
     "fallback_used": false,
-    "article_count": 1,
-    "item_count": 1,
+    "article_count": 2,
+    "item_count": 2,
     "items": [
       {
         "id": "8050ba10db1ebb02",
@@ -69,6 +69,31 @@
             "source": "llm"
           }
         ]
+      },
+      {
+        "id": "c3043b5e590b9d0d",
+        "article_id": "e0c17efb20e5bcb7",
+        "publisher": "한겨레",
+        "title": "OECD, 올 한국 성장률 2.6%로 올려…명목GDP는 10.4%↑",
+        "url": "https://www.hani.co.kr/arti/economy/economy_general/1261711.html",
+        "published_at": "2026-06-03T07:02:00.000Z",
+        "score": 0.7,
+        "segment_text": "경제 성장률 전망과 에너지 수요는 관련이 있으며, 이는 석유정보 서비스와 관련 있음",
+        "reason": "경제 성장률 전망과 에너지 수요는 관련이 있으며, 이는 석유정보 서비스와 관련 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 에너지 관련 이슈로 C 그룹에 포함되었으며, 경제 성장률과 에너지 수요 관련 있어 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
       }
     ]
   },
@@ -77,7 +102,7 @@
     "status": "partial",
     "provider": "groq",
     "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-    "analyzed_article_count": 8,
+    "analyzed_article_count": 15,
     "brief_source_stage": "stage2",
     "fallback_used": false,
     "stages": {
@@ -99,11 +124,11 @@
         "provider": "groq",
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
         "requested_article_count": 17,
-        "analyzed_article_count": 8,
-        "final_relevant_count": 1,
-        "final_rejected_count": 7,
-        "warning_count": 6,
-        "error_count": 2
+        "analyzed_article_count": 15,
+        "final_relevant_count": 3,
+        "final_rejected_count": 12,
+        "warning_count": 8,
+        "error_count": 3
       }
     }
   },
@@ -200,9 +225,31 @@
       "department_id": "smart_data",
       "department": "스마트데이터센터",
       "role": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
-      "article_count": 0,
-      "segment_count": 0,
-      "items": []
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "792f8784004a1c24",
+          "article_id": "e0c17efb20e5bcb7",
+          "publisher": "한겨레",
+          "title": "OECD, 올 한국 성장률 2.6%로 올려…명목GDP는 10.4%↑",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1261711.html",
+          "published_at": "2026-06-03T07:02:00.000Z",
+          "score": 0.8,
+          "segment_text": "OECD, 올 한국 성장률 2.6%로 올려…명목GDP는 10.4%↑",
+          "reason": "경제 성장률과 에너지 수요는 관련이 있으며, 이는 석유정보 서비스와 관련 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 에너지 관련 이슈로 C 그룹에 포함되었으며, 경제 성장률과 에너지 수요 관련 있어 최종적으로 포함함"
+        }
+      ]
     },
     {
       "department_id": "asia_business",
