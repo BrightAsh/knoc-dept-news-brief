@@ -596,8 +596,12 @@ function buildStage2Messages(batch, departments, knocContext) {
             "최종 판단은 기사 내용, KNOC 역할, 22개 부서 업무 설명을 함께 보고 결정한다.",
             "C 그룹도 과잉 분류였다고 판단되면 final_relevant=false로 바꿀 수 있다.",
             "D 그룹도 놓친 기사라고 판단되면 final_relevant=true로 복구하고 부서를 배정한다.",
+            "stage0_keyword_hits는 부분문자열 오탐이 있을 수 있다. 키워드만 믿지 말고 입력 segment 안의 실제 문맥으로만 판단한다.",
+            "유가족/유전자/일반 선거/일반 사건사고/의료/일반 정치 기사처럼 KNOC의 석유, 비축, 수급, 자원개발, 에너지안보, 공공기관 운영에 실질 영향이 없는 기사는 제외한다.",
+            "final_relevant=true는 입력 segment에 석유/가스/유가/비축/자원개발/에너지안보/KNOC 업무 영향이 직접 드러나는 근거가 있을 때만 사용한다.",
             "부서는 여러 개 배정할 수 있지만, 명확한 근거가 있는 부서만 배정한다.",
             "최종 배정 근거는 문장/문단/전체기사 단위로 구분하고 evidence_text에 원문 근거를 넣는다.",
+            "evidence_text는 반드시 입력 segment에 실제로 있는 원문이어야 한다. 관련 이유를 새로 써서 evidence_text로 넣지 않는다.",
             "한국석유공사와 직접 관련이 없더라도 석유비축, 석유수급, 해외자원개발, 에너지 안보, 공공기관 운영에 실질 영향이 있으면 관련 기사로 볼 수 있다.",
             "단순 주가, 일반 정치, 일반 국제정세, 단순 사건사고는 KNOC 업무 영향 근거가 없으면 제외한다."
           ],
@@ -655,7 +659,10 @@ function buildStage2Inputs({ articles, stage0, stage1, reviewRejected, maxReject
       ? rejected.slice(0, maxRejected)
       : rejected
     : [];
-  return [...candidates, ...rejectedForReview];
+  return [
+    ...candidates.sort(sortStage2InputPriority),
+    ...rejectedForReview.sort(sortStage2InputPriority)
+  ];
 }
 
 function buildBriefs({ targetDate, articles, departments, stage0, stage1, stage2, maxItemsPerDepartment, maxOverallItems }) {
@@ -674,6 +681,7 @@ function buildBriefs({ targetDate, articles, departments, stage0, stage1, stage2
     if (!result.final_relevant) continue;
     const article = articleMap.get(result.article_id);
     if (!article) continue;
+    if (!hasSupportedDomainSignal(article)) continue;
     const analysisStage = result.analysis_stage || briefSelection.analysis_stage;
     const sourceLabel = briefSelection.fallback_used ? "llm-stage1-fallback" : "llm";
 
@@ -1044,9 +1052,76 @@ function matchStage0Keywords(article, keywordEntries) {
   );
   const matches = [];
   for (const entry of keywordEntries) {
-    if (text.includes(entry.normalized)) matches.push({ term: entry.term, category: entry.category });
+    if (keywordOccurs(text, entry.normalized)) matches.push({ term: entry.term, category: entry.category });
   }
   return matches;
+}
+
+function sortStage2InputPriority(a, b) {
+  return stage2InputPriority(b) - stage2InputPriority(a);
+}
+
+function stage2InputPriority(input) {
+  const categories = new Set(input.stage0?.matched_categories || []);
+  const categoryScores = {
+    direct_knoc: 120,
+    petroleum: 100,
+    petroleum_market: 90,
+    petroleum_business: 90,
+    energy_security: 80,
+    stockpiling: 80,
+    resource_development: 75,
+    gas: 70,
+    low_carbon: 55,
+    hydrogen_ammonia: 55,
+    government_policy: 35,
+    public_institution: 10
+  };
+  const categoryScore = [...categories].reduce((score, category) => Math.max(score, categoryScores[category] || 0), 0);
+  return (
+    (input.stage1?.candidate ? 1000 : 0) +
+    (hasSupportedDomainSignalInText(input.segments.map((segment) => segment.text).join(" ")) ? 500 : 0) +
+    categoryScore +
+    Math.round(Number(input.stage1?.confidence || 0) * 100)
+  );
+}
+
+function hasSupportedDomainSignal(article) {
+  const text = [article.title, article.description, article.body_text].filter(Boolean).join(" ");
+  return hasSupportedDomainSignalInText(text);
+}
+
+function hasSupportedDomainSignalInText(text) {
+  return domainSignalPatterns.some((pattern) => pattern.test(text));
+}
+
+const domainSignalPatterns = [
+  /한국석유공사|석유공사|KNOC|Korea National Oil Corporation/i,
+  /석유|원유|석유제품|휘발유|경유|등유|LPG|LNG|천연가스|정유|주유소|비축/u,
+  /국제\s*유가|유가(?!족|증권)/u,
+  /에너지\s*(안보|수급|전환|정책|공급|시장|위기|가격)|호르무즈|중동\s*전쟁/u,
+  /자원개발|해외자원|유전(?!자|적|병|학)|가스전|시추|E&P/i,
+  /CCS|CCUS|탄소포집|탄소중립|수소|암모니아/i,
+  /산업통상자원부|기획재정부\s*공공기관|공공기관\s*경영평가|공기업\s*경영평가/u
+];
+
+const blockedKeywordContexts = new Map([
+  ["유가", ["유가족", "유가증권"]],
+  ["유전", ["유전자", "유전적", "유전병", "유전학"]]
+]);
+
+function keywordOccurs(text, keyword) {
+  if (!keyword) return false;
+  const blockers = blockedKeywordContexts.get(keyword);
+  if (!blockers) return text.includes(keyword);
+
+  let index = text.indexOf(keyword);
+  while (index !== -1) {
+    const context = text.slice(Math.max(0, index - 8), index + keyword.length + 8);
+    if (!blockers.some((blocker) => context.includes(blocker))) return true;
+    index = text.indexOf(keyword, index + keyword.length);
+  }
+  return false;
 }
 
 function createDepartmentOutputs(departments) {
