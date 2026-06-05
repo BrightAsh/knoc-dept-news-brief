@@ -75,21 +75,36 @@ async function main() {
     provider: process.env.LLM_PROVIDER || "none",
     model: process.env.LLM_MODEL || "meta-llama/llama-4-scout-17b-16e-instruct"
   });
+  const stage1BatchSize = Number(args.stage1BatchSize || process.env.STAGE1_BATCH_SIZE || process.env.LLM_BATCH_SIZE || 16);
+  const stage1MaxArticles = Number(args.stage1MaxArticles ?? process.env.STAGE1_MAX_ARTICLES ?? process.env.LLM_MAX_ARTICLES ?? 0);
+  const existingStage1 = !args.reuseStage1 && stage1MaxArticles === 0 && booleanEnv(process.env.STAGE1_RESUME, true)
+    ? await readJsonIfExists(path.join(dayDir, "stage1.json"))
+    : null;
+  const completedStage1Ids = new Set((existingStage1?.results || []).map((result) => result.article_id));
+  const stage1ArticlesForRun = existingStage1
+    ? articles.filter((article) => !completedStage1Ids.has(article.id))
+    : articles;
   const stage1 = args.reuseStage1
     ? JSON.parse(await fs.readFile(path.join(dayDir, "stage1.json"), "utf8"))
     : stage1Setup.client
-      ? await runStage1({
-          targetDate,
-          client: stage1Setup.client,
-          articles,
-          stage0,
-          departments,
-          knocContext,
-          dayDir,
-          debugDir,
-          batchSize: Number(args.stage1BatchSize || process.env.STAGE1_BATCH_SIZE || process.env.LLM_BATCH_SIZE || 16),
-          maxArticles: Number(args.stage1MaxArticles ?? process.env.STAGE1_MAX_ARTICLES ?? process.env.LLM_MAX_ARTICLES ?? 0)
-        })
+      ? mergeStage1Reviews(
+          existingStage1,
+          stage1ArticlesForRun.length > 0
+            ? await runStage1({
+                targetDate,
+                client: stage1Setup.client,
+                articles: stage1ArticlesForRun,
+                stage0,
+                departments,
+                knocContext,
+                dayDir,
+                debugDir,
+                batchSize: stage1BatchSize,
+                maxArticles: existingStage1 ? 0 : stage1MaxArticles
+              })
+            : finalizeStage1(stageReviewBase("stage1", targetDate, stage1Setup.client, 0, stage1BatchSize)),
+          articles.length
+        )
       : disabledStage({
           targetDate,
           stage: "stage1",
@@ -111,7 +126,8 @@ async function main() {
     reviewRejected: booleanEnv(process.env.STAGE2_REVIEW_REJECTED, true),
     maxRejected: Number(args.stage2MaxRejected ?? process.env.STAGE2_MAX_REJECTED ?? 0)
   });
-  const existingStage2 = args.reuseStage1
+  const stage2MaxArticles = Number(args.stage2MaxArticles ?? process.env.STAGE2_MAX_ARTICLES ?? 0);
+  const existingStage2 = (args.reuseStage1 || stage2MaxArticles === 0) && booleanEnv(process.env.STAGE2_RESUME, true)
     ? await readJsonIfExists(path.join(dayDir, "stage2.json"))
     : null;
   const completedStage2Ids = new Set((existingStage2?.results || []).map((result) => result.article_id));
@@ -130,7 +146,7 @@ async function main() {
           dayDir,
           debugDir,
           batchSize: stage2BatchSize,
-          maxArticles: Number(args.stage2MaxArticles ?? process.env.STAGE2_MAX_ARTICLES ?? 0)
+          maxArticles: existingStage2 ? 0 : stage2MaxArticles
         })
       : finalizeStage2(stageReviewBase("stage2", targetDate, stage2Setup.client, 0, stage2BatchSize))
     : disabledStage({
@@ -927,6 +943,38 @@ function finalizeStage1(review) {
   review.candidate_count = (review.results || []).filter((result) => result.candidate).length;
   review.rejected_count = (review.results || []).filter((result) => !result.candidate).length;
   return review;
+}
+
+function mergeStage1Reviews(existing, fresh, requestedArticleCount) {
+  if (!existing) return fresh;
+
+  const resultMap = new Map();
+  for (const result of existing.results || []) {
+    resultMap.set(result.article_id, result);
+  }
+  for (const result of fresh.results || []) {
+    resultMap.set(result.article_id, result);
+  }
+
+  const merged = {
+    ...existing,
+    ...fresh,
+    requested_article_count: requestedArticleCount,
+    analyzed_article_count: resultMap.size,
+    errors: [...(existing.errors || []), ...(fresh.errors || [])],
+    warnings: [...(existing.warnings || []), ...(fresh.warnings || [])],
+    results: [...resultMap.values()]
+  };
+
+  if (resultMap.size >= requestedArticleCount) {
+    merged.status = "ok";
+  } else if (resultMap.size > 0) {
+    merged.status = "partial";
+  } else {
+    merged.status = fresh.status || existing.status || "error";
+  }
+
+  return finalizeStage1(merged);
 }
 
 function finalizeStage2(review) {
