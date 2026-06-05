@@ -111,24 +111,37 @@ async function main() {
     reviewRejected: booleanEnv(process.env.STAGE2_REVIEW_REJECTED, true),
     maxRejected: Number(args.stage2MaxRejected ?? process.env.STAGE2_MAX_REJECTED ?? 0)
   });
-  const stage2 = stage2Setup.client
-    ? await runStage2({
-        targetDate,
-        client: stage2Setup.client,
-        inputs: stage2Inputs,
-        departments,
-        knocContext,
-        dayDir,
-        debugDir,
-        batchSize: Number(args.stage2BatchSize || process.env.STAGE2_BATCH_SIZE || 8),
-        maxArticles: Number(args.stage2MaxArticles ?? process.env.STAGE2_MAX_ARTICLES ?? 0)
-      })
+  const existingStage2 = args.reuseStage1
+    ? await readJsonIfExists(path.join(dayDir, "stage2.json"))
+    : null;
+  const completedStage2Ids = new Set((existingStage2?.results || []).map((result) => result.article_id));
+  const stage2InputsForRun = existingStage2
+    ? stage2Inputs.filter((input) => !completedStage2Ids.has(input.article.id))
+    : stage2Inputs;
+  const stage2BatchSize = Number(args.stage2BatchSize || process.env.STAGE2_BATCH_SIZE || 8);
+  const freshStage2 = stage2Setup.client
+    ? stage2InputsForRun.length > 0
+      ? await runStage2({
+          targetDate,
+          client: stage2Setup.client,
+          inputs: stage2InputsForRun,
+          departments,
+          knocContext,
+          dayDir,
+          debugDir,
+          batchSize: stage2BatchSize,
+          maxArticles: Number(args.stage2MaxArticles ?? process.env.STAGE2_MAX_ARTICLES ?? 0)
+        })
+      : finalizeStage2(stageReviewBase("stage2", targetDate, stage2Setup.client, 0, stage2BatchSize))
     : disabledStage({
         targetDate,
         stage: "stage2",
         setup: stage2Setup,
         requestedArticleCount: stage2Inputs.length
       });
+  const stage2 = existingStage2 && stage2Setup.client
+    ? mergeStage2Reviews(existingStage2, freshStage2, stage2Inputs.length)
+    : freshStage2;
   await writeJson(path.join(dayDir, "stage2.json"), stage2);
 
   const briefs = buildBriefs({
@@ -922,6 +935,36 @@ function finalizeStage2(review) {
   return review;
 }
 
+function mergeStage2Reviews(existing, fresh, requestedArticleCount) {
+  const resultMap = new Map();
+  for (const result of existing.results || []) {
+    resultMap.set(result.article_id, result);
+  }
+  for (const result of fresh.results || []) {
+    resultMap.set(result.article_id, result);
+  }
+
+  const merged = {
+    ...existing,
+    ...fresh,
+    requested_article_count: requestedArticleCount,
+    analyzed_article_count: resultMap.size,
+    errors: [...(existing.errors || []), ...(fresh.errors || [])],
+    warnings: [...(existing.warnings || []), ...(fresh.warnings || [])],
+    results: [...resultMap.values()]
+  };
+
+  if (resultMap.size >= requestedArticleCount) {
+    merged.status = "ok";
+  } else if (resultMap.size > 0) {
+    merged.status = "partial";
+  } else {
+    merged.status = fresh.status || existing.status || "error";
+  }
+
+  return finalizeStage2(merged);
+}
+
 function summarizeStage(stage) {
   return {
     enabled: Boolean(stage.enabled),
@@ -1322,6 +1365,14 @@ function messageOf(error) {
 
 async function writeJson(filePath, value) {
   await fs.writeFile(filePath, `${JSON.stringify(value, null, 2)}\n`, "utf8");
+}
+
+async function readJsonIfExists(filePath) {
+  try {
+    return JSON.parse(await fs.readFile(filePath, "utf8"));
+  } catch {
+    return null;
+  }
 }
 
 async function writeStagePartial(filePath, review, finalize) {
