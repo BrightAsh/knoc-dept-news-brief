@@ -1,136 +1,79 @@
 {
   "target_date": "2026-06-03",
-  "generated_at": "2026-06-04T23:59:33.384Z",
+  "generated_at": "2026-06-05T00:26:22.625Z",
   "analyzer": "knoc-two-pass-llm-v1",
-  "input_article_count": 10,
-  "relevant_article_count": 2,
-  "relevant_department_count": 2,
+  "input_article_count": 210,
+  "relevant_article_count": 0,
+  "relevant_department_count": 0,
   "pipeline": {
     "stage0": {
       "analyzer": "stage0-keyword-router-v1",
-      "keyword_hit_count": 2,
-      "keyword_miss_count": 8
+      "keyword_hit_count": 47,
+      "keyword_miss_count": 163
     },
     "stage1": {
       "enabled": true,
-      "status": "ok",
+      "status": "partial",
       "provider": "groq",
       "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-      "requested_article_count": 10,
-      "analyzed_article_count": 10,
-      "candidate_count": 2,
-      "rejected_count": 0,
-      "warning_count": 0,
-      "error_count": 0
+      "requested_article_count": 210,
+      "analyzed_article_count": 162,
+      "candidate_count": 17,
+      "rejected_count": 102,
+      "warning_count": 15,
+      "error_count": 3
     },
     "stage2": {
       "enabled": true,
-      "status": "ok",
+      "status": "error",
       "provider": "groq",
       "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-      "requested_article_count": 2,
-      "analyzed_article_count": 2,
-      "final_relevant_count": 2,
+      "requested_article_count": 119,
+      "analyzed_article_count": 0,
+      "final_relevant_count": 0,
       "final_rejected_count": 0,
-      "warning_count": 0,
-      "error_count": 0
+      "warning_count": 30,
+      "error_count": 15
     }
   },
   "overall": {
     "id": "overall",
     "label": "전체",
     "source": "llm",
-    "article_count": 2,
-    "item_count": 2,
-    "items": [
-      {
-        "id": "7501e4ea71c129b2",
-        "article_id": "574bdbbafc5b3244",
-        "publisher": "한겨레",
-        "title": "이란 “미군기지 타격”, 미국 “다 요격”…협상 판은 안 깼다",
-        "url": "https://www.hani.co.kr/arti/international/international_general/1261684.html",
-        "published_at": "2026-06-03T04:35:00.000Z",
-        "score": 0.85,
-        "segment_text": "이란과 미국의 충돌로 인한 국제 유가 변동 가능성이 한국석유공사의 석유 수급 안정과 에너지 안보에 영향을 줄 수 있으므로 관련 기사로 판단됨",
-        "reason": "이란과 미국의 충돌로 인한 국제 유가 변동 가능성이 한국석유공사의 석유 수급 안정과 에너지 안보에 영향을 줄 수 있으므로 관련 기사로 판단됨",
-        "evidence_type": "article",
-        "source": "llm",
-        "analysis_stage": "stage2",
-        "stage0_group": "A",
-        "stage1_group": "C",
-        "review_note": "1차 판단에서 C 그룹으로 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 유지함",
-        "departments": [
-          {
-            "id": "petroleum_business",
-            "name": "석유사업처",
-            "score": 0.8,
-            "source": "llm"
-          },
-          {
-            "id": "low_carbon",
-            "name": "저탄소추진처",
-            "score": 0.6,
-            "source": "llm"
-          }
-        ]
-      },
-      {
-        "id": "6b3332ee217212ea",
-        "article_id": "167e79719fd46a7b",
-        "publisher": "한겨레",
-        "title": "미국, 한국에 12.5% 추가관세 추진…“강제노동 상품 수입 차단 미흡”",
-        "url": "https://www.hani.co.kr/arti/international/america/1261681.html",
-        "published_at": "2026-06-03T03:27:00.000Z",
-        "score": 0.7,
-        "segment_text": "미국의 추가관세 추진이 국제 유가에 영향을 줄 수 있으며, 이는 한국석유공사의 석유사업 전략에 영향을 줄 수 있으므로 관련 기사로 판단됨",
-        "reason": "미국의 추가관세 추진이 국제 유가에 영향을 줄 수 있으며, 이는 한국석유공사의 석유사업 전략에 영향을 줄 수 있으므로 관련 기사로 판단됨",
-        "evidence_type": "article",
-        "source": "llm",
-        "analysis_stage": "stage2",
-        "stage0_group": "A",
-        "stage1_group": "C",
-        "review_note": "1차 판단에서 C 그룹으로 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 유지함",
-        "departments": [
-          {
-            "id": "petroleum_business",
-            "name": "석유사업처",
-            "score": 0.7,
-            "source": "llm"
-          }
-        ]
-      }
-    ]
+    "article_count": 0,
+    "item_count": 0,
+    "items": []
   },
   "llm_review": {
     "enabled": true,
-    "status": "ok",
+    "status": "error",
     "provider": "groq",
     "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-    "analyzed_article_count": 2,
+    "analyzed_article_count": 0,
     "stages": {
       "stage1": {
         "enabled": true,
-        "status": "ok",
+        "status": "partial",
         "provider": "groq",
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "requested_article_count": 10,
-        "analyzed_article_count": 10,
-        "candidate_count": 2,
-        "rejected_count": 0,
-        "warning_count": 0,
-        "error_count": 0
+        "requested_article_count": 210,
+        "analyzed_article_count": 162,
+        "candidate_count": 17,
+        "rejected_count": 102,
+        "warning_count": 15,
+        "error_count": 3
       },
       "stage2": {
         "enabled": true,
-        "status": "ok",
+        "status": "error",
         "provider": "groq",
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "requested_article_count": 2,
-        "analyzed_article_count": 2,
-        "final_relevant_count": 2,
+        "requested_article_count": 119,
+        "analyzed_article_count": 0,
+        "final_relevant_count": 0,
         "final_rejected_count": 0,
-        "warning_count": 0,
-        "error_count": 0
+        "warning_count": 30,
+        "error_count": 15
       }
     }
   },
@@ -259,30 +202,9 @@
       "department_id": "low_carbon",
       "department": "저탄소추진처",
       "role": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
-      "article_count": 1,
-      "segment_count": 1,
-      "items": [
-        {
-          "id": "a2c21f7ec4e44d37",
-          "article_id": "574bdbbafc5b3244",
-          "publisher": "한겨레",
-          "title": "이란 “미군기지 타격”, 미국 “다 요격”…협상 판은 안 깼다",
-          "url": "https://www.hani.co.kr/arti/international/international_general/1261684.html",
-          "published_at": "2026-06-03T04:35:00.000Z",
-          "score": 0.6,
-          "segment_text": "에너지 안보와 관련된 이슈로 인해 한국석유공사의 저탄소 사업에도 영향을 줄 수 있음",
-          "reason": "저탄소추진처는 에너지전환, 저탄소 신규사업을 담당하므로 글로벌 에너지 이슈에 대한 모니터링이 필요함",
-          "evidence_type": "sentence",
-          "evidence_segment_ids": [
-            "s3"
-          ],
-          "source": "llm",
-          "analysis_stage": "stage2",
-          "stage0_group": "A",
-          "stage1_group": "C",
-          "review_note": "1차 판단에서 C 그룹으로 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 유지함"
-        }
-      ]
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
     },
     {
       "department_id": "global_technology_center",
@@ -304,50 +226,9 @@
       "department_id": "petroleum_business",
       "department": "석유사업처",
       "role": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
-      "article_count": 2,
-      "segment_count": 2,
-      "items": [
-        {
-          "id": "3067f87fee7e1765",
-          "article_id": "574bdbbafc5b3244",
-          "publisher": "한겨레",
-          "title": "이란 “미군기지 타격”, 미국 “다 요격”…협상 판은 안 깼다",
-          "url": "https://www.hani.co.kr/arti/international/international_general/1261684.html",
-          "published_at": "2026-06-03T04:35:00.000Z",
-          "score": 0.8,
-          "segment_text": "미국과 이란의 충돌로 인해 국제 유가가 변동할 수 있으며, 이는 한국석유공사의 석유사업 전략에 영향을 줄 수 있음",
-          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 등을 담당하므로 이란-미국 충돌의 영향 분석이 필요함",
-          "evidence_type": "sentence",
-          "evidence_segment_ids": [
-            "s2"
-          ],
-          "source": "llm",
-          "analysis_stage": "stage2",
-          "stage0_group": "A",
-          "stage1_group": "C",
-          "review_note": "1차 판단에서 C 그룹으로 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 유지함"
-        },
-        {
-          "id": "3c43d4b2d7e733c8",
-          "article_id": "167e79719fd46a7b",
-          "publisher": "한겨레",
-          "title": "미국, 한국에 12.5% 추가관세 추진…“강제노동 상품 수입 차단 미흡”",
-          "url": "https://www.hani.co.kr/arti/international/america/1261681.html",
-          "published_at": "2026-06-03T03:27:00.000Z",
-          "score": 0.7,
-          "segment_text": "미국의 추가관세 추진은 국제 유가에 영향을 줄 수 있으며, 이는 한국석유공사의 석유사업 전략에 영향을 줄 수 있음",
-          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 등을 담당하므로 국제 유가 변동에 대한 분석이 필요함",
-          "evidence_type": "sentence",
-          "evidence_segment_ids": [
-            "s2"
-          ],
-          "source": "llm",
-          "analysis_stage": "stage2",
-          "stage0_group": "A",
-          "stage1_group": "C",
-          "review_note": "1차 판단에서 C 그룹으로 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 유지함"
-        }
-      ]
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
     },
     {
       "department_id": "distribution_business",

@@ -1,7 +1,7 @@
 {
   "stage": "stage1",
   "batch_number": 1,
-  "batch_count": 1,
+  "batch_count": 14,
   "split_path": "root",
   "attempt": 1,
   "request": {
@@ -17,24 +17,24 @@
       },
       {
         "role": "user",
-        "char_count": 13328,
+        "char_count": 18646,
         "preview": "{\n  \"task\": \"각 기사를 1차 검토하라. A 그룹은 키워드 히트 기사이므로 실제 관련성이 있는지 검토하고, B 그룹은 키워드가 없더라도 문맥상 한국석유공사와 연결될 가능성이 있는지 찾아라. 관련 가능성이 있으면 candidate=true로 두고 관련 부서를 배정하라.\",\n  \"knoc_context\": {\n    \"name\": \"한국석유공사\",\n    \"aliases\": [\n      \"KNOC\",\n      \"Korea National Oil Corporation\",\n      \"석유공사\"\n    ],\n    \"role\": \"한국석유공사는 대한민국의 에너지 안보와 석유 수급 안정을 위해 석유비축, 국내외 석유·가스 자원개발, 석유정보 제공, 석유유통 지원, 저탄소·수소·암모니아 등 에너지 전환 관련 사업을 수행하는 공공기관이다.\",\n    \"classification_policy\": [\n      \"기사에 한국석유공사가 직접 언급되지 않아도, 공사의 사업·위험·정책·시장·"
       }
     ]
   },
   "response": {
-    "id": "chatcmpl-33a815b3-dcff-42ac-a0df-f7e87dc959d6",
+    "id": "chatcmpl-de003309-8bf3-4505-93d1-f38f0a45565e",
     "model": "meta-llama/llama-4-scout-17b-16e-instruct",
     "usage": {
-      "queue_time": 0.314155935,
-      "prompt_tokens": 5082,
-      "prompt_time": 0.238301045,
-      "completion_tokens": 534,
-      "completion_time": 1.215245976,
-      "total_tokens": 5616,
-      "total_time": 1.4535470209999999
+      "queue_time": 0.279290371,
+      "prompt_tokens": 7230,
+      "prompt_time": 0.271263621,
+      "completion_tokens": 767,
+      "completion_time": 1.7273574379999999,
+      "total_tokens": 7997,
+      "total_time": 1.998621059
     },
     "finish_reason": "stop",
-    "content_char_count": 1609
+    "content_char_count": 2529
   }
 }
