@@ -70,9 +70,14 @@ async function main() {
 
   const dayDir = path.join(dataDir, targetDate);
   await fs.mkdir(dayDir, { recursive: true });
+  const existingArticles = await readExistingArticles(dayDir);
+  const merged = mergeArticles(existingArticles, enriched);
+  const preservedArticleCount = merged.filter(
+    (article) => existingArticles.some((existing) => existing.url === article.url)
+  ).length;
   await fs.writeFile(
     path.join(dayDir, "articles.json"),
-    `${JSON.stringify(enriched, null, 2)}\n`,
+    `${JSON.stringify(merged, null, 2)}\n`,
     "utf8"
   );
 
@@ -82,7 +87,10 @@ async function main() {
     collected_at: collectedAt,
     include_body: includeBody,
     source_count: sources.length,
-    article_count: enriched.length,
+    article_count: merged.length,
+    newly_collected_article_count: enriched.length,
+    existing_article_count: existingArticles.length,
+    preserved_article_count: preservedArticleCount,
     logs
   };
   await fs.writeFile(path.join(dayDir, "run.json"), `${JSON.stringify(run, null, 2)}\n`, "utf8");
@@ -92,7 +100,10 @@ async function main() {
     JSON.stringify(
       {
         target_date: targetDate,
-        article_count: enriched.length,
+        article_count: merged.length,
+        newly_collected_article_count: enriched.length,
+        existing_article_count: existingArticles.length,
+        preserved_article_count: preservedArticleCount,
         output_dir: path.relative(rootDir, dayDir),
         include_body: includeBody
       },
@@ -322,6 +333,49 @@ async function enrichArticlesWithBody(articles, options) {
 
   await Promise.all(Array.from({ length: workerCount }, () => worker()));
   return [...enriched, ...passthrough];
+}
+
+async function readExistingArticles(dayDir) {
+  try {
+    const existing = JSON.parse(await fs.readFile(path.join(dayDir, "articles.json"), "utf8"));
+    return Array.isArray(existing) ? existing : [];
+  } catch {
+    return [];
+  }
+}
+
+function mergeArticles(existingArticles, collectedArticles) {
+  const byUrl = new Map();
+  for (const article of [...existingArticles, ...collectedArticles]) {
+    if (!article?.url) continue;
+    const existing = byUrl.get(article.url);
+    byUrl.set(article.url, existing ? mergeArticle(existing, article) : article);
+  }
+  return [...byUrl.values()].sort((a, b) => {
+    const dateOrder = String(b.published_at || "").localeCompare(String(a.published_at || ""));
+    if (dateOrder !== 0) return dateOrder;
+    return String(a.publisher || "").localeCompare(String(b.publisher || ""), "ko") ||
+      String(a.title || "").localeCompare(String(b.title || ""), "ko");
+  });
+}
+
+function mergeArticle(existing, incoming) {
+  return {
+    ...existing,
+    ...incoming,
+    title: incoming.title || existing.title,
+    description: incoming.description || existing.description,
+    published_at: incoming.published_at || existing.published_at,
+    body_text: incoming.body_text || existing.body_text || "",
+    body_fetched_at: incoming.body_text ? incoming.body_fetched_at : existing.body_fetched_at,
+    body_fetch_status: incoming.body_text ? incoming.body_fetch_status : existing.body_fetch_status,
+    body_fetch_error: incoming.body_text ? incoming.body_fetch_error : existing.body_fetch_error,
+    source_id: mergeCsv(existing.source_id, incoming.source_id)
+  };
+}
+
+function mergeCsv(...values) {
+  return [...new Set(values.flatMap((value) => String(value || "").split(",")).filter(Boolean))].join(",");
 }
 
 function decodeResponseBuffer(buffer, contentType) {

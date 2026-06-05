@@ -1,10 +1,10 @@
 {
   "target_date": "2026-06-03",
   "timezone": "Asia/Seoul",
-  "collected_at": "2026-06-04T23:58:29.734Z",
+  "collected_at": "2026-06-04T05:32:40.415Z",
   "include_body": true,
   "source_count": 10,
-  "article_count": 10,
+  "article_count": 209,
   "logs": [
     {
       "source_id": "chosun-rss",
@@ -12,7 +12,7 @@
       "type": "rss",
       "status": "ok",
       "count": 1,
-      "elapsed_ms": 413,
+      "elapsed_ms": 1596,
       "url": "https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml"
     },
     {
@@ -21,7 +21,7 @@
       "type": "sitemap",
       "status": "ok",
       "count": 0,
-      "elapsed_ms": 56,
+      "elapsed_ms": 258,
       "url": "https://www.chosun.com/arc/outboundfeeds/news-sitemap/?outputType=xml"
     },
     {
@@ -30,7 +30,7 @@
       "type": "sitemap",
       "status": "error",
       "count": 0,
-      "elapsed_ms": 35080,
+      "elapsed_ms": 35510,
       "url": "https://www.joongang.co.kr/sitemap/latest-articles",
       "message": "fetch failed: fetch failed; curl fallback failed: Command failed: curl -k -L -sS --compressed --max-time 25 -A knoc-dept-news-brief/0.1 (+https://github.com/BrightAsh/knoc-dept-news-brief) -H Accept: text/html,application/xhtml+xml,application/xml,text/xml,application/rss+xml;q=0.9,*/*;q=0.8 https://www.joongang.co.kr/sitemap/latest-articles\ncurl: (28) Connection timed out after 25002 milliseconds\n"
     },
@@ -40,7 +40,7 @@
       "type": "rss",
       "status": "ok",
       "count": 0,
-      "elapsed_ms": 951,
+      "elapsed_ms": 949,
       "url": "https://rss.donga.com/total.xml"
     },
     {
@@ -48,8 +48,8 @@
       "publisher": "한겨레",
       "type": "rss",
       "status": "ok",
-      "count": 0,
-      "elapsed_ms": 4884,
+      "count": 13,
+      "elapsed_ms": 8767,
       "url": "https://www.hani.co.kr/rss/economy"
     },
     {
@@ -57,8 +57,8 @@
       "publisher": "한겨레",
       "type": "rss",
       "status": "ok",
-      "count": 0,
-      "elapsed_ms": 6443,
+      "count": 7,
+      "elapsed_ms": 7447,
       "url": "https://www.hani.co.kr/rss/society"
     },
     {
@@ -67,7 +67,7 @@
       "type": "rss",
       "status": "ok",
       "count": 0,
-      "elapsed_ms": 6501,
+      "elapsed_ms": 6887,
       "url": "https://www.hani.co.kr/rss/politics"
     },
     {
@@ -76,7 +76,7 @@
       "type": "rss",
       "status": "ok",
       "count": 9,
-      "elapsed_ms": 3509,
+      "elapsed_ms": 8443,
       "url": "https://www.hani.co.kr/rss/international"
     },
     {
@@ -85,7 +85,7 @@
       "type": "rss",
       "status": "ok",
       "count": 0,
-      "elapsed_ms": 1070,
+      "elapsed_ms": 1502,
       "url": "https://www.khan.co.kr/rss/rssdata/total_news.xml"
     },
     {
@@ -93,8 +93,8 @@
       "publisher": "경향신문",
       "type": "sitemap",
       "status": "ok",
-      "count": 0,
-      "elapsed_ms": 597,
+      "count": 179,
+      "elapsed_ms": 769,
       "url": "https://www.khan.co.kr/sitemap/latest-articles.xml"
     }
   ]
