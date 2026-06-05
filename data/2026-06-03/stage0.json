@@ -1,11 +1,11 @@
 {
   "target_date": "2026-06-03",
-  "generated_at": "2026-06-05T00:05:20.150Z",
+  "generated_at": "2026-06-05T02:34:33.765Z",
   "analyzer": "stage0-keyword-router-v1",
   "purpose": "A/B routing only. Keyword hits are not final relevance decisions.",
-  "input_article_count": 210,
-  "keyword_hit_count": 47,
-  "keyword_miss_count": 163,
+  "input_article_count": 211,
+  "keyword_hit_count": 42,
+  "keyword_miss_count": 169,
   "items": [
     {
       "article_id": "079f8a23516bd69a",
@@ -169,16 +169,10 @@
     },
     {
       "article_id": "46f7f238647a0317",
-      "group": "A",
-      "group_label": "keyword_hit",
-      "matched_terms": [
-        "유가",
-        "유전"
-      ],
-      "matched_categories": [
-        "petroleum_market",
-        "resource_development"
-      ]
+      "group": "B",
+      "group_label": "keyword_miss",
+      "matched_terms": [],
+      "matched_categories": []
     },
     {
       "article_id": "eb9ce2a3759496b9",
@@ -834,16 +828,10 @@
     },
     {
       "article_id": "ba6a312b984382bd",
-      "group": "A",
-      "group_label": "keyword_hit",
-      "matched_terms": [
-        "유가",
-        "유전"
-      ],
-      "matched_categories": [
-        "petroleum_market",
-        "resource_development"
-      ]
+      "group": "B",
+      "group_label": "keyword_miss",
+      "matched_terms": [],
+      "matched_categories": []
     },
     {
       "article_id": "817baf26e2deaabb",
@@ -890,14 +878,10 @@
     },
     {
       "article_id": "4aeaf7de489bc2d2",
-      "group": "A",
-      "group_label": "keyword_hit",
-      "matched_terms": [
-        "유가"
-      ],
-      "matched_categories": [
-        "petroleum_market"
-      ]
+      "group": "B",
+      "group_label": "keyword_miss",
+      "matched_terms": [],
+      "matched_categories": []
     },
     {
       "article_id": "7d2b42c5885af9b9",
@@ -1020,6 +1004,13 @@
       "matched_categories": [
         "petroleum_business"
       ]
+    },
+    {
+      "article_id": "00e7bc7d1f3f72aa",
+      "group": "B",
+      "group_label": "keyword_miss",
+      "matched_terms": [],
+      "matched_categories": []
     },
     {
       "article_id": "9302df2ec76a2e33",
@@ -1421,14 +1412,10 @@
     },
     {
       "article_id": "ec2a976249133ba4",
-      "group": "A",
-      "group_label": "keyword_hit",
-      "matched_terms": [
-        "유가"
-      ],
-      "matched_categories": [
-        "petroleum_market"
-      ]
+      "group": "B",
+      "group_label": "keyword_miss",
+      "matched_terms": [],
+      "matched_categories": []
     },
     {
       "article_id": "c1c2549280c7a490",
@@ -1571,14 +1558,10 @@
     },
     {
       "article_id": "634736a1e4b8c7d0",
-      "group": "A",
-      "group_label": "keyword_hit",
-      "matched_terms": [
-        "유전"
-      ],
-      "matched_categories": [
-        "resource_development"
-      ]
+      "group": "B",
+      "group_label": "keyword_miss",
+      "matched_terms": [],
+      "matched_categories": []
     },
     {
       "article_id": "90d7f1bb83e3c3a0",

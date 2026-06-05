@@ -1,18 +1,24 @@
 {
   "target_date": "2026-06-03",
-  "generated_at": "2026-06-05T00:05:20.165Z",
+  "generated_at": "2026-06-05T02:34:33.773Z",
   "analyzer": "stage1-llm",
   "enabled": true,
   "provider": "groq",
   "model": "meta-llama/llama-4-scout-17b-16e-instruct",
   "status": "partial",
-  "requested_article_count": 210,
-  "analyzed_article_count": 162,
+  "requested_article_count": 211,
+  "analyzed_article_count": 119,
   "batch_size": 16,
   "errors": [
     "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 496798, Requested 8232. Please try again in 14m29.184s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
     "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 496438, Requested 8257. Please try again in 13m31.296s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
-    "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 496079, Requested 8385. Please try again in 12m51.3792s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n"
+    "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 496079, Requested 8385. Please try again in 12m51.3792s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+    "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 497330, Requested 8531. Please try again in 16m52.7808s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+    "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 496971, Requested 8450. Please try again in 15m36.7488s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+    "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 496611, Requested 8257. Please try again in 14m1.1904s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+    "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 496251, Requested 8378. Please try again in 13m19.8912s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+    "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 495890, Requested 8392. Please try again in 12m19.9296s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+    "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 495530, Requested 7106. Please try again in 7m35.5008s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n"
   ],
   "warnings": [
     "Retry batch after LLM rate limit in 8s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
@@ -29,7 +35,19 @@
     "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
     "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
     "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
-    "Retry batch after LLM rate limit in 24s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000"
+    "Retry batch after LLM rate limit in 24s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000"
   ],
   "results": [
     {

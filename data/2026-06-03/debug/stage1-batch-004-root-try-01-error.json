@@ -1,28 +1,28 @@
 {
   "stage": "stage1",
   "batch_number": 4,
-  "batch_count": 14,
+  "batch_count": 6,
   "split_path": "root",
   "attempt": 1,
   "article_ids": [
-    "c2958e0eeada5fa9",
-    "b1d07c054f56bf7c",
-    "8423d2330df50161",
-    "de19ee359f42b445",
-    "fbdd96c046d8ae2d",
-    "7151a08d3eccdfd1",
-    "db086ab168e2565e",
-    "26d7f687bfda11d4",
-    "9a3a2b2fe27b291f",
-    "eb3625b5f53bbce6",
-    "7c02511a1c9cfd37",
-    "ca4aacca65e54053",
-    "80956810546d6872",
-    "4cac151fd74ffef1",
-    "cc53491e2e419688",
-    "2c7825410789079c"
+    "0aa307c94b962e07",
+    "c5869eced3c35104",
+    "4d0c96cfe78c74b8",
+    "bbf5643f18be7b17",
+    "06cd3933f2dc3a24",
+    "3289bda7e7c6b389",
+    "0a03f04ae3c43c3c",
+    "6ca344694a226d43",
+    "36e45d90081f2632",
+    "55150427effa0c01",
+    "8bc588389044d060",
+    "dc62a43a272f50d7",
+    "ed1d12d7669abf32",
+    "09a039e251636168",
+    "ec2a976249133ba4",
+    "c1c2549280c7a490"
   ],
-  "message": "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 30000, Used 24540, Requested 9109. Please try again in 7.298s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+  "message": "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 496610, Requested 8378. Please try again in 14m21.9264s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
   "name": "Error",
   "llm_debug": {
     "provider": "groq",
@@ -41,7 +41,7 @@
         },
         {
           "role": "user",
-          "char_count": 19445,
+          "char_count": 18083,
           "preview": "{\n  \"task\": \"각 기사를 1차 검토하라. A 그룹은 키워드 히트 기사이므로 실제 관련성이 있는지 검토하고, B 그룹은 키워드가 없더라도 문맥상 한국석유공사와 연결될 가능성이 있는지 찾아라. 관련 가능성이 있으면 candidate=true로 두고 관련 부서를 배정하라.\",\n  \"knoc_context\": {\n    \"name\": \"한국석유공사\",\n    \"aliases\": [\n      \"KNOC\",\n      \"Korea National Oil Corporation\",\n      \"석유공사\"\n    ],\n    \"role\": \"한국석유공사는 대한민국의 에너지 안보와 석유 수급 안정을 위해 석유비축, 국내외 석유·가스 자원개발, 석유정보 제공, 석유유통 지원, 저탄소·수소·암모니아 등 에너지 전환 관련 사업을 수행하는 공공기관이다.\",\n    \"classification_policy\": [\n      \"기사에 한국석유공사가 직접 언급되지 않아도, 공사의 사업·위험·정책·시장·"
         }
       ]
