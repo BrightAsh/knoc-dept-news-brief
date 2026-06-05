@@ -1,10 +1,10 @@
 {
   "target_date": "2026-06-03",
-  "generated_at": "2026-06-05T00:26:22.625Z",
+  "generated_at": "2026-06-05T00:59:15.096Z",
   "analyzer": "knoc-two-pass-llm-v1",
   "input_article_count": 210,
-  "relevant_article_count": 0,
-  "relevant_department_count": 0,
+  "relevant_article_count": 2,
+  "relevant_department_count": 1,
   "pipeline": {
     "stage0": {
       "analyzer": "stage0-keyword-router-v1",
@@ -25,31 +25,86 @@
     },
     "stage2": {
       "enabled": true,
-      "status": "error",
+      "status": "partial",
       "provider": "groq",
       "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-      "requested_article_count": 119,
-      "analyzed_article_count": 0,
-      "final_relevant_count": 0,
-      "final_rejected_count": 0,
-      "warning_count": 30,
-      "error_count": 15
+      "requested_article_count": 17,
+      "analyzed_article_count": 8,
+      "final_relevant_count": 2,
+      "final_rejected_count": 6,
+      "warning_count": 4,
+      "error_count": 2
     }
   },
   "overall": {
     "id": "overall",
     "label": "전체",
     "source": "llm",
-    "article_count": 0,
-    "item_count": 0,
-    "items": []
+    "analysis_stage": "stage2",
+    "fallback_used": false,
+    "article_count": 2,
+    "item_count": 2,
+    "items": [
+      {
+        "id": "7f074270f3df4099",
+        "article_id": "ba6a312b984382bd",
+        "publisher": "경향신문",
+        "title": "“시신 온전히 찾아야 장례 치를 것 아니냐”···한화에어로 희생자 유족들 ‘울분’",
+        "url": "https://www.khan.co.kr/article/202606031657001",
+        "published_at": "2026-06-03T07:57:00.000Z",
+        "score": 0.88,
+        "segment_text": "석유 관련 사고 기사로, 한국석유공사 석유사업부와 관련이 있음",
+        "reason": "석유 관련 사고 기사로, 한국석유공사 석유사업부와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹에서 최종 검토 후 관련성 있음으로 판단",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "77f7373da26083c7",
+        "article_id": "7323ffa7393be952",
+        "publisher": "경향신문",
+        "title": "미 USTR, 한국에 최대 12.5% 추가관세 예고···강제노동 대응 미흡 지적",
+        "url": "https://www.khan.co.kr/article/202606031611011",
+        "published_at": "2026-06-03T07:11:01.000Z",
+        "score": 0.88,
+        "segment_text": "에너지 관련 무역 기사로, 한국석유공사 석유사업부와 관련이 있음",
+        "reason": "에너지 관련 무역 기사로, 한국석유공사 석유사업부와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹에서 최종 검토 후 관련성 있음으로 판단",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      }
+    ]
   },
   "llm_review": {
     "enabled": true,
-    "status": "error",
+    "status": "partial",
     "provider": "groq",
     "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-    "analyzed_article_count": 0,
+    "analyzed_article_count": 8,
+    "brief_source_stage": "stage2",
+    "fallback_used": false,
     "stages": {
       "stage1": {
         "enabled": true,
@@ -65,15 +120,15 @@
       },
       "stage2": {
         "enabled": true,
-        "status": "error",
+        "status": "partial",
         "provider": "groq",
         "model": "meta-llama/llama-4-scout-17b-16e-instruct",
-        "requested_article_count": 119,
-        "analyzed_article_count": 0,
-        "final_relevant_count": 0,
-        "final_rejected_count": 0,
-        "warning_count": 30,
-        "error_count": 15
+        "requested_article_count": 17,
+        "analyzed_article_count": 8,
+        "final_relevant_count": 2,
+        "final_rejected_count": 6,
+        "warning_count": 4,
+        "error_count": 2
       }
     }
   },
@@ -226,9 +281,50 @@
       "department_id": "petroleum_business",
       "department": "석유사업처",
       "role": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
-      "article_count": 0,
-      "segment_count": 0,
-      "items": []
+      "article_count": 2,
+      "segment_count": 2,
+      "items": [
+        {
+          "id": "5a34f5040eff4787",
+          "article_id": "ba6a312b984382bd",
+          "publisher": "경향신문",
+          "title": "“시신 온전히 찾아야 장례 치를 것 아니냐”···한화에어로 희생자 유족들 ‘울분’",
+          "url": "https://www.khan.co.kr/article/202606031657001",
+          "published_at": "2026-06-03T07:57:00.000Z",
+          "score": 0.9,
+          "segment_text": "한화에어로 폭발사고 희생자",
+          "reason": "석유사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종 검토 후 관련성 있음으로 판단"
+        },
+        {
+          "id": "b7cc523b9e19cc8c",
+          "article_id": "7323ffa7393be952",
+          "publisher": "경향신문",
+          "title": "미 USTR, 한국에 최대 12.5% 추가관세 예고···강제노동 대응 미흡 지적",
+          "url": "https://www.khan.co.kr/article/202606031611011",
+          "published_at": "2026-06-03T07:11:01.000Z",
+          "score": 0.9,
+          "segment_text": "미국 무역대표부가 한국을 포함한 60개 경제권이 강제노동 생산품의 수입을 차단하기 위한 법·제도와 집행 체계를 충분히 갖추지 못했다면서, 무역법 301조에 따른 추가 관세 부과를 추진하기로 했다.",
+          "reason": "에너지 관련 정책 및 무역 이슈는 석유사업 전략과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종 검토 후 관련성 있음으로 판단"
+        }
+      ]
     },
     {
       "department_id": "distribution_business",

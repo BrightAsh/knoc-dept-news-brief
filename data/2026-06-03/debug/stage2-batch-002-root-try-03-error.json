@@ -1,7 +1,7 @@
 {
   "stage": "stage2",
   "batch_number": 2,
-  "batch_count": 15,
+  "batch_count": 3,
   "split_path": "root",
   "attempt": 3,
   "article_ids": [
@@ -14,7 +14,7 @@
     "4b1484ec6e505539",
     "d12f293eb5f13dd9"
   ],
-  "message": "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 499280, Requested 12249. Please try again in 33m12.2112s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+  "message": "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per day (TPD): Limit 500000, Used 497350, Requested 12249. Please try again in 27m38.7072s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
   "name": "Error",
   "llm_debug": {
     "provider": "groq",
