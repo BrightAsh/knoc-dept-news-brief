@@ -1,18 +1,23 @@
 {
   "runs": [
     {
-      "target_date": "2026-06-03",
-      "collected_at": "2026-06-05T02:33:33.152Z",
-      "article_count": 211,
-      "include_body": true,
-      "path": "data/2026-06-03/articles.json"
-    },
-    {
       "target_date": "2026-06-04",
       "collected_at": "2026-06-04T17:49:20.295Z",
       "article_count": 456,
       "include_body": true,
       "path": "data/2026-06-04/articles.json"
+    },
+    {
+      "target_date": "2026-06-03",
+      "collected_at": "2026-06-05T02:33:33.152Z",
+      "article_count": 211,
+      "include_body": true,
+      "path": "data/2026-06-03/articles.json",
+      "brief_path": "data/2026-06-03/briefs.json",
+      "relevant_article_count": 2,
+      "relevant_department_count": 2,
+      "analyzed_at": "2026-06-05T02:43:34.129Z",
+      "analyzer": "knoc-two-pass-llm-v1"
     },
     {
       "target_date": "2026-06-02",
