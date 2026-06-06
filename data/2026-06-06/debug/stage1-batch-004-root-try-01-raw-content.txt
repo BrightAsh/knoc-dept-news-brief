@@ -1,0 +1,36 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "ef01d02b2a85fe62",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 및 에너지 관련 내용이 한국석유공사의 사업과 관련이 있어 후속 검토가 필요하다.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "러시아 국영 최대 석유기업 로스네프트의 이고르 세친 최고경영자(CEO)는 6일(현지 시간) 호르무즈 해협 폐쇄의 가장 큰 수혜자는 미국 에너지 기업들이라고 주장했다.",
+          "evidence_type": "paragraph",
+          "reason": "해당 기사는 석유 및 에너지 시장에 관한 내용을 포함하고 있어 한국석유공사의 석유사업처와 관련이 있다."
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미 경제 매체 CNBC 등 외신에 따르면 세친 CEO는 이날 러시아 상트페테르부르크 국제경제포럼(SPIEF) 토론자로 나와 “호르무즈 해협 폐쇄는 미국에 유리하도록 세계 에너지 시장 규제를 재편하려는 시도”라며 “해협 봉쇄를 위한 조처는 이란을 겨냥한 것이었으나, 전 세계에 역효과를 낳았다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 시장 및 저탄소 관련 내용이 포함되어 있어 저탄소추진처와도 관련이 있을 수 있다."
+        }
+      ]
+    }
+  ]
+}
+```
