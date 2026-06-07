@@ -1,0 +1,75 @@
+{
+  "results": [
+    {
+      "article_id": "ed9008d9cd993073",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "f8ff8908a1d78cdc",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "석유 관련 언급",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "트럼프도 “AI 대박, 국민 나눠 갖자”…美도 기업 이익 공유 논쟁",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "ab8180326eefb7c1",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 언급",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "이재명 정부 역점 사업인 '햇빛소득마을' 1차 공모에 전국에서 129개 마을이 참여를 신청했다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 신규사업, 에너지전환 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "6adf11625d869d2e",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "원유, 에너지 관련 언급",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "도널드 트럼프 미국 행정부가 쿠바에 대한 경제적 제재 수위를 높이면서 쿠바에서 국제 기업들이 본격적으로 철수하고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "도널드 트럼프 미국 행정부가 쿠바에 대한 경제적 제재 수위를 높이면서 쿠바에서 국제 기업들이 본격적으로 철수하고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 신규사업, 에너지전환 관련 업무"
+        }
+      ]
+    }
+  ]
+}

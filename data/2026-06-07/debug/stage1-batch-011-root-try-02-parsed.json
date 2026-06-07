@@ -1,0 +1,69 @@
+{
+  "results": [
+    {
+      "article_id": "0900d63cf011c3e5",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "유가 관련 언급으로 인해 에너지 안보와 관련 있을 가능성",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "천정부지 환율에 근원물가까지 꿈틀, 비상한 경각심으로 대처해야",
+          "evidence_type": "paragraph",
+          "reason": "유가와 관련된 언급이 있어 석유사업과 관련 있을 가능성"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "천정부지 환율에 근원물가까지 꿈틀, 비상한 경각심으로 대처해야",
+          "evidence_type": "paragraph",
+          "reason": "유가와 관련된 언급이 있어 석유정보 서비스와 관련 있을 가능성"
+        }
+      ]
+    },
+    {
+      "article_id": "8bb519a484728cd3",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유가와 원유, 석유제품 관련 언급으로 인해 에너지 안보와 관련 있을 가능성",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "금융위기 수준까지 간 고환율…장기화 땐 산업 전반 ‘비용 부담’",
+          "evidence_type": "paragraph",
+          "reason": "유가와 원유, 석유제품 관련 언급으로 인해 석유사업과 관련 있을 가능성"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "금융위기 수준까지 간 고환율…장기화 땐 산업 전반 ‘비용 부담’",
+          "evidence_type": "paragraph",
+          "reason": "유가와 원유 관련 언급으로 인해 비축 사업과 관련 있을 가능성"
+        }
+      ]
+    },
+    {
+      "article_id": "e86d0128cd2fc4d6",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "탐사 관련 언급이지만 구체적인 연결 고리가 없음",
+      "departments": []
+    }
+  ]
+}

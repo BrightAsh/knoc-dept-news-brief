@@ -1,0 +1,87 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "b8bee4431a61a58f",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "한국석유공사와 관련된 에너지, LNG, 천연가스, 에너지 안보, 에너지 수급 관련 내용이 기사에 언급됨",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "한국가스공사가 'LNG 캐나다' 프로젝트에 발을 들인 지 16년 만에 지난 3일 7만5000t의 캐나다 액화천연가스를 실은 선박이 인천에 입항했다.",
+          "evidence_type": "paragraph",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하는 스마트데이터센터의 업무와 관련됨"
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "16년 만에…‘캐나다 LNG’ 7만5000t첫 수도권 입항",
+          "evidence_type": "title",
+          "reason": "저탄소 추진과 관련된 에너지 전환, 저탄소 신규사업과 관련하여 간접적으로 언급됨"
+        }
+      ]
+    },
+    {
+      "article_id": "afcfd5535cef607a",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "한국석유공사와 관련된 석유, 유가, 에너지 관련 내용이 기사에 언급됨",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "지난달 OECD 기준 근원물가 지표인 '식료품 및 에너지 제외 지수'는 전년 대비 2.5% 상승하며 2024년 2월 이후 가장 높은 수준을 보였다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처의 업무와 관련됨"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "경제협력개발기구가 올해 한국의 근원물가 상승률 전망치를 상향 조정했다.",
+          "evidence_type": "paragraph",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하는 스마트데이터센터의 업무와 관련됨"
+        }
+      ]
+    },
+    {
+      "article_id": "7ce7d36791c091f7",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "한국석유공사와 관련된 에너지, 산업부 관련 내용이 기사에 언급됨",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "김 장관은 \"체코 두코바니 원전 사업의 성공적인 이행을 뒷받침하겠다\"며 \"이를 통해 구축된 한국과 체코의 협력 기반을 로봇과 배터리, 미래차 등 첨단산업으로 확장하겠다\"고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당하는 경영전략처의 업무와 관련됨"
+        }
+      ]
+    },
+    {
+      "article_id": "b8daa2a5c5933a33",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "한국석유공사와 직접적으로 관련된 내용이 없음",
+      "departments": []
+    }
+  ]
+}
+```

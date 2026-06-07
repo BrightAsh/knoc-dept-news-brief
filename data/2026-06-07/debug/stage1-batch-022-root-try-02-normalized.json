@@ -1,0 +1,88 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "ca3cb7cda5017e31",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "ca3cb7cda5017e31",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "에너지 안보와 관련된 기사로, 한국석유공사의 역할과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "美 “이란 드론 2기 추가 격추”...호르무즈 해협 긴장 고조",
+            "evidence_type": "title",
+            "reason": "에너지 안보와 관련된 이슈로, 한국석유공사의 저탄소 추진 업무와 연결됨"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "美 “이란 드론 2기 추가 격추”...호르무즈 해협 긴장 고조",
+            "evidence_type": "title",
+            "reason": "에너지 관련 국제 이슈로, 한국석유공사의 경영전략과 관련됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "ca3cb7cda5017e31",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "에너지 안보와 관련된 기사로, 한국석유공사의 역할과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "美 “이란 드론 2기 추가 격추”...호르무즈 해협 긴장 고조",
+            "evidence_type": "article",
+            "reason": "에너지 안보와 관련된 이슈로, 한국석유공사의 저탄소 추진 업무와 연결됨"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "美 “이란 드론 2기 추가 격추”...호르무즈 해협 긴장 고조",
+            "evidence_type": "article",
+            "reason": "에너지 관련 국제 이슈로, 한국석유공사의 경영전략과 관련됨"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "43b3917e5c0478cb",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "43b3917e5c0478cb",
+        "candidate": false,
+        "confidence": 0.2,
+        "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "43b3917e5c0478cb",
+        "candidate": false,
+        "confidence": 0.2,
+        "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+        "departments": []
+      }
+    }
+  ]
+}

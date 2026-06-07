@@ -1,0 +1,216 @@
+{
+  "raw_result_count": 4,
+  "accepted_result_count": 4,
+  "normalization": [
+    {
+      "article_id": "f872bd18bc8ac38e",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "f872bd18bc8ac38e",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "기사에서 언급된 '탐사'는 한국석유공사의 해외자원개발 사업과 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "한국 월면 진출의 동력, ‘부품 우주 검증 이력’에서 만들자",
+            "evidence_type": "title",
+            "reason": "해외자원개발 사업과 관련이 있다."
+          },
+          {
+            "department_id": "global_technology_center",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "지난 4월, 달 뒷면을 지나던 아르테미스 2호 승무원이 촬영하고 미국 항공우주국(NASA)이 공개한 ‘지구몰(Earthset)’은 한 장의 사진 그 이상이었다. 지구가 달의 지평선 너머로 사라지는 장면을 담은 이 사진은 인류가 다시 달을 바라보기 시작했다는 신호였고, 동시에 이번 달 탐사의 성격이 과거와 달라졌다는 암시이기도 했다.",
+            "evidence_type": "body_paragraph",
+            "reason": "기술지원과 지질·저류층·시추 기술과 관련이 있다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "f872bd18bc8ac38e",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "기사에서 언급된 '탐사'는 한국석유공사의 해외자원개발 사업과 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "한국 월면 진출의 동력, ‘부품 우주 검증 이력’에서 만들자",
+            "evidence_type": "article",
+            "reason": "해외자원개발 사업과 관련이 있다."
+          },
+          {
+            "department_id": "global_technology_center",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "지난 4월, 달 뒷면을 지나던 아르테미스 2호 승무원이 촬영하고 미국 항공우주국(NASA)이 공개한 ‘지구몰(Earthset)’은 한 장의 사진 그 이상이었다. 지구가 달의 지평선 너머로 사라지는 장면을 담은 이 사진은 인류가 다시 달을 바라보기 시작했다는 신호였고, 동시에 이번 달 탐사의 성격이 과거와 달라졌다는 암시이기도 했다.",
+            "evidence_type": "article",
+            "reason": "기술지원과 지질·저류층·시추 기술과 관련이 있다."
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "03e67d9c57c6be53",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "03e67d9c57c6be53",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "기사에서 언급된 '에너지'는 한국석유공사의 사업과 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "美 미사일 재고 바닥나는데…中, 핵심원료 텅스텐 싹쓸이",
+            "evidence_type": "title",
+            "reason": "석유사업 전략과 관련이 있다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "03e67d9c57c6be53",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "기사에서 언급된 '에너지'는 한국석유공사의 사업과 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "美 미사일 재고 바닥나는데…中, 핵심원료 텅스텐 싹쓸이",
+            "evidence_type": "article",
+            "reason": "석유사업 전략과 관련이 있다."
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "0e09af74f90777f3",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "0e09af74f90777f3",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "기사에서 언급된 '원유', '유가', '천연가스', '가스전'은 한국석유공사의 사업과 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "domestic_business_development",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "그림의 떡이었던 식민지 조선의 골드러시[일타쌍피 스토리노믹스]",
+            "evidence_type": "title",
+            "reason": "국내 자원개발 사업과 관련이 있다."
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "이 소설은 소설가 구보가 노트를 들고 하루동안 경성 이곳저곳을 돌아다니며 관찰한 도시와 풍속을 오롯이 담고 있다.",
+            "evidence_type": "body_paragraph",
+            "reason": "석유정보 서비스와 관련이 있다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "0e09af74f90777f3",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "기사에서 언급된 '원유', '유가', '천연가스', '가스전'은 한국석유공사의 사업과 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "domestic_business_development",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "그림의 떡이었던 식민지 조선의 골드러시[일타쌍피 스토리노믹스]",
+            "evidence_type": "article",
+            "reason": "국내 자원개발 사업과 관련이 있다."
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "이 소설은 소설가 구보가 노트를 들고 하루동안 경성 이곳저곳을 돌아다니며 관찰한 도시와 풍속을 오롯이 담고 있다.",
+            "evidence_type": "article",
+            "reason": "석유정보 서비스와 관련이 있다."
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "615462cacc323eca",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "615462cacc323eca",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "기사에서 언급된 '에너지'는 한국석유공사의 사업과 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "군수 바뀌어도 원전 흔들림 없다…영덕 무기는 ‘압도적 찬성률’",
+            "evidence_type": "title",
+            "reason": "저탄소 사업과 관련이 있다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "615462cacc323eca",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "기사에서 언급된 '에너지'는 한국석유공사의 사업과 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "군수 바뀌어도 원전 흔들림 없다…영덕 무기는 ‘압도적 찬성률’",
+            "evidence_type": "article",
+            "reason": "저탄소 사업과 관련이 있다."
+          }
+        ]
+      }
+    }
+  ]
+}

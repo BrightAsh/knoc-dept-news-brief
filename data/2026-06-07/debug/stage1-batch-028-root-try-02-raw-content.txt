@@ -1,0 +1,111 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "e45fb643f0ac0283",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "854f455f17efbd1a",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "68ef8ddcf63b8e7d",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "0a50619988d9f8cb",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d76f5a563b303746",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "a02eb9f10fa33d7d",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "396cbbecc153f564",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "bf38b85cdaae7d47",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "60796ffcc0ce9913",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "8ff34943d971d023",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "ad663f447c0f72ea",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "0abcf09129df4d89",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유, 원유 관련 내용이 기사에 직접 언급되어 한국석유공사의 석유 수급 안정화 업무와 관련성이 있다.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "석유, 원유",
+          "evidence_type": "sentence",
+          "reason": "한국석유공사의 석유사업 전략, 원유·석유제품 구매와 판매, 트레이딩 업무와 관련이 있다."
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "석유, 원유",
+          "evidence_type": "sentence",
+          "reason": "한국석유공사의 석유 비축, 전략 비축유 관리 업무와 관련이 있다."
+        }
+      ]
+    }
+  ]
+}
+```
