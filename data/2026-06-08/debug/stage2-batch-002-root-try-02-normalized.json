@@ -1,0 +1,452 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "1437af7b298c88df",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "1437af7b298c88df",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "유가 변동 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "중동전 후 원화 가치 8% 하락…아시아 최악, 유가 관련 기사",
+            "evidence_type": "article",
+            "reason": "유가 변동은 석유사업, 유통사업, 비축사업에 영향을 미침"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "중동전 후 원화 가치 8% 하락…아시아 최악, 유가 관련 기사",
+            "evidence_type": "article",
+            "reason": "유가 변동은 석유유통에 영향을 미침"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "중동전 후 원화 가치 8% 하락…아시아 최악, 유가 관련 기사",
+            "evidence_type": "article",
+            "reason": "유가 변동은 비축사업에 영향을 미침"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "1437af7b298c88df",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "유가 변동 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "중동전 후 원화 가치 8% 하락…아시아 최악, 유가 관련 기사",
+            "evidence_type": "article",
+            "reason": "유가 변동은 석유사업, 유통사업, 비축사업에 영향을 미침"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "중동전 후 원화 가치 8% 하락…아시아 최악, 유가 관련 기사",
+            "evidence_type": "article",
+            "reason": "유가 변동은 석유유통에 영향을 미침"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "중동전 후 원화 가치 8% 하락…아시아 최악, 유가 관련 기사",
+            "evidence_type": "article",
+            "reason": "유가 변동은 비축사업에 영향을 미침"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "f7f17d8baaa9a5a9",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "f7f17d8baaa9a5a9",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "원유와 호르무즈해협 관련 이슈로 한국석유공사와 관련이 있음",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "호르무즈해협을 통과하는 선박들에 한 척당 150만~200만달러의 통행료",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "호르무즈해협을 통과하는 선박들에 한 척당 150만~200만달러의 통행료",
+            "evidence_type": "paragraph",
+            "reason": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "f7f17d8baaa9a5a9",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "원유와 호르무즈해협 관련 이슈로 한국석유공사와 관련이 있음",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "호르무즈해협을 통과하는 선박들에 한 척당 150만~200만달러의 통행료",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "호르무즈해협을 통과하는 선박들에 한 척당 150만~200만달러의 통행료",
+            "evidence_type": "paragraph",
+            "reason": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "93cacec4e74550dc",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "93cacec4e74550dc",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "유류할증료 인상 관련 기사로 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "유류할증료 인상 직격탄···제주, 줄곧 늘던 내국인 관광객 ‘뚝’, 1~4월 상승세···5월 7%↓·6월 1~7일 18.9% ↓",
+            "evidence_type": "paragraph",
+            "reason": "유류할증료 인상과 관련된 기사로 석유유통, 주유소 공급, 소비자가격, 유류세 등 유통사업처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "유류할증료 인상 직격탄···제주, 줄곧 늘던 내국인 관광객 ‘뚝’, 1~4월 상승세···5월 7%↓·6월 1~7일 18.9% ↓",
+            "evidence_type": "paragraph",
+            "reason": "유류할증료 인상과 관련된 기사로 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 등 석유사업처의 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "93cacec4e74550dc",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "유류할증료 인상 관련 기사로 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "유류할증료 인상 직격탄···제주, 줄곧 늘던 내국인 관광객 ‘뚝’, 1~4월 상승세···5월 7%↓·6월 1~7일 18.9% ↓",
+            "evidence_type": "paragraph",
+            "reason": "유류할증료 인상과 관련된 기사로 석유유통, 주유소 공급, 소비자가격, 유류세 등 유통사업처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "유류할증료 인상 직격탄···제주, 줄곧 늘던 내국인 관광객 ‘뚝’, 1~4월 상승세···5월 7%↓·6월 1~7일 18.9% ↓",
+            "evidence_type": "paragraph",
+            "reason": "유류할증료 인상과 관련된 기사로 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 등 석유사업처의 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "7deb1c3288c69ed0",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "7deb1c3288c69ed0",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "석유, 원유, 유가, 에너지 관련 전쟁 이슈로 한국석유공사와 연결될 가능성이 있음",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "호르무즈 해협으로 본 전쟁···“호르무즈, 새로운 ‘억지력’이 되다” 지난 2월28일 미국과 이스라엘의 이란 공습으로 시작된 전쟁이 7일로 100일이 됐다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무와 연결됨"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "호르무즈 해협으로 본 전쟁···“호르무즈, 새로운 ‘억지력’이 되다” 지난 2월28일 미국과 이스라엘의 이란 공습으로 시작된 전쟁이 7일로 100일이 됐다.",
+            "evidence_type": "paragraph",
+            "reason": "경영전략, 경영목표, 운영계획 관련 업무와 연결됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "7deb1c3288c69ed0",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "석유, 원유, 유가, 에너지 관련 전쟁 이슈로 한국석유공사와 연결될 가능성이 있음",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "호르무즈 해협으로 본 전쟁···“호르무즈, 새로운 ‘억지력’이 되다” 지난 2월28일 미국과 이스라엘의 이란 공습으로 시작된 전쟁이 7일로 100일이 됐다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무와 연결됨"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "호르무즈 해협으로 본 전쟁···“호르무즈, 새로운 ‘억지력’이 되다” 지난 2월28일 미국과 이스라엘의 이란 공습으로 시작된 전쟁이 7일로 100일이 됐다.",
+            "evidence_type": "paragraph",
+            "reason": "경영전략, 경영목표, 운영계획 관련 업무와 연결됨"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "c765b7a3b34e8fbf",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "c765b7a3b34e8fbf",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 정보제공과 관련이 있음",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "중동 전쟁 후 원화 가치가 인도네시아 루피아화보다도 떨어진 것으로 나타났다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 변동이 한국석유공사의 석유 구매 및 판매에 영향을 줄 수 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "중동 전쟁 후 원화 가치가 인도네시아 루피아화보다도 떨어진 것으로 나타났다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 변동이 석유 유통에 영향을 줄 수 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.5,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "중동 전쟁 후 원화 가치가 인도네시아 루피아화보다도 떨어진 것으로 나타났다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 정보 제공 및 분석과 관련 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "c765b7a3b34e8fbf",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 정보제공과 관련이 있음",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "중동 전쟁 후 원화 가치가 인도네시아 루피아화보다도 떨어진 것으로 나타났다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 변동이 한국석유공사의 석유 구매 및 판매에 영향을 줄 수 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "중동 전쟁 후 원화 가치가 인도네시아 루피아화보다도 떨어진 것으로 나타났다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 변동이 석유 유통에 영향을 줄 수 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.5,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "중동 전쟁 후 원화 가치가 인도네시아 루피아화보다도 떨어진 것으로 나타났다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 정보 제공 및 분석과 관련 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "a639dfe7d175cf7e",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "a639dfe7d175cf7e",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "에너지 관련 인사 정보가 포함되어 있으나 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정하지 않음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "a639dfe7d175cf7e",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "에너지 관련 인사 정보가 포함되어 있으나 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정하지 않음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "ee3f28bd95957dae",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "ee3f28bd95957dae",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "유가 관련 기사이나 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정하지 않음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "ee3f28bd95957dae",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "유가 관련 기사이나 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정하지 않음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "1f336a1a3e537839",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "1f336a1a3e537839",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "유가 관련 기사이나 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정하지 않음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "1f336a1a3e537839",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "유가 관련 기사이나 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정하지 않음",
+        "departments": []
+      }
+    }
+  ]
+}

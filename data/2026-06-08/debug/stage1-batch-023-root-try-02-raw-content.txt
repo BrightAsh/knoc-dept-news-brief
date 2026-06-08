@@ -1,0 +1,34 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "09737d86769b707f",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유정제 생산과 석유제품 수출 물량 감소 언급으로 인해 한국석유공사의 업무와 관련성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "석유정제 생산과 석유제품 수출 물량이 감소하는 등 미국·이스라엘-이란 전쟁의 부정적 영향이 일부 가시화되고 있다고 진단했다.",
+          "evidence_type": "paragraph",
+          "reason": "석유정제 생산과 석유제품 수출은 석유사업처의 업무와 관련이 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "석유정제 생산과 석유제품 수출 물량이 감소하는 등 미국·이스라엘-이란 전쟁의 부정적 영향이 일부 가시화되고 있다고 진단했다.",
+          "evidence_type": "paragraph",
+          "reason": "석유시장 동향 분석은 스마트데이터센터의 업무와 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

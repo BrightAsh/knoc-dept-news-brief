@@ -1,0 +1,119 @@
+{
+  "results": [
+    {
+      "article_id": "6b12f0915b1400be",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "유가 변동에 대한 내용은 있지만, 한국석유공사 업무와 직접적인 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용은 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "15a3574d18c76a25",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "미·이란 전쟁 관련 이슈로 한국석유공사의 해외자원개발 사업과 관련이 있음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 실제 기사 내용은 한국석유공사의 해외자원개발 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미·이란 전쟁 관련 이슈로 해외자원개발 사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업 관련 업무와 연결됨"
+        },
+        {
+          "department_id": "domestic_business_development",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미·이란 전쟁 관련 이슈로 국내 자원개발 사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "국내 자원개발 사업, 국내 대륙붕, 가스전, 탐사·시추 관련 업무와 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "a06e3408119df699",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "에너지 관련 이슈로 한국석유공사의 저탄소 추진 사업과 관련이 있음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 실제 기사 내용은 한국석유공사의 저탄소 추진 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "에너지 관련 이슈로 저탄소 추진 사업과 관련이 있음",
+          "evidence_type": "sentence",
+          "reason": "저탄소 수소와 암모니아 관련 사업"
+        }
+      ]
+    },
+    {
+      "article_id": "cba4e1269ea731af",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "에너지 가격 관련 언급은 있지만, 한국석유공사 업무와 직접적인 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용은 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "967b039e9eb74371",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "수소 관련 사업은 한국석유공사의 미래 에너지 사업과 관련이 있음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 실제 기사 내용은 한국석유공사의 미래 에너지 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 수소와 암모니아 관련 사업"
+        }
+      ]
+    },
+    {
+      "article_id": "2399f33d9526e7fd",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "에너지 관련 이슈로 한국석유공사의 석유사업 전략과 관련이 있음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 실제 기사 내용은 한국석유공사의 석유사업 전략과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "초고압 전력망 프로젝트는 에너지 인프라와 관련이 있으며, 한국석유공사의 석유사업 전략과 간접적으로 연결될 수 있음",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품 구매와 판매 관련 언급 가능성"
+        }
+      ]
+    },
+    {
+      "article_id": "6c01bfd8efa34f47",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "에너지 관련 인사 정보는 있지만, 한국석유공사 업무와 직접적인 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용은 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    }
+  ]
+}

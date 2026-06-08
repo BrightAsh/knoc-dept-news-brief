@@ -1,0 +1,48 @@
+{
+  "results": [
+    {
+      "article_id": "d0abf443015c1e2f",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "6b12f0915b1400be",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "유가 변동은 석유사업에 영향을 미칠 수 있으므로 관련성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "유가 변동은 석유제품 가격에 영향을 미칠 수 있음",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "967b039e9eb74371",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "수소 관련 사업은 한국석유공사의 미래 에너지 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 수소와 암모니아 관련 사업"
+        }
+      ]
+    }
+  ]
+}

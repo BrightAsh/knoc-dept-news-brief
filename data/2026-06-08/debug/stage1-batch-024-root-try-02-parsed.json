@@ -1,0 +1,90 @@
+{
+  "results": [
+    {
+      "article_id": "3ba9d381ff89f2ed",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유비축 관련 허위 정보 유포 기사",
+      "departments": [
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "국내 석유 비축기지 원유 수십만 배럴이 북한으로 유입됐다는 허위 정보를 유포한 유튜브 채널 운영자들이 검거돼 검찰에 넘겨졌다.",
+          "evidence_type": "paragraph",
+          "reason": "석유비축 관련 업무와 직접적으로 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "14bd0b33d4d13240",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "수소 관련 기사",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "이를 통해 두 기업은 특히 인공지능 팩토리 구축에 필요한 전력 공급 설계, 발전설비 최적화, 저탄소 전원 모색 등으로 협력 범위를 넓힌다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 관련 업무와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "ee3f28bd95957dae",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "유가 관련 기사",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "[속보]이 대통령, 이스라엘 선박 나포에 “주권 침해행위, 국제규범 위반, 인권침해 지적한 것”",
+          "evidence_type": "title",
+          "reason": "유가 관련 업무와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "1f336a1a3e537839",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "유가 관련 기사",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "[속보]이 대통령, 이스라엘 선박 나포에 “주권 침해행위, 국제규범 위반, 인권침해 지적한 것”",
+          "evidence_type": "title",
+          "reason": "유가 관련 업무와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "58dd3bdaf5ce9a74",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "경유 관련 기사지만 내용과 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "51bca65c772348b9",
+      "candidate": false,
+      "confidence": 0.3,
+      "company_reason": "수소 관련 기사지만 내용과 관련이 없음",
+      "departments": []
+    }
+  ]
+}

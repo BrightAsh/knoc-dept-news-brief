@@ -1,0 +1,550 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "b1f02d725ca02d1d",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "b1f02d725ca02d1d",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "석유 단지 공격 관련 기사는 석유사업, 해외자원개발, 비축사업과 관련이 있음",
+        "review_note": "C 그룹을 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "석유 단지 공격 주고받은 이란-이스라엘…두 달 휴전 이래 긴장 ‘최고조’, 석유 관련 기사",
+            "evidence_type": "article",
+            "reason": "석유 단지의 공격은 석유사업에 영향을 미침"
+          },
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "석유 단지 공격 주고받은 이란-이스라엘…두 달 휴전 이래 긴장 ‘최고조’, 석유 관련 기사",
+            "evidence_type": "article",
+            "reason": "에너지 안보에 영향을 미침"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "석유 단지 공격 주고받은 이란-이스라엘…두 달 휴전 이래 긴장 ‘최고조’, 석유 관련 기사",
+            "evidence_type": "article",
+            "reason": "석유 공급 불안정은 비축사업에 영향을 미침"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "b1f02d725ca02d1d",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "석유 단지 공격 관련 기사는 석유사업, 해외자원개발, 비축사업과 관련이 있음",
+        "review_note": "C 그룹을 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "석유 단지 공격 주고받은 이란-이스라엘…두 달 휴전 이래 긴장 ‘최고조’, 석유 관련 기사",
+            "evidence_type": "article",
+            "reason": "석유 단지의 공격은 석유사업에 영향을 미침"
+          },
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "석유 단지 공격 주고받은 이란-이스라엘…두 달 휴전 이래 긴장 ‘최고조’, 석유 관련 기사",
+            "evidence_type": "article",
+            "reason": "에너지 안보에 영향을 미침"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "석유 단지 공격 주고받은 이란-이스라엘…두 달 휴전 이래 긴장 ‘최고조’, 석유 관련 기사",
+            "evidence_type": "article",
+            "reason": "석유 공급 불안정은 비축사업에 영향을 미침"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "09912afccbcc0464",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "09912afccbcc0464",
+        "final_relevant": true,
+        "confidence": 0.85,
+        "final_reason": "원유 공급망 협력 강화 관련 기사는 석유사업처의 업무와 관련이 있음",
+        "review_note": "C 그룹을 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "양측은 원유의 안정적 도입을 위해 협력하기로 했고, 카자흐의 전력 인프라 구축과 노후 발전소의 현대화 사업 추진 과정에서 협력을 확대해 나가기로 의견을 모았다.",
+            "evidence_type": "paragraph",
+            "reason": "원유 공급망 협력 강화와 관련하여 석유사업처의 역할과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "09912afccbcc0464",
+        "final_relevant": true,
+        "confidence": 0.85,
+        "final_reason": "원유 공급망 협력 강화 관련 기사는 석유사업처의 업무와 관련이 있음",
+        "review_note": "C 그룹을 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "양측은 원유의 안정적 도입을 위해 협력하기로 했고, 카자흐의 전력 인프라 구축과 노후 발전소의 현대화 사업 추진 과정에서 협력을 확대해 나가기로 의견을 모았다.",
+            "evidence_type": "paragraph",
+            "reason": "원유 공급망 협력 강화와 관련하여 석유사업처의 역할과 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "9893c5255592dcb6",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "9893c5255592dcb6",
+        "final_relevant": true,
+        "confidence": 0.85,
+        "final_reason": "중동전쟁과 원유 수급 관련 이슈로 한국석유공사와 관련이 있음",
+        "review_note": "C 그룹을 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "전쟁 여파가 한국 경제에 가시화되고 있다는 진단",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "전쟁 여파가 한국 경제에 가시화되고 있다는 진단",
+            "evidence_type": "paragraph",
+            "reason": "경영전략, 경영목표, 운영계획 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "9893c5255592dcb6",
+        "final_relevant": true,
+        "confidence": 0.85,
+        "final_reason": "중동전쟁과 원유 수급 관련 이슈로 한국석유공사와 관련이 있음",
+        "review_note": "C 그룹을 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "전쟁 여파가 한국 경제에 가시화되고 있다는 진단",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "전쟁 여파가 한국 경제에 가시화되고 있다는 진단",
+            "evidence_type": "paragraph",
+            "reason": "경영전략, 경영목표, 운영계획 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "09737d86769b707f",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "09737d86769b707f",
+        "final_relevant": true,
+        "confidence": 0.85,
+        "final_reason": "석유정제 생산과 석유제품 수출 물량 감소 언급으로 인해 한국석유공사의 업무와 관련성이 있음",
+        "review_note": "C 그룹을 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "석유정제 생산과 석유제품 수출 물량이 감소하는 등 미국·이스라엘-이란 전쟁의 부정적 영향이 일부 가시화되고 있다고 진단했다.",
+            "evidence_type": "paragraph",
+            "reason": "석유정제 생산과 석유제품 수출은 석유사업처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "석유정제 생산과 석유제품 수출 물량이 감소하는 등 미국·이스라엘-이란 전쟁의 부정적 영향이 일부 가시화되고 있다고 진단했다.",
+            "evidence_type": "paragraph",
+            "reason": "석유시장 동향 분석은 스마트데이터센터의 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "09737d86769b707f",
+        "final_relevant": true,
+        "confidence": 0.85,
+        "final_reason": "석유정제 생산과 석유제품 수출 물량 감소 언급으로 인해 한국석유공사의 업무와 관련성이 있음",
+        "review_note": "C 그룹을 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "석유정제 생산과 석유제품 수출 물량이 감소하는 등 미국·이스라엘-이란 전쟁의 부정적 영향이 일부 가시화되고 있다고 진단했다.",
+            "evidence_type": "paragraph",
+            "reason": "석유정제 생산과 석유제품 수출은 석유사업처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "석유정제 생산과 석유제품 수출 물량이 감소하는 등 미국·이스라엘-이란 전쟁의 부정적 영향이 일부 가시화되고 있다고 진단했다.",
+            "evidence_type": "paragraph",
+            "reason": "석유시장 동향 분석은 스마트데이터센터의 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "3ba9d381ff89f2ed",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "3ba9d381ff89f2ed",
+        "final_relevant": true,
+        "confidence": 0.95,
+        "final_reason": "석유비축 관련 허위 정보 유포 기사로 한국석유공사의 석유비축처와 관련이 있음",
+        "review_note": "C 그룹을 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.95,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국내 석유 비축기지 원유 수십만 배럴이 북한으로 유입됐다는 허위 정보를 유포한 유튜브 채널 운영자들이 검거돼 검찰에 넘겨졌다.",
+            "evidence_type": "paragraph",
+            "reason": "석유비축 관련 업무와 직접적으로 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "3ba9d381ff89f2ed",
+        "final_relevant": true,
+        "confidence": 0.95,
+        "final_reason": "석유비축 관련 허위 정보 유포 기사로 한국석유공사의 석유비축처와 관련이 있음",
+        "review_note": "C 그룹을 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.95,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국내 석유 비축기지 원유 수십만 배럴이 북한으로 유입됐다는 허위 정보를 유포한 유튜브 채널 운영자들이 검거돼 검찰에 넘겨졌다.",
+            "evidence_type": "paragraph",
+            "reason": "석유비축 관련 업무와 직접적으로 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "9421dead1277f581",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "9421dead1277f581",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "석유, 원유, 유가, 석유비축 관련 이슈로 한국석유공사와 관련이 있음",
+        "review_note": "C 그룹을 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "울산 원유 90만 배럴 북한 유입 허위정보 퍼트린 유튜버 송치",
+            "evidence_type": "article",
+            "reason": "석유비축처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "울산 원유 90만 배럴 북한 유입 허위정보 퍼트린 유튜버 송치",
+            "evidence_type": "article",
+            "reason": "석유사업처의 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "9421dead1277f581",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "석유, 원유, 유가, 석유비축 관련 이슈로 한국석유공사와 관련이 있음",
+        "review_note": "C 그룹을 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "울산 원유 90만 배럴 북한 유입 허위정보 퍼트린 유튜버 송치",
+            "evidence_type": "article",
+            "reason": "석유비축처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "울산 원유 90만 배럴 북한 유입 허위정보 퍼트린 유튜버 송치",
+            "evidence_type": "article",
+            "reason": "석유사업처의 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "804e94518fbfcc8e",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "804e94518fbfcc8e",
+        "final_relevant": true,
+        "confidence": 0.85,
+        "final_reason": "에너지 수급 안정화 논의로 한국석유공사의 업무와 관련이 있음",
+        "review_note": "C 그룹을 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "에너지 수급 안정화 논의",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 신규사업, 에너지전환 관련 업무"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "에너지 수급 안정화 논의",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유 구매와 판매, 트레이딩 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "804e94518fbfcc8e",
+        "final_relevant": true,
+        "confidence": 0.85,
+        "final_reason": "에너지 수급 안정화 논의로 한국석유공사의 업무와 관련이 있음",
+        "review_note": "C 그룹을 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "에너지 수급 안정화 논의",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 신규사업, 에너지전환 관련 업무"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "에너지 수급 안정화 논의",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유 구매와 판매, 트레이딩 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "66257fdc90591379",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "66257fdc90591379",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "review_note": "C 그룹을 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "중동전 후 원화 가치 8% 하락…아시아 최악, 유가 관련 기사",
+            "evidence_type": "article",
+            "reason": "유가 변동은 석유사업, 유통사업, 비축사업에 영향을 미침"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "중동전 후 원화 가치 8% 하락…아시아 최악, 유가 관련 기사",
+            "evidence_type": "article",
+            "reason": "유가 변동은 석유유통에 영향을 미침"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "중동전 후 원화 가치 8% 하락…아시아 최악, 유가 관련 기사",
+            "evidence_type": "article",
+            "reason": "유가 변동은 비축사업에 영향을 미침"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "66257fdc90591379",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "review_note": "C 그룹을 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "중동전 후 원화 가치 8% 하락…아시아 최악, 유가 관련 기사",
+            "evidence_type": "article",
+            "reason": "유가 변동은 석유사업, 유통사업, 비축사업에 영향을 미침"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "중동전 후 원화 가치 8% 하락…아시아 최악, 유가 관련 기사",
+            "evidence_type": "article",
+            "reason": "유가 변동은 석유유통에 영향을 미침"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "중동전 후 원화 가치 8% 하락…아시아 최악, 유가 관련 기사",
+            "evidence_type": "article",
+            "reason": "유가 변동은 비축사업에 영향을 미침"
+          }
+        ]
+      }
+    }
+  ]
+}

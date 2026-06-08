@@ -1,0 +1,82 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "2cb44d0ce27e3f5c",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "ccb8ca5140640ffb",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "7deb1c3288c69ed0",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "석유, 원유, 유가, 에너지 관련 전쟁 이슈로 한국석유공사와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "호르무즈 해협으로 본 전쟁···“호르무즈, 새로운 ‘억지력’이 되다” 지난 2월28일 미국과 이스라엘의 이란 공습으로 시작된 전쟁이 7일로 100일이 됐다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무와 연결됨"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "호르무즈 해협으로 본 전쟁···“호르무즈, 새로운 ‘억지력’이 되다” 지난 2월28일 미국과 이스라엘의 이란 공습으로 시작된 전쟁이 7일로 100일이 됐다.",
+          "evidence_type": "paragraph",
+          "reason": "경영전략, 경영목표, 운영계획 관련 업무와 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "15a3574d18c76a25",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유전 관련 이슈로 한국석유공사와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "domestic_business_development",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "[미·이란 전쟁 100일] “짖는 개는 물지 않는다” 현실이 된 9년 전 예언 영국 킹스칼리지 런던의 중동 정세 석학 안드레아스 크리그는 2017년 발표한 그의 논문 에서 이같이 밝혔다. 9년 전 크리그는 미 국무부 축소로 인한 외교력의 약화, 강한 군사력을 앞세운 공군력 외교가 중동에서의 미국의 입지를 좁힐 것이라 내다봤다.",
+          "evidence_type": "paragraph",
+          "reason": "국내 자원개발 사업, 국내 대륙붕, 가스전, 탐사·시추 관련 업무와 연결됨"
+        },
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "[미·이란 전쟁 100일] “짖는 개는 물지 않는다” 현실이 된 9년 전 예언 영국 킹스칼리지 런던의 중동 정세 석학 안드레아스 크리그는 2017년 발표한 그의 논문 에서 이같이 밝혔다. 9년 전 크리그는 미 국무부 축소로 인한 외교력의 약화, 강한 군사력을 앞세운 공군력 외교가 중동에서의 미국의 입지를 좁힐 것이라 내다봤다.",
+          "evidence_type": "paragraph",
+          "reason": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업 관련 업무와 연결됨"
+        }
+      ]
+    }
+  ]
+}
+```
