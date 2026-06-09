@@ -1,0 +1,145 @@
+{
+  "results": [
+    {
+      "article_id": "d208b6d33c926a22",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "기사는 수소 및 에너지 전환 관련 이슈를 다루고 있으나, 한국석유공사의 직접적인 사업 또는 업무와 관련한 구체적인 내용은 없음.",
+      "review_note": "C 그룹에서 D 그룹으로 변경. 기사는 환경 문제와 수소 관련 내용을 언급하지만, 한국석유공사의 특정 부서와 직접 연결되는 근거가 부족함.",
+      "departments": []
+    },
+    {
+      "article_id": "5a225699deed8af1",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "기사는 산업통상자원부 및 반도체법에 대해 논의하고 있으나, 한국석유공사의 직접적인 사업 또는 업무와 관련한 구체적인 내용은 없음.",
+      "review_note": "C 그룹에서 D 그룹으로 변경. 기사는 산업 정책과 관련 있으나, 한국석유공사의 특정 부서와 직접 연결되는 근거가 부족함.",
+      "departments": []
+    },
+    {
+      "article_id": "bf150007b1cfcd40",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "기사는 에너지 관련 이슈를 다루고 있으며, 석유, 유가, 에너지 관련 내용이 한국석유공사의 사업과 관련이 있음.",
+      "review_note": "C 그룹을 유지. 기사는 에너지 관련 내용을 포함하고 있어 한국석유공사의 석유사업처, 저탄소추진처, 스마트데이터센터와 관련이 있음.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "석유, 유가, 에너지",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련"
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "에너지",
+          "evidence_type": "sentence",
+          "reason": "저탄소 관련 사업"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "유가",
+          "evidence_type": "sentence",
+          "reason": "유가 정보 제공 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "28c1877a4941a69e",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "기사는 해양 생태계와 기후 변화에 대해 논의하고 있으나, 한국석유공사의 직접적인 사업 또는 업무와 관련한 구체적인 내용은 없음.",
+      "review_note": "C 그룹에서 D 그룹으로 변경. 기사는 환경 문제와 관련 있으나, 한국석유공사의 특정 부서와 직접 연결되는 근거가 부족함.",
+      "departments": []
+    },
+    {
+      "article_id": "4de6575bf1198fd4",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "기사는 이란-이스라엘 갈등과 유가 관련 이슈를 다루고 있어 한국석유공사의 석유사업과 관련이 있음.",
+      "review_note": "C 그룹을 유지. 기사는 유가 관련 내용을 포함하고 있어 한국석유공사의 석유사업처, 전략처와 관련이 있음.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "유가 관련 이슈",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "유가 관련 이슈",
+          "evidence_type": "paragraph",
+          "reason": "경영전략, 경영목표, 운영계획 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "c56cf675a182ab13",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "기사는 이란-이스라엘 갈등과 유가 관련 이슈를 다루고 있어 한국석유공사의 석유사업과 관련이 있음.",
+      "review_note": "C 그룹을 유지. 기사는 유가 관련 내용을 포함하고 있어 한국석유공사의 석유사업처, 전략처와 관련이 있음.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "버티는 이란·맞서는 네타냐후·조급한 트럼프···서로 다른 이해관계에 종전 협상 길 잃나?",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "버티는 이란·맞서는 네타냐후·조급한 트럼프···서로 다른 이해관계에 종전 협상 길 잃나?",
+          "evidence_type": "paragraph",
+          "reason": "경영전략, 경영목표, 운영계획 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "6580aac6ff5dac71",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "기사는 미국과 이란의 종전 협상 및 중동 사태에 대해 논의하고 있으나, 한국석유공사의 직접적인 사업 또는 업무와 관련한 구체적인 내용은 없음.",
+      "review_note": "C 그룹에서 D 그룹으로 변경. 기사는 유가 관련 내용을 언급하지만, 한국석유공사의 특정 부서와 직접 연결되는 근거가 부족함.",
+      "departments": []
+    },
+    {
+      "article_id": "b42be220876296ee",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "기사는 에너지 관련 기업과 데이터센터 버스덕트 공급 계약에 대해 논의하고 있으나, 한국석유공사의 직접적인 사업 또는 업무와 관련한 구체적인 내용은 없음.",
+      "review_note": "C 그룹에서 D 그룹으로 변경. 기사는 에너지 관련 내용을 언급하지만, 한국석유공사의 특정 부서와 직접 연결되는 근거가 부족함.",
+      "departments": []
+    }
+  ]
+}

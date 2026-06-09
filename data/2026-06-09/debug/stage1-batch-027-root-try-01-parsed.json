@@ -1,0 +1,128 @@
+{
+  "results": [
+    {
+      "article_id": "274d8c465dfe611f",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2180c218b621bd44",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "1470174f46c138cd",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5c0e0949307b4678",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "에너지 안보, 석유/가스 수급 관련 이슈",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "중동 사태 영향은 원유 시장보다 LNG 시장에서 더 오래간다",
+          "evidence_type": "paragraph",
+          "reason": "에너지 정책과 관련이 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "원유 시장과 LNG 시장 영향",
+          "evidence_type": "paragraph",
+          "reason": "유가와 석유가격 정보 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "6580aac6ff5dac71",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유가 관련 이슈",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국과 이란의 종전 협상이 지지부진한 사이 중동 사태가 발발 100일을 넘겼다",
+          "evidence_type": "paragraph",
+          "reason": "유가 정보와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "c54a3940b96aae4d",
+      "candidate": true,
+      "confidence": 0.95,
+      "company_reason": "해외자원개발 관련 이슈",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "7광구 유전 개발",
+          "evidence_type": "paragraph",
+          "reason": "해외자원개발 관련"
+        },
+        {
+          "department_id": "global_technology_center",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "유전 개발",
+          "evidence_type": "paragraph",
+          "reason": "E&P 기술지원 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "e264239e28f6b418",
+      "candidate": true,
+      "confidence": 0.98,
+      "company_reason": "한국석유공사 관련 직접 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "해남부터 대왕고래까지…매번 미끄러진 ‘산유국의 꿈’",
+          "evidence_type": "article",
+          "reason": "한국석유공사와 직접 관련"
+        },
+        {
+          "department_id": "domestic_business_development",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "한반도에서 ‘산유국의 꿈’을 현실로 만들려는 시도는 70년 가까운 긴 역사를 갖고 있다",
+          "evidence_type": "paragraph",
+          "reason": "국내 자원개발 사업 관련"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "b42be220876296ee",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 키워드 히트",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "AI 데이터센터 건설에 수요 늘자메타 등 빅테크 이어 고객군 확대",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 사업 전략과 시장 동향 분석"
+        }
+      ]
+    },
+    {
+      "article_id": "e17d20147f3c266e",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "공공기관 관련 이슈",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "이재명 정부 1년을 맞은 최근까지 공기업과 공공기관의 수장 10명 중 7명은 여전히 전임 정부에서 임명된 인사들이 맡고 있는 것으로 조사됐다.",
+          "evidence_type": "paragraph",
+          "reason": "공공기관 운영과 예산 관련"
+        }
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,80 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "1e99aeeebd12cde7",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "에너지 안보, 석유/가스 수급 관련 이슈로 한국석유공사와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "전쟁 장기화에 재생에너지 주목, 탈원전 철회···이란 전쟁이 만든 ‘자국 우선 에너지 시대’",
+          "evidence_type": "article",
+          "reason": "에너지 안보, 석유/가스 수급 관련 이슈로 경영전략과 관련이 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국과 이란의 전쟁 중 호르무즈 해협의 봉쇄가 이어지는 등 지정학적 위기로 에너지 수급에 차질이 빚어지면서 전 세계적으로 자국의 에너지 안보를 확보하기 위한 움직임이 이어지고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 수급, 시장 동향 분석과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "82584d70a7f6aa74",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "탄소중립, 에너지 관련 이슈로 한국석유공사와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "제주, 일회용품 줄이기 정책 통했다···폐기물 매립량 절반 ‘뚝’",
+          "evidence_type": "article",
+          "reason": "탄소중립, 에너지 전환 관련 이슈로 저탄소 추진과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "d208b6d33c926a22",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "수소 관련 이슈로 한국석유공사와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "기후부 “소양호 붕어 떼죽음, 호수 저층 산소부족·산란기 세균 감염 등 복합 원인”",
+          "evidence_type": "article",
+          "reason": "수소, 에너지 전환 관련 이슈로 저탄소 추진과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "cbaa9c109f9ca924",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "유가 관련 언급이지만 직접적인 관련은 없음",
+      "departments": []
+    }
+  ]
+}
+```

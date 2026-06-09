@@ -1,0 +1,48 @@
+{
+  "raw_result_count": 1,
+  "accepted_result_count": 1,
+  "normalization": [
+    {
+      "article_id": "aceadf079f994498",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "aceadf079f994498",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "석유 관련 언급이 있어 에너지 수급 관련 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "전자담배 액상 등으로 신종 마약류를 제조해 텔레그램에서 판매한 혐의로 채널 운영자 A씨와 제조·운반책 등 6명을 검거했다고 9일 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "석유제품 관련 언급이 있어 석유사업처의 업무와 관련 가능성이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "aceadf079f994498",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "석유 관련 언급이 있어 에너지 수급 관련 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "전자담배 액상 등으로 신종 마약류를 제조해 텔레그램에서 판매한 혐의로 채널 운영자 A씨와 제조·운반책 등 6명을 검거했다고 9일 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "석유제품 관련 언급이 있어 석유사업처의 업무와 관련 가능성이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

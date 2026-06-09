@@ -1,0 +1,33 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "50a2bd4f9b839565",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "공공기관장 관련 이슈로 한국석유공사에 영향이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "이재명 정부 1년 됐는데···공공기관장 10명 중 7명은 ‘아직’ 문재인·윤석열 정부 인사",
+          "evidence_type": "article",
+          "reason": "공공기관 운영 및 예산 관련 부서"
+        }
+      ]
+    },
+    {
+      "article_id": "6d5250b3495e2f81",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "유가 관련 언급이지만 구체적인 내용은 아님",
+      "departments": []
+    }
+  ]
+}
+```

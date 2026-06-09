@@ -1,0 +1,110 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "25daec0b1b23c05d",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "25daec0b1b23c05d",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "저탄소, 고부가 전환으로 경쟁력 확보하는 철강 산업 관련 정책 기사로, 에너지 전환 관련 한국석유공사의 역할과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "저탄소·고부가 전환으로 경쟁력 확보한다",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 정책과 관련하여 에너지 전환 사업을 수행하는 한국석유공사의 저탄소추진처와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "25daec0b1b23c05d",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "저탄소, 고부가 전환으로 경쟁력 확보하는 철강 산업 관련 정책 기사로, 에너지 전환 관련 한국석유공사의 역할과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "저탄소·고부가 전환으로 경쟁력 확보한다",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 정책과 관련하여 에너지 전환 사업을 수행하는 한국석유공사의 저탄소추진처와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "7b93c0db035fb52b",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "7b93c0db035fb52b",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지, LNG, 천연가스 관련 기사로, 한국석유공사의 석유/가스 자원개발 및 에너지 안보와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "가온전선이 미국 생성형 인공지능 기업과 데이터센터 버스덕트 공급 계약을 맺었다.",
+            "evidence_type": "paragraph",
+            "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하는 스마트데이터센터와 관련이 있음"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "가온전선이 미국 생성형 인공지능 기업과 데이터센터 버스덕트 공급 계약을 맺었다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "7b93c0db035fb52b",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지, LNG, 천연가스 관련 기사로, 한국석유공사의 석유/가스 자원개발 및 에너지 안보와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "가온전선이 미국 생성형 인공지능 기업과 데이터센터 버스덕트 공급 계약을 맺었다.",
+            "evidence_type": "paragraph",
+            "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하는 스마트데이터센터와 관련이 있음"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "가온전선이 미국 생성형 인공지능 기업과 데이터센터 버스덕트 공급 계약을 맺었다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "057ace83c7c917be",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "057ace83c7c917be",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "고유가 부담 완화와 민생 안정 관련 정책 기사로 한국석유공사의 석유사업, 유통사업, 가격 안정화 정책과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "대구시는 고유가 부담 완화와 민생 안정을 위해 올해 4910억원 규모의 1차 추가경정예산을 편성했다고 9일 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "고유가 관련 정책 기사로 석유사업, 유통사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "대구시는 고유가 부담 완화와 민생 안정을 위해 올해 4910억원 규모의 1차 추가경정예산을 편성했다고 9일 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "고유가 관련 정책 기사로 유통사업과 관련이 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "057ace83c7c917be",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "고유가 부담 완화와 민생 안정 관련 정책 기사로 한국석유공사의 석유사업, 유통사업, 가격 안정화 정책과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "대구시는 고유가 부담 완화와 민생 안정을 위해 올해 4910억원 규모의 1차 추가경정예산을 편성했다고 9일 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "고유가 관련 정책 기사로 석유사업, 유통사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "대구시는 고유가 부담 완화와 민생 안정을 위해 올해 4910억원 규모의 1차 추가경정예산을 편성했다고 9일 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "고유가 관련 정책 기사로 유통사업과 관련이 있을 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "ea3d2c44abeca3f1",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "ea3d2c44abeca3f1",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "공공기관 관련 언급이지만 직접적인 관련성은 낮음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "ea3d2c44abeca3f1",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "공공기관 관련 언급이지만 직접적인 관련성은 낮음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "20175981383d42dc",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "20175981383d42dc",
+        "candidate": false,
+        "confidence": 0.3,
+        "company_reason": "유가 언급 있지만 직접적인 관련성은 낮음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "20175981383d42dc",
+        "candidate": false,
+        "confidence": 0.3,
+        "company_reason": "유가 언급 있지만 직접적인 관련성은 낮음",
+        "departments": []
+      }
+    }
+  ]
+}
