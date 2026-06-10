@@ -1,0 +1,44 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "a0b5afde8f7d6cb1",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 이슈로 한국석유공사와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "삼성전자가 호남 지역에 첨단 반도체 공장 건설을 추진 중이며, 이는 특정 기업의 생산기지 추가를 넘어 극심한 수도권 쏠림을 완화하고 지역균형발전 실천의 계기가 될 수 있다는 점에서 의미가 크다.",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사의 경영전략과 관련하여 에너지 이슈에 대한 분석 및 검토가 필요할 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "035aaab47a65a204",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "유가 관련 이슈로 한국석유공사와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "북한, ‘적대적 두 국가’ 이어 러·중과 밀착…전문가들 “장기적 대북 접근 필요”",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사의 유가 정보 제공 및 시장 동향 분석과 관련하여 참고할 수 있는 기사"
+        }
+      ]
+    }
+  ]
+}
+```

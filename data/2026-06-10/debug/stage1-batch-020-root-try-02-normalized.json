@@ -1,0 +1,130 @@
+{
+  "raw_result_count": 4,
+  "accepted_result_count": 4,
+  "normalization": [
+    {
+      "article_id": "6d7839ade5879fdb",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "6d7839ade5879fdb",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "단순 건강 이슈 기사",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "6d7839ade5879fdb",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "단순 건강 이슈 기사",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "7201c31cebd852e8",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "7201c31cebd852e8",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "여행 지원금 프로모션으로 인한 유가 관련 수요 증가 가능성",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "여행지원금 행사에 참여하기 위해 제주국제공항 현장 부스를 찾은 관광객들. 제주관광공사 제공",
+            "evidence_type": "paragraph",
+            "reason": "여행 지원금 프로모션으로 인한 유가 관련 수요 증가 가능성"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "7201c31cebd852e8",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "여행 지원금 프로모션으로 인한 유가 관련 수요 증가 가능성",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "여행지원금 행사에 참여하기 위해 제주국제공항 현장 부스를 찾은 관광객들. 제주관광공사 제공",
+            "evidence_type": "paragraph",
+            "reason": "여행 지원금 프로모션으로 인한 유가 관련 수요 증가 가능성"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "4197eb4c094493fc",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "4197eb4c094493fc",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "유전자 분석 장비 기업 투자 관련 기사",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "4197eb4c094493fc",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "유전자 분석 장비 기업 투자 관련 기사",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "54b888e3792c4e29",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "54b888e3792c4e29",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "공공기관 정원 확대 관련 기사",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "현재 18곳인 국가·지방정원이 2030년까지 68개로 늘어난다. 184개가 지정된 민간정원은 3배 확충되고, 생활정원도 크게 늘어나게 된다.",
+            "evidence_type": "paragraph",
+            "reason": "공공기관 정원 확대 관련 기사"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "54b888e3792c4e29",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "공공기관 정원 확대 관련 기사",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "현재 18곳인 국가·지방정원이 2030년까지 68개로 늘어난다. 184개가 지정된 민간정원은 3배 확충되고, 생활정원도 크게 늘어나게 된다.",
+            "evidence_type": "paragraph",
+            "reason": "공공기관 정원 확대 관련 기사"
+          }
+        ]
+      }
+    }
+  ]
+}

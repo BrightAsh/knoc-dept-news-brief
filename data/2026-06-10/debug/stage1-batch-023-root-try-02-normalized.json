@@ -1,0 +1,68 @@
+{
+  "raw_result_count": 1,
+  "accepted_result_count": 1,
+  "normalization": [
+    {
+      "article_id": "6cb9cba4e4b33df4",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "6cb9cba4e4b33df4",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "원전 투자펀드는 에너지 관련 사업으로 한국석유공사의 업무와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "경남도는 원전산업 투자펀드의 첫 지원 대상 기업을 선정하고, 원전산업 생태계에 대한 본격적인 투자에 착수한다고 10일 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "저탄소추진처는 에너지전환, 저탄소 신규사업을 담당하므로 원전 투자펀드 관련 기사와 관련이 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "경남도, 원전 투자펀드 첫 주인공 선정…글로벌 SMR 시장 선점 ‘시동’",
+            "evidence_type": "title",
+            "reason": "경영전략처는 경영전략, 경영목표, 운영계획을 담당하므로 원전 투자펀드 관련 기사와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "6cb9cba4e4b33df4",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "원전 투자펀드는 에너지 관련 사업으로 한국석유공사의 업무와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "경남도는 원전산업 투자펀드의 첫 지원 대상 기업을 선정하고, 원전산업 생태계에 대한 본격적인 투자에 착수한다고 10일 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "저탄소추진처는 에너지전환, 저탄소 신규사업을 담당하므로 원전 투자펀드 관련 기사와 관련이 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "경남도, 원전 투자펀드 첫 주인공 선정…글로벌 SMR 시장 선점 ‘시동’",
+            "evidence_type": "article",
+            "reason": "경영전략처는 경영전략, 경영목표, 운영계획을 담당하므로 원전 투자펀드 관련 기사와 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

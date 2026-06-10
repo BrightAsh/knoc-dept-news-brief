@@ -1,0 +1,156 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "538f110e1dbabf61",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "석유 관련 언급이 있으나 공사 업무와 직접 관련 근거가 없음",
+      "review_note": "C 그룹에서 최종 검토 후 관련성 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "87a13dfca0e3b686",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "에너지, LNG, 천연가스 관련 언급 있으나 공사 업무와 직접 관련 근거가 없음",
+      "review_note": "C 그룹에서 최종 검토 후 관련성 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "4af6e31d1fec6fd0",
+      "final_relevant": true,
+      "confidence": 0.6,
+      "final_reason": "에너지 수급, 탄소중립 관련 언급으로 저탄소 관련 부서와 연결",
+      "review_note": "C 그룹에서 최종 검토 후 관련성 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "“기후·도민은 없고 캠프·토건만” 이원택 전북지사 인수위 ‘자격’ 논란",
+          "evidence_type": "article",
+          "reason": "저탄소 관련 부서로 보입니다."
+        }
+      ]
+    },
+    {
+      "article_id": "c74fe3abfbd9c67c",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "미국 소비자물가 상승으로 에너지 가격 관련 공사 사업 부서와 연결",
+      "review_note": "C 그룹에서 최종 검토 후 관련성 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미국 5월 소비자물가 4.2%↑···3년 1개월 만에 최대 상승, 에너지 가격 상승 언급",
+          "evidence_type": "article",
+          "reason": "석유사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미국 5월 소비자물가 4.2%↑···3년 1개월 만에 최대 상승, 에너지 가격 상승 언급",
+          "evidence_type": "article",
+          "reason": "유통사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미국 5월 소비자물가 4.2%↑···3년 1개월 만에 최대 상승, 에너지 가격 상승 언급",
+          "evidence_type": "article",
+          "reason": "비축사업과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "5a5107436bc51ed2",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "미국 소비자물가 상승으로 에너지 가격 관련 공사 사업 부서와 연결",
+      "review_note": "C 그룹에서 최종 검토 후 관련성 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미국 5월 소비자물가 4.2%↑···3년 1개월 만에 최대 상승, 에너지 가격 상승 언급",
+          "evidence_type": "article",
+          "reason": "석유사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미국 5월 소비자물가 4.2%↑···3년 1개월 만에 최대 상승, 에너지 가격 상승 언급",
+          "evidence_type": "article",
+          "reason": "유통사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미국 5월 소비자물가 4.2%↑···3년 1개월 만에 최대 상승, 에너지 가격 상승 언급",
+          "evidence_type": "article",
+          "reason": "비축사업과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "73cb2c17b1462c14",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 정책 언급 있으나 공사 업무와 직접 관련 근거가 없음",
+      "review_note": "C 그룹에서 최종 검토 후 관련성 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "a0b5afde8f7d6cb1",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 이슈로 공사 사업 부서와 연결 근거가 없음",
+      "review_note": "C 그룹에서 최종 검토 후 관련성 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "c01c8c8b916b5045",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "공기업과 관련 있으나 공사 업무와 직접 관련 근거가 없음",
+      "review_note": "C 그룹에서 최종 검토 후 관련성 낮음",
+      "departments": []
+    }
+  ]
+}
+```

@@ -1,0 +1,90 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "7e43a907112839fa",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "7e43a907112839fa",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "한국석유공사와 관련된 유가 관련 기사",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "손경식 한국경영자총협회 회장은 10일 스위스 제네바에서 열린 114차 국제노동기구 총회에 한국 경영계 대표로 나서 이같이 말했다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 관련 언급이 있어 석유사업처와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "7e43a907112839fa",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "한국석유공사와 관련된 유가 관련 기사",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "손경식 한국경영자총협회 회장은 10일 스위스 제네바에서 열린 114차 국제노동기구 총회에 한국 경영계 대표로 나서 이같이 말했다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 관련 언급이 있어 석유사업처와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "fb168a61a0236e11",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "fb168a61a0236e11",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "한국석유공사와 관련된 탐사 관련 기사",
+        "departments": [
+          {
+            "department_id": "global_technology_center",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "미국 항공우주국(NASA)의 ‘아르테미스 3호’ 임무 전문가 안드레 더글러스가 9일(현지시간) 미국 텍사스주 휴스턴 존슨우주센터에서 열린 임무 공개 행사에서 발언하고 있다. 로이터연합뉴스",
+            "evidence_type": "paragraph",
+            "reason": "탐사 관련 언급이 있어 글로벌기술센터와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "fb168a61a0236e11",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "한국석유공사와 관련된 탐사 관련 기사",
+        "departments": [
+          {
+            "department_id": "global_technology_center",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "미국 항공우주국(NASA)의 ‘아르테미스 3호’ 임무 전문가 안드레 더글러스가 9일(현지시간) 미국 텍사스주 휴스턴 존슨우주센터에서 열린 임무 공개 행사에서 발언하고 있다. 로이터연합뉴스",
+            "evidence_type": "paragraph",
+            "reason": "탐사 관련 언급이 있어 글로벌기술센터와 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

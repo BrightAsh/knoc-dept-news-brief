@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "article_id": "785f97efbd84cc7e",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "한국석유공사와 관련된 석유, 원유, 에너지 관련 내용이 기사에 직접 언급되어 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "호르무즈 해협 빠져나온 첫 한국 선박 울산항 도착··· 원유 하역 작업 진행",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처의 원유 구매와 판매, 트레이딩 업무와 관련이 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "중동전쟁으로 봉쇄된 호르무즈 해협에 갇혀 있던 한국 선박 중 처음으로 해협을 빠져나온 HMM의 초대형 원유운반선 '유니버설 위너'호가 10일 원유 하역을 위해 울산에 도착했다.",
+          "evidence_type": "paragraph",
+          "reason": "석유비축처의 비축유 관리 및 전략비축 업무와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "327401043f16c790",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "유가라는 키워드가 언급되었지만, 기사 내용은 선거 관련 이슈로 한국석유공사와 직접적인 관련성이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "8e058b2f12e29fcf",
+      "candidate": false,
+      "confidence": 0.3,
+      "company_reason": "에너지라는 키워드가 언급되었지만, 기사 내용은 정치 일반 이슈로 한국석유공사와 직접적인 관련성이 없음",
+      "departments": []
+    }
+  ]
+}

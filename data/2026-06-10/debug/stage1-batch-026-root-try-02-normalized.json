@@ -1,0 +1,68 @@
+{
+  "raw_result_count": 1,
+  "accepted_result_count": 1,
+  "normalization": [
+    {
+      "article_id": "e02d618641c1480b",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "e02d618641c1480b",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "호르무즈 해협과 원유 수출입 관련 기사로 한국석유공사의 석유 수급 안정화 업무와 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "크리스 라이트 미국 에너지부 장관이 9일(현지시각) 호르무즈해협을 지나는 선박 통항량과 원유 수출이 최근 “매우 의미 있게 증가하고 있다”고 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "원유 수출입과 관련하여 한국석유공사의 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "크리스 라이트 미국 에너지부 장관이 9일(현지시각) 호르무즈해협을 지나는 선박 통항량과 원유 수출이 최근 “매우 의미 있게 증가하고 있다”고 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "호르무즈 해협의 원유 수급 상황은 한국석유공사의 비축유 관리와 전략비축 정책에 영향을 줄 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "e02d618641c1480b",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "호르무즈 해협과 원유 수출입 관련 기사로 한국석유공사의 석유 수급 안정화 업무와 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "크리스 라이트 미국 에너지부 장관이 9일(현지시각) 호르무즈해협을 지나는 선박 통항량과 원유 수출이 최근 “매우 의미 있게 증가하고 있다”고 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "원유 수출입과 관련하여 한국석유공사의 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "크리스 라이트 미국 에너지부 장관이 9일(현지시각) 호르무즈해협을 지나는 선박 통항량과 원유 수출이 최근 “매우 의미 있게 증가하고 있다”고 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "호르무즈 해협의 원유 수급 상황은 한국석유공사의 비축유 관리와 전략비축 정책에 영향을 줄 수 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "7201c31cebd852e8",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "7201c31cebd852e8",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "여행 지원금 프로모션은 한국석유공사의 석유 사업, 위험, 정책, 시장, 운영과 실질적으로 연결되지 않음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용은 여행 지원금 프로모션에 대한 것으로 한국석유공사의 업무와 직접 관련이 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "7201c31cebd852e8",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "여행 지원금 프로모션은 한국석유공사의 석유 사업, 위험, 정책, 시장, 운영과 실질적으로 연결되지 않음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용은 여행 지원금 프로모션에 대한 것으로 한국석유공사의 업무와 직접 관련이 없음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "2f887102646a62c3",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "2f887102646a62c3",
+        "final_relevant": true,
+        "confidence": 0.85,
+        "final_reason": "해외 자원 개발 관련 기사로 한국석유공사의 해외자원개발 사업과 관련이 있음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 해외 자원 개발에 관한 것으로 한국석유공사의 아시아사업처 및 글로벌기술센터와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "포스코홀딩스가 미국에서 리튬직접추출 기술 실증에 나선다.",
+            "evidence_type": "paragraph",
+            "reason": "해외 자원 개발 및 E&P 사업"
+          },
+          {
+            "department_id": "global_technology_center",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "포스코홀딩스가 미국에서 리튬직접추출 기술 실증에 나선다.",
+            "evidence_type": "paragraph",
+            "reason": "기술 지원 및 연구 개발"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "2f887102646a62c3",
+        "final_relevant": true,
+        "confidence": 0.85,
+        "final_reason": "해외 자원 개발 관련 기사로 한국석유공사의 해외자원개발 사업과 관련이 있음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 해외 자원 개발에 관한 것으로 한국석유공사의 아시아사업처 및 글로벌기술센터와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "포스코홀딩스가 미국에서 리튬직접추출 기술 실증에 나선다.",
+            "evidence_type": "paragraph",
+            "reason": "해외 자원 개발 및 E&P 사업"
+          },
+          {
+            "department_id": "global_technology_center",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "포스코홀딩스가 미국에서 리튬직접추출 기술 실증에 나선다.",
+            "evidence_type": "paragraph",
+            "reason": "기술 지원 및 연구 개발"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "7a16592ee1ca1eac",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "7a16592ee1ca1eac",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "해외자원개발 관련 이슈로 한국석유공사의 해외자원개발 사업과 관련이 있음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 해외 자원 개발에 관한 것으로 한국석유공사의 아시아사업처 및 글로벌기술센터와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "포스코홀딩스가 미국에서 리튬직접추출 기술 실증에 나선다.",
+            "evidence_type": "paragraph",
+            "reason": "해외자원개발 사업과 관련이 있음"
+          },
+          {
+            "department_id": "global_technology_center",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "업계에선 글로벌 리튬 산업의 차세대 핵심 기술이라는 평가를 받는다.",
+            "evidence_type": "paragraph",
+            "reason": "기술전략 및 연구개발과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "7a16592ee1ca1eac",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "해외자원개발 관련 이슈로 한국석유공사의 해외자원개발 사업과 관련이 있음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 해외 자원 개발에 관한 것으로 한국석유공사의 아시아사업처 및 글로벌기술센터와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "포스코홀딩스가 미국에서 리튬직접추출 기술 실증에 나선다.",
+            "evidence_type": "paragraph",
+            "reason": "해외자원개발 사업과 관련이 있음"
+          },
+          {
+            "department_id": "global_technology_center",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "업계에선 글로벌 리튬 산업의 차세대 핵심 기술이라는 평가를 받는다.",
+            "evidence_type": "paragraph",
+            "reason": "기술전략 및 연구개발과 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "1aeecbb80ba6f995",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "1aeecbb80ba6f995",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "에너지 관련 소비자 물가 상승 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 에너지 가격 상승에 따른 소비자 물가에 관한 것으로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국 5월 소비자물가 3년 만에 최대 상승…전년 동월 대비 4.2% 올라, 에너지 가격 상승 언급",
+            "evidence_type": "article",
+            "reason": "석유사업, 유통사업, 비축사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국 5월 소비자물가 3년 만에 최대 상승…전년 동월 대비 4.2% 올라, 에너지 가격 상승 언급",
+            "evidence_type": "article",
+            "reason": "유통사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국 5월 소비자물가 3년 만에 최대 상승…전년 동월 대비 4.2% 올라, 에너지 가격 상승 언급",
+            "evidence_type": "article",
+            "reason": "비축사업과 관련이 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "1aeecbb80ba6f995",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "에너지 관련 소비자 물가 상승 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 에너지 가격 상승에 따른 소비자 물가에 관한 것으로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국 5월 소비자물가 3년 만에 최대 상승…전년 동월 대비 4.2% 올라, 에너지 가격 상승 언급",
+            "evidence_type": "article",
+            "reason": "석유사업, 유통사업, 비축사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국 5월 소비자물가 3년 만에 최대 상승…전년 동월 대비 4.2% 올라, 에너지 가격 상승 언급",
+            "evidence_type": "article",
+            "reason": "유통사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국 5월 소비자물가 3년 만에 최대 상승…전년 동월 대비 4.2% 올라, 에너지 가격 상승 언급",
+            "evidence_type": "article",
+            "reason": "비축사업과 관련이 있을 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "71bb316194be59de",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "71bb316194be59de",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "중국 공급망에 갇힌 AI 시대…‘팍스 실리카’로 탈출구 찾을까, 기사 내용은 한국석유공사의 업무와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용은 중국 공급망과 AI 시대에 관한 것으로 한국석유공사의 업무와 직접 관련이 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "71bb316194be59de",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "중국 공급망에 갇힌 AI 시대…‘팍스 실리카’로 탈출구 찾을까, 기사 내용은 한국석유공사의 업무와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용은 중국 공급망과 AI 시대에 관한 것으로 한국석유공사의 업무와 직접 관련이 없음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "764cf48cd5a80f10",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "764cf48cd5a80f10",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "대기업·중기, 영업이익률 ‘K자 양극화’ 심화, 기사 내용은 한국석유공사의 업무와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용은 대기업과 중소기업의 영업이익률에 관한 것으로 한국석유공사의 업무와 직접 관련이 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "764cf48cd5a80f10",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "대기업·중기, 영업이익률 ‘K자 양극화’ 심화, 기사 내용은 한국석유공사의 업무와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용은 대기업과 중소기업의 영업이익률에 관한 것으로 한국석유공사의 업무와 직접 관련이 없음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "035aaab47a65a204",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "035aaab47a65a204",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "북한, ‘적대적 두 국가’ 이어 러·중과 밀착…전문가들 “장기적 대북 접근 필요”, 기사 내용은 한국석유공사의 업무와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용은 북한과 중국, 러시아의 관계에 관한 것으로 한국석유공사의 업무와 직접 관련이 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "035aaab47a65a204",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "북한, ‘적대적 두 국가’ 이어 러·중과 밀착…전문가들 “장기적 대북 접근 필요”, 기사 내용은 한국석유공사의 업무와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용은 북한과 중국, 러시아의 관계에 관한 것으로 한국석유공사의 업무와 직접 관련이 없음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "fb168a61a0236e11",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "fb168a61a0236e11",
+        "final_relevant": false,
+        "confidence": 0.8,
+        "final_reason": "첫 유럽인 비행사 태운 ‘아르테미스 3호’ “내년 달 착륙선 블루문·스타십 도킹 시험”, 기사 내용은 한국석유공사의 업무와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용은 우주 탐사에 관한 것으로 한국석유공사의 업무와 직접 관련이 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "fb168a61a0236e11",
+        "final_relevant": false,
+        "confidence": 0.8,
+        "final_reason": "첫 유럽인 비행사 태운 ‘아르테미스 3호’ “내년 달 착륙선 블루문·스타십 도킹 시험”, 기사 내용은 한국석유공사의 업무와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용은 우주 탐사에 관한 것으로 한국석유공사의 업무와 직접 관련이 없음",
+        "departments": []
+      }
+    }
+  ]
+}
