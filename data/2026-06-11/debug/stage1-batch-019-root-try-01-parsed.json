@@ -1,0 +1,102 @@
+{
+  "results": [
+    {
+      "article_id": "dafcfdb92be43ead",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 재고 감소와 하반기 위기설 관련 기사로 한국석유공사의 석유 비축 및 수급 안정화 업무와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "세계 석유재고가 바닥을 드러내고 있어 하반기 위기설이 우려된다는 기사 내용과 한국석유공사의 석유 비축 업무가 관련이 있음",
+          "evidence_type": "article",
+          "reason": "한국석유공사는 석유 비축 및 수급 안정화를 담당하는 공공기관으로, 세계 석유재고 감소와 관련한 기사는 공사의 업무와 직접적으로 관련이 있음"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "국제유가와 석유 공급충격에 대한 기사 내용과 한국석유공사의 석유 사업 전략 및 원유 구매와 판매 업무가 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사는 석유 사업 전략, 원유 및 석유제품 구매와 판매를 담당하므로, 국제유가 변동 및 석유 재고 감소와 관련한 기사는 공사의 업무와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "8804ec086d29b42a",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 기사로 한국석유공사의 에너지 전환 및 저탄소 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "환경단체들이 반도체 패키징 공장에 대해 에너지 정의를 외면한 기만이라고 비판한 기사 내용과 한국석유공사의 저탄소 및 에너지 전환 사업이 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사는 저탄소 및 에너지 전환 관련 사업을 담당하므로, 에너지 정의 및 반도체 패키징 공장과 관련한 기사는 공사의 업무와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "9ff08685aa808dfd",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "공공기관의 안전관리 관련 기사로 한국석유공사의 안전 및 ESG 경영과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "she",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "공공기관의 안전관리 및 AI 안전 장비 도입 관련 기사 내용과 한국석유공사의 안전 및 ESG 경영이 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사는 안전, 보건, 환경 및 재난 대응을 담당하므로, 공공기관의 안전관리 및 AI 안전 장비 도입과 관련한 기사는 공사의 업무와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "6f721520c3d3f8f9",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "원유 및 정유 관련 기사로 한국석유공사의 해외자원개발 및 석유 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "일본의 원유 물량 확보 관련 기사 내용과 한국석유공사의 해외자원개발 사업이 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사는 해외자원개발을 담당하므로, 일본의 원유 조달처 다변화 및 원유 물량 확보와 관련한 기사는 공사의 해외자원개발 업무와 관련이 있음"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "일본의 원유 물량 확보 관련 기사 내용과 한국석유공사의 석유 사업 전략 및 원유 구매와 판매 업무가 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사는 석유 사업 전략, 원유 및 석유제품 구매와 판매를 담당하므로, 일본의 원유 물량 확보와 관련한 기사는 공사의 업무와 관련이 있음"
+        }
+      ]
+    }
+  ]
+}

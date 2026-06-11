@@ -1,0 +1,129 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "3faced6ccfc8eea2",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "세계 경제성장률 전망과 에너지 관련 언급이지만, 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "C 그룹에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "db9b1f9abfe5a4a0",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "에너지 관련 언급이지만, 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "C 그룹에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "8804ec086d29b42a",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "환경단체의 반도체 패키징 공장에 대한 비판과 에너지 정의 관련 언급이 한국석유공사의 저탄소 및 에너지 전환 사업과 관련이 있음",
+      "review_note": "C 그룹에서 유지",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "환경단체들이 반도체 패키징 공장에 대해 에너지 정의를 외면한 기만이라고 비판한 기사 내용과 한국석유공사의 저탄소 및 에너지 전환 사업이 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사는 저탄소 및 에너지 전환 관련 사업을 담당하므로, 에너지 정의 및 반도체 패키징 공장과 관련한 기사는 공사의 업무와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "fc846152eb07dc0b",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "해수온도 상승 관련 연구 결과가 한국석유공사의 석유/가스 자원개발 및 스마트데이터센터의 업무와 관련이 있음",
+      "review_note": "C 그룹에서 유지",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "한국 최남단 수중 암초인 이어도 인근 바다가 지구 평균보다 2배 이상 빠르게 뜨거워졌다는 연구 결과가 나왔다.",
+          "evidence_type": "paragraph",
+          "reason": "해수온도 상승은 해양 생태계 및 석유/가스 자원개발에 영향을 미칠 수 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "한국 최남단 수중 암초인 이어도 인근 바다가 지구 평균보다 2배 이상 빠르게 뜨거워졌다는 연구 결과가 나왔다.",
+          "evidence_type": "paragraph",
+          "reason": "해수온도 상승 관련 데이터 분석 및 연구는 스마트데이터센터의 업무와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "67a2cba0c5efde51",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "유가 관련 학술상은 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "C 그룹에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "1cdb96bd902be885",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "에너지 관련 언급이지만, 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "C 그룹에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "50a5ba43e833ec2e",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 안보 관련 이슈가 한국석유공사의 경영전략과 관련이 있음",
+      "review_note": "C 그룹에서 유지",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "이 대통령, “한·이탈리아 ‘특별 전략적 동반자 관계’ 격상”…공동언론발표",
+          "evidence_type": "article",
+          "reason": "에너지 안보와 관련된 전략을 담당하는 경영전략처와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "157cd683f9a54bb7",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 안보 관련 이슈가 한국석유공사의 경영전략과 관련이 있음",
+      "review_note": "C 그룹에서 유지",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "이 대통령, “한·이탈리아 ‘특별 전략적 동반자 관계’ 격상”…공동언론발표",
+          "evidence_type": "article",
+          "reason": "에너지 안보와 관련된 전략을 담당하는 경영전략처와 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

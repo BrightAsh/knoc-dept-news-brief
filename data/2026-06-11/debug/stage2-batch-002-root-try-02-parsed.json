@@ -1,0 +1,149 @@
+{
+  "results": [
+    {
+      "article_id": "2415c57649215dcd",
+      "final_relevant": false,
+      "confidence": 0.85,
+      "final_reason": "기사에 언급된 내용은 한국석유공사의 업무와 직접적인 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "d9a282258fdef978",
+      "final_relevant": true,
+      "confidence": 0.85,
+      "final_reason": "유가, 에너지, 주유소 언급으로 인해 에너지 수급 및 가격 안정과 관련된 한국석유공사의 역할과 연결됨",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "고유가 여파",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "주유소",
+          "evidence_type": "paragraph",
+          "reason": "석유유통, 주유소 공급, 소비자가격 관련 업무"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "고유가 여파",
+          "evidence_type": "paragraph",
+          "reason": "유가, 석유가격 정보, 시장동향 분석 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "650af1b19b743899",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "에너지, 휘발유 언급으로 인해 한국석유공사와 관련이 있음",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "에너지가 10.7% 급등···휘발유 23% 뛰어",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "에너지가 10.7% 급등···휘발유 23% 뛰어",
+          "evidence_type": "paragraph",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "bbfaa02c8704a8df",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "기사에 언급된 내용은 한국석유공사의 업무와 직접적인 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "17dca7d4b52733c8",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "LNG, 천연가스 언급으로 인해 한국석유공사의 사업과 관련이 있음",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "휴전 협상 중에도 이란에 대한 미국의 공습이 계속되는 가운데, 호르무즈해협에 발이 묶였던 한국 선박 1척이 11일 해협을 빠져나왔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처는 석유제품 구매와 판매를 담당하므로 LNG 관련 기사와 관련이 있다."
+        }
+      ]
+    },
+    {
+      "article_id": "6f721520c3d3f8f9",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "원유 및 정유 관련 기사로 한국석유공사의 해외자원개발 및 석유 사업과 관련이 있음",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "일본의 원유 물량 확보 관련 기사 내용과 한국석유공사의 해외자원개발 사업이 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사는 해외자원개발을 담당하므로, 일본의 원유 조달처 다변화 및 원유 물량 확보와 관련한 기사는 공사의 해외자원개발 업무와 관련이 있음"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "일본의 원유 물량 확보 관련 기사 내용과 한국석유공사의 석유 사업 전략 및 원유 구매와 판매 업무가 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사는 석유 사업 전략, 원유 및 석유제품 구매와 판매를 담당하므로, 일본의 원유 물량 확보와 관련한 기사는 공사의 업무와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "1143bda8651026aa",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사에 언급된 내용은 한국석유공사의 업무와 직접적인 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    }
+  ]
+}

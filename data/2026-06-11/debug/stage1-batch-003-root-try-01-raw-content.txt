@@ -1,0 +1,64 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "5a4da66582bf2b29",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 관련 이슈로 한국석유공사의 석유 수급 안정화 역할과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "트럼프 “오늘밤 이란 강하게 타격…베네수엘라처럼 석유 차지”",
+          "evidence_type": "sentence",
+          "reason": "석유 인프라와 석유 시장에 대한 통제권 관련 언급으로 석유사업처의 업무와 연결됨"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "미국은 오늘 밤 이란을 매우 강하게 타격할 것”이라며 사흘째 대(對)이란 공격을 예고했다.",
+          "evidence_type": "sentence",
+          "reason": "국제 정세와 에너지 안보 관련 이슈로 경영전략처의 업무와 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "ec69b3a8ccfe885c",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "석유 관련 이슈로 한국석유공사의 석유 수급 안정화 역할과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "트럼프 “오늘 밤 이란 강하게 타격…머잖아 석유 거점 장악”",
+          "evidence_type": "sentence",
+          "reason": "석유 인프라와 석유 시장에 대한 통제권 관련 언급으로 석유사업처의 업무와 연결됨"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "도널드 트럼프 미국 대통령이 “오늘(11일) 밤 이란을 매우 강하게 타격”하겠다고 했다.",
+          "evidence_type": "sentence",
+          "reason": "국제 정세와 에너지 안보 관련 이슈로 경영전략처의 업무와 연결됨"
+        }
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,70 @@
+{
+  "raw_result_count": 1,
+  "accepted_result_count": 1,
+  "normalization": [
+    {
+      "article_id": "59b243149a2fa4ef",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "59b243149a2fa4ef",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "유가 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "중동발 ‘고용 쇼크’…5월 취업자 수 불법계엄 이후 첫 감소",
+            "evidence_type": "paragraph",
+            "reason": "유가 변동이 석유사업에 영향을 줄 수 있으므로 관련 부서에서 검토 필요"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "지난달 취업자 수가 1년 전보다 4만명 줄어 1년5개월 만에 감소했다.",
+            "evidence_type": "paragraph",
+            "reason": "경제 지표와 관련된 데이터 분석을 스마트데이터센터에서 담당하므로 관련성 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "59b243149a2fa4ef",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "유가 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "중동발 ‘고용 쇼크’…5월 취업자 수 불법계엄 이후 첫 감소",
+            "evidence_type": "paragraph",
+            "reason": "유가 변동이 석유사업에 영향을 줄 수 있으므로 관련 부서에서 검토 필요"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "지난달 취업자 수가 1년 전보다 4만명 줄어 1년5개월 만에 감소했다.",
+            "evidence_type": "paragraph",
+            "reason": "경제 지표와 관련된 데이터 분석을 스마트데이터센터에서 담당하므로 관련성 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

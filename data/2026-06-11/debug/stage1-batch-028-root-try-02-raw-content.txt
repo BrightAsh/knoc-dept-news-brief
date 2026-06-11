@@ -1,0 +1,125 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "5100e407a6fcfe06",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "원유, 유가 관련 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "도널드 트럼프 미국 대통령은 미군이 지난달 수행한 비밀 작전을 통해 호르무즈 해협을 지나는 민간 선박의 안전 통항을 지원한 결과 1억배럴 이상의 원유가 전세계에 공급될 수 있었다고 주장했다.",
+          "evidence_type": "paragraph",
+          "reason": "원유 공급 관련 언급으로 인해 석유사업처와 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "도널드 트럼프 미국 대통령은 미군이 지난달 수행한 비밀 작전을 통해 호르무즈 해협을 지나는 민간 선박의 안전 통항을 지원한 결과 1억배럴 이상의 원유가 전세계에 공급될 수 있었다고 주장했다.",
+          "evidence_type": "paragraph",
+          "reason": "원유 공급 관련 데이터 분석 및 정보 제공 가능성으로 인해 스마트데이터센터와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "ccae6e3b9c315125",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "한국 선박의 호르무즈 해협 통과 관련 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "외교부가 11일 한국 선박 1척이 호르무즈 해협을 통과했다고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "원유 및 LNG 운송 관련 언급으로 인해 석유사업처와 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.5,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "외교부가 11일 한국 선박 1척이 호르무즈 해협을 통과했다고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "해상 운송 관련 언급으로 인해 유통사업처와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "b99ed6812971acee",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "한국 선박의 호르무즈 해협 통과 관련 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "중동 전쟁으로 호르무즈 해협에 발이 묶인 한국 선박 또 한 척이 해협을 빠져나왔다.",
+          "evidence_type": "paragraph",
+          "reason": "원유 및 LNG 운송 관련 언급으로 인해 석유사업처와 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.4,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "중동 전쟁으로 호르무즈 해협에 발이 묶인 한국 선박 또 한 척이 해협을 빠져나왔다.",
+          "evidence_type": "paragraph",
+          "reason": "해상 운송 관련 언급으로 인해 유통사업처와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "1cdb96bd902be885",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지 관련 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.5,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국과 이란 간 군사적 긴장이 다시 고조되고 인공지능 반도체·기술주에 대한 차익실현 매물이 쏟아지면서 뉴욕증시가 일제히 하락 마감했다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 시장 관련 언급으로 인해 저탄소추진처와 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.4,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국과 이란 간 군사적 긴장이 다시 고조되고 인공지능 반도체·기술주에 대한 차익실현 매물이 쏟아지면서 뉴욕증시가 일제히 하락 마감했다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 시장 관련 언급으로 인해 경영전략처와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "409a3f23f0463105",
+      "candidate": false,
+      "confidence": 0.3,
+      "company_reason": "단순 경제 이슈로 보임",
+      "departments": []
+    }
+  ]
+}
+```

@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "article_id": "b9e34bb93097df2a",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "유조선 공격 사건은 원유 수급에 영향을 줄 수 있는 사건이므로 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미군이 '호르무즈 해협 봉쇄'를 위반한 유조선을 공격해 인도인 선원 3명이 사망했다.",
+          "evidence_type": "paragraph",
+          "reason": "유조선 공격 사건은 원유 수급에 영향을 줄 수 있는 사건이므로 석유사업처의 업무와 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "[영상] 미군, ‘호르무즈 봉쇄 위반’ 유조선 공격···인도인 3명 사망",
+          "evidence_type": "title",
+          "reason": "유조선 공격 사건은 에너지 안보와 관련이 있으므로 경영전략처의 업무와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "67a2cba0c5efde51",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "유가 관련 학술상은 한국석유공사의 유가 정보 제공 업무와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "삼육대 바이오융합공학과 한경식 교수가 낙농식품 분야 국내 최고 권위 학회인 한국낙농식품과학회로부터 영예의 ‘학술상’을 수상했다.",
+          "evidence_type": "paragraph",
+          "reason": "유가 관련 학술상은 한국석유공사의 유가 정보 제공 업무와 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
