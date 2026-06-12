@@ -1,0 +1,81 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "7ce75484c04cb96f",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "원유, 유가, 국제유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "미국과 이란이 종전 합의에 근접했다는 소식에 뉴욕증시 3대 주요 지수가 일제히 급등했다.",
+          "evidence_type": "paragraph",
+          "reason": "원유, 유가 변동에 영향을 미칠 수 있는 국제 정세 기사로 석유사업, 유통사업, 비축사업과 관련이 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "미국과 이란이 종전 합의에 근접했다는 소식에 뉴욕증시 3대 주요 지수가 일제히 급등했다.",
+          "evidence_type": "paragraph",
+          "reason": "원유, 유가 변동에 영향을 미칠 수 있는 국제 정세 기사로 비축사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "52282923f2635ca7",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "석유 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "도널드 트럼프 미국 대통령은 이란이 종전 양해각서에 합의함에 따라 3차 공습을 취소한다면서, 오는 주말 이란과 MOU 체결식을 진행할 수 있을 것이라고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 관련 기사로 석유사업, 유통사업, 비축사업과 관련이 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "도널드 트럼프 미국 대통령은 이란이 종전 양해각서에 합의함에 따라 3차 공습을 취소한다면서, 오는 주말 이란과 MOU 체결식을 진행할 수 있을 것이라고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 관련 기사로 비축사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "50b56680074e2939",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "수소 관련 기사로 한국석유공사의 수소암모니아사업단과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "hydrogen_ammonia",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "이경전 경희대 빅데이터응용학과 교수는 경향신문과 통화에서 \"한국 기업들이 엔비디아 생태계에 들어간 것에는 득도 있고 실도 있다\"며 \"엔비디아와 협력하면서도 독자 기술 개발을 지속하는 '투 트랙' 전략을 유지해야 한다\"고 했어요.",
+          "evidence_type": "paragraph",
+          "reason": "수소 관련 기사로 수소암모니아사업단과 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

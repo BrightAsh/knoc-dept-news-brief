@@ -1,0 +1,51 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "50db6cb15ced31ee",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "유가 하락 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "국제유가 3월초 수준으로 급락",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "국제유가 3월초 수준으로 급락",
+          "evidence_type": "paragraph",
+          "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "국제유가 3월초 수준으로 급락",
+          "evidence_type": "paragraph",
+          "reason": "정부 비축유, 전략비축, 비축기지, 저장시설 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "dfbd7efae5be1f6a",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "공기업 관련 언급이지만 한국석유공사와 직접적인 관련은 없음",
+      "departments": []
+    }
+  ]
+}
+```

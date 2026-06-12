@@ -1,0 +1,130 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "3005eb17911f7e25",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "3005eb17911f7e25",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유 수급과 관련된 기사로, 한국석유공사의 석유비축, 국내외 석유·가스 자원개발 사업과 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "미국이 호르무즈해협에서 대이란 해상 봉쇄를 위반했다며 유조선을 공격해 인도인 3명이 사망한 것으로 나타났다.",
+            "evidence_type": "summary_sentence",
+            "reason": "유조선 공격 사건은 석유 수급에 영향을 줄 수 있는 사건으로, 한국석유공사의 석유비축 사업과 관련이 있다."
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "미국이 호르무즈해협에서 대이란 해상 봉쇄를 위반했다며 유조선을 공격해 인도인 3명이 사망한 것으로 나타났다.",
+            "evidence_type": "summary_sentence",
+            "reason": "유조선 공격 사건은 석유 수급에 영향을 줄 수 있는 사건으로, 한국석유공사의 석유사업 전략과 관련이 있다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "3005eb17911f7e25",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유 수급과 관련된 기사로, 한국석유공사의 석유비축, 국내외 석유·가스 자원개발 사업과 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "미국이 호르무즈해협에서 대이란 해상 봉쇄를 위반했다며 유조선을 공격해 인도인 3명이 사망한 것으로 나타났다.",
+            "evidence_type": "article",
+            "reason": "유조선 공격 사건은 석유 수급에 영향을 줄 수 있는 사건으로, 한국석유공사의 석유비축 사업과 관련이 있다."
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "미국이 호르무즈해협에서 대이란 해상 봉쇄를 위반했다며 유조선을 공격해 인도인 3명이 사망한 것으로 나타났다.",
+            "evidence_type": "article",
+            "reason": "유조선 공격 사건은 석유 수급에 영향을 줄 수 있는 사건으로, 한국석유공사의 석유사업 전략과 관련이 있다."
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "264eb5d6b467ed1a",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "264eb5d6b467ed1a",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "유가와 관련된 기사로, 한국석유공사의 석유사업 전략과 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "박정훈 해병대 수사단장(현 준장)이 지난해 6월27일 항소심 공판에 앞서 서울고법 앞에서 열린 기자회견에 참석하고 있다.",
+            "evidence_type": "summary_sentence",
+            "reason": "해병대 수사단장 사건은 유가와 관련된 사건으로, 한국석유공사의 석유사업 전략과 관련이 있다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "264eb5d6b467ed1a",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "유가와 관련된 기사로, 한국석유공사의 석유사업 전략과 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "박정훈 해병대 수사단장(현 준장)이 지난해 6월27일 항소심 공판에 앞서 서울고법 앞에서 열린 기자회견에 참석하고 있다.",
+            "evidence_type": "article",
+            "reason": "해병대 수사단장 사건은 유가와 관련된 사건으로, 한국석유공사의 석유사업 전략과 관련이 있다."
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "e963c7a00cc90997",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "e963c7a00cc90997",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "에너지와 관련된 단어가 포함되어 있지만, 기사 내용이 한국석유공사와 직접 관련이 없다.",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "e963c7a00cc90997",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "에너지와 관련된 단어가 포함되어 있지만, 기사 내용이 한국석유공사와 직접 관련이 없다.",
+        "departments": []
+      }
+    }
+  ]
+}
