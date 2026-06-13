@@ -1,0 +1,658 @@
+{
+  "target_date": "2026-06-13",
+  "generated_at": "2026-06-13T16:42:56.597Z",
+  "analyzer": "stage1-llm",
+  "enabled": true,
+  "provider": "groq",
+  "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "status": "ok",
+  "requested_article_count": 291,
+  "analyzed_article_count": 291,
+  "batch_size": 16,
+  "errors": [],
+  "warnings": [
+    "stage1-batch-001-root-try-01 returned 0 raw results and 0 normalized results.",
+    "stage1-batch-002-root-try-01 returned 0 raw results and 0 normalized results.",
+    "stage1-batch-003-root-try-01 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 3s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-004-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 14s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 3s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-005-root-try-03 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 17s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-006-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 10s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-007-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-008-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 14s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-009-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-010-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 14s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 14s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-012-root-try-03 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 9s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-015-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 14s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-016-root-try-03 returned 0 raw results and 0 normalized results."
+  ],
+  "results": [
+    {
+      "article_id": "98396d85c52d2ab1",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "9e20979913a7d262",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "95c0d28dcde7896a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e4a7c852d5aed113",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "56b36ab607e7c71b",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "08c515e45bd0bb73",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "477e324dd3df5e37",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "ce17b2d1670f7600",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e3b253fdb97a095d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "0924c0dd85fe0c45",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d0dfa0e9490517e7",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "fd1adda34ac66340",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "229c5ad82b361992",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "4082a5f9a4c96967",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유 관련 내용이 기사에 직접 언급되어 KNOC의 석유사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "미국과 이란이 막바지 종전 양해각서(MOU) 체결 협상을 벌이는 가운데, 아랍에미리트(UAE)가 이란에 수십억달러 규모의 자금을 제공했다는 보도가 나왔다. 석유 사업과 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "reason": "석유 사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "61a2945a1cac4edc",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2bba7e002ed5cc8d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2f294bce93533bff",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 가격 관련 기사로 한국석유공사의 석유사업, 유통사업, 스마트데이터센터와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "전국 휘발유 가격 평균 2009원대…4주 연속 하락",
+          "evidence_type": "article",
+          "reason": "석유 가격 관련 업무를 담당하는 석유사업처와 관련이 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "전국 휘발유 가격 평균 2009원대…4주 연속 하락",
+          "evidence_type": "article",
+          "reason": "석유 유통 관련 업무를 담당하는 유통사업처와 관련이 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "전국 휘발유 가격 평균 2009원대…4주 연속 하락",
+          "evidence_type": "article",
+          "reason": "석유 정보 서비스와 유가 정보 제공을 담당하는 스마트데이터센터와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "a77ec89fe52d20b6",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 가격 관련 기사로 한국석유공사의 석유사업, 유통사업, 스마트데이터센터와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "전국 휘발유 가격 평균 2009원대…4주 연속 하락",
+          "evidence_type": "article",
+          "reason": "석유 가격 관련 업무를 담당하는 석유사업처와 관련이 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "전국 휘발유 가격 평균 2009원대…4주 연속 하락",
+          "evidence_type": "article",
+          "reason": "석유 유통 관련 업무를 담당하는 유통사업처와 관련이 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "전국 휘발유 가격 평균 2009원대…4주 연속 하락",
+          "evidence_type": "article",
+          "reason": "석유 정보 서비스와 유가 정보 제공을 담당하는 스마트데이터센터와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "d91bb6329db17344",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "0eabfe3bee775245",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "42bc34be2281cdd3",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2cc9cc9983e3199e",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "1e788876033a993d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "54d3697daf0e3afa",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "fbadb9a507370ff3",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "45456fc050a334d4",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "1f1000884f95c28b",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "1ce8b5afa9f0876b",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b710536e274ebcf2",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "83715953f1fd4096",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e119e23eecb3e5b6",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d62bf39c04a04f0f",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d11b22ff6528b25a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "a38dfe9137d3a8dc",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "741bfb1c37849a60",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "28a69c091bb7b9fb",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "752ecede69a2013b",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "91da3bb8e442fa3e",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "f94a115f3ef447e3",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "0304a3fe0e9f6f13",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "89189a36589543cf",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "d1331549e0dd7d3b",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "48ee5b229a7b24e1",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "068485d7c0da003d",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "abafd3cd2eaad45e",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "84d98545aa679e4d",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "0a703c5cf270b3ad",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "d5d759267a136fd2",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "773045b7cecda584",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "709ac78e3b4a33d2",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "8a0940f7257f0e2d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "departments": []
+    },
+    {
+      "article_id": "91c08c84ec3bd6dc",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "departments": []
+    },
+    {
+      "article_id": "bc47086e3130433c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "departments": []
+    },
+    {
+      "article_id": "ed950188a007cc02",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "departments": []
+    },
+    {
+      "article_id": "e1065f176eb51597",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "departments": []
+    },
+    {
+      "article_id": "4b6c9e61a52ebcb4",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "departments": []
+    },
+    {
+      "article_id": "a94533d04ebf9a0d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "departments": []
+    },
+    {
+      "article_id": "84db31cac080726d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "departments": []
+    },
+    {
+      "article_id": "366bd14686d52829",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "departments": []
+    },
+    {
+      "article_id": "9cb7310cfb23d653",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "departments": []
+    },
+    {
+      "article_id": "81aa2be93cb27a82",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "departments": []
+    },
+    {
+      "article_id": "73a3d6064d600457",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "departments": []
+    },
+    {
+      "article_id": "4dce5379fc92b920",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "departments": []
+    },
+    {
+      "article_id": "ed6d460f6fb7bce8",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "departments": []
+    },
+    {
+      "article_id": "3b2562b646ab1f47",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "기사에서 에너지, 석유 관련 내용이 언급되었습니다.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "미국과 이란이 종전 양해각서(MOU) 체결에 근접한 가운데, 도널드 트럼프 미국 행정부의 고위 당국자가 12일(현지시각) 기자들과 한 전화 브리핑에서 “협상팀이 매우 좋은 위치에 있지만 아직 결승선에 도달한 것은 아니다”라며 “며칠 안에 서명할 것으로 기대한다”고 밝혔",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있습니다."
+        }
+      ]
+    },
+    {
+      "article_id": "7cb94b27f82a690e",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "기사에서 에너지 관련 내용이 언급되었습니다.",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "이탈리아를 국빈 방문 중인 이재명 대통령은 13일(현지시각) “기초과학 강국으로 창의적인 공학 디자인 역량을 갖춘 이탈리아와 첨단 제조강국으로 기술 혁신 역량을 갖춘 대한민국은 최적의 파트너”라고 말했다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소, 에너지전환, 저탄소 신규사업을 담당하는 저탄소추진처와 관련이 있습니다."
+        }
+      ]
+    },
+    {
+      "article_id": "503b925f88f44b1a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b728cdc20db61a75",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e68c5e70a9bbc813",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "이란 외교장관의 발언은 국제 정세와 관련이 있으며, 한국석유공사의 해외자원개발 및 에너지 안보와 간접적으로 연결될 가능성이 있다.",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "아바스 아라그치 이란 외교장관이 종전을 위한 합의 문서의 타결에 대해 긍정적인 전망을 내놨다. 아라그치 장관은 12일(현지시각) 엑스를 통해 “그 어느 때보다 ‘이슬라마바드 양해각서’(종전 양해각서)에 가까워졌다”며 “최종 조율을 앞둔 만큼 언론은 그 내용에 대해 추측",
+          "evidence_type": "paragraph",
+          "reason": "이란과 관련된 외교적 논의는 한국석유공사의 아시아 사업 및 해외자원개발과 관련이 있을 수 있다."
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.4,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "이란 외교장관 “미국과 종전 협상 타결, 어느 때보다 가까워져”",
+          "evidence_type": "article",
+          "reason": "글로벌 에너지 이슈와 관련된 국제 정세 변화는 한국석유공사의 경영전략에 영향을 줄 수 있다."
+        }
+      ]
+    }
+  ],
+  "candidate_count": 6,
+  "rejected_count": 63
+}
