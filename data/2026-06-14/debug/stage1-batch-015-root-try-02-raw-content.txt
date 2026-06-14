@@ -1,0 +1,34 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "04af15892da0baa4",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "유가와 관련된 기사로 한국석유공사의 석유사업, 유통사업, 정보제공과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "오는 16∼17일(현지 시각)로 예정된 미국 연방준비제도(연준)의 연방공개시장위원회(FOMC) 회의에 국내외 금융시장의 눈길이 집중돼 있다.",
+          "evidence_type": "paragraph",
+          "reason": "유가 변동은 석유사업, 유통사업에 영향을 미칠 수 있으므로 관련 부서에서 검토 필요"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "오는 16∼17일(현지 시각)로 예정된 미국 연방준비제도(연준)의 연방공개시장위원회(FOMC) 회의에 국내외 금융시장의 눈길이 집중돼 있다.",
+          "evidence_type": "paragraph",
+          "reason": "유가 변동은 석유정보 서비스와 관련이 있으므로 스마트데이터센터 검토 필요"
+        }
+      ]
+    }
+  ]
+}
+```

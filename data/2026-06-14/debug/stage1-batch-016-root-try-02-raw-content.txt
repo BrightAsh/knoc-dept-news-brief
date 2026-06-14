@@ -1,0 +1,90 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "0f7b1d4580a4c388",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "에너지바우처 지원 신청 관련 기사로, 한국석유공사의 에너지 관련 사업과 연결됨",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "에너지바우처 지원 신청, 취약계층 냉·난방비 부담 줄이기",
+          "evidence_type": "paragraph",
+          "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 등 유통사업처의 업무와 관련됨"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "에너지바우처 지원 신청, 취약계층 냉·난방비 부담 줄이기",
+          "evidence_type": "paragraph",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 등 스마트데이터센터의 업무와 관련됨"
+        }
+      ]
+    },
+    {
+      "article_id": "4aa05581dc9229bb",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "호르무즈 안정화 방안 관련 기사로, 한국석유공사의 해외자원개발 사업과 연결됨",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "전후 호르무즈해협 안정화와 전략 자원 공급망 확보",
+          "evidence_type": "paragraph",
+          "reason": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업 등 아시아사업처의 업무와 관련됨"
+        },
+        {
+          "department_id": "global_technology_center",
+          "relevance_score": 0.5,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "전후 호르무즈해협 안정화와 전략 자원 공급망 확보",
+          "evidence_type": "paragraph",
+          "reason": "E&P 기술지원, 지질·저류층·시추 기술 등 글로벌기술센터의 업무와 관련됨"
+        }
+      ]
+    },
+    {
+      "article_id": "028d8b3a605fc16a",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "코스피 지수 관련 기사로, 한국석유공사의 직접적인 관련성이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "46c673e142dc2e4d",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "효성중공업의 초고압 차단기 생산 관련 기사로, 한국석유공사의 에너지 관련 사업과 연결됨",
+      "departments": [
+        {
+          "department_id": "energy_infra",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "효성중공업, 미국 현지서 초고압차단기 생산",
+          "evidence_type": "paragraph",
+          "reason": "에너지허브, 터미널, 저장탱크 등 에너지인프라사업처의 업무와 관련됨"
+        }
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,91 @@
+{
+  "results": [
+    {
+      "article_id": "97648b1f3fe7f483",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "기사에 언급된 내용은 한국석유공사의 사업과 직접 관련이 없음",
+      "review_note": "C 그룹이었으나, 기사 내용이 정치 이슈에 집중되어 있어 관련이 없다고 판단됨",
+      "departments": []
+    },
+    {
+      "article_id": "a240af472ee2fa60",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "휴머노이드 등반 관련 기사로, 한국석유공사의 사업과 직접 관련이 없음",
+      "review_note": "C 그룹이었으나, 기사 내용이 해외자원개발과 관련 있으나 직접적인 언급이 없어 관련이 없다고 판단됨",
+      "departments": []
+    },
+    {
+      "article_id": "917abcd84b621222",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "오가노이드와 우주 관련 기사로, 한국석유공사의 사업과 직접 관련이 없음",
+      "review_note": "C 그룹이었으나, 기사 내용이 바이오 및 우주 관련 이슈에 집중되어 있어 관련이 없다고 판단됨",
+      "departments": []
+    },
+    {
+      "article_id": "3662c8ba690d2e7b",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "이란 관련 에너지 이슈이나, 한국석유공사의 직접 관련 사업이 아님",
+      "review_note": "C 그룹이었으나, 기사 내용이 국제 정세에 집중되어 있어 관련이 없다고 판단됨",
+      "departments": []
+    },
+    {
+      "article_id": "46c673e142dc2e4d",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "효성중공업의 초고압 차단기 생산 관련 기사로, 에너지 인프라 사업과 관련됨",
+      "review_note": "C 그룹이었으며, 기사 내용이 에너지 관련 인프라 사업과 관련 있어 포함됨",
+      "departments": [
+        {
+          "department_id": "energy_infra",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "효성중공업, 미국 현지서 초고압 차단기 생산한다",
+          "evidence_type": "paragraph",
+          "reason": "에너지허브, 터미널, 저장탱크 등 에너지인프라사업처의 업무와 관련됨"
+        }
+      ]
+    },
+    {
+      "article_id": "464bca1814548716",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "친환경 해상풍력 지원 선박 국산화 관련 기사로, 저탄소 사업과 관련됨",
+      "review_note": "C 그룹이었으며, 기사 내용이 해상풍력 사업과 관련 있어 포함됨",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "친환경 해상풍력 지원 선박 국산화",
+          "evidence_type": "paragraph",
+          "reason": "해상풍력 사업 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "94809927257e7b34",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "공공기관 인권경영시스템 인증 관련 기사로, 한국석유공사의 직접 관련 사업이 아님",
+      "review_note": "C 그룹이었으나, 기사 내용이 공공기관 운영과 관련 있으나 직접적인 언급이 없어 관련이 없다고 판단됨",
+      "departments": []
+    },
+    {
+      "article_id": "c55a5c5569690b03",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "SK 그룹의 AI 전환 관련 기사로, 한국석유공사의 사업과 직접 관련이 없음",
+      "review_note": "C 그룹이었으나, 기사 내용이 일반 기업 이슈에 집중되어 있어 관련이 없다고 판단됨",
+      "departments": []
+    }
+  ]
+}
