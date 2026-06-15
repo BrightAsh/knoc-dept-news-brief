@@ -1,0 +1,578 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "df1c7574245a4923",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "df1c7574245a4923",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "원유 수입처 다변화, 유가 변동 관련 기사로 석유사업 전략, 유가 정보 제공 업무와 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 석유사업처와 스마트데이터센터 관련 부서 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "고유가 여파, 원유 수입처 다변화",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "유가, 에너지 가격 영향",
+            "evidence_type": "paragraph",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "df1c7574245a4923",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "원유 수입처 다변화, 유가 변동 관련 기사로 석유사업 전략, 유가 정보 제공 업무와 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 석유사업처와 스마트데이터센터 관련 부서 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "고유가 여파, 원유 수입처 다변화",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "유가, 에너지 가격 영향",
+            "evidence_type": "paragraph",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "200c534479acfaf5",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "200c534479acfaf5",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "LNG, 콘덴세이트 공급 관련 기사로 석유사업 전략, 에너지 수급 안정화와 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 석유사업처와 전략 담당 부서 관련",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "원유·가스 수급 안정화를 위해 중동 3개국을 순방 중인 김정관 산업통상부 장관이 사우디아라비아에 이어 두번째 순방국인 카타르에 15일 도착했다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·가스 수급 안정화 관련 업무"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "원유·가스 수급 안정화를 위해 중동 3개국을 순방 중인 김정관 산업통상부 장관이 사우디아라비아에 이어 두번째 순방국인 카타르에 15일 도착했다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 수급 안정과 관련된 산업부의 활동은 한국석유공사의 역할과 관련이 있으므로 전략 담당 부서와 연결됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "200c534479acfaf5",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "LNG, 콘덴세이트 공급 관련 기사로 석유사업 전략, 에너지 수급 안정화와 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 석유사업처와 전략 담당 부서 관련",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "원유·가스 수급 안정화를 위해 중동 3개국을 순방 중인 김정관 산업통상부 장관이 사우디아라비아에 이어 두번째 순방국인 카타르에 15일 도착했다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·가스 수급 안정화 관련 업무"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "원유·가스 수급 안정화를 위해 중동 3개국을 순방 중인 김정관 산업통상부 장관이 사우디아라비아에 이어 두번째 순방국인 카타르에 15일 도착했다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 수급 안정과 관련된 산업부의 활동은 한국석유공사의 역할과 관련이 있으므로 전략 담당 부서와 연결됨"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "9d60064fc8afa4c7",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "9d60064fc8afa4c7",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "유가 변동 관련 기사로 석유사업 전략, 유가 정보 제공 업무와 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 석유사업처와 스마트데이터센터 관련 부서 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "고물가·고환율, 원유 수입선 다변화, 석유제품",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "유가, 원유, 석유제품",
+            "evidence_type": "paragraph",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "9d60064fc8afa4c7",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "유가 변동 관련 기사로 석유사업 전략, 유가 정보 제공 업무와 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 석유사업처와 스마트데이터센터 관련 부서 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "고물가·고환율, 원유 수입선 다변화, 석유제품",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "유가, 원유, 석유제품",
+            "evidence_type": "paragraph",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "63f4decf71f0d891",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "63f4decf71f0d891",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "유가 변동 관련 기사로 석유사업 전략, 유가 정보 제공 업무와 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 스마트데이터센터와 석유사업처 관련 부서 배정",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "유가 변동 관련 기사로 한국석유공사의 사업과 관련이 있습니다.",
+            "evidence_type": "paragraph",
+            "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하는 스마트데이터센터와 관련이 있습니다."
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "유가 변동 관련 기사로 한국석유공사의 사업과 관련이 있습니다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있습니다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "63f4decf71f0d891",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "유가 변동 관련 기사로 석유사업 전략, 유가 정보 제공 업무와 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 스마트데이터센터와 석유사업처 관련 부서 배정",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "유가 변동 관련 기사로 한국석유공사의 사업과 관련이 있습니다.",
+            "evidence_type": "paragraph",
+            "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하는 스마트데이터센터와 관련이 있습니다."
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "유가 변동 관련 기사로 한국석유공사의 사업과 관련이 있습니다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있습니다."
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "96b8be8a0e97905f",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "96b8be8a0e97905f",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "유가 폭등, 종전 MOU 관련 기사로 석유사업 전략, 비축, 유통사업과 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 석유사업처, 비축처, 유통사업처 관련 부서 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "유가 폭등, 종전 MOU",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "유가 폭등, 종전 MOU",
+            "evidence_type": "paragraph",
+            "reason": "정부 비축유, 전략비축, 비축기지, 저장시설 관련 업무"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "유가 폭등, 종전 MOU",
+            "evidence_type": "paragraph",
+            "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "96b8be8a0e97905f",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "유가 폭등, 종전 MOU 관련 기사로 석유사업 전략, 비축, 유통사업과 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 석유사업처, 비축처, 유통사업처 관련 부서 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "유가 폭등, 종전 MOU",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "유가 폭등, 종전 MOU",
+            "evidence_type": "paragraph",
+            "reason": "정부 비축유, 전략비축, 비축기지, 저장시설 관련 업무"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "유가 폭등, 종전 MOU",
+            "evidence_type": "paragraph",
+            "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "ff635bded5e66b1f",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "ff635bded5e66b1f",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "호르무즈해협 관련 이슈로 한국 선박 24척의 탈출길이 열렸다는 점에서 한국석유공사와 관련이 있을 수 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 석유사업처와 전략 담당 부서 관련",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "호르무즈 한국 선박 24척, 탈출길 열렸지만…귀환 시기 4가지 변수",
+            "evidence_type": "paragraph",
+            "reason": "석유사업과 관련된 운송 및 물류 이슈"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "호르무즈 한국 선박 24척, 탈출길 열렸지만…귀환 시기 4가지 변수",
+            "evidence_type": "paragraph",
+            "reason": "경영전략과 관련된 대외 리스크 관리"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "ff635bded5e66b1f",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "호르무즈해협 관련 이슈로 한국 선박 24척의 탈출길이 열렸다는 점에서 한국석유공사와 관련이 있을 수 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 석유사업처와 전략 담당 부서 관련",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "호르무즈 한국 선박 24척, 탈출길 열렸지만…귀환 시기 4가지 변수",
+            "evidence_type": "paragraph",
+            "reason": "석유사업과 관련된 운송 및 물류 이슈"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "호르무즈 한국 선박 24척, 탈출길 열렸지만…귀환 시기 4가지 변수",
+            "evidence_type": "paragraph",
+            "reason": "경영전략과 관련된 대외 리스크 관리"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "30529cc4dcdd1d85",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "30529cc4dcdd1d85",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "유가 담합 관련 기사로 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 석유사업처, 유통사업처, 비축처 관련 부서 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국내 정유사들이 중동발 에너지 위기 상황에서 유가를 담합했다는 의혹을 수사하는 검찰이 HD현대오일뱅크 임직원들의 신병 확보에 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "석유제품 가격 담합은 석유사업, 유통사업, 비축사업과 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국내 정유사들이 중동발 에너지 위기 상황에서 유가를 담합했다는 의혹을 수사하는 검찰이 HD현대오일뱅크 임직원들의 신병 확보에 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 담합은 유통사업과 관련이 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국내 정유사들이 중동발 에너지 위기 상황에서 유가를 담합했다는 의혹을 수사하는 검찰이 HD현대오일뱅크 임직원들의 신병 확보에 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 위기 상황에서 유가 담합은 비축사업과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "30529cc4dcdd1d85",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "유가 담합 관련 기사로 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 석유사업처, 유통사업처, 비축처 관련 부서 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국내 정유사들이 중동발 에너지 위기 상황에서 유가를 담합했다는 의혹을 수사하는 검찰이 HD현대오일뱅크 임직원들의 신병 확보에 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "석유제품 가격 담합은 석유사업, 유통사업, 비축사업과 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국내 정유사들이 중동발 에너지 위기 상황에서 유가를 담합했다는 의혹을 수사하는 검찰이 HD현대오일뱅크 임직원들의 신병 확보에 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 담합은 유통사업과 관련이 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국내 정유사들이 중동발 에너지 위기 상황에서 유가를 담합했다는 의혹을 수사하는 검찰이 HD현대오일뱅크 임직원들의 신병 확보에 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 위기 상황에서 유가 담합은 비축사업과 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "735b575e33176079",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "735b575e33176079",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "유가 변동 관련 기사로 석유사업 전략, 유가 정보 제공 업무와 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 석유사업처와 스마트데이터센터 관련 부서 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "미국과 이란이 종전 양해각서 서명에 합의했다고 밝히면서 14일 미국 주가지수 선물이 일제히 오르고 국제 유가는 하락했다.",
+            "evidence_type": "paragraph",
+            "reason": "국제유가 변동은 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩에 영향을 미친다."
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "미국과 이란이 종전 양해각서 서명에 합의했다고 밝히면서 14일 미국 주가지수 선물이 일제히 오르고 국제 유가는 하락했다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 정보는 유가·석유가격 정보 제공 업무와 관련이 있다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "735b575e33176079",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "유가 변동 관련 기사로 석유사업 전략, 유가 정보 제공 업무와 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 석유사업처와 스마트데이터센터 관련 부서 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "미국과 이란이 종전 양해각서 서명에 합의했다고 밝히면서 14일 미국 주가지수 선물이 일제히 오르고 국제 유가는 하락했다.",
+            "evidence_type": "paragraph",
+            "reason": "국제유가 변동은 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩에 영향을 미친다."
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "미국과 이란이 종전 양해각서 서명에 합의했다고 밝히면서 14일 미국 주가지수 선물이 일제히 오르고 국제 유가는 하락했다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 정보는 유가·석유가격 정보 제공 업무와 관련이 있다."
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "ff635bded5e66b1f",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "호르무즈해협과 관련된 이슈로 한국 선박 24척의 탈출길이 열렸다는 점에서 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "호르무즈 한국 선박 24척, 탈출길 열렸지만…귀환 시기 4가지 변수",
+          "evidence_type": "paragraph",
+          "reason": "석유사업과 관련된 운송 및 물류 이슈"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "호르무즈 한국 선박 24척, 탈출길 열렸지만…귀환 시기 4가지 변수",
+          "evidence_type": "paragraph",
+          "reason": "경영전략과 관련된 대외 리스크 관리"
+        }
+      ]
+    },
+    {
+      "article_id": "18cd7cf842254af8",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "산업부와 관련된 인사 이슈이지만 한국석유공사와 직접적인 관련은 없음",
+      "departments": []
+    },
+    {
+      "article_id": "e5cfc07059d584e7",
+      "candidate": true,
+      "confidence": 0.95,
+      "company_reason": "원유 공급 부족 이슈와 관련하여 한국석유공사와 직접적인 관련이 있음",
+      "departments": [
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "호르무즈 정상화까지 수개월…“2027년까지 원유 공급 부족할 수도”",
+          "evidence_type": "paragraph",
+          "reason": "석유 비축 및 공급과 관련된 업무"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "호르무즈 정상화까지 수개월…“2027년까지 원유 공급 부족할 수도”",
+          "evidence_type": "paragraph",
+          "reason": "원유 및 석유제품 거래와 관련된 업무"
+        }
+      ]
+    }
+  ]
+}
+```

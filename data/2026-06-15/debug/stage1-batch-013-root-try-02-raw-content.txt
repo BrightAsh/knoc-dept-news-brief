@@ -1,0 +1,42 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "a159ce98417db6c8",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "정부의 공공기관 운영과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "정부가 내년부터 지역 국립대학병원 전임교원 인력을 확충하고 인건비 수준을 높여 지역 병원을 수도권 ‘빅5’ 병원 수준으로 끌어올린다.",
+          "evidence_type": "summary_sentence",
+          "reason": "기획예산처의 예산 편성 및 공공기관 운영 관련 업무와 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "15354c96b0c3e964",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 이슈가 포함되어 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "6·3 지방선거 이후 국민의힘 지지율이 상승세인 여론조사 결과가 잇따라 나오고 있다.",
+          "evidence_type": "summary_sentence",
+          "reason": "경영전략처의 에너지 관련 시장 동향 분석과 연결됨"
+        }
+      ]
+    }
+  ]
+}
+```

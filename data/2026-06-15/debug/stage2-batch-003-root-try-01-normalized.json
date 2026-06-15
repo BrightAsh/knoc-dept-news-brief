@@ -1,0 +1,552 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "c356bd233ed51e5c",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "c356bd233ed51e5c",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "석유, 유가 관련 이슈로 한국석유공사의 업무와 직접 관련이 있음",
+        "review_note": "C 그룹으로 1차 판단을 참고하여 최종 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.95,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "석유, 유가 관련 이슈로 한국석유공사의 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음",
+            "evidence_type": "article",
+            "reason": "한국석유공사는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처가 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "유가 정보 제공과 관련된 업무로 한국석유공사의 유가·석유가격 정보, 에너지 통계, 시장동향 분석 업무와 관련이 있음",
+            "evidence_type": "article",
+            "reason": "한국석유공사는 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하는 스마트데이터센터가 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "c356bd233ed51e5c",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "석유, 유가 관련 이슈로 한국석유공사의 업무와 직접 관련이 있음",
+        "review_note": "C 그룹으로 1차 판단을 참고하여 최종 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.95,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "석유, 유가 관련 이슈로 한국석유공사의 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음",
+            "evidence_type": "article",
+            "reason": "한국석유공사는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처가 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "유가 정보 제공과 관련된 업무로 한국석유공사의 유가·석유가격 정보, 에너지 통계, 시장동향 분석 업무와 관련이 있음",
+            "evidence_type": "article",
+            "reason": "한국석유공사는 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하는 스마트데이터센터가 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "86b47f0c22534a2f",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "86b47f0c22534a2f",
+        "final_relevant": true,
+        "confidence": 0.85,
+        "final_reason": "석유 가격 및 수급 관련 기사로 한국석유공사의 업무와 관련이 있음",
+        "review_note": "C 그룹으로 1차 판단을 참고하여 최종 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "우리나라가 주로 수입하는 두바이유의 경우, 배럴당 170달러에 육박하며 에너지 대란 우려가 쏟아졌던 3월 말에",
+            "evidence_type": "paragraph",
+            "reason": "석유제품 가격과 수급 안정화는 석유사업처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "우리나라가 주로 수입하는 두바이유의 경우, 배럴당 170달러에 육박하며 에너지 대란 우려가 쏟아졌던 3월 말에",
+            "evidence_type": "paragraph",
+            "reason": "유가 정보 제공 및 분석은 스마트데이터센터의 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "86b47f0c22534a2f",
+        "final_relevant": true,
+        "confidence": 0.85,
+        "final_reason": "석유 가격 및 수급 관련 기사로 한국석유공사의 업무와 관련이 있음",
+        "review_note": "C 그룹으로 1차 판단을 참고하여 최종 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "우리나라가 주로 수입하는 두바이유의 경우, 배럴당 170달러에 육박하며 에너지 대란 우려가 쏟아졌던 3월 말에",
+            "evidence_type": "paragraph",
+            "reason": "석유제품 가격과 수급 안정화는 석유사업처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "우리나라가 주로 수입하는 두바이유의 경우, 배럴당 170달러에 육박하며 에너지 대란 우려가 쏟아졌던 3월 말에",
+            "evidence_type": "paragraph",
+            "reason": "유가 정보 제공 및 분석은 스마트데이터센터의 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "bce513cd376e1e18",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "bce513cd376e1e18",
+        "final_relevant": true,
+        "confidence": 0.85,
+        "final_reason": "석유, 유가 관련 이슈로 한국석유공사의 업무와 직접 관련이 있음",
+        "review_note": "C 그룹으로 1차 판단을 참고하여 최종 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "석유, 유가 관련 이슈로 한국석유공사의 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음",
+            "evidence_type": "article",
+            "reason": "한국석유공사는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처가 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "유가 정보 제공과 관련된 업무로 한국석유공사의 유가·석유가격 정보, 에너지 통계, 시장동향 분석 업무와 관련이 있음",
+            "evidence_type": "article",
+            "reason": "한국석유공사는 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하는 스마트데이터센터가 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "bce513cd376e1e18",
+        "final_relevant": true,
+        "confidence": 0.85,
+        "final_reason": "석유, 유가 관련 이슈로 한국석유공사의 업무와 직접 관련이 있음",
+        "review_note": "C 그룹으로 1차 판단을 참고하여 최종 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "석유, 유가 관련 이슈로 한국석유공사의 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음",
+            "evidence_type": "article",
+            "reason": "한국석유공사는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처가 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "유가 정보 제공과 관련된 업무로 한국석유공사의 유가·석유가격 정보, 에너지 통계, 시장동향 분석 업무와 관련이 있음",
+            "evidence_type": "article",
+            "reason": "한국석유공사는 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하는 스마트데이터센터가 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "93efd93d23440e5e",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "93efd93d23440e5e",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "석유, 유가 관련 이슈로 한국석유공사의 업무와 관련이 있음",
+        "review_note": "C 그룹으로 1차 판단을 참고하여 최종 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국과 이란이 개전 106일 만에 종전을 위한 양해각서(MOU)에 합의했다. 전쟁 장기화로 인한 여론 악화와 경제 위기 확산, 전면전에 대한 부담감 등이 양국을 협상 테이블로 이끌었다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국과 이란이 개전 106일 만에 종전을 위한 양해각서(MOU)에 합의했다. 전쟁 장기화로 인한 여론 악화와 경제 위기 확산, 전면전에 대한 부담감 등이 양국을 협상 테이블로 이끌었다.",
+            "evidence_type": "paragraph",
+            "reason": "경영전략, 경영목표, 운영계획 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "93efd93d23440e5e",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "석유, 유가 관련 이슈로 한국석유공사의 업무와 관련이 있음",
+        "review_note": "C 그룹으로 1차 판단을 참고하여 최종 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국과 이란이 개전 106일 만에 종전을 위한 양해각서(MOU)에 합의했다. 전쟁 장기화로 인한 여론 악화와 경제 위기 확산, 전면전에 대한 부담감 등이 양국을 협상 테이블로 이끌었다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국과 이란이 개전 106일 만에 종전을 위한 양해각서(MOU)에 합의했다. 전쟁 장기화로 인한 여론 악화와 경제 위기 확산, 전면전에 대한 부담감 등이 양국을 협상 테이블로 이끌었다.",
+            "evidence_type": "paragraph",
+            "reason": "경영전략, 경영목표, 운영계획 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "f1d8312a2661b492",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "f1d8312a2661b492",
+        "final_relevant": true,
+        "confidence": 0.85,
+        "final_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 정보제공 등과 관련이 있을 수 있음",
+        "review_note": "C 그룹으로 1차 판단을 참고하여 최종 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "드디어 열리는 호르무즈, 통행료는 ‘딴말’…미국 “무료” vs 이란 “수수료”, 유가",
+            "evidence_type": "article",
+            "reason": "유가 상승 관련 기사로 석유사업, 유통사업 등과 관련이 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "드디어 열리는 호르무즈, 통행료는 ‘딴말’…미국 “무료” vs 이란 “수수료”, 유가",
+            "evidence_type": "article",
+            "reason": "유가 정보 제공과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "f1d8312a2661b492",
+        "final_relevant": true,
+        "confidence": 0.85,
+        "final_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 정보제공 등과 관련이 있을 수 있음",
+        "review_note": "C 그룹으로 1차 판단을 참고하여 최종 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "드디어 열리는 호르무즈, 통행료는 ‘딴말’…미국 “무료” vs 이란 “수수료”, 유가",
+            "evidence_type": "article",
+            "reason": "유가 상승 관련 기사로 석유사업, 유통사업 등과 관련이 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "드디어 열리는 호르무즈, 통행료는 ‘딴말’…미국 “무료” vs 이란 “수수료”, 유가",
+            "evidence_type": "article",
+            "reason": "유가 정보 제공과 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "20912006508716cb",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "20912006508716cb",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "에너지 수급 안정화와 호르무즈 해협 안전 항행 관련 언급으로 한국석유공사와 연결됨",
+        "review_note": "C 그룹으로 1차 판단을 참고하여 최종 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "글로벌 에너지 수급이 안정화되고, 그간 호르무즈 해협 항행에 제약을 받아온 우리 선박과 선원들을 포함한 모든 선박이 조속히 안전한 운항을 재개할 수 있길 바란다",
+            "evidence_type": "sentence",
+            "reason": "에너지 수급 안정화와 관련하여 언급됨"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "호르무즈 해협에서의 자유롭고 안전한 항행이 지속적으로 보장될 수 있도록 미국을 비롯한 국제사회와 긴밀히 공조하며 필요한 역할을 수행해 나가겠다",
+            "evidence_type": "sentence",
+            "reason": "전략적 국제 협력과 관련하여 언급됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "20912006508716cb",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "에너지 수급 안정화와 호르무즈 해협 안전 항행 관련 언급으로 한국석유공사와 연결됨",
+        "review_note": "C 그룹으로 1차 판단을 참고하여 최종 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "글로벌 에너지 수급이 안정화되고, 그간 호르무즈 해협 항행에 제약을 받아온 우리 선박과 선원들을 포함한 모든 선박이 조속히 안전한 운항을 재개할 수 있길 바란다",
+            "evidence_type": "sentence",
+            "reason": "에너지 수급 안정화와 관련하여 언급됨"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "호르무즈 해협에서의 자유롭고 안전한 항행이 지속적으로 보장될 수 있도록 미국을 비롯한 국제사회와 긴밀히 공조하며 필요한 역할을 수행해 나가겠다",
+            "evidence_type": "sentence",
+            "reason": "전략적 국제 협력과 관련하여 언급됨"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "176c59dac8b4968d",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "176c59dac8b4968d",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "한국석유공사와 관련된 국제 유가 관련 기사",
+        "review_note": "C 그룹으로 1차 판단을 참고하여 최종 배정",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국·이란이 15일 종전에 합의하고 19일 스위스에서 종전 양해각서(MOU) 서명식을 갖기로 했다. 미국·이스라엘이 이란을 공습해 전쟁이 발발한 지 106일 만이다.",
+            "evidence_type": "paragraph",
+            "reason": "국제 유가는 한국석유공사의 사업 및 위험 관리와 관련이 있으므로 전략 담당 부서와 연결됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "176c59dac8b4968d",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "한국석유공사와 관련된 국제 유가 관련 기사",
+        "review_note": "C 그룹으로 1차 판단을 참고하여 최종 배정",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국·이란이 15일 종전에 합의하고 19일 스위스에서 종전 양해각서(MOU) 서명식을 갖기로 했다. 미국·이스라엘이 이란을 공습해 전쟁이 발발한 지 106일 만이다.",
+            "evidence_type": "paragraph",
+            "reason": "국제 유가는 한국석유공사의 사업 및 위험 관리와 관련이 있으므로 전략 담당 부서와 연결됨"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "99078bc6567d4d03",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "99078bc6567d4d03",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축 사업과 관련이 있을 수 있음",
+        "review_note": "C 그룹으로 1차 판단을 참고하여 최종 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국제유가 안정화 기대감",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국제유가 안정화 기대감",
+            "evidence_type": "paragraph",
+            "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국제유가 안정화 기대감",
+            "evidence_type": "paragraph",
+            "reason": "정부 비축유, 전략비축, 비축기지, 저장시설 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "99078bc6567d4d03",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축 사업과 관련이 있을 수 있음",
+        "review_note": "C 그룹으로 1차 판단을 참고하여 최종 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국제유가 안정화 기대감",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국제유가 안정화 기대감",
+            "evidence_type": "paragraph",
+            "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국제유가 안정화 기대감",
+            "evidence_type": "paragraph",
+            "reason": "정부 비축유, 전략비축, 비축기지, 저장시설 관련 업무"
+          }
+        ]
+      }
+    }
+  ]
+}

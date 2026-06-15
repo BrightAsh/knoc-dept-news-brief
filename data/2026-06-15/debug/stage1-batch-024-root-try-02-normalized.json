@@ -1,0 +1,172 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "30529cc4dcdd1d85",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "30529cc4dcdd1d85",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "유가 담합 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국내 정유사들이 중동발 에너지 위기 상황에서 유가를 담합했다는 의혹을 수사하는 검찰이 HD현대오일뱅크 임직원들의 신병 확보에 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "석유제품 가격 담합은 석유사업, 유통사업, 비축사업과 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국내 정유사들이 중동발 에너지 위기 상황에서 유가를 담합했다는 의혹을 수사하는 검찰이 HD현대오일뱅크 임직원들의 신병 확보에 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 담합은 유통사업과 관련이 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국내 정유사들이 중동발 에너지 위기 상황에서 유가를 담합했다는 의혹을 수사하는 검찰이 HD현대오일뱅크 임직원들의 신병 확보에 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 위기 상황에서 유가 담합은 비축사업과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "30529cc4dcdd1d85",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "유가 담합 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국내 정유사들이 중동발 에너지 위기 상황에서 유가를 담합했다는 의혹을 수사하는 검찰이 HD현대오일뱅크 임직원들의 신병 확보에 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "석유제품 가격 담합은 석유사업, 유통사업, 비축사업과 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국내 정유사들이 중동발 에너지 위기 상황에서 유가를 담합했다는 의혹을 수사하는 검찰이 HD현대오일뱅크 임직원들의 신병 확보에 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 담합은 유통사업과 관련이 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "국내 정유사들이 중동발 에너지 위기 상황에서 유가를 담합했다는 의혹을 수사하는 검찰이 HD현대오일뱅크 임직원들의 신병 확보에 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 위기 상황에서 유가 담합은 비축사업과 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "3e2d7192260c0cf9",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "3e2d7192260c0cf9",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지바우처 관련 기사로 한국석유공사의 에너지 관련 사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "대구시는 올해 말까지 '2026년 에너지바우처' 이용 신청을 받는다고 15일 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지바우처는 에너지 관련 정보 제공과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "3e2d7192260c0cf9",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지바우처 관련 기사로 한국석유공사의 에너지 관련 사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "대구시는 올해 말까지 '2026년 에너지바우처' 이용 신청을 받는다고 15일 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지바우처는 에너지 관련 정보 제공과 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "453c77fc314ee314",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "453c77fc314ee314",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 기사로 한국석유공사의 에너지 관련 사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "충남 서산시 광역 자원회수시설이 생활쓰레기를 전력과 열에너지로 전환하며 자원순환 거점 역할을 하고 있다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 전환과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "453c77fc314ee314",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 기사로 한국석유공사의 에너지 관련 사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "충남 서산시 광역 자원회수시설이 생활쓰레기를 전력과 열에너지로 전환하며 자원순환 거점 역할을 하고 있다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 전환과 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "a05367473e73dca9",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 관련 이슈로 한국석유공사의 업무와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미국과 이란이 종전 양해각서(MOU) 체결에 합의했다. 3개월 반 이어진 군사 충돌을 끝내는 외교적 돌파구를 마련하고, 세계 경제가 ‘오일 쇼크’의 충격과 스태그플레이션(경기 침체 속 물가 상승)의 공포를 털어내는 출구를 만든 것이다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 관련 협상의 타결로 국제 석유 시장에 영향을 미칠 수 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "[사설]美-이란 종전 MOU… ‘석유 다시 흐르려면’ 아직 살얼음",
+          "evidence_type": "title",
+          "reason": "석유 시장과 관련된 국제 정치 이슈"
+        }
+      ]
+    },
+    {
+      "article_id": "80c8a6fcdf2d3b65",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 수급 관련 이슈로 한국석유공사의 업무와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "이재명 대통령이 15일(현지시간) “중동 관련 협상이 타결된 것을 환영한다”면서 \"국제사회가 오랫동안 기대해 온 사태 해결을 위한 중요한 진전\"이라고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "중동 협상 타결로 에너지 수급에 영향을 미칠 수 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.5,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "이 대통령 “중동 협상 타결 환영…트럼프 리더십 높이 평가”",
+          "evidence_type": "title",
+          "reason": "에너지 수급 관련 국제 정치 이슈"
+        }
+      ]
+    },
+    {
+      "article_id": "43acf22e4027be6a",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "유가 관련 이슈로 한국석유공사의 업무와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "국립현대미술관 서울에서 영국 현대미술가 데이미언 허스트의 전시를 봤다. 대학생 시절 작품부터 최근작까지 그의 대표작 50여 점을 한자리에서 만날 수 있는 흔치 않은 기회였다.",
+          "evidence_type": "paragraph",
+          "reason": "유가 관련 전시회 개최"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.4,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "허스트 전시에서 만난 양자역학[이기진의 만만한 과학]",
+          "evidence_type": "title",
+          "reason": "유가 관련 이슈"
+        }
+      ]
+    }
+  ]
+}
+```

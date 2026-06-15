@@ -1,0 +1,59 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "20912006508716cb",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "에너지 수급 안정화와 호르무즈 해협 안전 항행 관련 언급으로 한국석유공사와 연결됨",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "글로벌 에너지 수급이 안정화되고, 그간 호르무즈 해협 항행에 제약을 받아온 우리 선박과 선원들을 포함한 모든 선박이 조속히 안전한 운항을 재개할 수 있길 바란다",
+          "evidence_type": "sentence",
+          "reason": "에너지 수급 안정화와 관련하여 언급됨"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "호르무즈 해협에서의 자유롭고 안전한 항행이 지속적으로 보장될 수 있도록 미국을 비롯한 국제사회와 긴밀히 공조하며 필요한 역할을 수행해 나가겠다",
+          "evidence_type": "sentence",
+          "reason": "전략적 국제 협력과 관련하여 언급됨"
+        }
+      ]
+    },
+    {
+      "article_id": "e67d30bd0b6486c3",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유조선 호르무즈 해협 통과 관련 언급으로 한국석유공사와 연결됨",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "도널드 트럼프 미국 대통령이 15일 이란-미국 양해각서 합의 이후 유조선들이 호르무즈 해협을 통과하기 시작했다고 밝혔다",
+          "evidence_type": "sentence",
+          "reason": "유조선과 호르무즈 해협 관련 언급"
+        }
+      ]
+    },
+    {
+      "article_id": "76df6b1f1658d533",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    }
+  ]
+}
+```
