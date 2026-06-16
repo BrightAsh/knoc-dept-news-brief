@@ -1,0 +1,83 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "a2ab28c7ce7d140f",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "한국석유공사와 관련된 원유 수급 및 에너지 협력 기사",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "원유 수급과 경제 협력 확대",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처의 원유 구매와 판매, 트레이딩 업무와 관련"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "산업장관의 UAE 방문",
+          "evidence_type": "paragraph",
+          "reason": "경영전략과 대외 협력 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "52c75990f9ecfb8d",
+      "candidate": true,
+      "confidence": 0.95,
+      "company_reason": "한국석유공사와 관련된 원유 도입 기사",
+      "departments": [
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "UAE가 한국에 긴급 공급하기로 한 원유 2400만배럴",
+          "evidence_type": "paragraph",
+          "reason": "석유비축처의 비축유 관리와 관련"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "원유 수급의 불확실성",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처의 원유 구매와 판매, 트레이딩 업무와 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "36edc220c5144d32",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "유가 관련 언급이지만 직접적인 관련성은 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "5fc328abe2a862fa",
+      "candidate": false,
+      "confidence": 0.3,
+      "company_reason": "유가 관련 언급이지만 직접적인 관련성은 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "9caf85315856f16c",
+      "candidate": false,
+      "confidence": 0.2,
+      "company_reason": "공공기관 관련 언급이지만 직접적인 관련성은 낮음",
+      "departments": []
+    }
+  ]
+}
+```

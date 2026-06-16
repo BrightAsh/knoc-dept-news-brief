@@ -1,0 +1,560 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "52c75990f9ecfb8d",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "52c75990f9ecfb8d",
+        "final_relevant": true,
+        "confidence": 0.95,
+        "final_reason": "한국석유공사와 관련된 원유 도입 기사",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유비축 및 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "UAE가 한국에 긴급 공급하기로 한 원유 2400만배럴",
+            "evidence_type": "paragraph",
+            "reason": "석유비축처의 비축유 관리와 관련"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "원유 수급의 불확실성",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처의 원유 구매와 판매, 트레이딩 업무와 관련"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "52c75990f9ecfb8d",
+        "final_relevant": true,
+        "confidence": 0.95,
+        "final_reason": "한국석유공사와 관련된 원유 도입 기사",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유비축 및 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "UAE가 한국에 긴급 공급하기로 한 원유 2400만배럴",
+            "evidence_type": "paragraph",
+            "reason": "석유비축처의 비축유 관리와 관련"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "원유 수급의 불확실성",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처의 원유 구매와 판매, 트레이딩 업무와 관련"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "1d32de31ba4a9e32",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "1d32de31ba4a9e32",
+        "final_relevant": true,
+        "confidence": 0.95,
+        "final_reason": "유가, 원유, 에너지 관련 이슈로 한국석유공사와 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국과 이란 간 종전 합의로 국제유가가 3개월 만에 최저치를 기록했지만, 물가 안정으로 이어지기까지는 상당 시간이 소요될 거란 분석이 나온다.",
+            "evidence_type": "paragraph",
+            "reason": "유가와 관련된 데이터 분석"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "미-이란 종전 합의에 국제유가 내려가도…고유가·고물가 계속",
+            "evidence_type": "article",
+            "reason": "석유사업과 관련된 국제 유가 이슈"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "1d32de31ba4a9e32",
+        "final_relevant": true,
+        "confidence": 0.95,
+        "final_reason": "유가, 원유, 에너지 관련 이슈로 한국석유공사와 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국과 이란 간 종전 합의로 국제유가가 3개월 만에 최저치를 기록했지만, 물가 안정으로 이어지기까지는 상당 시간이 소요될 거란 분석이 나온다.",
+            "evidence_type": "paragraph",
+            "reason": "유가와 관련된 데이터 분석"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "미-이란 종전 합의에 국제유가 내려가도…고유가·고물가 계속",
+            "evidence_type": "article",
+            "reason": "석유사업과 관련된 국제 유가 이슈"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "fef2743ba1f9084e",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "fef2743ba1f9084e",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "석유 관련 내용이 기사에 직접 언급되어 한국석유공사와 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "이란이 이번 합의의 최대 수혜국이란 게 중론이다. 미국과 이란 간 종전 양해각서의 구체적인 문안이 공개되지 않았지만 15일 외신 평가를 종합하면 이란이 이번 합의의 최대 수혜국이란 게 중론이다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "fef2743ba1f9084e",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "석유 관련 내용이 기사에 직접 언급되어 한국석유공사와 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "이란이 이번 합의의 최대 수혜국이란 게 중론이다. 미국과 이란 간 종전 양해각서의 구체적인 문안이 공개되지 않았지만 15일 외신 평가를 종합하면 이란이 이번 합의의 최대 수혜국이란 게 중론이다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "e6a8adf875e1e29d",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "e6a8adf875e1e29d",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "기사에 원유, 유가, 국제유가 언급이 있어 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "중동전쟁 고유가·인플레 우려 일본은행, 금리 0.25%P 인상 국채 매입 완화책에 충격 적어 엔 캐리 트레이드 청산 적을 듯 “원·달러 환율 하락 효과 기대”",
+            "evidence_type": "paragraph",
+            "reason": "고유가 언급으로 인해 석유사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "중동전쟁 고유가·인플레 우려 일본은행, 금리 0.25%P 인상 국채 매입 완화책에 충격 적어 엔 캐리 트레이드 청산 적을 듯 “원·달러 환율 하락 효과 기대”",
+            "evidence_type": "paragraph",
+            "reason": "고유가 언급으로 인해 유통사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "중동전쟁 고유가·인플레 우려 일본은행, 금리 0.25%P 인상 국채 매입 완화책에 충격 적어 엔 캐리 트레이드 청산 적을 듯 “원·달러 환율 하락 효과 기대”",
+            "evidence_type": "paragraph",
+            "reason": "고유가 언급으로 인해 비축사업과 관련이 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "e6a8adf875e1e29d",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "기사에 원유, 유가, 국제유가 언급이 있어 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "중동전쟁 고유가·인플레 우려 일본은행, 금리 0.25%P 인상 국채 매입 완화책에 충격 적어 엔 캐리 트레이드 청산 적을 듯 “원·달러 환율 하락 효과 기대”",
+            "evidence_type": "paragraph",
+            "reason": "고유가 언급으로 인해 석유사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "중동전쟁 고유가·인플레 우려 일본은행, 금리 0.25%P 인상 국채 매입 완화책에 충격 적어 엔 캐리 트레이드 청산 적을 듯 “원·달러 환율 하락 효과 기대”",
+            "evidence_type": "paragraph",
+            "reason": "고유가 언급으로 인해 유통사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "중동전쟁 고유가·인플레 우려 일본은행, 금리 0.25%P 인상 국채 매입 완화책에 충격 적어 엔 캐리 트레이드 청산 적을 듯 “원·달러 환율 하락 효과 기대”",
+            "evidence_type": "paragraph",
+            "reason": "고유가 언급으로 인해 비축사업과 관련이 있을 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "04bd785ce65f1fbe",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "04bd785ce65f1fbe",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "기사에 석유, 원유, 유가, 국제유가 언급이 있어 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "5월, 전년 동월 대비 24.8% 올라팬데믹·우크라 전쟁 이후 ‘최고’높은 원유 가격·환율 상승 영향‘반도체 효과’ 수출물가 46.",
+            "evidence_type": "paragraph",
+            "reason": "원유 가격 언급으로 인해 석유사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "5월, 전년 동월 대비 24.8% 올라팬데믹·우크라 전쟁 이후 ‘최고’높은 원유 가격·환율 상승 영향‘반도체 효과’ 수출물가 46.",
+            "evidence_type": "paragraph",
+            "reason": "원유 가격 언급으로 인해 유통사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "5월, 전년 동월 대비 24.8% 올라팬데믹·우크라 전쟁 이후 ‘최고’높은 원유 가격·환율 상승 영향‘반도체 효과’ 수출물가 46.",
+            "evidence_type": "paragraph",
+            "reason": "원유 가격 언급으로 인해 비축사업과 관련이 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "04bd785ce65f1fbe",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "기사에 석유, 원유, 유가, 국제유가 언급이 있어 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "5월, 전년 동월 대비 24.8% 올라팬데믹·우크라 전쟁 이후 ‘최고’높은 원유 가격·환율 상승 영향‘반도체 효과’ 수출물가 46.",
+            "evidence_type": "paragraph",
+            "reason": "원유 가격 언급으로 인해 석유사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "5월, 전년 동월 대비 24.8% 올라팬데믹·우크라 전쟁 이후 ‘최고’높은 원유 가격·환율 상승 영향‘반도체 효과’ 수출물가 46.",
+            "evidence_type": "paragraph",
+            "reason": "원유 가격 언급으로 인해 유통사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "5월, 전년 동월 대비 24.8% 올라팬데믹·우크라 전쟁 이후 ‘최고’높은 원유 가격·환율 상승 영향‘반도체 효과’ 수출물가 46.",
+            "evidence_type": "paragraph",
+            "reason": "원유 가격 언급으로 인해 비축사업과 관련이 있을 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "e825aca5d3fd18d6",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "e825aca5d3fd18d6",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "기사에 석유, 원유, 유가, 국제유가 언급이 있어 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "중동전쟁으로 인해 기름값이 오르면서 수입물가가 3개월 연속 전년 동월 대비 20% 이상 오르는 상승세를 이어갔다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 가격 언급으로 인해 석유사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "중동전쟁으로 인해 기름값이 오르면서 수입물가가 3개월 연속 전년 동월 대비 20% 이상 오르는 상승세를 이어갔다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 가격 언급으로 인해 유통사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "중동전쟁으로 인해 기름값이 오르면서 수입물가가 3개월 연속 전년 동월 대비 20% 이상 오르는 상승세를 이어갔다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 가격 언급으로 인해 비축사업과 관련이 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "e825aca5d3fd18d6",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "기사에 석유, 원유, 유가, 국제유가 언급이 있어 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "중동전쟁으로 인해 기름값이 오르면서 수입물가가 3개월 연속 전년 동월 대비 20% 이상 오르는 상승세를 이어갔다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 가격 언급으로 인해 석유사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "중동전쟁으로 인해 기름값이 오르면서 수입물가가 3개월 연속 전년 동월 대비 20% 이상 오르는 상승세를 이어갔다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 가격 언급으로 인해 유통사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "중동전쟁으로 인해 기름값이 오르면서 수입물가가 3개월 연속 전년 동월 대비 20% 이상 오르는 상승세를 이어갔다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 가격 언급으로 인해 비축사업과 관련이 있을 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "e1f2817011a5478a",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "e1f2817011a5478a",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "석유화학업계와 나프타 수급 관련 기사로 한국석유공사의 석유사업, 자원개발, 에너지 안보와 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "석유화학업계, 나프타 수급, 중국 저가공세",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처의 석유 수급, 트레이딩, 구매계약 업무와 관련이 있음"
+          },
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "에너지전환, 저탄소",
+            "evidence_type": "paragraph",
+            "reason": "저탄소추진처의 에너지전환, 저탄소 신규사업과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "e1f2817011a5478a",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "석유화학업계와 나프타 수급 관련 기사로 한국석유공사의 석유사업, 자원개발, 에너지 안보와 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "석유화학업계, 나프타 수급, 중국 저가공세",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처의 석유 수급, 트레이딩, 구매계약 업무와 관련이 있음"
+          },
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "에너지전환, 저탄소",
+            "evidence_type": "paragraph",
+            "reason": "저탄소추진처의 에너지전환, 저탄소 신규사업과 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "c0796d54383e40b0",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "c0796d54383e40b0",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "석유화학업계와 나프타 수급 관련 기사로 한국석유공사의 석유사업, 자원개발, 에너지 안보와 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "석유화학업계, 나프타 수급, 중국 저가공세",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처의 석유 수급, 트레이딩, 구매계약 업무와 관련이 있음"
+          },
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "에너지전환, 저탄소",
+            "evidence_type": "paragraph",
+            "reason": "저탄소추진처의 에너지전환, 저탄소 신규사업과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "c0796d54383e40b0",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "석유화학업계와 나프타 수급 관련 기사로 한국석유공사의 석유사업, 자원개발, 에너지 안보와 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "석유화학업계, 나프타 수급, 중국 저가공세",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처의 석유 수급, 트레이딩, 구매계약 업무와 관련이 있음"
+          },
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "에너지전환, 저탄소",
+            "evidence_type": "paragraph",
+            "reason": "저탄소추진처의 에너지전환, 저탄소 신규사업과 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

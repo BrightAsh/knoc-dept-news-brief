@@ -1,0 +1,212 @@
+{
+  "raw_result_count": 4,
+  "accepted_result_count": 4,
+  "normalization": [
+    {
+      "article_id": "eaee15b4f29c1a54",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "eaee15b4f29c1a54",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "에너지 안보, 석유/가스 수급, 비축, 해외자원개발, 공공기관 운영, 예산/감사/법무/안전/ESG/정보보안 등 KNOC 업무 영향이 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "eaee15b4f29c1a54",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "에너지 안보, 석유/가스 수급, 비축, 해외자원개발, 공공기관 운영, 예산/감사/법무/안전/ESG/정보보안 등 KNOC 업무 영향이 없음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "e87943157bd2211a",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "e87943157bd2211a",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "이란 종전 협상과 에너지 수급 관련 언급",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "이 대통령 “호르무즈 안전한 운항 재개하길…종전 협상 환영”",
+            "evidence_type": "paragraph",
+            "reason": "에너지 수급 안정 관련 대통령 발언으로 인해 전략 부서와 관련"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "호르무즈 운항 재개와 종전 협상",
+            "evidence_type": "paragraph",
+            "reason": "호르무즈 운항과 원유 수급 관련 가능성"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "e87943157bd2211a",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "이란 종전 협상과 에너지 수급 관련 언급",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "이 대통령 “호르무즈 안전한 운항 재개하길…종전 협상 환영”",
+            "evidence_type": "paragraph",
+            "reason": "에너지 수급 안정 관련 대통령 발언으로 인해 전략 부서와 관련"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "호르무즈 운항 재개와 종전 협상",
+            "evidence_type": "paragraph",
+            "reason": "호르무즈 운항과 원유 수급 관련 가능성"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "55b1379a12e5a5c9",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "55b1379a12e5a5c9",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "이란 재건과 에너지 관련 가능성",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "미국과 이란이 종전 및 후속 협상의 틀을 담은 양해각서(MOU)에 서명한 가운데, 미국이 이란의 전후 재건을 지원하기 위한 대규모 기금 조성 방안을 검토하고 있다고 미 고위 당국자가 확인했다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 수급과 관련한 국제 협상"
+          },
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.5,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "이란 재건 지원",
+            "evidence_type": "paragraph",
+            "reason": "아시아 지역 자원 개발 관련 가능성"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "55b1379a12e5a5c9",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "이란 재건과 에너지 관련 가능성",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "미국과 이란이 종전 및 후속 협상의 틀을 담은 양해각서(MOU)에 서명한 가운데, 미국이 이란의 전후 재건을 지원하기 위한 대규모 기금 조성 방안을 검토하고 있다고 미 고위 당국자가 확인했다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 수급과 관련한 국제 협상"
+          },
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.5,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "이란 재건 지원",
+            "evidence_type": "paragraph",
+            "reason": "아시아 지역 자원 개발 관련 가능성"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "785ec64699846335",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "785ec64699846335",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "이란과 원유 관련 협상",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "미국과 이란이 종전 및 후속 협상의 틀을 담은 양해각서(MOU)에 서명했다고 미국 고위 당국자가 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "원유 수급 관련 협상"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "이란과 종전 협상",
+            "evidence_type": "paragraph",
+            "reason": "에너지 안보 관련 전략 부서"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "785ec64699846335",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "이란과 원유 관련 협상",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "미국과 이란이 종전 및 후속 협상의 틀을 담은 양해각서(MOU)에 서명했다고 미국 고위 당국자가 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "원유 수급 관련 협상"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "이란과 종전 협상",
+            "evidence_type": "paragraph",
+            "reason": "에너지 안보 관련 전략 부서"
+          }
+        ]
+      }
+    }
+  ]
+}

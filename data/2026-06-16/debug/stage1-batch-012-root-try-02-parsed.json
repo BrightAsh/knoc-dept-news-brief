@@ -1,0 +1,62 @@
+{
+  "results": [
+    {
+      "article_id": "1418dfd8720d2dd3",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 관련 이슈로 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국과 이란 간 종전협상 양해각서의 구체적인 문안이 공개되지 않은 가운데 미국과 이란 모두 승자를 자처하고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업과 관련된 국제 이슈"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "누가 더 실익인가···‘60일 협상’ 시작 전 받아든 미·이란·이스라엘 성적표",
+          "evidence_type": "title | paragraph",
+          "reason": "경영전략과 관련된 국제 이슈"
+        }
+      ]
+    },
+    {
+      "article_id": "1d32de31ba4a9e32",
+      "candidate": true,
+      "confidence": 0.95,
+      "company_reason": "유가, 원유, 에너지 관련 이슈로 한국석유공사와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미국과 이란 간 종전 합의로 국제유가가 3개월 만에 최저치를 기록했지만, 물가 안정으로 이어지기까지는 상당 시간이 소요될 거란 분석이 나온다.",
+          "evidence_type": "paragraph",
+          "reason": "유가와 관련된 데이터 분석"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "미-이란 종전 합의에 국제유가 내려가도…고유가·고물가 계속",
+          "evidence_type": "title",
+          "reason": "석유사업과 관련된 국제 유가 이슈"
+        }
+      ]
+    }
+  ]
+}

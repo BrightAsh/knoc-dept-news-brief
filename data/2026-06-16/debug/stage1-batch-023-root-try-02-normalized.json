@@ -1,0 +1,132 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "6fb7692f65517339",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "6fb7692f65517339",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "전략비축유와 관련하여 한국석유공사의 석유비축 업무와 연결됨",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.95,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "미국의 전략비축유 재고가 43년 만에 최저 수준으로 떨어졌다.",
+            "evidence_type": "paragraph",
+            "reason": "전략비축유 재고 관리와 관련하여 한국석유공사의 석유비축처 업무와 유사한 측면이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "6fb7692f65517339",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "전략비축유와 관련하여 한국석유공사의 석유비축 업무와 연결됨",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.95,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "미국의 전략비축유 재고가 43년 만에 최저 수준으로 떨어졌다.",
+            "evidence_type": "paragraph",
+            "reason": "전략비축유 재고 관리와 관련하여 한국석유공사의 석유비축처 업무와 유사한 측면이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "6bf4d2ac20fdd950",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "6bf4d2ac20fdd950",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "호르무즈 해협과 석유 수급 관련하여 한국석유공사의 업무와 연결됨",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "도널드 트럼프 미국 대통령은 이란과의 종전 양해각서(MOU)에 양쪽이 모두 서명했으며 서명식이 열리는 오는 19일 호르무즈 해협이 완전히 개방될 것이라고 밝혔다.",
+            "evidence_type": "summary_sentence",
+            "reason": "호르무즈 해협은 석유 수급에 중요한 해협으로, 한국석유공사의 석유사업처 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "6bf4d2ac20fdd950",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "호르무즈 해협과 석유 수급 관련하여 한국석유공사의 업무와 연결됨",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "도널드 트럼프 미국 대통령은 이란과의 종전 양해각서(MOU)에 양쪽이 모두 서명했으며 서명식이 열리는 오는 19일 호르무즈 해협이 완전히 개방될 것이라고 밝혔다.",
+            "evidence_type": "article",
+            "reason": "호르무즈 해협은 석유 수급에 중요한 해협으로, 한국석유공사의 석유사업처 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "6b1754a53c16e362",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "6b1754a53c16e362",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련하여 한국석유공사의 업무와 연결됨",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "유럽연합이 러시아 침공에 맞서 5년째 전쟁 중인 우크라이나를 회원으로 받아들이기 위한 가입 절차를 공식 개시했다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 안보와 관련하여 한국석유공사의 경영전략과 연결됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "6b1754a53c16e362",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련하여 한국석유공사의 업무와 연결됨",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "유럽연합이 러시아 침공에 맞서 5년째 전쟁 중인 우크라이나를 회원으로 받아들이기 위한 가입 절차를 공식 개시했다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 안보와 관련하여 한국석유공사의 경영전략과 연결됨"
+          }
+        ]
+      }
+    }
+  ]
+}

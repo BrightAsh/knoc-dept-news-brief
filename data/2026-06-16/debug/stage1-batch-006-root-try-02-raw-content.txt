@@ -1,0 +1,120 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "e6a8adf875e1e29d",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "기사에 원유, 유가, 국제유가 언급이 있어 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "중동전쟁 고유가·인플레 우려 일본은행, 금리 0.25%P 인상 국채 매입 완화책에 충격 적어 엔 캐리 트레이드 청산 적을 듯 “원·달러 환율 하락 효과 기대”",
+          "evidence_type": "paragraph",
+          "reason": "고유가 언급으로 인해 석유사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "중동전쟁 고유가·인플레 우려 일본은행, 금리 0.25%P 인상 국채 매입 완화책에 충격 적어 엔 캐리 트레이드 청산 적을 듯 “원·달러 환율 하락 효과 기대”",
+          "evidence_type": "paragraph",
+          "reason": "고유가 언급으로 인해 유통사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "중동전쟁 고유가·인플레 우려 일본은행, 금리 0.25%P 인상 국채 매입 완화책에 충격 적어 엔 캐리 트레이드 청산 적을 듯 “원·달러 환율 하락 효과 기대”",
+          "evidence_type": "paragraph",
+          "reason": "고유가 언급으로 인해 비축사업과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "04bd785ce65f1fbe",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "기사에 석유, 원유, 유가, 국제유가 언급이 있어 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "5월, 전년 동월 대비 24.8% 올라팬데믹·우크라 전쟁 이후 ‘최고’높은 원유 가격·환율 상승 영향‘반도체 효과’ 수출물가 46.",
+          "evidence_type": "paragraph",
+          "reason": "원유 가격 언급으로 인해 석유사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "5월, 전년 동월 대비 24.8% 올라팬데믹·우크라 전쟁 이후 ‘최고’높은 원유 가격·환율 상승 영향‘반도체 효과’ 수출물가 46.",
+          "evidence_type": "paragraph",
+          "reason": "원유 가격 언급으로 인해 유통사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "5월, 전년 동월 대비 24.8% 올라팬데믹·우크라 전쟁 이후 ‘최고’높은 원유 가격·환율 상승 영향‘반도체 효과’ 수출물가 46.",
+          "evidence_type": "paragraph",
+          "reason": "원유 가격 언급으로 인해 비축사업과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "e825aca5d3fd18d6",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "기사에 석유, 원유, 유가, 국제유가 언급이 있어 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "중동전쟁으로 인해 기름값이 오르면서 수입물가가 3개월 연속 전년 동월 대비 20% 이상 오르는 상승세를 이어갔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 가격 언급으로 인해 석유사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "중동전쟁으로 인해 기름값이 오르면서 수입물가가 3개월 연속 전년 동월 대비 20% 이상 오르는 상승세를 이어갔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 가격 언급으로 인해 유통사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "중동전쟁으로 인해 기름값이 오르면서 수입물가가 3개월 연속 전년 동월 대비 20% 이상 오르는 상승세를 이어갔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 가격 언급으로 인해 비축사업과 관련이 있을 수 있음"
+        }
+      ]
+    }
+  ]
+}
+```

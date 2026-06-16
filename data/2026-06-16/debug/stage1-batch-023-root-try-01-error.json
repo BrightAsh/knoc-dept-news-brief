@@ -1,0 +1,53 @@
+{
+  "stage": "stage1",
+  "batch_number": 23,
+  "batch_count": 26,
+  "split_path": "root",
+  "attempt": 1,
+  "article_ids": [
+    "a5f7e8edc986fb90",
+    "4c3b8298c9672188",
+    "7d95158119e73148",
+    "06afb5b8515cbe85",
+    "de30aa34d4becfd6",
+    "c5e5e4b495819afc",
+    "b7e33cfa323916b2",
+    "6fb7692f65517339",
+    "290e86bb0aa5bcfc",
+    "934319fdfcdab984",
+    "e1d9cde7a26d2b02",
+    "465cf5ebeca750a0",
+    "0e88ad6e3cec397b",
+    "600a42da50182b37",
+    "6bf4d2ac20fdd950",
+    "6b1754a53c16e362"
+  ],
+  "message": "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 30000, Used 27664, Requested 8035. Please try again in 11.398s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+  "name": "Error",
+  "llm_debug": {
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+    "request": {
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "temperature": 0.05,
+      "max_tokens": 1400,
+      "message_count": 2,
+      "messages": [
+        {
+          "role": "system",
+          "char_count": 134,
+          "preview": "너는 한국석유공사(KNOC)의 언론 모니터링 1차 분류 담당자다. 0차 키워드는 A/B 라우팅 참고용일 뿐이며, 최종 판단은 기사 문맥과 한국석유공사의 역할, 부서별 업무 설명을 기준으로 한다. 반드시 유효한 JSON 객체 하나만 반환한다."
+        },
+        {
+          "role": "user",
+          "char_count": 18183,
+          "preview": "{\n  \"task\": \"각 기사를 1차 검토하라. A 그룹은 키워드 히트 기사이므로 실제 관련성이 있는지 검토하고, B 그룹은 키워드가 없더라도 문맥상 한국석유공사와 연결될 가능성이 있는지 찾아라. 관련 가능성이 있으면 candidate=true로 두고 관련 부서를 배정하라.\",\n  \"knoc_context\": {\n    \"name\": \"한국석유공사\",\n    \"aliases\": [\n      \"KNOC\",\n      \"Korea National Oil Corporation\",\n      \"석유공사\"\n    ],\n    \"role\": \"한국석유공사는 대한민국의 에너지 안보와 석유 수급 안정을 위해 석유비축, 국내외 석유·가스 자원개발, 석유정보 제공, 석유유통 지원, 저탄소·수소·암모니아 등 에너지 전환 관련 사업을 수행하는 공공기관이다.\",\n    \"classification_policy\": [\n      \"기사에 한국석유공사가 직접 언급되지 않아도, 공사의 사업·위험·정책·시장·"
+        }
+      ]
+    },
+    "http_status": 429,
+    "raw_response": "[saved as stage1-batch-023-root-try-01-error-raw-response.json]",
+    "error_type": "http"
+  }
+}

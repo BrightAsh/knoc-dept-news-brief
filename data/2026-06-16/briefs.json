@@ -1,0 +1,2574 @@
+{
+  "target_date": "2026-06-16",
+  "generated_at": "2026-06-16T19:13:26.903Z",
+  "analyzer": "knoc-two-pass-llm-v1",
+  "input_article_count": 404,
+  "relevant_article_count": 34,
+  "relevant_department_count": 8,
+  "pipeline": {
+    "stage0": {
+      "analyzer": "stage0-keyword-router-v1",
+      "keyword_hit_count": 77,
+      "keyword_miss_count": 327
+    },
+    "stage1": {
+      "enabled": true,
+      "status": "partial",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 404,
+      "analyzed_article_count": 372,
+      "candidate_count": 48,
+      "rejected_count": 152,
+      "warning_count": 23,
+      "error_count": 2
+    },
+    "stage2": {
+      "enabled": true,
+      "status": "partial",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 200,
+      "analyzed_article_count": 192,
+      "final_relevant_count": 36,
+      "final_rejected_count": 153,
+      "warning_count": 31,
+      "error_count": 1
+    }
+  },
+  "overall": {
+    "id": "overall",
+    "label": "전체",
+    "source": "llm",
+    "analysis_stage": "stage2",
+    "fallback_used": false,
+    "article_count": 34,
+    "item_count": 34,
+    "items": [
+      {
+        "id": "ca1f84c9c5a6dc9c",
+        "article_id": "52c75990f9ecfb8d",
+        "publisher": "한겨레",
+        "title": "산업부 “UAE 긴급 공급 원유 2400만배럴, 예정대로 도입”",
+        "url": "https://www.hani.co.kr/arti/economy/economy_general/1263865.html",
+        "published_at": "2026-06-16T09:30:00.000Z",
+        "score": 0.95,
+        "segment_text": "한국석유공사와 관련된 원유 도입 기사",
+        "reason": "한국석유공사와 관련된 원유 도입 기사",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유비축 및 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "3a21740e9c8bafa4",
+        "article_id": "1d32de31ba4a9e32",
+        "publisher": "한겨레",
+        "title": "미-이란 종전 합의에 국제유가 내려가도…고유가·고물가 계속",
+        "url": "https://www.hani.co.kr/arti/economy/economy_general/1263831.html",
+        "published_at": "2026-06-16T07:51:00.000Z",
+        "score": 0.95,
+        "segment_text": "유가, 원유, 에너지 관련 이슈로 한국석유공사와 관련이 있음",
+        "reason": "유가, 원유, 에너지 관련 이슈로 한국석유공사와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "babada3c5a3dd541",
+        "article_id": "6fb7692f65517339",
+        "publisher": "경향신문",
+        "title": "미, 전쟁 여파에 전략비축유 재고 43년 만에 최저 수준",
+        "url": "https://www.khan.co.kr/article/202606160940001",
+        "published_at": "2026-06-16T00:40:00.000Z",
+        "score": 0.95,
+        "segment_text": "전략비축유와 관련하여 한국석유공사의 석유비축 업무와 연결됨",
+        "reason": "전략비축유와 관련하여 한국석유공사의 석유비축 업무와 연결됨",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.95,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "31d0dbae5bcd810c",
+        "article_id": "819bdbd20d76b479",
+        "publisher": "경향신문",
+        "title": "최고가격제 종료 ‘3대 조건’은 사실상 충족…고환율에 출구전략 고민하는 정부",
+        "url": "https://www.khan.co.kr/article/202606160600021",
+        "published_at": "2026-06-15T21:00:02.000Z",
+        "score": 0.95,
+        "segment_text": "석유, 원유, 유가, 국제유가, 에너지, 석유제품, 휘발유, 경유, 등유, 정유, 주유소, 산업부 등 석유와 관련된 키워드가 다수 포함되어 있음",
+        "reason": "석유, 원유, 유가, 국제유가, 에너지, 석유제품, 휘발유, 경유, 등유, 정유, 주유소, 산업부 등 석유와 관련된 키워드가 다수 포함되어 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.95,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "220a5f1f48536e24",
+        "article_id": "fef2743ba1f9084e",
+        "publisher": "경향신문",
+        "title": "실속 다 챙긴 이란, 실점 더 많은 미국…이스라엘은 ‘낙제점’",
+        "url": "https://www.khan.co.kr/article/202606162115005/",
+        "published_at": "2026-06-16T12:15:00.000Z",
+        "score": 0.9,
+        "segment_text": "석유 관련 내용이 기사에 직접 언급되어 한국석유공사와 관련이 있음",
+        "reason": "석유 관련 내용이 기사에 직접 언급되어 한국석유공사와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "ac0eab720558105d",
+        "article_id": "e6a8adf875e1e29d",
+        "publisher": "경향신문",
+        "title": "일본, 31년 만에 ‘1% 금리’…한국도 ‘인상’ 가능성 확대",
+        "url": "https://www.khan.co.kr/article/202606162044005/",
+        "published_at": "2026-06-16T11:44:00.000Z",
+        "score": 0.9,
+        "segment_text": "기사에 원유, 유가, 국제유가 언급이 있어 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "reason": "기사에 원유, 유가, 국제유가 언급이 있어 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "9f765e421c48a1db",
+        "article_id": "04bd785ce65f1fbe",
+        "publisher": "경향신문",
+        "title": "수입물가 3개월째 20%대 ↑…소비자물가 끌어올리나",
+        "url": "https://www.khan.co.kr/article/202606162043005/",
+        "published_at": "2026-06-16T11:43:00.000Z",
+        "score": 0.9,
+        "segment_text": "기사에 석유, 원유, 유가, 국제유가 언급이 있어 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "reason": "기사에 석유, 원유, 유가, 국제유가 언급이 있어 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "9271ec419c13066f",
+        "article_id": "e825aca5d3fd18d6",
+        "publisher": "경향신문",
+        "title": "수입물가 3개월째 20%대 ↑…소비자물가 끌어올리나",
+        "url": "https://www.khan.co.kr/article/202606162043005",
+        "published_at": "2026-06-16T11:43:00.000Z",
+        "score": 0.9,
+        "segment_text": "기사에 석유, 원유, 유가, 국제유가 언급이 있어 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "reason": "기사에 석유, 원유, 유가, 국제유가 언급이 있어 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "c981a99f1f879ad8",
+        "article_id": "e1f2817011a5478a",
+        "publisher": "경향신문",
+        "title": "나프타 수급 ‘숨통’ 텄지만…중국 저가공세 ‘숙제’ 남은 석화업계",
+        "url": "https://www.khan.co.kr/article/202606162032035/",
+        "published_at": "2026-06-16T11:32:03.000Z",
+        "score": 0.9,
+        "segment_text": "석유화학업계와 나프타 수급 관련 기사로 한국석유공사의 석유사업, 자원개발, 에너지 안보와 관련이 있음",
+        "reason": "석유화학업계와 나프타 수급 관련 기사로 한국석유공사의 석유사업, 자원개발, 에너지 안보와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "4298cd040d5cc174",
+        "article_id": "c0796d54383e40b0",
+        "publisher": "경향신문",
+        "title": "나프타 수급 ‘숨통’ 텄지만…중국 저가공세 ‘숙제’ 남은 석화업계",
+        "url": "https://www.khan.co.kr/article/202606162032035",
+        "published_at": "2026-06-16T11:32:03.000Z",
+        "score": 0.9,
+        "segment_text": "석유화학업계와 나프타 수급 관련 기사로 한국석유공사의 석유사업, 자원개발, 에너지 안보와 관련이 있음",
+        "reason": "석유화학업계와 나프타 수급 관련 기사로 한국석유공사의 석유사업, 자원개발, 에너지 안보와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "108f089649db9437",
+        "article_id": "209820305cedcbbc",
+        "publisher": "경향신문",
+        "title": "법무부, ‘대장동 항소 포기 비판’ 정유미 검사 인사 취소 판결에 항소",
+        "url": "https://www.khan.co.kr/article/202606161919001",
+        "published_at": "2026-06-16T10:19:00.000Z",
+        "score": 0.9,
+        "segment_text": "석유 관련 키워드 정유 언급",
+        "reason": "석유 관련 키워드 정유 언급",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.95,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "d7cc8163be1160e3",
+        "article_id": "a2ab28c7ce7d140f",
+        "publisher": "경향신문",
+        "title": "UAE 찾은 김정관 산업장관 “원유도 원전도 협력 심화”",
+        "url": "https://www.khan.co.kr/article/202606161831001",
+        "published_at": "2026-06-16T09:31:00.000Z",
+        "score": 0.9,
+        "segment_text": "한국석유공사와 관련된 원유 수급 및 에너지 협력 기사",
+        "reason": "한국석유공사와 관련된 원유 수급 및 에너지 협력 기사",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "7c3a0e8fa77d403a",
+        "article_id": "5f451d826698ee5b",
+        "publisher": "경향신문",
+        "title": "호르무즈 개방에 한숨 돌린 석화업계? ‘중국발 공급 과잉’ 현실 마주할 때",
+        "url": "https://www.khan.co.kr/article/202606161535001",
+        "published_at": "2026-06-16T06:35:00.000Z",
+        "score": 0.9,
+        "segment_text": "석유화학 업계와 관련된 내용이 직접 언급되어 후속 검토가 필요하다.",
+        "reason": "석유화학 업계와 관련된 내용이 직접 언급되어 후속 검토가 필요하다.",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "b90a78590c0e7362",
+        "article_id": "d81b049a7daa7e46",
+        "publisher": "한겨레",
+        "title": "7월 유류할증료 20% 인하…여행 문턱 낮아져",
+        "url": "https://www.hani.co.kr/arti/economy/economy_general/1263760.html",
+        "published_at": "2026-06-16T02:34:00.000Z",
+        "score": 0.9,
+        "segment_text": "유가 관련 기사로, 석유사업과 관련이 있음",
+        "reason": "유가 관련 기사로, 석유사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 석유사업 부서에 배정",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "9a400433392a5fbd",
+        "article_id": "6ca7b1e60028d7ef",
+        "publisher": "경향신문",
+        "title": "“5월 수출물가지수 11개월째 상승…반도체 수요 급증”",
+        "url": "https://www.khan.co.kr/article/202606160700001",
+        "published_at": "2026-06-15T22:00:00.000Z",
+        "score": 0.9,
+        "segment_text": "석유, 원유, 유가, 국제유가, 석유제품, 경유 관련 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+        "reason": "석유, 원유, 유가, 국제유가, 석유제품, 경유 관련 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "2dde2db4a94726f3",
+        "article_id": "e87943157bd2211a",
+        "publisher": "한겨레",
+        "title": "이 대통령 “호르무즈 안전한 운항 재개하길…종전 협상 환영”",
+        "url": "https://www.hani.co.kr/arti/politics/bluehouse/1263714.html",
+        "published_at": "2026-06-15T17:01:00.000Z",
+        "score": 0.9,
+        "segment_text": "이란 종전 협상과 에너지 수급 관련 언급으로 한국석유공사의 전략 부서와 석유사업처와 관련이 있음",
+        "reason": "이란 종전 협상과 에너지 수급 관련 언급으로 한국석유공사의 전략 부서와 석유사업처와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 한국석유공사의 전략 부서와 석유사업처와 관련이 있어 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "bb78380c64685d6c",
+        "article_id": "3c02d96e0bff3641",
+        "publisher": "경향신문",
+        "title": "걸프국들, 종전합의에 불만…미 ‘안보우산’ 의존도 낮출까",
+        "url": "https://www.khan.co.kr/article/202606162113015/",
+        "published_at": "2026-06-16T12:13:01.000Z",
+        "score": 0.85,
+        "segment_text": "원유, 에너지 관련 내용이 기사에 직접 언급되어 한국석유공사와 관련이 있음",
+        "reason": "원유, 에너지 관련 내용이 기사에 직접 언급되어 한국석유공사와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 석유사업 부서에 배정",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "d95bc806f1902e7d",
+        "article_id": "7c065bd0482fa036",
+        "publisher": "한겨레",
+        "title": "‘반도체 호황’ 온기, 고환율·고금리 신음하는 서민 경제 언제쯤 닿을까",
+        "url": "https://www.hani.co.kr/arti/society/society_general/1263878.html",
+        "published_at": "2026-06-16T10:04:00.000Z",
+        "score": 0.85,
+        "segment_text": "유가와 국제유가 관련 언급으로 한국석유공사의 스마트데이터센터와 석유사업처와 관련이 있음",
+        "reason": "유가와 국제유가 관련 언급으로 한국석유공사의 스마트데이터센터와 석유사업처와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 한국석유공사의 스마트데이터센터와 석유사업처와 관련이 있어 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "75591026301884be",
+        "article_id": "4c219c2b9b272761",
+        "publisher": "경향신문",
+        "title": "미, 이란 재건용 민간 기금 3000억달러 조성안 검토···“한국 등 관심”",
+        "url": "https://www.khan.co.kr/article/202606161147001",
+        "published_at": "2026-06-16T02:47:00.000Z",
+        "score": 0.85,
+        "segment_text": "에너지 관련 기사로, 해외자원개발과 관련이 있음",
+        "reason": "에너지 관련 기사로, 해외자원개발과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 해외자원개발 부서에 배정",
+        "departments": [
+          {
+            "id": "asia_business",
+            "name": "아시아사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "americas_europe_business",
+            "name": "미주/유럽사업처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "a93f9ddafd0d24e6",
+        "article_id": "e08f19b5d0fd7012",
+        "publisher": "한겨레",
+        "title": "고유가에도 수입물가↓...반도체 호조에 수출물가↑",
+        "url": "https://www.hani.co.kr/arti/economy/economy_general/1263724.html",
+        "published_at": "2026-06-15T21:00:00.000Z",
+        "score": 0.85,
+        "segment_text": "고유가, 수입물가, 수출물가, 반도체, 석유제품 등 석유와 관련된 키워드가 포함되어 있음",
+        "reason": "고유가, 수입물가, 수출물가, 반도체, 석유제품 등 석유와 관련된 키워드가 포함되어 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "03c9b3877195b9a6",
+        "article_id": "139b7fd7b37d2b5e",
+        "publisher": "경향신문",
+        "title": "실속 다 챙긴 이란, 실점 더 많은 미국…이스라엘은 ‘낙제점’",
+        "url": "https://www.khan.co.kr/article/202606162115005",
+        "published_at": "2026-06-16T12:15:00.000Z",
+        "score": 0.8,
+        "segment_text": "석유 관련 내용이 기사에 직접 언급되어 한국석유공사와 관련이 있음",
+        "reason": "석유 관련 내용이 기사에 직접 언급되어 한국석유공사와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "549d1967bd3e4e52",
+        "article_id": "bb38fc7b19f9cc72",
+        "publisher": "경향신문",
+        "title": "걸프국들, 종전합의에 불만…미 ‘안보우산’ 의존도 낮출까",
+        "url": "https://www.khan.co.kr/article/202606162113015",
+        "published_at": "2026-06-16T12:13:01.000Z",
+        "score": 0.8,
+        "segment_text": "원유, 에너지 관련 내용이 기사에 직접 언급되어 한국석유공사와 관련이 있음",
+        "reason": "원유, 에너지 관련 내용이 기사에 직접 언급되어 한국석유공사와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "6e6b92aa835ba934",
+        "article_id": "944c9b0d77700698",
+        "publisher": "경향신문",
+        "title": "[논설위원의 단도직입]강원택 서울대 국가미래전략원장 “조용한 중도의 매서운 민심 확인…이제 정부·여당 평가의 시간”",
+        "url": "https://www.khan.co.kr/article/202606162008005",
+        "published_at": "2026-06-16T11:08:00.000Z",
+        "score": 0.8,
+        "segment_text": "유가 관련 언급으로 한국석유공사와 연결됨",
+        "reason": "유가 관련 언급으로 한국석유공사와 연결됨",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "3bd210ead1446749",
+        "article_id": "153c62a9a2fc57dd",
+        "publisher": "한겨레",
+        "title": "정부, 미·이란 상대 호르무즈 통항 소통 시작…“통행료 반대”",
+        "url": "https://www.hani.co.kr/arti/politics/politics_general/1263882.html",
+        "published_at": "2026-06-16T11:08:00.000Z",
+        "score": 0.8,
+        "segment_text": "유가 관련 언급으로 한국석유공사와 연결됨",
+        "reason": "유가 관련 언급으로 한국석유공사와 연결됨",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "f587d9a4642cc172",
+        "article_id": "191fa73fd8cd4d78",
+        "publisher": "경향신문",
+        "title": "[경제직필]국부펀드보단 기획처 기금이 낫다",
+        "url": "https://www.khan.co.kr/article/202606162004015",
+        "published_at": "2026-06-16T11:04:01.000Z",
+        "score": 0.8,
+        "segment_text": "유가 관련 언급으로 한국석유공사와 연결됨",
+        "reason": "유가 관련 언급으로 한국석유공사와 연결됨",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "319f966ba0d66d76",
+        "article_id": "0c49b143b0dc63dd",
+        "publisher": "경향신문",
+        "title": "“미국 못 믿겠다”···걸프국, 안보 다각화 속도내나",
+        "url": "https://www.khan.co.kr/article/202606161730001",
+        "published_at": "2026-06-16T08:30:00.000Z",
+        "score": 0.8,
+        "segment_text": "에너지 안보와 관련하여 한국석유공사의 전략 부서와 저탄소 사업과 관련이 있음",
+        "reason": "에너지 안보와 관련하여 한국석유공사의 전략 부서와 저탄소 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 한국석유공사의 전략 부서와 저탄소 사업과 관련이 있어 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "38d0151ee4ee5402",
+        "article_id": "e8c2125e96c66c83",
+        "publisher": "경향신문",
+        "title": "소 배설물 가스로 항공유 만든다…미국서 세계 첫 개발",
+        "url": "https://www.khan.co.kr/article/202606161513001",
+        "published_at": "2026-06-16T06:13:00.000Z",
+        "score": 0.8,
+        "segment_text": "석유, 수소 관련 에너지 이슈",
+        "reason": "석유, 수소 관련 에너지 이슈",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "d7088bfeaed725b6",
+        "article_id": "e6cb985d07466131",
+        "publisher": "경향신문",
+        "title": "올 여름, 섬에 갈 이유가 또 있‘섬’···1박하면 최대 10만원 지원",
+        "url": "https://www.khan.co.kr/article/202606161200001",
+        "published_at": "2026-06-16T03:00:00.000Z",
+        "score": 0.8,
+        "segment_text": "유류할증료와 관련된 기사로, 석유사업과 유통사업에 관련이 있음",
+        "reason": "유류할증료와 관련된 기사로, 석유사업과 유통사업에 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 석유사업과 유통사업 부서에 배정",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "85ac5d60d54074fc",
+        "article_id": "6bf4d2ac20fdd950",
+        "publisher": "한겨레",
+        "title": "트럼프, G7서 “호르무즈 무료 개방”…이란 쪽 ‘통행료 징수’ 즉각 반박",
+        "url": "https://www.hani.co.kr/arti/international/arabafrica/1263729.html",
+        "published_at": "2026-06-15T23:50:00.000Z",
+        "score": 0.8,
+        "segment_text": "호르무즈 해협과 석유 수급 관련하여 한국석유공사의 업무와 연결됨",
+        "reason": "호르무즈 해협과 석유 수급 관련하여 한국석유공사의 업무와 연결됨",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "da7e1a3813788c5f",
+        "article_id": "785ec64699846335",
+        "publisher": "한겨레",
+        "title": "미 당국자 “트럼프·밴스-이란 갈리바프, 종전 MOU 서명”",
+        "url": "https://www.hani.co.kr/arti/international/america/1263712.html",
+        "published_at": "2026-06-15T16:32:00.000Z",
+        "score": 0.8,
+        "segment_text": "이란과 원유 관련 협상",
+        "reason": "이란과 원유 관련 협상",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "bdef15ca92a25ecb",
+        "article_id": "ec500b6d079fd3f1",
+        "publisher": "한겨레",
+        "title": "미-이란 전자서명 완료…“이란 합의 이행하면 3천억달러 재건 기금 검토”",
+        "url": "https://www.hani.co.kr/arti/international/america/1263889.html",
+        "published_at": "2026-06-16T14:27:00.000Z",
+        "score": 0.7,
+        "segment_text": "The article mentions 이란 and 정유, which could be related to 한국석유공사's business in oil and gas.",
+        "reason": "The article mentions 이란 and 정유, which could be related to 한국석유공사's business in oil and gas.",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 석유사업 부서에 배정",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "007e8834294403aa",
+        "article_id": "9b123b7cf735efc8",
+        "publisher": "경향신문",
+        "title": "트럼프 합의에 공화당 내에서도 “이란에 항복했다” 비판···중간선거 앞두고 당내 혼란 커져",
+        "url": "https://www.khan.co.kr/article/202606161714001",
+        "published_at": "2026-06-16T08:14:00.000Z",
+        "score": 0.7,
+        "segment_text": "에너지 가격과 관련하여 한국석유공사의 역할과 연결됨",
+        "reason": "에너지 가격과 관련하여 한국석유공사의 역할과 연결됨",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 석유사업 부서에 배정",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "18077a8247d044a4",
+        "article_id": "7b0d176fa62477cb",
+        "publisher": "경향신문",
+        "title": "[속보]일본은행, 기준금리 0.75%서 1%로···31년 만에 최고치",
+        "url": "https://www.khan.co.kr/article/202606161245011",
+        "published_at": "2026-06-16T03:45:01.000Z",
+        "score": 0.7,
+        "segment_text": "일본은행의 기준금리 인상은 국제 유가에 영향을 줄 수 있으며, 이는 석유 사업에 영향을 줄 수 있음",
+        "reason": "일본은행의 기준금리 인상은 국제 유가에 영향을 줄 수 있으며, 이는 석유 사업에 영향을 줄 수 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 한국석유공사의 석유사업처와 관련이 있어 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "693fae5fb26ace1a",
+        "article_id": "55b1379a12e5a5c9",
+        "publisher": "한겨레",
+        "title": "미 당국자 “이란 재건에 거액 기금 조성안 검토”…이행 실적과 연계",
+        "url": "https://www.hani.co.kr/arti/international/america/1263713.html",
+        "published_at": "2026-06-15T16:51:00.000Z",
+        "score": 0.7,
+        "segment_text": "이란 재건과 에너지 관련 가능성",
+        "reason": "이란 재건과 에너지 관련 가능성",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "B",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 전략 부서에 배정",
+        "departments": [
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.6,
+            "source": "llm"
+          },
+          {
+            "id": "asia_business",
+            "name": "아시아사업처",
+            "score": 0.5,
+            "source": "llm"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_review": {
+    "enabled": true,
+    "status": "partial",
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "analyzed_article_count": 192,
+    "brief_source_stage": "stage2",
+    "fallback_used": false,
+    "stages": {
+      "stage1": {
+        "enabled": true,
+        "status": "partial",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 404,
+        "analyzed_article_count": 372,
+        "candidate_count": 48,
+        "rejected_count": 152,
+        "warning_count": 23,
+        "error_count": 2
+      },
+      "stage2": {
+        "enabled": true,
+        "status": "partial",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 200,
+        "analyzed_article_count": 192,
+        "final_relevant_count": 36,
+        "final_rejected_count": 153,
+        "warning_count": 31,
+        "error_count": 1
+      }
+    }
+  },
+  "departments": [
+    {
+      "department_id": "secretariat",
+      "department": "비서팀",
+      "role": "사장 일정, 의전, 대내외 메시지, 지시사항 이행과 대외 접점 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "she",
+      "department": "SHE추진실",
+      "role": "전사 안전, 보건, 환경, 재난 대응, 중대재해 예방과 안전보건환경 관리체계를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "audit",
+      "department": "감사실",
+      "role": "감사계획과 감사 수행, 내부통제, 일상감사, 부패·비위 점검, 청렴 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "legal",
+      "department": "법무팀",
+      "role": "국내외 송무, 계약과 사업의 법률 검토, 규제 대응, 분쟁 대응, 지식재산권 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "planning_budget",
+      "department": "기획예산처",
+      "role": "이사회, 국회, 정부 대응, 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "strategy",
+      "department": "경영전략처",
+      "role": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+      "article_count": 6,
+      "segment_count": 6,
+      "items": [
+        {
+          "id": "24862e0bd86c5342",
+          "article_id": "0c49b143b0dc63dd",
+          "publisher": "경향신문",
+          "title": "“미국 못 믿겠다”···걸프국, 안보 다각화 속도내나",
+          "url": "https://www.khan.co.kr/article/202606161730001",
+          "published_at": "2026-06-16T08:30:00.000Z",
+          "score": 0.8,
+          "segment_text": "미국·이란 간 종전 양해각서에 전쟁 기간 큰 피해를 입었던 중동 지역 국가들의 요구가 반영되지 않으면서 오랜 기간 이어져 온 걸프국과 미국 간 안보 협력이 흔들릴 수 있다는 분석이 나온다.",
+          "reason": "에너지 안보와 관련하여 한국석유공사의 경영전략과 연결됨",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 한국석유공사의 전략 부서와 저탄소 사업과 관련이 있어 최종적으로 포함함"
+        },
+        {
+          "id": "a4b27c8134ce7e69",
+          "article_id": "e87943157bd2211a",
+          "publisher": "한겨레",
+          "title": "이 대통령 “호르무즈 안전한 운항 재개하길…종전 협상 환영”",
+          "url": "https://www.hani.co.kr/arti/politics/bluehouse/1263714.html",
+          "published_at": "2026-06-15T17:01:00.000Z",
+          "score": 0.8,
+          "segment_text": "이 대통령 “호르무즈 안전한 운항 재개하길…종전 협상 환영”",
+          "reason": "에너지 수급 안정 관련 대통령 발언으로 인해 전략 부서와 관련",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 한국석유공사의 전략 부서와 석유사업처와 관련이 있어 최종적으로 포함함"
+        },
+        {
+          "id": "bd5028ae276f792c",
+          "article_id": "139b7fd7b37d2b5e",
+          "publisher": "경향신문",
+          "title": "실속 다 챙긴 이란, 실점 더 많은 미국…이스라엘은 ‘낙제점’",
+          "url": "https://www.khan.co.kr/article/202606162115005",
+          "published_at": "2026-06-16T12:15:00.000Z",
+          "score": 0.7,
+          "segment_text": "미국과 이란 간 종전 양해각서의 구체적인 문안이 공개되지 않았지만 15일 외신 평가를 종합하면 이란이 이번 합의의 최대 수혜국이란 게 중론이다.",
+          "reason": "경영전략, 경영목표, 운영계획 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "d488c5fb3a283c86",
+          "article_id": "785ec64699846335",
+          "publisher": "한겨레",
+          "title": "미 당국자 “트럼프·밴스-이란 갈리바프, 종전 MOU 서명”",
+          "url": "https://www.hani.co.kr/arti/international/america/1263712.html",
+          "published_at": "2026-06-15T16:32:00.000Z",
+          "score": 0.7,
+          "segment_text": "이란과 종전 협상",
+          "reason": "에너지 안보 관련 전략 부서",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "cb9d18af1e7db6ef",
+          "article_id": "a2ab28c7ce7d140f",
+          "publisher": "경향신문",
+          "title": "UAE 찾은 김정관 산업장관 “원유도 원전도 협력 심화”",
+          "url": "https://www.khan.co.kr/article/202606161831001",
+          "published_at": "2026-06-16T09:31:00.000Z",
+          "score": 0.6,
+          "segment_text": "UAE 찾은 김정관 산업장관 “원유도 원전도 협력 심화”",
+          "reason": "경영전략과 대외 협력 관련",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "72f697d6a1e8c1e5",
+          "article_id": "55b1379a12e5a5c9",
+          "publisher": "한겨레",
+          "title": "미 당국자 “이란 재건에 거액 기금 조성안 검토”…이행 실적과 연계",
+          "url": "https://www.hani.co.kr/arti/international/america/1263713.html",
+          "published_at": "2026-06-15T16:51:00.000Z",
+          "score": 0.6,
+          "segment_text": "미국과 이란이 종전 및 후속 협상의 틀을 담은 양해각서(MOU)에 서명한 가운데, 미국이 이란의 전후 재건을 지원하기 위한 대규모 기금 조성 방안을 검토하고 있다고 미 고위 당국자가 확인했다.",
+          "reason": "에너지 수급과 관련한 국제 협상",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "B",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 전략 부서에 배정"
+        }
+      ]
+    },
+    {
+      "department_id": "finance",
+      "department": "재무처",
+      "role": "자금 조달과 상환, 자금 집행, 결산, 세무, 환율·금리·부채 등 재무 리스크 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "esg",
+      "department": "ESG경영처",
+      "role": "ESG 경영, 윤리·인권, 사회공헌, 동반성장, 상생, 내부통제 지원 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "infosec",
+      "department": "정보보안팀",
+      "role": "정보보안 정책과 운영, 개인정보보호, 사이버 침해 대응, 정보유출 예방 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "general_affairs",
+      "department": "총무처",
+      "role": "문서와 기록물, 자산, 사옥, 숙소, 조달계약, 구매, 시설관리, 비상대비 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hr",
+      "department": "인재경영처",
+      "role": "조직, 인사, 채용, 평가, 교육훈련, 급여, 복리후생, 노사관계와 인력 운영을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "smart_data",
+      "department": "스마트데이터센터",
+      "role": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
+      "article_count": 8,
+      "segment_count": 8,
+      "items": [
+        {
+          "id": "92524d5506626498",
+          "article_id": "7c065bd0482fa036",
+          "publisher": "한겨레",
+          "title": "‘반도체 호황’ 온기, 고환율·고금리 신음하는 서민 경제 언제쯤 닿을까",
+          "url": "https://www.hani.co.kr/arti/society/society_general/1263878.html",
+          "published_at": "2026-06-16T10:04:00.000Z",
+          "score": 0.9,
+          "segment_text": "유가, 국제유가",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s7"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 한국석유공사의 스마트데이터센터와 석유사업처와 관련이 있어 최종적으로 포함함"
+        },
+        {
+          "id": "0c1359ef9f8d3771",
+          "article_id": "1d32de31ba4a9e32",
+          "publisher": "한겨레",
+          "title": "미-이란 종전 합의에 국제유가 내려가도…고유가·고물가 계속",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1263831.html",
+          "published_at": "2026-06-16T07:51:00.000Z",
+          "score": 0.9,
+          "segment_text": "미국과 이란 간 종전 합의로 국제유가가 3개월 만에 최저치를 기록했지만, 물가 안정으로 이어지기까지는 상당 시간이 소요될 거란 분석이 나온다.",
+          "reason": "유가와 관련된 데이터 분석",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "id": "e986d72e5c1567ce",
+          "article_id": "e08f19b5d0fd7012",
+          "publisher": "한겨레",
+          "title": "고유가에도 수입물가↓...반도체 호조에 수출물가↑",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1263724.html",
+          "published_at": "2026-06-15T21:00:00.000Z",
+          "score": 0.9,
+          "segment_text": "고유가 속에서도 수입물가는 하락세를 보인 반면, 수출물가는 반도체 호조에 힘입어 상승 흐름을 지속해 교역조건이 추가로 개선됐다.",
+          "reason": "스마트데이터센터는 석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "1e15ddc233713f1f",
+          "article_id": "6ca7b1e60028d7ef",
+          "publisher": "경향신문",
+          "title": "“5월 수출물가지수 11개월째 상승…반도체 수요 급증”",
+          "url": "https://www.khan.co.kr/article/202606160700001",
+          "published_at": "2026-06-15T22:00:00.000Z",
+          "score": 0.8,
+          "segment_text": "인공지능 투자 확대에 따른 메모리 반도체와 비철금속 등 수요가 증가하면서 수출물가가 11개월 연속 올랐다.",
+          "reason": "석유제품, 국제유가와 관련된 데이터 제공 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "0aefa0e531814d2b",
+          "article_id": "944c9b0d77700698",
+          "publisher": "경향신문",
+          "title": "[논설위원의 단도직입]강원택 서울대 국가미래전략원장 “조용한 중도의 매서운 민심 확인…이제 정부·여당 평가의 시간”",
+          "url": "https://www.khan.co.kr/article/202606162008005",
+          "published_at": "2026-06-16T11:08:00.000Z",
+          "score": 0.7,
+          "segment_text": "유가",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보",
+          "evidence_type": "sentence",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "bfdd201cccc903c9",
+          "article_id": "153c62a9a2fc57dd",
+          "publisher": "한겨레",
+          "title": "정부, 미·이란 상대 호르무즈 통항 소통 시작…“통행료 반대”",
+          "url": "https://www.hani.co.kr/arti/politics/politics_general/1263882.html",
+          "published_at": "2026-06-16T11:08:00.000Z",
+          "score": 0.7,
+          "segment_text": "유가",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "c1ddaeca026b18c6",
+          "article_id": "191fa73fd8cd4d78",
+          "publisher": "경향신문",
+          "title": "[경제직필]국부펀드보단 기획처 기금이 낫다",
+          "url": "https://www.khan.co.kr/article/202606162004015",
+          "published_at": "2026-06-16T11:04:01.000Z",
+          "score": 0.7,
+          "segment_text": "이란 핵무기 확보 시도",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보",
+          "evidence_type": "sentence",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "bbe25ca84123402a",
+          "article_id": "9b123b7cf735efc8",
+          "publisher": "경향신문",
+          "title": "트럼프 합의에 공화당 내에서도 “이란에 항복했다” 비판···중간선거 앞두고 당내 혼란 커져",
+          "url": "https://www.khan.co.kr/article/202606161714001",
+          "published_at": "2026-06-16T08:14:00.000Z",
+          "score": 0.6,
+          "segment_text": "미국과 이란의 종전 양해각서 타결 이후 미 공화당 내에서도 합의에 관해 실망한 강경파의 비판과 판단을 유보하는 신중론 등이 엇갈리며 당내 혼란이 심화하고 있다.",
+          "reason": "에너지 가격 정보 제공과 관련하여 한국석유공사의 스마트데이터센터와 연결됨",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 석유사업 부서에 배정"
+        }
+      ]
+    },
+    {
+      "department_id": "asia_business",
+      "department": "아시아사업처",
+      "role": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당한다.",
+      "article_count": 2,
+      "segment_count": 2,
+      "items": [
+        {
+          "id": "3f623a417cefd3da",
+          "article_id": "4c219c2b9b272761",
+          "publisher": "경향신문",
+          "title": "미, 이란 재건용 민간 기금 3000억달러 조성안 검토···“한국 등 관심”",
+          "url": "https://www.khan.co.kr/article/202606161147001",
+          "published_at": "2026-06-16T02:47:00.000Z",
+          "score": 0.7,
+          "segment_text": "도널드 트럼프 미국 행정부가 이란이 핵 협상을 포함한 최종적인 종전 합의에 동의할 경우 민간 주도로 3000억달러 규모의 재건 기금을 조성하는 방안을 검토하고 있다는 보도가 나왔다.",
+          "reason": "해외자원개발과 관련된 에너지 정책",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 해외자원개발 부서에 배정"
+        },
+        {
+          "id": "f02f51f8374676b8",
+          "article_id": "55b1379a12e5a5c9",
+          "publisher": "한겨레",
+          "title": "미 당국자 “이란 재건에 거액 기금 조성안 검토”…이행 실적과 연계",
+          "url": "https://www.hani.co.kr/arti/international/america/1263713.html",
+          "published_at": "2026-06-15T16:51:00.000Z",
+          "score": 0.5,
+          "segment_text": "이란 재건 지원",
+          "reason": "아시아 지역 자원 개발 관련 가능성",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "B",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 전략 부서에 배정"
+        }
+      ]
+    },
+    {
+      "department_id": "americas_europe_business",
+      "department": "미주/유럽사업처",
+      "role": "미주와 유럽 지역 E&P 사업, 해외광구, Capex/Opex, 사업 손익, 자금수지 관리를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "4d57234b572b86a1",
+          "article_id": "4c219c2b9b272761",
+          "publisher": "경향신문",
+          "title": "미, 이란 재건용 민간 기금 3000억달러 조성안 검토···“한국 등 관심”",
+          "url": "https://www.khan.co.kr/article/202606161147001",
+          "published_at": "2026-06-16T02:47:00.000Z",
+          "score": 0.6,
+          "segment_text": "도널드 트럼프 미국 행정부가 이란이 핵 협상을 포함한 최종적인 종전 합의에 동의할 경우 민간 주도로 3000억달러 규모의 재건 기금을 조성하는 방안을 검토하고 있다는 보도가 나왔다.",
+          "reason": "해외자원개발과 관련된 에너지 정책",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 해외자원개발 부서에 배정"
+        }
+      ]
+    },
+    {
+      "department_id": "domestic_business_development",
+      "department": "국내사업개발처",
+      "role": "국내 자원개발 사업, 국내 대륙붕, 가스전, 탐사·시추, 신규 국내 사업개발을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "low_carbon",
+      "department": "저탄소추진처",
+      "role": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
+      "article_count": 6,
+      "segment_count": 6,
+      "items": [
+        {
+          "id": "2853bbc2eef6188d",
+          "article_id": "e8c2125e96c66c83",
+          "publisher": "경향신문",
+          "title": "소 배설물 가스로 항공유 만든다…미국서 세계 첫 개발",
+          "url": "https://www.khan.co.kr/article/202606161513001",
+          "published_at": "2026-06-16T06:13:00.000Z",
+          "score": 0.8,
+          "segment_text": "미국 캘리포니아주에 조성된 지속가능항공유(SAF) 실증시설. 서큘러리티 퓨얼스 제공",
+          "reason": "저탄소 추진 관련 에너지 이슈",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "970269ce5505c705",
+          "article_id": "bb38fc7b19f9cc72",
+          "publisher": "경향신문",
+          "title": "걸프국들, 종전합의에 불만…미 ‘안보우산’ 의존도 낮출까",
+          "url": "https://www.khan.co.kr/article/202606162113015",
+          "published_at": "2026-06-16T12:13:01.000Z",
+          "score": 0.6,
+          "segment_text": "미국·이란 간 종전 양해각서에 전쟁 기간 큰 피해를 입었던 중동 지역 국가들의 요구가 반영되지 않으면서 오랜 기간 이어져온 걸프국과 미국 간 안보 협력이 흔들릴 수 있다는 분석이 나온다.",
+          "reason": "저탄소, 에너지전환, 해상풍력 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "3269b63e940f8c1b",
+          "article_id": "3c02d96e0bff3641",
+          "publisher": "경향신문",
+          "title": "걸프국들, 종전합의에 불만…미 ‘안보우산’ 의존도 낮출까",
+          "url": "https://www.khan.co.kr/article/202606162113015/",
+          "published_at": "2026-06-16T12:13:01.000Z",
+          "score": 0.6,
+          "segment_text": "미국·이란 간 종전 양해각서에 전쟁 기간 큰 피해를 입었던 중동 지역 국가들의 요구가 반영되지 않으면서 오랜 기간 이어져온 걸프국과 미국 간 안보 협력이 흔들릴 수 있다는 분석이 나온다.",
+          "reason": "저탄소, 에너지전환, 해상풍력 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 석유사업 부서에 배정"
+        },
+        {
+          "id": "ac6397b6e33ce4f6",
+          "article_id": "e1f2817011a5478a",
+          "publisher": "경향신문",
+          "title": "나프타 수급 ‘숨통’ 텄지만…중국 저가공세 ‘숙제’ 남은 석화업계",
+          "url": "https://www.khan.co.kr/article/202606162032035/",
+          "published_at": "2026-06-16T11:32:03.000Z",
+          "score": 0.6,
+          "segment_text": "에너지전환, 저탄소",
+          "reason": "저탄소추진처의 에너지전환, 저탄소 신규사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "id": "31b70946d7c55d1a",
+          "article_id": "c0796d54383e40b0",
+          "publisher": "경향신문",
+          "title": "나프타 수급 ‘숨통’ 텄지만…중국 저가공세 ‘숙제’ 남은 석화업계",
+          "url": "https://www.khan.co.kr/article/202606162032035",
+          "published_at": "2026-06-16T11:32:03.000Z",
+          "score": 0.6,
+          "segment_text": "에너지전환, 저탄소",
+          "reason": "저탄소추진처의 에너지전환, 저탄소 신규사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "id": "9c6e8457f0835729",
+          "article_id": "0c49b143b0dc63dd",
+          "publisher": "경향신문",
+          "title": "“미국 못 믿겠다”···걸프국, 안보 다각화 속도내나",
+          "url": "https://www.khan.co.kr/article/202606161730001",
+          "published_at": "2026-06-16T08:30:00.000Z",
+          "score": 0.6,
+          "segment_text": "이란이 향후 미국과의 핵 협상 과정에서 걸프국 및 호르무즈 해협 문제를 협상 카드로 활용할 가능성이 크고, 미국 역시 이란 위협을 지렛대 삼아 걸프 국가들에 자국의 요구를 수용하도록 압박할 가능성이 크다는 것이다.",
+          "reason": "에너지 전환과 관련하여 한국석유공사의 저탄소 사업과 연결됨",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 한국석유공사의 전략 부서와 저탄소 사업과 관련이 있어 최종적으로 포함함"
+        }
+      ]
+    },
+    {
+      "department_id": "global_technology_center",
+      "department": "글로벌기술센터",
+      "role": "E&P 기술지원, 지질·저류층·시추 기술, 기술전략, 연구개발, 기술자료와 기술평가를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "stockpiling",
+      "department": "석유비축처",
+      "role": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당한다.",
+      "article_count": 5,
+      "segment_count": 5,
+      "items": [
+        {
+          "id": "45c38ba08fa57d42",
+          "article_id": "6fb7692f65517339",
+          "publisher": "경향신문",
+          "title": "미, 전쟁 여파에 전략비축유 재고 43년 만에 최저 수준",
+          "url": "https://www.khan.co.kr/article/202606160940001",
+          "published_at": "2026-06-16T00:40:00.000Z",
+          "score": 0.95,
+          "segment_text": "미국의 전략비축유 재고가 43년 만에 최저 수준으로 떨어졌다.",
+          "reason": "전략비축유 재고 관리와 관련하여 한국석유공사의 석유비축처 업무와 유사한 측면이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "200478be91949f58",
+          "article_id": "52c75990f9ecfb8d",
+          "publisher": "한겨레",
+          "title": "산업부 “UAE 긴급 공급 원유 2400만배럴, 예정대로 도입”",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1263865.html",
+          "published_at": "2026-06-16T09:30:00.000Z",
+          "score": 0.9,
+          "segment_text": "UAE가 한국에 긴급 공급하기로 한 원유 2400만배럴",
+          "reason": "석유비축처의 비축유 관리와 관련",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유비축 및 석유사업과 관련이 있음"
+        },
+        {
+          "id": "75f54fc10b3c7c6d",
+          "article_id": "e6a8adf875e1e29d",
+          "publisher": "경향신문",
+          "title": "일본, 31년 만에 ‘1% 금리’…한국도 ‘인상’ 가능성 확대",
+          "url": "https://www.khan.co.kr/article/202606162044005/",
+          "published_at": "2026-06-16T11:44:00.000Z",
+          "score": 0.6,
+          "segment_text": "중동전쟁 고유가·인플레 우려 일본은행, 금리 0.25%P 인상 국채 매입 완화책에 충격 적어 엔 캐리 트레이드 청산 적을 듯 “원·달러 환율 하락 효과 기대”",
+          "reason": "고유가 언급으로 인해 비축사업과 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "id": "6d1e2bc51964db3b",
+          "article_id": "04bd785ce65f1fbe",
+          "publisher": "경향신문",
+          "title": "수입물가 3개월째 20%대 ↑…소비자물가 끌어올리나",
+          "url": "https://www.khan.co.kr/article/202606162043005/",
+          "published_at": "2026-06-16T11:43:00.000Z",
+          "score": 0.6,
+          "segment_text": "5월, 전년 동월 대비 24.8% 올라팬데믹·우크라 전쟁 이후 ‘최고’높은 원유 가격·환율 상승 영향‘반도체 효과’ 수출물가 46.",
+          "reason": "원유 가격 언급으로 인해 비축사업과 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "id": "4a3d995876803580",
+          "article_id": "e825aca5d3fd18d6",
+          "publisher": "경향신문",
+          "title": "수입물가 3개월째 20%대 ↑…소비자물가 끌어올리나",
+          "url": "https://www.khan.co.kr/article/202606162043005",
+          "published_at": "2026-06-16T11:43:00.000Z",
+          "score": 0.6,
+          "segment_text": "중동전쟁으로 인해 기름값이 오르면서 수입물가가 3개월 연속 전년 동월 대비 20% 이상 오르는 상승세를 이어갔다.",
+          "reason": "석유 가격 언급으로 인해 비축사업과 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "petroleum_business",
+      "department": "석유사업처",
+      "role": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+      "article_count": 29,
+      "segment_count": 29,
+      "items": [
+        {
+          "id": "7315cd36e51137ef",
+          "article_id": "209820305cedcbbc",
+          "publisher": "경향신문",
+          "title": "법무부, ‘대장동 항소 포기 비판’ 정유미 검사 인사 취소 판결에 항소",
+          "url": "https://www.khan.co.kr/article/202606161919001",
+          "published_at": "2026-06-16T10:19:00.000Z",
+          "score": 0.95,
+          "segment_text": "정유미 검사",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "120789f1aef78826",
+          "article_id": "819bdbd20d76b479",
+          "publisher": "경향신문",
+          "title": "최고가격제 종료 ‘3대 조건’은 사실상 충족…고환율에 출구전략 고민하는 정부",
+          "url": "https://www.khan.co.kr/article/202606160600021",
+          "published_at": "2026-06-15T21:00:02.000Z",
+          "score": 0.95,
+          "segment_text": "미국과 이란이 종전 양해각서 서명에 합의하면서 국내 관심은 석유 최고가격제 종료 시점에 쏠리고 있다.",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "acead6ca83cc807e",
+          "article_id": "944c9b0d77700698",
+          "publisher": "경향신문",
+          "title": "[논설위원의 단도직입]강원택 서울대 국가미래전략원장 “조용한 중도의 매서운 민심 확인…이제 정부·여당 평가의 시간”",
+          "url": "https://www.khan.co.kr/article/202606162008005",
+          "published_at": "2026-06-16T11:08:00.000Z",
+          "score": 0.9,
+          "segment_text": "유가",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "sentence",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "f0806a5399bdb35b",
+          "article_id": "153c62a9a2fc57dd",
+          "publisher": "한겨레",
+          "title": "정부, 미·이란 상대 호르무즈 통항 소통 시작…“통행료 반대”",
+          "url": "https://www.hani.co.kr/arti/politics/politics_general/1263882.html",
+          "published_at": "2026-06-16T11:08:00.000Z",
+          "score": 0.9,
+          "segment_text": "유가",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "ccdbed9b9438e6c5",
+          "article_id": "191fa73fd8cd4d78",
+          "publisher": "경향신문",
+          "title": "[경제직필]국부펀드보단 기획처 기금이 낫다",
+          "url": "https://www.khan.co.kr/article/202606162004015",
+          "published_at": "2026-06-16T11:04:01.000Z",
+          "score": 0.9,
+          "segment_text": "이란 핵무기 확보 시도",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "sentence",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "1314c7b6fdfaab98",
+          "article_id": "5f451d826698ee5b",
+          "publisher": "경향신문",
+          "title": "호르무즈 개방에 한숨 돌린 석화업계? ‘중국발 공급 과잉’ 현실 마주할 때",
+          "url": "https://www.khan.co.kr/article/202606161535001",
+          "published_at": "2026-06-16T06:35:00.000Z",
+          "score": 0.9,
+          "segment_text": "미국과 이란의 종전 양해각서 서명 합의에 국내 석유화학 업계도 한숨을 돌리게 됐다.",
+          "reason": "석유사업처와 관련이 있을 수 있다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "8ad4a4ac1054c72b",
+          "article_id": "d81b049a7daa7e46",
+          "publisher": "한겨레",
+          "title": "7월 유류할증료 20% 인하…여행 문턱 낮아져",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1263760.html",
+          "published_at": "2026-06-16T02:34:00.000Z",
+          "score": 0.9,
+          "segment_text": "미국·이스라엘-이란 전쟁의 영향으로 역대 최고 수준까지 치솟았던 국제선 항공권 유류할증료가 오는 7월부터 이달 대비 20%가량 하락한다.",
+          "reason": "석유사업과 관련된 유가 정책",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 석유사업 부서에 배정"
+        },
+        {
+          "id": "bdf62d5ca229b0c2",
+          "article_id": "785ec64699846335",
+          "publisher": "한겨레",
+          "title": "미 당국자 “트럼프·밴스-이란 갈리바프, 종전 MOU 서명”",
+          "url": "https://www.hani.co.kr/arti/international/america/1263712.html",
+          "published_at": "2026-06-15T16:32:00.000Z",
+          "score": 0.9,
+          "segment_text": "미국과 이란이 종전 및 후속 협상의 틀을 담은 양해각서(MOU)에 서명했다고 미국 고위 당국자가 밝혔다.",
+          "reason": "원유 수급 관련 협상",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "d01ce1a5e326a768",
+          "article_id": "ec500b6d079fd3f1",
+          "publisher": "한겨레",
+          "title": "미-이란 전자서명 완료…“이란 합의 이행하면 3천억달러 재건 기금 검토”",
+          "url": "https://www.hani.co.kr/arti/international/america/1263889.html",
+          "published_at": "2026-06-16T14:27:00.000Z",
+          "score": 0.8,
+          "segment_text": "미국과 이란이 종전 및 후속 협상의 틀을 담은 양해각서(MOU)에 전자 서명을 했다. 양해각서에는 이란이 합의 사항을 이행할 경우 전후 재건을 위한 대규모 투자펀드 조성을 허용하는 방안이 포함됐다.",
+          "reason": "The article discusses US-Iran agreement which could impact global oil market and thus related to petroleum business.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 석유사업 부서에 배정"
+        },
+        {
+          "id": "03a93578f2fbe745",
+          "article_id": "fef2743ba1f9084e",
+          "publisher": "경향신문",
+          "title": "실속 다 챙긴 이란, 실점 더 많은 미국…이스라엘은 ‘낙제점’",
+          "url": "https://www.khan.co.kr/article/202606162115005/",
+          "published_at": "2026-06-16T12:15:00.000Z",
+          "score": 0.8,
+          "segment_text": "이란이 이번 합의의 최대 수혜국이란 게 중론이다. 미국과 이란 간 종전 양해각서의 구체적인 문안이 공개되지 않았지만 15일 외신 평가를 종합하면 이란이 이번 합의의 최대 수혜국이란 게 중론이다.",
+          "reason": "석유 사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "id": "03c9fb7a8028316c",
+          "article_id": "139b7fd7b37d2b5e",
+          "publisher": "경향신문",
+          "title": "실속 다 챙긴 이란, 실점 더 많은 미국…이스라엘은 ‘낙제점’",
+          "url": "https://www.khan.co.kr/article/202606162115005",
+          "published_at": "2026-06-16T12:15:00.000Z",
+          "score": 0.8,
+          "segment_text": "실속 다 챙긴 이란, 실점 더 많은 미국…이스라엘은 ‘낙제점'",
+          "reason": "석유 사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "b9e345eca1a753d4",
+          "article_id": "bb38fc7b19f9cc72",
+          "publisher": "경향신문",
+          "title": "걸프국들, 종전합의에 불만…미 ‘안보우산’ 의존도 낮출까",
+          "url": "https://www.khan.co.kr/article/202606162113015",
+          "published_at": "2026-06-16T12:13:01.000Z",
+          "score": 0.8,
+          "segment_text": "걸프국들, 종전합의에 불만…미 ‘안보우산’ 의존도 낮출까",
+          "reason": "석유 사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "1c24c98cc1a4600d",
+          "article_id": "3c02d96e0bff3641",
+          "publisher": "경향신문",
+          "title": "걸프국들, 종전합의에 불만…미 ‘안보우산’ 의존도 낮출까",
+          "url": "https://www.khan.co.kr/article/202606162113015/",
+          "published_at": "2026-06-16T12:13:01.000Z",
+          "score": 0.8,
+          "segment_text": "걸프국들, 종전합의에 불만…미 ‘안보우산’ 의존도 낮출까",
+          "reason": "석유 사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 석유사업 부서에 배정"
+        },
+        {
+          "id": "338afce3c2445846",
+          "article_id": "e6a8adf875e1e29d",
+          "publisher": "경향신문",
+          "title": "일본, 31년 만에 ‘1% 금리’…한국도 ‘인상’ 가능성 확대",
+          "url": "https://www.khan.co.kr/article/202606162044005/",
+          "published_at": "2026-06-16T11:44:00.000Z",
+          "score": 0.8,
+          "segment_text": "중동전쟁 고유가·인플레 우려 일본은행, 금리 0.25%P 인상 국채 매입 완화책에 충격 적어 엔 캐리 트레이드 청산 적을 듯 “원·달러 환율 하락 효과 기대”",
+          "reason": "고유가 언급으로 인해 석유사업과 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "id": "2af02cafed3d0981",
+          "article_id": "04bd785ce65f1fbe",
+          "publisher": "경향신문",
+          "title": "수입물가 3개월째 20%대 ↑…소비자물가 끌어올리나",
+          "url": "https://www.khan.co.kr/article/202606162043005/",
+          "published_at": "2026-06-16T11:43:00.000Z",
+          "score": 0.8,
+          "segment_text": "5월, 전년 동월 대비 24.8% 올라팬데믹·우크라 전쟁 이후 ‘최고’높은 원유 가격·환율 상승 영향‘반도체 효과’ 수출물가 46.",
+          "reason": "원유 가격 언급으로 인해 석유사업과 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "id": "b2501fc7d9579f1e",
+          "article_id": "e825aca5d3fd18d6",
+          "publisher": "경향신문",
+          "title": "수입물가 3개월째 20%대 ↑…소비자물가 끌어올리나",
+          "url": "https://www.khan.co.kr/article/202606162043005",
+          "published_at": "2026-06-16T11:43:00.000Z",
+          "score": 0.8,
+          "segment_text": "중동전쟁으로 인해 기름값이 오르면서 수입물가가 3개월 연속 전년 동월 대비 20% 이상 오르는 상승세를 이어갔다.",
+          "reason": "석유 가격 언급으로 인해 석유사업과 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "id": "93ebedfe0c6f6cc4",
+          "article_id": "e1f2817011a5478a",
+          "publisher": "경향신문",
+          "title": "나프타 수급 ‘숨통’ 텄지만…중국 저가공세 ‘숙제’ 남은 석화업계",
+          "url": "https://www.khan.co.kr/article/202606162032035/",
+          "published_at": "2026-06-16T11:32:03.000Z",
+          "score": 0.8,
+          "segment_text": "석유화학업계, 나프타 수급, 중국 저가공세",
+          "reason": "석유사업처의 석유 수급, 트레이딩, 구매계약 업무와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "id": "cd74c877eb2181f7",
+          "article_id": "c0796d54383e40b0",
+          "publisher": "경향신문",
+          "title": "나프타 수급 ‘숨통’ 텄지만…중국 저가공세 ‘숙제’ 남은 석화업계",
+          "url": "https://www.khan.co.kr/article/202606162032035",
+          "published_at": "2026-06-16T11:32:03.000Z",
+          "score": 0.8,
+          "segment_text": "석유화학업계, 나프타 수급, 중국 저가공세",
+          "reason": "석유사업처의 석유 수급, 트레이딩, 구매계약 업무와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "id": "d95cbaf4f72121f8",
+          "article_id": "7c065bd0482fa036",
+          "publisher": "한겨레",
+          "title": "‘반도체 호황’ 온기, 고환율·고금리 신음하는 서민 경제 언제쯤 닿을까",
+          "url": "https://www.hani.co.kr/arti/society/society_general/1263878.html",
+          "published_at": "2026-06-16T10:04:00.000Z",
+          "score": 0.8,
+          "segment_text": "유가, 국제유가",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s7"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 한국석유공사의 스마트데이터센터와 석유사업처와 관련이 있어 최종적으로 포함함"
+        },
+        {
+          "id": "bfc6e8e07e6a44e3",
+          "article_id": "a2ab28c7ce7d140f",
+          "publisher": "경향신문",
+          "title": "UAE 찾은 김정관 산업장관 “원유도 원전도 협력 심화”",
+          "url": "https://www.khan.co.kr/article/202606161831001",
+          "published_at": "2026-06-16T09:31:00.000Z",
+          "score": 0.8,
+          "segment_text": "원유 수급과 경제 협력 확대를 위해 중동 순방 중인 김정관 산업통상부 장관이 마지막 국가인 아랍에미리트연합에 16일 도착했다. 김 장관은 \"UAE는 불확실한 중동 정세 속에서도 한국의 자원·에너지 공급망을 굳건히 지탱해 온 핵심 파트너로, 이번 방문을 통해 양국 간 원유 수급 협력이 단순한 교역 관계를 넘어 어떠한 위기 상황에서도 작동하는 전략적 관계로 발전하였음을 확인할 수 있는 계기가 됐다\"고 밝혔다. 이어 그는 \"이러한 양국 간의 깊은 신뢰를 바탕으로 향후 원전 운영·정비, 제3국 공동 진출, 방호 등 원전 전주기 협력을 심화하고 주요 플랜트 인프라 분야에서도 우리 기업의 참여 기회를 확대하는 등 양국 간 전략적 협력 관계를 더욱 발전 시켜 나가겠다\"고 덧붙였다.",
+          "reason": "석유사업처의 원유 구매와 판매, 트레이딩 업무와 관련",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3",
+            "s4",
+            "s6",
+            "s7"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "7783a28909296a20",
+          "article_id": "52c75990f9ecfb8d",
+          "publisher": "한겨레",
+          "title": "산업부 “UAE 긴급 공급 원유 2400만배럴, 예정대로 도입”",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1263865.html",
+          "published_at": "2026-06-16T09:30:00.000Z",
+          "score": 0.8,
+          "segment_text": "원유 수급의 불확실성",
+          "reason": "석유사업처의 원유 구매와 판매, 트레이딩 업무와 관련",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유비축 및 석유사업과 관련이 있음"
+        },
+        {
+          "id": "403633090cb3dce2",
+          "article_id": "9b123b7cf735efc8",
+          "publisher": "경향신문",
+          "title": "트럼프 합의에 공화당 내에서도 “이란에 항복했다” 비판···중간선거 앞두고 당내 혼란 커져",
+          "url": "https://www.khan.co.kr/article/202606161714001",
+          "published_at": "2026-06-16T08:14:00.000Z",
+          "score": 0.8,
+          "segment_text": "미국과 이란의 종전 양해각서 타결 이후 미 공화당 내에서도 합의에 관해 실망한 강경파의 비판과 판단을 유보하는 신중론 등이 엇갈리며 당내 혼란이 심화하고 있다.",
+          "reason": "에너지 가격과 관련하여 한국석유공사의 석유사업과 연결됨",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 석유사업 부서에 배정"
+        },
+        {
+          "id": "3f1835297c092557",
+          "article_id": "1d32de31ba4a9e32",
+          "publisher": "한겨레",
+          "title": "미-이란 종전 합의에 국제유가 내려가도…고유가·고물가 계속",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1263831.html",
+          "published_at": "2026-06-16T07:51:00.000Z",
+          "score": 0.8,
+          "segment_text": "미-이란 종전 합의에 국제유가 내려가도…고유가·고물가 계속",
+          "reason": "석유사업과 관련된 국제 유가 이슈",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "id": "52d0581951636e13",
+          "article_id": "e6cb985d07466131",
+          "publisher": "경향신문",
+          "title": "올 여름, 섬에 갈 이유가 또 있‘섬’···1박하면 최대 10만원 지원",
+          "url": "https://www.khan.co.kr/article/202606161200001",
+          "published_at": "2026-06-16T03:00:00.000Z",
+          "score": 0.8,
+          "segment_text": "오는 7~8월 휴가철에 섬에서 1박을 하는 여행객은 최대 10만원의 여행 경비를 지원받을 수 있다.",
+          "reason": "석유사업과 관련된 유류할증료 지원 정책",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 석유사업과 유통사업 부서에 배정"
+        },
+        {
+          "id": "0909d8c1f8a7acd9",
+          "article_id": "e8c2125e96c66c83",
+          "publisher": "경향신문",
+          "title": "소 배설물 가스로 항공유 만든다…미국서 세계 첫 개발",
+          "url": "https://www.khan.co.kr/article/202606161513001",
+          "published_at": "2026-06-16T06:13:00.000Z",
+          "score": 0.7,
+          "segment_text": "미국 캘리포니아주에 조성된 지속가능항공유(SAF) 실증시설. 서큘러리티 퓨얼스 제공",
+          "reason": "석유 사업 관련 에너지 이슈",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "d82d7c3871262c26",
+          "article_id": "7b0d176fa62477cb",
+          "publisher": "경향신문",
+          "title": "[속보]일본은행, 기준금리 0.75%서 1%로···31년 만에 최고치",
+          "url": "https://www.khan.co.kr/article/202606161245011",
+          "published_at": "2026-06-16T03:45:01.000Z",
+          "score": 0.7,
+          "segment_text": "일본은행의 기준금리 인상은 국제 유가에 영향을 줄 수 있으며, 이는 석유 사업에 영향을 줄 수 있음",
+          "reason": "석유사업처는 원유 및 석유제품 거래와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 한국석유공사의 석유사업처와 관련이 있어 최종적으로 포함함"
+        },
+        {
+          "id": "baa92a5be2be41f9",
+          "article_id": "6bf4d2ac20fdd950",
+          "publisher": "한겨레",
+          "title": "트럼프, G7서 “호르무즈 무료 개방”…이란 쪽 ‘통행료 징수’ 즉각 반박",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1263729.html",
+          "published_at": "2026-06-15T23:50:00.000Z",
+          "score": 0.7,
+          "segment_text": "도널드 트럼프 미국 대통령은 이란과의 종전 양해각서(MOU)에 양쪽이 모두 서명했으며 서명식이 열리는 오는 19일 호르무즈 해협이 완전히 개방될 것이라고 밝혔다.",
+          "reason": "호르무즈 해협은 석유 수급에 중요한 해협으로, 한국석유공사의 석유사업처 업무와 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "c8108186178fef33",
+          "article_id": "6ca7b1e60028d7ef",
+          "publisher": "경향신문",
+          "title": "“5월 수출물가지수 11개월째 상승…반도체 수요 급증”",
+          "url": "https://www.khan.co.kr/article/202606160700001",
+          "published_at": "2026-06-15T22:00:00.000Z",
+          "score": 0.7,
+          "segment_text": "인공지능 투자 확대에 따른 메모리 반도체와 비철금속 등 수요가 증가하면서 수출물가가 11개월 연속 올랐다.",
+          "reason": "석유제품 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "f1a3753ccef71ea0",
+          "article_id": "e87943157bd2211a",
+          "publisher": "한겨레",
+          "title": "이 대통령 “호르무즈 안전한 운항 재개하길…종전 협상 환영”",
+          "url": "https://www.hani.co.kr/arti/politics/bluehouse/1263714.html",
+          "published_at": "2026-06-15T17:01:00.000Z",
+          "score": 0.7,
+          "segment_text": "호르무즈 운항 재개와 종전 협상",
+          "reason": "호르무즈 운항과 원유 수급 관련 가능성",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 한국석유공사의 전략 부서와 석유사업처와 관련이 있어 최종적으로 포함함"
+        }
+      ]
+    },
+    {
+      "department_id": "distribution_business",
+      "department": "유통사업처",
+      "role": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+      "article_count": 6,
+      "segment_count": 6,
+      "items": [
+        {
+          "id": "dd937d701061755e",
+          "article_id": "d81b049a7daa7e46",
+          "publisher": "한겨레",
+          "title": "7월 유류할증료 20% 인하…여행 문턱 낮아져",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1263760.html",
+          "published_at": "2026-06-16T02:34:00.000Z",
+          "score": 0.8,
+          "segment_text": "미국·이스라엘-이란 전쟁의 영향으로 역대 최고 수준까지 치솟았던 국제선 항공권 유류할증료가 오는 7월부터 이달 대비 20%가량 하락한다.",
+          "reason": "유통사업과 관련된 유가 정책",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 석유사업 부서에 배정"
+        },
+        {
+          "id": "a318668ce551ae4d",
+          "article_id": "819bdbd20d76b479",
+          "publisher": "경향신문",
+          "title": "최고가격제 종료 ‘3대 조건’은 사실상 충족…고환율에 출구전략 고민하는 정부",
+          "url": "https://www.khan.co.kr/article/202606160600021",
+          "published_at": "2026-06-15T21:00:02.000Z",
+          "score": 0.8,
+          "segment_text": "미국과 이란이 종전 양해각서 서명에 합의하면서 국내 관심은 석유 최고가격제 종료 시점에 쏠리고 있다.",
+          "reason": "유통사업처는 알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "3c3d66fdd0e7ece9",
+          "article_id": "e6a8adf875e1e29d",
+          "publisher": "경향신문",
+          "title": "일본, 31년 만에 ‘1% 금리’…한국도 ‘인상’ 가능성 확대",
+          "url": "https://www.khan.co.kr/article/202606162044005/",
+          "published_at": "2026-06-16T11:44:00.000Z",
+          "score": 0.7,
+          "segment_text": "중동전쟁 고유가·인플레 우려 일본은행, 금리 0.25%P 인상 국채 매입 완화책에 충격 적어 엔 캐리 트레이드 청산 적을 듯 “원·달러 환율 하락 효과 기대”",
+          "reason": "고유가 언급으로 인해 유통사업과 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "id": "22d90115515966d9",
+          "article_id": "04bd785ce65f1fbe",
+          "publisher": "경향신문",
+          "title": "수입물가 3개월째 20%대 ↑…소비자물가 끌어올리나",
+          "url": "https://www.khan.co.kr/article/202606162043005/",
+          "published_at": "2026-06-16T11:43:00.000Z",
+          "score": 0.7,
+          "segment_text": "5월, 전년 동월 대비 24.8% 올라팬데믹·우크라 전쟁 이후 ‘최고’높은 원유 가격·환율 상승 영향‘반도체 효과’ 수출물가 46.",
+          "reason": "원유 가격 언급으로 인해 유통사업과 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "id": "924f5c1fd82453fa",
+          "article_id": "e825aca5d3fd18d6",
+          "publisher": "경향신문",
+          "title": "수입물가 3개월째 20%대 ↑…소비자물가 끌어올리나",
+          "url": "https://www.khan.co.kr/article/202606162043005",
+          "published_at": "2026-06-16T11:43:00.000Z",
+          "score": 0.7,
+          "segment_text": "중동전쟁으로 인해 기름값이 오르면서 수입물가가 3개월 연속 전년 동월 대비 20% 이상 오르는 상승세를 이어갔다.",
+          "reason": "석유 가격 언급으로 인해 유통사업과 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "id": "56d4518494f63f69",
+          "article_id": "e6cb985d07466131",
+          "publisher": "경향신문",
+          "title": "올 여름, 섬에 갈 이유가 또 있‘섬’···1박하면 최대 10만원 지원",
+          "url": "https://www.khan.co.kr/article/202606161200001",
+          "published_at": "2026-06-16T03:00:00.000Z",
+          "score": 0.6,
+          "segment_text": "오는 7~8월 휴가철에 섬에서 1박을 하는 여행객은 최대 10만원의 여행 경비를 지원받을 수 있다.",
+          "reason": "유통사업과 관련된 지원 정책",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 석유사업과 유통사업 부서에 배정"
+        }
+      ]
+    },
+    {
+      "department_id": "energy_infra",
+      "department": "에너지인프라사업처",
+      "role": "에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hydrogen_ammonia",
+      "department": "수소암모니아사업단",
+      "role": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    }
+  ]
+}

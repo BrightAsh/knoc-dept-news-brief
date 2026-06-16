@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "article_id": "6ca7b1e60028d7ef",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유, 원유, 유가, 국제유가, 석유제품, 경유 관련 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "수출물가지수, 반도체 수요 급증",
+          "evidence_type": "paragraph",
+          "reason": "석유제품, 국제유가와 관련된 데이터 제공 업무"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "수출물가지수, 반도체 수요 급증",
+          "evidence_type": "paragraph",
+          "reason": "석유제품 구매와 판매, 트레이딩 관련 업무"
+        }
+      ]
+    }
+  ]
+}
