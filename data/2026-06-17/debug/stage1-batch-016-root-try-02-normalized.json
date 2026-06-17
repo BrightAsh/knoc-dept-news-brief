@@ -1,0 +1,146 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "b8732aefffbbfcc3",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "b8732aefffbbfcc3",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국이 이란산 석유 판매를 허용할 예정이라는 기사는 한국석유공사의 석유사업과 관련이 있음",
+            "evidence_type": "article",
+            "reason": "석유사업은 한국석유공사의 주요 사업 중 하나임"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "이란산 석유 판매 허용은 석유 유통에도 영향을 줄 수 있음",
+            "evidence_type": "article",
+            "reason": "유통사업은 석유사업과 밀접한 관련이 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "석유 판매 허용은 비축 정책에도 영향을 줄 수 있음",
+            "evidence_type": "article",
+            "reason": "비축사업은 석유사업의 중요한 부분임"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "b8732aefffbbfcc3",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국이 이란산 석유 판매를 허용할 예정이라는 기사는 한국석유공사의 석유사업과 관련이 있음",
+            "evidence_type": "article",
+            "reason": "석유사업은 한국석유공사의 주요 사업 중 하나임"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "이란산 석유 판매 허용은 석유 유통에도 영향을 줄 수 있음",
+            "evidence_type": "article",
+            "reason": "유통사업은 석유사업과 밀접한 관련이 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "석유 판매 허용은 비축 정책에도 영향을 줄 수 있음",
+            "evidence_type": "article",
+            "reason": "비축사업은 석유사업의 중요한 부분임"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "2417c32dd8843c69",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "2417c32dd8843c69",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 기사로 한국석유공사의 저탄소 추진 업무와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "포스코의 전기로 준공은 저탄소 사업과 관련이 있음",
+            "evidence_type": "article",
+            "reason": "저탄소 추진은 한국석유공사의 주요 사업 중 하나임"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "2417c32dd8843c69",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 기사로 한국석유공사의 저탄소 추진 업무와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "포스코의 전기로 준공은 저탄소 사업과 관련이 있음",
+            "evidence_type": "article",
+            "reason": "저탄소 추진은 한국석유공사의 주요 사업 중 하나임"
+          }
+        ]
+      }
+    }
+  ]
+}

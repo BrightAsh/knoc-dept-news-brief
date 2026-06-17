@@ -1,0 +1,78 @@
+{
+  "results": [
+    {
+      "article_id": "abf9f8e62050c28e",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "기사에 유가, 국제유가, 에너지 관련 키워드가 포함되어 있고, 한국은행의 물가 전망과 관련하여 석유 수급 안정과 관련된 내용이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "한국은행이 “올해 하반기 중 소비자물가는 3% 안팎, 근원물가(식료품·에너지 제외)는 2% 중후반의 상승률을 나타낼 것”이라고 밝혔다.",
+          "evidence_type": "summary_sentence",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무와 연결됨"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "한국은행이 “올해 하반기 중 소비자물가는 3% 안팎, 근원물가(식료품·에너지 제외)는 2% 중후반의 상승률을 나타낼 것”이라고 밝혔다.",
+          "evidence_type": "summary_sentence",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무와 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "105cbd9053f7727f",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "기사에 회사채와 관련된 내용이 있고, 유가 관련 키워드가 포함되어 있음",
+      "departments": [
+        {
+          "department_id": "finance",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "서울회생법원에 기업회생 절차 개시를 신청한 제이티비시(JTBC)와 채권단 기업구조개선작업(워크아웃)을 추진하는 중앙일보가 발행 회사채 총 3820억원에 대해 이른바 ‘기한이익상실’을 공시했다.",
+          "evidence_type": "summary_sentence",
+          "reason": "자금 조달과 상환, 자금 집행, 결산 관련 재무 리스크 관리 업무와 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "fa7249e554ca7a12",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "기사에 에너지 관련 키워드가 포함되어 있고, 에너지 밀도 10배인 초고성능 배터리 개발 착수 내용이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미군이 현재 전 세계적으로 널리 쓰는 리튬이온배터리와 비교해 ‘에너지 밀도(무게당 저장하는 에너지량)’가 10배에 이르는 초고성능 배터리 개발에 나선다.",
+          "evidence_type": "body_paragraph",
+          "reason": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축 관련 업무와 연결됨"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미군이 현재 전 세계적으로 널리 쓰는 리튬이온배터리와 비교해 ‘에너지 밀도(무게당 저장하는 에너지량)’가 10배에 이르는 초고성능 배터리 개발에 나선다.",
+          "evidence_type": "body_paragraph",
+          "reason": "에너지 통계, 시장동향 분석 관련 업무와 연결됨"
+        }
+      ]
+    }
+  ]
+}

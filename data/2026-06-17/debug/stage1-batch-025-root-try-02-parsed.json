@@ -1,0 +1,72 @@
+{
+  "results": [
+    {
+      "article_id": "f28abc87f0de9729",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "에너지 관련 언급이 있으나 한국석유공사와 직접적인 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "6e49b89318571119",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "에너지 관련 언급이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "6e5bf0a7b53686e4",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "수소, 에너지 관련 언급이 있어 한국석유공사와 간접적인 관련이 있을 수 있습니다.",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "효성그룹이 서울에 첫 데이터센터를 개관하며 데이터센터 사업을 공식적으로 시작했다. 수소, 에너지 관련 언급이 있습니다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소추진처의 수소, 에너지 관련 업무와 연결될 수 있습니다."
+        }
+      ]
+    },
+    {
+      "article_id": "a6e2fc27a4355fac",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "유가 관련 언급이 있어 한국석유공사와 간접적인 관련이 있을 수 있습니다.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "새롭게 출시되는 기후동행카드 플러스 디자인(T머니 카드). 서울시 제공. 유가 관련 언급이 있습니다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처의 유가 관련 업무와 연결될 수 있습니다."
+        }
+      ]
+    },
+    {
+      "article_id": "ba8bd52c39d01a3a",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "유가 관련 언급이 있어 한국석유공사와 간접적인 관련이 있을 수 있습니다.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "이진숙 국민의힘 의원은 17일 “(6·3 지방선거 및 재보궐선거가) 여당이 유리한 상황에서 국민의힘이 정말 선방했는데, 우리 스스로 이걸 패배 또는 참패라고 하는 걸 받아들일 수 없다”며 “장동혁 대표가 사퇴할 이유가 전혀 없다”고 말했다. 유가 관련 언급이 있습니다.",
+          "evidence_type": "summary_sentence",
+          "reason": "석유사업처의 유가 관련 업무와 연결될 수 있습니다."
+        }
+      ]
+    }
+  ]
+}

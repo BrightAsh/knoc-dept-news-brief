@@ -1,0 +1,142 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "078d21b37532ab24",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "에너지 관련 이슈이나 직접적인 관련 근거가 없음",
+      "review_note": "C 그룹에서 최종 검토 결과 관련성 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "2ebdb98e39e7d5bb",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "석유, 원유 관련 기사로 석유사업처와 관련 있음",
+      "review_note": "C 그룹에서 최종 검토 결과 관련성 높음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "블룸버그통신이 입수한 미국·이란 간 종전 양해각서 내용에는 석유, 원유 관련 내용이 포함되어 있다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처의 석유 트레이딩, 원유 수입 등과 관련이 있다."
+        }
+      ]
+    },
+    {
+      "article_id": "584553b1c6bdaa5e",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "석유, 원유 관련 기사로 석유사업처와 관련 있음",
+      "review_note": "C 그룹에서 최종 검토 결과 관련성 높음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "블룸버그통신이 입수·공개한 미국·이란 간 종전 양해각서 내용이 부정확하다고 보도했다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처의 석유 트레이딩, 원유 수입 등과 관련이 있다."
+        }
+      ]
+    },
+    {
+      "article_id": "ff0244fe519ea35d",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 이슈이나 직접적인 관련 근거가 없음",
+      "review_note": "C 그룹에서 최종 검토 결과 관련성 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "3979b6ebb43be9d4",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "원유와 에너지 관련 이슈로 석유사업처와 스마트데이터센터와 관련 있음",
+      "review_note": "C 그룹에서 최종 검토 결과 관련성 높음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "원유와 에너지 관련 국제 이슈",
+          "evidence_type": "article",
+          "reason": "한국석유공사는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 등을 담당하는 부서로, 원유와 에너지 관련 국제 이슈에 영향을 받을 수 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "에너지 시장 동향 분석",
+          "evidence_type": "article",
+          "reason": "한국석유공사는 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하는 부서로, 에너지 시장 동향 분석에 영향을 받을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "3a8dce460982b396",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "유가 관련 이슈이나 직접적인 관련 근거가 없음",
+      "review_note": "C 그룹에서 최종 검토 결과 관련성 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "6e5bf0a7b53686e4",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "수소, 에너지 관련 언급으로 저탄소추진처와 관련 있음",
+      "review_note": "C 그룹에서 최종 검토 결과 관련성 높음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "효성그룹이 서울에 첫 데이터센터를 개관하며 데이터센터 사업을 공식적으로 시작했다. 수소, 에너지 관련 언급이 있습니다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소추진처의 수소, 에너지 관련 업무와 연결될 수 있습니다."
+        }
+      ]
+    },
+    {
+      "article_id": "2387d49fa4d7b1d1",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "원유와 관련하여 석유사업처와 관련 있음",
+      "review_note": "C 그룹에서 최종 검토 결과 관련성 높음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "이재명 대통령과 프리드리히 메르츠 독일 총리는 16일 프랑스 에비앙에서 회담을 하고 방위산업 분야 등에서 양국의 전략적 협력을 확대해 나가기로 했다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다."
+        }
+      ]
+    }
+  ]
+}
+```
