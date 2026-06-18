@@ -1,0 +1,168 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "b6a7f43d51c49c8c",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "3779877ea0d595b9",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "6d8edcf0f037c698",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "ee95f5626af12e6a",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "365904342d9b4f3d",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "파죽지세 코스피, 사상 첫 9000선 돌파…코스닥은 장중 1000선 붕괴",
+          "evidence_type": "article",
+          "reason": "유가 변동은 석유사업, 유통사업, 비축사업에 영향을 미칠 수 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "파죽지세 코스피, 사상 첫 9000선 돌파…코스닥은 장중 1000선 붕괴",
+          "evidence_type": "article",
+          "reason": "유가 변동은 유통사업에 영향을 미칠 수 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "파죽지세 코스피, 사상 첫 9000선 돌파…코스닥은 장중 1000선 붕괴",
+          "evidence_type": "article",
+          "reason": "유가 변동은 비축사업에 영향을 미칠 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "249d9f1a1f8f0539",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 기사로 한국석유공사의 사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미국도 연내 기준금리 인상에 무게···한국은 더 빠르게 인상?",
+          "evidence_type": "article",
+          "reason": "에너지 가격 변동은 석유사업에 영향을 미칠 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "6537240c888b78fb",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e122a28fc0836da0",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 최고가격 지정 유예 관련 기사로 한국석유공사의 유통사업, 석유사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "정부, 출렁이는 유가에 7차 최고가격 지정 유예…손실보전은 생산원가 기준",
+          "evidence_type": "article",
+          "reason": "최고가격 지정 유예는 유통사업에 영향을 미칠 수 있음"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "정부, 출렁이는 유가에 7차 최고가격 지정 유예…손실보전은 생산원가 기준",
+          "evidence_type": "article",
+          "reason": "최고가격 지정 유예는 석유사업에 영향을 미칠 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "6ee961a7b6c77b3e",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c376e63fbe5ddb06",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 최고가격 연장 관련 기사로 한국석유공사의 유통사업, 석유사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "[속보] 정부, 6차 석유 최고가격 연장···“주말 동향 보고 조정”",
+          "evidence_type": "article",
+          "reason": "최고가격 연장은 유통사업에 영향을 미칠 수 있음"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text

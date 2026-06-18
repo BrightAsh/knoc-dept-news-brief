@@ -1,0 +1,186 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "4eb2e597d5e3541d",
+      "final_relevant": true,
+      "confidence": 0.88,
+      "final_reason": "에너지 정책 및 사업 운영 관련 기사",
+      "review_note": "C 그룹 관련 기사로 에너지 정책 및 사업 운영과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "올 하반기부터 LNG, LPG 등 천연가스에 대한 할당관세율이 0%로 인하된다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다."
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "올 하반기부터 LNG, LPG 등 천연가스에 대한 할당관세율이 0%로 인하된다.",
+          "evidence_type": "paragraph",
+          "reason": "스마트데이터센터는 석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다."
+        }
+      ]
+    },
+    {
+      "article_id": "7a8c50da69da7e0e",
+      "final_relevant": true,
+      "confidence": 0.88,
+      "final_reason": "에너지 정책 및 사업 운영 관련 기사",
+      "review_note": "C 그룹 관련 기사로 에너지 정책 및 사업 운영과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "고유가 여파로 정부가 올 하반기 엘엔지(LNG) 등 에너지 품목에 대해 할당관세율 0%를 적용하기로 했다.",
+          "evidence_type": "article",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다."
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "고유가 여파로 정부가 올 하반기 엘엔지(LNG) 등 에너지 품목에 대해 할당관세율 0%를 적용하기로 했다.",
+          "evidence_type": "article",
+          "reason": "스마트데이터센터는 석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다."
+        }
+      ]
+    },
+    {
+      "article_id": "67b7f910663341cf",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "원유 재고와 유가 관련 기사로 한국석유공사의 석유 비축, 전략 비축유 관리와 관련이 있음",
+      "review_note": "C 그룹 관련 기사로 원유 재고와 유가 변동은 석유 사업 전략에 영향을 미칠 수 있음",
+      "departments": [
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "미국의 원유 재고가 40여 년 만에 가장 낮은 수준으로 떨어졌다.",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사의 석유 비축 및 전략 비축유 관리 업무와 직접 관련이 있음"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "미국의 원유 재고가 40여 년 만에 가장 낮은 수준으로 떨어졌다.",
+          "evidence_type": "paragraph",
+          "reason": "원유 재고와 유가 변동은 석유 사업 전략에 영향을 미칠 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "7a5d0c9bd58b3950",
+      "final_relevant": true,
+      "confidence": 0.85,
+      "final_reason": "호르무즈 관련 기사는 한국석유공사의 석유 수급, 비축, 해외자원개발 업무와 관련이 있을 수 있음",
+      "review_note": "C 그룹 관련 기사로 호르무즈 관련 내용은 석유 수급, 비축, 해외자원개발과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "호르무즈",
+          "evidence_type": "sentence",
+          "reason": "정부 비축유, 전략비축, 비축기지, 저장시설 관련 업무"
+        },
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "호르무즈",
+          "evidence_type": "sentence",
+          "reason": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "5c087cf23d837ae1",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "원유 수출 관련 기사로 한국석유공사의 석유사업과 관련이 있음",
+      "review_note": "C 그룹 관련 기사로 원유 수출 관련 내용은 석유사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "이란이 핵무기 획득과 개발을 포기하는 대가로 이란의 원유 수출을 즉각 허용하고 각종 제재와 자산 동결을 해제하기로 했다.",
+          "evidence_type": "paragraph",
+          "reason": "원유 수출 관련 기사로 석유사업처의 업무와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "d691d0255a83f10c",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "에너지 관련 이슈지만 직접적인 관련 근거가 없음",
+      "review_note": "C 그룹 관련 기사지만 직접적인 관련 근거가 없어 제외함"
+    },
+    {
+      "article_id": "042a893fc845502c",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "에너지 관련 이슈지만 직접적인 관련 근거가 없음",
+      "review_note": "C 그룹 관련 기사지만 직접적인 관련 근거가 없어 제외함"
+    },
+    {
+      "article_id": "d4631774c069382c",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "석유, 원유, 유가 관련 내용이 기사에 직접 언급되어 한국석유공사의 업무와 관련이 있을 수 있음",
+      "review_note": "C 그룹 관련 기사로 석유, 원유, 유가 관련 내용은 석유사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "트럼프, 이란 ‘제재 완화·재건 기금’ 요구 대거 받아줬다",
+          "evidence_type": "paragraph",
+          "reason": "석유, 원유, 유가 관련 업무를 담당하는 석유사업처와 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "트럼프, 이란 ‘제재 완화·재건 기금’ 요구 대거 받아줬다",
+          "evidence_type": "paragraph",
+          "reason": "유가, 석유가격 정보 관련 업무를 담당하는 스마트데이터센터와 관련이 있을 수 있음"
+        }
+      ]
+    }
+  ]
+}
+```

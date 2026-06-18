@@ -1,0 +1,74 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "cad811d1444762b5",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "기사에서 '이란 전쟁', '석유', '원유' 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "석유, 원유",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "석유, 원유",
+          "evidence_type": "paragraph",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "78e4175ea3564403",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "기사에서 '탄소중립' 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "탄소중립",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 신규사업, CCS와 CCUS, 탄소포집·저장 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "14212268858e8afa",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "기사에서 '유전' 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "global_technology_center",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "유전",
+          "evidence_type": "paragraph",
+          "reason": "E&P 기술지원, 지질·저류층·시추 기술 관련 업무"
+        }
+      ]
+    }
+  ]
+}
+```

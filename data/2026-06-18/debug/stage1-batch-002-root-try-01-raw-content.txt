@@ -1,0 +1,80 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "2c168da96f248dcf",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 키워드 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "푸틴, 미·이란 종전 합의 첫 메시지…“환영. 중동 정세 안정되길”",
+          "evidence_type": "title",
+          "reason": "중동 정세 안정과 에너지 관련 정책에 영향"
+        }
+      ]
+    },
+    {
+      "article_id": "3f5ac23bd781f750",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "원유, 유조선, 울산행 언급",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "“울산행도 있다”…원유 실은 사우디 유조선 3척 호르무즈 통과",
+          "evidence_type": "title",
+          "reason": "원유 수입 및 국내 공급과 관련"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "“울산행도 있다”…원유 실은 사우디 유조선 3척 호르무즈 통과",
+          "evidence_type": "title",
+          "reason": "유통망 관리 및 국내 공급 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "9fd76c7aa00c1ee1",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "수소 가스 누출 사고",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "부산 어린이집서 황화수소 추정 가스 누출···원생·교사 9명 병원 이송",
+          "evidence_type": "title",
+          "reason": "수소 관련 안전 관리"
+        },
+        {
+          "department_id": "she",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "부산 어린이집서 황화수소 추정 가스 누출···원생·교사 9명 병원 이송",
+          "evidence_type": "title",
+          "reason": "안전 및 보건 관련 사고"
+        }
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,384 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "df28264a77634745",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "df28264a77634745",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "석유화학업계 구조조정 관련 기사로, 석유사업과 관련이 있다.",
+        "review_note": "C 그룹으로 분류된 기사로, 석유화학업계 구조조정 관련 내용이 있어 석유사업처와 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s6"
+            ],
+            "evidence_text": "석화업계, 구조조정의 시간",
+            "evidence_type": "title, paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "df28264a77634745",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "석유화학업계 구조조정 관련 기사로, 석유사업과 관련이 있다.",
+        "review_note": "C 그룹으로 분류된 기사로, 석유화학업계 구조조정 관련 내용이 있어 석유사업처와 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s6"
+            ],
+            "evidence_text": "석화업계, 구조조정의 시간",
+            "evidence_type": "article",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "50151ffc3ed97c94",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "50151ffc3ed97c94",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "생분해 소재 종량제 봉투 관련 기사로, 석유사업과 저탄소 관련 사업과 관련이 있다.",
+        "review_note": "C 그룹으로 분류된 기사로, 생분해 소재 종량제 봉투 관련 내용이 있어 석유사업처와 저탄소추진처와 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s4"
+            ],
+            "evidence_text": "에코민, 생분해 소재 종량제 봉투 공공시장에 공급",
+            "evidence_type": "title, paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1",
+              "s4"
+            ],
+            "evidence_text": "에코민, 생분해 소재 종량제 봉투 공공시장에 공급",
+            "evidence_type": "title, paragraph",
+            "reason": "탄소중립, 저탄소 신규사업 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "50151ffc3ed97c94",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "생분해 소재 종량제 봉투 관련 기사로, 석유사업과 저탄소 관련 사업과 관련이 있다.",
+        "review_note": "C 그룹으로 분류된 기사로, 생분해 소재 종량제 봉투 관련 내용이 있어 석유사업처와 저탄소추진처와 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s4"
+            ],
+            "evidence_text": "에코민, 생분해 소재 종량제 봉투 공공시장에 공급",
+            "evidence_type": "article",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1",
+              "s4"
+            ],
+            "evidence_text": "에코민, 생분해 소재 종량제 봉투 공공시장에 공급",
+            "evidence_type": "article",
+            "reason": "탄소중립, 저탄소 신규사업 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "054872ef7d695a30",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "054872ef7d695a30",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "유가 관련 기사로, 석유사업과 유통사업과 관련이 있다.",
+        "review_note": "C 그룹으로 분류된 기사로, 유가 관련 내용이 있어 석유사업처와 유통사업처와 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "sentence",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "sentence",
+            "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "054872ef7d695a30",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "유가 관련 기사로, 석유사업과 유통사업과 관련이 있다.",
+        "review_note": "C 그룹으로 분류된 기사로, 유가 관련 내용이 있어 석유사업처와 유통사업처와 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "sentence",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "sentence",
+            "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "9da37474ea1c11a6",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "9da37474ea1c11a6",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "원유 관련 기사로, 석유사업과 수급, 비축 업무와 관련이 있다.",
+        "review_note": "C 그룹으로 분류된 기사로, 원유 관련 내용이 있어 석유사업처와 석유비축처와 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "원유",
+            "evidence_type": "sentence",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "원유",
+            "evidence_type": "sentence",
+            "reason": "정부 비축유, 전략비축, 비축기지, 저장시설 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "9da37474ea1c11a6",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "원유 관련 기사로, 석유사업과 수급, 비축 업무와 관련이 있다.",
+        "review_note": "C 그룹으로 분류된 기사로, 원유 관련 내용이 있어 석유사업처와 석유비축처와 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "원유",
+            "evidence_type": "sentence",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "원유",
+            "evidence_type": "sentence",
+            "reason": "정부 비축유, 전략비축, 비축기지, 저장시설 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "f67ebca969e3855d",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "f67ebca969e3855d",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "에너지, 석유제품 관련 기사로, 유통사업과 관련이 있다.",
+        "review_note": "C 그룹으로 분류된 기사로, 에너지, 석유제품 관련 내용이 있어 유통사업처와 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s6"
+            ],
+            "evidence_text": "석유제품",
+            "evidence_type": "paragraph",
+            "reason": "석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당하는 유통사업처와 관련이 있다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "f67ebca969e3855d",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "에너지, 석유제품 관련 기사로, 유통사업과 관련이 있다.",
+        "review_note": "C 그룹으로 분류된 기사로, 에너지, 석유제품 관련 내용이 있어 유통사업처와 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s6"
+            ],
+            "evidence_text": "석유제품",
+            "evidence_type": "paragraph",
+            "reason": "석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당하는 유통사업처와 관련이 있다."
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "696a63c03b6f317a",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "696a63c03b6f317a",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "천연가스 관련 기사로, 해외자원개발 사업과 관련이 있다.",
+        "review_note": "C 그룹으로 분류된 기사로, 천연가스 관련 내용이 있어 해외자원개발 사업과 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s4"
+            ],
+            "evidence_text": "볼리비아는 천연가스 매장량이 많은 국가로, 한국석유공사의 해외자원개발 사업과 관련이 있을 수 있음",
+            "evidence_type": "article, paragraph",
+            "reason": "한국석유공사의 아시아/중동 지역 E&P 사업과 관련이 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "696a63c03b6f317a",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "천연가스 관련 기사로, 해외자원개발 사업과 관련이 있다.",
+        "review_note": "C 그룹으로 분류된 기사로, 천연가스 관련 내용이 있어 해외자원개발 사업과 관련이 있다.",
+        "departments": [
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s4"
+            ],
+            "evidence_text": "볼리비아는 천연가스 매장량이 많은 국가로, 한국석유공사의 해외자원개발 사업과 관련이 있을 수 있음",
+            "evidence_type": "article",
+            "reason": "한국석유공사의 아시아/중동 지역 E&P 사업과 관련이 있을 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "d14c57552f3a8bf3",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "d14c57552f3a8bf3",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 이슈지만, 구체적인 내용이 없어 관련 부서가 불명확하다.",
+        "review_note": "C 그룹으로 분류된 기사로, 에너지 관련 내용이 있으나 구체적인 언급이 없어 관련 부서를 판단할 수 없다.",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "d14c57552f3a8bf3",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 이슈지만, 구체적인 내용이 없어 관련 부서가 불명확하다.",
+        "review_note": "C 그룹으로 분류된 기사로, 에너지 관련 내용이 있으나 구체적인 언급이 없어 관련 부서를 판단할 수 없다.",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "fac7127261e7e559",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "fac7127261e7e559",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "유가 관련 언급이 있으나, 구체적인 내용이 없어 관련 부서가 불명확하다.",
+        "review_note": "C 그룹으로 분류된 기사로, 유가 관련 언급이 있으나 구체적인 내용이 없어 관련 부서를 판단할 수 없다.",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "fac7127261e7e559",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "유가 관련 언급이 있으나, 구체적인 내용이 없어 관련 부서가 불명확하다.",
+        "review_note": "C 그룹으로 분류된 기사로, 유가 관련 언급이 있으나 구체적인 내용이 없어 관련 부서를 판단할 수 없다.",
+        "departments": []
+      }
+    }
+  ]
+}

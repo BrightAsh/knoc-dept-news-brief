@@ -1,0 +1,54 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "97d750f2ec7c6214",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "에너지 전환 및 탄소중립 관련 사업",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "디젤 발전 의존하던 남극과학기지, 친환경 에너지로 전환한다. 디젤 발전 설비 의존도가 높았던 남극과학기지에 친환경 수소 발전 설비가 들어선다.",
+          "evidence_type": "paragraph",
+          "reason": "친환경 에너지로의 전환과 수소 발전 설비 도입은 저탄소추진처의 에너지전환, 저탄소 신규사업 업무와 관련이 있다."
+        }
+      ]
+    },
+    {
+      "article_id": "50151ffc3ed97c94",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유 및 탄소중립 관련 사업",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "에코민, 생분해 소재 종량제 봉투 공공시장에 공급",
+          "evidence_type": "title",
+          "reason": "생분해 소재 종량제 봉투는 석유사업과 관련된 친환경 제품으로 볼 수 있으며, 석유사업처의 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 업무와 관련이 있다."
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "에코민, 생분해 소재 종량제 봉투 공공시장에 공급",
+          "evidence_type": "title",
+          "reason": "생분해 소재는 탄소중립과 관련이 있으며, 저탄소추진처의 탄소 포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업 업무와 관련이 있다."
+        }
+      ]
+    }
+  ]
+}
+```

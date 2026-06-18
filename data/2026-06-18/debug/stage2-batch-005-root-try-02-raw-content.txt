@@ -1,0 +1,138 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "a1a0908917c98470",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 전환 및 공기업 운영 관련 기사가 한국석유공사의 사업과 관련이 있음",
+      "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "재생에너지 전환 및 발전공기업 통합 관련 내용은 한국석유공사의 저탄소 사업과 관련이 있음",
+          "evidence_type": "article",
+          "reason": "한국석유공사의 저탄소 추진 사업과 관련이 있음"
+        },
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "공기업 운영 및 예산 관련 내용은 한국석유공사의 기획예산처와 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사의 기획예산처와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "a75866ddadcaadfe",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 이슈지만 한국석유공사의 업무와 직접 관련이 없음",
+      "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정하지 않음",
+      "departments": []
+    },
+    {
+      "article_id": "707be37742132562",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 안보 및 사업 운영 관련 기사가 한국석유공사의 업무와 관련이 있음",
+      "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "모건스탠리 “AI시대 최대 병목은 전력”…에너지 패권 경쟁 본격화",
+          "evidence_type": "article",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다."
+        }
+      ]
+    },
+    {
+      "article_id": "41739cdd978014d2",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "원유 및 에너지 정책 관련 기사가 한국석유공사의 업무와 관련이 있음",
+      "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "도널드 트럼프 미국 대통령이 이란과의 종전 양해각서에 공식 서명했다고 백악관이 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다."
+        }
+      ]
+    },
+    {
+      "article_id": "4aff851f2ab81608",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "연준의 정책 변화는 국제 유가에 영향을 미칠 수 있어 한국석유공사와 관련이 있음",
+      "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "미국 중앙은행인 연방준비제도의 새 수장인 케빈 워시 의장이 취임 직후 연준의 정책 운영과 소통 방식을 전면 재점검하겠다고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "연준의 정책 변화는 국제 유가에 영향을 미칠 수 있어 한국석유공사의 전략 수립에 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "afad91e07d3be34c",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "유가 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+      "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "서명 직후 “브라보”, 현실은 “못 믿어”···미·이란 샅바싸움 이제 시작, 유가",
+          "evidence_type": "paragraph",
+          "reason": "석유사업과 관련된 유가 변동 이슈"
+        }
+      ]
+    },
+    {
+      "article_id": "cb2fe868066b011e",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "기사 내용이 비만 치료제 위고비와 관련이 있고, 유가와 관련이 없음",
+      "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정하지 않음",
+      "departments": []
+    },
+    {
+      "article_id": "1e89d8f906d57f38",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "유가 관련 언급이 있지만 한국석유공사의 업무와 직접 관련이 없음",
+      "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정하지 않음",
+      "departments": []
+    }
+  ]
+}
+```

@@ -1,0 +1,131 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "9df0084685baefd9",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "bd6ba2f2a7984bf9",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "7f9113f8e559b97f",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "60620302fba1193c",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "dd0926ff0f18a355",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "9f1bfb8d26ed0ad1",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유, 원유, 유가, 석유제품 관련 내용이 기사에 직접 언급되어 한국석유공사의 업무와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "트럼프 대통령이 17일 공개된 이란과의 종전 양해각서를 놓고 \"우리는 목표 그 이상을 이뤘다\"고 말했다. MOU엔 레바논과 종전·이란 보상이스라엘 입장과 상반된 내용 담겨협상 패싱 이어 정치·외교적 부담미국과 이란이 17일(현지시간) 공식 서명한 종전 양해각서(MOU)에 이스라엘이 우려해온 레바논 교전 중단과 대이란 경제적 유인책 제공 등의 조항이 담겼다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하므로 관련 기사로 분류"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "트럼프 대통령이 17일 공개된 이란과의 종전 양해각서를 놓고 \"우리는 목표 그 이상을 이뤘다\"고 말했다. MOU엔 레바논과 종전·이란 보상이스라엘 입장과 상반된 내용 담겨협상 패싱 이어 정치·외교적 부담미국과 이란이 17일(현지시간) 공식 서명한 종전 양해각서(MOU)에 이스라엘이 우려해온 레바논 교전 중단과 대이란 경제적 유인책 제공 등의 조항이 담겼다.",
+          "evidence_type": "paragraph",
+          "reason": "스마트데이터센터는 석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하므로 관련 기사로 분류"
+        }
+      ]
+    },
+    {
+      "article_id": "755c43c0c86ce916",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "원유 관련 내용이 기사에 직접 언급되어 한국석유공사의 업무와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "MOU 협상 과정에서 배제됐던 베냐민 네타냐후 이스라엘 총리(사진)에게 이 같은 조항들이 정치·외교적 부···",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하므로 관련 기사로 분류"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "MOU 협상 과정에서 배제됐던 베냐민 네타냐후 이스라엘 총리(사진)에게 이 같은 조항들이 정치·외교적 부···",
+          "evidence_type": "paragraph",
+          "reason": "스마트데이터센터는 석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하므로 관련 기사로 분류"
+        }
+      ]
+    },
+    {
+      "article_id": "528d05b6e608ba68",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유가, 에너지 관련 내용이 기사에 직접 언급되어 한국석유공사의 업무와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "美 이어 英도 기준금리 동결…“에너지 가격 상승 위험 여전”",
+          "evidence_type": "title",
+          "reason": "스마트데이터센터는 석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하므로 관련 기사로 분류"
+        }
+      ]
+    },
+    {
+      "article_id": "4b43eb1bee0a971b",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c5cc4be1c8309648",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "원유 관련 내용이 기사에 직접 언급되어 한국석유공사의 업무와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business

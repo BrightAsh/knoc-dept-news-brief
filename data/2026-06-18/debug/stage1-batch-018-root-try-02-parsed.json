@@ -1,0 +1,80 @@
+{
+  "results": [
+    {
+      "article_id": "696a63c03b6f317a",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유/가스 자원개발 관련 기사로, 한국석유공사의 해외자원개발 사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "볼리비아는 천연가스 매장량이 많은 국가로, 한국석유공사의 해외자원개발 사업과 관련이 있을 수 있음",
+          "evidence_type": "article",
+          "reason": "한국석유공사의 아시아/중동 지역 E&P 사업과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "a1a0908917c98470",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 전환 및 공기업 운영 관련 기사로, 한국석유공사의 사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "재생에너지 전환 및 발전공기업 통합 관련 내용은 한국석유공사의 저탄소 사업과 관련이 있을 수 있음",
+          "evidence_type": "article",
+          "reason": "한국석유공사의 저탄소 추진 사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "공기업 운영 및 예산 관련 내용은 한국석유공사의 기획예산처와 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사의 기획예산처와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "172b43dad098a77f",
+      "candidate": true,
+      "confidence": 0.95,
+      "company_reason": "유가 및 석유제품 관련 기사로, 한국석유공사의 사업과 직접 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "유가 담합 의혹 및 석유제품 관련 내용은 한국석유공사의 석유사업처와 직접 관련이 있음",
+          "evidence_type": "article",
+          "reason": "한국석유공사의 석유사업 전략, 원유/석유제품 구매 및 판매와 관련이 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "유가 담합 의혹은 석유유통 및 주유소 공급과도 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사의 유통사업처와 관련이 있을 수 있음"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "67b7f910663341cf",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "원유 재고와 유가 관련 기사로 한국석유공사의 석유 비축, 전략 비축유 관리와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "미국의 원유 재고가 40여 년 만에 가장 낮은 수준으로 떨어졌다.",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사의 석유 비축 및 전략 비축유 관리 업무와 직접 관련이 있음"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "미국의 원유 재고가 40여 년 만에 가장 낮은 수준으로 떨어졌다.",
+          "evidence_type": "paragraph",
+          "reason": "원유 재고와 유가 변동은 석유 사업 전략에 영향을 미칠 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "4aff851f2ab81608",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "연준의 정책 변화는 국제 유가에 영향을 미칠 수 있어 한국석유공사와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "미국 중앙은행인 연방준비제도의 새 수장인 케빈 워시 의장이 취임 직후 연준의 정책 운영과 소통 방식을 전면 재점검하겠다고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "연준의 정책 변화는 국제 유가에 영향을 미칠 수 있어 한국석유공사의 전략 수립에 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```
