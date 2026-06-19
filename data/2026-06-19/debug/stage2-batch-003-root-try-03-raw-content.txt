@@ -1,0 +1,104 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "b67bb5e4af25e9d8",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "한국석유공사의 직접적인 언급이 없으며, 기사의 내용은 경상수지와 무역수지에 관한 일반 경제 기사로 한국석유공사의 업무와 실질적인 관련이 없다.",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용과 한국석유공사의 업무 관련성이 없어 최종적으로 제외함.",
+      "departments": []
+    },
+    {
+      "article_id": "b26b501afdbde45d",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "한국석유공사의 직접적인 언급이 없으며, 기사의 내용은 대통령과 당청 갈등에 관한 정치 기사로 한국석유공사의 업무와 실질적인 관련이 없다.",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용과 한국석유공사의 업무 관련성이 없어 최종적으로 제외함.",
+      "departments": []
+    },
+    {
+      "article_id": "e8342feb6b4de06e",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "한국석유공사의 직접적인 언급이 없으며, 기사의 내용은 미 의회의 전작권 전환 감독 강화 추진에 관한 국제 정치 기사로 한국석유공사의 업무와 실질적인 관련이 없다.",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용과 한국석유공사의 업무 관련성이 없어 최종적으로 제외함.",
+      "departments": []
+    },
+    {
+      "article_id": "bd83e06fc21006be",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "한국석유공사의 직접적인 언급이 없으며, 기사의 내용은 트럼프 전 대통령의 발언에 관한 정치 기사로 한국석유공사의 업무와 실질적인 관련이 없다.",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용과 한국석유공사의 업무 관련성이 없어 최종적으로 제외함.",
+      "departments": []
+    },
+    {
+      "article_id": "d53e49c292c2f5e2",
+      "final_relevant": true,
+      "confidence": 0.88,
+      "final_reason": "에너지 및 수소 관련 사업 협력에 관한 기사로 한국석유공사의 에너지 관련 사업과 관련이 있다.",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 실제 기사 내용과 한국석유공사의 에너지 관련 사업 관련성이 있어 최종적으로 포함함.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "두산과 LG CNS가 인공지능, 에너지, 로보틱스 등 신사업을 아우르는 전방위 사업 협력에 나선다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 사업 협력"
+        }
+      ]
+    },
+    {
+      "article_id": "171d9ce0e77182e8",
+      "final_relevant": true,
+      "confidence": 0.88,
+      "final_reason": "수소 관련 사고 기사로 한국석유공사의 수소 사업과 관련이 있다.",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 실제 기사 내용과 한국석유공사의 수소 관련 사업 관련성이 있어 최종적으로 포함함.",
+      "departments": [
+        {
+          "department_id": "hydrogen_ammonia",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "진안 하수도 공사장 맨홀서 질식 추정 사고···노동자 4명 중경상, 수소",
+          "evidence_type": "sentence",
+          "reason": "수소 관련 사고로 수소암모니아사업단과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "2d633045669f4f1a",
+      "final_relevant": true,
+      "confidence": 0.88,
+      "final_reason": "쿠바의 경제 개혁과 에너지 관련 이슈로 한국석유공사의 사업과 관련이 있다.",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 실제 기사 내용과 한국석유공사의 에너지 관련 사업 관련성이 있어 최종적으로 포함함.",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "쿠바 정부가 국영기업 개혁과 민간 경제 확대를 중심으로 한 대규모 경제 개혁안을 내놓으며 시장 중심 경제 체제로의 전환에 속도를 내고 있다",
+          "evidence_type": "paragraph",
+          "reason": "글로벌 에너지 이슈와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "d4f08678c9b02770",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "한국석유공사의 직접적인 언급이 없으며, 기사의 내용은 경기대학교의 ESG 선도 대학 입학식에 관한 교육 기사로 한국석유공사의 업무와 실질적인 관련이 없다.",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용과 한국석유공사의 업무 관련성이 없어 최종적으로 제외함.",
+      "departments": []
+    }
+  ]
+}
+```

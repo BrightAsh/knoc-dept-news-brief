@@ -1,0 +1,138 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "c4bb7db77a1105d5",
+      "candidate": false,
+      "confidence": 0.2,
+      "company_reason": "단순 유가 언급으로 경제 이슈로 보임",
+      "departments": []
+    },
+    {
+      "article_id": "d7b4258d5ce0c5b8",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "에너지, 석유공사와 관련 없는 일반 날씨 기사",
+      "departments": []
+    },
+    {
+      "article_id": "54499d689324d85a",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "에너지, 석유공사와 관련 없는 정치 외교 기사",
+      "departments": []
+    },
+    {
+      "article_id": "9da3728dd6b43b1b",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "에너지, 석유공사와 관련 없는 노동, 정치 기사",
+      "departments": []
+    },
+    {
+      "article_id": "783050b8f56d8030",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유, 원유, 유가 언급으로 에너지 안보 관련",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미국과 이란이 종전 양해각서(MOU) 이행에 본격 착수했다. 미국은 대이란 해상봉쇄를 해제했고, 이란도 호르무즈해협 통항을 허용하면서 유조선 운항이 정상화 수순에 들어갔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다."
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미국과 이란이 종전 양해각서(MOU) 이행에 본격 착수했다. 미국은 대이란 해상봉쇄를 해제했고, 이란도 호르무즈해협 통항을 허용하면서 유조선 운항이 정상화 수순에 들어갔다.",
+          "evidence_type": "paragraph",
+          "reason": "스마트데이터센터는 석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다."
+        }
+      ]
+    },
+    {
+      "article_id": "fc32f5f7f9f20150",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "유가, 에너지 언급으로 에너지 정책 관련",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "돌아온 이 대통령, 집 나간 국정동력 찾는다···순방 성과 직접 설명, 지지율 회복 시동",
+          "evidence_type": "paragraph",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다."
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "돌아온 이 대통령, 집 나간 국정동력 찾는다···순방 성과 직접 설명, 지지율 회복 시동",
+          "evidence_type": "paragraph",
+          "reason": "스마트데이터센터는 석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다."
+        }
+      ]
+    },
+    {
+      "article_id": "ec0ee27071f7f1c2",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "에너지, 석유공사와 관련 없는 사회, 문화 기사",
+      "departments": []
+    },
+    {
+      "article_id": "c62981dc43ce8caf",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "에너지, 석유공사와 관련 없는 정치 기사",
+      "departments": []
+    },
+    {
+      "article_id": "b457af1f5ed974b5",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "에너지, 석유공사와 관련 없는 사회, 문화 기사",
+      "departments": []
+    },
+    {
+      "article_id": "20c6dc3e0a256616",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "에너지, 석유공사와 관련 없는 사회, 복지 기사",
+      "departments": []
+    },
+    {
+      "article_id": "b50973130496de4c",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유제품, 유가 언급으로 유통, 가격 관련",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "생산자물가 상승은 수개월의 시차를 두고 소비자물가로 이전돼 가계 부담으로 이어지는 수가 많다. 생산자물가 상승 흐름이 1년 넘게 이어지며 상승 폭을 키워가고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "유통사업처는 알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다."
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids

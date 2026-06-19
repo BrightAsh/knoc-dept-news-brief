@@ -1,0 +1,70 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "fd7a4502960444f3",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "원유 수송의 핵심 길목인 호르무즈 해협이 정상화 수순에 들어갔다는 점에서 한국석유공사와 관련이 있다.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "세계 원유 수송의 핵심 길목인 호르무즈 해협이 정상화 수순에 들어갔다.",
+          "evidence_type": "paragraph",
+          "reason": "원유 수송과 관련된 해협의 정상화는 석유사업 전략과 관련이 있다."
+        }
+      ]
+    },
+    {
+      "article_id": "2698f40628404a81",
+      "candidate": true,
+      "confidence": 0.95,
+      "company_reason": "생산자물가가 1년 전보다 8.5% 올라 약 4년 만에 최대 폭으로 상승한 점에서 한국석유공사와 관련이 있다.",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국·이란 전쟁에 따른 고유가 파급 효과로 지난달 생산자물가가 1년전보다 8% 넘게 올라 약 4년 만에 최대 폭으로 상승했다.",
+          "evidence_type": "paragraph",
+          "reason": "유가 상승은 석유정보 서비스와 관련이 있다."
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국·이란 전쟁에 따른 고유가 파급 효과로 지난달 생산자물가가 1년전보다 8% 넘게 올라 약 4년 만에 최대 폭으로 상승했다.",
+          "evidence_type": "paragraph",
+          "reason": "고유가 파급 효과는 석유사업 전략과 관련이 있다."
+        }
+      ]
+    },
+    {
+      "article_id": "d4f08678c9b02770",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "공공기관과 관련하여 언급된 점에서 한국석유공사와 관련이 있다.",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "올해로 제3기를 맞은 ESG선도대학은 도내 ESG 경영을 선도하고 ESG 가치를",
+          "evidence_type": "paragraph",
+          "reason": "공공기관의 ESG 경영은 기획예산처의 업무와 관련이 있다."
+        }
+      ]
+    }
+  ]
+}
+```

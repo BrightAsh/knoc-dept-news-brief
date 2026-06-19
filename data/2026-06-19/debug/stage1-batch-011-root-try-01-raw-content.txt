@@ -1,0 +1,51 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "171d9ce0e77182e8",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "수소 관련 이슈로 한국석유공사의 수소 사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "hydrogen_ammonia",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "진안 하수도 공사장 맨홀서 질식 추정 사고···노동자 4명 중경상, 수소",
+          "evidence_type": "sentence",
+          "reason": "수소 관련 사고로 수소암모니아사업단과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "60858992a85ce56e",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "공공기관 관련 이슈로 한국석유공사의 운영과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "파리서 찾은 해법···소진공 “공실상가도 지역자산” 상권관리 모델 주목, 공공기관",
+          "evidence_type": "sentence",
+          "reason": "공공기관의 상권관리 모델과 관련하여 기획예산처와 연결될 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "89907335800a4bfa",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "유전 관련 이슈지만 직접적인 관련성은 낮음",
+      "departments": []
+    }
+  ]
+}
+```
