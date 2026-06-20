@@ -1,0 +1,34 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "6cbc91f67a3f75db",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "한국석유공사의 유가 정보 제공 역할과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "20일 한국석유공사 유가정보시스템 오피넷 집계를 보면, 6월 셋째 주(14∼18일) 전국 주유소 휘발유 평균 판매가는 전주보다 리터당 0.",
+          "evidence_type": "paragraph",
+          "reason": "석유공사에서 운영하는 오피넷 관련 내용으로 스마트데이터센터의 유가 정보 서비스와 직접 관련이 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "국내 주유소 휘발유와 경유의 주간 평균 가격이 5주 연속 하락했다.",
+          "evidence_type": "paragraph",
+          "reason": "유통사업처의 석유유통, 주유소 공급, 소비자가격 관련 업무와 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

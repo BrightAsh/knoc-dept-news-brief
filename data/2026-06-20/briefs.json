@@ -1,0 +1,1153 @@
+{
+  "target_date": "2026-06-20",
+  "generated_at": "2026-06-20T16:51:25.448Z",
+  "analyzer": "knoc-two-pass-llm-v1",
+  "input_article_count": 272,
+  "relevant_article_count": 13,
+  "relevant_department_count": 7,
+  "pipeline": {
+    "stage0": {
+      "analyzer": "stage0-keyword-router-v1",
+      "keyword_hit_count": 30,
+      "keyword_miss_count": 242
+    },
+    "stage1": {
+      "enabled": true,
+      "status": "partial",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 272,
+      "analyzed_article_count": 240,
+      "candidate_count": 18,
+      "rejected_count": 55,
+      "warning_count": 21,
+      "error_count": 2
+    },
+    "stage2": {
+      "enabled": true,
+      "status": "ok",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 73,
+      "analyzed_article_count": 73,
+      "final_relevant_count": 13,
+      "final_rejected_count": 58,
+      "warning_count": 13,
+      "error_count": 0
+    }
+  },
+  "overall": {
+    "id": "overall",
+    "label": "전체",
+    "source": "llm",
+    "analysis_stage": "stage2",
+    "fallback_used": false,
+    "article_count": 13,
+    "item_count": 13,
+    "items": [
+      {
+        "id": "94b01f28d96f7cd8",
+        "article_id": "632d9244a1d58e7c",
+        "publisher": "한겨레",
+        "title": "이란 봉쇄 선언에 미국 “군 움직임 없다”…협상 국면 이어져",
+        "url": "https://www.hani.co.kr/arti/international/arabafrica/1264481.html",
+        "published_at": "2026-06-20T14:29:00.000Z",
+        "score": 0.9,
+        "segment_text": "석유, 유가 관련 이슈로 한국석유공사의 업무와 관련이 있음",
+        "reason": "석유, 유가 관련 이슈로 한국석유공사의 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "5f780b6f0482293c",
+        "article_id": "44944a5e8c5cba00",
+        "publisher": "경향신문",
+        "title": "“믿으니 알아서 잘해봐” 다정한 격려라구요?···기준도 방향도 없어 답답합니다",
+        "url": "https://www.khan.co.kr/article/202606201800001/",
+        "published_at": "2026-06-20T09:00:00.000Z",
+        "score": 0.9,
+        "segment_text": "기사에 유가 관련 언급으로 한국석유공사의 석유사업처와 스마트데이터센터의 업무와 관련이 있음",
+        "reason": "기사에 유가 관련 언급으로 한국석유공사의 석유사업처와 스마트데이터센터의 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹을 유지하며 부서 배정을 확정함",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "dd0698d7e757f5b4",
+        "article_id": "83c4df9b97c4f920",
+        "publisher": "한겨레",
+        "title": "원-달러 환율, 야간거래서 추가 상승 1531원",
+        "url": "https://www.hani.co.kr/arti/economy/economy_general/1264465.html",
+        "published_at": "2026-06-20T05:33:00.000Z",
+        "score": 0.9,
+        "segment_text": "기사에 원-달러 환율과 국제유가 관련 기사로 한국석유공사의 스마트데이터센터, 석유사업처의 업무와 관련이 있음",
+        "reason": "기사에 원-달러 환율과 국제유가 관련 기사로 한국석유공사의 스마트데이터센터, 석유사업처의 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹을 유지하며 부서 배정을 확정함",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "dc0c0f2699de249e",
+        "article_id": "6cbc91f67a3f75db",
+        "publisher": "한겨레",
+        "title": "주유소 기름값 5주 연속 하락 2009원대…종전 합의에도 여전히 높아",
+        "url": "https://www.hani.co.kr/arti/economy/economy_general/1264458.html",
+        "published_at": "2026-06-20T04:13:00.000Z",
+        "score": 0.9,
+        "segment_text": "한국석유공사의 유가 정보 제공 역할과 관련이 있음",
+        "reason": "한국석유공사의 유가 정보 제공 역할과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.95,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "1cd654f83821d7db",
+        "article_id": "a6b271522bc51a79",
+        "publisher": "경향신문",
+        "title": "미·이란 종전 합의에도 기름값은 아직 2009원…언제 2000원 아래로?",
+        "url": "https://www.khan.co.kr/article/202606200916001/",
+        "published_at": "2026-06-20T00:16:00.000Z",
+        "score": 0.9,
+        "segment_text": "국내 석유 가격 정보 제공",
+        "reason": "국내 석유 가격 정보 제공",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "51c3435e0c71a6c8",
+        "article_id": "73e1d1333117a62e",
+        "publisher": "경향신문",
+        "title": "미·이란 종전 합의에도 기름값은 아직 2009원…언제 2000원 아래로?",
+        "url": "https://www.khan.co.kr/article/202606200916001",
+        "published_at": "2026-06-20T00:16:00.000Z",
+        "score": 0.9,
+        "segment_text": "이란의 호르무즈해협 봉쇄 선언과 미국과의 협상 관련 기사는 원유 수급에 영향을 미칠 수 있으므로 한국석유공사와 관련이 있다.",
+        "reason": "이란의 호르무즈해협 봉쇄 선언과 미국과의 협상 관련 기사는 원유 수급에 영향을 미칠 수 있으므로 한국석유공사와 관련이 있다.",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "965e807ded6a1d38",
+        "article_id": "2ee102df2fe08709",
+        "publisher": "경향신문",
+        "title": "이란 전쟁으로 미국인들 떠안은 부담 ‘203조원’…군비·유가 눈덩이",
+        "url": "https://www.khan.co.kr/article/202606200907001/",
+        "published_at": "2026-06-20T00:07:00.000Z",
+        "score": 0.9,
+        "segment_text": "기사에 국제 유가 정보 제공이 언급되어 한국석유공사의 스마트데이터센터 업무와 관련이 있음",
+        "reason": "기사에 국제 유가 정보 제공이 언급되어 한국석유공사의 스마트데이터센터 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹을 유지하며 부서 배정을 확정함",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "23814a3e5a260e45",
+        "article_id": "209c335e798dbd80",
+        "publisher": "경향신문",
+        "title": "이란 전쟁으로 미국인들 떠안은 부담 ‘203조원’…군비·유가 눈덩이",
+        "url": "https://www.khan.co.kr/article/202606200907001",
+        "published_at": "2026-06-20T00:07:00.000Z",
+        "score": 0.9,
+        "segment_text": "기사에 국제 유가 정보 제공이 언급되어 한국석유공사의 스마트데이터센터 업무와 관련이 있음",
+        "reason": "기사에 국제 유가 정보 제공이 언급되어 한국석유공사의 스마트데이터센터 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹을 유지하며 부서 배정을 확정함",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "d6edca9f203a6486",
+        "article_id": "ae187623cac04eac",
+        "publisher": "경향신문",
+        "title": "종전 MOU ‘완패’ 당하고···트럼프 “이란, 60일 내 합의 안하면 마음에 안드는 일 할 것” 압박",
+        "url": "https://www.khan.co.kr/article/202606200757001",
+        "published_at": "2026-06-19T22:57:00.000Z",
+        "score": 0.9,
+        "segment_text": "석유, 유가 관련 이슈로 한국석유공사의 업무와 관련이 있음",
+        "reason": "석유, 유가 관련 이슈로 한국석유공사의 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "1a906d60e36b5c39",
+        "article_id": "40b2dd4f7f3a30f1",
+        "publisher": "동아일보",
+        "title": "“이상한 냄새-연기 난다” 제천 폐공장 화학물질 누출 사고…긴급 재난문자 발송",
+        "url": "https://www.donga.com/news/Society/article/all/20260620/134148810/2",
+        "published_at": "2026-06-20T07:04:08.000Z",
+        "score": 0.8,
+        "segment_text": "기사에 수소 관련 언급으로 한국석유공사의 저탄소추진처와 안전보건환경관리와 관련이 있음",
+        "reason": "기사에 수소 관련 언급으로 한국석유공사의 저탄소추진처와 안전보건환경관리와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹을 유지하며 부서 배정을 확정함",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "she",
+            "name": "SHE추진실",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "65506edb1ca6cacc",
+        "article_id": "50f4dbcb27e5cd27",
+        "publisher": "한겨레",
+        "title": "미, 이란 자금 60억달러 ‘동결 해제’ 협의 착수",
+        "url": "https://www.hani.co.kr/arti/international/international_general/1264463.html",
+        "published_at": "2026-06-20T05:15:00.000Z",
+        "score": 0.8,
+        "segment_text": "이란 자금 동결 해제와 원유 관련 기사로 한국석유공사의 해외자원개발, 석유사업 업무와 관련이 있음",
+        "reason": "이란 자금 동결 해제와 원유 관련 기사로 한국석유공사의 해외자원개발, 석유사업 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "asia_business",
+            "name": "아시아사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "c86e38351f2a3fdf",
+        "article_id": "3669162ace593714",
+        "publisher": "동아일보",
+        "title": "“냄새·연기 난다” 제천 산단서 염화수소 누출…피해 없어",
+        "url": "https://www.donga.com/news/Society/article/all/20260620/134148707/1",
+        "published_at": "2026-06-20T04:31:07.000Z",
+        "score": 0.8,
+        "segment_text": "기사에 수소 관련 언급으로 한국석유공사의 저탄소추진처와 관련이 있음",
+        "reason": "기사에 수소 관련 언급으로 한국석유공사의 저탄소추진처와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹을 유지하며 부서 배정을 확정함",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "a32149bb5bb7e904",
+        "article_id": "b64498d45d91a7f6",
+        "publisher": "한겨레",
+        "title": "이란 “미국과 19일 최종 협상 연기…며칠 내 재개 추진”",
+        "url": "https://www.hani.co.kr/arti/international/arabafrica/1264435.html",
+        "published_at": "2026-06-19T15:32:00.000Z",
+        "score": 0.8,
+        "segment_text": "기사에 원유 관련 이슈로 한국석유공사의 석유사업처와 전략부서의 업무와 관련이 있음",
+        "reason": "기사에 원유 관련 이슈로 한국석유공사의 석유사업처와 전략부서의 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹을 유지하며 부서 배정을 확정함",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_review": {
+    "enabled": true,
+    "status": "ok",
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "analyzed_article_count": 73,
+    "brief_source_stage": "stage2",
+    "fallback_used": false,
+    "stages": {
+      "stage1": {
+        "enabled": true,
+        "status": "partial",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 272,
+        "analyzed_article_count": 240,
+        "candidate_count": 18,
+        "rejected_count": 55,
+        "warning_count": 21,
+        "error_count": 2
+      },
+      "stage2": {
+        "enabled": true,
+        "status": "ok",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 73,
+        "analyzed_article_count": 73,
+        "final_relevant_count": 13,
+        "final_rejected_count": 58,
+        "warning_count": 13,
+        "error_count": 0
+      }
+    }
+  },
+  "departments": [
+    {
+      "department_id": "secretariat",
+      "department": "비서팀",
+      "role": "사장 일정, 의전, 대내외 메시지, 지시사항 이행과 대외 접점 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "she",
+      "department": "SHE추진실",
+      "role": "전사 안전, 보건, 환경, 재난 대응, 중대재해 예방과 안전보건환경 관리체계를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "f1c8d5f7ef087f87",
+          "article_id": "40b2dd4f7f3a30f1",
+          "publisher": "동아일보",
+          "title": "“이상한 냄새-연기 난다” 제천 폐공장 화학물질 누출 사고…긴급 재난문자 발송",
+          "url": "https://www.donga.com/news/Society/article/all/20260620/134148810/2",
+          "published_at": "2026-06-20T07:04:08.000Z",
+          "score": 0.8,
+          "segment_text": "화학물질 누출 사고",
+          "reason": "기사에서 언급된 화학물질 누출 사고는 한국석유공사의 안전, 보건, 환경 관리와 관련이 있음",
+          "evidence_type": "sentence",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹을 유지하며 부서 배정을 확정함"
+        }
+      ]
+    },
+    {
+      "department_id": "audit",
+      "department": "감사실",
+      "role": "감사계획과 감사 수행, 내부통제, 일상감사, 부패·비위 점검, 청렴 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "legal",
+      "department": "법무팀",
+      "role": "국내외 송무, 계약과 사업의 법률 검토, 규제 대응, 분쟁 대응, 지식재산권 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "planning_budget",
+      "department": "기획예산처",
+      "role": "이사회, 국회, 정부 대응, 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "strategy",
+      "department": "경영전략처",
+      "role": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+      "article_count": 4,
+      "segment_count": 4,
+      "items": [
+        {
+          "id": "585fe86a85683986",
+          "article_id": "632d9244a1d58e7c",
+          "publisher": "한겨레",
+          "title": "이란 봉쇄 선언에 미국 “군 움직임 없다”…협상 국면 이어져",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1264481.html",
+          "published_at": "2026-06-20T14:29:00.000Z",
+          "score": 0.6,
+          "segment_text": "트럼프 “이란, 60일 내 합의 안하면 마음에 안드는 일 할 것” 압박, 석유, 유가 관련 언급",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당하므로 관련 기사로 분류",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "652e337385579059",
+          "article_id": "73e1d1333117a62e",
+          "publisher": "경향신문",
+          "title": "미·이란 종전 합의에도 기름값은 아직 2009원…언제 2000원 아래로?",
+          "url": "https://www.khan.co.kr/article/202606200916001",
+          "published_at": "2026-06-20T00:16:00.000Z",
+          "score": 0.6,
+          "segment_text": "이란이 호르무즈해협 봉쇄를 발표한 가운데, 미국은 아직 실제 봉쇄에 해당하는 군사적 움직임은 확인되지 않았다고 밝혔다.",
+          "reason": "글로벌 에너지 안보와 관련된 이슈로, 한국석유공사의 경영전략과 관련이 있다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "7619242a228ffe4c",
+          "article_id": "ae187623cac04eac",
+          "publisher": "경향신문",
+          "title": "종전 MOU ‘완패’ 당하고···트럼프 “이란, 60일 내 합의 안하면 마음에 안드는 일 할 것” 압박",
+          "url": "https://www.khan.co.kr/article/202606200757001",
+          "published_at": "2026-06-19T22:57:00.000Z",
+          "score": 0.6,
+          "segment_text": "트럼프 “이란, 60일 내 합의 안하면 마음에 안드는 일 할 것” 압박, 석유, 유가 관련 언급",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당하므로 관련 기사로 분류",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "a15d657cdd23c786",
+          "article_id": "b64498d45d91a7f6",
+          "publisher": "한겨레",
+          "title": "이란 “미국과 19일 최종 협상 연기…며칠 내 재개 추진”",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1264435.html",
+          "published_at": "2026-06-19T15:32:00.000Z",
+          "score": 0.6,
+          "segment_text": "이란 “미국과 19일 최종 협상 연기…며칠 내 재개 추진”, 원유 관련 언급",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당하므로 관련 기사로 분류",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹을 유지하며 부서 배정을 확정함"
+        }
+      ]
+    },
+    {
+      "department_id": "finance",
+      "department": "재무처",
+      "role": "자금 조달과 상환, 자금 집행, 결산, 세무, 환율·금리·부채 등 재무 리스크 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "esg",
+      "department": "ESG경영처",
+      "role": "ESG 경영, 윤리·인권, 사회공헌, 동반성장, 상생, 내부통제 지원 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "infosec",
+      "department": "정보보안팀",
+      "role": "정보보안 정책과 운영, 개인정보보호, 사이버 침해 대응, 정보유출 예방 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "general_affairs",
+      "department": "총무처",
+      "role": "문서와 기록물, 자산, 사옥, 숙소, 조달계약, 구매, 시설관리, 비상대비 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hr",
+      "department": "인재경영처",
+      "role": "조직, 인사, 채용, 평가, 교육훈련, 급여, 복리후생, 노사관계와 인력 운영을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "smart_data",
+      "department": "스마트데이터센터",
+      "role": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
+      "article_count": 6,
+      "segment_count": 6,
+      "items": [
+        {
+          "id": "da3a6fbf2a89a3e6",
+          "article_id": "6cbc91f67a3f75db",
+          "publisher": "한겨레",
+          "title": "주유소 기름값 5주 연속 하락 2009원대…종전 합의에도 여전히 높아",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1264458.html",
+          "published_at": "2026-06-20T04:13:00.000Z",
+          "score": 0.95,
+          "segment_text": "20일 한국석유공사 유가정보시스템 오피넷 집계를 보면, 6월 셋째 주(14∼18일) 전국 주유소 휘발유 평균 판매가는 전주보다 리터당 0.7원 내린 2009.2원이었다.",
+          "reason": "석유공사에서 운영하는 오피넷 관련 내용으로 스마트데이터센터의 유가 정보 서비스와 직접 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "44611b752191d6ce",
+          "article_id": "2ee102df2fe08709",
+          "publisher": "경향신문",
+          "title": "이란 전쟁으로 미국인들 떠안은 부담 ‘203조원’…군비·유가 눈덩이",
+          "url": "https://www.khan.co.kr/article/202606200907001/",
+          "published_at": "2026-06-20T00:07:00.000Z",
+          "score": 0.9,
+          "segment_text": "이란 전쟁으로 미국인들 떠안은 부담 ‘203조원’…군비·유가 눈덩이",
+          "reason": "유가·석유가격 정보, 에너지 통계",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹을 유지하며 부서 배정을 확정함"
+        },
+        {
+          "id": "a7e2d44d1b163b4c",
+          "article_id": "209c335e798dbd80",
+          "publisher": "경향신문",
+          "title": "이란 전쟁으로 미국인들 떠안은 부담 ‘203조원’…군비·유가 눈덩이",
+          "url": "https://www.khan.co.kr/article/202606200907001",
+          "published_at": "2026-06-20T00:07:00.000Z",
+          "score": 0.9,
+          "segment_text": "이란 전쟁으로 미국인들 떠안은 부담 ‘203조원’…군비·유가 눈덩이",
+          "reason": "유가·석유가격 정보, 에너지 통계",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹을 유지하며 부서 배정을 확정함"
+        },
+        {
+          "id": "7594d276d2dec406",
+          "article_id": "83c4df9b97c4f920",
+          "publisher": "한겨레",
+          "title": "원-달러 환율, 야간거래서 추가 상승 1531원",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1264465.html",
+          "published_at": "2026-06-20T05:33:00.000Z",
+          "score": 0.8,
+          "segment_text": "원-달러 환율, 야간거래서 추가 상승 1531원",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가 정보 제공 업무와 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹을 유지하며 부서 배정을 확정함"
+        },
+        {
+          "id": "4acd2430bc3dbcf7",
+          "article_id": "44944a5e8c5cba00",
+          "publisher": "경향신문",
+          "title": "“믿으니 알아서 잘해봐” 다정한 격려라구요?···기준도 방향도 없어 답답합니다",
+          "url": "https://www.khan.co.kr/article/202606201800001/",
+          "published_at": "2026-06-20T09:00:00.000Z",
+          "score": 0.7,
+          "segment_text": "유가",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무",
+          "evidence_type": "sentence",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹을 유지하며 부서 배정을 확정함"
+        },
+        {
+          "id": "d372dde2e093399e",
+          "article_id": "a6b271522bc51a79",
+          "publisher": "경향신문",
+          "title": "미·이란 종전 합의에도 기름값은 아직 2009원…언제 2000원 아래로?",
+          "url": "https://www.khan.co.kr/article/202606200916001/",
+          "published_at": "2026-06-20T00:16:00.000Z",
+          "score": 0.7,
+          "segment_text": "유가 정보",
+          "reason": "유가·석유가격 정보, 에너지 통계",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        }
+      ]
+    },
+    {
+      "department_id": "asia_business",
+      "department": "아시아사업처",
+      "role": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "efdd47c2feb2732f",
+          "article_id": "50f4dbcb27e5cd27",
+          "publisher": "한겨레",
+          "title": "미, 이란 자금 60억달러 ‘동결 해제’ 협의 착수",
+          "url": "https://www.hani.co.kr/arti/international/international_general/1264463.html",
+          "published_at": "2026-06-20T05:15:00.000Z",
+          "score": 0.7,
+          "segment_text": "미, 이란 자금 60억달러 ‘동결 해제’ 협의 착수",
+          "reason": "해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리 업무와 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        }
+      ]
+    },
+    {
+      "department_id": "americas_europe_business",
+      "department": "미주/유럽사업처",
+      "role": "미주와 유럽 지역 E&P 사업, 해외광구, Capex/Opex, 사업 손익, 자금수지 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "domestic_business_development",
+      "department": "국내사업개발처",
+      "role": "국내 자원개발 사업, 국내 대륙붕, 가스전, 탐사·시추, 신규 국내 사업개발을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "low_carbon",
+      "department": "저탄소추진처",
+      "role": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
+      "article_count": 2,
+      "segment_count": 2,
+      "items": [
+        {
+          "id": "18086cf17961b555",
+          "article_id": "40b2dd4f7f3a30f1",
+          "publisher": "동아일보",
+          "title": "“이상한 냄새-연기 난다” 제천 폐공장 화학물질 누출 사고…긴급 재난문자 발송",
+          "url": "https://www.donga.com/news/Society/article/all/20260620/134148810/2",
+          "published_at": "2026-06-20T07:04:08.000Z",
+          "score": 0.9,
+          "segment_text": "수소",
+          "reason": "기사에서 언급된 '수소'라는 키워드는 한국석유공사의 저탄소추진처와 관련이 있음",
+          "evidence_type": "sentence",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹을 유지하며 부서 배정을 확정함"
+        },
+        {
+          "id": "8f206c750504dea1",
+          "article_id": "3669162ace593714",
+          "publisher": "동아일보",
+          "title": "“냄새·연기 난다” 제천 산단서 염화수소 누출…피해 없어",
+          "url": "https://www.donga.com/news/Society/article/all/20260620/134148707/1",
+          "published_at": "2026-06-20T04:31:07.000Z",
+          "score": 0.9,
+          "segment_text": "제천 산단서 염화수소 누출…피해 없어, 수소 언급",
+          "reason": "수소 관련 사고로 저탄소추진처의 수소 사업과 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹을 유지하며 부서 배정을 확정함"
+        }
+      ]
+    },
+    {
+      "department_id": "global_technology_center",
+      "department": "글로벌기술센터",
+      "role": "E&P 기술지원, 지질·저류층·시추 기술, 기술전략, 연구개발, 기술자료와 기술평가를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "stockpiling",
+      "department": "석유비축처",
+      "role": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "petroleum_business",
+      "department": "석유사업처",
+      "role": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+      "article_count": 7,
+      "segment_count": 7,
+      "items": [
+        {
+          "id": "ad11fd5efdaea356",
+          "article_id": "632d9244a1d58e7c",
+          "publisher": "한겨레",
+          "title": "이란 봉쇄 선언에 미국 “군 움직임 없다”…협상 국면 이어져",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1264481.html",
+          "published_at": "2026-06-20T14:29:00.000Z",
+          "score": 0.8,
+          "segment_text": "트럼프 “이란, 60일 내 합의 안하면 마음에 안드는 일 할 것” 압박, 석유, 유가 관련 언급",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하므로 관련 기사로 분류",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "c88c26bff5c6866d",
+          "article_id": "44944a5e8c5cba00",
+          "publisher": "경향신문",
+          "title": "“믿으니 알아서 잘해봐” 다정한 격려라구요?···기준도 방향도 없어 답답합니다",
+          "url": "https://www.khan.co.kr/article/202606201800001/",
+          "published_at": "2026-06-20T09:00:00.000Z",
+          "score": 0.8,
+          "segment_text": "유가",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "sentence",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹을 유지하며 부서 배정을 확정함"
+        },
+        {
+          "id": "70845392bd28c0de",
+          "article_id": "73e1d1333117a62e",
+          "publisher": "경향신문",
+          "title": "미·이란 종전 합의에도 기름값은 아직 2009원…언제 2000원 아래로?",
+          "url": "https://www.khan.co.kr/article/202606200916001",
+          "published_at": "2026-06-20T00:16:00.000Z",
+          "score": 0.8,
+          "segment_text": "이란이 호르무즈해협 봉쇄를 발표한 가운데, 미국은 아직 실제 봉쇄에 해당하는 군사적 움직임은 확인되지 않았다고 밝혔다.",
+          "reason": "호르무즈해협은 원유 수송의 중요한 경로로, 이 지역의 긴장은 국제 유가에 영향을 미칠 수 있다. 따라서 한국석유공사의 석유사업 전략과 관련이 있다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "b43b791e6eb38eb9",
+          "article_id": "ae187623cac04eac",
+          "publisher": "경향신문",
+          "title": "종전 MOU ‘완패’ 당하고···트럼프 “이란, 60일 내 합의 안하면 마음에 안드는 일 할 것” 압박",
+          "url": "https://www.khan.co.kr/article/202606200757001",
+          "published_at": "2026-06-19T22:57:00.000Z",
+          "score": 0.8,
+          "segment_text": "트럼프 “이란, 60일 내 합의 안하면 마음에 안드는 일 할 것” 압박, 석유, 유가 관련 언급",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하므로 관련 기사로 분류",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "118b756f2fadb29a",
+          "article_id": "83c4df9b97c4f920",
+          "publisher": "한겨레",
+          "title": "원-달러 환율, 야간거래서 추가 상승 1531원",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1264465.html",
+          "published_at": "2026-06-20T05:33:00.000Z",
+          "score": 0.7,
+          "segment_text": "원-달러 환율, 야간거래서 추가 상승 1531원",
+          "reason": "석유사업 전략, 원유·석유제품 구매와 판매, 트레이딩 업무와 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹을 유지하며 부서 배정을 확정함"
+        },
+        {
+          "id": "6d8cdae782ec9d3a",
+          "article_id": "b64498d45d91a7f6",
+          "publisher": "한겨레",
+          "title": "이란 “미국과 19일 최종 협상 연기…며칠 내 재개 추진”",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1264435.html",
+          "published_at": "2026-06-19T15:32:00.000Z",
+          "score": 0.7,
+          "segment_text": "이란 “미국과 19일 최종 협상 연기…며칠 내 재개 추진”, 원유 관련 언급",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하므로 관련 기사로 분류",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹을 유지하며 부서 배정을 확정함"
+        },
+        {
+          "id": "37672204365da9fa",
+          "article_id": "50f4dbcb27e5cd27",
+          "publisher": "한겨레",
+          "title": "미, 이란 자금 60억달러 ‘동결 해제’ 협의 착수",
+          "url": "https://www.hani.co.kr/arti/international/international_general/1264463.html",
+          "published_at": "2026-06-20T05:15:00.000Z",
+          "score": 0.6,
+          "segment_text": "미, 이란 자금 60억달러 ‘동결 해제’ 협의 착수",
+          "reason": "석유사업 전략, 원유 구매와 판매 업무와 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        }
+      ]
+    },
+    {
+      "department_id": "distribution_business",
+      "department": "유통사업처",
+      "role": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+      "article_count": 2,
+      "segment_count": 2,
+      "items": [
+        {
+          "id": "d2c290c0086268de",
+          "article_id": "6cbc91f67a3f75db",
+          "publisher": "한겨레",
+          "title": "주유소 기름값 5주 연속 하락 2009원대…종전 합의에도 여전히 높아",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1264458.html",
+          "published_at": "2026-06-20T04:13:00.000Z",
+          "score": 0.8,
+          "segment_text": "국내 주유소 휘발유와 경유의 주간 평균 가격이 5주 연속 하락했다.",
+          "reason": "유통사업처의 석유유통, 주유소 공급, 소비자가격 관련 업무와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "85e22fb5d6355a81",
+          "article_id": "a6b271522bc51a79",
+          "publisher": "경향신문",
+          "title": "미·이란 종전 합의에도 기름값은 아직 2009원…언제 2000원 아래로?",
+          "url": "https://www.khan.co.kr/article/202606200916001/",
+          "published_at": "2026-06-20T00:16:00.000Z",
+          "score": 0.8,
+          "segment_text": "주유소, 휘발유, 경유",
+          "reason": "석유유통, 주유소 공급, 소비자가격",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        }
+      ]
+    },
+    {
+      "department_id": "energy_infra",
+      "department": "에너지인프라사업처",
+      "role": "에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hydrogen_ammonia",
+      "department": "수소암모니아사업단",
+      "role": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    }
+  ]
+}

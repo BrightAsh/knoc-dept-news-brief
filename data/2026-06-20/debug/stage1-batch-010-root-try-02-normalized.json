@@ -1,0 +1,72 @@
+{
+  "raw_result_count": 1,
+  "accepted_result_count": 1,
+  "normalization": [
+    {
+      "article_id": "40b2dd4f7f3a30f1",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "40b2dd4f7f3a30f1",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "화학물질 누출 사고 관련 기사로, 한국석유공사의 안전관리 또는 수소사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "수소",
+            "evidence_type": "sentence",
+            "reason": "기사에서 언급된 '수소'라는 키워드는 한국석유공사의 저탄소추진처와 관련이 있음"
+          },
+          {
+            "department_id": "she",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "화학물질 누출 사고",
+            "evidence_type": "sentence",
+            "reason": "기사에서 언급된 화학물질 누출 사고는 한국석유공사의 안전, 보건, 환경 관리와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "40b2dd4f7f3a30f1",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "화학물질 누출 사고 관련 기사로, 한국석유공사의 안전관리 또는 수소사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "수소",
+            "evidence_type": "sentence",
+            "reason": "기사에서 언급된 '수소'라는 키워드는 한국석유공사의 저탄소추진처와 관련이 있음"
+          },
+          {
+            "department_id": "she",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "화학물질 누출 사고",
+            "evidence_type": "sentence",
+            "reason": "기사에서 언급된 화학물질 누출 사고는 한국석유공사의 안전, 보건, 환경 관리와 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

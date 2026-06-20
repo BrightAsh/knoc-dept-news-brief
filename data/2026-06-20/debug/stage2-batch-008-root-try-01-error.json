@@ -1,0 +1,45 @@
+{
+  "stage": "stage2",
+  "batch_number": 8,
+  "batch_count": 10,
+  "split_path": "root",
+  "attempt": 1,
+  "article_ids": [
+    "722a22dea7467e16",
+    "24b1522e453388ee",
+    "7127032ba59edfbd",
+    "0c6ad23785c989cc",
+    "4fb56973965a97f9",
+    "17d23057860ac93b",
+    "849420e5c9963305",
+    "b7401dcf69d8d5c3"
+  ],
+  "message": "groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 30000, Used 27162, Requested 9986. Please try again in 14.296s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing\",\"type\":\"tokens\",\"code\":\"rate_limit_exceeded\"}}\n",
+  "name": "Error",
+  "llm_debug": {
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+    "request": {
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "temperature": 0.05,
+      "max_tokens": 3200,
+      "message_count": 2,
+      "messages": [
+        {
+          "role": "system",
+          "char_count": 121,
+          "preview": "너는 한국석유공사(KNOC)의 언론 모니터링 최종 분류 담당자다. 1차 판단을 참고하되 그대로 따르지 말고, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정한다. 반드시 유효한 JSON 객체 하나만 반환한다."
+        },
+        {
+          "role": "user",
+          "char_count": 21482,
+          "preview": "{\n  \"task\": \"각 기사를 2차 검토하라. C 그룹은 1차 후보 기사이므로 근거와 부서 배정을 정밀 검토하고, D 그룹은 1차 제외 기사이므로 누락 가능성을 본문 기반으로 재검토하라. 최종적으로 한국석유공사 업무와 관련 있는 기사만 final_relevant=true로 둔다.\",\n  \"knoc_context\": {\n    \"name\": \"한국석유공사\",\n    \"aliases\": [\n      \"KNOC\",\n      \"Korea National Oil Corporation\",\n      \"석유공사\"\n    ],\n    \"role\": \"한국석유공사는 대한민국의 에너지 안보와 석유 수급 안정을 위해 석유비축, 국내외 석유·가스 자원개발, 석유정보 제공, 석유유통 지원, 저탄소·수소·암모니아 등 에너지 전환 관련 사업을 수행하는 공공기관이다.\",\n    \"classification_policy\": [\n      \"기사에 한국석유공사가 직접 언급되지 않아도, 공사의 사업·위험·정책"
+        }
+      ]
+    },
+    "http_status": 429,
+    "raw_response": "[saved as stage2-batch-008-root-try-01-error-raw-response.json]",
+    "error_type": "http"
+  }
+}
