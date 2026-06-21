@@ -1,0 +1,116 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "72887f214dfa106e",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "72887f214dfa106e",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "에너지 안보, 석유 수급과 관련된 기사",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "초크포인트 지정학 및 경제 분야에서 병목 현상을 일으키는 전략적 요충지를 뜻한다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 안보와 석유 수급에 영향을 미치는 초크포인트에 대한 논의는 한국석유공사의 전략과 관련이 있다."
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "오만 정보부가 제공한 사진이다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 관련 정보 제공 및 분석은 스마트데이터센터의 역할과 관련이 있다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "72887f214dfa106e",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "에너지 안보, 석유 수급과 관련된 기사",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "초크포인트 지정학 및 경제 분야에서 병목 현상을 일으키는 전략적 요충지를 뜻한다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 안보와 석유 수급에 영향을 미치는 초크포인트에 대한 논의는 한국석유공사의 전략과 관련이 있다."
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "오만 정보부가 제공한 사진이다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 관련 정보 제공 및 분석은 스마트데이터센터의 역할과 관련이 있다."
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "92fff9ff36182823",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "92fff9ff36182823",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 안보, 석유 수급과 관련된 기사",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "이란 선례 따라 ‘초크포인트’ 무기화 늘 것…우회 방법 찾아야",
+            "evidence_type": "paragraph",
+            "reason": "에너지 안보와 석유 수급에 영향을 미치는 초크포인트에 대한 논의는 한국석유공사의 전략과 관련이 있다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "92fff9ff36182823",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 안보, 석유 수급과 관련된 기사",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "이란 선례 따라 ‘초크포인트’ 무기화 늘 것…우회 방법 찾아야",
+            "evidence_type": "paragraph",
+            "reason": "에너지 안보와 석유 수급에 영향을 미치는 초크포인트에 대한 논의는 한국석유공사의 전략과 관련이 있다."
+          }
+        ]
+      }
+    }
+  ]
+}

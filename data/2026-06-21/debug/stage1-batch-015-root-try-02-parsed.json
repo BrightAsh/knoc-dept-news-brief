@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "article_id": "8fa19be970c0137e",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "9fb76e90a3b73770",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어보임",
+      "departments": []
+    },
+    {
+      "article_id": "f339b8fc0c49cd4c",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지, 수소 관련 이슈로 한국석유공사의 에너지 전환 사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "정부가 온실가스를 감축하기 위해 에어컨이나 냉동기, 데이터센터의 냉매로 사용되는 수소불화탄소를 개선하는 연구를 시작했다.",
+          "evidence_type": "paragraph",
+          "reason": "수소불화탄소 냉매 관리 개선 연구는 저탄소 추진처의 에너지 전환 사업과 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
