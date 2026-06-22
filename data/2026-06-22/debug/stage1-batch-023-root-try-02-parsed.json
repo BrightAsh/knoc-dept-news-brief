@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "article_id": "8ce0d027f37d400f",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "임진왜란 정보 실패 기사로 한국석유공사와 관련이 없다.",
+      "departments": []
+    },
+    {
+      "article_id": "93bb5211ceb7bc17",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유 수급 관련 기사로 보인다.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국과 이란의 종전을 위한 첫 후속 협상이 종료됐다고 중재국 카타르와 파키스탄이 22일 공동성명을 통해 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 수급에 영향을 미치는 국제 협상 기사로 석유사업처의 업무와 관련이 있다."
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국과 이란의 종전을 위한 첫 후속 협상이 종료됐다고 중재국 카타르와 파키스탄이 22일 공동성명을 통해 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 수급에 영향을 미치는 국제 협상 기사로 경영전략처의 업무와도 관련이 있다."
+        }
+      ]
+    }
+  ]
+}

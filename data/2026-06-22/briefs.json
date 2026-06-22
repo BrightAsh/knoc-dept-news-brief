@@ -1,0 +1,1451 @@
+{
+  "target_date": "2026-06-22",
+  "generated_at": "2026-06-22T19:07:28.397Z",
+  "analyzer": "knoc-two-pass-llm-v1",
+  "input_article_count": 415,
+  "relevant_article_count": 19,
+  "relevant_department_count": 6,
+  "pipeline": {
+    "stage0": {
+      "analyzer": "stage0-keyword-router-v1",
+      "keyword_hit_count": 80,
+      "keyword_miss_count": 335
+    },
+    "stage1": {
+      "enabled": true,
+      "status": "partial",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 415,
+      "analyzed_article_count": 383,
+      "candidate_count": 46,
+      "rejected_count": 109,
+      "warning_count": 29,
+      "error_count": 2
+    },
+    "stage2": {
+      "enabled": true,
+      "status": "partial",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 155,
+      "analyzed_article_count": 147,
+      "final_relevant_count": 24,
+      "final_rejected_count": 119,
+      "warning_count": 22,
+      "error_count": 1
+    }
+  },
+  "overall": {
+    "id": "overall",
+    "label": "전체",
+    "source": "llm",
+    "analysis_stage": "stage2",
+    "fallback_used": false,
+    "article_count": 19,
+    "item_count": 19,
+    "items": [
+      {
+        "id": "2ace23a449f60875",
+        "article_id": "f5774696a0c6d6e4",
+        "publisher": "경향신문",
+        "title": "최고가격제 시행 이후 처음 탄생한 ‘착하디착한 주유소’···어디에?",
+        "url": "https://www.khan.co.kr/article/202606221530001",
+        "published_at": "2026-06-22T06:30:00.000Z",
+        "score": 0.95,
+        "segment_text": "주유소, 석유, 원유, 에너지 관련 기사로 한국석유공사의 석유유통 지원 사업과 관련 있음",
+        "reason": "주유소, 석유, 원유, 에너지 관련 기사로 한국석유공사의 석유유통 지원 사업과 관련 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 주유소 및 석유 유통 관련 업무와 관련 있음",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "ae432b2e4667f8b5",
+        "article_id": "cb038167feea2652",
+        "publisher": "경향신문",
+        "title": "‘서민연료’라는데···호르무즈 개방에도 ‘LPG 가격’ 오른다, 공급사도 소비자도 비명",
+        "url": "https://www.khan.co.kr/article/202606220600051",
+        "published_at": "2026-06-21T21:00:05.000Z",
+        "score": 0.95,
+        "segment_text": "LPG, 석유, 원유, 유가 관련 기사로 한국석유공사의 석유 수급 안정과 관련 있음",
+        "reason": "LPG, 석유, 원유, 유가 관련 기사로 한국석유공사의 석유 수급 안정과 관련 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, LPG 및 석유 유통 관련 업무와 관련 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "3df07cb0a7edf86a",
+        "article_id": "9852899e91e3b429",
+        "publisher": "경향신문",
+        "title": "본협상 파국 막은 중재국 카타르·파키스탄의 ‘셔틀 외교’",
+        "url": "https://www.khan.co.kr/article/202606222128005/",
+        "published_at": "2026-06-22T12:28:00.000Z",
+        "score": 0.9,
+        "segment_text": "에너지, LNG, 천연가스 관련 이슈로 한국석유공사의 사업과 관련이 있음, 특히 저탄소추진처의 에너지 전환 관련 업무",
+        "reason": "에너지, LNG, 천연가스 관련 이슈로 한국석유공사의 사업과 관련이 있음, 특히 저탄소추진처의 에너지 전환 관련 업무",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 포함",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "18291caab2266528",
+        "article_id": "e445fbe485223391",
+        "publisher": "경향신문",
+        "title": "본협상 파국 막은 중재국 카타르·파키스탄의 ‘셔틀 외교’",
+        "url": "https://www.khan.co.kr/article/202606222128005",
+        "published_at": "2026-06-22T12:28:00.000Z",
+        "score": 0.9,
+        "segment_text": "에너지, LNG, 천연가스 관련 이슈로 한국석유공사의 사업과 관련이 있음, 특히 저탄소추진처의 에너지 전환 관련 업무",
+        "reason": "에너지, LNG, 천연가스 관련 이슈로 한국석유공사의 사업과 관련이 있음, 특히 저탄소추진처의 에너지 전환 관련 업무",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 포함",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "c65ea1fac323306a",
+        "article_id": "180c0ee5bf15598f",
+        "publisher": "한겨레",
+        "title": "미 에너지장관 “이틀간 122척 통과…호르무즈 물동량 전쟁 전 수준”",
+        "url": "https://www.hani.co.kr/arti/international/arabafrica/1264707.html",
+        "published_at": "2026-06-22T07:26:00.000Z",
+        "score": 0.9,
+        "segment_text": "유가, 석유, 에너지 정보 제공으로 한국석유공사의 석유정보 서비스와 관련이 있음",
+        "reason": "유가, 석유, 에너지 정보 제공으로 한국석유공사의 석유정보 서비스와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 석유 및 에너지 관련 정보 제공 업무와 관련 있음",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.95,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "f5fa7d6ac6b9b074",
+        "article_id": "e8002bfbbb7dba97",
+        "publisher": "한겨레",
+        "title": "전기 생산 연료 LNG·석유 가격 올랐는데…한전 3분기에도 요금 동결",
+        "url": "https://www.hani.co.kr/arti/society/environment/1264694.html",
+        "published_at": "2026-06-22T06:49:00.000Z",
+        "score": 0.9,
+        "segment_text": "전기 생산 연료인 LNG, 석유 가격 상승 관련 기사로 한국석유공사의 석유 수급 안정과 관련 있음",
+        "reason": "전기 생산 연료인 LNG, 석유 가격 상승 관련 기사로 한국석유공사의 석유 수급 안정과 관련 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 전기 생산 연료 가격 상승 관련 업무와 관련 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "e78591bd18117e48",
+        "article_id": "5067f105ee46bce0",
+        "publisher": "경향신문",
+        "title": "SK에너지, 주유소 공급가 사전 고지하기로···“기름값 예측 가능성 강화”",
+        "url": "https://www.khan.co.kr/article/202606221346001",
+        "published_at": "2026-06-22T04:46:00.000Z",
+        "score": 0.9,
+        "segment_text": "주유소 공급가 사전 고지 관련 기사로 한국석유공사의 석유유통 지원 사업과 관련 있음",
+        "reason": "주유소 공급가 사전 고지 관련 기사로 한국석유공사의 석유유통 지원 사업과 관련 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 주유소 공급가 사전 고지 관련 업무와 관련 있음",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.95,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "2e077b4f302a41c1",
+        "article_id": "59fe4316707a5fce",
+        "publisher": "경향신문",
+        "title": "카타르 ‘최대 LNG 허브’ 라스라판 산단서 내부 폭발 사고…부상자 다수 발생",
+        "url": "https://www.khan.co.kr/article/202606220853001",
+        "published_at": "2026-06-21T23:53:00.000Z",
+        "score": 0.9,
+        "segment_text": "카타르의 LNG 허브에서 발생한 폭발 사고는 한국석유공사의 해외 자원 개발 및 에너지 안보와 관련 있음",
+        "reason": "카타르의 LNG 허브에서 발생한 폭발 사고는 한국석유공사의 해외 자원 개발 및 에너지 안보와 관련 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 해외 자원 개발 및 에너지 안보 관련 업무와 관련 있음",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "e0aafcca651d8e26",
+        "article_id": "88b6e31f702c1f21",
+        "publisher": "한겨레",
+        "title": "SK, 기름값 ‘사후정산제’ 폐지…주유소 공급가 사전고지·경유 50원↓",
+        "url": "https://www.hani.co.kr/arti/economy/marketing/1264704.html",
+        "published_at": "2026-06-22T07:15:00.000Z",
+        "score": 0.85,
+        "segment_text": "석유제품, 유통 관련 업무로 한국석유공사의 석유유통 지원 사업과 관련 있음",
+        "reason": "석유제품, 유통 관련 업무로 한국석유공사의 석유유통 지원 사업과 관련 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 석유제품 유통 관련 업무와 관련 있음",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "f79abbaf22670817",
+        "article_id": "dfad667ce32b565d",
+        "publisher": "경향신문",
+        "title": "이란 전쟁에 미국 61조 썼다···물가, 금리에도 줄줄이 충격",
+        "url": "https://www.khan.co.kr/article/202606221312001",
+        "published_at": "2026-06-22T04:12:00.000Z",
+        "score": 0.85,
+        "segment_text": "이란 전쟁 관련 비용이 물가와 금리에 미치는 영향에 대한 기사로, 한국석유공사의 석유 비축 및 전략 비축 사업과 관련이 있음",
+        "reason": "이란 전쟁 관련 비용이 물가와 금리에 미치는 영향에 대한 기사로, 한국석유공사의 석유 비축 및 전략 비축 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 포함",
+        "departments": [
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "25757337a9814c38",
+        "article_id": "1ae9d918a0dee5d9",
+        "publisher": "한겨레",
+        "title": "미-이란 첫 회담 80분 만에 종료…이란, 트럼프 위협 반발 협상장 떠나",
+        "url": "https://www.hani.co.kr/arti/international/arabafrica/1264608.html",
+        "published_at": "2026-06-21T21:49:00.000Z",
+        "score": 0.85,
+        "segment_text": "기사에서 석유, 원유, 석유제품 언급됨. 한국석유공사의 석유 수급 안정과 관련 있을 수 있음",
+        "reason": "기사에서 석유, 원유, 석유제품 언급됨. 한국석유공사의 석유 수급 안정과 관련 있을 수 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 포함",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "1b81ecb53b1dcb65",
+        "article_id": "4e1f59685c2b0d35",
+        "publisher": "경향신문",
+        "title": "‘전기차 생태계 적응’ 꿀팁 3가지",
+        "url": "https://www.khan.co.kr/article/202606222102005/",
+        "published_at": "2026-06-22T12:02:00.000Z",
+        "score": 0.8,
+        "segment_text": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음, 특히 스마트데이터센터의 유가 정보 제공과 유통사업처의 석유유통 관련 업무",
+        "reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음, 특히 스마트데이터센터의 유가 정보 제공과 유통사업처의 석유유통 관련 업무",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 포함",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "5967f7f1f2f616a0",
+        "article_id": "c430c09b37a1885b",
+        "publisher": "경향신문",
+        "title": "‘전기차 생태계 적응’ 꿀팁 3가지",
+        "url": "https://www.khan.co.kr/article/202606222102005",
+        "published_at": "2026-06-22T12:02:00.000Z",
+        "score": 0.8,
+        "segment_text": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음, 특히 스마트데이터센터의 유가 정보 제공과 유통사업처의 석유유통 관련 업무",
+        "reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음, 특히 스마트데이터센터의 유가 정보 제공과 유통사업처의 석유유통 관련 업무",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 포함",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "0fd8b20d67277b4a",
+        "article_id": "97f60e15bfb9abec",
+        "publisher": "경향신문",
+        "title": "한전, 3분기 전기요금 현행 유지···연료비 조정단가 ㎾h당 5원 유지",
+        "url": "https://www.khan.co.kr/article/202606220817001",
+        "published_at": "2026-06-21T23:17:00.000Z",
+        "score": 0.8,
+        "segment_text": "전기요금 동결 관련하여 에너지 가격과 관련이 있다.",
+        "reason": "전기요금 동결 관련하여 에너지 가격과 관련이 있다.",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 에너지 가격 관련 언급으로 관련 가능성이 있어 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "ddada9903df6be6f",
+        "article_id": "8b6124950f172b2f",
+        "publisher": "한겨레",
+        "title": "트럼프에 폭발 ‘옛 절친’ 멜로니…인증샷 설전은 거들 뿐, 진짜 파국 3장면",
+        "url": "https://www.hani.co.kr/arti/international/international_general/1264681.html",
+        "published_at": "2026-06-22T06:09:00.000Z",
+        "score": 0.7,
+        "segment_text": "유가, 에너지 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+        "reason": "유가, 에너지 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 유가, 에너지 관련 언급으로 관련 가능성이 있어 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "43caa83cf4bdf901",
+        "article_id": "0b2f457f25e2a942",
+        "publisher": "한겨레",
+        "title": "레바논 충돌방지기구·호르무즈 연락망 구축…첫발 뗀 미·이란 협상",
+        "url": "https://www.hani.co.kr/arti/international/arabafrica/1264679.html",
+        "published_at": "2026-06-22T06:03:00.000Z",
+        "score": 0.7,
+        "segment_text": "호르무즈해협 상선 통항 안전을 위한 연락 채널 구축은 석유 수급 안정과 관련이 있음",
+        "reason": "호르무즈해협 상선 통항 안전을 위한 연락 채널 구축은 석유 수급 안정과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 석유 수급 안정과 관련이 있어 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "51f6a7399938bcd3",
+        "article_id": "6e07793e8b1118ac",
+        "publisher": "한겨레",
+        "title": "미-이란, 호르무즈·레바논 해법 합의…첫 후속협상 18시간 만에 종료",
+        "url": "https://www.hani.co.kr/arti/international/arabafrica/1264677.html",
+        "published_at": "2026-06-22T05:50:00.000Z",
+        "score": 0.7,
+        "segment_text": "석유, 원유 언급으로 한국석유공사와 관련 가능성이 있음",
+        "reason": "석유, 원유 언급으로 한국석유공사와 관련 가능성이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 석유 관련 언급으로 관련 가능성이 있어 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "f75b622ef84516df",
+        "article_id": "879257edd7efdf9a",
+        "publisher": "한겨레",
+        "title": "미-이란, 스위스 협상 종료…“첫 시험대는 레바논 충돌 방지기구”",
+        "url": "https://www.hani.co.kr/arti/international/arabafrica/1264649.html",
+        "published_at": "2026-06-22T02:36:00.000Z",
+        "score": 0.7,
+        "segment_text": "석유, 원유 언급으로 한국석유공사와 관련 가능성이 있음",
+        "reason": "석유, 원유 언급으로 한국석유공사와 관련 가능성이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 석유 관련 언급으로 관련 가능성이 있어 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "2856b633c3660bca",
+        "article_id": "bf5a1a1fbbdb1fb4",
+        "publisher": "경향신문",
+        "title": "“석유화학업 고용 불안 여전”···울산시, 남구 고용위기 선제대응지역 기간 연장 논의",
+        "url": "https://www.khan.co.kr/article/202606221033001",
+        "published_at": "2026-06-22T01:33:00.000Z",
+        "score": 0.6,
+        "segment_text": "석유화학업 관련 고용 불안정 이슈로 한국석유공사와 간접적 관련이 있음",
+        "reason": "석유화학업 관련 고용 불안정 이슈로 한국석유공사와 간접적 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 석유화학업 관련 고용 이슈로 관련 가능성이 있어 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_review": {
+    "enabled": true,
+    "status": "partial",
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "analyzed_article_count": 147,
+    "brief_source_stage": "stage2",
+    "fallback_used": false,
+    "stages": {
+      "stage1": {
+        "enabled": true,
+        "status": "partial",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 415,
+        "analyzed_article_count": 383,
+        "candidate_count": 46,
+        "rejected_count": 109,
+        "warning_count": 29,
+        "error_count": 2
+      },
+      "stage2": {
+        "enabled": true,
+        "status": "partial",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 155,
+        "analyzed_article_count": 147,
+        "final_relevant_count": 24,
+        "final_rejected_count": 119,
+        "warning_count": 22,
+        "error_count": 1
+      }
+    }
+  },
+  "departments": [
+    {
+      "department_id": "secretariat",
+      "department": "비서팀",
+      "role": "사장 일정, 의전, 대내외 메시지, 지시사항 이행과 대외 접점 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "she",
+      "department": "SHE추진실",
+      "role": "전사 안전, 보건, 환경, 재난 대응, 중대재해 예방과 안전보건환경 관리체계를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "audit",
+      "department": "감사실",
+      "role": "감사계획과 감사 수행, 내부통제, 일상감사, 부패·비위 점검, 청렴 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "legal",
+      "department": "법무팀",
+      "role": "국내외 송무, 계약과 사업의 법률 검토, 규제 대응, 분쟁 대응, 지식재산권 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "planning_budget",
+      "department": "기획예산처",
+      "role": "이사회, 국회, 정부 대응, 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "strategy",
+      "department": "경영전략처",
+      "role": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+      "article_count": 4,
+      "segment_count": 4,
+      "items": [
+        {
+          "id": "ffa1f63857a90352",
+          "article_id": "9852899e91e3b429",
+          "publisher": "경향신문",
+          "title": "본협상 파국 막은 중재국 카타르·파키스탄의 ‘셔틀 외교’",
+          "url": "https://www.khan.co.kr/article/202606222128005/",
+          "published_at": "2026-06-22T12:28:00.000Z",
+          "score": 0.7,
+          "segment_text": "특히 파키스탄 중심으로 진행됐던 지난 4월 협상과 달리 이번에는 카타르가 합류하면서 양국 간 갈등이 파국으로 치닫는 것을 막고 있다.",
+          "reason": "글로벌 에너지 이슈에 대한 전략과 관련하여 한국석유공사의 경영전략과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종적으로 관련 기사 포함"
+        },
+        {
+          "id": "052187cf8135c2d9",
+          "article_id": "e445fbe485223391",
+          "publisher": "경향신문",
+          "title": "본협상 파국 막은 중재국 카타르·파키스탄의 ‘셔틀 외교’",
+          "url": "https://www.khan.co.kr/article/202606222128005",
+          "published_at": "2026-06-22T12:28:00.000Z",
+          "score": 0.7,
+          "segment_text": "종전 양해각서 서명 후 본협상에 돌입한 미국과 이란이 연일 강경 발언을 주고받고 있지만, 파키스탄과 카타르의 중재 노력이 협상 동력을 유지시키고 있다는 평가가 나온다.",
+          "reason": "글로벌 에너지 이슈에 대한 전략과 관련하여 한국석유공사의 경영전략과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종적으로 관련 기사 포함"
+        },
+        {
+          "id": "703bc198892821f7",
+          "article_id": "59fe4316707a5fce",
+          "publisher": "경향신문",
+          "title": "카타르 ‘최대 LNG 허브’ 라스라판 산단서 내부 폭발 사고…부상자 다수 발생",
+          "url": "https://www.khan.co.kr/article/202606220853001",
+          "published_at": "2026-06-21T23:53:00.000Z",
+          "score": 0.7,
+          "segment_text": "카타르 ‘최대 LNG 허브’ 라스라판 산단서 내부 폭발 사고…부상자 다수 발생",
+          "reason": "경영전략과 관련하여 에너지 시장 동향 파악 필요",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 해외 자원 개발 및 에너지 안보 관련 업무와 관련 있음"
+        },
+        {
+          "id": "758421b221f2c5f9",
+          "article_id": "97f60e15bfb9abec",
+          "publisher": "경향신문",
+          "title": "한전, 3분기 전기요금 현행 유지···연료비 조정단가 ㎾h당 5원 유지",
+          "url": "https://www.khan.co.kr/article/202606220817001",
+          "published_at": "2026-06-21T23:17:00.000Z",
+          "score": 0.6,
+          "segment_text": "한전, 3분기 전기요금 현행 유지···연료비 조정단가 ㎾h당 5원 유지",
+          "reason": "경영전략과 관련하여 에너지 시장 동향 파악 필요",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 에너지 가격 관련 언급으로 관련 가능성이 있어 최종적으로 포함함"
+        }
+      ]
+    },
+    {
+      "department_id": "finance",
+      "department": "재무처",
+      "role": "자금 조달과 상환, 자금 집행, 결산, 세무, 환율·금리·부채 등 재무 리스크 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "esg",
+      "department": "ESG경영처",
+      "role": "ESG 경영, 윤리·인권, 사회공헌, 동반성장, 상생, 내부통제 지원 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "infosec",
+      "department": "정보보안팀",
+      "role": "정보보안 정책과 운영, 개인정보보호, 사이버 침해 대응, 정보유출 예방 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "general_affairs",
+      "department": "총무처",
+      "role": "문서와 기록물, 자산, 사옥, 숙소, 조달계약, 구매, 시설관리, 비상대비 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hr",
+      "department": "인재경영처",
+      "role": "조직, 인사, 채용, 평가, 교육훈련, 급여, 복리후생, 노사관계와 인력 운영을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "smart_data",
+      "department": "스마트데이터센터",
+      "role": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
+      "article_count": 4,
+      "segment_count": 4,
+      "items": [
+        {
+          "id": "7301ddbd5bcac181",
+          "article_id": "180c0ee5bf15598f",
+          "publisher": "한겨레",
+          "title": "미 에너지장관 “이틀간 122척 통과…호르무즈 물동량 전쟁 전 수준”",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1264707.html",
+          "published_at": "2026-06-22T07:26:00.000Z",
+          "score": 0.95,
+          "segment_text": "미 에너지장관 “이틀간 122척 통과…호르무즈 물동량 전쟁 전 수준”",
+          "reason": "유가, 석유, 에너지 정보 제공 업무",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 석유 및 에너지 관련 정보 제공 업무와 관련 있음"
+        },
+        {
+          "id": "bbfb5b8b16ec8154",
+          "article_id": "4e1f59685c2b0d35",
+          "publisher": "경향신문",
+          "title": "‘전기차 생태계 적응’ 꿀팁 3가지",
+          "url": "https://www.khan.co.kr/article/202606222102005/",
+          "published_at": "2026-06-22T12:02:00.000Z",
+          "score": 0.9,
+          "segment_text": "거주지 내 완충 시설 확인공공 충전 멤버십 카드 발급하이패스 친환경 할인 등록",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종적으로 관련 기사 포함"
+        },
+        {
+          "id": "2b85b881a233a9df",
+          "article_id": "c430c09b37a1885b",
+          "publisher": "경향신문",
+          "title": "‘전기차 생태계 적응’ 꿀팁 3가지",
+          "url": "https://www.khan.co.kr/article/202606222102005",
+          "published_at": "2026-06-22T12:02:00.000Z",
+          "score": 0.9,
+          "segment_text": "전기차를 처음 구매하려는 사람이라면 차를 받기 전 반드시 확인해야 할 사항들이 있다.",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종적으로 관련 기사 포함"
+        },
+        {
+          "id": "19ce8aa34c5b7c81",
+          "article_id": "1ae9d918a0dee5d9",
+          "publisher": "한겨레",
+          "title": "미-이란 첫 회담 80분 만에 종료…이란, 트럼프 위협 반발 협상장 떠나",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1264608.html",
+          "published_at": "2026-06-21T21:49:00.000Z",
+          "score": 0.6,
+          "segment_text": "종전 양해각서(MOU) 서명 나흘 만에 열린 미국과 이란의 첫 후속 회담이 약 80분 만에 종료됐다.",
+          "reason": "국제 유가 영향을 받을 수 있는 국제 정세 기사로 유가 정보 제공 부서와 관련 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종적으로 관련 기사 포함"
+        }
+      ]
+    },
+    {
+      "department_id": "asia_business",
+      "department": "아시아사업처",
+      "role": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "americas_europe_business",
+      "department": "미주/유럽사업처",
+      "role": "미주와 유럽 지역 E&P 사업, 해외광구, Capex/Opex, 사업 손익, 자금수지 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "domestic_business_development",
+      "department": "국내사업개발처",
+      "role": "국내 자원개발 사업, 국내 대륙붕, 가스전, 탐사·시추, 신규 국내 사업개발을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "low_carbon",
+      "department": "저탄소추진처",
+      "role": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
+      "article_count": 3,
+      "segment_count": 3,
+      "items": [
+        {
+          "id": "746967f6f333b33b",
+          "article_id": "9852899e91e3b429",
+          "publisher": "경향신문",
+          "title": "본협상 파국 막은 중재국 카타르·파키스탄의 ‘셔틀 외교’",
+          "url": "https://www.khan.co.kr/article/202606222128005/",
+          "published_at": "2026-06-22T12:28:00.000Z",
+          "score": 0.8,
+          "segment_text": "종전 양해각서 서명 후 본협상에 돌입한 미국과 이란이 연일 강경 발언을 주고받고 있지만, 파키스탄과 카타르의 중재 노력이 협상 동력을 유지시키고 있다는 평가가 나온다.",
+          "reason": "저탄소 추진과 관련된 에너지 이슈로 한국석유공사의 저탄소 사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종적으로 관련 기사 포함"
+        },
+        {
+          "id": "41ba497a4d61463b",
+          "article_id": "e445fbe485223391",
+          "publisher": "경향신문",
+          "title": "본협상 파국 막은 중재국 카타르·파키스탄의 ‘셔틀 외교’",
+          "url": "https://www.khan.co.kr/article/202606222128005",
+          "published_at": "2026-06-22T12:28:00.000Z",
+          "score": 0.8,
+          "segment_text": "본협상 파국 막은 중재국 카타르·파키스탄의 ‘셔틀 외교’",
+          "reason": "저탄소 추진과 관련된 에너지 이슈로 한국석유공사의 저탄소 사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종적으로 관련 기사 포함"
+        },
+        {
+          "id": "f98e71c529bc0e27",
+          "article_id": "59fe4316707a5fce",
+          "publisher": "경향신문",
+          "title": "카타르 ‘최대 LNG 허브’ 라스라판 산단서 내부 폭발 사고…부상자 다수 발생",
+          "url": "https://www.khan.co.kr/article/202606220853001",
+          "published_at": "2026-06-21T23:53:00.000Z",
+          "score": 0.8,
+          "segment_text": "세계 최대 액화천연가스 허브인 카타르 라스라판 산업단지에서 내부 사고 폭발이 발생해 여러 명이 부상했다.",
+          "reason": "저탄소 추진과 관련된 에너지 전환 사업과 LNG 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 해외 자원 개발 및 에너지 안보 관련 업무와 관련 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "global_technology_center",
+      "department": "글로벌기술센터",
+      "role": "E&P 기술지원, 지질·저류층·시추 기술, 기술전략, 연구개발, 기술자료와 기술평가를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "stockpiling",
+      "department": "석유비축처",
+      "role": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당한다.",
+      "article_count": 2,
+      "segment_count": 2,
+      "items": [
+        {
+          "id": "92e29d99613c4a1e",
+          "article_id": "dfad667ce32b565d",
+          "publisher": "경향신문",
+          "title": "이란 전쟁에 미국 61조 썼다···물가, 금리에도 줄줄이 충격",
+          "url": "https://www.khan.co.kr/article/202606221312001",
+          "published_at": "2026-06-22T04:12:00.000Z",
+          "score": 0.9,
+          "segment_text": "이란 전쟁으로 미 국방부가 부담한 직접 비용만 약 400억달러에 달한다는 분석이 나왔다.",
+          "reason": "석유 비축 및 전략 비축 사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종적으로 관련 기사 포함"
+        },
+        {
+          "id": "a72e94e7a53db36f",
+          "article_id": "879257edd7efdf9a",
+          "publisher": "한겨레",
+          "title": "미-이란, 스위스 협상 종료…“첫 시험대는 레바논 충돌 방지기구”",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1264649.html",
+          "published_at": "2026-06-22T02:36:00.000Z",
+          "score": 0.6,
+          "segment_text": "석유",
+          "reason": "원유 언급으로 관련 가능성이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 석유 관련 언급으로 관련 가능성이 있어 최종적으로 포함함"
+        }
+      ]
+    },
+    {
+      "department_id": "petroleum_business",
+      "department": "석유사업처",
+      "role": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+      "article_count": 12,
+      "segment_count": 12,
+      "items": [
+        {
+          "id": "cfe62a98ba469ac0",
+          "article_id": "cb038167feea2652",
+          "publisher": "경향신문",
+          "title": "‘서민연료’라는데···호르무즈 개방에도 ‘LPG 가격’ 오른다, 공급사도 소비자도 비명",
+          "url": "https://www.khan.co.kr/article/202606220600051",
+          "published_at": "2026-06-21T21:00:05.000Z",
+          "score": 0.9,
+          "segment_text": "‘서민연료’라는데···호르무즈 개방에도 ‘LPG 가격’ 오른다, 공급사도 소비자도 비명",
+          "reason": "LPG, 석유, 원유, 유가 관련 언급이 있어 석유사업과 관련 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, LPG 및 석유 유통 관련 업무와 관련 있음"
+        },
+        {
+          "id": "c108a61bbbbf8198",
+          "article_id": "180c0ee5bf15598f",
+          "publisher": "한겨레",
+          "title": "미 에너지장관 “이틀간 122척 통과…호르무즈 물동량 전쟁 전 수준”",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1264707.html",
+          "published_at": "2026-06-22T07:26:00.000Z",
+          "score": 0.8,
+          "segment_text": "전쟁 이전에 육박하는 수준의 원유가 해협을 통과한 것으로 나타났다.",
+          "reason": "석유 수급, 가격 영향 분석",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 석유 및 에너지 관련 정보 제공 업무와 관련 있음"
+        },
+        {
+          "id": "4cd79fe5ab35f159",
+          "article_id": "88b6e31f702c1f21",
+          "publisher": "한겨레",
+          "title": "SK, 기름값 ‘사후정산제’ 폐지…주유소 공급가 사전고지·경유 50원↓",
+          "url": "https://www.hani.co.kr/arti/economy/marketing/1264704.html",
+          "published_at": "2026-06-22T07:15:00.000Z",
+          "score": 0.8,
+          "segment_text": "통상 월 단위로 이뤄지던 사후정산제를 폐지해, 국제유가 급등 시 가격 예측 가능성을 높이겠다는 취지다.",
+          "reason": "석유제품 거래, 가격 정책 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 석유제품 유통 관련 업무와 관련 있음"
+        },
+        {
+          "id": "c5890ab077b8412e",
+          "article_id": "e8002bfbbb7dba97",
+          "publisher": "한겨레",
+          "title": "전기 생산 연료 LNG·석유 가격 올랐는데…한전 3분기에도 요금 동결",
+          "url": "https://www.hani.co.kr/arti/society/environment/1264694.html",
+          "published_at": "2026-06-22T06:49:00.000Z",
+          "score": 0.8,
+          "segment_text": "전기 생산 연료 LNG·석유 가격 올랐는데…한전 3분기에도 요금 동결",
+          "reason": "석유 가격 상승 관련",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 전기 생산 연료 가격 상승 관련 업무와 관련 있음"
+        },
+        {
+          "id": "2f75ae073ea042ec",
+          "article_id": "f5774696a0c6d6e4",
+          "publisher": "경향신문",
+          "title": "최고가격제 시행 이후 처음 탄생한 ‘착하디착한 주유소’···어디에?",
+          "url": "https://www.khan.co.kr/article/202606221530001",
+          "published_at": "2026-06-22T06:30:00.000Z",
+          "score": 0.8,
+          "segment_text": "최고가격제 시행 이후 처음 탄생한 ‘착하디착한 주유소’···어디에?",
+          "reason": "석유, 원유 관련",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 주유소 및 석유 유통 관련 업무와 관련 있음"
+        },
+        {
+          "id": "c1b078a5a30edbf3",
+          "article_id": "8b6124950f172b2f",
+          "publisher": "한겨레",
+          "title": "트럼프에 폭발 ‘옛 절친’ 멜로니…인증샷 설전은 거들 뿐, 진짜 파국 3장면",
+          "url": "https://www.hani.co.kr/arti/international/international_general/1264681.html",
+          "published_at": "2026-06-22T06:09:00.000Z",
+          "score": 0.8,
+          "segment_text": "트럼프에 폭발 ‘옛 절친’ 멜로니…인증샷 설전은 거들 뿐, 진짜 파국 3장면",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "sentence",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 유가, 에너지 관련 언급으로 관련 가능성이 있어 최종적으로 포함함"
+        },
+        {
+          "id": "5d5e81ea7b33a802",
+          "article_id": "0b2f457f25e2a942",
+          "publisher": "한겨레",
+          "title": "레바논 충돌방지기구·호르무즈 연락망 구축…첫발 뗀 미·이란 협상",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1264679.html",
+          "published_at": "2026-06-22T06:03:00.000Z",
+          "score": 0.8,
+          "segment_text": "미국과 이란이 종전 양해각서(MOU) 이행을 위한 첫 후속 협상에서 고위급 위원회와 레바논 충돌방지기구를 설치하기로 했다. 호르무즈해협 상선 통항 안전을 위한 연락 채널도 둔다.",
+          "reason": "석유 수급 안정과 관련된 부서로 연결됨",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 석유 수급 안정과 관련이 있어 최종적으로 포함함"
+        },
+        {
+          "id": "a9cfccec085378f3",
+          "article_id": "6e07793e8b1118ac",
+          "publisher": "한겨레",
+          "title": "미-이란, 호르무즈·레바논 해법 합의…첫 후속협상 18시간 만에 종료",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1264677.html",
+          "published_at": "2026-06-22T05:50:00.000Z",
+          "score": 0.8,
+          "segment_text": "미국과 이란이 종전 양해각서(MOU) 이행을 위한 첫 후속 협상에서 고위급 위원회와 레바논 충돌방지기구를 설치하기로 했다. 호르무즈해협 상선 통항 안전을 위한 연락 채널도 둔다.",
+          "reason": "석유 수급 안정과 관련된 부서로 연결됨",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 석유 관련 언급으로 관련 가능성이 있어 최종적으로 포함함"
+        },
+        {
+          "id": "ee493f87d156e79a",
+          "article_id": "879257edd7efdf9a",
+          "publisher": "한겨레",
+          "title": "미-이란, 스위스 협상 종료…“첫 시험대는 레바논 충돌 방지기구”",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1264649.html",
+          "published_at": "2026-06-22T02:36:00.000Z",
+          "score": 0.8,
+          "segment_text": "미국과 이란이 종전 양해각서 이행을 위한 첫번째 후속 협상에서 고위급 위원회와 레바논 충돌방지기구를 설치하기로 하고, 이번주 기술 협상을 이어가기로 했다.",
+          "reason": "석유 수급 안정과 관련된 부서로 연결됨",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 석유 관련 언급으로 관련 가능성이 있어 최종적으로 포함함"
+        },
+        {
+          "id": "a2a69c90387b5a91",
+          "article_id": "1ae9d918a0dee5d9",
+          "publisher": "한겨레",
+          "title": "미-이란 첫 회담 80분 만에 종료…이란, 트럼프 위협 반발 협상장 떠나",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1264608.html",
+          "published_at": "2026-06-21T21:49:00.000Z",
+          "score": 0.8,
+          "segment_text": "미-이란 첫 회담 80분 만에 종료…이란, 트럼프 위협 반발 협상장 떠나",
+          "reason": "석유, 원유, 석유제품 관련 언급이 있어 석유사업과 관련 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종적으로 관련 기사 포함"
+        },
+        {
+          "id": "9344b8a99d407e65",
+          "article_id": "bf5a1a1fbbdb1fb4",
+          "publisher": "경향신문",
+          "title": "“석유화학업 고용 불안 여전”···울산시, 남구 고용위기 선제대응지역 기간 연장 논의",
+          "url": "https://www.khan.co.kr/article/202606221033001",
+          "published_at": "2026-06-22T01:33:00.000Z",
+          "score": 0.7,
+          "segment_text": "석유화학업 고용 불안 여전",
+          "reason": "석유화학업과 관련된 고용 이슈는 석유 사업과 관련이 있음",
+          "evidence_type": "sentence",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 석유화학업 관련 고용 이슈로 관련 가능성이 있어 최종적으로 포함함"
+        },
+        {
+          "id": "f78f693adcdc5651",
+          "article_id": "97f60e15bfb9abec",
+          "publisher": "경향신문",
+          "title": "한전, 3분기 전기요금 현행 유지···연료비 조정단가 ㎾h당 5원 유지",
+          "url": "https://www.khan.co.kr/article/202606220817001",
+          "published_at": "2026-06-21T23:17:00.000Z",
+          "score": 0.7,
+          "segment_text": "다음 달부터 적용되는 3분기 전기요금이 현재 수준에서 동결된다.",
+          "reason": "석유사업과 관련된 에너지 가격 변동",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 에너지 가격 관련 언급으로 관련 가능성이 있어 최종적으로 포함함"
+        }
+      ]
+    },
+    {
+      "department_id": "distribution_business",
+      "department": "유통사업처",
+      "role": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+      "article_count": 6,
+      "segment_count": 6,
+      "items": [
+        {
+          "id": "f151ad78c3968366",
+          "article_id": "5067f105ee46bce0",
+          "publisher": "경향신문",
+          "title": "SK에너지, 주유소 공급가 사전 고지하기로···“기름값 예측 가능성 강화”",
+          "url": "https://www.khan.co.kr/article/202606221346001",
+          "published_at": "2026-06-22T04:46:00.000Z",
+          "score": 0.95,
+          "segment_text": "SK에너지, 주유소 공급가 사전 고지하기로···“기름값 예측 가능성 강화”",
+          "reason": "석유유통 지원 사업과 관련 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 주유소 공급가 사전 고지 관련 업무와 관련 있음"
+        },
+        {
+          "id": "6800807a1ad483c5",
+          "article_id": "88b6e31f702c1f21",
+          "publisher": "한겨레",
+          "title": "SK, 기름값 ‘사후정산제’ 폐지…주유소 공급가 사전고지·경유 50원↓",
+          "url": "https://www.hani.co.kr/arti/economy/marketing/1264704.html",
+          "published_at": "2026-06-22T07:15:00.000Z",
+          "score": 0.9,
+          "segment_text": "SK, 기름값 ‘사후정산제’ 폐지…주유소 공급가 사전고지·경유 50원↓",
+          "reason": "석유유통, 주유소 공급 관련 업무",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 석유제품 유통 관련 업무와 관련 있음"
+        },
+        {
+          "id": "bd9439b053ddb2e6",
+          "article_id": "f5774696a0c6d6e4",
+          "publisher": "경향신문",
+          "title": "최고가격제 시행 이후 처음 탄생한 ‘착하디착한 주유소’···어디에?",
+          "url": "https://www.khan.co.kr/article/202606221530001",
+          "published_at": "2026-06-22T06:30:00.000Z",
+          "score": 0.9,
+          "segment_text": "최고가격제 시행 이후 처음 탄생한 ‘착하디착한 주유소’···어디에?",
+          "reason": "주유소, 석유 유통 관련",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 주유소 및 석유 유통 관련 업무와 관련 있음"
+        },
+        {
+          "id": "c15849eef2afc9c1",
+          "article_id": "4e1f59685c2b0d35",
+          "publisher": "경향신문",
+          "title": "‘전기차 생태계 적응’ 꿀팁 3가지",
+          "url": "https://www.khan.co.kr/article/202606222102005/",
+          "published_at": "2026-06-22T12:02:00.000Z",
+          "score": 0.7,
+          "segment_text": "주유소만 찾던 내연기관차 시절의 습관을 버리고, 새로운 전기차 생태계에 적응하기 위한 필수 지식들이다.",
+          "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종적으로 관련 기사 포함"
+        },
+        {
+          "id": "66c618a040f1647a",
+          "article_id": "c430c09b37a1885b",
+          "publisher": "경향신문",
+          "title": "‘전기차 생태계 적응’ 꿀팁 3가지",
+          "url": "https://www.khan.co.kr/article/202606222102005",
+          "published_at": "2026-06-22T12:02:00.000Z",
+          "score": 0.7,
+          "segment_text": "실제 설문조사 통계상 전기차 운전자의 73%는 급속 충전을 월 3회 미만 쓰고 대부분 집이나 회사에서 완속으로 해결한다고 한다.",
+          "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종적으로 관련 기사 포함"
+        },
+        {
+          "id": "b505920c11e9015f",
+          "article_id": "cb038167feea2652",
+          "publisher": "경향신문",
+          "title": "‘서민연료’라는데···호르무즈 개방에도 ‘LPG 가격’ 오른다, 공급사도 소비자도 비명",
+          "url": "https://www.khan.co.kr/article/202606220600051",
+          "published_at": "2026-06-21T21:00:05.000Z",
+          "score": 0.7,
+          "segment_text": "호르무즈 해협 봉쇄 해제와 정부의 무관세 정책에도 액화석유가스 공급 가격은 당분간 인상이 불가피할 전망이다.",
+          "reason": "LPG 유통과 관련 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, LPG 및 석유 유통 관련 업무와 관련 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "energy_infra",
+      "department": "에너지인프라사업처",
+      "role": "에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hydrogen_ammonia",
+      "department": "수소암모니아사업단",
+      "role": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    }
+  ]
+}

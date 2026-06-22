@@ -1,0 +1,70 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "da13ddefd32eb183",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "공공기관 언급으로 한국석유공사와 관련 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "대기업·공공기관 노동자",
+          "evidence_type": "paragraph",
+          "reason": "공공기관 언급으로 관련 가능성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "879257edd7efdf9a",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "석유, 원유 언급으로 한국석유공사와 관련 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "석유",
+          "evidence_type": "paragraph",
+          "reason": "석유 언급으로 관련 가능성이 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "원유",
+          "evidence_type": "paragraph",
+          "reason": "원유 언급으로 관련 가능성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "7ec6a7dbeca6d5c6",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "에너지 언급으로 한국석유공사와 관련 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "에너지",
+          "evidence_type": "paragraph",
+          "reason": "에너지 언급으로 관련 가능성이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

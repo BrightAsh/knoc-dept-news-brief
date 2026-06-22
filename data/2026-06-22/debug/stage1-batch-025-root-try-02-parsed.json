@@ -1,0 +1,98 @@
+{
+  "results": [
+    {
+      "article_id": "59fe4316707a5fce",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "카타르의 LNG 허브에서 발생한 폭발 사고는 한국석유공사의 해외 자원 개발 및 에너지 안보와 관련이 있다.",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "세계 최대 액화천연가스 허브인 카타르 라스라판 산업단지에서 내부 사고 폭발이 발생해 여러 명이 부상했다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 추진과 관련된 에너지 전환 사업과 LNG 관련 업무"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "카타르 ‘최대 LNG 허브’ 라스라판 산단서 내부 폭발 사고…부상자 다수 발생",
+          "evidence_type": "title",
+          "reason": "경영전략과 관련하여 에너지 시장 동향 파악 필요"
+        }
+      ]
+    },
+    {
+      "article_id": "367297beac4d6d77",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "에너지 언급 있지만 구체적인 관련 내용 없음",
+      "departments": []
+    },
+    {
+      "article_id": "97f60e15bfb9abec",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "전기요금 동결 관련하여 에너지 가격과 관련이 있다.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "다음 달부터 적용되는 3분기 전기요금이 현재 수준에서 동결된다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업과 관련된 에너지 가격 변동"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "한전, 3분기 전기요금 현행 유지···연료비 조정단가 ㎾h당 5원 유지",
+          "evidence_type": "title",
+          "reason": "경영전략과 관련하여 에너지 시장 동향 파악 필요"
+        }
+      ]
+    },
+    {
+      "article_id": "50d8874f93745453",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "이란의 호르무즈 해협 재봉쇄 선언은 원유 수급에 영향을 미칠 수 있다.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "도널드 트럼프 미국 행정부는 21일 이스라엘의 레바논 공습 지속에 반발한 이란이 호르무즈 해협 재봉쇄를 선언했음에도 해협에서 선박 통항이 지속되고 있다고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "원유 및 석유제품의 수급과 관련하여 해상 운송 영향"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "이란 호르무즈 재봉쇄 선언에도 미국 “67척 선박 해협 통과”",
+          "evidence_type": "title",
+          "reason": "비축유 관리와 관련하여 전략 비축유 운영"
+        }
+      ]
+    }
+  ]
+}

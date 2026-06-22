@@ -1,0 +1,159 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "94a840d5147a249f",
+      "final_relevant": false,
+      "confidence": 0.2,
+      "final_reason": "기사에 언급된 내용은 한국석유공사의 업무와 직접 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용이 유가 관련 언급 외에 한국석유공사와 직접 관련이 없어 최종적으로 제외함",
+      "departments": []
+    },
+    {
+      "article_id": "0b2f457f25e2a942",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "호르무즈해협 상선 통항 안전을 위한 연락 채널 구축은 석유 수급 안정과 관련이 있음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 석유 수급 안정과 관련이 있어 최종적으로 포함함",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "미국과 이란이 종전 양해각서(MOU) 이행을 위한 첫 후속 협상에서 고위급 위원회와 레바논 충돌방지기구를 설치하기로 했다. 호르무즈해협 상선 통항 안전을 위한 연락 채널도 둔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 수급 안정과 관련된 부서로 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "6e07793e8b1118ac",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "석유, 원유 언급으로 한국석유공사와 관련 가능성이 있음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 석유 관련 언급으로 관련 가능성이 있어 최종적으로 포함함",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "미국과 이란이 종전 양해각서(MOU) 이행을 위한 첫 후속 협상에서 고위급 위원회와 레바논 충돌방지기구를 설치하기로 했다. 호르무즈해협 상선 통항 안전을 위한 연락 채널도 둔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 수급 안정과 관련된 부서로 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "879257edd7efdf9a",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "석유, 원유 언급으로 한국석유공사와 관련 가능성이 있음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 석유 관련 언급으로 관련 가능성이 있어 최종적으로 포함함",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "미국과 이란이 종전 양해각서 이행을 위한 첫번째 후속 협상에서 고위급 위원회와 레바논 충돌방지기구를 설치하기로 하고, 이번주 기술 협상을 이어가기로 했다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 수급 안정과 관련된 부서로 연결됨"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "석유",
+          "evidence_type": "paragraph",
+          "reason": "원유 언급으로 관련 가능성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "1af97153f02363b6",
+      "final_relevant": false,
+      "confidence": 0.2,
+      "final_reason": "기사 내용이 유가와 관련이 있으나 한국석유공사와 직접 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용이 유가 관련 언급 외에 한국석유공사와 직접 관련이 없어 최종적으로 제외함",
+      "departments": []
+    },
+    {
+      "article_id": "8b6124950f172b2f",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "유가, 에너지 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 유가, 에너지 관련 언급으로 관련 가능성이 있어 최종적으로 포함함",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "트럼프에 폭발 ‘옛 절친’ 멜로니…인증샷 설전은 거들 뿐, 진짜 파국 3장면",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "bf5a1a1fbbdb1fb4",
+      "final_relevant": true,
+      "confidence": 0.6,
+      "final_reason": "석유화학업 관련 고용 불안정 이슈로 한국석유공사와 간접적 관련이 있음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 석유화학업 관련 고용 이슈로 관련 가능성이 있어 최종적으로 포함함",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "석유화학업 고용 불안 여전",
+          "evidence_type": "sentence",
+          "reason": "석유화학업과 관련된 고용 이슈는 석유 사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "97f60e15bfb9abec",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "전기요금 동결 관련하여 에너지 가격과 관련이 있다.",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 에너지 가격 관련 언급으로 관련 가능성이 있어 최종적으로 포함함",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "다음 달부터 적용되는 3분기 전기요금이 현재 수준에서 동결된다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업과 관련된 에너지 가격 변동"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "한전, 3분기 전기요금 현행 유지···연료비 조정단가 ㎾h당 5원 유지",
+          "evidence_type": "article",
+          "reason": "경영전략과 관련하여 에너지 시장 동향 파악 필요"
+        }
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,1873 @@
+{
+  "target_date": "2026-06-22",
+  "generated_at": "2026-06-22T18:54:22.964Z",
+  "analyzer": "stage1-llm",
+  "enabled": true,
+  "provider": "groq",
+  "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "status": "ok",
+  "requested_article_count": 415,
+  "analyzed_article_count": 383,
+  "batch_size": 16,
+  "errors": [
+    "Expected ',' or ']' after array element in JSON at position 4163 (line 132 column 6)",
+    "Expected ',' or ']' after array element in JSON at position 4325 (line 155 column 6)"
+  ],
+  "warnings": [
+    "stage1-batch-001-root-try-01 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 3s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 2s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-004-root-try-03 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 2s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-006-root-try-03 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 16s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 11s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 18s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 15s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 11s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 2s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 11s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300"
+  ],
+  "results": [
+    {
+      "article_id": "dbc541507e22ccbb",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "에너지 수급 관련 이슈로 한국석유공사의 역할과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "세계 최대 액화천연가스(LNG) 허브인 카타르의 라스라판 산업단지에서 큰 폭발 사고가 발생해, 국제 에너지 시장에 미칠 파장에 관심이 쏠리고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하는 스마트데이터센터의 업무와 관련이 있음"
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "세계 최대 액화천연가스(LNG) 허브인 카타르의 라스라판 산업단지에서 큰 폭발 사고가 발생해, 국제 에너지 시장에 미칠 파장에 관심이 쏠리고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 추진과 관련된 에너지 전환 사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "9852899e91e3b429",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "에너지, LNG, 천연가스 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "종전 양해각서 서명 후 본협상에 돌입한 미국과 이란이 연일 강경 발언을 주고받고 있지만, 파키스탄과 카타르의 중재 노력이 협상 동력을 유지시키고 있다는 평가가 나온다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 추진과 관련된 에너지 이슈로 한국석유공사의 저탄소 사업과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "특히 파키스탄 중심으로 진행됐던 지난 4월 협상과 달리 이번에는 카타르가 합류하면서 양국 간 갈등이 파국으로 치닫는 것을 막고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "글로벌 에너지 이슈에 대한 전략과 관련하여 한국석유공사의 경영전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "e445fbe485223391",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "에너지, LNG, 천연가스 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "본협상 파국 막은 중재국 카타르·파키스탄의 ‘셔틀 외교’",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 추진과 관련된 에너지 이슈로 한국석유공사의 저탄소 사업과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "종전 양해각서 서명 후 본협상에 돌입한 미국과 이란이 연일 강경 발언을 주고받고 있지만, 파키스탄과 카타르의 중재 노력이 협상 동력을 유지시키고 있다는 평가가 나온다.",
+          "evidence_type": "paragraph",
+          "reason": "글로벌 에너지 이슈에 대한 전략과 관련하여 한국석유공사의 경영전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "02f8f756b5f153bc",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "전기차 하면 먼저 이런 걱정들이 앞섰다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "‘비싸다’ ‘전자파가 해롭거나 감전될 수도 있다’ ‘불나면 다 죽는다’ 등등.",
+          "evidence_type": "paragraph",
+          "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "810cfd6bcf67034c",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "어서와~ 전기차는 처음이지? ‘전기차 알못’ 기자의 기아 EV3 동행기",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "폭우 속에서 충전할 때도 차량과 충전기가 완전히 체결되기 전까지 전류를 차단하는 다중 안전장치 등이 있어 전혀 문제가 없다고 한다.",
+          "evidence_type": "paragraph",
+          "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "4e1f59685c2b0d35",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "거주지 내 완충 시설 확인공공 충전 멤버십 카드 발급하이패스 친환경 할인 등록전기차를 처음 구매하려는 사람이라면 차를 받기 전 반드시 확인해야 할 사항들이 있다.",
+          "evidence_type": "paragraph",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "주유소만 찾던 내연기관차 시절의 습관을 버리고, 새로운 전기차 생태계에 적응하기 위한 필수 지식들이다.",
+          "evidence_type": "paragraph",
+          "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "c430c09b37a1885b",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "전기차를 처음 구매하려는 사람이라면 차를 받기 전 반드시 확인해야 할 사항들이 있다.",
+          "evidence_type": "paragraph",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "실제 설문조사 통계상 전기차 운전자의 73%는 급속 충전을 월 3회 미만 쓰고 대부분 집이나 회사에서 완속으로 해결한다고 한다.",
+          "evidence_type": "paragraph",
+          "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "38b276550b346c7b",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5be6320d0cb2d099",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "99cb48d74e91461c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "1e720a710c4a7b51",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "40d9e26efeb6cd02",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "bcc3ee6414e71879",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b2601fbfcdd38474",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "ceb04e1c2f6b49b3",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "768dfaa33764272b",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "7484e708b6818fe3",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "3454ccded23f9cd7",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "ff30842dc22fc7b0",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "76731cf224982441",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "23ce223173f17365",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "dbeac00ad6217ab5",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 이슈",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "위성·6G 통신 등에 전력사용 줄일 반도체 소자 개발",
+          "evidence_type": "paragraph",
+          "reason": "에너지 절감 기술 개발 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "449019e6671f8ada",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "eec6694b84e5208f",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "기사에서 정유와 관련된 내용이 언급되어 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "정유",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "1af97153f02363b6",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "기사 내용이 유가와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "유가",
+          "evidence_type": "paragraph",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하는 스마트데이터센터와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "5af1c643418bb56f",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "기사에서 탄소중립이 언급되어 에너지 전환 관련 업무와 연결될 수 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "탄소중립",
+          "evidence_type": "paragraph",
+          "reason": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당하는 저탄소추진처와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "bace702119169598",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "기사에서 유가가 언급되어 석유사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "유가",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "d2ebc7b2c1368c2f",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "카타르 라스라판 천연가스 단지 폭발사고로 인한 에너지 수급 영향 검토 필요",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "세계 최대 액화천연가스(LNG) 허브인 카타르의 라스라판 산업단지에서 큰 폭발 사고가 발생해, 국제 에너지 시장에 미칠 파장에 관심이 쏠리고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하는 스마트데이터센터의 업무와 관련"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "세계 최대 액화천연가스(LNG) 허브인 카타르의 라스라판 산업단지에서 큰 폭발 사고가 발생해, 국제 에너지 시장에 미칠 파장에 관심이 쏠리고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처의 업무와 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "18da654f0ca68ab1",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 인사 정보 제공",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "6월23일 인사",
+          "evidence_type": "article",
+          "reason": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당하는 경영전략처의 업무와 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "5e641f5ef92bf0e5",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "에너지, 수소 언급 있지만 기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "e2f992b3cdcab572",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "470e5db214ad1e05",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "82bad4a514d34c3c",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "b8d8629bf338e7ce",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "f6b84665cb3bfdf4",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "유가 언급 있지만 기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "8dbdb61a9e6bd14d",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "에너지 언급이 있고 국정 지지율 관련 정책 기사이므로 한국석유공사와 간접 관련 가능성이 있습니다.",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "대통령 국정지지도 ‘데드크로스’ 첫 역전…“당청·당내 갈등에 민심 달랠 정책은 없다” 여당 목소리",
+          "evidence_type": "article",
+          "reason": "국정 운영과 정책 관련 부서이므로 에너지 정책 관련 언급에 주목할 필요가 있습니다."
+        }
+      ]
+    },
+    {
+      "article_id": "9848c03b06d6022c",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "유가 언급 있지만 기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "6a6f27b8221287f9",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "20e083d83f563a08",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "a3848e66af482d36",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "300c37749013b540",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "74e0d106d48f10c8",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "56f0b760795c8997",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "c00935a7719997b2",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "6400022c63a04b65",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유 가격 상승이 중소기업에 미치는 영향에 대한 기사가 있어 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "중동 전쟁 후 원재료인 석유화학 제품 가격이 평균 30%, 최대 50% 뛰면서 수익성 악화에 직면했다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 가격 상승이 중소기업에 미치는 영향에 대한 기사로 석유사업처와 관련이 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "중동 전쟁 후 원재료인 석유화학 제품 가격이 평균 30%, 최대 50% 뛰면서 수익성 악화에 직면했다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 가격 상승에 따른 영향 분석이 필요한 스마트데이터센터와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "9d2cee3d7f799a81",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "공공기관이라는 키워드가 등장하지만 기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "b103fff846e9f1f8",
+      "candidate": false,
+      "confidence": 0.3,
+      "company_reason": "에너지라는 키워드가 등장하지만 기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "4721fb3a1406237c",
+      "candidate": false,
+      "confidence": 0.2,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "2bea8b4be801a8d2",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "c035b783a279633d",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "67cf48f5f6bf6277",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "b7c05f2001e4f1d4",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "236336a9c5a2bace",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "98c1458a0cc0eb90",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "337ed185e775b94c",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "5a8174880b057b4a",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "1ab55e761613fc2a",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "350228ddece0c1f9",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "6aef20cac1969dbc",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "320d10ce74a1e25f",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "58b404a3c6fa2eb6",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "18e26b53232134f8",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "a32bee219f1bb335",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "53dd6871b9238e99",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "11270f84848b5f79",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "12932ac3b0b57172",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "696683e974face71",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "7182a62d29cfa224",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "626d5fbbf69df946",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b6294e991a7cfd8d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d7336f115a383310",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "사이버 위협 탐지 관련 공공기관 언급",
+      "departments": [
+        {
+          "department_id": "infosec",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "다크웹·딥페이크 등 정보 수집·분석해 사이버 위협 탐지",
+          "evidence_type": "paragraph",
+          "reason": "정보보안팀 역할과 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "c05c73819f2f8f13",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "dbb298519df9792a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "626862458ffb50bb",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "6f1ff27f3e15730c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "180c0ee5bf15598f",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유, 유가, 에너지 관련 정보 제공",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미 에너지장관 “이틀간 122척 통과…호르무즈 물동량 전쟁 전 수준”",
+          "evidence_type": "article",
+          "reason": "유가, 석유, 에너지 정보 제공 업무"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "전쟁 이전에 육박하는 수준의 원유가 해협을 통과한 것으로 나타났다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 수급, 가격 영향 분석"
+        }
+      ]
+    },
+    {
+      "article_id": "88b6e31f702c1f21",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "석유제품, 유통 관련 업무",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "SK, 기름값 ‘사후정산제’ 폐지…주유소 공급가 사전고지·경유 50원↓",
+          "evidence_type": "article",
+          "reason": "석유유통, 주유소 공급 관련 업무"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "통상 월 단위로 이뤄지던 사후정산제를 폐지해, 국제유가 급등 시 가격 예측 가능성을 높이겠다는 취지다.",
+          "evidence_type": "paragraph",
+          "reason": "석유제품 거래, 가격 정책 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "b03157ad99f41139",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "119ccdfb7a354a47",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d80a51c412e9db55",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2ca976fd84d63d36",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "a5ca7f3e858c3d59",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "9e89cc283bc09b75",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "30477d39bf99c3ea",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "3d1a11d560d44504",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "6f1e6fe74b98a91d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e943d793ffbf9041",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "8b5ad7b2dfe5019c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "dd1ff8cf27d58a7d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b5c62852cf39e1e4",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "0edb406c57920732",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "3f260f9185f155fd",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e0fdcad42ae13f09",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e8002bfbbb7dba97",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "전기 생산 연료인 LNG, 석유 가격 상승 관련",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "전기 생산 연료 LNG·석유 가격 올랐는데…한전 3분기에도 요금 동결",
+          "evidence_type": "paragraph",
+          "reason": "석유 가격 상승 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "f5774696a0c6d6e4",
+      "candidate": true,
+      "confidence": 0.95,
+      "company_reason": "주유소, 석유, 원유, 에너지 관련",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "최고가격제 시행 이후 처음 탄생한 ‘착하디착한 주유소’···어디에?",
+          "evidence_type": "paragraph",
+          "reason": "주유소, 석유 유통 관련"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "최고가격제 시행 이후 처음 탄생한 ‘착하디착한 주유소’···어디에?",
+          "evidence_type": "paragraph",
+          "reason": "석유, 원유 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "42a4b03c2059222b",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "에너지 관련이지만 구체적인 연결 고리가 없음",
+      "departments": []
+    },
+    {
+      "article_id": "b12dd2db8c401a58",
+      "candidate": false,
+      "confidence": 0.3,
+      "company_reason": "에너지 관련이지만 구체적인 연결 고리가 없음",
+      "departments": []
+    },
+    {
+      "article_id": "bd2dc9e3948c5e5f",
+      "candidate": false,
+      "confidence": 0.2,
+      "company_reason": "에너지 관련이지만 구체적인 연결 고리가 없음",
+      "departments": []
+    },
+    {
+      "article_id": "94a840d5147a249f",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유가 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "유가",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "d0b7316a420be511",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "에너지",
+          "evidence_type": "sentence",
+          "reason": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "8b6124950f172b2f",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "유가, 에너지 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "유가, 에너지",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "7841561246c5a234",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유, 원유 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "석유, 원유",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "dc1201307ad25cf2",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "석유",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "621c09a9039ee172",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지, LNG, 천연가스 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "에너지, LNG, 천연가스",
+          "evidence_type": "sentence",
+          "reason": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "0b2f457f25e2a942",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "석유 관련 언급으로 한국석유공사와 연결됨",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "미국과 이란이 종전 양해각서(MOU) 이행을 위한 첫 후속 협상에서 고위급 위원회와 레바논 충돌방지기구를 설치하기로 했다. 호르무즈해협 상선 통항 안전을 위한 연락 채널도 둔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 수급 안정과 관련된 부서로 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "6e07793e8b1118ac",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "석유 관련 언급으로 한국석유공사와 연결됨",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "미국과 이란이 종전 양해각서(MOU) 이행을 위한 첫 후속 협상에서 고위급 위원회와 레바논 충돌방지기구를 설치하기로 했다. 호르무즈해협 상선 통항 안전을 위한 연락 채널도 둔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 수급 안정과 관련된 부서로 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "ce9d9238f8d11f63",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지 관련 언급으로 한국석유공사와 연결됨",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "현재 국내 바이오매스(나무땔감) 공급량이 생태·경제적으로 지속가능한 수준의 18배에 이르는 것으로 추산됐다. 바이오매스를 친환경 재생에너지로 분류해 정부가 보조금을 지급하기 때문이다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 전환과 관련된 부서로 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "f9feaaed286f4bb4",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "에너지 관련 언급으로 한국석유공사와 연결됨",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "■기후에너지환경부 ◇과장급 전보 △녹색전환정책관실 기후에너지환경교육팀장 김태훈 △물관리위원회지원단 심의지원소통팀장 기대정 △국립생물자원관 운영관리과장 정지민",
+          "evidence_type": "paragraph",
+          "reason": "에너지 정책과 관련된 부서로 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "4c9c2b66aeb1366b",
+      "candidate": true,
+      "confidence": 0.4,
+      "company_reason": "공공기관 관련 언급으로 한국석유공사와 연결됨",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.5,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "지난 11일 88세를 일기로 세상을 떠난 영국의 현대미술 거장 데이비드 호크니의 장례식이 단 두 명만 참석한 채 비공개로 치러졌다.",
+          "evidence_type": "paragraph",
+          "reason": "공공기관 운영과 관련된 부서로 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "8b03f11c630b8798",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "에너지 바우처 지원 언급",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "임산부에게 진료비와 에너지 바우처 등을 지원하는 '맘편한 임신' 서비스에 대리 신청제도가 도입되고, 지원 대상에 미숙아 출산 가정이 추가된다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 바우처 지원 사업 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "4188ff19c7679ff0",
+      "candidate": false,
+      "confidence": 0.2,
+      "company_reason": "석유 언급 있지만 관련성 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "5067f105ee46bce0",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 공급가 사전 고지 관련 기사로, 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "SK에너지가 주유소에 공급하는 공급가를 일주일 단위로 사전에 고지하기로 했다.",
+          "evidence_type": "paragraph",
+          "reason": "석유유통 지원 사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "dfad667ce32b565d",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "이란 전쟁 관련 비용이 물가와 금리에 미치는 영향에 대한 기사로, 한국석유공사의 석유 비축 및 전략 비축 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "이란 전쟁으로 미 국방부가 부담한 직접 비용만 약 400억달러에 달한다는 분석이 나왔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 비축 및 전략 비축 사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "a2784dc84182aeab",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "afdef7b3ee7fe74a",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "635ac6d83174a1f7",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "16e551638376cc49",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "74e31dbca67002ef",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "d4c2b42bea44c056",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "ec710d5a86be4436",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "0b021daf5ac30584",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "7d52ba771dec45c0",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "62297ed788c22831",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "69f870e8f1c099c3",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "25f23fcb074a00e8",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "956e0a5632b722cb",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "fa4e248ae706d9ce",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "da13ddefd32eb183",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "공공기관 언급으로 한국석유공사와 관련 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "대기업·공공기관 노동자",
+          "evidence_type": "paragraph",
+          "reason": "공공기관 언급으로 관련 가능성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "879257edd7efdf9a",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "석유, 원유 언급으로 한국석유공사와 관련 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "석유",
+          "evidence_type": "paragraph",
+          "reason": "석유 언급으로 관련 가능성이 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "원유",
+          "evidence_type": "paragraph",
+          "reason": "원유 언급으로 관련 가능성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "7ec6a7dbeca6d5c6",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "에너지 언급으로 한국석유공사와 관련 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "에너지",
+          "evidence_type": "paragraph",
+          "reason": "에너지 언급으로 관련 가능성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "8ce0d027f37d400f",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "임진왜란 정보 실패 기사로 한국석유공사와 관련이 없다.",
+      "departments": []
+    },
+    {
+      "article_id": "93bb5211ceb7bc17",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유 수급 관련 기사로 보인다.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국과 이란의 종전을 위한 첫 후속 협상이 종료됐다고 중재국 카타르와 파키스탄이 22일 공동성명을 통해 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 수급에 영향을 미치는 국제 협상 기사로 석유사업처의 업무와 관련이 있다."
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국과 이란의 종전을 위한 첫 후속 협상이 종료됐다고 중재국 카타르와 파키스탄이 22일 공동성명을 통해 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 수급에 영향을 미치는 국제 협상 기사로 경영전략처의 업무와도 관련이 있다."
+        }
+      ]
+    },
+    {
+      "article_id": "bf5a1a1fbbdb1fb4",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "석유화학업 관련 고용 불안정 이슈로 한국석유공사와 간접적 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "석유화학업 고용 불안 여전",
+          "evidence_type": "sentence",
+          "reason": "석유화학업과 관련된 고용 이슈는 석유 사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "5267effa27201815",
+      "candidate": false,
+      "confidence": 0.3,
+      "company_reason": "산업부 장관 언급이지만 직접적 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "340708496a119532",
+      "candidate": false,
+      "confidence": 0.2,
+      "company_reason": "환경 관련 이슈로 직접적 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "cff3c330f792ef3a",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "식품 관련 이슈로 직접적 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "5f4305c26e713473",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "정치 이슈로 직접적 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "e9d48fe4d6874a50",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "정치 이슈로 직접적 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "26b6c4f041f78013",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "정치 이슈로 직접적 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "eb132692e635424e",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "문화 행사로 직접적 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "df2d22137fec7491",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "인권 이슈로 직접적 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "b5ef3cb2797591ea",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "여행 정보 서비스로 직접적 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "bc404d6845eaeacd",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "국제 정치 이슈로 직접적 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "f1cd9ec3ba03d4d4",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "개인정보 유출 이슈로 직접적 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "a124b2aa74d8fbf5",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "스포츠 이슈로 직접적 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "dce0946176978bfa",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "국제 정치 이슈로 직접적 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "a660fdc78e62ab68",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "개인정보 유출 이슈로 직접적 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "0844b6da4968fb4b",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "개인정보 유출 이슈로 직접적 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "59fe4316707a5fce",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "카타르의 LNG 허브에서 발생한 폭발 사고는 한국석유공사의 해외 자원 개발 및 에너지 안보와 관련이 있다.",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "세계 최대 액화천연가스 허브인 카타르 라스라판 산업단지에서 내부 사고 폭발이 발생해 여러 명이 부상했다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 추진과 관련된 에너지 전환 사업과 LNG 관련 업무"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "카타르 ‘최대 LNG 허브’ 라스라판 산단서 내부 폭발 사고…부상자 다수 발생",
+          "evidence_type": "article",
+          "reason": "경영전략과 관련하여 에너지 시장 동향 파악 필요"
+        }
+      ]
+    },
+    {
+      "article_id": "367297beac4d6d77",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "에너지 언급 있지만 구체적인 관련 내용 없음",
+      "departments": []
+    },
+    {
+      "article_id": "97f60e15bfb9abec",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "전기요금 동결 관련하여 에너지 가격과 관련이 있다.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "다음 달부터 적용되는 3분기 전기요금이 현재 수준에서 동결된다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업과 관련된 에너지 가격 변동"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "한전, 3분기 전기요금 현행 유지···연료비 조정단가 ㎾h당 5원 유지",
+          "evidence_type": "article",
+          "reason": "경영전략과 관련하여 에너지 시장 동향 파악 필요"
+        }
+      ]
+    },
+    {
+      "article_id": "50d8874f93745453",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "이란의 호르무즈 해협 재봉쇄 선언은 원유 수급에 영향을 미칠 수 있다.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "도널드 트럼프 미국 행정부는 21일 이스라엘의 레바논 공습 지속에 반발한 이란이 호르무즈 해협 재봉쇄를 선언했음에도 해협에서 선박 통항이 지속되고 있다고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "원유 및 석유제품의 수급과 관련하여 해상 운송 영향"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "이란 호르무즈 재봉쇄 선언에도 미국 “67척 선박 해협 통과”",
+          "evidence_type": "article",
+          "reason": "비축유 관리와 관련하여 전략 비축유 운영"
+        }
+      ]
+    },
+    {
+      "article_id": "ed4f8fea82b75eb5",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "기사에서 원유, 유가 언급됨. 한국석유공사의 석유 수급 안정과 관련 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "얻은 것 없이 이란에 ‘퍼주기’만 한 트럼프",
+          "evidence_type": "paragraph",
+          "reason": "원유, 유가 관련 언급이 있어 석유사업과 관련 있을 수 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "세계를 혼란의 도가니로 몰아넣은 미국과 이란의 전쟁이 지난 17일 종료 수순에 돌입했습니다.",
+          "evidence_type": "paragraph",
+          "reason": "국제 유가 영향을 받을 수 있는 국제 정세 기사로 유가 정보 제공 부서와 관련 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "1ae9d918a0dee5d9",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "기사에서 석유, 원유, 석유제품 언급됨. 한국석유공사의 석유 수급 안정과 관련 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "미-이란 첫 회담 80분 만에 종료…이란, 트럼프 위협 반발 협상장 떠나",
+          "evidence_type": "paragraph",
+          "reason": "석유, 원유, 석유제품 관련 언급이 있어 석유사업과 관련 있을 수 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "종전 양해각서(MOU) 서명 나흘 만에 열린 미국과 이란의 첫 후속 회담이 약 80분 만에 종료됐다.",
+          "evidence_type": "paragraph",
+          "reason": "국제 유가 영향을 받을 수 있는 국제 정세 기사로 유가 정보 제공 부서와 관련 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "cb038167feea2652",
+      "candidate": true,
+      "confidence": 0.95,
+      "company_reason": "기사에서 LPG, 석유, 원유, 유가 언급됨. 한국석유공사의 석유 수급 안정과 관련 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "‘서민연료’라는데···호르무즈 개방에도 ‘LPG 가격’ 오른다, 공급사도 소비자도 비명",
+          "evidence_type": "paragraph",
+          "reason": "LPG, 석유, 원유, 유가 관련 언급이 있어 석유사업과 관련 있을 수 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "호르무즈 해협 봉쇄 해제와 정부의 무관세 정책에도 액화석유가스 공급 가격은 당분간 인상이 불가피할 전망이다.",
+          "evidence_type": "paragraph",
+          "reason": "LPG 유통과 관련 있을 수 있음"
+        }
+      ]
+    }
+  ],
+  "candidate_count": 46,
+  "rejected_count": 109
+}

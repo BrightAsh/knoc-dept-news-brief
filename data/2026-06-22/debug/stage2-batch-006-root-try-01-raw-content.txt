@@ -1,0 +1,81 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "da13ddefd32eb183",
+      "final_relevant": false,
+      "confidence": 0.2,
+      "final_reason": "공공기관 언급 있지만 기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "8dbdb61a9e6bd14d",
+      "final_relevant": false,
+      "confidence": 0.3,
+      "final_reason": "에너지 언급 있지만 기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "f9feaaed286f4bb4",
+      "final_relevant": false,
+      "confidence": 0.2,
+      "final_reason": "에너지 관련 언급 있지만 기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "4c9c2b66aeb1366b",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "공공기관 언급 있지만 기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "8b03f11c630b8798",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 바우처 지원 언급으로 한국석유공사 유통사업처와 관련이 있습니다.",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "임산부에게 진료비와 에너지 바우처 등을 지원하는 '맘편한 임신' 서비스에 대리 신청제도가 도입되고, 지원 대상에 미숙아 출산 가정이 추가된다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 바우처 지원 사업 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "7ec6a7dbeca6d5c6",
+      "final_relevant": false,
+      "confidence": 0.4,
+      "final_reason": "에너지 언급 있지만 기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "f6b84665cb3bfdf4",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "유가 언급 있지만 기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "review_note": "D 그룹 유지",
+      "departments": []
+    },
+    {
+      "article_id": "8ce0d027f37d400f",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "정유 언급 있지만 기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "review_note": "D 그룹 유지",
+      "departments": []
+    }
+  ]
+}
+```

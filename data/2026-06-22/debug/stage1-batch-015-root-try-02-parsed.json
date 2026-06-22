@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "article_id": "180c0ee5bf15598f",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유, 유가, 에너지 관련 정보 제공",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미 에너지장관 “이틀간 122척 통과…호르무즈 물동량 전쟁 전 수준”",
+          "evidence_type": "article",
+          "reason": "유가, 석유, 에너지 정보 제공 업무"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "전쟁 이전에 육박하는 수준의 원유가 해협을 통과한 것으로 나타났다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 수급, 가격 영향 분석"
+        }
+      ]
+    },
+    {
+      "article_id": "88b6e31f702c1f21",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "석유제품, 유통 관련 업무",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "SK, 기름값 ‘사후정산제’ 폐지…주유소 공급가 사전고지·경유 50원↓",
+          "evidence_type": "article",
+          "reason": "석유유통, 주유소 공급 관련 업무"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "통상 월 단위로 이뤄지던 사후정산제를 폐지해, 국제유가 급등 시 가격 예측 가능성을 높이겠다는 취지다.",
+          "evidence_type": "paragraph",
+          "reason": "석유제품 거래, 가격 정책 관련 업무"
+        }
+      ]
+    }
+  ]
+}
