@@ -1,0 +1,76 @@
+{
+  "results": [
+    {
+      "article_id": "72b3261098cbb78d",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "원유 수출 제재와 관련된 기사로, 한국석유공사의 석유 수급 안정 업무와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국이 이란의 돈줄을 죄던 원유 수출 제재를 휴전 기간인 60일 동안 면제했다.",
+          "evidence_type": "paragraph",
+          "reason": "원유 수출 제재와 관련된 내용으로 석유사업처의 업무와 직접 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "f8523690df63e72e",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "윤활유 담합 의혹과 관련된 기사로, 한국석유공사의 석유 유통 업무와 간접적으로 관련이 있음",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "공정거래위원회가 2조원대의 윤활유 담합 의혹에 대한 심의에 착수했다.",
+          "evidence_type": "paragraph",
+          "reason": "윤활유 담합 의혹은 석유 유통 업무와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "b3706ccca0b1f93f",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "환율과 관련된 기사로, 한국석유공사의 재무 업무와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "finance",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "이재명 대통령이 23일 고환율과 관련해 “(달러·원 환율이) 1500원 중반대는 펀더멘털에 비해 과하다”고 말했다.",
+          "evidence_type": "paragraph",
+          "reason": "환율과 관련된 내용으로 재무 업무와 직접 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "ca155b25290442bc",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "코스피·코스닥 급락과 관련된 기사로, 한국석유공사의 투자 업무와 간접적으로 관련이 있음",
+      "departments": [
+        {
+          "department_id": "finance",
+          "relevance_score": 0.4,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "23일 코스피가 5%대 급락하며 매도 사이드카가 발동했다.",
+          "evidence_type": "paragraph",
+          "reason": "투자 업무와 관련이 있을 수 있음"
+        }
+      ]
+    }
+  ]
+}

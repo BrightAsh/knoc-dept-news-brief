@@ -1,0 +1,54 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "fe65eb3299ad75cd",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 최고가격을 내릴 유인에 대해 언급하여 한국석유공사의 석유사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "김정관 산업부 장관이 최근 국제 유가가 하락함에 따라 석유 최고가격을 내릴 유인은 있다며 내리는 방안을 검토 중이라고 밝혔다. 그는 국제 유가가 내림세에 있지만 프리미엄 가격은 중동전쟁 전 0.5달러 수준이었는데 현재 20달러대에 거래되고 있다면서도 \"현 유가 수준은 전쟁에 대비해 내려온 상황이라 어느 정도 최고가격 자체를 내릴 유인이 있다고 생각하고 검토 중\"이라고 말했다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 최고가격을 내릴 유인에 대해 언급하여 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "김정관 산업부 장관 “석유 최고가격 내릴 유인 있다”",
+          "evidence_type": "title",
+          "reason": "석유 최고가격 정책과 관련하여 한국석유공사의 경영전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "259dadc36e25393b",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "공기업과 에너지 관련 언급으로 한국석유공사와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "코스피 지수가 사상 첫 9000선을 돌파하며 1년 전보다 3배 가까이 급등하고 상법이 세 차례나 개정됐지만 국내 상장사들의 '주주친화 경영'은 제자리 걸음을 걷고 있는 것으로 나타났다.",
+          "evidence_type": "paragraph",
+          "reason": "공기업과 에너지 관련 언급으로 한국석유공사의 경영전략과 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

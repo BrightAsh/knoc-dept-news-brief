@@ -1,0 +1,42 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "d7195c0a3abf6f8a",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2e9e80dafd3c785d",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "전국 석탄화력발전소의 절반이 집중된 충남에서 통합 발전공기업 본사 유치 목소리가 커지고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 전환 및 저탄소 사업과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "전기는 충남이 만들고 이익은 다른 지역에···통합 발전공기업 유치 절실한 이유",
+          "evidence_type": "title, paragraph",
+          "reason": "경영전략과 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

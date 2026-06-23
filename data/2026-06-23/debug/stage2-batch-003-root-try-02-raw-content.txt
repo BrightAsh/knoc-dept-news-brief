@@ -1,0 +1,126 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "3039c44d77f986f4",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "에너지 관련 기사이나 한국석유공사의 직접적인 언급이 없어 관련성이 낮음",
+      "review_note": "C 그룹에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "9cfe2bfaf6287fd3",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 정책 언급이나 직접적인 관련성이 없어 제외",
+      "review_note": "C 그룹에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "797c885e512e8a89",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 정책 언급이나 직접적인 관련성이 없어 제외",
+      "review_note": "C 그룹에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "febec72d4455bc52",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "원유와 관련이 있으며, 한국석유공사의 석유사업과 연결될 가능성이 있음",
+      "review_note": "C 그룹에서 유지",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "라파엘 그로시 국제원자력기구 사무총장이 이란 핵 시설에 대한 IAEA의 사찰이 필요하다고 23일 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "원유와 석유사업 간의 관련성"
+        }
+      ]
+    },
+    {
+      "article_id": "576ad8d3c9c96ac7",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "유가 관련 기사이나 직접적인 관련성이 낮음",
+      "review_note": "C 그룹에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "2a0554d824590f08",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "유가, 국제유가 언급으로 에너지 가격과 관련된 기사로 보임",
+      "review_note": "C 그룹에서 유지",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미 달러화에 대한 원화 환율이 23일에도 상승세를 이어가며 1540원대에 육박했다.",
+          "evidence_type": "paragraph",
+          "reason": "유가와 관련된 경제 지표이므로 스마트데이터센터의 유가 정보 서비스와 관련"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미 달러화에 대한 원화 환율이 23일에도 상승세를 이어가며 1540원대에 육박했다.",
+          "evidence_type": "paragraph",
+          "reason": "원달러 환율과 유가 상승은 석유사업 전략에 영향"
+        }
+      ]
+    },
+    {
+      "article_id": "82a9f0e004fae0df",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "유가 언급으로 에너지 가격과 관련된 기사이나 직접적인 관련성이 낮음",
+      "review_note": "C 그룹에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "2e9e80dafd3c785d",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+      "review_note": "C 그룹에서 유지",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "전국 석탄화력발전소의 절반이 집중된 충남에서 통합 발전공기업 본사 유치 목소리가 커지고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 전환 및 저탄소 사업과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "전기는 충남이 만들고 이익은 다른 지역에···통합 발전공기업 유치 절실한 이유",
+          "evidence_type": "article",
+          "reason": "경영전략과 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

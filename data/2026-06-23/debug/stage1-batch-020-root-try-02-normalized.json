@@ -1,0 +1,154 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "b92b36e48dd65abb",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "b92b36e48dd65abb",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "에너지 관련 이슈",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "반도체 전공정 팹도 짓는다",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 관련 사업과 에너지 이슈 연결 가능성"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "수백조원대로 대폭 확대",
+            "evidence_type": "paragraph",
+            "reason": "경영전략과 투자 이슈 연결 가능성"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "b92b36e48dd65abb",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "에너지 관련 이슈",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "반도체 전공정 팹도 짓는다",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 관련 사업과 에너지 이슈 연결 가능성"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "수백조원대로 대폭 확대",
+            "evidence_type": "paragraph",
+            "reason": "경영전략과 투자 이슈 연결 가능성"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "2bb0baab8d27ed6f",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "2bb0baab8d27ed6f",
+        "candidate": true,
+        "confidence": 0.4,
+        "company_reason": "산업부 관련 이슈",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "한·미 관세 협상에 따른 대미 투자 프로젝트",
+            "evidence_type": "paragraph",
+            "reason": "기획예산처의 대외 대응과 예산 관련 이슈"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "2bb0baab8d27ed6f",
+        "candidate": true,
+        "confidence": 0.4,
+        "company_reason": "산업부 관련 이슈",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "한·미 관세 협상에 따른 대미 투자 프로젝트",
+            "evidence_type": "paragraph",
+            "reason": "기획예산처의 대외 대응과 예산 관련 이슈"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "39eedc99f8cb9519",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "39eedc99f8cb9519",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "에너지 관련 이슈",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "재생에너지 확대",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 관련 사업과 에너지 이슈 연결 가능성"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "39eedc99f8cb9519",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "에너지 관련 이슈",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "재생에너지 확대",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 관련 사업과 에너지 이슈 연결 가능성"
+          }
+        ]
+      }
+    }
+  ]
+}

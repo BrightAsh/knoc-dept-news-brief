@@ -1,0 +1,81 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "36c4769749c03711",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "데이터센터 관련 이슈는 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "680408fffad1ccb8",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "공공기관 관련 이슈지만 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "a4262ae5dce31b68",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "공기업 인사 관련 이슈는 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "5756a713a3ace371",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "국민연금 관련 이슈는 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "e95763e98b552527",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "삼성SDS의 공공 AI 박람회 참여는 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "259dadc36e25393b",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "코스피 및 주주친화점수 관련 이슈는 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "2bb0baab8d27ed6f",
+      "final_relevant": false,
+      "confidence": 0.4,
+      "final_reason": "산업부 관련 이슈지만 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 실제 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "f8523690df63e72e",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "윤활유 담합 의혹은 한국석유공사의 석유 유통 업무와 간접적으로 관련이 있음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 실제 기사 내용과 한국석유공사의 업무와의 관련성이 있음",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "공정거래위원회가 2조원대의 윤활유 담합 의혹에 대한 심의에 착수했다.",
+          "evidence_type": "paragraph",
+          "reason": "윤활유 담합 의혹은 석유 유통 업무와 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

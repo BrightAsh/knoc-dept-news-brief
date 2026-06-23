@@ -1,0 +1,1832 @@
+{
+  "target_date": "2026-06-23",
+  "generated_at": "2026-06-23T17:23:35.789Z",
+  "analyzer": "stage1-llm",
+  "enabled": true,
+  "provider": "groq",
+  "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "status": "partial",
+  "requested_article_count": 439,
+  "analyzed_article_count": 391,
+  "batch_size": 16,
+  "errors": [
+    "Expected ',' or ']' after array element in JSON at position 3964 (line 134 column 6)",
+    "Expected ',' or ']' after array element in JSON at position 4234 (line 160 column 6)",
+    "Expected ',' or ']' after array element in JSON at position 4328 (line 162 column 6)"
+  ],
+  "warnings": [
+    "stage1-batch-001-root-try-01 returned 0 raw results and 0 normalized results.",
+    "stage1-batch-002-root-try-01 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 6s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 16s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 16s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 16s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 16s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 16s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 10s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 14s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-023-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 14s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 6s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300"
+  ],
+  "results": [
+    {
+      "article_id": "bcd5b5368d757d1f",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "ebd5b8a192a741a5",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "54c1ec34c4e1c854",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "1141bac7129b10ca",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d1b3cb23f1104d06",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "99cb0fb8339518e7",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "35b6e4f20bf17ccd",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b9edcaf0941d1ec0",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "34adecf200e08ce9",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "9cfe2bfaf6287fd3",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 정책 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "이재명 대통령이 자산 양극화와 청년 소외감에 대해 언급하며 에너지 관련 정책에 대해 논의",
+          "evidence_type": "paragraph",
+          "reason": "경영전략과 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "797c885e512e8a89",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 정책 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "이재명 대통령이 자산 양극화와 청년 소외감에 대해 언급하며 에너지 관련 정책에 대해 논의",
+          "evidence_type": "paragraph",
+          "reason": "경영전략과 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "28daf8dc827e606f",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "31b9a2ba2350badd",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "fdc37b0b0b9a7fef",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "6167171d44d44842",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "48aad758279a989f",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b6378d4ecf67cbdf",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b25adf078dc93160",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "96191eead2d7170e",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "a2d3ab8066ce0117",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "80bec3841f138a34",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "1d2de8df144f2a8c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "18532134d91b7e74",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "4c1feba44b5a2802",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b1785ad0e05f17ef",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "에너지 관련 정책 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "민형배 전남광주통합특별시장 당선인은 23일 경향신문 인터뷰에서 통합특별시 출범을 '역사적 도전'이라며 이같이 말했다. 민형배 “특별지원금 20조로 진짜 균형발전…청년 머물게 할 것”",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 정책과 전략 수립 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "523d3a38d8e4bdbb",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "에너지 관련 정책 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "민형배 전남광주통합특별시장 당선인은 23일 경향신문 인터뷰에서 통합특별시 출범을 '역사적 도전'이라며 이같이 말했다. 민형배 “특별지원금 20조로 진짜 균형발전…청년 머물게 할 것”",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 정책과 전략 수립 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "ac2ee118975edc9c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "517b72cdf38449f0",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5c46ddaa5a254207",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "606c0e52ac191616",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "f6af2752b3c76d48",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "7c69ed3a62e03f81",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d6003cea48dfa733",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2c55f99dfff5d358",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "0e354564596956bb",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c2dc68a7294ee7fb",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "8407b23fb7f4099c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c5c0deac51b8aeaa",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "4ea68c38ed290513",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "0b9d1857afb09a06",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "0371dfb5498c6c37",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "68a05c5b93264768",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "680408fffad1ccb8",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "공공기관 관련 이슈",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "보건복지부 산하 공공기관인 대한적십자사가 제32대 회장으로 선출한 인요한 전 국민의힘 의원을 둘러싸고 반발이 거세지고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "공공기관 운영 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "de1837afca3fc9dc",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "53aa3118fd157413",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "594c2ab99e9763bc",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "492fd2b0cc0c0b7e",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "669950fe3fd9ff20",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c5885fe1e38be1c4",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "50e98ae9cda290f3",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d9f56a1e0f0e1682",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "4bdd0ad432cddf4a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "a601492c78fe6f06",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "0767a6d8f5dcd8ee",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2e3a67cf279ef0a7",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "8dc893baf788a962",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "34135960a9e694ae",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "42408eea6f92b3c6",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "a1e9d0bf8fd589d6",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "bee7f36cd8ddb2aa",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "6f355fa1ba0ef359",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e851a715d79b8aae",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "f2b2835c8b23c020",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "1342dac41df85d05",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5291b14614e3ed37",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 최고가격 종료 관련 기사로 한국석유공사와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "김정관 산업통상부 장관이 최근 국제 유가가 하락함에 따라 석유 최고가격을 내리는 방안을 검토 중이라고 밝혔다. 이르면 이달 내 현재 가격보다 내린 7차 최고가격을 고시할 가능성이 있는 것으로 보인다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약 관련 업무"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "김정관 산업통상부 장관이 최근 국제 유가가 하락함에 따라 석유 최고가격을 내리는 방안을 검토 중이라고 밝혔다. 이르면 이달 내 현재 가격보다 내린 7차 최고가격을 고시할 가능성이 있는 것으로 보인다.",
+          "evidence_type": "paragraph",
+          "reason": "석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "e63bd8663e681fbd",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e749fddb63a1f7c2",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5baa279da65a85a5",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c79d05a1464e85bf",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "석유화학 업계와 관련이 있으며, 한국석유공사의 석유사업과 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "국내 석유화학 업계가 반도체 등 첨단소재 개발과 인공지능 활용으로 활로를 찾고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "석유화학 업계와 석유사업 간의 관련성"
+        }
+      ]
+    },
+    {
+      "article_id": "ec9a9ede60fc5da7",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e07bc0c7e3141e7e",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5dbfc574f7323549",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "7a0fe67f8601ccf5",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "87df20bd7930b2ff",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유가와 관련이 있으며, 한국석유공사의 석유비축과 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국과 이란 간 종전 합의에도 불구하고 원·달러 환율이 1500원대에서 고공행진을 거듭하며 좀처럼 내려오지 않고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "유가와 석유비축 간의 관련성"
+        }
+      ]
+    },
+    {
+      "article_id": "23bed62da9c5c17a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "f8e8b73ff29b12e6",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "8422cecb32595718",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "04652a21ef596dcf",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "febec72d4455bc52",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "원유와 관련이 있으며, 한국석유공사의 석유사업과 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "라파엘 그로시 국제원자력기구 사무총장이 이란 핵 시설에 대한 IAEA의 사찰이 필요하다고 23일 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "원유와 석유사업 간의 관련성"
+        }
+      ]
+    },
+    {
+      "article_id": "35cf47ee22204741",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5b776a94272e69f0",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b45c51308c9838d0",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유가 관련 경제 기사로 한국석유공사와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "올해 1분기 실질 국내총생산(GDP)은 전기 대비 1.8%, 전년 동기 대비 3.8% 증가했고, 한국은행은 올해 성장률을 2.6% 수준으로 전망한다. 반도체 가격 상승으로 대외거래 소득도 크게 늘어, 올해 명목성장률이 두 자릿수에 이를 가능성까지 거론된다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "성장률과 수출은 높고 경상수지는 사상 최대 흑자다. 반도체 가격 상승으로 대외거래 소득도 크게 늘어, 올해 명목성장률이 두 자릿수에 이를 가능성까지 거론된다.",
+          "evidence_type": "paragraph",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "3039c44d77f986f4",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 기사로 한국석유공사와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "삼성전자와 에스케이(SK)하이닉스가 전남·광주 지역에 반도체 패키징(후공정) 공장뿐 아니라 전공정 팹(생산라인)을 짓는 방안을 유력하게 검토하는 배경에는 재생에너지 인프라와 세제 혜택 등을 누리겠다는 전략적 판단이 깔린 것으로 풀이된다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "31ca156ba7474651",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유류와 원자재 가격 급등 관련 기사",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "중동전쟁과 고환율로 인한 석유류와 원자재 가격 급등",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "서민 밥상에 비상이 걸렸다",
+          "evidence_type": "paragraph",
+          "reason": "석유유통, 주유소 공급, 소비자가격 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "576ad8d3c9c96ac7",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유가 관련 기사",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "유가",
+          "evidence_type": "article",
+          "reason": "유가·석유가격 정보 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "035b0a05c2a537d0",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "에너지라는 키워드가 있지만, 기사 내용은 정치 이슈와 관련이 있음",
+      "departments": []
+    },
+    {
+      "article_id": "e8e70351444071e9",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "8ee15a60ebb3272c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "d4228d4368280528",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "927bdb1fb346e040",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "27e290c7ac78dfa2",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "9dd7632199070ce9",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "8129dbc5818de7c8",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "70f0ed335f96325a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "8187ddd70b7021d5",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "094a2e7d5d0a1091",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "be73aa6171d699f4",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "e2a8566381b9a8ca",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "ea16e8ce64f44f7d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "9d8344b665245956",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "5b3ef997c5197309",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "2a0554d824590f08",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유가, 국제유가 언급으로 에너지 가격과 관련된 기사로 보임",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미 달러화에 대한 원화 환율이 23일에도 상승세를 이어가며 1540원대에 육박했다. 이날 서울 외환시장에서 원-달러 환율은 전날보다 2.",
+          "evidence_type": "paragraph",
+          "reason": "유가와 관련된 경제 지표이므로 스마트데이터센터의 유가 정보 서비스와 관련"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "미 달러화에 대한 원화 환율이 23일에도 상승세를 이어가며 1540원대에 육박했다. 이날 서울 외환시장에서 원-달러 환율은 전날보다 2.",
+          "evidence_type": "paragraph",
+          "reason": "원달러 환율과 유가 상승은 석유사업 전략에 영향"
+        }
+      ]
+    },
+    {
+      "article_id": "82a9f0e004fae0df",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "유가 언급으로 에너지 가격과 관련된 기사로 보임",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미얀마 군사정권이 지난해 총선을 강행하는 과정에서 최소 700명 이상의 민간인이 목숨을 잃었다는 유엔 보고서가 공개됐다.",
+          "evidence_type": "paragraph",
+          "reason": "유가와 관련된 경제 지표이므로 스마트데이터센터의 유가 정보 서비스와 관련"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미얀마 군사정권이 지난해 총선을 강행하는 과정에서 최소 700명 이상의 민간인이 목숨을 잃었다는 유엔 보고서가 공개됐다.",
+          "evidence_type": "paragraph",
+          "reason": "원달러 환율과 유가 상승은 석유사업 전략에 영향"
+        }
+      ]
+    },
+    {
+      "article_id": "b12fd8ffa4cb110a",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지 언급으로 에너지 정책과 관련된 기사로 보임",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "전격 사임을 발표한 키어 스타머 영국 총리가 정치적으로 '레임덕'에 접어들어 영국의 외교·안보 정책 추진이 불확실해질 것이라는 분석이 나오고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 정책과 관련된 외교, 안보 정책 추진과 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "22e44ff847a99d95",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지 언급으로 에너지 정책과 관련된 기사로 보임",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "삼성전자와 SK그룹이 전남광주통합특별시 광주 근교권에 각각 대규모 반도체 공장과 AI데이터센터 설립을 추진한다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 정책과 관련된 산업 투자 유치와 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "b26485b40b4666de",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "743d0c7bddcbc560",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "99a42a2a2558f8a6",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "6c65edc11f519daf",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "48a3bd41b893799a",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유, 원유, 석유제품 관련 이슈는 한국석유공사의 업무와 직접 관련이 있습니다.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "이란 원유 제재는 풀렸지만…핵 사찰·동결자산엔 말 엇갈려",
+          "evidence_type": "paragraph",
+          "reason": "원유와 관련된 내용은 석유사업처의 업무와 관련이 있습니다."
+        }
+      ]
+    },
+    {
+      "article_id": "6af4d61f4f6be37c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "6194571c354da3ef",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "60595d94e8beda26",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "8c679f601d62c0d9",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "91480fd010baeb6a",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유가 관련 이슈는 한국석유공사의 업무와 관련이 있습니다.",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "‘고물가에 외식은커녕 떨이상품만 찾는다’···하반기엔 더 오를 수도",
+          "evidence_type": "paragraph",
+          "reason": "유가 정보는 스마트데이터센터의 업무와 관련이 있습니다."
+        }
+      ]
+    },
+    {
+      "article_id": "7d185f77de289b25",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2fb818362e7f8c46",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5756a713a3ace371",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "공공기관 관련 이슈는 한국석유공사의 업무와 관련이 있습니다.",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "국민연금 “퇴직연금 개혁에 ‘공적 메기’ 희망···7월 국내주식 리밸런싱 재개”",
+          "evidence_type": "paragraph",
+          "reason": "공공기관의 예산과 관련된 내용은 기획예산처의 업무와 관련이 있습니다."
+        }
+      ]
+    },
+    {
+      "article_id": "3258ab967d6d9825",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "71505047b3e80911",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b53dc1cdd9e4fc8d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "ab9973bc468572d4",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "원달러 환율과 유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국과 이란의 종전 합의에도 불구하고 원·달러 환율이 1500원대에서 고공행진을 거듭하며 좀처럼 내려오지 않고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "원달러 환율과 유가 관련 기사로 석유 구매, 판매, 트레이딩 업무를 담당하는 석유사업처와 관련이 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국과 이란의 종전 합의에도 불구하고 원·달러 환율이 1500원대에서 고공행진을 거듭하며 좀처럼 내려오지 않고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "원달러 환율과 유가 관련 기사로 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당하는 유통사업처와 관련이 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국과 이란의 종전 합의에도 불구하고 원·달러 환율이 1500원대에서 고공행진을 거듭하며 좀처럼 내려오지 않고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "원달러 환율과 유가 관련 기사로 정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당하는 석유비축처와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "d7195c0a3abf6f8a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2e9e80dafd3c785d",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "전국 석탄화력발전소의 절반이 집중된 충남에서 통합 발전공기업 본사 유치 목소리가 커지고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 전환 및 저탄소 사업과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "전기는 충남이 만들고 이익은 다른 지역에···통합 발전공기업 유치 절실한 이유",
+          "evidence_type": "article",
+          "reason": "경영전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "0c2afd6eaf309af5",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "공공기관과 관련된 기사로 한국석유공사에도 영향을 줄 수 있는 정책이나 이슈가 포함될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "공공 부문 채용도 확대될 것으로 보인다.",
+          "evidence_type": "paragraph",
+          "reason": "기획예산처는 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당하므로 공공기관 채용 확대와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "36c4769749c03711",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지와 산업통상자원부 관련 이슈로 한국석유공사와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "인공지능 시대 핵심 인프라로 꼽히는 데이터센터 국내 시장을 공략하기 위한 기업들의 움직임이 분주해지고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당하므로 에너지 관련 산업 이슈와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "a2b8a4796fac5142",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유화학 업계와 관련된 기사로, 한국석유공사의 석유사업 및 에너지 관련 업무와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "국내 석유화학 업계가 반도체 등 첨단소재 개발과 인공지능 활용으로 활로를 찾고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "석유화학 업계의 동향과 한국석유공사의 석유사업 전략과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "정부는 석화업계 경쟁력 제고를 위해 고부가·디지털 중심으로 산업 구조를 재편해야 한다고 보고 다양한 지원책을 펼치고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "정부의 산업 정책과 한국석유공사의 경영전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "e95763e98b552527",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "공공기관과 관련된 기사로, 한국석유공사의 운영 및 관리와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "삼성SDS가 23일 '2026 공공 인공지능 박람회'에 참가해 공공·행정 관련 업무 혁신을 돕는 AI 서비스를 선보였다.",
+          "evidence_type": "paragraph",
+          "reason": "공공기관의 운영 및 관리와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "b92b36e48dd65abb",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "에너지 관련 이슈",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "반도체 전공정 팹도 짓는다",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 관련 사업과 에너지 이슈 연결 가능성"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "수백조원대로 대폭 확대",
+          "evidence_type": "paragraph",
+          "reason": "경영전략과 투자 이슈 연결 가능성"
+        }
+      ]
+    },
+    {
+      "article_id": "2bb0baab8d27ed6f",
+      "candidate": true,
+      "confidence": 0.4,
+      "company_reason": "산업부 관련 이슈",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "한·미 관세 협상에 따른 대미 투자 프로젝트",
+          "evidence_type": "paragraph",
+          "reason": "기획예산처의 대외 대응과 예산 관련 이슈"
+        }
+      ]
+    },
+    {
+      "article_id": "39eedc99f8cb9519",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지 관련 이슈",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "재생에너지 확대",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 관련 사업과 에너지 이슈 연결 가능성"
+        }
+      ]
+    },
+    {
+      "article_id": "1d08ee43b6757e0e",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "080a870c439b8376",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "3695b6f98018e388",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "52ee9cb19fd176ea",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "03ec4671e4d63d8b",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "372b8731d406b027",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c61fd24b749f77f3",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "4794106ec0bb27a6",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "71b9c194548ff4c7",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "83221e9cdf301777",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "9cc97fff70c4baa3",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5bc43ba4ab66984e",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e4b29699d4120c6a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "397bdd834976732c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c75fc7fbd3d4ea5f",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "3ed0f760c35f955c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "72b3261098cbb78d",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "원유 수출 제재와 관련된 기사로, 한국석유공사의 석유 수급 안정 업무와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국이 이란의 돈줄을 죄던 원유 수출 제재를 휴전 기간인 60일 동안 면제했다.",
+          "evidence_type": "paragraph",
+          "reason": "원유 수출 제재와 관련된 내용으로 석유사업처의 업무와 직접 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "f8523690df63e72e",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "윤활유 담합 의혹과 관련된 기사로, 한국석유공사의 석유 유통 업무와 간접적으로 관련이 있음",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "공정거래위원회가 2조원대의 윤활유 담합 의혹에 대한 심의에 착수했다.",
+          "evidence_type": "paragraph",
+          "reason": "윤활유 담합 의혹은 석유 유통 업무와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "b3706ccca0b1f93f",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "환율과 관련된 기사로, 한국석유공사의 재무 업무와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "finance",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "이재명 대통령이 23일 고환율과 관련해 “(달러·원 환율이) 1500원 중반대는 펀더멘털에 비해 과하다”고 말했다.",
+          "evidence_type": "paragraph",
+          "reason": "환율과 관련된 내용으로 재무 업무와 직접 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "ca155b25290442bc",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "코스피·코스닥 급락과 관련된 기사로, 한국석유공사의 투자 업무와 간접적으로 관련이 있음",
+      "departments": [
+        {
+          "department_id": "finance",
+          "relevance_score": 0.4,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "23일 코스피가 5%대 급락하며 매도 사이드카가 발동했다.",
+          "evidence_type": "paragraph",
+          "reason": "투자 업무와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "fb77f8ef2f43be30",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 최고가격제 유지 및 가격 인하 논의",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "이 대통령 “석유 최고가격제 유지하고, 가격 더 낮춰야”",
+          "evidence_type": "article",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "이 대통령 “석유 최고가격제 유지하고, 가격 더 낮춰야”",
+          "evidence_type": "article",
+          "reason": "석유유통, 주유소 공급, 소비자가격 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "fe65eb3299ad75cd",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 최고가격을 내릴 유인에 대해 언급하여 한국석유공사의 석유사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "김정관 산업부 장관이 최근 국제 유가가 하락함에 따라 석유 최고가격을 내릴 유인은 있다며 내리는 방안을 검토 중이라고 밝혔다. 그는 국제 유가가 내림세에 있지만 프리미엄 가격은 중동전쟁 전 0.5달러 수준이었는데 현재 20달러대에 거래되고 있다면서도 \"현 유가 수준은 전쟁에 대비해 내려온 상황이라 어느 정도 최고가격 자체를 내릴 유인이 있다고 생각하고 검토 중\"이라고 말했다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 최고가격을 내릴 유인에 대해 언급하여 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "김정관 산업부 장관 “석유 최고가격 내릴 유인 있다”",
+          "evidence_type": "article",
+          "reason": "석유 최고가격 정책과 관련하여 한국석유공사의 경영전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "259dadc36e25393b",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "공기업과 에너지 관련 언급으로 한국석유공사와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "코스피 지수가 사상 첫 9000선을 돌파하며 1년 전보다 3배 가까이 급등하고 상법이 세 차례나 개정됐지만 국내 상장사들의 '주주친화 경영'은 제자리 걸음을 걷고 있는 것으로 나타났다.",
+          "evidence_type": "paragraph",
+          "reason": "공기업과 에너지 관련 언급으로 한국석유공사의 경영전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "a4262ae5dce31b68",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "공기업 관련 이슈로 한국석유공사에도 영향을 줄 수 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "인천항만공사 부사장에 정치인 출신 '낙하산 인사'가 추진됐으나 무산됐다.",
+          "evidence_type": "paragraph",
+          "reason": "공기업 인사 관련 이슈로 한국석유공사에도 영향을 줄 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "790d7ddc9d3f86b2",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "원유, 석유제품 관련 제재 이슈로 한국석유공사와 관련 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "미국 도널드 트럼프 행정부가 이란과의 종전 협상 과정에서 향후 해제될 수 있는 이란의 동결자금 사용처를 미국산 농산물 구매로 제한하는 방안을 추진하고 있다.",
+          "evidence_type": "article",
+          "reason": "원유, 석유제품 관련 사업 담당 부서"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "이란이 동결 해제 자금을 친이란 무장세력 지원 등에 전용하지 못하도록 미국과 카타르가 지출을 승인·감독하겠다는 계획도 함께 추진된다.",
+          "evidence_type": "article",
+          "reason": "유가, 석유가격 정보 제공 관련 부서"
+        }
+      ]
+    },
+    {
+      "article_id": "1a8e89aa84ddf73f",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "원유, 경유, LNG 관련 통행 이슈로 한국석유공사와 관련 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.85,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "이스라엘의 레바논 공격에 반발한 이란이 호르무즈 해협 재봉쇄를 선언했지만 선박 통행은 제한적으로 회복되는 조짐을 보이고 있다.",
+          "evidence_type": "article",
+          "reason": "원유, 석유제품 관련 사업 담당 부서"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "이란 호르무즈 해협 ‘재봉쇄’ 선언에도 통행량 회복 조짐···“추세는 긍정적”",
+          "evidence_type": "article",
+          "reason": "유가, 석유가격 정보 제공 관련 부서"
+        }
+      ]
+    },
+    {
+      "article_id": "573b52103f787dca",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2dadecae007a0b5c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "05ee6e256948f147",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "955996a87761d1ea",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "874b4d5cda16db00",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "055057543e6e5ced",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "이란의 원유 생산 및 판매 관련 소식은 한국석유공사의 해외자원개발 및 석유 수급 안정 업무와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "이란이 국제원자력기구(IAEA) 핵 사찰단의 자국 내 활동 재개에 합의했다는 제이디(J. ) 밴스 미국 부통령의 발언과 관련해 이란 외교부가 “절차에 따라 국제원자력기구와의 협력을 지속하겠다”는 입장을 밝혔다. 이란의 원유 거래 관련 소식은 한국석유공사의 석유사업 전략 및 원유 구매와 판매 업무와 관련이 있을 수 있음.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당함"
+        },
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "이란이 국제원자력기구(IAEA) 핵 사찰단의 자국 내 활동 재개에 합의했다는 제이디(J. ) 밴스 미국 부통령의 발언과 관련해 이란 외교부가 “절차에 따라 국제원자력기구와의 협력을 지속하겠다”는 입장을 밝혔다. 이란의 원유 거래 관련 소식은 한국석유공사의 아시아 지역 E&P 사업 및 해외자원개발 업무와 관련이 있을 수 있음.",
+          "evidence_type": "paragraph",
+          "reason": "아시아사업처는 아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당함"
+        }
+      ]
+    },
+    {
+      "article_id": "8b4b746d00a54412",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "미국 재무부의 이란 원유 거래 60일간 허용 소식은 한국석유공사의 석유 수급 안정 및 해외자원개발 업무와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "스콧 베선트 미국 재무부 장관이 22일(현지시각) 이란에 대한 원유 생산·판매·배송 관련 제재를 60일 동안 면제한다고 밝혔다. 베선트 장관은 이날 자신의 소셜미디어 엑스(X)에 기존에 금지돼 있던 이란의 모든 원유 관련 거래가 60일간 잠정적으로 허용된다고 밝혔다. 이란의 원유 거래 관련 소식은 한국석유공사의 석유사업 전략 및 원유 구매와 판매 업무와 관련이 있을 수 있음.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당함"
+        },
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "스콧 베선트 미국 재무부 장관이 22일(현지시각) 이란에 대한 원유 생산·판매·배송 관련 제재를 60일 동안 면제한다고 밝혔다. 베선트 장관은 이날 자신의 소셜미디어 엑스(X)에 기존에 금지돼 있던 이란의 모든 원유 관련 거래가 60일간 잠정적으로 허용된다고 밝혔다. 이란의 원유 거래 관련 소식은 한국석유공사의 아시아 지역 E&P 사업 및 해외자원개발 업무와 관련이 있을 수 있음.",
+          "evidence_type": "paragraph",
+          "reason": "아시아사업처는 아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당함"
+        }
+      ]
+    }
+  ],
+  "candidate_count": 41,
+  "rejected_count": 123
+}

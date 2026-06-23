@@ -1,0 +1,116 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "b45c51308c9838d0",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "b45c51308c9838d0",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "유가 관련 경제 기사로 한국석유공사와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "올해 1분기 실질 국내총생산(GDP)은 전기 대비 1.8%, 전년 동기 대비 3.8% 증가했고, 한국은행은 올해 성장률을 2.6% 수준으로 전망한다. 반도체 가격 상승으로 대외거래 소득도 크게 늘어, 올해 명목성장률이 두 자릿수에 이를 가능성까지 거론된다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "성장률과 수출은 높고 경상수지는 사상 최대 흑자다. 반도체 가격 상승으로 대외거래 소득도 크게 늘어, 올해 명목성장률이 두 자릿수에 이를 가능성까지 거론된다.",
+            "evidence_type": "paragraph",
+            "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "b45c51308c9838d0",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "유가 관련 경제 기사로 한국석유공사와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "올해 1분기 실질 국내총생산(GDP)은 전기 대비 1.8%, 전년 동기 대비 3.8% 증가했고, 한국은행은 올해 성장률을 2.6% 수준으로 전망한다. 반도체 가격 상승으로 대외거래 소득도 크게 늘어, 올해 명목성장률이 두 자릿수에 이를 가능성까지 거론된다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "성장률과 수출은 높고 경상수지는 사상 최대 흑자다. 반도체 가격 상승으로 대외거래 소득도 크게 늘어, 올해 명목성장률이 두 자릿수에 이를 가능성까지 거론된다.",
+            "evidence_type": "paragraph",
+            "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "3039c44d77f986f4",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "3039c44d77f986f4",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 기사로 한국석유공사와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "삼성전자와 에스케이(SK)하이닉스가 전남·광주 지역에 반도체 패키징(후공정) 공장뿐 아니라 전공정 팹(생산라인)을 짓는 방안을 유력하게 검토하는 배경에는 재생에너지 인프라와 세제 혜택 등을 누리겠다는 전략적 판단이 깔린 것으로 풀이된다.",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "3039c44d77f986f4",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 기사로 한국석유공사와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "삼성전자와 에스케이(SK)하이닉스가 전남·광주 지역에 반도체 패키징(후공정) 공장뿐 아니라 전공정 팹(생산라인)을 짓는 방안을 유력하게 검토하는 배경에는 재생에너지 인프라와 세제 혜택 등을 누리겠다는 전략적 판단이 깔린 것으로 풀이된다.",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 관련 업무"
+          }
+        ]
+      }
+    }
+  ]
+}

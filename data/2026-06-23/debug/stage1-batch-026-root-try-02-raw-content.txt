@@ -1,0 +1,80 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "a4262ae5dce31b68",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "공기업 관련 이슈로 한국석유공사에도 영향을 줄 수 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "인천항만공사 부사장에 정치인 출신 '낙하산 인사'가 추진됐으나 무산됐다.",
+          "evidence_type": "paragraph",
+          "reason": "공기업 인사 관련 이슈로 한국석유공사에도 영향을 줄 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "790d7ddc9d3f86b2",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "원유, 석유제품 관련 제재 이슈로 한국석유공사와 관련 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "미국 도널드 트럼프 행정부가 이란과의 종전 협상 과정에서 향후 해제될 수 있는 이란의 동결자금 사용처를 미국산 농산물 구매로 제한하는 방안을 추진하고 있다.",
+          "evidence_type": "summary_sentence",
+          "reason": "원유, 석유제품 관련 사업 담당 부서"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "이란이 동결 해제 자금을 친이란 무장세력 지원 등에 전용하지 못하도록 미국과 카타르가 지출을 승인·감독하겠다는 계획도 함께 추진된다.",
+          "evidence_type": "summary_sentence",
+          "reason": "유가, 석유가격 정보 제공 관련 부서"
+        }
+      ]
+    },
+    {
+      "article_id": "1a8e89aa84ddf73f",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "원유, 경유, LNG 관련 통행 이슈로 한국석유공사와 관련 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.85,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "이스라엘의 레바논 공격에 반발한 이란이 호르무즈 해협 재봉쇄를 선언했지만 선박 통행은 제한적으로 회복되는 조짐을 보이고 있다.",
+          "evidence_type": "body_paragraph",
+          "reason": "원유, 석유제품 관련 사업 담당 부서"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "이란 호르무즈 해협 ‘재봉쇄’ 선언에도 통행량 회복 조짐···“추세는 긍정적”",
+          "evidence_type": "title",
+          "reason": "유가, 석유가격 정보 제공 관련 부서"
+        }
+      ]
+    }
+  ]
+}
+```
