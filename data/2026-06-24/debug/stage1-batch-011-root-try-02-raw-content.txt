@@ -1,0 +1,63 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "7fb61604630d1795",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "40도 넘는 최악 폭염에 환경계도 손들었다···프랑스 “이제 에어컨 없으면 안된다”",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 이슈로 경영전략과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "da4fc4473d4aee13",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "유가, 에너지 관련 이슈로 한국석유공사의 사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "대기업 곳간 돈 벤처시장으로···CVC 신규 납입액 65% 지주사가 댔다",
+          "evidence_type": "paragraph",
+          "reason": "유가, 에너지 관련 이슈로 석유사업과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "80d77be04c6348d2",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "공기업 관련 이슈로 한국석유공사의 사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "원·달러 환율 1540원대 마감···금융위기 후 17년만",
+          "evidence_type": "paragraph",
+          "reason": "공기업 관련 이슈로 기획예산과 관련이 있을 수 있음"
+        }
+      ]
+    }
+  ]
+}
+```

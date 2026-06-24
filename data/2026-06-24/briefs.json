@@ -1,0 +1,1013 @@
+{
+  "target_date": "2026-06-24",
+  "generated_at": "2026-06-24T17:28:06.953Z",
+  "analyzer": "knoc-two-pass-llm-v1",
+  "input_article_count": 405,
+  "relevant_article_count": 11,
+  "relevant_department_count": 4,
+  "pipeline": {
+    "stage0": {
+      "analyzer": "stage0-keyword-router-v1",
+      "keyword_hit_count": 47,
+      "keyword_miss_count": 358
+    },
+    "stage1": {
+      "enabled": true,
+      "status": "ok",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 405,
+      "analyzed_article_count": 405,
+      "candidate_count": 27,
+      "rejected_count": 138,
+      "warning_count": 29,
+      "error_count": 0
+    },
+    "stage2": {
+      "enabled": true,
+      "status": "ok",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 165,
+      "analyzed_article_count": 165,
+      "final_relevant_count": 14,
+      "final_rejected_count": 143,
+      "warning_count": 23,
+      "error_count": 0
+    }
+  },
+  "overall": {
+    "id": "overall",
+    "label": "전체",
+    "source": "llm",
+    "analysis_stage": "stage2",
+    "fallback_used": false,
+    "article_count": 11,
+    "item_count": 11,
+    "items": [
+      {
+        "id": "53c49b261aa9fce3",
+        "article_id": "427af4f408b14b45",
+        "publisher": "경향신문",
+        "title": "가뭄에 파나마운하도 막힐라…해운·정유업계 ‘막막’",
+        "url": "https://www.khan.co.kr/article/202606242055035/",
+        "published_at": "2026-06-24T11:55:03.000Z",
+        "score": 0.9,
+        "segment_text": "파나마운하 운영 제한이 원유 및 정유 제품의 수급과 가격에 영향을 미칠 수 있으므로 한국석유공사와 관련이 있음.",
+        "reason": "파나마운하 운영 제한이 원유 및 정유 제품의 수급과 가격에 영향을 미칠 수 있으므로 한국석유공사와 관련이 있음.",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "b40b515fdecfdb57",
+        "article_id": "3645726edd63825d",
+        "publisher": "경향신문",
+        "title": "가뭄에 파나마운하도 막힐라…해운·정유업계 ‘막막’",
+        "url": "https://www.khan.co.kr/article/202606242055035",
+        "published_at": "2026-06-24T11:55:03.000Z",
+        "score": 0.9,
+        "segment_text": "석유, 원유, 유가, 국제유가, 에너지, 휘발유, 주유소 관련 언급으로 인해 한국석유공사와 관련이 있음",
+        "reason": "석유, 원유, 유가, 국제유가, 에너지, 휘발유, 주유소 관련 언급으로 인해 한국석유공사와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "630a4aac44bb7d78",
+        "article_id": "96cbb4c6f7798d61",
+        "publisher": "경향신문",
+        "title": "‘강한 일본’ 내건 다카이치, 무기 수출 전담조직 만든다",
+        "url": "https://www.khan.co.kr/article/202606241545001",
+        "published_at": "2026-06-24T06:45:00.000Z",
+        "score": 0.9,
+        "segment_text": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 정보제공과 관련이 있음",
+        "reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 정보제공과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 유가 관련 이슈로 한국석유공사의 석유사업, 유통사업, 정보제공과 관련이 있어 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "e2282735179ef6fc",
+        "article_id": "d077706a6c7f128d",
+        "publisher": "경향신문",
+        "title": "트럼프 “휘발유값 왜 안 내리나···법무부에 조사 지시”",
+        "url": "https://www.khan.co.kr/article/202606241507001",
+        "published_at": "2026-06-24T06:07:00.000Z",
+        "score": 0.9,
+        "segment_text": "석유, 원유, 유가, 국제유가, 에너지, 휘발유, 주유소 관련 언급으로 인해 한국석유공사와 관련이 있음",
+        "reason": "석유, 원유, 유가, 국제유가, 에너지, 휘발유, 주유소 관련 언급으로 인해 한국석유공사와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "d331b7d1201a3794",
+        "article_id": "ac3f85345ce5f4de",
+        "publisher": "경향신문",
+        "title": "반도체·수출 호조라지만…7월에도 ‘체감경기 한파’",
+        "url": "https://www.khan.co.kr/article/202606240908001",
+        "published_at": "2026-06-24T00:08:00.000Z",
+        "score": 0.9,
+        "segment_text": "석유/유가 관련 기사로 한국석유공사의 사업과 관련이 있음",
+        "reason": "석유/유가 관련 기사로 한국석유공사의 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "92584eba5fe5182f",
+        "article_id": "25f5232bec4ba80f",
+        "publisher": "경향신문",
+        "title": "FIFA 회장 “트럼프, 결승전 참석”",
+        "url": "https://www.khan.co.kr/article/202606242037015",
+        "published_at": "2026-06-24T11:37:01.000Z",
+        "score": 0.8,
+        "segment_text": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 정보제공과 관련이 있음",
+        "reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 정보제공과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "d5e833b8f47a7ff8",
+        "article_id": "7fb61604630d1795",
+        "publisher": "경향신문",
+        "title": "40도 넘는 최악 폭염에 환경계도 손들었다···프랑스 “이제 에어컨 없으면 안된다”",
+        "url": "https://www.khan.co.kr/article/202606241746001",
+        "published_at": "2026-06-24T08:46:00.000Z",
+        "score": 0.8,
+        "segment_text": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+        "reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 분류된 기사로, 에너지 관련 이슈가 한국석유공사의 사업과 관련이 있음",
+        "departments": [
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "640c40627aff3a2e",
+        "article_id": "962d2e3d3dc381d8",
+        "publisher": "경향신문",
+        "title": "호르무즈 해협 정상화 갈 길 먼데…파나마운하 가뭄 경보에 긴장하는 해운·정유업계",
+        "url": "https://www.khan.co.kr/article/202606241441001",
+        "published_at": "2026-06-24T05:41:00.000Z",
+        "score": 0.8,
+        "segment_text": "정유업계 관련 이슈로 한국석유공사와 연결됨",
+        "reason": "정유업계 관련 이슈로 한국석유공사와 연결됨",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "76e1afc91cf16da9",
+        "article_id": "2e59582b2e0e884f",
+        "publisher": "한겨레",
+        "title": "이란·오만, ‘호르무즈 통행료 검토’ 공동 논의 합의",
+        "url": "https://www.hani.co.kr/arti/international/arabafrica/1265002.html",
+        "published_at": "2026-06-23T15:51:00.000Z",
+        "score": 0.8,
+        "segment_text": "호르무즈해협 통행료 검토는 에너지 안보와 관련이 있음",
+        "reason": "호르무즈해협 통행료 검토는 에너지 안보와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "B",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 에너지 안보와 관련이 있어 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.4,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "21f435f22512a898",
+        "article_id": "f44c59ed65f77af9",
+        "publisher": "경향신문",
+        "title": "이란 ‘호르무즈 수수료 부과’ 움직임에 루비오 “해협 통행료 부과는 국제법 위반”",
+        "url": "https://www.khan.co.kr/article/202606241704001",
+        "published_at": "2026-06-24T08:04:00.000Z",
+        "score": 0.7,
+        "segment_text": "이란의 호르무즈 해협 통행료 부과 움직임은 한국석유공사의 석유 수급 안정 업무와 관련이 있을 수 있음",
+        "reason": "이란의 호르무즈 해협 통행료 부과 움직임은 한국석유공사의 석유 수급 안정 업무와 관련이 있을 수 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "B",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "d857296f4868e9df",
+        "article_id": "b94ad4a0175cc424",
+        "publisher": "한겨레",
+        "title": "미 “호르무즈 통행료 불가”…이란과 핵사찰 놓고도 ‘다른 소리’",
+        "url": "https://www.hani.co.kr/arti/international/arabafrica/1265141.html",
+        "published_at": "2026-06-24T07:56:00.000Z",
+        "score": 0.7,
+        "segment_text": "미국의 이란 핵사찰 재개 반대는 한국석유공사의 석유 수급 안정 업무와 관련이 있음",
+        "reason": "미국의 이란 핵사찰 재개 반대는 한국석유공사의 석유 수급 안정 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "B",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 한국석유공사의 석유 수급 안정 업무와 관련이 있어 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_review": {
+    "enabled": true,
+    "status": "ok",
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "analyzed_article_count": 165,
+    "brief_source_stage": "stage2",
+    "fallback_used": false,
+    "stages": {
+      "stage1": {
+        "enabled": true,
+        "status": "ok",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 405,
+        "analyzed_article_count": 405,
+        "candidate_count": 27,
+        "rejected_count": 138,
+        "warning_count": 29,
+        "error_count": 0
+      },
+      "stage2": {
+        "enabled": true,
+        "status": "ok",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 165,
+        "analyzed_article_count": 165,
+        "final_relevant_count": 14,
+        "final_rejected_count": 143,
+        "warning_count": 23,
+        "error_count": 0
+      }
+    }
+  },
+  "departments": [
+    {
+      "department_id": "secretariat",
+      "department": "비서팀",
+      "role": "사장 일정, 의전, 대내외 메시지, 지시사항 이행과 대외 접점 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "she",
+      "department": "SHE추진실",
+      "role": "전사 안전, 보건, 환경, 재난 대응, 중대재해 예방과 안전보건환경 관리체계를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "audit",
+      "department": "감사실",
+      "role": "감사계획과 감사 수행, 내부통제, 일상감사, 부패·비위 점검, 청렴 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "legal",
+      "department": "법무팀",
+      "role": "국내외 송무, 계약과 사업의 법률 검토, 규제 대응, 분쟁 대응, 지식재산권 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "planning_budget",
+      "department": "기획예산처",
+      "role": "이사회, 국회, 정부 대응, 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "strategy",
+      "department": "경영전략처",
+      "role": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+      "article_count": 3,
+      "segment_count": 3,
+      "items": [
+        {
+          "id": "97af224ef546cb08",
+          "article_id": "7fb61604630d1795",
+          "publisher": "경향신문",
+          "title": "40도 넘는 최악 폭염에 환경계도 손들었다···프랑스 “이제 에어컨 없으면 안된다”",
+          "url": "https://www.khan.co.kr/article/202606241746001",
+          "published_at": "2026-06-24T08:46:00.000Z",
+          "score": 0.9,
+          "segment_text": "40도 넘는 최악 폭염에 환경계도 손들었다···프랑스 “이제 에어컨 없으면 안된다”",
+          "reason": "에너지 관련 이슈로 경영전략과 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 에너지 관련 이슈가 한국석유공사의 사업과 관련이 있음"
+        },
+        {
+          "id": "fc6ead9ed7630f7f",
+          "article_id": "2e59582b2e0e884f",
+          "publisher": "한겨레",
+          "title": "이란·오만, ‘호르무즈 통행료 검토’ 공동 논의 합의",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1265002.html",
+          "published_at": "2026-06-23T15:51:00.000Z",
+          "score": 0.8,
+          "segment_text": "이란과 오만이 공동으로 호르무즈해협 통행료 등을 검토할 수 있는 공동 실무그룹을 꾸리기로 했다.",
+          "reason": "에너지 안보와 관련된 전략 부서",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "B",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 에너지 안보와 관련이 있어 최종적으로 포함함"
+        },
+        {
+          "id": "5e45aecc57d4881c",
+          "article_id": "f44c59ed65f77af9",
+          "publisher": "경향신문",
+          "title": "이란 ‘호르무즈 수수료 부과’ 움직임에 루비오 “해협 통행료 부과는 국제법 위반”",
+          "url": "https://www.khan.co.kr/article/202606241704001",
+          "published_at": "2026-06-24T08:04:00.000Z",
+          "score": 0.6,
+          "segment_text": "이란 ‘호르무즈 수수료 부과’ 움직임에 루비오 “해협 통행료 부과는 국제법 위반”",
+          "reason": "한국석유공사의 전략 수립과 관련하여 국제 정세와 석유 수급 안정에 영향을 줄 수 있는 이슈",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "B",
+          "stage1_group": "C",
+          "review_note": ""
+        }
+      ]
+    },
+    {
+      "department_id": "finance",
+      "department": "재무처",
+      "role": "자금 조달과 상환, 자금 집행, 결산, 세무, 환율·금리·부채 등 재무 리스크 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "esg",
+      "department": "ESG경영처",
+      "role": "ESG 경영, 윤리·인권, 사회공헌, 동반성장, 상생, 내부통제 지원 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "infosec",
+      "department": "정보보안팀",
+      "role": "정보보안 정책과 운영, 개인정보보호, 사이버 침해 대응, 정보유출 예방 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "general_affairs",
+      "department": "총무처",
+      "role": "문서와 기록물, 자산, 사옥, 숙소, 조달계약, 구매, 시설관리, 비상대비 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hr",
+      "department": "인재경영처",
+      "role": "조직, 인사, 채용, 평가, 교육훈련, 급여, 복리후생, 노사관계와 인력 운영을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "smart_data",
+      "department": "스마트데이터센터",
+      "role": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
+      "article_count": 7,
+      "segment_count": 7,
+      "items": [
+        {
+          "id": "b2675e2491e042a3",
+          "article_id": "3645726edd63825d",
+          "publisher": "경향신문",
+          "title": "가뭄에 파나마운하도 막힐라…해운·정유업계 ‘막막’",
+          "url": "https://www.khan.co.kr/article/202606242055035",
+          "published_at": "2026-06-24T11:55:03.000Z",
+          "score": 0.7,
+          "segment_text": "도널드 트럼프 미국 대통령이 국제유가 하락에도 휘발유 가격이 충분히 내려가지 않고 있다며 법무부에 관련 문제를 조사하라고 지시했다.",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "837fc76eb3b68e87",
+          "article_id": "d077706a6c7f128d",
+          "publisher": "경향신문",
+          "title": "트럼프 “휘발유값 왜 안 내리나···법무부에 조사 지시”",
+          "url": "https://www.khan.co.kr/article/202606241507001",
+          "published_at": "2026-06-24T06:07:00.000Z",
+          "score": 0.7,
+          "segment_text": "도널드 트럼프 미국 대통령이 국제유가 하락에도 휘발유 가격이 충분히 내려가지 않고 있다며 법무부에 관련 문제를 조사하라고 지시했다.",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "6c4ed368bbf23dd2",
+          "article_id": "ac3f85345ce5f4de",
+          "publisher": "경향신문",
+          "title": "반도체·수출 호조라지만…7월에도 ‘체감경기 한파’",
+          "url": "https://www.khan.co.kr/article/202606240908001",
+          "published_at": "2026-06-24T00:08:00.000Z",
+          "score": 0.7,
+          "segment_text": "국내 주요 기업들의 경기 체감 심리가 4개월 연속 부정적인 것으로 나타났다. 반도체 제외 제조업 생산은 1.3% 감소",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "5ba1c6d8f353e7b3",
+          "article_id": "427af4f408b14b45",
+          "publisher": "경향신문",
+          "title": "가뭄에 파나마운하도 막힐라…해운·정유업계 ‘막막’",
+          "url": "https://www.khan.co.kr/article/202606242055035/",
+          "published_at": "2026-06-24T11:55:03.000Z",
+          "score": 0.6,
+          "segment_text": "파나마운하청이 다음달부터 파나마운하 출입 기준을 강화하겠다고 밝혔다. 특히 한국에서 미국 동부를 가기 위해선 반드시 파나마운하를 거쳐야 한다.",
+          "reason": "파나마운하 운영 제한이 원유 및 정유 제품의 수급과 가격에 영향을 미칠 수 있으므로 석유정보 서비스와 관련된 스마트데이터센터와 관련이 있음.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "0ed977ae765d1542",
+          "article_id": "25f5232bec4ba80f",
+          "publisher": "경향신문",
+          "title": "FIFA 회장 “트럼프, 결승전 참석”",
+          "url": "https://www.khan.co.kr/article/202606242037015",
+          "published_at": "2026-06-24T11:37:01.000Z",
+          "score": 0.6,
+          "segment_text": "FIFA 회장 “트럼프, 결승전 참석”",
+          "reason": "유가 정보 제공과 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "a48c3f855c5ea36d",
+          "article_id": "96cbb4c6f7798d61",
+          "publisher": "경향신문",
+          "title": "‘강한 일본’ 내건 다카이치, 무기 수출 전담조직 만든다",
+          "url": "https://www.khan.co.kr/article/202606241545001",
+          "published_at": "2026-06-24T06:45:00.000Z",
+          "score": 0.6,
+          "segment_text": "하이드레이션 브레이크?…‘야유 퍼붓거나 떼창’ 관중석 요란한 전쟁, “흐름 끊겨” 불만도",
+          "reason": "유가 정보 제공과 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 유가 관련 이슈로 한국석유공사의 석유사업, 유통사업, 정보제공과 관련이 있어 최종적으로 포함함"
+        },
+        {
+          "id": "97409b2a9540f667",
+          "article_id": "2e59582b2e0e884f",
+          "publisher": "한겨레",
+          "title": "이란·오만, ‘호르무즈 통행료 검토’ 공동 논의 합의",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1265002.html",
+          "published_at": "2026-06-23T15:51:00.000Z",
+          "score": 0.4,
+          "segment_text": "호르무즈해협 통행료 검토는 석유 수급과 관련이 있을 수 있습니다.",
+          "reason": "석유정보 서비스와 시장동향 분석을 담당하는 스마트데이터센터",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "B",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 에너지 안보와 관련이 있어 최종적으로 포함함"
+        }
+      ]
+    },
+    {
+      "department_id": "asia_business",
+      "department": "아시아사업처",
+      "role": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "americas_europe_business",
+      "department": "미주/유럽사업처",
+      "role": "미주와 유럽 지역 E&P 사업, 해외광구, Capex/Opex, 사업 손익, 자금수지 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "domestic_business_development",
+      "department": "국내사업개발처",
+      "role": "국내 자원개발 사업, 국내 대륙붕, 가스전, 탐사·시추, 신규 국내 사업개발을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "low_carbon",
+      "department": "저탄소추진처",
+      "role": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "global_technology_center",
+      "department": "글로벌기술센터",
+      "role": "E&P 기술지원, 지질·저류층·시추 기술, 기술전략, 연구개발, 기술자료와 기술평가를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "stockpiling",
+      "department": "석유비축처",
+      "role": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "petroleum_business",
+      "department": "석유사업처",
+      "role": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+      "article_count": 9,
+      "segment_count": 9,
+      "items": [
+        {
+          "id": "0fdd33d316ca451e",
+          "article_id": "962d2e3d3dc381d8",
+          "publisher": "경향신문",
+          "title": "호르무즈 해협 정상화 갈 길 먼데…파나마운하 가뭄 경보에 긴장하는 해운·정유업계",
+          "url": "https://www.khan.co.kr/article/202606241441001",
+          "published_at": "2026-06-24T05:41:00.000Z",
+          "score": 0.9,
+          "segment_text": "해운·정유업계",
+          "reason": "정유업계 관련 업무를 담당하는 부서",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "1fa13d1e4acca899",
+          "article_id": "427af4f408b14b45",
+          "publisher": "경향신문",
+          "title": "가뭄에 파나마운하도 막힐라…해운·정유업계 ‘막막’",
+          "url": "https://www.khan.co.kr/article/202606242055035/",
+          "published_at": "2026-06-24T11:55:03.000Z",
+          "score": 0.8,
+          "segment_text": "파나마운하청이 다음달부터 파나마운하 출입 기준을 강화하겠다고 밝혔다. 특히 한국에서 미국 동부를 가기 위해선 반드시 파나마운하를 거쳐야 한다.",
+          "reason": "파나마운하 운영 제한이 원유 및 정유 제품의 수급과 가격에 영향을 미칠 수 있으므로 석유사업처와 관련이 있음.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "bb00d18305226f59",
+          "article_id": "3645726edd63825d",
+          "publisher": "경향신문",
+          "title": "가뭄에 파나마운하도 막힐라…해운·정유업계 ‘막막’",
+          "url": "https://www.khan.co.kr/article/202606242055035",
+          "published_at": "2026-06-24T11:55:03.000Z",
+          "score": 0.8,
+          "segment_text": "도널드 트럼프 미국 대통령이 국제유가 하락에도 휘발유 가격이 충분히 내려가지 않고 있다며 법무부에 관련 문제를 조사하라고 지시했다.",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "4c170e4a1955368e",
+          "article_id": "25f5232bec4ba80f",
+          "publisher": "경향신문",
+          "title": "FIFA 회장 “트럼프, 결승전 참석”",
+          "url": "https://www.khan.co.kr/article/202606242037015",
+          "published_at": "2026-06-24T11:37:01.000Z",
+          "score": 0.8,
+          "segment_text": "FIFA 회장 “트럼프, 결승전 참석”",
+          "reason": "유가와 관련된 기사로 석유사업, 유통사업과 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "0cda5416b9bb1d48",
+          "article_id": "f44c59ed65f77af9",
+          "publisher": "경향신문",
+          "title": "이란 ‘호르무즈 수수료 부과’ 움직임에 루비오 “해협 통행료 부과는 국제법 위반”",
+          "url": "https://www.khan.co.kr/article/202606241704001",
+          "published_at": "2026-06-24T08:04:00.000Z",
+          "score": 0.8,
+          "segment_text": "이란이 호르무즈 해협의 통항 서비스 비용 부과 체계를 마련하고 있는 것으로 나타났다.",
+          "reason": "호르무즈 해협은 석유 수송에 중요한 해협으로, 통행료 부과는 석유 수급에 영향을 줄 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "B",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "985b84dc34d90341",
+          "article_id": "96cbb4c6f7798d61",
+          "publisher": "경향신문",
+          "title": "‘강한 일본’ 내건 다카이치, 무기 수출 전담조직 만든다",
+          "url": "https://www.khan.co.kr/article/202606241545001",
+          "published_at": "2026-06-24T06:45:00.000Z",
+          "score": 0.8,
+          "segment_text": "하이드레이션 브레이크?…‘야유 퍼붓거나 떼창’ 관중석 요란한 전쟁, “흐름 끊겨” 불만도",
+          "reason": "유가와 관련된 기사로 석유사업, 유통사업과 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 유가 관련 이슈로 한국석유공사의 석유사업, 유통사업, 정보제공과 관련이 있어 최종적으로 포함함"
+        },
+        {
+          "id": "96bd8dece58ad8ba",
+          "article_id": "d077706a6c7f128d",
+          "publisher": "경향신문",
+          "title": "트럼프 “휘발유값 왜 안 내리나···법무부에 조사 지시”",
+          "url": "https://www.khan.co.kr/article/202606241507001",
+          "published_at": "2026-06-24T06:07:00.000Z",
+          "score": 0.8,
+          "segment_text": "도널드 트럼프 미국 대통령이 국제유가 하락에도 휘발유 가격이 충분히 내려가지 않고 있다며 법무부에 관련 문제를 조사하라고 지시했다.",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "64623dc1621134cc",
+          "article_id": "ac3f85345ce5f4de",
+          "publisher": "경향신문",
+          "title": "반도체·수출 호조라지만…7월에도 ‘체감경기 한파’",
+          "url": "https://www.khan.co.kr/article/202606240908001",
+          "published_at": "2026-06-24T00:08:00.000Z",
+          "score": 0.8,
+          "segment_text": "국내 주요 기업들의 경기 체감 심리가 4개월 연속 부정적인 것으로 나타났다. 반도체 제외 제조업 생산은 1.3% 감소",
+          "reason": "석유사업 전략, 원유·석유제품 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "f4a82dcb4df61373",
+          "article_id": "b94ad4a0175cc424",
+          "publisher": "한겨레",
+          "title": "미 “호르무즈 통행료 불가”…이란과 핵사찰 놓고도 ‘다른 소리’",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1265141.html",
+          "published_at": "2026-06-24T07:56:00.000Z",
+          "score": 0.7,
+          "segment_text": "마코 루비오 미국 국무장관이 이란과 오만이 검토 중인 호르무즈해협 통항 서비스 요금 부과 방안에 대해 “어떤 국가도 통행료나 요금을 부과할 수 없다”며 반대 입장을 분명히 했다.",
+          "reason": "미국의 이란 핵사찰 재개 반대는 석유 수급 안정과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "B",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 한국석유공사의 석유 수급 안정 업무와 관련이 있어 최종적으로 포함함"
+        }
+      ]
+    },
+    {
+      "department_id": "distribution_business",
+      "department": "유통사업처",
+      "role": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "780b188cf5ba1f70",
+          "article_id": "962d2e3d3dc381d8",
+          "publisher": "경향신문",
+          "title": "호르무즈 해협 정상화 갈 길 먼데…파나마운하 가뭄 경보에 긴장하는 해운·정유업계",
+          "url": "https://www.khan.co.kr/article/202606241441001",
+          "published_at": "2026-06-24T05:41:00.000Z",
+          "score": 0.7,
+          "segment_text": "해운·정유업계",
+          "reason": "석유유통 관련 업무를 담당하는 부서",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        }
+      ]
+    },
+    {
+      "department_id": "energy_infra",
+      "department": "에너지인프라사업처",
+      "role": "에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hydrogen_ammonia",
+      "department": "수소암모니아사업단",
+      "role": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    }
+  ]
+}

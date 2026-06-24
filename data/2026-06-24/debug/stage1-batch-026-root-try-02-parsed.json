@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "article_id": "84396781b683eeee",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "에너지 안보 관련이지만 기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "729f7c50bcfb72e4",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "0b857f99e78663ea",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "e8e9e4fae685bb65",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없어 보입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "2e59582b2e0e884f",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "호르무즈해협 통행료 검토는 에너지 안보와 관련이 있을 수 있습니다.",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "이란과 오만이 공동으로 호르무즈해협 통행료 등을 검토할 수 있는 공동 실무그룹을 꾸리기로 했다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 안보와 관련된 전략 부서"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.4,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "호르무즈해협 통행료 검토는 석유 수급과 관련이 있을 수 있습니다.",
+          "evidence_type": "paragraph",
+          "reason": "석유정보 서비스와 시장동향 분석을 담당하는 스마트데이터센터"
+        }
+      ]
+    }
+  ]
+}

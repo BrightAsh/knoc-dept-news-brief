@@ -1,0 +1,90 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "6eec676bee15fafd",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "6eec676bee15fafd",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "에너지 관련 언급이 있어 한국석유공사와 관련 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "한국 정부의 인공지능 정책 목표에 대해 논의 중",
+            "evidence_type": "paragraph",
+            "reason": "에너지와 관련하여 인공지능 정책 목표를 논의하는 것은 에너지 안보와 관련이 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "6eec676bee15fafd",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "에너지 관련 언급이 있어 한국석유공사와 관련 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "한국 정부의 인공지능 정책 목표에 대해 논의 중",
+            "evidence_type": "paragraph",
+            "reason": "에너지와 관련하여 인공지능 정책 목표를 논의하는 것은 에너지 안보와 관련이 있을 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "693aa9df70856b85",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "693aa9df70856b85",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "휘발유 언급으로 석유 관련 가능성 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "러시아가 벨라루스에 군사 협력 확대를 압박",
+            "evidence_type": "paragraph",
+            "reason": "석유 사업과 관련하여 러시아와 벨라루스의 협력 확대는 석유 수급에 영향을 줄 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "693aa9df70856b85",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "휘발유 언급으로 석유 관련 가능성 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "러시아가 벨라루스에 군사 협력 확대를 압박",
+            "evidence_type": "paragraph",
+            "reason": "석유 사업과 관련하여 러시아와 벨라루스의 협력 확대는 석유 수급에 영향을 줄 수 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

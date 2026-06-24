@@ -1,0 +1,77 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "cd792259694b57c6",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "정부가 부산 기장군을 국내 최초 소형모듈원자로 건설 부지로 선정하면서 SMR 시장에 관한 관심이 높아지고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "SMR은 에너지전환과 관련된 사업으로 저탄소추진처의 관심 분야임"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "전 세계 AI 데이터센터 바람에 성장하는 SMR 시장…풀어야 할 숙제는?",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 시장의 성장과 관련된 전략 수립 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "ca6596059f1f12e6",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "재생에너지와 정전 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "재생에너지 발전 비중이 늘어나면 정전도 증가한다는 통념과 달리, 두 변수 사이에 일관된 상관관계는 없다는 분석이 나왔다. 재생에너지 팩트체크 플랫폼 '리팩트'는 국제 통계와 주요 대정전 사례를 종합 분석한 결과, 재생에너지 확대와 정전 시간 증가 사이에 유의미한 상관관계가 확인되지 않았다고 23일 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "재생에너지와 관련된 사업으로 저탄소추진처의 관심 분야임"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "재생에너지 늘면 정전도 는다?···“상관관계 없다”",
+          "evidence_type": "title",
+          "reason": "에너지 관련 시장의 성장과 관련된 전략 수립 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "9750b6e6f9aba1e0",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "수소 관련 언급이지만 기사 내용과 한국석유공사 사업 간 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "da11c0b8866b6451",
+      "candidate": false,
+      "confidence": 0.3,
+      "company_reason": "에너지 관련 언급이지만 기사 내용과 한국석유공사 사업 간 관련성이 낮음",
+      "departments": []
+    }
+  ]
+}
+```

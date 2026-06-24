@@ -1,0 +1,39 @@
+{
+  "results": [
+    {
+      "article_id": "a0f03b00364c1a7d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "단순 유가 관련 일반 경제 이슈로 보임",
+      "departments": []
+    },
+    {
+      "article_id": "962d2e3d3dc381d8",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "정유업계 관련 이슈로 한국석유공사와 연결됨",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "해운·정유업계",
+          "evidence_type": "paragraph",
+          "reason": "정유업계 관련 업무를 담당하는 부서"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "해운·정유업계",
+          "evidence_type": "paragraph",
+          "reason": "석유유통 관련 업무를 담당하는 부서"
+        }
+      ]
+    }
+  ]
+}
