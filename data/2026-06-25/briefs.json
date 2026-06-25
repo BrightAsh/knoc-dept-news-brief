@@ -1,0 +1,1207 @@
+{
+  "target_date": "2026-06-25",
+  "generated_at": "2026-06-25T17:36:30.198Z",
+  "analyzer": "knoc-two-pass-llm-v1",
+  "input_article_count": 418,
+  "relevant_article_count": 16,
+  "relevant_department_count": 6,
+  "pipeline": {
+    "stage0": {
+      "analyzer": "stage0-keyword-router-v1",
+      "keyword_hit_count": 74,
+      "keyword_miss_count": 344
+    },
+    "stage1": {
+      "enabled": true,
+      "status": "partial",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 418,
+      "analyzed_article_count": 402,
+      "candidate_count": 43,
+      "rejected_count": 129,
+      "warning_count": 26,
+      "error_count": 1
+    },
+    "stage2": {
+      "enabled": true,
+      "status": "ok",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 172,
+      "analyzed_article_count": 172,
+      "final_relevant_count": 22,
+      "final_rejected_count": 146,
+      "warning_count": 22,
+      "error_count": 0
+    }
+  },
+  "overall": {
+    "id": "overall",
+    "label": "전체",
+    "source": "llm",
+    "analysis_stage": "stage2",
+    "fallback_used": false,
+    "article_count": 16,
+    "item_count": 16,
+    "items": [
+      {
+        "id": "2c6c16f9302ae7b2",
+        "article_id": "4ad270d074d0623e",
+        "publisher": "경향신문",
+        "title": "호르무즈 내 한국 선박 26척 중 13척 탈출…외교부 “잔여 선박 조속한 통항 지원”",
+        "url": "https://www.khan.co.kr/article/202606251804001",
+        "published_at": "2026-06-25T09:04:00.000Z",
+        "score": 0.9,
+        "segment_text": "원유 수급과 관련이 있으므로 한국석유공사와 연결됨",
+        "reason": "원유 수급과 관련이 있으므로 한국석유공사와 연결됨",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 호르무즈 해협에서의 한국 선박 통항 문제와 관련이 있어 한국석유공사의 석유사업처와 관련이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "8cbc50892c7bc30d",
+        "article_id": "03c97a4d81113f92",
+        "publisher": "한겨레",
+        "title": "마이크론 깜짝 실적에 반도체주 다시 날았다…유가·금리도 진정",
+        "url": "https://www.hani.co.kr/arti/economy/finance/1265340.html",
+        "published_at": "2026-06-25T07:38:00.000Z",
+        "score": 0.9,
+        "segment_text": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 국제 유가와 관련이 있어 한국석유공사의 석유사업처, 유통사업처, 석유비축처와 관련이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "af027e37b5c6f91a",
+        "article_id": "fbcf0d1664ddee9f",
+        "publisher": "경향신문",
+        "title": "부산 앞바다서 선박 충돌로 인도네시아 선원 2명 실종··· 이재명 대통령 “가용 자원 총동원해 인명 구조”",
+        "url": "https://www.khan.co.kr/article/202606251208001",
+        "published_at": "2026-06-25T03:08:00.000Z",
+        "score": 0.9,
+        "segment_text": "LPG 운반선 언급으로 인해 석유사업과 관련이 있음",
+        "reason": "LPG 운반선 언급으로 인해 석유사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 부산 앞바다에서의 선박 충돌 사고와 관련이 있어 한국석유공사의 석유사업처와 관련이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.95,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "b30224baddc46c7d",
+        "article_id": "a39c69822673fbbb",
+        "publisher": "경향신문",
+        "title": "강릉시, 에너지 절약 2400여 가구에 탄소중립포인트 지급",
+        "url": "https://www.khan.co.kr/article/202606251154001",
+        "published_at": "2026-06-25T02:54:00.000Z",
+        "score": 0.9,
+        "segment_text": "에너지 절약과 탄소중립포인트 지급 관련 기사로 한국석유공사의 저탄소 사업과 관련이 있음",
+        "reason": "에너지 절약과 탄소중립포인트 지급 관련 기사로 한국석유공사의 저탄소 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 에너지 절약과 탄소중립포인트 지급 관련 언급으로 인해 저탄소추진처와 관련이 있음",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.95,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "b71a96ce51ecd49e",
+        "article_id": "5a7f147ffecaa78f",
+        "publisher": "경향신문",
+        "title": "국제유가, 호르무즈 재개 기대감에 급락···전쟁 전 수준으로",
+        "url": "https://www.khan.co.kr/article/202606250737001",
+        "published_at": "2026-06-24T22:37:00.000Z",
+        "score": 0.9,
+        "segment_text": "기사에서 국제유가 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+        "reason": "기사에서 국제유가 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 국제 유가 하락과 관련이 있어 한국석유공사의 석유사업처, 스마트데이터센터와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.95,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "886afdd3e14e2f52",
+        "article_id": "ad1cbfbcf57f4aa8",
+        "publisher": "경향신문",
+        "title": "국내 연구진, 끓이지 않는 정유 기술 개발…100년 이어진 한계 넘었다",
+        "url": "https://www.khan.co.kr/article/202606250000001",
+        "published_at": "2026-06-24T15:00:00.000Z",
+        "score": 0.9,
+        "segment_text": "정유 기술 개발 관련 기사로 한국석유공사의 석유사업과 관련이 있음",
+        "reason": "정유 기술 개발 관련 기사로 한국석유공사의 석유사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 국내 연구진의 정유 기술 개발과 관련이 있어 한국석유공사의 석유사업처와 관련이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "aab3c09b1ae24018",
+        "article_id": "5481b8eb0cc3d152",
+        "publisher": "경향신문",
+        "title": "미 5월 물가상승률 4.1%···휘발유값 급등에 3년 만에 최고",
+        "url": "https://www.khan.co.kr/article/202606252210001",
+        "published_at": "2026-06-25T13:10:00.000Z",
+        "score": 0.88,
+        "segment_text": "유가 상승 관련 기사로 석유사업, 정보제공 업무와 관련이 있음",
+        "reason": "유가 상승 관련 기사로 석유사업, 정보제공 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 상승 관련 기사로 석유사업, 정보제공 업무와 관련이 있으므로 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "7634cf362e6db372",
+        "article_id": "b1ff92fd5b4135f4",
+        "publisher": "경향신문",
+        "title": "미 5월 물가상승률 4.1%···휘발유값 급등에 3년 만에 최고",
+        "url": "https://www.khan.co.kr/article/202606252210001/",
+        "published_at": "2026-06-25T13:10:00.000Z",
+        "score": 0.8,
+        "segment_text": "석유/가스 수급 관련 기사",
+        "reason": "석유/가스 수급 관련 기사",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 미국 물가상승률과 휘발유 가격 급등 관련 기사로 한국석유공사의 석유사업처, 스마트데이터센터와 관련이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "a44710f2bff207c3",
+        "article_id": "34446294c1e31148",
+        "publisher": "경향신문",
+        "title": "허태정 대전시장 당선인 “대전·충남 통합은 공감대가 우선…‘AI 선도’ 도시 만들겠다”",
+        "url": "https://www.khan.co.kr/article/202606252113005/",
+        "published_at": "2026-06-25T12:13:00.000Z",
+        "score": 0.8,
+        "segment_text": "수소 관련 언급으로 에너지 전환 관련 사업과 연결됨",
+        "reason": "수소 관련 언급으로 에너지 전환 관련 사업과 연결됨",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 있음",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "5d87f1b2f087798c",
+        "article_id": "6a9cc72024997cbf",
+        "publisher": "경향신문",
+        "title": "부산 앞바다서 선박 충돌로 1명 사망, 2명 실종··· 이재명 대통령 “가용 자원 총동원해 인명 구조”",
+        "url": "https://www.khan.co.kr/article/202606251614011",
+        "published_at": "2026-06-25T07:14:01.000Z",
+        "score": 0.8,
+        "segment_text": "LPG 관련 기사로 유통사업과 관련이 있음",
+        "reason": "LPG 관련 기사로 유통사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, LPG 관련 기사로 유통사업과 관련이 있으므로 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "47bdfcc55276aa3c",
+        "article_id": "05a41f410a922d85",
+        "publisher": "한겨레",
+        "title": "기후동행카드→모두의카드 갈아타면…“최소 월 3만2천원 절감”",
+        "url": "https://www.hani.co.kr/arti/economy/economy_general/1265315.html",
+        "published_at": "2026-06-25T06:16:00.000Z",
+        "score": 0.8,
+        "segment_text": "유가 관련 정보는 한국석유공사의 석유사업, 유통사업, 정보제공 업무와 관련이 있음",
+        "reason": "유가 관련 정보는 한국석유공사의 석유사업, 유통사업, 정보제공 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 관련 정보는 한국석유공사의 석유사업, 유통사업, 정보제공 업무와 관련이 있으므로 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "3d7055c4352a0768",
+        "article_id": "33451d5c7cc94899",
+        "publisher": "경향신문",
+        "title": "“초등학교 아래에 가스관 지나간다”···용인 반도체 전력공급 노선 논란",
+        "url": "https://www.khan.co.kr/article/202606251322001",
+        "published_at": "2026-06-25T04:22:00.000Z",
+        "score": 0.8,
+        "segment_text": "석유공사 에너지 인프라 사업과 관련",
+        "reason": "석유공사 에너지 인프라 사업과 관련",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 석유공사 에너지 인프라 사업과 관련이 있으므로 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "energy_infra",
+            "name": "에너지인프라사업처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "465a0df66eb85894",
+        "article_id": "d4f993d0c4ee8f41",
+        "publisher": "경향신문",
+        "title": "‘26만명 가입’ 양산사랑카드, 지역경제 플랫폼으로 도약",
+        "url": "https://www.khan.co.kr/article/202606251053001",
+        "published_at": "2026-06-25T01:53:00.000Z",
+        "score": 0.8,
+        "segment_text": "유가 관련 정보 제공",
+        "reason": "유가 관련 정보 제공",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 관련 정보 제공으로 스마트데이터센터와 유통사업처의 업무와 관련이 있으므로 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "4c2684cbc0c8dcfb",
+        "article_id": "5d41fa4155b38f36",
+        "publisher": "경향신문",
+        "title": "허태정 “행정통합, 방향 맞지만 속도보다는 시민 공감대가 우선”[민선9기 단체장에게 듣다]",
+        "url": "https://www.khan.co.kr/article/202606251411011",
+        "published_at": "2026-06-25T05:11:01.000Z",
+        "score": 0.7,
+        "segment_text": "기사에서 언급된 '유가'와 '수소'는 한국석유공사의 사업 영역과 관련이 있음",
+        "reason": "기사에서 언급된 '유가'와 '수소'는 한국석유공사의 사업 영역과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "cd3f23c35febefbe",
+        "article_id": "d03d33a42bb674cb",
+        "publisher": "경향신문",
+        "title": "베네수엘라 대지진 속 교민들 “공항 폐쇄에 무장경찰 배치···약탈 우려에 마트도 문 닫아”",
+        "url": "https://www.khan.co.kr/article/202606251259001",
+        "published_at": "2026-06-25T03:59:00.000Z",
+        "score": 0.7,
+        "segment_text": "주유소 관련 언급으로 한국석유공사의 유통 사업과 관련이 있음",
+        "reason": "주유소 관련 언급으로 한국석유공사의 유통 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "246f0ef50e09f47a",
+        "article_id": "40b07364450f1307",
+        "publisher": "경향신문",
+        "title": "“주요 도로 피하고 야간 이동 자제하라”···AI 드론이 바꿔놓은 전장의 규칙",
+        "url": "https://www.khan.co.kr/article/202606250600001",
+        "published_at": "2026-06-24T21:00:00.000Z",
+        "score": 0.7,
+        "segment_text": "에너지 및 주유소 관련 이슈로 한국석유공사의 유통사업처와 관련이 있음",
+        "reason": "에너지 및 주유소 관련 이슈로 한국석유공사의 유통사업처와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 한국석유공사의 유통사업처와 관련이 있어 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_review": {
+    "enabled": true,
+    "status": "ok",
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "analyzed_article_count": 172,
+    "brief_source_stage": "stage2",
+    "fallback_used": false,
+    "stages": {
+      "stage1": {
+        "enabled": true,
+        "status": "partial",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 418,
+        "analyzed_article_count": 402,
+        "candidate_count": 43,
+        "rejected_count": 129,
+        "warning_count": 26,
+        "error_count": 1
+      },
+      "stage2": {
+        "enabled": true,
+        "status": "ok",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 172,
+        "analyzed_article_count": 172,
+        "final_relevant_count": 22,
+        "final_rejected_count": 146,
+        "warning_count": 22,
+        "error_count": 0
+      }
+    }
+  },
+  "departments": [
+    {
+      "department_id": "secretariat",
+      "department": "비서팀",
+      "role": "사장 일정, 의전, 대내외 메시지, 지시사항 이행과 대외 접점 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "she",
+      "department": "SHE추진실",
+      "role": "전사 안전, 보건, 환경, 재난 대응, 중대재해 예방과 안전보건환경 관리체계를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "audit",
+      "department": "감사실",
+      "role": "감사계획과 감사 수행, 내부통제, 일상감사, 부패·비위 점검, 청렴 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "legal",
+      "department": "법무팀",
+      "role": "국내외 송무, 계약과 사업의 법률 검토, 규제 대응, 분쟁 대응, 지식재산권 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "planning_budget",
+      "department": "기획예산처",
+      "role": "이사회, 국회, 정부 대응, 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "strategy",
+      "department": "경영전략처",
+      "role": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "finance",
+      "department": "재무처",
+      "role": "자금 조달과 상환, 자금 집행, 결산, 세무, 환율·금리·부채 등 재무 리스크 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "esg",
+      "department": "ESG경영처",
+      "role": "ESG 경영, 윤리·인권, 사회공헌, 동반성장, 상생, 내부통제 지원 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "infosec",
+      "department": "정보보안팀",
+      "role": "정보보안 정책과 운영, 개인정보보호, 사이버 침해 대응, 정보유출 예방 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "general_affairs",
+      "department": "총무처",
+      "role": "문서와 기록물, 자산, 사옥, 숙소, 조달계약, 구매, 시설관리, 비상대비 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hr",
+      "department": "인재경영처",
+      "role": "조직, 인사, 채용, 평가, 교육훈련, 급여, 복리후생, 노사관계와 인력 운영을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "smart_data",
+      "department": "스마트데이터센터",
+      "role": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
+      "article_count": 5,
+      "segment_count": 5,
+      "items": [
+        {
+          "id": "f71fa6e168f8430f",
+          "article_id": "05a41f410a922d85",
+          "publisher": "한겨레",
+          "title": "기후동행카드→모두의카드 갈아타면…“최소 월 3만2천원 절감”",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1265315.html",
+          "published_at": "2026-06-25T06:16:00.000Z",
+          "score": 0.9,
+          "segment_text": "기후동행카드의 환급 혜택이 6월 말 종료되는 가운데, 기후동행카드 이용자가 7~9월 ‘모두의카드’로 갈아타면 최소 3만2천원의 비용을 절감할 것으로 보인다.",
+          "reason": "유가와 관련된 정보 제공은 스마트데이터센터의 역할입니다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 관련 정보는 한국석유공사의 석유사업, 유통사업, 정보제공 업무와 관련이 있으므로 최종적으로 포함함"
+        },
+        {
+          "id": "6e483e41652586c1",
+          "article_id": "d4f993d0c4ee8f41",
+          "publisher": "경향신문",
+          "title": "‘26만명 가입’ 양산사랑카드, 지역경제 플랫폼으로 도약",
+          "url": "https://www.khan.co.kr/article/202606251053001",
+          "published_at": "2026-06-25T01:53:00.000Z",
+          "score": 0.9,
+          "segment_text": "유가·석유가격 정보",
+          "reason": "스마트데이터센터는 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 관련 정보 제공으로 스마트데이터센터와 유통사업처의 업무와 관련이 있으므로 최종적으로 포함함"
+        },
+        {
+          "id": "a861cce04647b074",
+          "article_id": "5a7f147ffecaa78f",
+          "publisher": "경향신문",
+          "title": "국제유가, 호르무즈 재개 기대감에 급락···전쟁 전 수준으로",
+          "url": "https://www.khan.co.kr/article/202606250737001",
+          "published_at": "2026-06-24T22:37:00.000Z",
+          "score": 0.8,
+          "segment_text": "국제유가가 나흘 연속 하락해 미국-이란 전쟁 이전 수준으로 내려왔다.",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하는 스마트데이터센터와 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 국제 유가 하락과 관련이 있어 한국석유공사의 석유사업처, 스마트데이터센터와 관련이 있을 수 있음"
+        },
+        {
+          "id": "ee59c45305f69f00",
+          "article_id": "b1ff92fd5b4135f4",
+          "publisher": "경향신문",
+          "title": "미 5월 물가상승률 4.1%···휘발유값 급등에 3년 만에 최고",
+          "url": "https://www.khan.co.kr/article/202606252210001/",
+          "published_at": "2026-06-25T13:10:00.000Z",
+          "score": 0.7,
+          "segment_text": "미 5월 물가상승률 4.1%···휘발유값 급등에 3년 만에 최고",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 미국 물가상승률과 휘발유 가격 급등 관련 기사로 한국석유공사의 석유사업처, 스마트데이터센터와 관련이 있음"
+        },
+        {
+          "id": "06675217ac8c3bbc",
+          "article_id": "5481b8eb0cc3d152",
+          "publisher": "경향신문",
+          "title": "미 5월 물가상승률 4.1%···휘발유값 급등에 3년 만에 최고",
+          "url": "https://www.khan.co.kr/article/202606252210001",
+          "published_at": "2026-06-25T13:10:00.000Z",
+          "score": 0.7,
+          "segment_text": "미 5월 물가상승률 4.1%···휘발유값 급등에 3년 만에 최고",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 상승 관련 기사로 석유사업, 정보제공 업무와 관련이 있으므로 최종적으로 포함함"
+        }
+      ]
+    },
+    {
+      "department_id": "asia_business",
+      "department": "아시아사업처",
+      "role": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "americas_europe_business",
+      "department": "미주/유럽사업처",
+      "role": "미주와 유럽 지역 E&P 사업, 해외광구, Capex/Opex, 사업 손익, 자금수지 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "domestic_business_development",
+      "department": "국내사업개발처",
+      "role": "국내 자원개발 사업, 국내 대륙붕, 가스전, 탐사·시추, 신규 국내 사업개발을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "low_carbon",
+      "department": "저탄소추진처",
+      "role": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
+      "article_count": 3,
+      "segment_count": 3,
+      "items": [
+        {
+          "id": "70cbb0da08a751fa",
+          "article_id": "a39c69822673fbbb",
+          "publisher": "경향신문",
+          "title": "강릉시, 에너지 절약 2400여 가구에 탄소중립포인트 지급",
+          "url": "https://www.khan.co.kr/article/202606251154001",
+          "published_at": "2026-06-25T02:54:00.000Z",
+          "score": 0.95,
+          "segment_text": "강릉시, 에너지 절약 2400여 가구에 탄소중립포인트 지급",
+          "reason": "에너지 절약과 탄소중립포인트 지급 관련 기사로 한국석유공사의 저탄소 사업과 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토 결과, 에너지 절약과 탄소중립포인트 지급 관련 언급으로 인해 저탄소추진처와 관련이 있음"
+        },
+        {
+          "id": "a5affc6b951c072d",
+          "article_id": "34446294c1e31148",
+          "publisher": "경향신문",
+          "title": "허태정 대전시장 당선인 “대전·충남 통합은 공감대가 우선…‘AI 선도’ 도시 만들겠다”",
+          "url": "https://www.khan.co.kr/article/202606252113005/",
+          "published_at": "2026-06-25T12:13:00.000Z",
+          "score": 0.9,
+          "segment_text": "허태정 대전시장 당선인이 지난 23일 대전 당선인 집무실에서 경향신문과 인터뷰하고 있다.",
+          "reason": "수소 관련 언급으로 에너지 전환 관련 사업과 연결됨",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 있음"
+        },
+        {
+          "id": "e0b378928fb4e980",
+          "article_id": "5d41fa4155b38f36",
+          "publisher": "경향신문",
+          "title": "허태정 “행정통합, 방향 맞지만 속도보다는 시민 공감대가 우선”[민선9기 단체장에게 듣다]",
+          "url": "https://www.khan.co.kr/article/202606251411011",
+          "published_at": "2026-06-25T05:11:01.000Z",
+          "score": 0.7,
+          "segment_text": "수소",
+          "reason": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축을 담당하는 수소암모니아사업단과 관련이 있다.",
+          "evidence_type": "sentence",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "global_technology_center",
+      "department": "글로벌기술센터",
+      "role": "E&P 기술지원, 지질·저류층·시추 기술, 기술전략, 연구개발, 기술자료와 기술평가를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "stockpiling",
+      "department": "석유비축처",
+      "role": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "5b998c8bbeeda280",
+          "article_id": "03c97a4d81113f92",
+          "publisher": "한겨레",
+          "title": "마이크론 깜짝 실적에 반도체주 다시 날았다…유가·금리도 진정",
+          "url": "https://www.hani.co.kr/arti/economy/finance/1265340.html",
+          "published_at": "2026-06-25T07:38:00.000Z",
+          "score": 0.6,
+          "segment_text": "국제 유가와 미국 국채금리도 진정되며 인공지능(AI)발 반도체 투자심리가 회복되는 모습이다.",
+          "reason": "유가 관련 기사로 정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당하는 석유비축처와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 국제 유가와 관련이 있어 한국석유공사의 석유사업처, 유통사업처, 석유비축처와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "petroleum_business",
+      "department": "석유사업처",
+      "role": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+      "article_count": 9,
+      "segment_count": 9,
+      "items": [
+        {
+          "id": "99f24483ed012990",
+          "article_id": "fbcf0d1664ddee9f",
+          "publisher": "경향신문",
+          "title": "부산 앞바다서 선박 충돌로 인도네시아 선원 2명 실종··· 이재명 대통령 “가용 자원 총동원해 인명 구조”",
+          "url": "https://www.khan.co.kr/article/202606251208001",
+          "published_at": "2026-06-25T03:08:00.000Z",
+          "score": 0.95,
+          "segment_text": "부산 기장군 앞바다에서 LPG 운반선과 어선이 충돌해 인도네시아 국적 선원 2명이 실종됐다.",
+          "reason": "LPG 운반선이 언급되어 석유사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 부산 앞바다에서의 선박 충돌 사고와 관련이 있어 한국석유공사의 석유사업처와 관련이 있음"
+        },
+        {
+          "id": "6df0aaa2c0a45006",
+          "article_id": "5a7f147ffecaa78f",
+          "publisher": "경향신문",
+          "title": "국제유가, 호르무즈 재개 기대감에 급락···전쟁 전 수준으로",
+          "url": "https://www.khan.co.kr/article/202606250737001",
+          "published_at": "2026-06-24T22:37:00.000Z",
+          "score": 0.95,
+          "segment_text": "국제유가가 나흘 연속 하락해 미국-이란 전쟁 이전 수준으로 내려왔다.",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무를 담당하는 석유사업처와 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 국제 유가 하락과 관련이 있어 한국석유공사의 석유사업처, 스마트데이터센터와 관련이 있을 수 있음"
+        },
+        {
+          "id": "f275db7a49f8a36c",
+          "article_id": "b1ff92fd5b4135f4",
+          "publisher": "경향신문",
+          "title": "미 5월 물가상승률 4.1%···휘발유값 급등에 3년 만에 최고",
+          "url": "https://www.khan.co.kr/article/202606252210001/",
+          "published_at": "2026-06-25T13:10:00.000Z",
+          "score": 0.9,
+          "segment_text": "미 5월 물가상승률 4.1%···휘발유값 급등에 3년 만에 최고",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 미국 물가상승률과 휘발유 가격 급등 관련 기사로 한국석유공사의 석유사업처, 스마트데이터센터와 관련이 있음"
+        },
+        {
+          "id": "5947005a37719885",
+          "article_id": "5481b8eb0cc3d152",
+          "publisher": "경향신문",
+          "title": "미 5월 물가상승률 4.1%···휘발유값 급등에 3년 만에 최고",
+          "url": "https://www.khan.co.kr/article/202606252210001",
+          "published_at": "2026-06-25T13:10:00.000Z",
+          "score": 0.9,
+          "segment_text": "미 5월 물가상승률 4.1%···휘발유값 급등에 3년 만에 최고",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 상승 관련 기사로 석유사업, 정보제공 업무와 관련이 있으므로 최종적으로 포함함"
+        },
+        {
+          "id": "58a6743b66545dcb",
+          "article_id": "4ad270d074d0623e",
+          "publisher": "경향신문",
+          "title": "호르무즈 내 한국 선박 26척 중 13척 탈출…외교부 “잔여 선박 조속한 통항 지원”",
+          "url": "https://www.khan.co.kr/article/202606251804001",
+          "published_at": "2026-06-25T09:04:00.000Z",
+          "score": 0.8,
+          "segment_text": "외교부는 중동 전쟁으로 호르무즈 해협에 발이 묶였던 한국 선박 중 절반이 해협을 빠져나온 데 대해 \"우리 선박 통과 문제는 어느 정도 가닥이 잡혀가는 상황\"이라고 25일 밝혔다.",
+          "reason": "원유 수급과 관련이 있으므로 석유사업처와 연결됨",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 호르무즈 해협에서의 한국 선박 통항 문제와 관련이 있어 한국석유공사의 석유사업처와 관련이 있음"
+        },
+        {
+          "id": "598313bc6cc7f865",
+          "article_id": "03c97a4d81113f92",
+          "publisher": "한겨레",
+          "title": "마이크론 깜짝 실적에 반도체주 다시 날았다…유가·금리도 진정",
+          "url": "https://www.hani.co.kr/arti/economy/finance/1265340.html",
+          "published_at": "2026-06-25T07:38:00.000Z",
+          "score": 0.8,
+          "segment_text": "국제 유가와 미국 국채금리도 진정되며 인공지능(AI)발 반도체 투자심리가 회복되는 모습이다.",
+          "reason": "유가 관련 기사로 석유 구매 및 판매, 트레이딩 업무를 담당하는 석유사업처와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 국제 유가와 관련이 있어 한국석유공사의 석유사업처, 유통사업처, 석유비축처와 관련이 있음"
+        },
+        {
+          "id": "5a9dc1781fe137ed",
+          "article_id": "5d41fa4155b38f36",
+          "publisher": "경향신문",
+          "title": "허태정 “행정통합, 방향 맞지만 속도보다는 시민 공감대가 우선”[민선9기 단체장에게 듣다]",
+          "url": "https://www.khan.co.kr/article/202606251411011",
+          "published_at": "2026-06-25T05:11:01.000Z",
+          "score": 0.8,
+          "segment_text": "유가",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있다.",
+          "evidence_type": "sentence",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 있음"
+        },
+        {
+          "id": "169154bca13022bf",
+          "article_id": "ad1cbfbcf57f4aa8",
+          "publisher": "경향신문",
+          "title": "국내 연구진, 끓이지 않는 정유 기술 개발…100년 이어진 한계 넘었다",
+          "url": "https://www.khan.co.kr/article/202606250000001",
+          "published_at": "2026-06-24T15:00:00.000Z",
+          "score": 0.8,
+          "segment_text": "국내 연구진, 끓이지 않는 정유 기술 개발…100년 이어진 한계 넘었다",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하므로 정유 기술 개발 관련 기사와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 국내 연구진의 정유 기술 개발과 관련이 있어 한국석유공사의 석유사업처와 관련이 있음"
+        },
+        {
+          "id": "3615e2988097c8b0",
+          "article_id": "05a41f410a922d85",
+          "publisher": "한겨레",
+          "title": "기후동행카드→모두의카드 갈아타면…“최소 월 3만2천원 절감”",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1265315.html",
+          "published_at": "2026-06-25T06:16:00.000Z",
+          "score": 0.7,
+          "segment_text": "기후동행카드의 환급 혜택이 6월 말 종료되는 가운데, 기후동행카드 이용자가 7~9월 ‘모두의카드’로 갈아타면 최소 3만2천원의 비용을 절감할 것으로 보인다.",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무와 연결됩니다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 관련 정보는 한국석유공사의 석유사업, 유통사업, 정보제공 업무와 관련이 있으므로 최종적으로 포함함"
+        }
+      ]
+    },
+    {
+      "department_id": "distribution_business",
+      "department": "유통사업처",
+      "role": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+      "article_count": 5,
+      "segment_count": 5,
+      "items": [
+        {
+          "id": "ca816910081387d0",
+          "article_id": "6a9cc72024997cbf",
+          "publisher": "경향신문",
+          "title": "부산 앞바다서 선박 충돌로 1명 사망, 2명 실종··· 이재명 대통령 “가용 자원 총동원해 인명 구조”",
+          "url": "https://www.khan.co.kr/article/202606251614011",
+          "published_at": "2026-06-25T07:14:01.000Z",
+          "score": 0.8,
+          "segment_text": "부산 기장군 앞바다에서 액화석유가스 운반선과 어선이 충돌해 1명이 숨지고 2명이 실종됐다.",
+          "reason": "LPG와 관련하여 언급됨",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토 결과, LPG 관련 기사로 유통사업과 관련이 있으므로 최종적으로 포함함"
+        },
+        {
+          "id": "c82208f22668f18c",
+          "article_id": "d03d33a42bb674cb",
+          "publisher": "경향신문",
+          "title": "베네수엘라 대지진 속 교민들 “공항 폐쇄에 무장경찰 배치···약탈 우려에 마트도 문 닫아”",
+          "url": "https://www.khan.co.kr/article/202606251259001",
+          "published_at": "2026-06-25T03:59:00.000Z",
+          "score": 0.8,
+          "segment_text": "베네수엘라에서 24일 발생한 대지진으로 큰 규모의 사망자가 발생할 것으로 예상되는 가운데, 현지 교민들도 계속되는 여진을 피해 한인 집결지에 모여 있는 상황인 것으로 전해졌다.",
+          "reason": "주유소 관련",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 유지"
+        },
+        {
+          "id": "deae853825082252",
+          "article_id": "03c97a4d81113f92",
+          "publisher": "한겨레",
+          "title": "마이크론 깜짝 실적에 반도체주 다시 날았다…유가·금리도 진정",
+          "url": "https://www.hani.co.kr/arti/economy/finance/1265340.html",
+          "published_at": "2026-06-25T07:38:00.000Z",
+          "score": 0.7,
+          "segment_text": "국제 유가와 미국 국채금리도 진정되며 인공지능(AI)발 반도체 투자심리가 회복되는 모습이다.",
+          "reason": "유가 관련 기사로 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당하는 유통사업처와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 기사 내용이 국제 유가와 관련이 있어 한국석유공사의 석유사업처, 유통사업처, 석유비축처와 관련이 있음"
+        },
+        {
+          "id": "a60986f921753008",
+          "article_id": "d4f993d0c4ee8f41",
+          "publisher": "경향신문",
+          "title": "‘26만명 가입’ 양산사랑카드, 지역경제 플랫폼으로 도약",
+          "url": "https://www.khan.co.kr/article/202606251053001",
+          "published_at": "2026-06-25T01:53:00.000Z",
+          "score": 0.7,
+          "segment_text": "지역경제 플랫폼으로 도약",
+          "reason": "유통사업처는 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 관련 정보 제공으로 스마트데이터센터와 유통사업처의 업무와 관련이 있으므로 최종적으로 포함함"
+        },
+        {
+          "id": "caa97443c608b0d2",
+          "article_id": "40b07364450f1307",
+          "publisher": "경향신문",
+          "title": "“주요 도로 피하고 야간 이동 자제하라”···AI 드론이 바꿔놓은 전장의 규칙",
+          "url": "https://www.khan.co.kr/article/202606250600001",
+          "published_at": "2026-06-24T21:00:00.000Z",
+          "score": 0.7,
+          "segment_text": "러시아·우크라이나 전쟁과 미국·이란 전쟁을 거치며 빠르게 진화한 드론 기술은 현대전의 규칙을 바꾸고 있다.",
+          "reason": "한국석유공사의 알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 업무와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 한국석유공사의 유통사업처와 관련이 있어 최종적으로 포함함"
+        }
+      ]
+    },
+    {
+      "department_id": "energy_infra",
+      "department": "에너지인프라사업처",
+      "role": "에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 업무를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "879792d90c1154a5",
+          "article_id": "33451d5c7cc94899",
+          "publisher": "경향신문",
+          "title": "“초등학교 아래에 가스관 지나간다”···용인 반도체 전력공급 노선 논란",
+          "url": "https://www.khan.co.kr/article/202606251322001",
+          "published_at": "2026-06-25T04:22:00.000Z",
+          "score": 0.9,
+          "segment_text": "경기 용인 반도체클러스터 전력 공급용 LNG 발전소로 향하는 가스관이 용인 양지읍 일대 지하를 관통한다는 사실이 알려지자 이 지역 주민들이 반발하고 있다.",
+          "reason": "에너지 인프라 사업과 관련",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토 결과, 석유공사 에너지 인프라 사업과 관련이 있으므로 최종적으로 포함함"
+        }
+      ]
+    },
+    {
+      "department_id": "hydrogen_ammonia",
+      "department": "수소암모니아사업단",
+      "role": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    }
+  ]
+}

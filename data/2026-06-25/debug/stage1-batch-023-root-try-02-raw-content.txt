@@ -1,0 +1,34 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "d4f993d0c4ee8f41",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유가 관련 정보 제공",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "유가·석유가격 정보",
+          "evidence_type": "paragraph",
+          "reason": "스마트데이터센터는 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다."
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "지역경제 플랫폼으로 도약",
+          "evidence_type": "paragraph",
+          "reason": "유통사업처는 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다."
+        }
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,176 @@
+{
+  "raw_result_count": 4,
+  "accepted_result_count": 4,
+  "normalization": [
+    {
+      "article_id": "fbcf0d1664ddee9f",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "fbcf0d1664ddee9f",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "LPG 운반선 언급으로 인해 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.95,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "부산 기장군 앞바다에서 LPG 운반선과 어선이 충돌해 인도네시아 국적 선원 2명이 실종됐다.",
+            "evidence_type": "paragraph",
+            "reason": "LPG 운반선이 언급되어 석유사업과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "fbcf0d1664ddee9f",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "LPG 운반선 언급으로 인해 석유사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.95,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "부산 기장군 앞바다에서 LPG 운반선과 어선이 충돌해 인도네시아 국적 선원 2명이 실종됐다.",
+            "evidence_type": "paragraph",
+            "reason": "LPG 운반선이 언급되어 석유사업과 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "e46d7df227698239",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "e46d7df227698239",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 언급으로 인해 에너지 사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "[베네수 강진] 트럼프 “도울 준비 돼있어”···각국 지원 줄이어",
+            "evidence_type": "title",
+            "reason": "에너지 관련 언급으로 인해 에너지 사업과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "e46d7df227698239",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 언급으로 인해 에너지 사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "[베네수 강진] 트럼프 “도울 준비 돼있어”···각국 지원 줄이어",
+            "evidence_type": "article",
+            "reason": "에너지 관련 언급으로 인해 에너지 사업과 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "a39c69822673fbbb",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "a39c69822673fbbb",
+        "candidate": true,
+        "confidence": 0.85,
+        "company_reason": "에너지 절약과 탄소중립포인트 지급 언급으로 인해 에너지 사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "강릉시, 에너지 절약 2400여 가구에 탄소중립포인트 지급",
+            "evidence_type": "title",
+            "reason": "에너지 절약과 탄소중립포인트 지급 언급으로 인해 에너지 사업과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "a39c69822673fbbb",
+        "candidate": true,
+        "confidence": 0.85,
+        "company_reason": "에너지 절약과 탄소중립포인트 지급 언급으로 인해 에너지 사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "강릉시, 에너지 절약 2400여 가구에 탄소중립포인트 지급",
+            "evidence_type": "article",
+            "reason": "에너지 절약과 탄소중립포인트 지급 언급으로 인해 에너지 사업과 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "ba16c63811dfdae2",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "ba16c63811dfdae2",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "산업부 언급으로 인해 에너지 사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "산업부 “클러스터 지정 때 비수도권 우대” 반도체특별법 시행령안 입법예고",
+            "evidence_type": "title",
+            "reason": "산업부 언급으로 인해 에너지 사업과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "ba16c63811dfdae2",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "산업부 언급으로 인해 에너지 사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "산업부 “클러스터 지정 때 비수도권 우대” 반도체특별법 시행령안 입법예고",
+            "evidence_type": "article",
+            "reason": "산업부 언급으로 인해 에너지 사업과 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

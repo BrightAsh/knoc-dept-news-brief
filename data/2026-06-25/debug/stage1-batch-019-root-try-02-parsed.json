@@ -1,0 +1,32 @@
+{
+  "results": [
+    {
+      "article_id": "5d41fa4155b38f36",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "기사에서 언급된 '유가'와 '수소'는 한국석유공사의 사업 영역과 관련이 있다.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "유가",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있다."
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "수소",
+          "evidence_type": "sentence",
+          "reason": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축을 담당하는 수소암모니아사업단과 관련이 있다."
+        }
+      ]
+    }
+  ]
+}

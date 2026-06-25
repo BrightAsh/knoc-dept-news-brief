@@ -1,0 +1,138 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "ed20bb255014c316",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "기사 내용이 한국석유공사의 업무와 직접 관련이 없음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 없음",
+      "departments": []
+    },
+    {
+      "article_id": "5d41fa4155b38f36",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "기사에서 언급된 '유가'와 '수소'는 한국석유공사의 사업 영역과 관련이 있음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "유가",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있다."
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "수소",
+          "evidence_type": "sentence",
+          "reason": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축을 담당하는 수소암모니아사업단과 관련이 있다."
+        }
+      ]
+    },
+    {
+      "article_id": "34446294c1e31148",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "수소 관련 언급으로 에너지 전환 관련 사업과 연결됨",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "허태정 대전시장 당선인이 지난 23일 대전 당선인 집무실에서 경향신문과 인터뷰하고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "수소 관련 언급으로 에너지 전환 관련 사업과 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "76a2e4b59c3c8a59",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "기사 내용이 한국석유공사의 업무와 직접 관련이 없음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 없음",
+      "departments": []
+    },
+    {
+      "article_id": "ba16c63811dfdae2",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "기사 내용이 한국석유공사의 업무와 직접 관련이 없음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 없음",
+      "departments": []
+    },
+    {
+      "article_id": "71f7ff8fce1bec06",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "공공기관 안전관리 관련 기사로 한국석유공사의 안전 관련 부서와 연결될 가능성이 있음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 있음",
+      "departments": [
+        {
+          "department_id": "she",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "공공 부문의 안전 관리",
+          "evidence_type": "paragraph",
+          "reason": "안전 점검과 관련된 내용으로 SHE추진실의 안전, 보건, 환경, 재난 대응 업무와 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "eddc9262b974dab6",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "삼성전자와 SK하이닉스가 수도권에 집중된 첨단 반도체 공장을 충청과 호남으로 확대하는 방안을 추진하고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사의 경영전략과 에너지 관련 정책에 영향을 받을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "00ddd1626d4278ce",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 기사로 한국석유공사의 에너지 전환, 저탄소 사업과 관련이 있음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "오는 11월 튀르키예 안탈리아에서 열릴 제31차 유엔 기후변화협약 당사국총회를 앞두고 개최된 사전협상에서 각국이 기후재원 등 핵심 쟁점에 합의하지 못하면서 COP31도 난항을 겪을 것이라는 우려가 나온다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 기사로 CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당하는 저탄소추진처와 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

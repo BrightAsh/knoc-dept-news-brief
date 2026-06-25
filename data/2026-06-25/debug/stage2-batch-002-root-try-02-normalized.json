@@ -1,0 +1,352 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "5481b8eb0cc3d152",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "5481b8eb0cc3d152",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "유가 상승 관련 기사로 석유사업, 정보제공 업무와 관련이 있음",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 상승 관련 기사로 석유사업, 정보제공 업무와 관련이 있으므로 최종적으로 포함함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "미 5월 물가상승률 4.1%···휘발유값 급등에 3년 만에 최고",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "미 5월 물가상승률 4.1%···휘발유값 급등에 3년 만에 최고",
+            "evidence_type": "paragraph",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "5481b8eb0cc3d152",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "유가 상승 관련 기사로 석유사업, 정보제공 업무와 관련이 있음",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 상승 관련 기사로 석유사업, 정보제공 업무와 관련이 있으므로 최종적으로 포함함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "미 5월 물가상승률 4.1%···휘발유값 급등에 3년 만에 최고",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "미 5월 물가상승률 4.1%···휘발유값 급등에 3년 만에 최고",
+            "evidence_type": "paragraph",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "181d6ff9c5a6a6c7",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "181d6ff9c5a6a6c7",
+        "final_relevant": false,
+        "confidence": 0.4,
+        "final_reason": "정유 관련 언급이지만 기사 내용이 한국석유공사 업무와 직접 관련이 없음",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 기사 내용이 한국석유공사 업무와 직접 관련이 없으므로 최종적으로 제외함",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "181d6ff9c5a6a6c7",
+        "final_relevant": false,
+        "confidence": 0.4,
+        "final_reason": "정유 관련 언급이지만 기사 내용이 한국석유공사 업무와 직접 관련이 없음",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 기사 내용이 한국석유공사 업무와 직접 관련이 없으므로 최종적으로 제외함",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "6a9cc72024997cbf",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "6a9cc72024997cbf",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "LPG 관련 기사로 유통사업과 관련이 있음",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, LPG 관련 기사로 유통사업과 관련이 있으므로 최종적으로 포함함",
+        "departments": [
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "부산 기장군 앞바다에서 액화석유가스 운반선과 어선이 충돌해 1명이 숨지고 2명이 실종됐다.",
+            "evidence_type": "paragraph",
+            "reason": "LPG와 관련하여 언급됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "6a9cc72024997cbf",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "LPG 관련 기사로 유통사업과 관련이 있음",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, LPG 관련 기사로 유통사업과 관련이 있으므로 최종적으로 포함함",
+        "departments": [
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "부산 기장군 앞바다에서 액화석유가스 운반선과 어선이 충돌해 1명이 숨지고 2명이 실종됐다.",
+            "evidence_type": "paragraph",
+            "reason": "LPG와 관련하여 언급됨"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "05a41f410a922d85",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "05a41f410a922d85",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "유가 관련 정보는 한국석유공사의 석유사업, 유통사업, 정보제공 업무와 관련이 있음",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 관련 정보는 한국석유공사의 석유사업, 유통사업, 정보제공 업무와 관련이 있으므로 최종적으로 포함함",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "기후동행카드의 환급 혜택이 6월 말 종료되는 가운데, 기후동행카드 이용자가 7~9월 ‘모두의카드’로 갈아타면 최소 3만2천원의 비용을 절감할 것으로 보인다.",
+            "evidence_type": "paragraph",
+            "reason": "유가와 관련된 정보 제공은 스마트데이터센터의 역할입니다."
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "기후동행카드의 환급 혜택이 6월 말 종료되는 가운데, 기후동행카드 이용자가 7~9월 ‘모두의카드’로 갈아타면 최소 3만2천원의 비용을 절감할 것으로 보인다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무와 연결됩니다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "05a41f410a922d85",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "유가 관련 정보는 한국석유공사의 석유사업, 유통사업, 정보제공 업무와 관련이 있음",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 관련 정보는 한국석유공사의 석유사업, 유통사업, 정보제공 업무와 관련이 있으므로 최종적으로 포함함",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "기후동행카드의 환급 혜택이 6월 말 종료되는 가운데, 기후동행카드 이용자가 7~9월 ‘모두의카드’로 갈아타면 최소 3만2천원의 비용을 절감할 것으로 보인다.",
+            "evidence_type": "paragraph",
+            "reason": "유가와 관련된 정보 제공은 스마트데이터센터의 역할입니다."
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "기후동행카드의 환급 혜택이 6월 말 종료되는 가운데, 기후동행카드 이용자가 7~9월 ‘모두의카드’로 갈아타면 최소 3만2천원의 비용을 절감할 것으로 보인다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무와 연결됩니다."
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "d4f993d0c4ee8f41",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "d4f993d0c4ee8f41",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "유가 관련 정보 제공",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 관련 정보 제공으로 스마트데이터센터와 유통사업처의 업무와 관련이 있으므로 최종적으로 포함함",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "유가·석유가격 정보",
+            "evidence_type": "paragraph",
+            "reason": "스마트데이터센터는 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다."
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "지역경제 플랫폼으로 도약",
+            "evidence_type": "paragraph",
+            "reason": "유통사업처는 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "d4f993d0c4ee8f41",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "유가 관련 정보 제공",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 관련 정보 제공으로 스마트데이터센터와 유통사업처의 업무와 관련이 있으므로 최종적으로 포함함",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "유가·석유가격 정보",
+            "evidence_type": "paragraph",
+            "reason": "스마트데이터센터는 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다."
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "지역경제 플랫폼으로 도약",
+            "evidence_type": "paragraph",
+            "reason": "유통사업처는 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다."
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "0acc6e6525391d50",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "0acc6e6525391d50",
+        "final_relevant": false,
+        "confidence": 0.4,
+        "final_reason": "반도체 수출 호조와 무역수지 흑자 누계액 관련 기사는 석유공사 업무와 연결될 가능성이 낮음",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 반도체 수출 호조와 무역수지 흑자 누계액 관련 기사는 석유공사 업무와 연결될 가능성이 낮으므로 최종적으로 제외함",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "0acc6e6525391d50",
+        "final_relevant": false,
+        "confidence": 0.4,
+        "final_reason": "반도체 수출 호조와 무역수지 흑자 누계액 관련 기사는 석유공사 업무와 연결될 가능성이 낮음",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 반도체 수출 호조와 무역수지 흑자 누계액 관련 기사는 석유공사 업무와 연결될 가능성이 낮으므로 최종적으로 제외함",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "33451d5c7cc94899",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "33451d5c7cc94899",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "석유공사 에너지 인프라 사업과 관련",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 석유공사 에너지 인프라 사업과 관련이 있으므로 최종적으로 포함함",
+        "departments": [
+          {
+            "department_id": "energy_infra",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "경기 용인 반도체클러스터 전력 공급용 LNG 발전소로 향하는 가스관이 용인 양지읍 일대 지하를 관통한다는 사실이 알려지자 이 지역 주민들이 반발하고 있다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 인프라 사업과 관련"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "33451d5c7cc94899",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "석유공사 에너지 인프라 사업과 관련",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 석유공사 에너지 인프라 사업과 관련이 있으므로 최종적으로 포함함",
+        "departments": [
+          {
+            "department_id": "energy_infra",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "경기 용인 반도체클러스터 전력 공급용 LNG 발전소로 향하는 가스관이 용인 양지읍 일대 지하를 관통한다는 사실이 알려지자 이 지역 주민들이 반발하고 있다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 인프라 사업과 관련"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "315f90a67fcf5a47",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "315f90a67fcf5a47",
+        "final_relevant": false,
+        "confidence": 0.4,
+        "final_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업과 관련이 있을 수 있으나 명확하지 않음",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 관련 기사로 한국석유공사의 석유사업, 유통사업과 관련이 있을 수 있으나 명확하지 않으므로 최종적으로 제외함",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "315f90a67fcf5a47",
+        "final_relevant": false,
+        "confidence": 0.4,
+        "final_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업과 관련이 있을 수 있으나 명확하지 않음",
+        "review_note": "C 그룹 기사를 정밀 검토 결과, 유가 관련 기사로 한국석유공사의 석유사업, 유통사업과 관련이 있을 수 있으나 명확하지 않으므로 최종적으로 제외함",
+        "departments": []
+      }
+    }
+  ]
+}
