@@ -1,0 +1,580 @@
+{
+  "target_date": "2026-06-26",
+  "generated_at": "2026-06-26T17:14:54.075Z",
+  "analyzer": "knoc-two-pass-llm-v1",
+  "input_article_count": 268,
+  "relevant_article_count": 5,
+  "relevant_department_count": 5,
+  "pipeline": {
+    "stage0": {
+      "analyzer": "stage0-keyword-router-v1",
+      "keyword_hit_count": 40,
+      "keyword_miss_count": 228
+    },
+    "stage1": {
+      "enabled": true,
+      "status": "partial",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 268,
+      "analyzed_article_count": 252,
+      "candidate_count": 18,
+      "rejected_count": 72,
+      "warning_count": 20,
+      "error_count": 1
+    },
+    "stage2": {
+      "enabled": true,
+      "status": "ok",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 90,
+      "analyzed_article_count": 90,
+      "final_relevant_count": 6,
+      "final_rejected_count": 84,
+      "warning_count": 10,
+      "error_count": 0
+    }
+  },
+  "overall": {
+    "id": "overall",
+    "label": "전체",
+    "source": "llm",
+    "analysis_stage": "stage2",
+    "fallback_used": false,
+    "article_count": 5,
+    "item_count": 5,
+    "items": [
+      {
+        "id": "9b4a6124df4a9c7f",
+        "article_id": "b4f048f71bef7f67",
+        "publisher": "경향신문",
+        "title": "구윤철 “하반기 전기 가스요금 등 주요 공공요금 동결”",
+        "url": "https://www.khan.co.kr/article/202606260807001",
+        "published_at": "2026-06-25T23:07:00.000Z",
+        "score": 0.92,
+        "segment_text": "석유 최고가격 인하 및 공공요금 동결 관련 기사로 한국석유공사의 사업과 관련이 있음",
+        "reason": "석유 최고가격 인하 및 공공요금 동결 관련 기사로 한국석유공사의 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "dfdc682ed50b0b66",
+        "article_id": "817ca4103d49c522",
+        "publisher": "경향신문",
+        "title": "“혁명수비대가 호르무즈 해협서 화물선 드론 타격”···미·이란 합의 흔들려도 ‘속수무책’?",
+        "url": "https://www.khan.co.kr/article/202606261329001",
+        "published_at": "2026-06-26T04:29:00.000Z",
+        "score": 0.9,
+        "segment_text": "원유 수급과 관련된 기사로, 한국석유공사의 석유사업처와 관련이 있음",
+        "reason": "원유 수급과 관련된 기사로, 한국석유공사의 석유사업처와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "7269151ead527c95",
+        "article_id": "2878b6cdff136af0",
+        "publisher": "한겨레",
+        "title": "구윤철 “하반기 공공요금 동결…오늘 석유 최고가격도 인하”",
+        "url": "https://www.hani.co.kr/arti/economy/economy_general/1265455.html",
+        "published_at": "2026-06-25T23:55:00.000Z",
+        "score": 0.9,
+        "segment_text": "석유 최고가격 인하 관련 기사로 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+        "reason": "석유 최고가격 인하 관련 기사로 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.95,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "a12ef541b80c2691",
+        "article_id": "c6dc22204e114b46",
+        "publisher": "경향신문",
+        "title": "오만만 지나던 화물선 ‘피격 의심’···IMO “호르무즈 대피 계획 잠정 중단”",
+        "url": "https://www.khan.co.kr/article/202606260816001",
+        "published_at": "2026-06-25T23:16:00.000Z",
+        "score": 0.85,
+        "segment_text": "호르무즈 해협 화물선 공격 관련 기사는 한국석유공사의 해외자원개발 및 석유 수급 안정화와 관련이 있음",
+        "reason": "호르무즈 해협 화물선 공격 관련 기사는 한국석유공사의 해외자원개발 및 석유 수급 안정화와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "asia_business",
+            "name": "아시아사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "global_technology_center",
+            "name": "글로벌기술센터",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "50c28cdcb37935bc",
+        "article_id": "9fcd5f493a223201",
+        "publisher": "경향신문",
+        "title": "울산 석화업체 공사장서 흙더미 붕괴···건설노동자 1명 사망",
+        "url": "https://www.khan.co.kr/article/202606261343001",
+        "published_at": "2026-06-26T04:43:00.000Z",
+        "score": 0.8,
+        "segment_text": "석유화학업체 공사장 사고 관련 기사로 한국석유공사의 안전관리 업무와 관련이 있음",
+        "reason": "석유화학업체 공사장 사고 관련 기사로 한국석유공사의 안전관리 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "she",
+            "name": "SHE추진실",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_review": {
+    "enabled": true,
+    "status": "ok",
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "analyzed_article_count": 90,
+    "brief_source_stage": "stage2",
+    "fallback_used": false,
+    "stages": {
+      "stage1": {
+        "enabled": true,
+        "status": "partial",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 268,
+        "analyzed_article_count": 252,
+        "candidate_count": 18,
+        "rejected_count": 72,
+        "warning_count": 20,
+        "error_count": 1
+      },
+      "stage2": {
+        "enabled": true,
+        "status": "ok",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 90,
+        "analyzed_article_count": 90,
+        "final_relevant_count": 6,
+        "final_rejected_count": 84,
+        "warning_count": 10,
+        "error_count": 0
+      }
+    }
+  },
+  "departments": [
+    {
+      "department_id": "secretariat",
+      "department": "비서팀",
+      "role": "사장 일정, 의전, 대내외 메시지, 지시사항 이행과 대외 접점 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "she",
+      "department": "SHE추진실",
+      "role": "전사 안전, 보건, 환경, 재난 대응, 중대재해 예방과 안전보건환경 관리체계를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "2f469bf4e5d8ba4e",
+          "article_id": "9fcd5f493a223201",
+          "publisher": "경향신문",
+          "title": "울산 석화업체 공사장서 흙더미 붕괴···건설노동자 1명 사망",
+          "url": "https://www.khan.co.kr/article/202606261343001",
+          "published_at": "2026-06-26T04:43:00.000Z",
+          "score": 0.9,
+          "segment_text": "울산의 한 석유화학업체 공사 현장에서 토사가 무너져 작업자 1명이 숨지는 사고가 났다.",
+          "reason": "석유화학업체 공사장 사고로 안전보건 관리체계와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        }
+      ]
+    },
+    {
+      "department_id": "audit",
+      "department": "감사실",
+      "role": "감사계획과 감사 수행, 내부통제, 일상감사, 부패·비위 점검, 청렴 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "legal",
+      "department": "법무팀",
+      "role": "국내외 송무, 계약과 사업의 법률 검토, 규제 대응, 분쟁 대응, 지식재산권 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "planning_budget",
+      "department": "기획예산처",
+      "role": "이사회, 국회, 정부 대응, 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "strategy",
+      "department": "경영전략처",
+      "role": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "finance",
+      "department": "재무처",
+      "role": "자금 조달과 상환, 자금 집행, 결산, 세무, 환율·금리·부채 등 재무 리스크 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "esg",
+      "department": "ESG경영처",
+      "role": "ESG 경영, 윤리·인권, 사회공헌, 동반성장, 상생, 내부통제 지원 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "infosec",
+      "department": "정보보안팀",
+      "role": "정보보안 정책과 운영, 개인정보보호, 사이버 침해 대응, 정보유출 예방 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "general_affairs",
+      "department": "총무처",
+      "role": "문서와 기록물, 자산, 사옥, 숙소, 조달계약, 구매, 시설관리, 비상대비 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hr",
+      "department": "인재경영처",
+      "role": "조직, 인사, 채용, 평가, 교육훈련, 급여, 복리후생, 노사관계와 인력 운영을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "smart_data",
+      "department": "스마트데이터센터",
+      "role": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "asia_business",
+      "department": "아시아사업처",
+      "role": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "48c86d5cd4d23b27",
+          "article_id": "c6dc22204e114b46",
+          "publisher": "경향신문",
+          "title": "오만만 지나던 화물선 ‘피격 의심’···IMO “호르무즈 대피 계획 잠정 중단”",
+          "url": "https://www.khan.co.kr/article/202606260816001",
+          "published_at": "2026-06-25T23:16:00.000Z",
+          "score": 0.8,
+          "segment_text": "호르무즈 해협을 지나던 화물선이 공격을 받은 것으로 의심된다는 신고가 접수됐다.",
+          "reason": "아시아 지역 E&P 사업은 아시아사업처의 업무와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        }
+      ]
+    },
+    {
+      "department_id": "americas_europe_business",
+      "department": "미주/유럽사업처",
+      "role": "미주와 유럽 지역 E&P 사업, 해외광구, Capex/Opex, 사업 손익, 자금수지 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "domestic_business_development",
+      "department": "국내사업개발처",
+      "role": "국내 자원개발 사업, 국내 대륙붕, 가스전, 탐사·시추, 신규 국내 사업개발을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "low_carbon",
+      "department": "저탄소추진처",
+      "role": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "global_technology_center",
+      "department": "글로벌기술센터",
+      "role": "E&P 기술지원, 지질·저류층·시추 기술, 기술전략, 연구개발, 기술자료와 기술평가를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "222837472673cda3",
+          "article_id": "c6dc22204e114b46",
+          "publisher": "경향신문",
+          "title": "오만만 지나던 화물선 ‘피격 의심’···IMO “호르무즈 대피 계획 잠정 중단”",
+          "url": "https://www.khan.co.kr/article/202606260816001",
+          "published_at": "2026-06-25T23:16:00.000Z",
+          "score": 0.7,
+          "segment_text": "호르무즈 해협을 지나던 화물선이 공격을 받은 것으로 의심된다는 신고가 접수됐다.",
+          "reason": "글로벌기술센터는 E&P 기술지원 및 지질·저류층·시추 기술 등을 담당함",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        }
+      ]
+    },
+    {
+      "department_id": "stockpiling",
+      "department": "석유비축처",
+      "role": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "petroleum_business",
+      "department": "석유사업처",
+      "role": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+      "article_count": 3,
+      "segment_count": 3,
+      "items": [
+        {
+          "id": "ec4f4edab58ae578",
+          "article_id": "b4f048f71bef7f67",
+          "publisher": "경향신문",
+          "title": "구윤철 “하반기 전기 가스요금 등 주요 공공요금 동결”",
+          "url": "https://www.khan.co.kr/article/202606260807001",
+          "published_at": "2026-06-25T23:07:00.000Z",
+          "score": 0.9,
+          "segment_text": "구윤철 부총리 겸 재정경제부 장관은 26일 \"전기·가스 요금 등 주요 공공요금을 하반기에 동결하겠다”고 밝혔다. 이날 저녁 7시 발표할 7차 석유 최고가격과 관련해선 \"현행 수준에서 인하하지만, 석유류 소비자가 가격이 안정화될 때까지 (제도를) 유지한다”고 말했다.",
+          "reason": "석유사업처는 원유 및 석유제품 구매와 판매, 트레이딩 등을 담당함",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3",
+            "s7"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "50c3620bf03ae7d5",
+          "article_id": "817ca4103d49c522",
+          "publisher": "경향신문",
+          "title": "“혁명수비대가 호르무즈 해협서 화물선 드론 타격”···미·이란 합의 흔들려도 ‘속수무책’?",
+          "url": "https://www.khan.co.kr/article/202606261329001",
+          "published_at": "2026-06-26T04:29:00.000Z",
+          "score": 0.8,
+          "segment_text": "이란 혁명수비대가 호르무즈 해협에서 화물선을 드론으로 타격한 사건은 원유 수급에 영향을 미칠 수 있음",
+          "reason": "석유사업처는 원유 및 석유제품 구매와 판매, 트레이딩 등을 담당함",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "3422837803ebda06",
+          "article_id": "2878b6cdff136af0",
+          "publisher": "한겨레",
+          "title": "구윤철 “하반기 공공요금 동결…오늘 석유 최고가격도 인하”",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1265455.html",
+          "published_at": "2026-06-25T23:55:00.000Z",
+          "score": 0.8,
+          "segment_text": "구윤철 부총리 겸 재정경제부 장관은 \"전기·가스 요금 등 주요 공공요금을 하반기에 동결하겠다”고 26일 밝혔다. 이날 저녁 7시 발표할 7차 석유 최고가격과 관련해선 \"현행 수준에서 인하하지만, 석유류 소비자가 가격이 안정화될 때까지 (제도를) 유지한다”고 말했다.",
+          "reason": "석유 최고가격 정책은 석유사업처의 석유사업 전략과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        }
+      ]
+    },
+    {
+      "department_id": "distribution_business",
+      "department": "유통사업처",
+      "role": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+      "article_count": 2,
+      "segment_count": 2,
+      "items": [
+        {
+          "id": "a9739a16a7dea01f",
+          "article_id": "2878b6cdff136af0",
+          "publisher": "한겨레",
+          "title": "구윤철 “하반기 공공요금 동결…오늘 석유 최고가격도 인하”",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1265455.html",
+          "published_at": "2026-06-25T23:55:00.000Z",
+          "score": 0.95,
+          "segment_text": "구윤철 부총리 겸 재정경제부 장관은 \"전기·가스 요금 등 주요 공공요금을 하반기에 동결하겠다”고 26일 밝혔다. 이날 저녁 7시 발표할 7차 석유 최고가격과 관련해선 \"현행 수준에서 인하하지만, 석유류 소비자가 가격이 안정화될 때까지 (제도를) 유지한다”고 말했다.",
+          "reason": "석유 최고가격 인하 정책은 유통사업처의 석유유통 지원 사업과 직접 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "a2da4600968ee50e",
+          "article_id": "b4f048f71bef7f67",
+          "publisher": "경향신문",
+          "title": "구윤철 “하반기 전기 가스요금 등 주요 공공요금 동결”",
+          "url": "https://www.khan.co.kr/article/202606260807001",
+          "published_at": "2026-06-25T23:07:00.000Z",
+          "score": 0.8,
+          "segment_text": "구윤철 부총리 겸 재정경제부 장관은 26일 \"전기·가스 요금 등 주요 공공요금을 하반기에 동결하겠다”고 밝혔다. 이날 저녁 7시 발표할 7차 석유 최고가격과 관련해선 \"현행 수준에서 인하하지만, 석유류 소비자가 가격이 안정화될 때까지 (제도를) 유지한다”고 말했다.",
+          "reason": "유통사업처는 석유유통 지원 사업을 담당함",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3",
+            "s7"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        }
+      ]
+    },
+    {
+      "department_id": "energy_infra",
+      "department": "에너지인프라사업처",
+      "role": "에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hydrogen_ammonia",
+      "department": "수소암모니아사업단",
+      "role": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    }
+  ]
+}

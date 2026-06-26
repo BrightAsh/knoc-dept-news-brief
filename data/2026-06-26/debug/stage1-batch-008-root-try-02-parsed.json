@@ -1,0 +1,44 @@
+{
+  "results": [
+    {
+      "article_id": "1b821cc9266191eb",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 사업 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "명노현 LS 부회장이 미국을 방문해 북미 전력 인프라 시장 공략을 위한 행보를 펼쳤다. 그룹의 핵심 성장 동력인 전력·에너지 사업의 북미 시장 지배력을 한층 공고히 하기 위해 지난 17일부터 약 일주일간 북미 현장을 찾았다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 사업 관련 언급이 있어 전략 부서와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "e4800d869343ab67",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "외화예금 관련 정보는 석유 거래에 영향",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "지난달 국내 기업이 보유하고 있던 달러 등 외화예금 비중이 10년 만에 최고치를 나타냈다. 26일 한국은행은 지난달 29일 기준 국내 외국환은행의 거주자 외화예금은 총 1122억5천만 달러로 전월 대비 15억7천억 달러 증가했다고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "외화예금 관련 정보는 석유 거래에 영향을 줄 수 있으므로 석유사업처와 관련이 있음"
+        }
+      ]
+    }
+  ]
+}

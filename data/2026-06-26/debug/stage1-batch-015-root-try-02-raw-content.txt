@@ -1,0 +1,63 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "d83c0b011691bc51",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "에너지 관련 키워드 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "글로벌 전기차 AI 데이터센터",
+          "evidence_type": "paragraph",
+          "reason": "전기차와 데이터센터는 에너지와 관련이 있으며, 한국석유공사의 사업 영역과 간접적으로 연결될 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "e398996585b37bf8",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "석유 관련 키워드 언급",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "석유",
+          "evidence_type": "paragraph",
+          "reason": "베네수엘라의 석유 관련 피해"
+        }
+      ]
+    },
+    {
+      "article_id": "585f52cf3c8ce816",
+      "candidate": true,
+      "confidence": 0.4,
+      "company_reason": "LPG 관련 키워드 언급",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "LPG",
+          "evidence_type": "paragraph",
+          "reason": "LPG와 관련된 선박 사고"
+        }
+      ]
+    }
+  ]
+}
+```

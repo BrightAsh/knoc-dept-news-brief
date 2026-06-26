@@ -1,0 +1,134 @@
+{
+  "raw_result_count": 4,
+  "accepted_result_count": 4,
+  "normalization": [
+    {
+      "article_id": "817ca4103d49c522",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "817ca4103d49c522",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "원유 수급과 관련된 기사로, 한국석유공사의 석유사업처와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "이란 혁명수비대가 호르무즈 해협에서 화물선을 드론으로 타격한 사건은 원유 수급에 영향을 미칠 수 있음",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처는 원유 및 석유제품 구매와 판매, 트레이딩 등을 담당함"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "817ca4103d49c522",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "원유 수급과 관련된 기사로, 한국석유공사의 석유사업처와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "이란 혁명수비대가 호르무즈 해협에서 화물선을 드론으로 타격한 사건은 원유 수급에 영향을 미칠 수 있음",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처는 원유 및 석유제품 구매와 판매, 트레이딩 등을 담당함"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "d18216f45cc49fcb",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "d18216f45cc49fcb",
+        "candidate": false,
+        "confidence": 0.2,
+        "company_reason": "유가 관련 언급이지만, 기사 내용은 정치 이슈에 집중되어 있음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "d18216f45cc49fcb",
+        "candidate": false,
+        "confidence": 0.2,
+        "company_reason": "유가 관련 언급이지만, 기사 내용은 정치 이슈에 집중되어 있음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "df806d3fe5e697f9",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "df806d3fe5e697f9",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "베네수엘라 지진 피해와 석유 제재 관련 기사로, 한국석유공사의 해외자원개발과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "베네수엘라에 대한 미국과 유럽연합의 제재가 구호 작업에 영향을 미치고 있음",
+            "evidence_type": "paragraph",
+            "reason": "아시아사업처는 해외자원개발 사업을 담당하며, 베네수엘라와 같은 국가에서의 자원개발을 고려할 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "df806d3fe5e697f9",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "베네수엘라 지진 피해와 석유 제재 관련 기사로, 한국석유공사의 해외자원개발과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "베네수엘라에 대한 미국과 유럽연합의 제재가 구호 작업에 영향을 미치고 있음",
+            "evidence_type": "paragraph",
+            "reason": "아시아사업처는 해외자원개발 사업을 담당하며, 베네수엘라와 같은 국가에서의 자원개발을 고려할 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "2a6e57ee73ecd265",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "2a6e57ee73ecd265",
+        "candidate": false,
+        "confidence": 0.3,
+        "company_reason": "에너지 관련 언급이지만, 기사 내용은 정치 이슈에 집중되어 있음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "2a6e57ee73ecd265",
+        "candidate": false,
+        "confidence": 0.3,
+        "company_reason": "에너지 관련 언급이지만, 기사 내용은 정치 이슈에 집중되어 있음",
+        "departments": []
+      }
+    }
+  ]
+}
