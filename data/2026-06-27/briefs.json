@@ -1,0 +1,725 @@
+{
+  "target_date": "2026-06-27",
+  "generated_at": "2026-06-27T16:28:19.163Z",
+  "analyzer": "knoc-two-pass-llm-v1",
+  "input_article_count": 299,
+  "relevant_article_count": 7,
+  "relevant_department_count": 6,
+  "pipeline": {
+    "stage0": {
+      "analyzer": "stage0-keyword-router-v1",
+      "keyword_hit_count": 23,
+      "keyword_miss_count": 276
+    },
+    "stage1": {
+      "enabled": true,
+      "status": "ok",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 299,
+      "analyzed_article_count": 299,
+      "candidate_count": 15,
+      "rejected_count": 138,
+      "warning_count": 22,
+      "error_count": 0
+    },
+    "stage2": {
+      "enabled": true,
+      "status": "ok",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 153,
+      "analyzed_article_count": 153,
+      "final_relevant_count": 7,
+      "final_rejected_count": 146,
+      "warning_count": 22,
+      "error_count": 0
+    }
+  },
+  "overall": {
+    "id": "overall",
+    "label": "전체",
+    "source": "llm",
+    "analysis_stage": "stage2",
+    "fallback_used": false,
+    "article_count": 7,
+    "item_count": 7,
+    "items": [
+      {
+        "id": "d5a29c6701c1524f",
+        "article_id": "70e393b06422f0ff",
+        "publisher": "한겨레",
+        "title": "휘발유 가격 하락세, 평균 2007.8원…다음 주 1800원대 가능할까",
+        "url": "https://www.hani.co.kr/arti/economy/economy_general/1265603.html",
+        "published_at": "2026-06-27T02:15:00.000Z",
+        "score": 0.9,
+        "segment_text": "한국석유공사의 유가정보시스템 오피넷 관련 기사",
+        "reason": "한국석유공사의 유가정보시스템 오피넷 관련 기사",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사 유가정보시스템 오피넷 관련 내용이 포함되어 있음",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.95,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "e6848e31f11c486d",
+        "article_id": "cb498e484a6082ba",
+        "publisher": "한겨레",
+        "title": "경찰, ‘일민미술관 흉기 난동범’ 구속영장 신청…방화예비 혐의도 적용",
+        "url": "https://www.hani.co.kr/arti/society/society_general/1265619.html",
+        "published_at": "2026-06-27T09:40:00.000Z",
+        "score": 0.8,
+        "segment_text": "석유유통 관련 범죄 사건",
+        "reason": "석유유통 관련 범죄 사건",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 석유유통 관련 범죄 사건이 포함되어 있음",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "ff4ccc53fa31a1fa",
+        "article_id": "67091e61b69eb6ca",
+        "publisher": "조선일보",
+        "title": "北이 6·25 맞춰 탄도미사일 쐈는데… 軍, 몰랐나 숨겼나",
+        "url": "https://www.chosun.com/politics/diplomacy-defense/2026/06/27/RJVGJWUN3RGQDGGBO7HUFZKJII/",
+        "published_at": "2026-06-26T15:48:00.000Z",
+        "score": 0.8,
+        "segment_text": "북한의 탄도미사일 발사는 유엔 안전보장이사회의 대북 결의에 위반",
+        "reason": "북한의 탄도미사일 발사는 유엔 안전보장이사회의 대북 결의에 위반",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 북한의 탄도미사일 발사 관련 내용이 포함되어 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "90f50d8f6606c87a",
+        "article_id": "0f35254ff3d17b98",
+        "publisher": "조선일보",
+        "title": "호르무즈 해협서 또 상선 피격... 유조선에 ‘불상 발사체’ 날아들어",
+        "url": "https://www.chosun.com/international/international_general/2026/06/27/235KNYGLFVGSZHSWRPUSIZPQDY/",
+        "published_at": "2026-06-27T11:59:10.000Z",
+        "score": 0.7,
+        "segment_text": "호르무즈 해협에서 발생한 상선 피격 사건",
+        "reason": "호르무즈 해협에서 발생한 상선 피격 사건",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "B",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 호르무즈 해협에서 발생한 상선 피격 사건 관련 내용이 포함되어 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "925502ac5f3b4473",
+        "article_id": "047e806d14c5a42b",
+        "publisher": "한겨레",
+        "title": "흔들리는 미-이란 휴전…호르무즈서 상선 또 피격 ‘보복 공격’ 이어지나",
+        "url": "https://www.hani.co.kr/arti/international/international_general/1265621.html",
+        "published_at": "2026-06-27T10:53:00.000Z",
+        "score": 0.7,
+        "segment_text": "호르무즈해협에서 발생한 상선 피격 사건",
+        "reason": "호르무즈해협에서 발생한 상선 피격 사건",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "B",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 호르무즈해협에서 발생한 상선 피격 사건 관련 내용이 포함되어 있음",
+        "departments": [
+          {
+            "id": "asia_business",
+            "name": "아시아사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "250de182e021b4cd",
+        "article_id": "ae4e3b33a06fd5d3",
+        "publisher": "경향신문",
+        "title": "[속보] 호르무즈 해협서 유조선 피격…“불상 발사체에 맞아”",
+        "url": "https://www.khan.co.kr/article/202606271912001/",
+        "published_at": "2026-06-27T10:12:00.000Z",
+        "score": 0.7,
+        "segment_text": "호르무즈 해협에서 발생한 유조선 피격 사건",
+        "reason": "호르무즈 해협에서 발생한 유조선 피격 사건",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "B",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 호르무즈 해협에서 발생한 유조선 피격 사건 관련 내용이 포함되어 있음",
+        "departments": [
+          {
+            "id": "asia_business",
+            "name": "아시아사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "ccfe06665cb692d0",
+        "article_id": "9fa381bcfe27248d",
+        "publisher": "한겨레",
+        "title": "한국 선박 2척, 호르무즈 추가 통과…3척 남아",
+        "url": "https://www.hani.co.kr/arti/society/society_general/1265599.html",
+        "published_at": "2026-06-27T00:56:00.000Z",
+        "score": 0.5,
+        "segment_text": "한국 선박이 호르무즈 해협을 통과한 사건",
+        "reason": "한국 선박이 호르무즈 해협을 통과한 사건",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "B",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로, 한국 선박이 호르무즈 해협을 통과한 사건 관련 내용이 포함되어 있음",
+        "departments": [
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_review": {
+    "enabled": true,
+    "status": "ok",
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "analyzed_article_count": 153,
+    "brief_source_stage": "stage2",
+    "fallback_used": false,
+    "stages": {
+      "stage1": {
+        "enabled": true,
+        "status": "ok",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 299,
+        "analyzed_article_count": 299,
+        "candidate_count": 15,
+        "rejected_count": 138,
+        "warning_count": 22,
+        "error_count": 0
+      },
+      "stage2": {
+        "enabled": true,
+        "status": "ok",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 153,
+        "analyzed_article_count": 153,
+        "final_relevant_count": 7,
+        "final_rejected_count": 146,
+        "warning_count": 22,
+        "error_count": 0
+      }
+    }
+  },
+  "departments": [
+    {
+      "department_id": "secretariat",
+      "department": "비서팀",
+      "role": "사장 일정, 의전, 대내외 메시지, 지시사항 이행과 대외 접점 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "she",
+      "department": "SHE추진실",
+      "role": "전사 안전, 보건, 환경, 재난 대응, 중대재해 예방과 안전보건환경 관리체계를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "audit",
+      "department": "감사실",
+      "role": "감사계획과 감사 수행, 내부통제, 일상감사, 부패·비위 점검, 청렴 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "legal",
+      "department": "법무팀",
+      "role": "국내외 송무, 계약과 사업의 법률 검토, 규제 대응, 분쟁 대응, 지식재산권 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "planning_budget",
+      "department": "기획예산처",
+      "role": "이사회, 국회, 정부 대응, 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "strategy",
+      "department": "경영전략처",
+      "role": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+      "article_count": 2,
+      "segment_count": 2,
+      "items": [
+        {
+          "id": "72cd3b43326a71ac",
+          "article_id": "9fa381bcfe27248d",
+          "publisher": "한겨레",
+          "title": "한국 선박 2척, 호르무즈 추가 통과…3척 남아",
+          "url": "https://www.hani.co.kr/arti/society/society_general/1265599.html",
+          "published_at": "2026-06-27T00:56:00.000Z",
+          "score": 0.8,
+          "segment_text": "호르무즈해협에 발이 묶였던 한국 선박들 가운데 2척이 추가로 해협을 빠져나왔다. 해양수산부는 27일 “호르무즈해협 안에 대기 중이던 우리 선사 운용 선박 2척이 해협을 통과해 정상 항해 중”이라고 밝혔다.",
+          "reason": "해협 통과는 에너지 수급과 관련이 있으며, 공사의 전략 수립에 중요한 정보일 수 있습니다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "B",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국 선박이 호르무즈 해협을 통과한 사건 관련 내용이 포함되어 있음"
+        },
+        {
+          "id": "338fec1b88448c2b",
+          "article_id": "0f35254ff3d17b98",
+          "publisher": "조선일보",
+          "title": "호르무즈 해협서 또 상선 피격... 유조선에 ‘불상 발사체’ 날아들어",
+          "url": "https://www.chosun.com/international/international_general/2026/06/27/235KNYGLFVGSZHSWRPUSIZPQDY/",
+          "published_at": "2026-06-27T11:59:10.000Z",
+          "score": 0.6,
+          "segment_text": "호르무즈 해협서 또 상선 피격... 유조선에 ‘불상 발사체’ 날아들어",
+          "reason": "경영전략, 경영목표, 운영계획 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "B",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 호르무즈 해협에서 발생한 상선 피격 사건 관련 내용이 포함되어 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "finance",
+      "department": "재무처",
+      "role": "자금 조달과 상환, 자금 집행, 결산, 세무, 환율·금리·부채 등 재무 리스크 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "esg",
+      "department": "ESG경영처",
+      "role": "ESG 경영, 윤리·인권, 사회공헌, 동반성장, 상생, 내부통제 지원 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "infosec",
+      "department": "정보보안팀",
+      "role": "정보보안 정책과 운영, 개인정보보호, 사이버 침해 대응, 정보유출 예방 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "general_affairs",
+      "department": "총무처",
+      "role": "문서와 기록물, 자산, 사옥, 숙소, 조달계약, 구매, 시설관리, 비상대비 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hr",
+      "department": "인재경영처",
+      "role": "조직, 인사, 채용, 평가, 교육훈련, 급여, 복리후생, 노사관계와 인력 운영을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "smart_data",
+      "department": "스마트데이터센터",
+      "role": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
+      "article_count": 2,
+      "segment_count": 2,
+      "items": [
+        {
+          "id": "dc69cea3fa17fb0c",
+          "article_id": "70e393b06422f0ff",
+          "publisher": "한겨레",
+          "title": "휘발유 가격 하락세, 평균 2007.8원…다음 주 1800원대 가능할까",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1265603.html",
+          "published_at": "2026-06-27T02:15:00.000Z",
+          "score": 0.95,
+          "segment_text": "27일 한국석유공사 유가정보시스템 오피넷을 보면, 6월 넷째주(21∼25일)의 전국 주유소 휘발유 평균 판매가는 리터당 2007.8원으로, 한주 사이 1.4원이 내렸다.",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보 제공",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s4",
+            "s6"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사 유가정보시스템 오피넷 관련 내용이 포함되어 있음"
+        },
+        {
+          "id": "686379f11adad2bd",
+          "article_id": "67091e61b69eb6ca",
+          "publisher": "조선일보",
+          "title": "北이 6·25 맞춰 탄도미사일 쐈는데… 軍, 몰랐나 숨겼나",
+          "url": "https://www.chosun.com/politics/diplomacy-defense/2026/06/27/RJVGJWUN3RGQDGGBO7HUFZKJII/",
+          "published_at": "2026-06-26T15:48:00.000Z",
+          "score": 0.7,
+          "segment_text": "북한의 탄도미사일 발사는 유엔 안전보장이사회의 대북 결의에 위반되기 때문에, 우리 군은 탄도미사일 발사를 포착하는 대로 이를 언론에 공개해 왔다.",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 부서이므로 관련성이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 북한의 탄도미사일 발사 관련 내용이 포함되어 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "asia_business",
+      "department": "아시아사업처",
+      "role": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당한다.",
+      "article_count": 2,
+      "segment_count": 2,
+      "items": [
+        {
+          "id": "eb3dad8b6485b0b7",
+          "article_id": "047e806d14c5a42b",
+          "publisher": "한겨레",
+          "title": "흔들리는 미-이란 휴전…호르무즈서 상선 또 피격 ‘보복 공격’ 이어지나",
+          "url": "https://www.hani.co.kr/arti/international/international_general/1265621.html",
+          "published_at": "2026-06-27T10:53:00.000Z",
+          "score": 0.8,
+          "segment_text": "호르무즈해협에서 상선 피격 사건 발생",
+          "reason": "아시아 사업과 관련된 해외 자원 개발 및 에너지 안보와 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "B",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 호르무즈해협에서 발생한 상선 피격 사건 관련 내용이 포함되어 있음"
+        },
+        {
+          "id": "772c12b8558a139b",
+          "article_id": "ae4e3b33a06fd5d3",
+          "publisher": "경향신문",
+          "title": "[속보] 호르무즈 해협서 유조선 피격…“불상 발사체에 맞아”",
+          "url": "https://www.khan.co.kr/article/202606271912001/",
+          "published_at": "2026-06-27T10:12:00.000Z",
+          "score": 0.8,
+          "segment_text": "호르무즈해협에서 유조선 피격 사건 발생",
+          "reason": "아시아 사업과 관련된 해외 자원 개발 및 에너지 안보와 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "B",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 호르무즈 해협에서 발생한 유조선 피격 사건 관련 내용이 포함되어 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "americas_europe_business",
+      "department": "미주/유럽사업처",
+      "role": "미주와 유럽 지역 E&P 사업, 해외광구, Capex/Opex, 사업 손익, 자금수지 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "domestic_business_development",
+      "department": "국내사업개발처",
+      "role": "국내 자원개발 사업, 국내 대륙붕, 가스전, 탐사·시추, 신규 국내 사업개발을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "low_carbon",
+      "department": "저탄소추진처",
+      "role": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
+      "article_count": 2,
+      "segment_count": 2,
+      "items": [
+        {
+          "id": "8879549759b791d9",
+          "article_id": "047e806d14c5a42b",
+          "publisher": "한겨레",
+          "title": "흔들리는 미-이란 휴전…호르무즈서 상선 또 피격 ‘보복 공격’ 이어지나",
+          "url": "https://www.hani.co.kr/arti/international/international_general/1265621.html",
+          "published_at": "2026-06-27T10:53:00.000Z",
+          "score": 0.6,
+          "segment_text": "호르무즈해협에서 상선 피격 사건 발생",
+          "reason": "에너지 안보와 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "B",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 호르무즈해협에서 발생한 상선 피격 사건 관련 내용이 포함되어 있음"
+        },
+        {
+          "id": "7b045084df59bd01",
+          "article_id": "ae4e3b33a06fd5d3",
+          "publisher": "경향신문",
+          "title": "[속보] 호르무즈 해협서 유조선 피격…“불상 발사체에 맞아”",
+          "url": "https://www.khan.co.kr/article/202606271912001/",
+          "published_at": "2026-06-27T10:12:00.000Z",
+          "score": 0.6,
+          "segment_text": "호르무즈해협에서 유조선 피격 사건 발생",
+          "reason": "에너지 안보와 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "B",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 호르무즈 해협에서 발생한 유조선 피격 사건 관련 내용이 포함되어 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "global_technology_center",
+      "department": "글로벌기술센터",
+      "role": "E&P 기술지원, 지질·저류층·시추 기술, 기술전략, 연구개발, 기술자료와 기술평가를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "stockpiling",
+      "department": "석유비축처",
+      "role": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "petroleum_business",
+      "department": "석유사업처",
+      "role": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+      "article_count": 3,
+      "segment_count": 3,
+      "items": [
+        {
+          "id": "fcbc9b22d180699e",
+          "article_id": "67091e61b69eb6ca",
+          "publisher": "조선일보",
+          "title": "北이 6·25 맞춰 탄도미사일 쐈는데… 軍, 몰랐나 숨겼나",
+          "url": "https://www.chosun.com/politics/diplomacy-defense/2026/06/27/RJVGJWUN3RGQDGGBO7HUFZKJII/",
+          "published_at": "2026-06-26T15:48:00.000Z",
+          "score": 0.9,
+          "segment_text": "북한의 탄도미사일 발사는 유엔 안전보장이사회의 대북 결의에 위반되기 때문에, 우리 군은 탄도미사일 발사를 포착하는 대로 이를 언론에 공개해 왔다.",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 부서이므로 관련성이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 북한의 탄도미사일 발사 관련 내용이 포함되어 있음"
+        },
+        {
+          "id": "0c57be5dfc0ae70a",
+          "article_id": "0f35254ff3d17b98",
+          "publisher": "조선일보",
+          "title": "호르무즈 해협서 또 상선 피격... 유조선에 ‘불상 발사체’ 날아들어",
+          "url": "https://www.chosun.com/international/international_general/2026/06/27/235KNYGLFVGSZHSWRPUSIZPQDY/",
+          "published_at": "2026-06-27T11:59:10.000Z",
+          "score": 0.8,
+          "segment_text": "호르무즈 해협서 또 상선 피격... 유조선에 ‘불상 발사체’ 날아들어",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "B",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 호르무즈 해협에서 발생한 상선 피격 사건 관련 내용이 포함되어 있음"
+        },
+        {
+          "id": "24e1b05bc3a546d9",
+          "article_id": "70e393b06422f0ff",
+          "publisher": "한겨레",
+          "title": "휘발유 가격 하락세, 평균 2007.8원…다음 주 1800원대 가능할까",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1265603.html",
+          "published_at": "2026-06-27T02:15:00.000Z",
+          "score": 0.8,
+          "segment_text": "27일 한국석유공사 유가정보시스템 오피넷을 보면, 6월 넷째주(21∼25일)의 전국 주유소 휘발유 평균 판매가는 리터당 2007.8원으로, 한주 사이 1.4원이 내렸다.",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s4",
+            "s6"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 한국석유공사 유가정보시스템 오피넷 관련 내용이 포함되어 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "distribution_business",
+      "department": "유통사업처",
+      "role": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "1072dbd5e7cc2462",
+          "article_id": "cb498e484a6082ba",
+          "publisher": "한겨레",
+          "title": "경찰, ‘일민미술관 흉기 난동범’ 구속영장 신청…방화예비 혐의도 적용",
+          "url": "https://www.hani.co.kr/arti/society/society_general/1265619.html",
+          "published_at": "2026-06-27T09:40:00.000Z",
+          "score": 0.9,
+          "segment_text": "경찰이 서울 종로구 일민미술관에서 지인을 흉기로 찌른 뒤 달아났던 70대 남성에 대해 구속영장을 신청했다. 휘발유를 사용한 흉기 난동 사건으로 석유유통 관련 업무와 연결됨.",
+          "reason": "석유유통과 관련된 범죄 사건",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로, 석유유통 관련 범죄 사건이 포함되어 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "energy_infra",
+      "department": "에너지인프라사업처",
+      "role": "에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hydrogen_ammonia",
+      "department": "수소암모니아사업단",
+      "role": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    }
+  ]
+}

@@ -1,0 +1,1350 @@
+{
+  "target_date": "2026-06-27",
+  "generated_at": "2026-06-27T16:18:11.266Z",
+  "analyzer": "stage1-llm",
+  "enabled": true,
+  "provider": "groq",
+  "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "status": "ok",
+  "requested_article_count": 299,
+  "analyzed_article_count": 299,
+  "batch_size": 16,
+  "errors": [],
+  "warnings": [
+    "stage1-batch-001-root-try-01 returned 0 raw results and 0 normalized results.",
+    "stage1-batch-002-root-try-01 returned 0 raw results and 0 normalized results.",
+    "stage1-batch-003-root-try-01 returned 0 raw results and 0 normalized results.",
+    "stage1-batch-004-root-try-01 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 17s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 11s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-008-root-try-01 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 11s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-009-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 15s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-012-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-014-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 14s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 10s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300"
+  ],
+  "results": [
+    {
+      "article_id": "ef9980a3c6b38caa",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "7c5a5e2b5045aab1",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "0e35f3625c929a23",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "ecff98699b3f100f",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "12366ca2143c673c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "0a74d150b3f69092",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e1277126577ee0ec",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b2b5fb23cdf14ef2",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "7254d4e9b06a38fe",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "29b556be5c4d207c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d03a5fe8b764cbdb",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e8d61dc8bb558d61",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "1e1eaba14c00e230",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "8c9b95bcbd28ea5c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "47bfee68080df4d3",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d1b95810d378e178",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "72ba71879824cd6a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "645afbf7271718f3",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "87bfaaf94c4724ef",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2bde5592fff0e5d1",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c883f270fc1177c6",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "dc3a766e790d7eae",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d905622a1201a822",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "4f37aec7a4762586",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b55323cf9cd57e1f",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d81a4ee9cf042441",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "577abcfd9da12ec5",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5f262d262b0f7388",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "153f2c802e6ed3c2",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "40f3953ef6f831d4",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2540732dd00c4e7e",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2c0240ccdcfc3735",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "db63276de2be939e",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "3f3b932953a18fa5",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b4c2b13c286c1c61",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "0f35254ff3d17b98",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "호르무즈 해협은 석유 수송의 중요한 경로로, 상선 피격 사건은 석유 수급에 영향을 미칠 수 있어 한국석유공사와 관련이 있다.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "호르무즈 해협서 또 상선 피격... 유조선에 ‘불상 발사체’ 날아들어",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "호르무즈 해협서 또 상선 피격... 유조선에 ‘불상 발사체’ 날아들어",
+          "evidence_type": "paragraph",
+          "reason": "경영전략, 경영목표, 운영계획 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "64dd70e7740e0c51",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b82ddd71d73227e0",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "1d6ca2eec393adcf",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c604bd23d57a107a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "a9cb5935de269d85",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5097b076a491696d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "307302a433ed3a0a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "75acfed0f489f03d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "72794a5dd4bd6419",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "fa854df4d2be6944",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "3963543a39d58383",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c7efcd3edc3c22b9",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c2dc14b657beb9c9",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "047e806d14c5a42b",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "호르무즈해협에서 발생한 상선 피격 사건은 한국석유공사의 해외 자원 개발 및 에너지 안보와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "호르무즈해협에서 상선 피격 사건 발생",
+          "evidence_type": "paragraph",
+          "reason": "아시아 사업과 관련된 해외 자원 개발 및 에너지 안보와 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "호르무즈해협에서 상선 피격 사건 발생",
+          "evidence_type": "paragraph",
+          "reason": "에너지 안보와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "9899cf6aaac3ccd4",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "93f3b6be13bc9fbd",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "af50f7d0aed05a4c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "dd3a9b165d58d2d1",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "4210a23716f7594e",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "fbebdecc1de798d7",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "df90ace50c74d83b",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "f3802602d9be28d6",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b6d9d3a95359e4a2",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5517d6dc0d5bfc93",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e40c9e4b00f40258",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "621363a0d5929825",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5693aedef35a9d50",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "ae4e3b33a06fd5d3",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "호르무즈 해협에서 발생한 유조선 피격 사건은 한국석유공사의 해외 자원 개발 및 에너지 안보와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "호르무즈해협에서 유조선 피격 사건 발생",
+          "evidence_type": "paragraph",
+          "reason": "아시아 사업과 관련된 해외 자원 개발 및 에너지 안보와 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "호르무즈해협에서 유조선 피격 사건 발생",
+          "evidence_type": "paragraph",
+          "reason": "에너지 안보와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "f58b40252188e40b",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c365cebe5ac295c5",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "6a3eab2f47b9aef6",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "349a037612f9b69a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "64c02bac90dfd4bc",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "623dc4045a781e43",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "8b43476f979aa023",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "88c889a0aed2c0ad",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "ee975ddf45f2c350",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "73813e3070b1df38",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "52dd8ae6ca809a37",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d8737e29bed0ff2b",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "f399377a99157599",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "cb498e484a6082ba",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유유통 관련 업무",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "경찰이 서울 종로구 일민미술관에서 지인을 흉기로 찌른 뒤 달아났던 70대 남성에 대해 구속영장을 신청했다. 휘발유를 사용한 흉기 난동 사건으로 석유유통 관련 업무와 연결됨.",
+          "evidence_type": "paragraph",
+          "reason": "석유유통과 관련된 범죄 사건"
+        }
+      ]
+    },
+    {
+      "article_id": "e12f6dd602ce5386",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "3df3ac684ed7bb6b",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "f8e987753df83044",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "54b87cd4eb326663",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "19ac8e306eb44dfb",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "4080f0c716d54647",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "237debfe4f0a497c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5b6af8b912220458",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5eae695de6cbd9b5",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "668912fd7d97e798",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "암모니아 관련 기사로 한국석유공사의 수소암모니아사업단과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "hydrogen_ammonia",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "자나깨나 붙들고 사는 스마트폰···청소는 겨우 물티슈로 쓱쓱 닦고 끝이라고요? 암모니아",
+          "evidence_type": "article",
+          "reason": "수소암모니아사업단 업무와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "4ec33bbac253010a",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "암모니아 관련 기사로 한국석유공사의 수소암모니아사업단과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "hydrogen_ammonia",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "자나깨나 붙들고 사는 스마트폰···청소는 겨우 물티슈로 쓱쓱 닦고 끝이라고요? 암모니아",
+          "evidence_type": "article",
+          "reason": "수소암모니아사업단 업무와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "b25a553b0981b88a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "82141f32f12fa253",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d4b37bae3ecc558d",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지 관련 기사로 한국석유공사의 석유사업처와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "베네수 강진 사망자 920명···기간 시설 무너져 구조도 난항 에너지 정유",
+          "evidence_type": "article",
+          "reason": "석유사업처 업무와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "e7d8877df715a08f",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지 관련 기사로 한국석유공사의 석유사업처와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "베네수 강진 사망자 920명···기간 시설 무너져 구조도 난항 에너지 정유",
+          "evidence_type": "article",
+          "reason": "석유사업처 업무와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "63dda569231e790e",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "70e393b06422f0ff",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "한국석유공사와 관련된 석유 및 유가 정보 제공",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "국내 주유소 휘발유와 경유의 주간 평균 가격이 6주 연속 하락했다. 정부의 7차 석유 최고가격 인하에 따라 다음 주에도 하락세가 이어질 것으로 보인다.",
+          "evidence_type": "paragraph",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보 제공"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "국내 주유소 휘발유와 경유의 주간 평균 가격이 6주 연속 하락했다. 정부의 7차 석유 최고가격 인하에 따라 다음 주에도 하락세가 이어질 것으로 보인다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩"
+        }
+      ]
+    },
+    {
+      "article_id": "90a5d924c14a9b87",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "a20914ffba31c1fd",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "3ee5ac4693c89a77",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "50f747afd56b095a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "abb59f68da70386b",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "132d40b2a7d8f278",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "f939a40a82cfaa50",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "7ebebaa63c6822ff",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "789ad6ba547afbef",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "15f06bbd0502fcba",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "6a02cfe78f1739f7",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e6133f6098f06f3a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "9fa381bcfe27248d",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "한국 선박이 호르무즈 해협을 통과한 사건은 한국석유공사의 해외 자원 개발 및 에너지 안보 업무와 관련이 있을 수 있습니다.",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "호르무즈해협에 발이 묶였던 한국 선박들 가운데 2척이 추가로 해협을 빠져나왔다. 해양수산부는 27일 “호르무즈해협 안에 대기 중이던 우리 선사 운용 선박 2척이 해협을 통과해 정상 항해 중”이라고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "해협 통과는 에너지 수급과 관련이 있으며, 공사의 전략 수립에 중요한 정보일 수 있습니다."
+        }
+      ]
+    },
+    {
+      "article_id": "188719656a37185f",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "75fad6ae275b8d98",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "387781094824c208",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "fb63909b20d3af9d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "80ef9783327a66c0",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "4a270e0dcbf98c6e",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "08a3d404edd748d3",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "594979a7723cc43c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "132bc7b7ffebe630",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "7490f94b285158c0",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "aa0be5315b1646e1",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "33698bf2cff4b336",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5d0e07d4e79394bb",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "0914822d0f8848cb",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "51479d4bf2501a4f",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "21bc8a2c27033d49",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "febc5133c10a5e74",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "ac24c47349553b27",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "7eb4bda588ea1e28",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "73172226323b6e0b",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 이슈로 한국석유공사와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "에너지",
+          "evidence_type": "article",
+          "reason": "에너지 관련 이슈로 경영전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "53952dfb2750e101",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 이슈로 한국석유공사와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "에너지",
+          "evidence_type": "article",
+          "reason": "에너지 관련 이슈로 경영전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "8915adaa41591033",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "유가 관련 이슈로 한국석유공사와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "유가",
+          "evidence_type": "article",
+          "reason": "유가 관련 이슈로 석유사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "7da067795c6328a2",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 관련 이슈로 한국석유공사와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "석유",
+          "evidence_type": "article",
+          "reason": "석유 관련 이슈로 해외자원개발과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "d7c966fac57588dd",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "일반 정치/사회 이슈로 보임",
+      "departments": []
+    },
+    {
+      "article_id": "480ee23691901f90",
+      "candidate": false,
+      "confidence": 0.3,
+      "company_reason": "일반 경제 이슈로 보임",
+      "departments": []
+    },
+    {
+      "article_id": "564f906ea20b6311",
+      "candidate": false,
+      "confidence": 0.2,
+      "company_reason": "일반 생활 이슈로 보임",
+      "departments": []
+    },
+    {
+      "article_id": "4bba1b39044ec4fa",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "일반 사회 이슈로 보임",
+      "departments": []
+    },
+    {
+      "article_id": "4d87810230536419",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "일반 경제 이슈로 보임",
+      "departments": []
+    },
+    {
+      "article_id": "f75791dbc0240702",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "일반 생활 이슈로 보임",
+      "departments": []
+    },
+    {
+      "article_id": "5259bc8f64c15fac",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "일반 생활 이슈로 보임",
+      "departments": []
+    },
+    {
+      "article_id": "6b45348298e9d2b5",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "일반 생활 이슈로 보임",
+      "departments": []
+    },
+    {
+      "article_id": "b288a40283d50e62",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "일반 생활 이슈로 보임",
+      "departments": []
+    },
+    {
+      "article_id": "0986e396fbc6a990",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "일반 생활 이슈로 보임",
+      "departments": []
+    },
+    {
+      "article_id": "a4a5ea119f0b20c3",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "일반 정치 이슈로 보임",
+      "departments": []
+    },
+    {
+      "article_id": "19eff10b468ff939",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "47a9c6d4037ca135",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e64a3e8eb8c59484",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b3d8eaa614bae7c7",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "08febca909653380",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "0cdbf25cc4c948d4",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "67091e61b69eb6ca",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유 가격 변동 가능성이 있으므로 에너지 수급 관련 부서 검토 필요",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "북한의 탄도미사일 발사는 유엔 안전보장이사회의 대북 결의에 위반되기 때문에, 우리 군은 탄도미사일 발사를 포착하는 대로 이를 언론에 공개해 왔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 부서이므로 관련성이 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "북한의 탄도미사일 발사는 유엔 안전보장이사회의 대북 결의에 위반되기 때문에, 우리 군은 탄도미사일 발사를 포착하는 대로 이를 언론에 공개해 왔다.",
+          "evidence_type": "paragraph",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 부서이므로 관련성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "dcd1bafcbc36cb75",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "9de168afe912f47f",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2e194353a1960551",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e2b59e41294359f5",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    }
+  ],
+  "candidate_count": 15,
+  "rejected_count": 138
+}
