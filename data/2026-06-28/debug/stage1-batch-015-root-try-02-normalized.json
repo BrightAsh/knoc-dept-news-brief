@@ -1,0 +1,88 @@
+{
+  "raw_result_count": 1,
+  "accepted_result_count": 1,
+  "normalization": [
+    {
+      "article_id": "e1590d9d01d065bb",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "e1590d9d01d065bb",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유 가격 관련 기사로 한국석유공사의 석유사업, 유통사업, 스마트데이터센터와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "정부가 지난 27일부터 석유 최고가격을 150원 내림에 따라 전국 주유소 휘발유 평균 판매가가 2개월여 만에 ℓ당 2000원 아래로 떨어졌다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 최고가격 인하와 휘발유 가격 하락 관련 기사로 석유사업처의 업무와 직접 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "정부가 지난 27일부터 석유 최고가격을 150원 내림에 따라 전국 주유소 휘발유 평균 판매가가 2개월여 만에 ℓ당 2000원 아래로 떨어졌다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 최고가격 인하와 휘발유 가격 하락 관련 기사로 유통사업처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "정부가 지난 27일부터 석유 최고가격을 150원 내림에 따라 전국 주유소 휘발유 평균 판매가가 2개월여 만에 ℓ당 2000원 아래로 떨어졌다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 최고가격 인하와 휘발유 가격 하락 관련 기사로 스마트데이터센터의 유가 정보 제공 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "e1590d9d01d065bb",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유 가격 관련 기사로 한국석유공사의 석유사업, 유통사업, 스마트데이터센터와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "정부가 지난 27일부터 석유 최고가격을 150원 내림에 따라 전국 주유소 휘발유 평균 판매가가 2개월여 만에 ℓ당 2000원 아래로 떨어졌다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 최고가격 인하와 휘발유 가격 하락 관련 기사로 석유사업처의 업무와 직접 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "정부가 지난 27일부터 석유 최고가격을 150원 내림에 따라 전국 주유소 휘발유 평균 판매가가 2개월여 만에 ℓ당 2000원 아래로 떨어졌다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 최고가격 인하와 휘발유 가격 하락 관련 기사로 유통사업처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "정부가 지난 27일부터 석유 최고가격을 150원 내림에 따라 전국 주유소 휘발유 평균 판매가가 2개월여 만에 ℓ당 2000원 아래로 떨어졌다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 최고가격 인하와 휘발유 가격 하락 관련 기사로 스마트데이터센터의 유가 정보 제공 업무와 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

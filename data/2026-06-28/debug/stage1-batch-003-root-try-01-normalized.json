@@ -1,0 +1,254 @@
+{
+  "raw_result_count": 4,
+  "accepted_result_count": 4,
+  "normalization": [
+    {
+      "article_id": "c1b892dfe9c097db",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "c1b892dfe9c097db",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "사우디 아람코 헬기 추락 사고 관련 기사로, 한국석유공사의 해외 자원 개발 및 석유 수급 안정 업무와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "사우디아라비아 국영 석유기업 아람코 소유 헬리콥터가 28일(현지시각) 라스 타누라에서 추락해 14명이 사망했다고 로이터 통신이 사우디 관영 통신을 인용해 보도했다.",
+            "evidence_type": "paragraph",
+            "reason": "한국석유공사의 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "사우디 아람코 헬기 추락해 14명 사망…원인 조사 중",
+            "evidence_type": "title",
+            "reason": "한국석유공사의 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "c1b892dfe9c097db",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "사우디 아람코 헬기 추락 사고 관련 기사로, 한국석유공사의 해외 자원 개발 및 석유 수급 안정 업무와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "사우디아라비아 국영 석유기업 아람코 소유 헬리콥터가 28일(현지시각) 라스 타누라에서 추락해 14명이 사망했다고 로이터 통신이 사우디 관영 통신을 인용해 보도했다.",
+            "evidence_type": "paragraph",
+            "reason": "한국석유공사의 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "사우디 아람코 헬기 추락해 14명 사망…원인 조사 중",
+            "evidence_type": "article",
+            "reason": "한국석유공사의 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "b1cfb6a2cd4a1179",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "b1cfb6a2cd4a1179",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 투자 기사로, 한국석유공사의 에너지 안보 및 석유 수급 안정 업무와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "정부가 29일 호남 지역에 삼성전자·SK하이닉스 반도체 클러스터 조성 등을 담은 대규모 투자 방안을 발표한다.",
+            "evidence_type": "paragraph",
+            "reason": "한국석유공사의 기획예산처 역할과 관련이 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "역대 최대 규모 투자 제값 하려면 용인 클러스터와 ‘교통정리’ 과제",
+            "evidence_type": "title",
+            "reason": "한국석유공사의 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "b1cfb6a2cd4a1179",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 투자 기사로, 한국석유공사의 에너지 안보 및 석유 수급 안정 업무와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "정부가 29일 호남 지역에 삼성전자·SK하이닉스 반도체 클러스터 조성 등을 담은 대규모 투자 방안을 발표한다.",
+            "evidence_type": "paragraph",
+            "reason": "한국석유공사의 기획예산처 역할과 관련이 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "역대 최대 규모 투자 제값 하려면 용인 클러스터와 ‘교통정리’ 과제",
+            "evidence_type": "article",
+            "reason": "한국석유공사의 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "c4536a8a12b02e83",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "c4536a8a12b02e83",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 투자 기사로, 한국석유공사의 에너지 안보 및 석유 수급 안정 업무와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "이재명 대통령은 국민의힘이 삼성전자와 SK하이닉스의 호남 반도체 클러스터 투자 결정을 ‘정권 외압’으로 규정하고 총공세에 나서자 직접 반박하고 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "한국석유공사의 기획예산처 역할과 관련이 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "이 대통령 “서남해안, 발전 소외…개발 부지 풍부”…국민의힘 ‘호남 반도체 정권 외압’ 공세 직접 반박",
+            "evidence_type": "title",
+            "reason": "한국석유공사의 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "c4536a8a12b02e83",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 투자 기사로, 한국석유공사의 에너지 안보 및 석유 수급 안정 업무와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "이재명 대통령은 국민의힘이 삼성전자와 SK하이닉스의 호남 반도체 클러스터 투자 결정을 ‘정권 외압’으로 규정하고 총공세에 나서자 직접 반박하고 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "한국석유공사의 기획예산처 역할과 관련이 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "이 대통령 “서남해안, 발전 소외…개발 부지 풍부”…국민의힘 ‘호남 반도체 정권 외압’ 공세 직접 반박",
+            "evidence_type": "article",
+            "reason": "한국석유공사의 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "aabbaf9b886960a1",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "aabbaf9b886960a1",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "수소 관련 기사로, 한국석유공사의 저탄소 및 수소 암모니아 사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "베네수엘라 강진 발생 사흘째, 실종자 가족들은 여전히 가족의 생사를 확인하지 못한 채 병원과 임시 대피소를 전전했다.",
+            "evidence_type": "paragraph",
+            "reason": "한국석유공사의 저탄소 추진처 역할과 관련이 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "[베네수엘라 강진]지나가버린 ‘골든타임’…애타는 실종자 가족, 병원만 헤맨다",
+            "evidence_type": "title",
+            "reason": "한국석유공사의 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "aabbaf9b886960a1",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "수소 관련 기사로, 한국석유공사의 저탄소 및 수소 암모니아 사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "베네수엘라 강진 발생 사흘째, 실종자 가족들은 여전히 가족의 생사를 확인하지 못한 채 병원과 임시 대피소를 전전했다.",
+            "evidence_type": "paragraph",
+            "reason": "한국석유공사의 저탄소 추진처 역할과 관련이 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "[베네수엘라 강진]지나가버린 ‘골든타임’…애타는 실종자 가족, 병원만 헤맨다",
+            "evidence_type": "article",
+            "reason": "한국석유공사의 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무와 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "1e27a80bd69f190a",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "기사 내용이 정치 이슈에 집중되어 있어 한국석유공사와 실질적인 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "aabbaf9b886960a1",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "유가 관련 기사로 한국석유공사의 석유 수급 안정과 관련이 있음",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "유가",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "유가",
+          "evidence_type": "sentence",
+          "reason": "유가 정보 제공, 에너지 통계, 시장동향 분석과 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "b12cdbb92b021bef",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "기사 내용이 스포츠 경기 결과에 집중되어 있어 한국석유공사와 실질적인 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "2de254be37494810",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "기사 내용이 스포츠 경기 결과에 집중되어 있어 한국석유공사와 실질적인 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "eb00b704e01de184",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "유가 변동성 언급으로 한국석유공사의 석유 수급 안정과 관련이 있음",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "유가 변동성",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "65c7b6ee443f904b",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "수소 관련 사건으로 한국석유공사의 저탄소 및 수소 암모니아 사업과 관련이 있음",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "수소와 암모니아 도입·저장·유통 관련 사업",
+          "evidence_type": "paragraph",
+          "reason": "수소 관련 사업"
+        }
+      ]
+    },
+    {
+      "article_id": "57172eebea87a94f",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "기사 내용이 일반 투자 계획에 집중되어 있어 한국석유공사와 실질적인 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "758ca32af5243b59",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "기사 내용이 일반 투자 계획에 집중되어 있어 한국석유공사와 실질적인 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    }
+  ]
+}
+```

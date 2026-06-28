@@ -1,0 +1,130 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "120029df7840ae03",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "120029df7840ae03",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "유가 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "돌아선 건 핵심 지지층이 아니라 중도층…열쇠는 이 대통령 손에",
+            "evidence_type": "title",
+            "reason": "유가 관련 정책이나 시장 동향에 영향을 받을 수 있으므로 석유사업처와 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "돌아선 건 핵심 지지층이 아니라 중도층…열쇠는 이 대통령 손에",
+            "evidence_type": "title",
+            "reason": "유가 관련 데이터 분석 및 정보 제공과 관련하여 스마트데이터센터와 연결될 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "120029df7840ae03",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "유가 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "돌아선 건 핵심 지지층이 아니라 중도층…열쇠는 이 대통령 손에",
+            "evidence_type": "article",
+            "reason": "유가 관련 정책이나 시장 동향에 영향을 받을 수 있으므로 석유사업처와 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "돌아선 건 핵심 지지층이 아니라 중도층…열쇠는 이 대통령 손에",
+            "evidence_type": "article",
+            "reason": "유가 관련 데이터 분석 및 정보 제공과 관련하여 스마트데이터센터와 연결될 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "61e26c38885bd35a",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "61e26c38885bd35a",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "원유 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.95,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "美, 연이틀 호르무즈 이란 시설 공습…“트럼프 지시 따른 공격”",
+            "evidence_type": "title",
+            "reason": "원유 공급 및 석유 시장 안정과 관련하여 석유사업처와 직접적으로 관련이 있음"
+          },
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "美, 연이틀 호르무즈 이란 시설 공습…“트럼프 지시 따른 공격”",
+            "evidence_type": "title",
+            "reason": "중동 지역 사업 및 원유 공급과 관련하여 아시아사업처와 연결될 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "61e26c38885bd35a",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "원유 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.95,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "美, 연이틀 호르무즈 이란 시설 공습…“트럼프 지시 따른 공격”",
+            "evidence_type": "article",
+            "reason": "원유 공급 및 석유 시장 안정과 관련하여 석유사업처와 직접적으로 관련이 있음"
+          },
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "美, 연이틀 호르무즈 이란 시설 공습…“트럼프 지시 따른 공격”",
+            "evidence_type": "article",
+            "reason": "중동 지역 사업 및 원유 공급과 관련하여 아시아사업처와 연결될 수 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

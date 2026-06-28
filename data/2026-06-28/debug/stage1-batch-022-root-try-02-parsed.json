@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "article_id": "6bdce40a6b9c8530",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "LPG 관련 선박 충돌 사고는 한국석유공사의 석유사업, 유통사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "부산 앞바다 선박 충돌…울산해경, 선장·항해사 입건, 실종자 수색 계속",
+          "evidence_type": "article",
+          "reason": "선박 충돌 사고는 석유제품 운송과 관련이 있을 수 있으며, 한국석유공사의 석유사업, 유통사업과 연결될 수 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "부산 앞바다 선박 충돌…울산해경, 선장·항해사 입건, 실종자 수색 계속",
+          "evidence_type": "article",
+          "reason": "선박 충돌 사고는 석유제품 유통과 관련이 있을 수 있으며, 한국석유공사의 유통사업과 연결될 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "1dbd140d46a5ef9c",
+      "candidate": true,
+      "confidence": 0.95,
+      "company_reason": "LNG, 천연가스 관련 한국 선박과 선원 발 묶임은 한국석유공사의 해외자원개발, 에너지 수급과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "미·이란 충돌로 다시 발 묶인 한국 선박 3척·한국 선원 43명",
+          "evidence_type": "article",
+          "reason": "한국 선박과 선원의 발 묶임은 해외자원개발, 에너지 수급과 관련이 있을 수 있으며, 한국석유공사의 아시아 사업과 연결될 수 있음"
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "미·이란 충돌로 다시 발 묶인 한국 선박 3척·한국 선원 43명",
+          "evidence_type": "article",
+          "reason": "LNG, 천연가스 관련 사업은 저탄소 에너지 전환과 관련이 있을 수 있으며, 한국석유공사의 저탄소 사업과 연결될 수 있음"
+        }
+      ]
+    }
+  ]
+}

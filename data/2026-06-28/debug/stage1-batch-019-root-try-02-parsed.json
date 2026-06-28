@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "article_id": "b1d18f47e46e0a94",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "공공기관 관련 이슈",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "임기 말 알박기 인사",
+          "evidence_type": "sentence",
+          "reason": "공공기관 인사 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "eb00b704e01de184",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "유가 관련 언급",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "유가 변동성",
+          "evidence_type": "sentence",
+          "reason": "유가 관련 사업"
+        }
+      ]
+    }
+  ]
+}

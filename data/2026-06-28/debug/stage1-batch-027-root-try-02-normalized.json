@@ -1,0 +1,150 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "b12cdbb92b021bef",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "b12cdbb92b021bef",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "유가 관련 기사로 한국석유공사의 석유 수급 안정과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "sentence",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "sentence",
+            "reason": "유가 정보 제공, 에너지 통계, 시장동향 분석과 관련"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "b12cdbb92b021bef",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "유가 관련 기사로 한국석유공사의 석유 수급 안정과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "sentence",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "sentence",
+            "reason": "유가 정보 제공, 에너지 통계, 시장동향 분석과 관련"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "df958cfb983678eb",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "df958cfb983678eb",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "에너지 관련 기사지만 단순 건강 정보 기사로 한국석유공사와 직접 관련이 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "df958cfb983678eb",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "에너지 관련 기사지만 단순 건강 정보 기사로 한국석유공사와 직접 관련이 없음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "c37910c7acab9eeb",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "c37910c7acab9eeb",
+        "candidate": true,
+        "confidence": 0.85,
+        "company_reason": "석유 관련 기사로 한국석유공사의 해외자원개발과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "아람코, 울산 택했다…NCC 판도 바꿀 에쓰오일 9조 프로젝트",
+            "evidence_type": "sentence",
+            "reason": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업과 관련"
+          },
+          {
+            "department_id": "global_technology_center",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "석유",
+            "evidence_type": "sentence",
+            "reason": "E&P 기술지원, 지질·저류층·시추 기술, 기술전략, 연구개발과 관련"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "c37910c7acab9eeb",
+        "candidate": true,
+        "confidence": 0.85,
+        "company_reason": "석유 관련 기사로 한국석유공사의 해외자원개발과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "아람코, 울산 택했다…NCC 판도 바꿀 에쓰오일 9조 프로젝트",
+            "evidence_type": "sentence",
+            "reason": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업과 관련"
+          },
+          {
+            "department_id": "global_technology_center",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "석유",
+            "evidence_type": "sentence",
+            "reason": "E&P 기술지원, 지질·저류층·시추 기술, 기술전략, 연구개발과 관련"
+          }
+        ]
+      }
+    }
+  ]
+}

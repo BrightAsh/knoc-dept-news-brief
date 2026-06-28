@@ -1,0 +1,178 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "91599ed68d89d5da",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "91599ed68d89d5da",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유 가격 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정부가 지난 27일부터 석유 최고가격을 150원 내림에 따라 전국 주유소 휘발유 평균 판매가가 2개월여 만에 ℓ당 2000원 아래로 떨어졌다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 최고가격 조정과 관련하여 석유사업처의 업무와 연결됨"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "전국 주유소 휘발유 평균 판매가가 2개월여 만에 ℓ당 2000원 아래로 떨어졌다.",
+            "evidence_type": "paragraph",
+            "reason": "주유소 판매 가격과 관련하여 유통사업처의 업무와 연결됨"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "정부가 지난 27일부터 석유 최고가격을 150원 내림",
+            "evidence_type": "paragraph",
+            "reason": "석유 비축 및 가격 관리와 관련하여 석유비축처의 업무와 연결됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "91599ed68d89d5da",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유 가격 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정부가 지난 27일부터 석유 최고가격을 150원 내림에 따라 전국 주유소 휘발유 평균 판매가가 2개월여 만에 ℓ당 2000원 아래로 떨어졌다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 최고가격 조정과 관련하여 석유사업처의 업무와 연결됨"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "전국 주유소 휘발유 평균 판매가가 2개월여 만에 ℓ당 2000원 아래로 떨어졌다.",
+            "evidence_type": "paragraph",
+            "reason": "주유소 판매 가격과 관련하여 유통사업처의 업무와 연결됨"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "정부가 지난 27일부터 석유 최고가격을 150원 내림",
+            "evidence_type": "paragraph",
+            "reason": "석유 비축 및 가격 관리와 관련하여 석유비축처의 업무와 연결됨"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "6ac1ae3213c57479",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "6ac1ae3213c57479",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유 가격 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정부가 지난 27일부터 석유 최고가격을 150원 내림에 따라 전국 주유소 휘발유 평균 판매가가 2개월여 만에 ℓ당 2000원 아래로 떨어졌다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 최고가격 조정과 관련하여 석유사업처의 업무와 연결됨"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "전국 주유소 휘발유 평균 판매가가 2개월여 만에 ℓ당 2000원 아래로 떨어졌다.",
+            "evidence_type": "paragraph",
+            "reason": "주유소 판매 가격과 관련하여 유통사업처의 업무와 연결됨"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "정부가 지난 27일부터 석유 최고가격을 150원 내림",
+            "evidence_type": "paragraph",
+            "reason": "석유 비축 및 가격 관리와 관련하여 석유비축처의 업무와 연결됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "6ac1ae3213c57479",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유 가격 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정부가 지난 27일부터 석유 최고가격을 150원 내림에 따라 전국 주유소 휘발유 평균 판매가가 2개월여 만에 ℓ당 2000원 아래로 떨어졌다.",
+            "evidence_type": "paragraph",
+            "reason": "석유 최고가격 조정과 관련하여 석유사업처의 업무와 연결됨"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "전국 주유소 휘발유 평균 판매가가 2개월여 만에 ℓ당 2000원 아래로 떨어졌다.",
+            "evidence_type": "paragraph",
+            "reason": "주유소 판매 가격과 관련하여 유통사업처의 업무와 연결됨"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "정부가 지난 27일부터 석유 최고가격을 150원 내림",
+            "evidence_type": "paragraph",
+            "reason": "석유 비축 및 가격 관리와 관련하여 석유비축처의 업무와 연결됨"
+          }
+        ]
+      }
+    }
+  ]
+}

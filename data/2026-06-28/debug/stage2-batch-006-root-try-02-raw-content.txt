@@ -1,0 +1,81 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "ba74d02390b5a166",
+      "final_relevant": false,
+      "confidence": 0.2,
+      "final_reason": "에너지 관련 이슈지만 한국석유공사의 직접적인 사업이나 정책과 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "daf22641b1e2fac9",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "에너지 관련 인사 이슈지만 한국석유공사의 직접적인 사업이나 정책과 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "eb1edc9ad071a31a",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "에너지 관련 키워드 언급이지만 기사 내용이 한국석유공사의 사업과 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "e49d97ab6722205c",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "에너지 관련 키워드 언급이지만 기사 내용이 한국석유공사의 사업과 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "6ac1859c965f03df",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 관련이 없음",
+      "review_note": "D 그룹 유지",
+      "departments": []
+    },
+    {
+      "article_id": "84b38dce6996f824",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 관련이 없음",
+      "review_note": "D 그룹 유지",
+      "departments": []
+    },
+    {
+      "article_id": "4b51ae5a168e5dc1",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 관련이 없음",
+      "review_note": "D 그룹 유지",
+      "departments": []
+    },
+    {
+      "article_id": "c3a7c955981271fa",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "사우디 아람코 헬기 추락 사고는 석유 관련 기업 이슈로 한국석유공사의 에너지 관련 사업과 정책에 영향을 줄 수 있음",
+      "review_note": "D 그룹에서 C 그룹으로 변경",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s4"
+          ],
+          "evidence_text": "지난 3월 24일(현지시간) 미국 텍사스주 휴스턴에서 열린 에너지 콘퍼런스 세라위크(CERAWeek) 행사장에 사우디아라비아 국영 석유회사 아람코의 로고가 보이고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 부서로 배정합니다."
+        }
+      ]
+    }
+  ]
+}
+```
