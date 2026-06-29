@@ -1,0 +1,94 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "6efeae5e82d56ae2",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "6efeae5e82d56ae2",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지, 수소 관련 언급으로 한국석유공사와 연결 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "삼성그룹은 호남 반도체 클러스터에 400조원을 포함해 영호남과 충청에 625조원을 투자한다고 29일 밝혔다. 기존 평택과 용인 반도체 클러스터에 투자할 2030조원을 포함하면 투자 규모는 2655조원에 이른다.",
+            "evidence_type": "paragraph",
+            "reason": "수소, 에너지 관련 투자 언급으로 저탄소추진처와 연결됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "6efeae5e82d56ae2",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지, 수소 관련 언급으로 한국석유공사와 연결 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "삼성그룹은 호남 반도체 클러스터에 400조원을 포함해 영호남과 충청에 625조원을 투자한다고 29일 밝혔다. 기존 평택과 용인 반도체 클러스터에 투자할 2030조원을 포함하면 투자 규모는 2655조원에 이른다.",
+            "evidence_type": "paragraph",
+            "reason": "수소, 에너지 관련 투자 언급으로 저탄소추진처와 연결됨"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "b0299013c0a025ba",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "b0299013c0a025ba",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지, 산업부 관련 언급으로 한국석유공사와 연결 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "광주시와 전남도는 지난해 10월 정부 공모 사업을 두고 '극심한 갈등'을 빚었다.",
+            "evidence_type": "paragraph",
+            "reason": "정부 정책과 예산 관련 언급으로 기획예산처와 연결됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "b0299013c0a025ba",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지, 산업부 관련 언급으로 한국석유공사와 연결 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "광주시와 전남도는 지난해 10월 정부 공모 사업을 두고 '극심한 갈등'을 빚었다.",
+            "evidence_type": "paragraph",
+            "reason": "정부 정책과 예산 관련 언급으로 기획예산처와 연결됨"
+          }
+        ]
+      }
+    }
+  ]
+}

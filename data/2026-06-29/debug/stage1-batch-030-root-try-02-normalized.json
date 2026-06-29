@@ -1,0 +1,116 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "797f876ad850f325",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "797f876ad850f325",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "석유 관련 언급이 있어 에너지 안보와 관련 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "반도체 특수에도…지역내총생산 호남만 ‘0% 성장률’, 반도체 클러스터가 있는 지역을 중심으로 성장률이 두드러졌는데, 최근 반도체 시설 투자 지역으로 거론되는 호남권은 모든 권역 중 유일하게 제자리걸음 했다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무와 연결 가능성"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "올 1분기(1~3월) 한국 지역 경제성장률이 17분기 만에 가장 높은 성장률을 기록한 것으로 나타났다. 반도체 클러스터가 있는 지역을 중심으로 성장률이 두드러졌는데, 최근 반도체 시설 투자 지역으로 거론되는 호남권은 모든 권역 중 유일하게 제자리걸음 했다.",
+            "evidence_type": "paragraph",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무와 연결 가능성"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "797f876ad850f325",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "석유 관련 언급이 있어 에너지 안보와 관련 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "반도체 특수에도…지역내총생산 호남만 ‘0% 성장률’, 반도체 클러스터가 있는 지역을 중심으로 성장률이 두드러졌는데, 최근 반도체 시설 투자 지역으로 거론되는 호남권은 모든 권역 중 유일하게 제자리걸음 했다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무와 연결 가능성"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "올 1분기(1~3월) 한국 지역 경제성장률이 17분기 만에 가장 높은 성장률을 기록한 것으로 나타났다. 반도체 클러스터가 있는 지역을 중심으로 성장률이 두드러졌는데, 최근 반도체 시설 투자 지역으로 거론되는 호남권은 모든 권역 중 유일하게 제자리걸음 했다.",
+            "evidence_type": "paragraph",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무와 연결 가능성"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "a30f0d3c6b73f361",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "a30f0d3c6b73f361",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "유가, 휘발유 언급으로 석유 유통과 관련 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "“요양원이 굶긴다”...치매 모친 말 믿고 분신 협박한 50대",
+            "evidence_type": "title",
+            "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무와 연결 가능성"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "a30f0d3c6b73f361",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "유가, 휘발유 언급으로 석유 유통과 관련 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "“요양원이 굶긴다”...치매 모친 말 믿고 분신 협박한 50대",
+            "evidence_type": "article",
+            "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무와 연결 가능성"
+          }
+        ]
+      }
+    }
+  ]
+}

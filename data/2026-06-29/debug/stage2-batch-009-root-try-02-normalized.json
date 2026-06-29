@@ -1,0 +1,248 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "1876de43398d72ba",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "1876de43398d72ba",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 투자 계획이지만 한국석유공사의 직접적인 사업과 관련이 없음",
+        "review_note": "1차 판단에서 에너지 관련 기사로 분류되었으나, 실제 내용과 한국석유공사의 사업 관련성이 낮음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "1876de43398d72ba",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 투자 계획이지만 한국석유공사의 직접적인 사업과 관련이 없음",
+        "review_note": "1차 판단에서 에너지 관련 기사로 분류되었으나, 실제 내용과 한국석유공사의 사업 관련성이 낮음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "c1b403255d05b5e5",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "c1b403255d05b5e5",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음, 특히 전력 공급과 관련된 내용은 저탄소추진처의 업무와 연결됨",
+        "review_note": "1차 판단에서 에너지 관련 기사로 분류되었으며, 실제 내용과 한국석유공사의 사업 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "반도체·인공지능(AI) 데이터센터·피지컬 에이아이 같은 첨단산업 경쟁력을 갖추려면 안정적인 전력 공급이 핵심이라 본 것이다.",
+            "evidence_type": "paragraph",
+            "reason": "저탄소추진처는 에너지전환, 저탄소 신규사업을 담당하므로 에너지 관련 이슈와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "c1b403255d05b5e5",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음, 특히 전력 공급과 관련된 내용은 저탄소추진처의 업무와 연결됨",
+        "review_note": "1차 판단에서 에너지 관련 기사로 분류되었으며, 실제 내용과 한국석유공사의 사업 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "반도체·인공지능(AI) 데이터센터·피지컬 에이아이 같은 첨단산업 경쟁력을 갖추려면 안정적인 전력 공급이 핵심이라 본 것이다.",
+            "evidence_type": "paragraph",
+            "reason": "저탄소추진처는 에너지전환, 저탄소 신규사업을 담당하므로 에너지 관련 이슈와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "d2c3f1a7c7df8ab3",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "d2c3f1a7c7df8ab3",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 기사로 한국석유공사의 에너지 안보와 관련이 있음, 특히 반도체 생산과 관련된 내용은 저탄소추진처의 업무와 연결됨",
+        "review_note": "1차 판단에서 에너지 관련 기사로 분류되었으며, 실제 내용과 한국석유공사의 사업 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "이재용 삼성전자 회장은 차세대 반도체 생산 거점 후보지로 광주를 고려하고 있다고 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 추진, 에너지전환 등 저탄소추진처의 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "d2c3f1a7c7df8ab3",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 기사로 한국석유공사의 에너지 안보와 관련이 있음, 특히 반도체 생산과 관련된 내용은 저탄소추진처의 업무와 연결됨",
+        "review_note": "1차 판단에서 에너지 관련 기사로 분류되었으며, 실제 내용과 한국석유공사의 사업 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "이재용 삼성전자 회장은 차세대 반도체 생산 거점 후보지로 광주를 고려하고 있다고 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 추진, 에너지전환 등 저탄소추진처의 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "65743cfdda09554d",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "65743cfdda09554d",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 기사로 한국석유공사의 에너지 안보와 관련이 있음, 특히 반도체 생산과 관련된 내용은 저탄소추진처의 업무와 연결됨",
+        "review_note": "1차 판단에서 에너지 관련 기사로 분류되었으며, 실제 내용과 한국석유공사의 사업 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "이재용 삼성전자 회장은 차세대 반도체 생산 거점 후보지로 광주를 고려하고 있다고 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 추진, 에너지전환 등 저탄소추진처의 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "65743cfdda09554d",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 기사로 한국석유공사의 에너지 안보와 관련이 있음, 특히 반도체 생산과 관련된 내용은 저탄소추진처의 업무와 연결됨",
+        "review_note": "1차 판단에서 에너지 관련 기사로 분류되었으며, 실제 내용과 한국석유공사의 사업 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "이재용 삼성전자 회장은 차세대 반도체 생산 거점 후보지로 광주를 고려하고 있다고 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 추진, 에너지전환 등 저탄소추진처의 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "3f3e70e6e3c2bc19",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "3f3e70e6e3c2bc19",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 이슈지만 한국석유공사의 직접적인 사업과 관련이 없음",
+        "review_note": "1차 판단에서 에너지 관련 기사로 분류되었으나, 실제 내용과 한국석유공사의 사업 관련성이 낮음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "3f3e70e6e3c2bc19",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 이슈지만 한국석유공사의 직접적인 사업과 관련이 없음",
+        "review_note": "1차 판단에서 에너지 관련 기사로 분류되었으나, 실제 내용과 한국석유공사의 사업 관련성이 낮음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "cbbcaca1cac5a406",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "cbbcaca1cac5a406",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "공공기관 언급이지만 한국석유공사의 직접적인 사업과 관련이 없음",
+        "review_note": "1차 판단에서 공공기관 언급으로 분류되었으나, 실제 내용과 한국석유공사의 사업 관련성이 낮음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "cbbcaca1cac5a406",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "공공기관 언급이지만 한국석유공사의 직접적인 사업과 관련이 없음",
+        "review_note": "1차 판단에서 공공기관 언급으로 분류되었으나, 실제 내용과 한국석유공사의 사업 관련성이 낮음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "03628cdc64a20e61",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "03628cdc64a20e61",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "에너지 관련 언급이지만 한국석유공사의 직접적인 사업과 관련이 없음",
+        "review_note": "1차 판단에서 에너지 관련 기사로 분류되었으나, 실제 내용과 한국석유공사의 사업 관련성이 낮음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "03628cdc64a20e61",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "에너지 관련 언급이지만 한국석유공사의 직접적인 사업과 관련이 없음",
+        "review_note": "1차 판단에서 에너지 관련 기사로 분류되었으나, 실제 내용과 한국석유공사의 사업 관련성이 낮음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "3450eaa5f021bad1",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "3450eaa5f021bad1",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "에너지 관련 언급이지만 한국석유공사의 직접적인 사업과 관련이 없음",
+        "review_note": "1차 판단에서 에너지 관련 기사로 분류되었으나, 실제 내용과 한국석유공사의 사업 관련성이 낮음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "3450eaa5f021bad1",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "에너지 관련 언급이지만 한국석유공사의 직접적인 사업과 관련이 없음",
+        "review_note": "1차 판단에서 에너지 관련 기사로 분류되었으나, 실제 내용과 한국석유공사의 사업 관련성이 낮음",
+        "departments": []
+      }
+    }
+  ]
+}

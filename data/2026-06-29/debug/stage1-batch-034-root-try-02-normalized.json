@@ -1,0 +1,110 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "40dc875e99ab9011",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "40dc875e99ab9011",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "기사에서 언급된 암모니아는 한국석유공사의 수소암모니아사업단과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "hydrogen_ammonia",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "LG전자는 청소 성능과 위생 관리 편리성을 높인 프리미엄 청소 로봇 'LG 홈봇 인공지능 오브제컬렉션 로니'를 출시했다고 29일 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "암모니아 관련 기술은 수소암모니아사업단의 업무와 관련이 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "40dc875e99ab9011",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "기사에서 언급된 암모니아는 한국석유공사의 수소암모니아사업단과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "hydrogen_ammonia",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "LG전자는 청소 성능과 위생 관리 편리성을 높인 프리미엄 청소 로봇 'LG 홈봇 인공지능 오브제컬렉션 로니'를 출시했다고 29일 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "암모니아 관련 기술은 수소암모니아사업단의 업무와 관련이 있을 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "0e9693875967a55d",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "0e9693875967a55d",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "유가 관련 언급이지만 구체적인 내용은 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "0e9693875967a55d",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "유가 관련 언급이지만 구체적인 내용은 없음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "8bc8805e0ebe43a0",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "8bc8805e0ebe43a0",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "LNG 추진선은 한국석유공사의 석유사업처와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "HD한국조선해양이 국내 중소기업과 협력해 액화천연가스 추진선 핵심 기자재 국산화에 성공했다.",
+            "evidence_type": "paragraph",
+            "reason": "LNG 추진선은 석유사업처의 업무와 관련이 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "8bc8805e0ebe43a0",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "LNG 추진선은 한국석유공사의 석유사업처와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "HD한국조선해양이 국내 중소기업과 협력해 액화천연가스 추진선 핵심 기자재 국산화에 성공했다.",
+            "evidence_type": "paragraph",
+            "reason": "LNG 추진선은 석유사업처의 업무와 관련이 있을 수 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "9e7869e599a8c937",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "기사에 공공기관이 언급되어 한국석유공사와 관련 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "공공기관",
+          "evidence_type": "paragraph",
+          "reason": "기획예산처는 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당하므로 관련 가능성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "cbbcaca1cac5a406",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "기사에 공공기관이 언급되어 한국석유공사와 관련 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "공공기관",
+          "evidence_type": "paragraph",
+          "reason": "기획예산처는 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당하므로 관련 가능성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "c1dea3e41b4dbf82",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "기사에 유가, 에너지가 언급되어 한국석유공사와 관련 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "유가, 에너지",
+          "evidence_type": "paragraph",
+          "reason": "스마트데이터센터는 석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하므로 관련 가능성이 있음"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "유가, 에너지",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하므로 관련 가능성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "e1db411e064f8c79",
+      "candidate": false,
+      "confidence": 0.2,
+      "company_reason": "LPG 언급되었지만 관련성 낮음",
+      "departments": []
+    }
+  ]
+}
+```

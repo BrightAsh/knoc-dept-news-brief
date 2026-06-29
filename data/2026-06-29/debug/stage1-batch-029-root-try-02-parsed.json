@@ -1,0 +1,76 @@
+{
+  "results": [
+    {
+      "article_id": "6f1f7be4fa98652b",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "KAIST 신임 총장 관련 기사는 에너지 관련 이슈를 다루고 있어 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "탄소중립",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 추진과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "5afe1d4e4dc11eb1",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "경유 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "경유",
+          "evidence_type": "paragraph",
+          "reason": "석유사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "1a708a383fdb7923",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "유가, 정유, 수급 안정 관련 언급이 있어 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "유가, 정유, 수급 안정",
+          "evidence_type": "paragraph",
+          "reason": "석유사업과 관련이 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "수급 안정",
+          "evidence_type": "paragraph",
+          "reason": "석유 비축과 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
