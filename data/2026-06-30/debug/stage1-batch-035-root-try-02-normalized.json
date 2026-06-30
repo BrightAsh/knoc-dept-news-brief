@@ -1,0 +1,72 @@
+{
+  "raw_result_count": 1,
+  "accepted_result_count": 1,
+  "normalization": [
+    {
+      "article_id": "7252bea58e1658bb",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "7252bea58e1658bb",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "기사에 유가, 휘발유, 주유소 언급되어 한국석유공사와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "트럼프 “휘발유값 당장 인하해라···안 따르면 큰 문제 생길 것” 주유소들에 경고",
+            "evidence_type": "sentence",
+            "reason": "석유유통, 주유소 공급, 소비자가격 관련 업무를 하는 유통사업처와 관련이 있음"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "트럼프 “휘발유값 당장 인하해라···안 따르면 큰 문제 생길 것” 주유소들에 경고",
+            "evidence_type": "sentence",
+            "reason": "원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무를 하는 석유사업처와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "7252bea58e1658bb",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "기사에 유가, 휘발유, 주유소 언급되어 한국석유공사와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "트럼프 “휘발유값 당장 인하해라···안 따르면 큰 문제 생길 것” 주유소들에 경고",
+            "evidence_type": "sentence",
+            "reason": "석유유통, 주유소 공급, 소비자가격 관련 업무를 하는 유통사업처와 관련이 있음"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "트럼프 “휘발유값 당장 인하해라···안 따르면 큰 문제 생길 것” 주유소들에 경고",
+            "evidence_type": "sentence",
+            "reason": "원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무를 하는 석유사업처와 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

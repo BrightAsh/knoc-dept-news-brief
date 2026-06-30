@@ -1,0 +1,34 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "a56b293a9ac4668a",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 관련 이슈로 한국석유공사의 업무와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "정유",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "유가",
+          "evidence_type": "sentence",
+          "reason": "유가 정보 제공, 시장 동향 분석 관련 업무"
+        }
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,86 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "5d50c5f42cd47203",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 수급 안정 관련 정책 언급",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "정부가 자원안보 위기경보 단계를 하향하고 공공 부문 차량 2부제를 5부제로 완화하기로 했다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 수급 안정과 관련한 정책 조정"
+        }
+      ]
+    },
+    {
+      "article_id": "a079710e092c459d",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "유가 언급 있지만 구체적 관련 내용 없음",
+      "departments": []
+    },
+    {
+      "article_id": "4039f8f04665d076",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "공공 차량 2·5부제 완화 정책 언급",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "이재명 대통령이 공공부문 차량 2부제를 단계적으로 완화하겠다는 부처 보고를 받고 \"다 풀어주는 것으로 하자\"고 말했다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 수급 안정과 관련한 정책 조정"
+        }
+      ]
+    },
+    {
+      "article_id": "ff081fc9353baf15",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지, 수소 관련 언급",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "정부의 호남권 대규모 반도체 투자 구상을 계기로 지역 환경단체가 수도권 중심의 반도체 산업 정책을 정면으로 비판하며 경기 용인 반도체 국가산업단지 계획의 전면 재검토를 요구하고 나섰다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 관련 사업과 간접적 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "4e924e39c83fa9f1",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "에너지산업융복합단지 관련 언급",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "경북도는 영덕 에너지산업융복합단지 종합지원센터에 입주할 에너지기업 10곳을 모집한다고 30일 밝혔다. 영덕군 영덕읍에 있는 종합지원센터는 에너지산업 연구개발과 기업 지원, 전문인력 양성을 위한 시설이다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지산업융복합단지와 직접 관련"
+        }
+      ]
+    }
+  ]
+}
+```

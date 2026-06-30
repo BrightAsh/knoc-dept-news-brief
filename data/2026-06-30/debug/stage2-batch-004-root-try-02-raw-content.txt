@@ -1,0 +1,128 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "6e01ef174ec5a0c7",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "수소, 암모니아 관련 기사로 한국석유공사의 에너지 관련 사업과 연결됨",
+      "review_note": "C 그룹으로 1차 판단을 참고하여 근거와 부서 배정을 정밀 검토함",
+      "departments": [
+        {
+          "department_id": "hydrogen_ammonia",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s4",
+            "s7"
+          ],
+          "evidence_text": "첨단 기술 앞세워 미래 해양 산업 리더로 도약, 에너지 전환 분야에서는 소형모듈원자로(SMR)와 수소, 암모니아 등 차세대 친환경 에너지 사업을 확대하고 있다.",
+          "evidence_type": "article",
+          "reason": "수소암모니아사업단의 저탄소 수소와 암모니아 도입·저장·유통과 관련"
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s4",
+            "s7"
+          ],
+          "evidence_text": "첨단 기술 앞세워 미래 해양 산업 리더로 도약, 에너지 전환 분야에서는 소형모듈원자로(SMR)와 수소, 암모니아 등 차세대 친환경 에너지 사업을 확대하고 있다.",
+          "evidence_type": "article",
+          "reason": "저탄소추진처의 에너지전환, 저탄소 신규사업과 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "f9dd3cb8d8305791",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "기사 내용이 주로 일반 정책 및 사회 이슈와 관련되어 한국석유공사의 업무와 직접 연결되지 않음",
+      "review_note": "C 그룹으로 1차 판단을 받았으나, 세부 내용 검토 결과 한국석유공사의 직접적인 업무와 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "cf872cd2b7f98b0a",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "기사 내용이 주로 일반 정책 및 사회 이슈와 관련되어 한국석유공사의 업무와 직접 연결되지 않음",
+      "review_note": "C 그룹으로 1차 판단을 받았으나, 세부 내용 검토 결과 한국석유공사의 직접적인 업무와 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "1b8940ca04c15e99",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "암모니아 가스 누출 관련 기사로 한국석유공사의 수소암모니아사업단과 관련이 있음",
+      "review_note": "C 그룹으로 1차 판단을 참고하여 근거와 부서 배정을 정밀 검토함",
+      "departments": [
+        {
+          "department_id": "hydrogen_ammonia",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s4"
+          ],
+          "evidence_text": "경기 부천 화학공장서 암모니아 추정 가스 누출…“안전조치 중”, 30일 소방당국에 따르면 이날 오전 10시 31분께 부천시 원미구 도당동 일대 화학 공장에서 “밸브 조작 중 가스가 새고 있다”는 관계자 신고가 접수됐다.",
+          "evidence_type": "article",
+          "reason": "암모니아 가스 누출 사고는 수소암모니아사업단의 업무와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "a5dca69402169586",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "수소 관련 기사는 한국석유공사의 저탄소 사업과 관련이 있음",
+      "review_note": "C 그룹으로 1차 판단을 참고하여 근거와 부서 배정을 정밀 검토함",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s5"
+          ],
+          "evidence_text": "서울과기대 이은호 교수 연구팀, 차세대 AI 반도체의 고질적 ‘정보 망각’ 문제 해결하는 새로운 전해질 설계 기술 개발, 이번 연구의 가장 큰 특징은 복잡한 소재·소자 구조 변경이나 고난도 공정 없이, 전해질 내 이온의 구조적 특성과 유기 반도체와의 수소 결합 상호작용만을 제어함으로써 고질적인 정보 망각 문제를 개선할 수 있는 분자 설계 전략을 제시했다는 점이다.",
+          "evidence_type": "article",
+          "reason": "수소 관련 연구는 저탄소 사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "ff081fc9353baf15",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "기사 내용이 주로 일반 정책 및 사회 이슈와 관련되어 한국석유공사의 업무와 직접 연결되지 않음",
+      "review_note": "C 그룹으로 1차 판단을 받았으나, 세부 내용 검토 결과 한국석유공사의 직접적인 업무와 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "d6120a105b8a80f6",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "에너지 정책 관련 행사로 한국석유공사의 전략 부서와 관련이 있음",
+      "review_note": "C 그룹으로 1차 판단을 참고하여 근거와 부서 배정을 정밀 검토함",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "명지대학교(총장 임연수)는 지난 6월 27일(토) 오후 1시부터 6시까지 인문캠퍼스 방목학술정보관 1층 국제회의장에서 ‘제1회 모두의 에너지시민회의: 시민이 만드는 도시형 햇빛소득마을과 에너지 전환’을 성황리에 개최했다고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "6450025ff31b0740",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "기사 내용이 주로 산업통상자원부 언급에 그치고 한국석유공사의 직접적인 업무와 관련성이 낮음",
+      "review_note": "C 그룹으로 1차 판단을 받았으나, 세부 내용 검토 결과 한국석유공사의 직접적인 업무와 관련성이 낮음",
+      "departments": []
+    }
+  ]
+}
+```

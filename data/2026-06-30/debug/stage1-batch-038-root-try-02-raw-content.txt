@@ -1,0 +1,60 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "ce4428853b8ec096",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "기사에서 유가 언급으로 인해 에너지 안보와 관련된 이슈로 판단됨",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "패전·궁핍·포위망···이란 생존 이끈 ‘3개의 위기’[미·이란 전쟁이 드러낸 3개의 균열]①, '핵 시설은 전부 파괴됐다'며 공습 성과를 내세우는 미국, '위대한 승리'를 자축하며 한 치도 물러서지 않는 이란의 엇갈린 주장은 마치 패배한 이가 없는 전쟁이라는 착시를 일으킨다.",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사의 경영전략과 관련된 유가 이슈"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "핵 시설은 전부 파괴됐다'며 공습 성과를 내세우는 미국, '위대한 승리'를 자축하며 한 치도 물러서지 않는 이란의 엇갈린 주장은 마치 패배한 이가 없는 전쟁이라는 착시를 일으킨다.",
+          "evidence_type": "paragraph",
+          "reason": "석유정보 서비스와 관련된 시장동향 분석"
+        }
+      ]
+    },
+    {
+      "article_id": "e63626d920afffa6",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "07ccedbc1c57679a",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "공공기관 언급으로 인해 한국석유공사와 관련된 이슈로 판단됨",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "[The Company] 다문화 청년 인재 양성 16년간 지원",
+          "evidence_type": "title",
+          "reason": "한국석유공사의 공공기관 운영과 관련된 이슈"
+        }
+      ]
+    }
+  ]
+}
+```

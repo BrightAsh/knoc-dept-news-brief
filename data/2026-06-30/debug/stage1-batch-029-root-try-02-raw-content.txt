@@ -1,0 +1,31 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "f9f19c3c406ae9f9",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "1b8940ca04c15e99",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "암모니아 가스 누출 관련 기사로 한국석유공사의 수소암모니아사업단과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "hydrogen_ammonia",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "경기 부천 화학공장서 암모니아 추정 가스 누출…“안전조치 중”",
+          "evidence_type": "sentence",
+          "reason": "암모니아 가스 누출 사고는 수소암모니아사업단의 업무와 관련이 있을 수 있음"
+        }
+      ]
+    }
+  ]
+}
+```

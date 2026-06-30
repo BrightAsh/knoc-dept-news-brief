@@ -1,0 +1,162 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "83af9fc581b15883",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "cdf72327dec2c7d9",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "5b3af0e1d3bf7066",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "cb71e50f82a9dd93",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d513eac956fc514a",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "반도체 생산 10% 하락···생산·투자 두달 연속 감소, 소비는 차량연료, 화장품 등 판매가 늘면서 소폭 상승했다.",
+          "evidence_type": "paragraph",
+          "reason": "차량연료 관련 언급으로 석유사업과 연결됨"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "소비는 차량연료, 화장품 등 판매가 늘면서 소폭 상승했다.",
+          "evidence_type": "paragraph",
+          "reason": "차량연료 관련 언급으로 유통사업과 연결됨"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.5,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "[속보]반도체 생산 10% 하락···생산·투자 두달 연속 감소",
+          "evidence_type": "paragraph",
+          "reason": "석유 비축과 관련 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "b21dc7705db03787",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유 관련 기사로 한국석유공사의 해외자원개발, 석유사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "이란이 자국이 지정한 항로를 벗어나 호르무즈해협 통과를 시도하는 선박을 차단할 것이며 오만이 협력하지 않더라도 독자적으로 해협 관리 방안을 추진하겠다고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "호르무즈해협 관련 언급으로 해외자원개발과 연결됨"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "이란 “호르무즈 지정항로 외 이용 차단…미국과 협상은 없을 것”",
+          "evidence_type": "paragraph",
+          "reason": "석유 관련 언급으로 석유사업과 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "c796621d22c3bb69",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 기사로 한국석유공사의 에너지전환, 저탄소사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "미국 연방대법원이 연방거래위원회(FTC) 등 독립 규제기관 인사에 대한 대통령의 해임 권한을 대폭 확대하는 판결을 내렸다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 언급으로 에너지전환, 저탄소사업과 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "ceb35bb721600e4b",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 기사로 한국석유공사의 에너지전환, 저탄소사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "“아르헨티나는 지금 글로벌 테크 기업들의 실험장이 되고 있습니다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 언급으로 에너지전환, 저탄소사업과 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "be188375c3370b89",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 기사로 한국석유공사의 에너지전환, 저탄소사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "어느 날 회사가 무너졌다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 언급으로 에너지전환, 저탄소사업과 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "0b35790ec6adcb35",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments":

@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "article_id": "12071265ceeca86c",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "기사에서 석유, 원유, 유가, 에너지, 천연가스, 정유, 주유소, 비축유, 에너지 안보와 같은 키워드가 언급되어 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "석유, 원유, 유가, 에너지, 천연가스, 정유, 주유소, 비축유, 에너지 안보",
+          "evidence_type": "paragraph",
+          "reason": "해당 부서는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하므로 기사와 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "비축유, 에너지 안보",
+          "evidence_type": "paragraph",
+          "reason": "해당 부서는 정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당하므로 기사와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "6e522bd5011a53de",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "기사에서 유가 키워드가 언급되어 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "유가",
+          "evidence_type": "title",
+          "reason": "해당 부서는 석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하므로 기사와 관련이 있을 수 있음"
+        }
+      ]
+    }
+  ]
+}

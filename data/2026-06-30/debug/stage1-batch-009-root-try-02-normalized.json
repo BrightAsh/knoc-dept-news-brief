@@ -1,0 +1,234 @@
+{
+  "raw_result_count": 4,
+  "accepted_result_count": 4,
+  "normalization": [
+    {
+      "article_id": "69396754dfd2e6f1",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "69396754dfd2e6f1",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 정보제공 등과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "paragraph",
+            "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "paragraph",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "69396754dfd2e6f1",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 정보제공 등과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "paragraph",
+            "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "paragraph",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "6b0bc5bba3228194",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "6b0bc5bba3228194",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 기사로 한국석유공사의 에너지전환, 저탄소, 수소, 암모니아 사업 등과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "paragraph",
+            "reason": "저탄소, 수소, 암모니아, 에너지전환 관련 신규 사업"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "6b0bc5bba3228194",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 기사로 한국석유공사의 에너지전환, 저탄소, 수소, 암모니아 사업 등과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "paragraph",
+            "reason": "저탄소, 수소, 암모니아, 에너지전환 관련 신규 사업"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "025f28b73b1039d9",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "025f28b73b1039d9",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "유가 관련 기사로 한국석유공사의 석유비축, 전략비축유 관리 등과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "paragraph",
+            "reason": "정부 비축유, 전략비축, 비축기지, 저장시설 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "025f28b73b1039d9",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "유가 관련 기사로 한국석유공사의 석유비축, 전략비축유 관리 등과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "paragraph",
+            "reason": "정부 비축유, 전략비축, 비축기지, 저장시설 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "ce5b9c677d701c28",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "ce5b9c677d701c28",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 기사로 한국석유공사의 에너지수급, 가격 안정화 등과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "paragraph",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "ce5b9c677d701c28",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 기사로 한국석유공사의 에너지수급, 가격 안정화 등과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "paragraph",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      }
+    }
+  ]
+}

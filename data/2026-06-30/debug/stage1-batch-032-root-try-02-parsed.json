@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "article_id": "fa82da9e8f3ca5e4",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "원유 위기경보, 천연가스 관련 기사는 한국석유공사의 석유 수급 안정과 에너지 안보와 관련이 있다.",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "원유 위기경보, ‘경계→주의’로 하향 조정…천연가스는 해제",
+          "evidence_type": "title",
+          "reason": "원유 위기경보와 천연가스 해제는 석유사업 전략과 수급 안정과 관련이 있다."
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "원유 위기경보, ‘경계→주의’로 하향 조정…천연가스는 해제",
+          "evidence_type": "title",
+          "reason": "원유 위기경보는 석유 비축과 관련이 있다."
+        }
+      ]
+    },
+    {
+      "article_id": "a5dca69402169586",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "수소 관련 기사는 한국석유공사의 저탄소 사업과 관련이 있다.",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "서울과기대 이은호 교수 연구팀, 차세대 AI 반도체의 고질적 ‘정보 망각’ 문제 해결하는 새로운 전해질 설계 기술 개발",
+          "evidence_type": "title",
+          "reason": "수소 관련 연구는 저탄소 사업과 관련이 있다."
+        }
+      ]
+    }
+  ]
+}
