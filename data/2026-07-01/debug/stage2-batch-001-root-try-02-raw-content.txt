@@ -1,0 +1,227 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "9baaa1493b32cf3b",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "에너지 비축 및 재생에너지 관련 내용이 한국석유공사의 석유비축, 석유사업과 관련이 있음",
+      "review_note": "C 그룹으로 분류된 기사로, 에너지 비축 및 재생에너지 관련 내용이 한국석유공사의 석유비축, 석유사업과 관련이 있으므로 최종적으로 포함",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s8"
+          ],
+          "evidence_text": "원유, 에너지, 정유, 비축유",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다."
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s8"
+          ],
+          "evidence_text": "비축유",
+          "evidence_type": "sentence",
+          "reason": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리 담당"
+        }
+      ]
+    },
+    {
+      "article_id": "ee5a39723c9a7bb0",
+      "final_relevant": true,
+      "confidence": 0.85,
+      "final_reason": "호르무즈 위기 관련 내용이 한국석유공사의 석유 수급 안정화 업무와 관련이 있음",
+      "review_note": "C 그룹으로 분류된 기사로, 호르무즈 위기 관련 내용이 한국석유공사의 석유 수급 안정화 업무와 관련이 있으므로 최종적으로 포함",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "원유",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략, 원유 구매와 판매 담당"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "원유",
+          "evidence_type": "sentence",
+          "reason": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리 담당"
+        }
+      ]
+    },
+    {
+      "article_id": "7866c97bf1d66cad",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "호르무즈해협 공급 차질 관련 내용이 한국석유공사의 석유 수급 안정화 업무와 관련이 있음",
+      "review_note": "C 그룹으로 분류된 기사로, 호르무즈해협 공급 차질 관련 내용이 한국석유공사의 석유 수급 안정화 업무와 관련이 있으므로 최종적으로 포함",
+      "departments": [
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "호르무즈해협의 공급 차질이 발생할 경우, 한국은 8월까지 충격을 흡수하며 관리가 가능하지만 사태가 가을을 넘겨 장기화할 경우 부담이 될 것이라는 시뮬레이션 결과가 나왔다.",
+          "evidence_type": "article",
+          "reason": "석유비축과 관련된 시뮬레이션 결과 언급"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "호르무즈해협의 공급 차질이 발생할 경우, 한국은 8월까지 충격을 흡수하며 관리가 가능하지만 사태가 가을을 넘겨 장기화할 경우 부담이 될 것이라는 시뮬레이션 결과가 나왔다.",
+          "evidence_type": "article",
+          "reason": "원유 및 석유제품 수급 영향 가능성"
+        }
+      ]
+    },
+    {
+      "article_id": "e8bd2fb88df1dd11",
+      "final_relevant": true,
+      "confidence": 0.85,
+      "final_reason": "석유 가격 안정화 관련 내용이 한국석유공사의 유통사업과 관련이 있음",
+      "review_note": "C 그룹으로 분류된 기사로, 석유 가격 안정화 관련 내용이 한국석유공사의 유통사업과 관련이 있으므로 최종적으로 포함",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "주유소 1000여 곳 특별 점검",
+          "evidence_type": "paragraph",
+          "reason": "주유소 가격 점검은 유통사업처의 업무와 관련이 있음"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "석유 가격 안정화와 관련됨",
+          "evidence_type": "paragraph",
+          "reason": "석유 가격과 관련하여 석유사업처의 업무와도 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "5def41625bb921dc",
+      "final_relevant": true,
+      "confidence": 0.85,
+      "final_reason": "호르무즈해협 관련 내용이 한국석유공사의 석유 수급 안정화 업무와 관련이 있음",
+      "review_note": "C 그룹으로 분류된 기사로, 호르무즈해협 관련 내용이 한국석유공사의 석유 수급 안정화 업무와 관련이 있으므로 최종적으로 포함",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "호르무즈서 국적선 1척 탈출, 나무호 포함 2척 남아···한국인 35명 잔류",
+          "evidence_type": "paragraph",
+          "reason": "원유 수급과 관련된 이슈로 석유사업처의 업무와 관련성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "5925f03dd6ffa4df",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "수출 및 석유제품 관련 내용이 한국석유공사의 석유사업과 관련이 있음",
+      "review_note": "C 그룹으로 분류된 기사로, 수출 및 석유제품 관련 내용이 한국석유공사의 석유사업과 관련이 있으므로 최종적으로 포함",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "6월 수출액이 사상 첫 1천억달러 고지를 밟은 것은 삼성전자·에스케이(SK)하이닉스 등 국내 반도체 기업들의 메모리 수출이 역대급 호조세를 보이고 있기 때문으로 분석된다. 반도체가 끌고 조선·스마트폰 등이 밀며 올해 한국 수출액이 1조달러를 넘어서 중국·미국·독일에 이어 세계 4위 전망",
+          "evidence_type": "paragraph",
+          "reason": "석유제품 수출과 관련이 있으므로 관련 부서로 판단"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "6월 수출액이 사상 첫 1천억달러 고지를 밟은 것은 삼성전자·에스케이(SK)하이닉스 등 국내 반도체 기업들의 메모리 수출이 역대급 호조세를 보이고 있기 때문으로 분석된다. 반도체가 끌고 조선·스마트폰 등이 밀며 올해 한국 수출액이 1조달러를 넘어서 중국·미국·독일에 이어 세계 4위 전망",
+          "evidence_type": "paragraph",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가 정보 제공 등의 업무와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "ba677d973bdbe0e1",
+      "final_relevant": true,
+      "confidence": 0.85,
+      "final_reason": "에너지 및 유가 관련 내용이 한국석유공사의 석유사업과 관련이 있음",
+      "review_note": "C 그룹으로 분류된 기사로, 에너지 및 유가 관련 내용이 한국석유공사의 석유사업과 관련이 있으므로 최종적으로 포함",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "에너지 시설이 파괴돼 연료가 부족해진 상황",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "전쟁이 이렇게 길어질 줄 몰랐을 것이다. 집권 후 2000년 2차 체첸전쟁을 마무리했고, 2008년 조지아와 친러 성향 남오세티야 분리주의자 간 전쟁에 개입해 닷새 만에 이겼다.",
+          "evidence_type": "paragraph",
+          "reason": "경영전략, 국제정세 분석 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "30a9cdb05bf20d31",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "수출 및 석유제품 관련 내용이 한국석유공사의 석유사업과 관련이 있음",
+      "review_note": "C 그룹으로 분류된 기사로, 수출 및 석유제품 관련 내용이 한국석유공사의 석유사업과 관련이 있으므로 최종적으로 포함",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "석유제품",
+          "evidence_type": "sentence",
+          "reason": "에너지 수출입 및 시장 동향 관련"
+        }
+      ]
+    }
+  ]
+}
+```

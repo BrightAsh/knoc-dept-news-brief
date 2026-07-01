@@ -1,0 +1,204 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "e31322602570a4eb",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "e31322602570a4eb",
+        "final_relevant": false,
+        "confidence": 0.88,
+        "final_reason": "에너지, 수소 관련 언급이지만, 기사 내용이 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 실질적으로 연결되지 않음",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "e31322602570a4eb",
+        "final_relevant": false,
+        "confidence": 0.88,
+        "final_reason": "에너지, 수소 관련 언급이지만, 기사 내용이 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 실질적으로 연결되지 않음",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "a76fe2b821d1bb16",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "a76fe2b821d1bb16",
+        "final_relevant": false,
+        "confidence": 0.88,
+        "final_reason": "탄소중립 관련 정책이지만, 기사 내용이 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 실질적으로 연결되지 않음",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "a76fe2b821d1bb16",
+        "final_relevant": false,
+        "confidence": 0.88,
+        "final_reason": "탄소중립 관련 정책이지만, 기사 내용이 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 실질적으로 연결되지 않음",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "978188b6dfef4fd0",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "978188b6dfef4fd0",
+        "final_relevant": false,
+        "confidence": 0.88,
+        "final_reason": "유가 관련 내용이지만, 기사 내용이 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 실질적으로 연결되지 않음",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "978188b6dfef4fd0",
+        "final_relevant": false,
+        "confidence": 0.88,
+        "final_reason": "유가 관련 내용이지만, 기사 내용이 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 실질적으로 연결되지 않음",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "9bb7ae8ace49aab9",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "9bb7ae8ace49aab9",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "신재생에너지 관련 사업은 한국석유공사의 저탄소, 수소, 암모니아 사업과 관련됨",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 포함",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "신재생에너지",
+            "evidence_type": "sentence",
+            "reason": "저탄소추진처는 저탄소, 수소, 암모니아 관련 사업을 담당하므로 신재생에너지 관련 이슈와 연결됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "9bb7ae8ace49aab9",
+        "final_relevant": true,
+        "confidence": 0.88,
+        "final_reason": "신재생에너지 관련 사업은 한국석유공사의 저탄소, 수소, 암모니아 사업과 관련됨",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 포함",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "신재생에너지",
+            "evidence_type": "sentence",
+            "reason": "저탄소추진처는 저탄소, 수소, 암모니아 관련 사업을 담당하므로 신재생에너지 관련 이슈와 연결됨"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "0923af02ba2a5202",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "0923af02ba2a5202",
+        "final_relevant": false,
+        "confidence": 0.88,
+        "final_reason": "탐사 관련 내용이지만, 기사 내용이 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 실질적으로 연결되지 않음",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "0923af02ba2a5202",
+        "final_relevant": false,
+        "confidence": 0.88,
+        "final_reason": "탐사 관련 내용이지만, 기사 내용이 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 실질적으로 연결되지 않음",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "44b51ba4d8c89f89",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "44b51ba4d8c89f89",
+        "final_relevant": false,
+        "confidence": 0.88,
+        "final_reason": "수출 실적과 관련하여 석유공사와 간접적 관련이 있을 수 있지만, 기사 내용이 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 실질적으로 연결되지 않음",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "44b51ba4d8c89f89",
+        "final_relevant": false,
+        "confidence": 0.88,
+        "final_reason": "수출 실적과 관련하여 석유공사와 간접적 관련이 있을 수 있지만, 기사 내용이 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 실질적으로 연결되지 않음",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "fb22cb9a1aecfadd",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "fb22cb9a1aecfadd",
+        "final_relevant": false,
+        "confidence": 0.88,
+        "final_reason": "탄소중립 관련 이슈로 한국석유공사의 사업과 간접적으로 관련이 있을 수 있지만, 기사 내용이 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 실질적으로 연결되지 않음",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "fb22cb9a1aecfadd",
+        "final_relevant": false,
+        "confidence": 0.88,
+        "final_reason": "탄소중립 관련 이슈로 한국석유공사의 사업과 간접적으로 관련이 있을 수 있지만, 기사 내용이 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 실질적으로 연결되지 않음",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "c2e705a416e0cf35",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "c2e705a416e0cf35",
+        "final_relevant": false,
+        "confidence": 0.88,
+        "final_reason": "에너지 및 산업통상자원부 언급으로 한국석유공사와 관련 가능성이 있지만, 기사 내용이 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 실질적으로 연결되지 않음",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "c2e705a416e0cf35",
+        "final_relevant": false,
+        "confidence": 0.88,
+        "final_reason": "에너지 및 산업통상자원부 언급으로 한국석유공사와 관련 가능성이 있지만, 기사 내용이 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 실질적으로 연결되지 않음",
+        "review_note": "C 그룹에서 최종적으로 관련 기사 제외",
+        "departments": []
+      }
+    }
+  ]
+}

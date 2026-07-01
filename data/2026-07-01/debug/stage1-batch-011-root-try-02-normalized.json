@@ -1,0 +1,130 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "ba677d973bdbe0e1",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "ba677d973bdbe0e1",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "에너지, 유가 관련 언급으로 한국석유공사와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지 시설이 파괴돼 연료가 부족해진 상황",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "전쟁이 이렇게 길어질 줄 몰랐을 것이다. 집권 후 2000년 2차 체첸전쟁을 마무리했고, 2008년 조지아와 친러 성향 남오세티야 분리주의자 간 전쟁에 개입해 닷새 만에 이겼다.",
+            "evidence_type": "paragraph",
+            "reason": "경영전략, 국제정세 분석 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "ba677d973bdbe0e1",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "에너지, 유가 관련 언급으로 한국석유공사와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지 시설이 파괴돼 연료가 부족해진 상황",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "전쟁이 이렇게 길어질 줄 몰랐을 것이다. 집권 후 2000년 2차 체첸전쟁을 마무리했고, 2008년 조지아와 친러 성향 남오세티야 분리주의자 간 전쟁에 개입해 닷새 만에 이겼다.",
+            "evidence_type": "paragraph",
+            "reason": "경영전략, 국제정세 분석 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "647832e530008eca",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "647832e530008eca",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "공공기관, 에너지 관련 언급으로 한국석유공사와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "공공기관",
+            "evidence_type": "paragraph",
+            "reason": "예산 편성·통제, 경영계획과 공공기관 관련 대외 대응"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "이주민 학부모들은 알림장을 비롯한 학교와의 소통에서 상대적으로 번거로운 번역 프로세스를 거치게 된다.",
+            "evidence_type": "paragraph",
+            "reason": "경영전략, 사회문제 기술로 풀어내는 소프트웨어 기반 제품 개발 관련"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "647832e530008eca",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "공공기관, 에너지 관련 언급으로 한국석유공사와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "공공기관",
+            "evidence_type": "paragraph",
+            "reason": "예산 편성·통제, 경영계획과 공공기관 관련 대외 대응"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "이주민 학부모들은 알림장을 비롯한 학교와의 소통에서 상대적으로 번거로운 번역 프로세스를 거치게 된다.",
+            "evidence_type": "paragraph",
+            "reason": "경영전략, 사회문제 기술로 풀어내는 소프트웨어 기반 제품 개발 관련"
+          }
+        ]
+      }
+    }
+  ]
+}

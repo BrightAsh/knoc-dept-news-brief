@@ -1,0 +1,137 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "8589407c5ab5126a",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "에너지 관련 사업이지만 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "C 그룹에서 관련 기사로 판단되었지만, 실제 기사 내용은 에너지 관련 일반 이슈로 한국석유공사의 업무와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "19d860dc72c91736",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "신재생에너지 기업 설립 관련 기사로 한국석유공사의 에너지 안보 및 석유 수급 안정 사업과 관련성이 있음",
+      "review_note": "C 그룹에서 관련 기사로 판단되었으며, 실제 기사 내용은 한국석유공사의 저탄소 사업과 연결될 수 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "신재생에너지 통합 법인 지분 투자 계약을 맺었다. 에스케이㈜는 케이케이알이 운용하는 펀드와",
+          "evidence_type": "paragraph",
+          "reason": "저탄소추진처는 저탄소, 수소, 암모니아 등 에너지 전환 관련 사업을 담당하므로 관련성이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "SK, 사모펀드 KKR와 2조 규모 신재생에너지 기업 설립",
+          "evidence_type": "article",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획 등을 담당하므로 관련성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "0d0ab9ffabd36388",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있을 수 있음",
+      "review_note": "C 그룹에서 관련 기사로 판단되었으며, 실제 기사 내용은 에너지 관련 이슈로 한국석유공사의 저탄소 사업과 연결될 수 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "구글의 온실가스 배출량 증가는 에너지 전환과 관련이 있으며, 한국석유공사의 저탄소 사업과 연결될 수 있음",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 추진과 관련된 부서로 에너지 이슈와 직접 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "에너지 이슈는 공사의 경영전략과 관련이 있을 수 있음",
+          "evidence_type": "paragraph",
+          "reason": "경영전략과 관련된 부서로 에너지 이슈와 간접 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "35977cb43e81f3d4",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "공공기관 관련 이슈지만 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "C 그룹에서 관련 기사로 판단되었지만, 실제 기사 내용은 공공기관 관련 일반 이슈로 한국석유공사의 업무와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "8e7cfa6fc370c6c6",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있을 수 있음",
+      "review_note": "C 그룹에서 관련 기사로 판단되었으며, 실제 기사 내용은 에너지 관련 이슈로 한국석유공사의 저탄소 사업과 연결될 수 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "정부가 추진하는 ‘3대 메가프로젝트’에 따라, 대규모 신규 수요를 반영한 전력 공급 계획을 다시 짜야 하는 상황이 됐다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 전환 및 전력 수급 계획과 관련하여 한국석유공사의 저탄소 사업과 연결될 수 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "‘원전 18기분’ 3대 메가프로젝트 전력수요…전원 구성·송전망 계획 ‘빈칸’",
+          "evidence_type": "article",
+          "reason": "에너지 정책 및 전략과 관련하여 한국석유공사의 경영전략과 연결될 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "128386fc2d382c7c",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 기사로 한국석유공사의 저탄소, 수소, 암모니아 사업과 관련이 있을 수 있음",
+      "review_note": "C 그룹에서 관련 기사로 판단되었으며, 실제 기사 내용은 에너지 관련 이슈로 한국석유공사의 저탄소 사업과 연결될 수 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "중국 대졸 고임금 전공, ‘전통 IT’ 밀려나고 ‘첨단 하드웨어 기술·제조’ 부상",
+          "evidence_type": "article",
+          "reason": "저탄소, 수소, 암모니아 도입·저장·유통, 해외 공급처 발굴 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "7939a2bdfbe540cf",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "공공기관 관련 기사지만 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "C 그룹에서 관련 기사로 판단되었지만, 실제 기사 내용은 공공기관 관련 일반 이슈로 한국석유공사의 업무와 직접 관련이 없음",
+      "departments": []
+    }
+  ]
+}
+```

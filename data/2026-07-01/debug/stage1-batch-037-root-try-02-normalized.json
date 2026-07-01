@@ -1,0 +1,150 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "0d0ab9ffabd36388",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "0d0ab9ffabd36388",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "구글의 온실가스 배출량 증가는 에너지 전환과 관련이 있으며, 한국석유공사의 저탄소 사업과 연결될 수 있음",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 추진과 관련된 부서로 에너지 이슈와 직접 관련이 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "에너지 이슈는 공사의 경영전략과 관련이 있을 수 있음",
+            "evidence_type": "paragraph",
+            "reason": "경영전략과 관련된 부서로 에너지 이슈와 간접 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "0d0ab9ffabd36388",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "구글의 온실가스 배출량 증가는 에너지 전환과 관련이 있으며, 한국석유공사의 저탄소 사업과 연결될 수 있음",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 추진과 관련된 부서로 에너지 이슈와 직접 관련이 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "에너지 이슈는 공사의 경영전략과 관련이 있을 수 있음",
+            "evidence_type": "paragraph",
+            "reason": "경영전략과 관련된 부서로 에너지 이슈와 간접 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "fb0b7859c7b6b229",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "fb0b7859c7b6b229",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "fb0b7859c7b6b229",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "기사 내용이 한국석유공사와 직접 관련이 없음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "92cdb03e42e2c02f",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "92cdb03e42e2c02f",
+        "candidate": true,
+        "confidence": 0.85,
+        "company_reason": "수소 관련 언급으로 한국석유공사의 사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "hydrogen_ammonia",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "산업부의 수소 관련 정책은 한국석유공사의 수소암모니아 사업과 관련이 있음",
+            "evidence_type": "paragraph",
+            "reason": "수소암모니아 사업과 관련된 부서로 수소 관련 정책과 직접 관련이 있음"
+          },
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "수소 관련 정책은 저탄소 사업과도 관련이 있음",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 추진과 관련된 부서로 수소 관련 정책과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "92cdb03e42e2c02f",
+        "candidate": true,
+        "confidence": 0.85,
+        "company_reason": "수소 관련 언급으로 한국석유공사의 사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "hydrogen_ammonia",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "산업부의 수소 관련 정책은 한국석유공사의 수소암모니아 사업과 관련이 있음",
+            "evidence_type": "paragraph",
+            "reason": "수소암모니아 사업과 관련된 부서로 수소 관련 정책과 직접 관련이 있음"
+          },
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "수소 관련 정책은 저탄소 사업과도 관련이 있음",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 추진과 관련된 부서로 수소 관련 정책과 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

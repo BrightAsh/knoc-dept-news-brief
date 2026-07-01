@@ -1,0 +1,226 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "49631c1f0798d956",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "49631c1f0798d956",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "에너지 관련 이슈지만 한국석유공사의 사업과 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "49631c1f0798d956",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "에너지 관련 이슈지만 한국석유공사의 사업과 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "0f9f9ee4bcdec4c3",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "0f9f9ee4bcdec4c3",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "에너지 관련 이슈지만 한국석유공사의 사업과 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "0f9f9ee4bcdec4c3",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "에너지 관련 이슈지만 한국석유공사의 사업과 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "80ac59ca7ea5f429",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "80ac59ca7ea5f429",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "에너지 관련 정책이지만 한국석유공사의 사업과 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "80ac59ca7ea5f429",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "에너지 관련 정책이지만 한국석유공사의 사업과 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "71e62a266b066d70",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "71e62a266b066d70",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "정부의 대규모 투자 계획 발표로 에너지 관련 이슈와 한국석유공사의 사업 전략과 관련이 있음",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "정부의 1500조원 규모 반도체·AI 투자 계획 발표",
+            "evidence_type": "paragraph",
+            "reason": "한국석유공사의 경영전략과 에너지 관련 투자 계획과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "71e62a266b066d70",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "정부의 대규모 투자 계획 발표로 에너지 관련 이슈와 한국석유공사의 사업 전략과 관련이 있음",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "정부의 1500조원 규모 반도체·AI 투자 계획 발표",
+            "evidence_type": "paragraph",
+            "reason": "한국석유공사의 경영전략과 에너지 관련 투자 계획과 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "581c8e4573bbfe6a",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "581c8e4573bbfe6a",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "호남권 신규 반도체 산업단지의 용수 부족 우려와 에너지 대책으로 한국석유공사의 사업과 관련이 있음",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "호남권 신규 반도체 산업단지의 용수 부족 우려와 에너지 대책",
+            "evidence_type": "paragraph",
+            "reason": "한국석유공사의 저탄소 사업과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "581c8e4573bbfe6a",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "호남권 신규 반도체 산업단지의 용수 부족 우려와 에너지 대책으로 한국석유공사의 사업과 관련이 있음",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "호남권 신규 반도체 산업단지의 용수 부족 우려와 에너지 대책",
+            "evidence_type": "paragraph",
+            "reason": "한국석유공사의 저탄소 사업과 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "556118434da5873c",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "556118434da5873c",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "에너지 관련 키워드 언급이지만 한국석유공사의 사업과 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "556118434da5873c",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "에너지 관련 키워드 언급이지만 한국석유공사의 사업과 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "b91b759a2381982c",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "b91b759a2381982c",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "에너지 관련 키워드 언급이지만 한국석유공사의 사업과 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "b91b759a2381982c",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "에너지 관련 키워드 언급이지만 한국석유공사의 사업과 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "8f6b7753a1fa28cd",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "8f6b7753a1fa28cd",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "에너지 관련 키워드 언급이지만 한국석유공사의 사업과 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "8f6b7753a1fa28cd",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "에너지 관련 키워드 언급이지만 한국석유공사의 사업과 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      }
+    }
+  ]
+}

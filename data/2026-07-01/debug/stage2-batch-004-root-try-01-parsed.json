@@ -1,0 +1,124 @@
+{
+  "results": [
+    {
+      "article_id": "5ca9f70813e6e1f7",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "공공기관 언급 외에 한국석유공사와 직접적인 관련성이 발견되지 않음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 추가 검토 결과 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "96ef8f213794c251",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "인사 관련 기사는 한국석유공사의 주요 업무와 직접 관련성이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 추가 검토 결과 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "8048a715a9dea6bb",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "정유 관련 언급이지만 한국석유공사의 사업과 직접적인 관련성이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 추가 검토 결과 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "cd747282b9e31534",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "유가 관련 이슈지만 한국석유공사의 석유 수급 안정화 업무와 직접적인 관련성이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 추가 검토 결과 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "2ccfbcd84dff3362",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "원유 관련 언급으로 한국석유공사의 석유사업과 관련성이 있음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 추가 검토 결과 관련성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "원유 관련 기사",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사의 석유사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "92cdb03e42e2c02f",
+      "final_relevant": true,
+      "confidence": 0.85,
+      "final_reason": "수소 관련 언급으로 한국석유공사의 수소암모니아 사업과 관련이 있음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 추가 검토 결과 관련성이 있음",
+      "departments": [
+        {
+          "department_id": "hydrogen_ammonia",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "산업부의 수소 관련 정책은 한국석유공사의 수소암모니아 사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "수소암모니아 사업과 관련된 부서로 수소 관련 정책과 직접 관련이 있음"
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "수소 관련 정책은 저탄소 사업과도 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 추진과 관련된 부서로 수소 관련 정책과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "4460ea18388e4c7c",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 사업과 연결됨",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 추가 검토 결과 관련성이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "SK가 세계 최대 사모펀드 그룹인 콜버그크래비스로버츠와 손잡고 올해 말 국내 최대 규모 신재생에너지 기업을 출범한다. 김양한 KKR 인프라 동북아대표는 \"양사는 이번 협력을 통해 국내 산업계의 높은 전력 수요에 안정적으로 대응할 수 있는 대규모 재생에너지 플랫폼을 구축해 나갈 것\"이라고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 추진 관련 업무와 연결됨"
+        }
+      ]
+    },
+    {
+      "article_id": "a6ea34349ca9500c",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 사업과 연결됨",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 추가 검토 결과 관련성이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "SK가 세계 최대 사모펀드 그룹인 콜버그크래비스로버츠와 손잡고 올해 말 국내 최대 규모 신재생에너지 기업을 출범한다. 김양한 KKR 인프라 동북아대표는 \"양사는 이번 협력을 통해 국내 산업계의 높은 전력 수요에 안정적으로 대응할 수 있는 대규모 재생에너지 플랫폼을 구축해 나갈 것\"이라고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 추진 관련 업무와 연결됨"
+        }
+      ]
+    }
+  ]
+}

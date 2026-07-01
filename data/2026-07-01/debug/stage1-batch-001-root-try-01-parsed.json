@@ -1,0 +1,41 @@
+{
+  "results": [
+    {
+      "article_id": "ec2adb58d102a7b7",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 관련 환율 이슈 기사로 한국석유공사와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "원-달러 환율이 1554원을 넘었다. 32거래일 연속 1500원대",
+          "evidence_type": "paragraph",
+          "reason": "석유사업과 관련된 환율 리스크 관리와 관련이 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "원-달러 환율이 1554원을 넘었다. 32거래일 연속 1500원대",
+          "evidence_type": "paragraph",
+          "reason": "유가와 경제 관련 데이터 분석 및 정보 제공과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "163bd0d7f57f123f",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "유가 관련 키워드가 있지만 기사 내용이 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "f1f290ea4f696e4b",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "f1f290ea4f696e4b",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "유가, 국제유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 정보제공 업무와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "올해 성장률 4%대 전망까지 나와…반도체 초호황에 상향",
+            "evidence_type": "summary_sentence",
+            "reason": "석유사업 전략, 원유·석유제품 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "올해 성장률 4%대 전망까지 나와…반도체 초호황에 상향",
+            "evidence_type": "summary_sentence",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "f1f290ea4f696e4b",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "유가, 국제유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 정보제공 업무와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "올해 성장률 4%대 전망까지 나와…반도체 초호황에 상향",
+            "evidence_type": "article",
+            "reason": "석유사업 전략, 원유·석유제품 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "올해 성장률 4%대 전망까지 나와…반도체 초호황에 상향",
+            "evidence_type": "article",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "128386fc2d382c7c",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "128386fc2d382c7c",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 기사로 한국석유공사의 저탄소, 수소, 암모니아 사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "중국 대졸 고임금 전공, ‘전통 IT’ 밀려나고 ‘첨단 하드웨어 기술·제조’ 부상",
+            "evidence_type": "summary_sentence",
+            "reason": "저탄소, 수소, 암모니아 도입·저장·유통, 해외 공급처 발굴 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "128386fc2d382c7c",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 기사로 한국석유공사의 저탄소, 수소, 암모니아 사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "중국 대졸 고임금 전공, ‘전통 IT’ 밀려나고 ‘첨단 하드웨어 기술·제조’ 부상",
+            "evidence_type": "article",
+            "reason": "저탄소, 수소, 암모니아 도입·저장·유통, 해외 공급처 발굴 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "7939a2bdfbe540cf",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "7939a2bdfbe540cf",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "공공기관 관련 기사로 한국석유공사의 경영, 운영과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "서울디지털대, 품질만족대상 사이버대학 부문 17년 연속 수상",
+            "evidence_type": "title",
+            "reason": "예산 편성·통제, 경영계획, 공공기관 관련 대외 대응 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "7939a2bdfbe540cf",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "공공기관 관련 기사로 한국석유공사의 경영, 운영과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "서울디지털대, 품질만족대상 사이버대학 부문 17년 연속 수상",
+            "evidence_type": "article",
+            "reason": "예산 편성·통제, 경영계획, 공공기관 관련 대외 대응 관련 업무"
+          }
+        ]
+      }
+    }
+  ]
+}

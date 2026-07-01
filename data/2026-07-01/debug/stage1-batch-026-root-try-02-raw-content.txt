@@ -1,0 +1,51 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "d3c14f7fd5eda1fd",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "f78458e95696a860",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 정책 및 공공기관 운영과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "전기차 공공 충전 요금 정책과 기후에너지환경부 관련",
+          "evidence_type": "paragraph",
+          "reason": "에너지 정책 및 공공기관 운영 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "57ec35a2c4e369a4",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 산업 및 노동 이슈와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "에쓰오일 관련 노동 이슈",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 산업 및 노동 이슈"
+        }
+      ]
+    }
+  ]
+}
+```

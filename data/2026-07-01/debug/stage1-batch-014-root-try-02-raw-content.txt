@@ -1,0 +1,52 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "8e7cfa6fc370c6c6",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "정부가 추진하는 ‘3대 메가프로젝트’에 따라, 대규모 신규 수요를 반영한 전력 공급 계획을 다시 짜야 하는 상황이 됐다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 전환 및 전력 수급 계획과 관련하여 한국석유공사의 저탄소 사업과 연결될 수 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "‘원전 18기분’ 3대 메가프로젝트 전력수요…전원 구성·송전망 계획 ‘빈칸’",
+          "evidence_type": "title",
+          "reason": "에너지 정책 및 전략과 관련하여 한국석유공사의 경영전략과 연결될 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "f061aeeba84f9df1",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지 관련 키워드 언급으로 한국석유공사의 사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "이병래 남동구청장 “내 삶이 바뀌는 남동 대전환 추진”",
+          "evidence_type": "title",
+          "reason": "에너지 관련 키워드와 구청장의 발언으로 인해 한국석유공사의 경영전략과 연결될 수 있음"
+        }
+      ]
+    }
+  ]
+}
+```

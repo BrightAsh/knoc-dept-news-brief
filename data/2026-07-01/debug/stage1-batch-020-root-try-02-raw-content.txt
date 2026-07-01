@@ -1,0 +1,126 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "ee5a39723c9a7bb0",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "원유 언급으로 인해 에너지 안보와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "원유",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략, 원유 구매와 판매 담당"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "원유",
+          "evidence_type": "sentence",
+          "reason": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리 담당"
+        }
+      ]
+    },
+    {
+      "article_id": "a0a5f6698cadbd53",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유가 언급으로 인해 에너지 가격과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "유류할증료",
+          "evidence_type": "sentence",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보 담당"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "유류할증료",
+          "evidence_type": "sentence",
+          "reason": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 담당"
+        }
+      ]
+    },
+    {
+      "article_id": "9baaa1493b32cf3b",
+      "candidate": true,
+      "confidence": 0.95,
+      "company_reason": "원유, 에너지, 정유, 비축유 언급으로 인해 에너지 안보와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "원유, 에너지, 정유, 비축유",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다."
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "비축유",
+          "evidence_type": "sentence",
+          "reason": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리 담당"
+        }
+      ]
+    },
+    {
+      "article_id": "5ca9f70813e6e1f7",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "공공기관 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "공공기관",
+          "evidence_type": "sentence",
+          "reason": "이사회, 국회, 정부 대응, 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응 담당"
+        }
+      ]
+    },
+    {
+      "article_id": "ca163c92935026f4",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "공공기관 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "공공기관",
+          "evidence_type": "sentence",
+          "reason": "이사회, 국회, 정부 대응, 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응 담당"
+        }
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,92 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "71206c2f3be4fac1",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "71206c2f3be4fac1",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "공공기관 관련 이슈로 한국석유공사에도 영향을 줄 수 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "정일연 권익위원장 “청탁금지법, 국민 입장에 맞게 곧 정리”",
+            "evidence_type": "title",
+            "reason": "공공기관 운영과 관련된 법적 문제"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "71206c2f3be4fac1",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "공공기관 관련 이슈로 한국석유공사에도 영향을 줄 수 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "정일연 권익위원장 “청탁금지법, 국민 입장에 맞게 곧 정리”",
+            "evidence_type": "article",
+            "reason": "공공기관 운영과 관련된 법적 문제"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "625d0d7c76394593",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "625d0d7c76394593",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 언급으로 한국석유공사와 연결 가능성 있음",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "대통령 일정이 너무 격무로 보인다. 대통령의 건강은 개인의 것이 아니고, 공공재라는 말도 있지 않냐.",
+            "evidence_type": "summary_sentence",
+            "reason": "에너지 관련 정책과 대통령의 역할"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "625d0d7c76394593",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 언급으로 한국석유공사와 연결 가능성 있음",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "대통령 일정이 너무 격무로 보인다. 대통령의 건강은 개인의 것이 아니고, 공공재라는 말도 있지 않냐.",
+            "evidence_type": "article",
+            "reason": "에너지 관련 정책과 대통령의 역할"
+          }
+        ]
+      }
+    }
+  ]
+}

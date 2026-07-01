@@ -1,0 +1,42 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "44b51ba4d8c89f89",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "수출 실적과 관련하여 석유공사와 간접적 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "지난달 한국 수출 실적이 1022억5000만달러로 집계됐다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 수출과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "3d2846a58238cc10",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "유전 관련 인사로 간접적 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "domestic_business_development",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "[인사] 상명대학교",
+          "evidence_type": "title",
+          "reason": "유전 관련 인사로 간접적 관련이 있을 수 있음"
+        }
+      ]
+    }
+  ]
+}
+```

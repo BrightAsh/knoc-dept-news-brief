@@ -1,0 +1,228 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "19a5955042d3873e",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "19a5955042d3873e",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "에너지 관련 이슈지만 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 관련 부서 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "19a5955042d3873e",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "에너지 관련 이슈지만 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 관련 부서 없음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "625d0d7c76394593",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "625d0d7c76394593",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "대통령 일정과 건강 관련 일반 정치 기사로 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 관련 부서 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "625d0d7c76394593",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "대통령 일정과 건강 관련 일반 정치 기사로 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 관련 부서 없음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "d9cbab6fd1aadac3",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "d9cbab6fd1aadac3",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "세계은행과 중국 대출 관련 일반 경제 기사로 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 관련 부서 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "d9cbab6fd1aadac3",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "세계은행과 중국 대출 관련 일반 경제 기사로 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 관련 부서 없음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "9169e26bfe9cfabc",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "9169e26bfe9cfabc",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "삼성SDI 경영 관련 기사로 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 관련 부서 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "9169e26bfe9cfabc",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "삼성SDI 경영 관련 기사로 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 관련 부서 없음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "57ec35a2c4e369a4",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "57ec35a2c4e369a4",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에쓰오일 관련 노동 이슈로 석유사업과 관련이 있음",
+        "review_note": "C 그룹에서 petroleum_business 관련 부서 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "에쓰오일 관련 노동 이슈",
+            "evidence_type": "paragraph",
+            "reason": "에너지 관련 산업 및 노동 이슈"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "57ec35a2c4e369a4",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에쓰오일 관련 노동 이슈로 석유사업과 관련이 있음",
+        "review_note": "C 그룹에서 petroleum_business 관련 부서 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "에쓰오일 관련 노동 이슈",
+            "evidence_type": "paragraph",
+            "reason": "에너지 관련 산업 및 노동 이슈"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "4010c4c22284688d",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "4010c4c22284688d",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "발전소 물 분야 기자재 국산화 협력 관련 기사로 에너지 인프라 사업과 관련이 있음",
+        "review_note": "C 그룹에서 energy_infra 관련 부서 있음",
+        "departments": [
+          {
+            "department_id": "energy_infra",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "동서발전 등 발전5사, ‘발전소 물 분야 기자재 국산화’ 협력",
+            "evidence_type": "article",
+            "reason": "에너지인프라사업처는 에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 업무를 담당하므로 관련성이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "4010c4c22284688d",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "발전소 물 분야 기자재 국산화 협력 관련 기사로 에너지 인프라 사업과 관련이 있음",
+        "review_note": "C 그룹에서 energy_infra 관련 부서 있음",
+        "departments": [
+          {
+            "department_id": "energy_infra",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "동서발전 등 발전5사, ‘발전소 물 분야 기자재 국산화’ 협력",
+            "evidence_type": "article",
+            "reason": "에너지인프라사업처는 에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 업무를 담당하므로 관련성이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "ea9d8b65ae23a142",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "ea9d8b65ae23a142",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "공공기관 운영 관련 기사지만 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 관련 부서 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "ea9d8b65ae23a142",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "공공기관 운영 관련 기사지만 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 관련 부서 없음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "4b59757ce02ebccc",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "4b59757ce02ebccc",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "전기차 충전료 관련 기사지만 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 관련 부서 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "4b59757ce02ebccc",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "전기차 충전료 관련 기사지만 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 관련 부서 없음",
+        "departments": []
+      }
+    }
+  ]
+}
