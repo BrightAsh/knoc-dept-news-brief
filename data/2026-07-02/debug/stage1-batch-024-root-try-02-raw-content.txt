@@ -1,0 +1,70 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "bc223701ac6f13d6",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 사업 확장 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "포스코그룹이 철강과 소재에 이어 에너지로 사업 영역을 확장한다고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 사업 확장은 한국석유공사의 사업 영역과 관련이 있으며, 경영전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "06f52c5ef242cdb5",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지 관련 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "한국거래소가 30주년을 맞은 코스닥 시장의 체질 개선을 위해 기술특례기업의 상장폐지 요건을 강화하고, 주가 1000원 미만의 '동전주'를 상장 폐지 조치키로 했다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 정책 변화는 한국석유공사의 경영전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "b1c4ceff486ce066",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유, 유가, 에너지 관련 언급",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "올해 하반기(7~12월) 반도체를 비롯해 자동차·배터리 등의 업황은 전망이 밝지만, 건설·철강·석유화학 등은 어려움이 지속될 것으로 전망됐다.",
+          "evidence_type": "paragraph",
+          "reason": "석유화학 관련 언급은 한국석유공사의 석유사업과 관련이 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "올해 하반기(7~12월) 반도체를 비롯해 자동차·배터리 등의 업황은 전망이 밝지만, 건설·철강·석유화학 등은 어려움이 지속될 것으로 전망됐다.",
+          "evidence_type": "paragraph",
+          "reason": "유가와 석유화학 관련 데이터 분석은 한국석유공사의 스마트데이터센터 업무와 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

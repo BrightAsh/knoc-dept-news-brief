@@ -1,0 +1,110 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "fe32c28091b9e19a",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "fe32c28091b9e19a",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유, 유가, 에너지 관련 산업계 전망 언급",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "하반기 국내 산업계는 인공지능과 신기술 수요를 등에 업은 이른바 'ABCD' 업종이 주도하며 완연한 회복세를 탈 전망이다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "하반기 국내 산업계는 인공지능과 신기술 수요를 등에 업은 이른바 'ABCD' 업종이 주도하며 완연한 회복세를 탈 전망이다.",
+            "evidence_type": "paragraph",
+            "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "fe32c28091b9e19a",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유, 유가, 에너지 관련 산업계 전망 언급",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "하반기 국내 산업계는 인공지능과 신기술 수요를 등에 업은 이른바 'ABCD' 업종이 주도하며 완연한 회복세를 탈 전망이다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "하반기 국내 산업계는 인공지능과 신기술 수요를 등에 업은 이른바 'ABCD' 업종이 주도하며 완연한 회복세를 탈 전망이다.",
+            "evidence_type": "paragraph",
+            "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "34a6b7d6e1898272",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "34a6b7d6e1898272",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "유가 언급",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "미·중 외교수장 통화…왕이 “대만, 신중에 신중 기해야”",
+            "evidence_type": "title",
+            "reason": "유가 정보 제공 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "34a6b7d6e1898272",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "유가 언급",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "미·중 외교수장 통화…왕이 “대만, 신중에 신중 기해야”",
+            "evidence_type": "article",
+            "reason": "유가 정보 제공 관련 업무"
+          }
+        ]
+      }
+    }
+  ]
+}

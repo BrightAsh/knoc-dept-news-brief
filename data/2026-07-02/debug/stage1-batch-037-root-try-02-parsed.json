@@ -1,0 +1,53 @@
+{
+  "results": [
+    {
+      "article_id": "c173797d79914ce2",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유류 급등 관련 기사로 한국석유공사의 석유사업, 유통사업, 가격 안정화 노력과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "석유류 급등에 6월 소비자물가 3.2%↑…30개월 만에 최대폭 상승",
+          "evidence_type": "article",
+          "reason": "석유류 가격 상승이 한국석유공사의 석유사업, 유통사업과 관련이 있으며, 소비자 물가에 미치는 영향 분석 필요"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "석유류 급등에 6월 소비자물가 3.2%↑…30개월 만에 최대폭 상승",
+          "evidence_type": "article",
+          "reason": "석유류 가격 상승이 유통사업에 미치는 영향과 안정화 노력 필요"
+        }
+      ]
+    },
+    {
+      "article_id": "3b4906e8d4244d01",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "원유 관련 무역협정 기사로 한국석유공사의 해외자원개발, 석유수급 안정화 노력과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "미국, 북미 무역협정 연장 거부…트럼프 “최고의 협정” 자화자찬 6년 만",
+          "evidence_type": "article",
+          "reason": "원유 수급 및 해외자원개발과 관련한 무역협정 영향 분석 필요"
+        }
+      ]
+    }
+  ]
+}

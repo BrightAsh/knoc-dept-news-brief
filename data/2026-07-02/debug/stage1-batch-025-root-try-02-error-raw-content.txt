@@ -1,0 +1,168 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "ce45aba9866ea4bb",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 관련 이슈로 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "휘발유",
+          "evidence_type": "title",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "휘발유",
+          "evidence_type": "title",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "a61a8833552164d5",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유화학 제품 가격 인하로 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "석유화학 업체 제품 판매 가격 잇달아 인하",
+          "evidence_type": "title, body_paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.5,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "석유화학 업체 제품 판매 가격 잇달아 인하",
+          "evidence_type": "title, body_paragraph",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "eb80fe271bc594d6",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 수주로 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "energy_infra",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "에너지",
+          "evidence_type": "title",
+          "reason": "에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "016b175a706e7a4b",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "유가 관련 위성 기술로 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.5,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "유가",
+          "evidence_type": "title",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "3e8359440290de71",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "에너지 관련 인사로 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.4,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "에너지",
+          "evidence_type": "title",
+          "reason": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "c88b41f290f2eb24",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "에너지 관련 수주로 한국석유공사와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "ba5b8406389ceb67",
+      "candidate": false,
+      "confidence": 0.3,
+      "company_reason": "건강 관련 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "2a1e4e76ec5517c3",
+      "candidate": false,
+      "confidence": 0.2,
+      "company_reason": "제약 관련 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "676165ac994c877d",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "정치 관련 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "4c866b8bd41cb737",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "선거 관련 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "64d0403d557c5478",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "건강 관련 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "bef2ba101a6a00c6",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "경제 관련 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "5bcd5e1ed31bc50d",
+      "candidate": false,
+      "confidence

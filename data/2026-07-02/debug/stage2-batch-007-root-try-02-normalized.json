@@ -1,0 +1,230 @@
+{
+  "raw_result_count": 7,
+  "accepted_result_count": 7,
+  "normalization": [
+    {
+      "article_id": "6d96a1279a249ecc",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "6d96a1279a249ecc",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "기사 내용이 지역경제 살림 기본계획에 초점이 맞춰져 있어 한국석유공사와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무 간 관련성이 낮음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "6d96a1279a249ecc",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "기사 내용이 지역경제 살림 기본계획에 초점이 맞춰져 있어 한국석유공사와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무 간 관련성이 낮음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "2d0cd48c1c0b8868",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "2d0cd48c1c0b8868",
+        "final_relevant": false,
+        "confidence": 0.8,
+        "final_reason": "인천공항 사장 선임 이슈는 공공기관 운영과 관련 있으나, 한국석유공사와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무 간 관련성이 낮음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "2d0cd48c1c0b8868",
+        "final_relevant": false,
+        "confidence": 0.8,
+        "final_reason": "인천공항 사장 선임 이슈는 공공기관 운영과 관련 있으나, 한국석유공사와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무 간 관련성이 낮음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "78b6f13428ef6e42",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "78b6f13428ef6e42",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 언급 있으나, 기사 내용이 과학기술문화소통학회 회장 선임에 초점이 맞춰져 있어 한국석유공사와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무 간 관련성이 낮음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "78b6f13428ef6e42",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 언급 있으나, 기사 내용이 과학기술문화소통학회 회장 선임에 초점이 맞춰져 있어 한국석유공사와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무 간 관련성이 낮음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "c80760597d12f3ad",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "c80760597d12f3ad",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "일본 정부의 중국 기업들에 대한 보안 인증 심사 무더기 탈락 이슈가 에너지 안보와 관련하여 한국석유공사의 저탄소 추진 업무와 연결될 수 있음",
+        "review_note": "1차 판단에서 C 그룹으로 분류된 기사 중, 한국석유공사의 에너지 정책 및 사업과 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "일본 정부가 전력망 관련 사업에 참여하는 중국 대기업들을 보안 인증 심사에서 무더기 탈락시켜 논란이 일고 있다. 중국 배터리 제조 기업들이 일본 정부의 사이버 보안 관련 인증의 하나인 ‘JC-STAR’를 취득하지 못하고 있다",
+            "evidence_type": "paragraph",
+            "reason": "에너지 안보 및 정책과 관련하여 한국석유공사의 저탄소 추진 업무와 연결될 수 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "중 배터리 기업만 ‘일본 보안 인증’ 무더기 탈락…“경제 안보 힘겨루기”",
+            "evidence_type": "article",
+            "reason": "에너지 관련 글로벌 이슈로 한국석유공사의 경영전략에 영향을 줄 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "c80760597d12f3ad",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "일본 정부의 중국 기업들에 대한 보안 인증 심사 무더기 탈락 이슈가 에너지 안보와 관련하여 한국석유공사의 저탄소 추진 업무와 연결될 수 있음",
+        "review_note": "1차 판단에서 C 그룹으로 분류된 기사 중, 한국석유공사의 에너지 정책 및 사업과 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "일본 정부가 전력망 관련 사업에 참여하는 중국 대기업들을 보안 인증 심사에서 무더기 탈락시켜 논란이 일고 있다. 중국 배터리 제조 기업들이 일본 정부의 사이버 보안 관련 인증의 하나인 ‘JC-STAR’를 취득하지 못하고 있다",
+            "evidence_type": "paragraph",
+            "reason": "에너지 안보 및 정책과 관련하여 한국석유공사의 저탄소 추진 업무와 연결될 수 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "중 배터리 기업만 ‘일본 보안 인증’ 무더기 탈락…“경제 안보 힘겨루기”",
+            "evidence_type": "article",
+            "reason": "에너지 관련 글로벌 이슈로 한국석유공사의 경영전략에 영향을 줄 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "c088dc20e69f260f",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "c088dc20e69f260f",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "HD현대일렉트릭의 글로벌 빅테크 기업과 1조 규모 전력 인프라 공급 계약 체결 이슈가 에너지 전환 및 전력 인프라와 관련된 한국석유공사의 사업과 관련이 있을 수 있음",
+        "review_note": "1차 판단에서 C 그룹으로 분류된 기사 중, 한국석유공사의 에너지 안보 및 석유 수급 안정과 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "HD현대일렉트릭, 글로벌 빅테크 기업과 1조 규모 전력 인프라 공급 계약",
+            "evidence_type": "article",
+            "reason": "에너지 전환 및 전력 인프라와 관련된 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "c088dc20e69f260f",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "HD현대일렉트릭의 글로벌 빅테크 기업과 1조 규모 전력 인프라 공급 계약 체결 이슈가 에너지 전환 및 전력 인프라와 관련된 한국석유공사의 사업과 관련이 있을 수 있음",
+        "review_note": "1차 판단에서 C 그룹으로 분류된 기사 중, 한국석유공사의 에너지 안보 및 석유 수급 안정과 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "HD현대일렉트릭, 글로벌 빅테크 기업과 1조 규모 전력 인프라 공급 계약",
+            "evidence_type": "article",
+            "reason": "에너지 전환 및 전력 인프라와 관련된 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "b71c4bd138764d57",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "b71c4bd138764d57",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "사회적기업 자본 자립 관련 이슈는 공공기관 운영과 관련 있으나, 한국석유공사와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무 간 관련성이 낮음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "b71c4bd138764d57",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "사회적기업 자본 자립 관련 이슈는 공공기관 운영과 관련 있으나, 한국석유공사와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무 간 관련성이 낮음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "4c0873cfbc24d92b",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "4c0873cfbc24d92b",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "과학기술문화소통학회 회장 선임 이슈는 에너지 관련 언급 있으나, 기사 내용이 한국에너지공과대 교수 선임에 초점이 맞춰져 있어 한국석유공사와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무 간 관련성이 낮음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "4c0873cfbc24d92b",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "과학기술문화소통학회 회장 선임 이슈는 에너지 관련 언급 있으나, 기사 내용이 한국에너지공과대 교수 선임에 초점이 맞춰져 있어 한국석유공사와 직접 관련이 없음",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 기사 내용과 한국석유공사의 업무 간 관련성이 낮음",
+        "departments": []
+      }
+    }
+  ]
+}

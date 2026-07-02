@@ -1,0 +1,268 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "3b4906e8d4244d01",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "3b4906e8d4244d01",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "기사에 언급된 내용은 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "3b4906e8d4244d01",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "기사에 언급된 내용은 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "cadf4357febd4e54",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "cadf4357febd4e54",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "정유 관련 언급이지만 기사 내용이 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "cadf4357febd4e54",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "정유 관련 언급이지만 기사 내용이 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "39c7cf07bc865a8f",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "39c7cf07bc865a8f",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "이란 비핵화 협상 관련 언급으로 유가 변동 가능성 있음",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "도널드 트럼프 미국 대통령이 1일 카타르 도하에서 진행한 간접 협상을 두고 \"이란 비핵화는 순조롭게 진행되고 있다. 그들은 아주 좋은 회담을 했고 우리는 지켜볼 것\"이라고 말했다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매 등을 담당하므로 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "39c7cf07bc865a8f",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "이란 비핵화 협상 관련 언급으로 유가 변동 가능성 있음",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "도널드 트럼프 미국 대통령이 1일 카타르 도하에서 진행한 간접 협상을 두고 \"이란 비핵화는 순조롭게 진행되고 있다. 그들은 아주 좋은 회담을 했고 우리는 지켜볼 것\"이라고 말했다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매 등을 담당하므로 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "4899c75c50e1b586",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "4899c75c50e1b586",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "기사에 언급된 내용은 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "4899c75c50e1b586",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "기사에 언급된 내용은 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "e78978146a72fbb4",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "e78978146a72fbb4",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 이슈지만 기사 내용이 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "e78978146a72fbb4",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 이슈지만 기사 내용이 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "b1edc85dca7fa832",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "b1edc85dca7fa832",
+        "final_relevant": true,
+        "confidence": 0.5,
+        "final_reason": "러시아-우크라이나 전쟁 관련 국제유가 변동 가능성 언급",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "러시아, 北포로 2명-우크라 주민 수천명 교환했다는데…",
+            "evidence_type": "article",
+            "reason": "국제유가에 영향을 줄 수 있는 러시아-우크라이나 전쟁 관련 뉴스"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "러시아, 北포로 2명-우크라 주민 수천명 교환했다는데…",
+            "evidence_type": "article",
+            "reason": "유가 정보 제공 및 시장 동향 분석 관련 부서"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "b1edc85dca7fa832",
+        "final_relevant": true,
+        "confidence": 0.5,
+        "final_reason": "러시아-우크라이나 전쟁 관련 국제유가 변동 가능성 언급",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "러시아, 北포로 2명-우크라 주민 수천명 교환했다는데…",
+            "evidence_type": "article",
+            "reason": "국제유가에 영향을 줄 수 있는 러시아-우크라이나 전쟁 관련 뉴스"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "러시아, 北포로 2명-우크라 주민 수천명 교환했다는데…",
+            "evidence_type": "article",
+            "reason": "유가 정보 제공 및 시장 동향 분석 관련 부서"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "b4b2cd14df0a2e73",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "b4b2cd14df0a2e73",
+        "final_relevant": true,
+        "confidence": 0.5,
+        "final_reason": "기사에서 '정유'라는 키워드가 언급되어 한국석유공사와 관련 가능성이 있음",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "정유",
+            "evidence_type": "sentence",
+            "reason": "한국석유공사의 사업 영역 중 석유사업과 관련 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "b4b2cd14df0a2e73",
+        "final_relevant": true,
+        "confidence": 0.5,
+        "final_reason": "기사에서 '정유'라는 키워드가 언급되어 한국석유공사와 관련 가능성이 있음",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "정유",
+            "evidence_type": "sentence",
+            "reason": "한국석유공사의 사업 영역 중 석유사업과 관련 있을 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "c5f1e284d3f3badd",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "c5f1e284d3f3badd",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "유가 관련 기사지만 기사 내용이 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "c5f1e284d3f3badd",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "유가 관련 기사지만 기사 내용이 한국석유공사의 직접적인 업무와 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      }
+    }
+  ]
+}

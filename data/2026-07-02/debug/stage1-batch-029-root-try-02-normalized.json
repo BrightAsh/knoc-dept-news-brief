@@ -1,0 +1,130 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "73f805318e82e1b7",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "73f805318e82e1b7",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "유가 상승 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "중동발 고유가에 6월 물가 3.2%↑…30개월 만에 최대폭 상승",
+            "evidence_type": "title",
+            "reason": "유가 상승 관련 기사로 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "중동발 고유가에 6월 물가 3.2%↑…30개월 만에 최대폭 상승",
+            "evidence_type": "title",
+            "reason": "유가 상승 관련 기사로 유통사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "중동발 고유가에 6월 물가 3.2%↑…30개월 만에 최대폭 상승",
+            "evidence_type": "title",
+            "reason": "유가 상승 관련 기사로 비축사업과 관련이 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "73f805318e82e1b7",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "유가 상승 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "중동발 고유가에 6월 물가 3.2%↑…30개월 만에 최대폭 상승",
+            "evidence_type": "article",
+            "reason": "유가 상승 관련 기사로 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "중동발 고유가에 6월 물가 3.2%↑…30개월 만에 최대폭 상승",
+            "evidence_type": "article",
+            "reason": "유가 상승 관련 기사로 유통사업과 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "중동발 고유가에 6월 물가 3.2%↑…30개월 만에 최대폭 상승",
+            "evidence_type": "article",
+            "reason": "유가 상승 관련 기사로 비축사업과 관련이 있을 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "e3cf8908785ce02c",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "e3cf8908785ce02c",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "석유화학 전망 관련 기사로 한국석유공사의 석유사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "하반기 산업 전망은…반도체 ‘맑음’, 석유화학 ‘비’",
+            "evidence_type": "title",
+            "reason": "석유화학 전망 관련 기사로 석유사업과 관련이 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "e3cf8908785ce02c",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "석유화학 전망 관련 기사로 한국석유공사의 석유사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "하반기 산업 전망은…반도체 ‘맑음’, 석유화학 ‘비’",
+            "evidence_type": "article",
+            "reason": "석유화학 전망 관련 기사로 석유사업과 관련이 있을 수 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

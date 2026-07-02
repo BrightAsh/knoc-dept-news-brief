@@ -1,0 +1,72 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "b1edc85dca7fa832",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "러시아-우크라이나 전쟁 관련 국제유가 변동 가능성 언급",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "러시아, 北포로 2명-우크라 주민 수천명 교환 제안했다는데…",
+          "evidence_type": "title",
+          "reason": "국제유가에 영향을 줄 수 있는 러시아-우크라이나 전쟁 관련 뉴스"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "러시아, 北포로 2명-우크라 주민 수천명 교환 제안했다는데…",
+          "evidence_type": "title",
+          "reason": "유가 정보 제공 및 시장 동향 분석 관련 부서"
+        }
+      ]
+    },
+    {
+      "article_id": "c0609b1bbb513d97",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "OECD의 부동산 거래세와 보유세 관련 보고서 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "OECD “한국 부동산, 거래세 비중 줄이고 보유세 비율 높여야”···교육교부금 ‘칸막이’ 축소 권고",
+          "evidence_type": "body_paragraph",
+          "reason": "경영전략과 정책 관련 부서"
+        }
+      ]
+    },
+    {
+      "article_id": "b71c4bd138764d57",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "공공기관 관련 언급",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "“빈 상점 채워져 상권 생겼으면”…사회적기업, 자본 자립 길 열렸다",
+          "evidence_type": "summary_sentence",
+          "reason": "예산 편성, 경영계획, 공공기관 관련 대응"
+        }
+      ]
+    }
+  ]
+}
+```

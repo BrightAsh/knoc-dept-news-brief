@@ -1,0 +1,34 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "f59a8e9134642455",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 사업 언급",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "포스코는 철강 기업?…리튬·에너지 중심 ‘3각 편대’ 재편",
+          "evidence_type": "paragraph",
+          "reason": "리튬, 에너지 중심 사업 재편 관련"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "쇳물을 쏟아내는 이미지가 애국가 배경 영상에 단골로 쓰일 만큼 세계 최고 수준 제철소의 위상은 여전하다.",
+          "evidence_type": "paragraph",
+          "reason": "사업 전략 및 경쟁력 관련"
+        }
+      ]
+    }
+  ]
+}
+```
