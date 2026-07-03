@@ -1,0 +1,1717 @@
+{
+  "target_date": "2026-07-03",
+  "generated_at": "2026-07-03T16:48:52.423Z",
+  "analyzer": "stage2-llm",
+  "enabled": true,
+  "provider": "groq",
+  "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "status": "ok",
+  "requested_article_count": 181,
+  "analyzed_article_count": 181,
+  "batch_size": 8,
+  "errors": [],
+  "warnings": [
+    "Retry batch after LLM rate limit in 18s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 17s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 23s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 18s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 15s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 15s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 18s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 18s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 4s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 20s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 3s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 11s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 16s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 4s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 4s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 22s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 22s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 4s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 16s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 23s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 15s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 16s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 18s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300"
+  ],
+  "results": [
+    {
+      "article_id": "1cc2de651e54d732",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "고유가 피해지원금 관련 기사로 석유사업처와 유통사업처의 업무와 관련이 있음",
+      "review_note": "C 그룹 기사를 정밀 검토하여 석유사업처와 유통사업처의 업무 관련성 확인",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "고유가 피해지원금, 온·오프라인 신청과 지급은 이날 오후 6시 마감되며, 기한 내 신청하지 않으면 고유가 피해지원금을 받을 수 없다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다."
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "고유가 피해지원금, 온·오프라인 신청과 지급은 이날 오후 6시 마감되며, 기한 내 신청하지 않으면 고유가 피해지원금을 받을 수 없다.",
+          "evidence_type": "paragraph",
+          "reason": "유통사업처는 알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다."
+        }
+      ]
+    },
+    {
+      "article_id": "51b015979f57ab49",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 정책 이슈로 경영전략처의 업무와 관련이 있음",
+      "review_note": "C 그룹 기사를 정밀 검토하여 경영전략처의 업무 관련성 확인",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "이재명 대통령이 3일 경남 진주시에서 열린 영남권 첨단산업 발전비전 국민보고회에서 축사를 하고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다."
+        }
+      ]
+    },
+    {
+      "article_id": "10b71c79c5d6eb35",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 정책 이슈로 경영전략처의 업무와 관련이 있음",
+      "review_note": "C 그룹 기사를 정밀 검토하여 경영전략처의 업무 관련성 확인",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "이재명 대통령이 3일 경남 진주시에서 열린 영남권 첨단산업 발전비전 국민보고회에서 축사를 하고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다."
+        }
+      ]
+    },
+    {
+      "article_id": "4dc0f3a24664872f",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "에너지 안보와 관련된 이슈로 저탄소추진처와 경영전략처의 업무와 관련이 있음",
+      "review_note": "C 그룹 기사를 정밀 검토하여 저탄소추진처와 경영전략처의 업무 관련성 확인",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "천연가스관 노르트스트림 폭파 사건이 우크라이나 정부의 지시에 따라 계획·실행된 공작이었다고 독일 검찰이 결론 내렸다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소추진처는 CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다."
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "천연가스관 노르트스트림 폭파 사건이 우크라이나 정부의 지시에 따라 계획·실행된 공작이었다고 독일 검찰이 결론 내렸다.",
+          "evidence_type": "paragraph",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다."
+        }
+      ]
+    },
+    {
+      "article_id": "cd068f71376851bd",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "에너지 안보와 관련된 이슈로 저탄소추진처와 경영전략처의 업무와 관련이 있음",
+      "review_note": "C 그룹 기사를 정밀 검토하여 저탄소추진처와 경영전략처의 업무 관련성 확인",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "천연가스관 노르트스트림 폭파 사건이 우크라이나 정부의 지시에 따라 계획·실행된 공작이었다고 독일 검찰이 결론 내렸다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소추진처는 CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다."
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "천연가스관 노르트스트림 폭파 사건이 우크라이나 정부의 지시에 따라 계획·실행된 공작이었다고 독일 검찰이 결론 내렸다.",
+          "evidence_type": "paragraph",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다."
+        }
+      ]
+    },
+    {
+      "article_id": "5a884a94f2007edb",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "석유 관련 언급이 있으나 에너지 안보와 직접 관련이 없음",
+      "review_note": "C 그룹 기사를 정밀 검토하여 에너지 안보와 직접 관련성이 없음 확인",
+      "departments": []
+    },
+    {
+      "article_id": "599cb3b39420331c",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "유가 관련 언급이 있으나 에너지 안보와 직접 관련이 없음",
+      "review_note": "C 그룹 기사를 정밀 검토하여 에너지 안보와 직접 관련성이 없음 확인",
+      "departments": []
+    },
+    {
+      "article_id": "191c56e72d9bf000",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 투자 계획 언급으로 저탄소추진처와 경영전략처의 업무와 관련이 있음",
+      "review_note": "C 그룹 기사를 정밀 검토하여 저탄소추진처와 경영전략처의 업무 관련성 확인",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "수소",
+          "evidence_type": "sentence",
+          "reason": "저탄소추진처는 CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다."
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "투자 계획",
+          "evidence_type": "sentence",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다."
+        }
+      ]
+    },
+    {
+      "article_id": "c8d789682d5d009e",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "에너지 관련 이슈이나 한국석유공사의 직접적인 사업과 관련성이 낮음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 세부 내용 검토 결과 직접적인 관련성이 낮아 최종적으로 제외함",
+      "departments": []
+    },
+    {
+      "article_id": "df5d4232c7690fd2",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "에너지 관련 이슈이나 한국석유공사의 직접적인 사업과 관련성이 낮음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 세부 내용 검토 결과 직접적인 관련성이 낮아 최종적으로 제외함",
+      "departments": []
+    },
+    {
+      "article_id": "a5e25d8e13e6d96e",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "원유 관련 언급 있으나 기사 내용이 한국석유공사의 직접적인 사업과 관련성이 낮음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 세부 내용 검토 결과 직접적인 관련성이 낮아 최종적으로 제외함",
+      "departments": []
+    },
+    {
+      "article_id": "5475887ed404d74b",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "유가 관련 언급 있으나 기사 내용이 한국석유공사의 직접적인 사업과 관련성이 낮음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 세부 내용 검토 결과 직접적인 관련성이 낮아 최종적으로 제외함",
+      "departments": []
+    },
+    {
+      "article_id": "93f1292faf5e9040",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "수소 관련 투자 계획 언급으로 한국석유공사의 저탄소 사업과 관련성이 있음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 세부 내용 검토 결과 저탄소 추진처의 업무와 관련성이 있어 최종적으로 포함함",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "삼성전자·SK·한화·현대차·두산·LG 등 6개 기업이 영남권에 반도체·인공지능·우주항공 분야를 중심으로 총 312조원을 투자한다.",
+          "evidence_type": "article",
+          "reason": "저탄소 추진처는 저탄소, 수소, 암모니아 등 에너지 전환 관련 사업을 담당하므로 수소 관련 투자 계획이 언급된 기사와 관련성이 있다."
+        }
+      ]
+    },
+    {
+      "article_id": "4a843d81d0d9c5b1",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "공공기관 관련 기사이나 한국석유공사의 직접적인 사업과 관련성이 낮음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 세부 내용 검토 결과 직접적인 관련성이 낮아 최종적으로 제외함",
+      "departments": []
+    },
+    {
+      "article_id": "3b3df943abf31307",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "공공기관 관련 이슈이나 한국석유공사의 직접적인 사업과 관련성이 낮음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 세부 내용 검토 결과 직접적인 관련성이 낮아 최종적으로 제외함",
+      "departments": []
+    },
+    {
+      "article_id": "92406f9f0a951d11",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "공공기관 관련 이슈이나 한국석유공사의 직접적인 사업과 관련성이 낮음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으나, 세부 내용 검토 결과 직접적인 관련성이 낮아 최종적으로 제외함",
+      "departments": []
+    },
+    {
+      "article_id": "a416bc7363662f18",
+      "final_relevant": true,
+      "confidence": 0.88,
+      "final_reason": "에너지 관련 정책 및 사업 검토",
+      "review_note": "",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "원전 추가 건설 검토, 에너지 전환 정책",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 추진처의 에너지 전환 및 신사업 관련 업무"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "정부의 에너지 정책 및 메가프로젝트",
+          "evidence_type": "article",
+          "reason": "경영전략처의 정책 및 사업 전략 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "206c7d0da6a5cc64",
+      "final_relevant": true,
+      "confidence": 0.88,
+      "final_reason": "에너지 관련 이슈로 한국석유공사의 에너지 안보 및 석유 수급 안정과 관련이 있을 수 있음",
+      "review_note": "",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "전 세계 해수면 온도 기록 경신, 에너지 이슈",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 추진처의 에너지 전환 및 신사업 관련 업무"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "에너지 이슈 및 정책 검토",
+          "evidence_type": "article",
+          "reason": "경영전략처의 정책 및 사업 전략 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "c565f710fa975d8c",
+      "final_relevant": true,
+      "confidence": 0.88,
+      "final_reason": "에너지 언급",
+      "review_note": "",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "김용범 “3대 메가에 4755조, 쏟아지는 의문 당연…스케일 커져야”, 김용범 청와대 정책실장이 “생산혁명의 시대에는 생산의 스케일만 커지는 것이 아니다”라며 “국가가 생각하는 스케일도 함께 커져야 한다”고 말했다.",
+          "evidence_type": "article",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당하므로 에너지 관련 정책이나 계획이 언급된 기사와 관련성이 있다."
+        }
+      ]
+    },
+    {
+      "article_id": "0beccd500849220f",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "공공기관 운영 관련 이슈로 한국석유공사의 운영 및 관리와 관련이 있을 수 있으나 구체적인 관련 근거가 없음",
+      "review_note": "관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "5b280f4a1416ee7f",
+      "final_relevant": true,
+      "confidence": 0.88,
+      "final_reason": "에너지 관련 이슈로 한국석유공사의 에너지 안보 및 석유 수급 안정과 관련이 있을 수 있음",
+      "review_note": "",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "전공·지역 허문 ‘ESG 정책 실험’···고려대 세종캠, 첨단인재 융합교육 판 키웠다",
+          "evidence_type": "article",
+          "reason": "에너지 전환 및 저탄소 관련 사업과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "전공·지역 허문 ‘ESG 정책 실험’···고려대 세종캠, 첨단인재 융합교육 판 키웠다",
+          "evidence_type": "article",
+          "reason": "에너지 정책 및 전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "b8eb174dfbdffca0",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "공공기관 인사 관련 이슈로 한국석유공사의 인사 및 조직 관리와 관련이 있을 수 있으나 구체적인 관련 근거가 없음",
+      "review_note": "관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "6885a1d63cb58727",
+      "final_relevant": true,
+      "confidence": 0.88,
+      "final_reason": "에너지 관련 정책 및 사업 개발",
+      "review_note": "",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "남해안 우주항공 산업벨트 구축, 에너지 전환",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 추진처의 에너지 전환 및 신사업 관련 업무"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "정부의 에너지 정책 및 산업벨트 구축",
+          "evidence_type": "article",
+          "reason": "경영전략처의 정책 및 사업 전략 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "d6601f9568f07ed4",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "에너지 관련 정책 및 사업 개발",
+      "review_note": "",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "남해안 우주항공 산업벨트 구축, 에너지 전환",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 추진처의 에너지 전환 및 신사업 관련 업무"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "정부의 에너지 정책 및 산업벨트 구축",
+          "evidence_type": "article",
+          "reason": "경영전략처의 정책 및 사업 전략 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "2062c77950e30fa1",
+      "final_relevant": true,
+      "confidence": 0.5,
+      "final_reason": "에너지 관련 언급이 있어 한국석유공사의 사업과 간접적으로 관련이 있을 수 있음",
+      "review_note": "",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "이재명 대통령은 3일 \"영남의 탄탄한 제조 기반 위에 피지컬 인공지능, 우주항공 등 첨단 기술과 산업을 융합한다면, 대한민국은 미래 글로벌 시장을 선도하게 될 것\"이라고 말했다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 관련 사업과 간접적으로 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "8d0ee72010d54088",
+      "final_relevant": true,
+      "confidence": 0.5,
+      "final_reason": "에너지 관련 언급이 있어 한국석유공사의 사업과 간접적으로 관련이 있을 수 있음",
+      "review_note": "",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "이재명 대통령은 3일 \"영남의 탄탄한 제조 기반 위에 피지컬 인공지능, 우주항공 등 첨단 기술과 산업을 융합한다면, 대한민국은 미래 글로벌 시장을 선도하게 될 것\"이라고 말했다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 관련 사업과 간접적으로 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "f577058977703c3d",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹, 누락 가능성 재검토 결과 관련성 없음",
+      "departments": []
+    },
+    {
+      "article_id": "a732ad82027738de",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹, 누락 가능성 재검토 결과 관련성 없음",
+      "departments": []
+    },
+    {
+      "article_id": "a14cc19d21217a78",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹, 누락 가능성 재검토 결과 관련성 없음",
+      "departments": []
+    },
+    {
+      "article_id": "f1dafe958ee01be4",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹, 누락 가능성 재검토 결과 관련성 없음",
+      "departments": []
+    },
+    {
+      "article_id": "61d67abfa962af8f",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 직접 관련이 없습니다.",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "e0f08ea0eeef1a2e",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 직접 관련이 없습니다.",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "057e91a947e1b7d5",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 직접 관련이 없습니다.",
+      "review_note": "D 그룹으로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "7d6ae435d4e3f15b",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 직접 관련이 없습니다.",
+      "review_note": "D 그룹으로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "a160e3a15fa51bfa",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 직접 관련이 없습니다.",
+      "review_note": "D 그룹으로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "c1e0808fe70634bd",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 직접 관련이 없습니다.",
+      "review_note": "D 그룹으로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "0a699f6f6b1fe8ad",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 직접 관련이 없습니다.",
+      "review_note": "D 그룹으로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "db80a2062ae01a93",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 직접 관련이 없습니다.",
+      "review_note": "D 그룹으로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "0b1d62fef624b297",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 직접 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "927cadbc71ce284b",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 직접 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "99932c136603eb7b",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 직접 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "0fe6e649ee2943a7",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 직접 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "259c05830a9060a4",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 직접 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "3ec4f4874104d36b",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 직접 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "19ba937ac3d13aa8",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 직접 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "edb73c5fd85b7e8d",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사 내용이 한국석유공사의 사업과 직접 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "50e249d34afc16c4",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "내용이 에너지 관련이 아님",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "a1702b97252e65d5",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "내용이 에너지 관련이 아님",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "e66fb185f46d5243",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "내용이 에너지 관련이 아님",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "17f3286a3d214dc9",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "내용이 에너지 관련이 아님",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "70493b596010cf5c",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "내용이 에너지 관련이 아님",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "207d7265999f782c",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "내용이 에너지 관련이 아님",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "8743ce7daa3dfb5d",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "내용이 에너지 관련이 아님",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "b8d31194298b661e",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "내용이 에너지 관련이 아님",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "101fa06c1cf1a930",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "에너지 관련 내용이 아님",
+      "review_note": "1차 판단 D 그룹 유지를 추천함",
+      "departments": []
+    },
+    {
+      "article_id": "7d64325c99d1ebfb",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "에너지 관련 내용이 아님",
+      "review_note": "1차 판단 D 그룹 유지를 추천함",
+      "departments": []
+    },
+    {
+      "article_id": "7e5193670f89f050",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "에너지 관련 내용이 아님",
+      "review_note": "1차 판단 D 그룹 유지를 추천함",
+      "departments": []
+    },
+    {
+      "article_id": "da6d6ea681da484b",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "에너지 관련 내용이 아님",
+      "review_note": "1차 판단 D 그룹 유지를 추천함",
+      "departments": []
+    },
+    {
+      "article_id": "786de358e68484ab",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "에너지 관련 내용이 아님",
+      "review_note": "1차 판단 D 그룹 유지를 추천함",
+      "departments": []
+    },
+    {
+      "article_id": "15e623ce2b1a80a3",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "에너지 관련 내용이 아님",
+      "review_note": "1차 판단 D 그룹 유지를 추천함",
+      "departments": []
+    },
+    {
+      "article_id": "025697f9900f6c40",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "에너지 관련 내용이 아님",
+      "review_note": "1차 판단 D 그룹 유지를 추천함",
+      "departments": []
+    },
+    {
+      "article_id": "4846527c7e0bb65c",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "에너지 관련 내용이 아님",
+      "review_note": "1차 판단 D 그룹 유지를 추천함",
+      "departments": []
+    },
+    {
+      "article_id": "071aa58de7990725",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "대학 인권센터 인력 및 운영 관련 기사로 한국석유공사 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹을 유지. 기사 내용이 한국석유공사와 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "d6d5a42c7700cd38",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "삼성전자 성과급 파업 사태 관련 기사로 한국석유공사 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹을 유지. 기사 내용이 한국석유공사와 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "8663084ae057f5b2",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "서울과기대 취업진로본부 직무 자격증 취득 과정 관련 기사로 한국석유공사 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹을 유지. 기사 내용이 한국석유공사와 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "99b6699a59c54491",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "KB금융 차기 회장 후보 관련 기사로 한국석유공사 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹을 유지. 기사 내용이 한국석유공사와 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "b82708f18fe4cf74",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "홈플러스 회생 폐지 및 파산 관련 기사로 한국석유공사 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹을 유지. 기사 내용이 한국석유공사와 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "ab46eebd6845889e",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "홈플러스 회생 폐지 및 파산 관련 기사로 한국석유공사 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹을 유지. 기사 내용이 한국석유공사와 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "d818d201b15e97e3",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "홈플러스 사태 관련 소수정당 반응 기사로 한국석유공사 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹을 유지. 기사 내용이 한국석유공사와 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "391e3bbc2addb2de",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "서울시 재개발·재건축 공공기여율 완화 관련 기사로 한국석유공사 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹을 유지. 기사 내용이 한국석유공사와 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "dbc1d87fc8692045",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 정치 기사로 한국석유공사와 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "7f0f3e05ad65ccb7",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 정치 기사로 한국석유공사와 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "d955760622899994",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 정치 기사로 한국석유공사와 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "4e32e2177d16458d",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 문화 기사로 한국석유공사와 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "4260750c7a6899b7",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 날씨 기사로 한국석유공사와 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "942117a7cf5f0d84",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 교육 기사로 한국석유공사와 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "f3a9223a6d909bd5",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 금융 기사로 한국석유공사와 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "b634ddc122008050",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 과학 기사로 한국석유공사와 관련이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "90de2fef25605500",
+      "final_relevant": false,
+      "confidence": 0.2,
+      "final_reason": "정치/사회 뉴스. 한국석유공사와 관련이 없음.",
+      "review_note": "C 그룹에서 D 그룹으로 분류된 기사. 내용에 한국석유공사가 언급되지 않았고, 석유/가스/유가/비축/자원개발/에너지안보/KNOC 업무와 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "ce237e380065c3a2",
+      "final_relevant": false,
+      "confidence": 0.2,
+      "final_reason": "정치/사회 뉴스. 한국석유공사와 관련이 없음.",
+      "review_note": "C 그룹에서 D 그룹으로 분류된 기사. 내용에 한국석유공사가 언급되지 않았고, 석유/가스/유가/비축/자원개발/에너지안보/KNOC 업무와 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "fca03c3d1749a838",
+      "final_relevant": false,
+      "confidence": 0.2,
+      "final_reason": "과학/기술 뉴스. 한국석유공사와 관련이 없음.",
+      "review_note": "C 그룹에서 D 그룹으로 분류된 기사. 내용에 한국석유공사가 언급되지 않았고, 석유/가스/유가/비축/자원개발/에너지안보/KNOC 업무와 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "d565b8890cdd4b10",
+      "final_relevant": false,
+      "confidence": 0.2,
+      "final_reason": "과학/기술 뉴스. 한국석유공사와 관련이 없음.",
+      "review_note": "C 그룹에서 D 그룹으로 분류된 기사. 내용에 한국석유공사가 언급되지 않았고, 석유/가스/유가/비축/자원개발/에너지안보/KNOC 업무와 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "aa8e7a0ae218edae",
+      "final_relevant": false,
+      "confidence": 0.2,
+      "final_reason": "정치 뉴스. 한국석유공사와 관련이 없음.",
+      "review_note": "C 그룹에서 D 그룹으로 분류된 기사. 내용에 한국석유공사가 언급되지 않았고, 석유/가스/유가/비축/자원개발/에너지안보/KNOC 업무와 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "d6a729bbf3ba4982",
+      "final_relevant": false,
+      "confidence": 0.2,
+      "final_reason": "경제 뉴스. 한국석유공사와 관련이 없음.",
+      "review_note": "A 그룹 기사로 분류되었으나, 내용에 한국석유공사가 언급되지 않았고, 석유/가스/유가/비축/자원개발/에너지안보/KNOC 업무와 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "f192013b078dd43a",
+      "final_relevant": false,
+      "confidence": 0.2,
+      "final_reason": "에너지 관련 투자 계획이지만, 한국석유공사 업무와 직접 관련 근거가 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "7d1cae2b3b66cb46",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "단순 알림 기사, 한국석유공사 업무와 관련 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "0907d63c21fd8ac4",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "홈플러스 회생절차 관련 기사, 한국석유공사 업무와 관련 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "1b192e68baec9764",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "홈플러스 회생절차 관련 기사, 한국석유공사 업무와 관련 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "9641d6adc93aba33",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "토마토 고르는 법 관련 기사, 한국석유공사 업무와 관련 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "c9054f09c3b95bd0",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "토마토 고르는 법 관련 기사, 한국석유공사 업무와 관련 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "f696b14104286a26",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "삼성전자 성과급 개편 관련 기사, 한국석유공사 업무와 관련 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "099d5a70f658b81d",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "경제, 금융 관련 기사로 한국석유공사의 사업과 관련이 없음",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "16a7d11dcca7053f",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "환경 관련 기사로 한국석유공사의 사업과 관련이 없음",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "6cc20713a6f27c8b",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "경제, 금융 관련 기사로 한국석유공사의 사업과 관련이 없음",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "b0015d5cee6de75f",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "경제, 금융 관련 기사로 한국석유공사의 사업과 관련이 없음",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "a005a3e51e25eb9f",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "교육 관련 기사로 한국석유공사의 사업과 관련이 없음",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "dbb14f77d6e87d40",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "사고 관련 기사로 한국석유공사의 사업과 관련이 없음",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "bb6ad01b79e8fce0",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "사고 관련 기사로 한국석유공사의 사업과 관련이 없음",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "b7a147a26a5415a1",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "환경 관련 기사로 한국석유공사의 사업과 관련이 없음",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "5e394d14eca90584",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "환경 관련 기사로 한국석유공사의 사업과 관련이 없음",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "ff79a91156a03c4e",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "정책 관련 기사로 한국석유공사의 사업과 관련이 없음",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "62b9d22f867f204a",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "정책 관련 기사로 한국석유공사의 사업과 관련이 없음",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "626c037ce76f4c64",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "문학상 관련 기사로 한국석유공사의 사업과 관련이 없음",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "a8b062d89fbf1f52",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "정치 관련 기사로 한국석유공사의 사업과 관련이 없음",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "7038ca268fa26648",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 기사로 한국석유공사의 사업과 관련이 없음",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "01600a519624edd4",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 기사로 한국석유공사의 사업과 관련이 없음",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "4b64c5beab989029",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "교육 관련 기사로 한국석유공사의 사업과 관련이 없음",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "0555930a1ee85a52",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 사회 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "9a5ef251a54837e7",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 날씨 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "80dc1708ca2fd0ee",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 날씨 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "241b923e1a1f1e19",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 사건 사고 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "8a87e886c585a218",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 정치 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "a40bd97444fc9793",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 정치 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "1c54ff93876df282",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 정치 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "8bd16fdc3cdf526f",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 정치 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "6ecaa6e43cc13111",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 결과와 동일하게 유지",
+      "departments": []
+    },
+    {
+      "article_id": "246371eb6f9f05dd",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 결과와 동일하게 유지",
+      "departments": []
+    },
+    {
+      "article_id": "ee4ab481b8d969d0",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 결과와 동일하게 유지",
+      "departments": []
+    },
+    {
+      "article_id": "ca90515203ec18f9",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 결과와 동일하게 유지",
+      "departments": []
+    },
+    {
+      "article_id": "70c354af9575455c",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 결과와 동일하게 유지",
+      "departments": []
+    },
+    {
+      "article_id": "b157f65d2766abac",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 결과와 동일하게 유지",
+      "departments": []
+    },
+    {
+      "article_id": "bd694d4758b33073",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 결과와 동일하게 유지",
+      "departments": []
+    },
+    {
+      "article_id": "42b9cc39a3b20de3",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 결과와 동일하게 유지",
+      "departments": []
+    },
+    {
+      "article_id": "05b1482e6af2e13e",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "a3e937110b9aaaee",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "ba20e6d283130cc9",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "f76a14c0b3442aed",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "5dcda5320d449b56",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "4076c067abf30235",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "7fdf4721570161ce",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "2c7bd73379277ff0",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일하게 D 그룹으로 분류됨",
+      "departments": []
+    },
+    {
+      "article_id": "35a9c0da4239ef83",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일하게 D 그룹으로 분류됨",
+      "departments": []
+    },
+    {
+      "article_id": "671c0b7d0abcb7a8",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일하게 D 그룹으로 분류됨",
+      "departments": []
+    },
+    {
+      "article_id": "aeca11b3da746c2e",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일하게 D 그룹으로 분류됨",
+      "departments": []
+    },
+    {
+      "article_id": "5c8b81fed465f3bb",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일하게 D 그룹으로 분류됨",
+      "departments": []
+    },
+    {
+      "article_id": "1a37dd346efce9c6",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일하게 D 그룹으로 분류됨",
+      "departments": []
+    },
+    {
+      "article_id": "a6ddf8e7bc5874df",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일하게 D 그룹으로 분류됨",
+      "departments": []
+    },
+    {
+      "article_id": "9b2c31d740830e17",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일하게 D 그룹으로 분류됨",
+      "departments": []
+    },
+    {
+      "article_id": "646184d9e0a660b8",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "e7ff2d4b482c5381",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "4c29f6e03cdb6ccc",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "36503e5b97b01d52",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "95b53688cb981c24",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "4abfdb96ca536ba6",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "780e7fff615b8cc2",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "45b3fb7c5d4043b0",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단과 동일",
+      "departments": []
+    },
+    {
+      "article_id": "2eb5f76ad5858eeb",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "단순 사건 사고 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "a61d3872d07e8445",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "정치 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "bbdf9a88eb184423",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "경제 기사지만 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "3f441d7909f20aea",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 행사/활동 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "fd0e12094c58030d",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 인물 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "8303903ebbe843d0",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 사건 사고 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "b1d529c9fef68459",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 사건 사고 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "4130656d424d56bb",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 건설/교통 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "00ee9bf747f91223",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "기사 내용이 교육컨설팅학과 연구팀의 신간 출간과 관련이 있으며, 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "dbc2b764b09ea57b",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "기사 내용이 르노코리아의 여름 고객 공략 프로그램과 관련이 있으며, 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "c65c1d4861fcab0d",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "기사 내용이 트럼프 전 대통령의 연설과 관련이 있으며, 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "6377936cf828bc9c",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "기사 내용이 호날두의 국가대표 은퇴와 관련이 있으며, 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "374a42074b68f3f8",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "기사 내용이 민주당의 보완수사권 폐지 TF와 관련이 있으며, 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "d59076018560d166",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "기사 내용이 캐나다의 글로벌 국방은행 창립 추진과 관련이 있으며, 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "4e77e5bb01533aa9",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "기사 내용이 배재고의 스타벅스 구호 논란과 관련이 있으며, 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "f24e8acdaf0d26cb",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "기사 내용이 이란 협상대표와 이스라엘의 관계와 관련이 있으며, 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "4e886a34b1392ef2",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "e49f4be53c601296",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "3020abf5802d1880",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "a79d5cee67ea5d84",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "07d2e9d9b57c99c0",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "36123e0f16db5d01",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "8ec7bd3f65bee8f2",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한국석유공사와 관련이 없습니다.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "b7423dfd1151a79e",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "eac023befa03cc7e",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "한국석유공사와 관련이 없는 교육 정책 기사",
+      "review_note": "1차 판단 D 그룹을 유지. 교육 정책과 관련한 기사로 한국석유공사의 업무와 직접 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "60ffcd15d249e39d",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "미국과 이란의 전쟁 및 핵무장 필요성 기사, 한국석유공사와 관련 없음",
+      "review_note": "1차 판단 D 그룹을 유지. 국제 정치 기사로 한국석유공사의 업무와 직접 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "c7bc2023d4105ead",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "직장 내 괴롭힘 정책 기사, 한국석유공사와 관련 없음",
+      "review_note": "1차 판단 D 그룹을 유지. 노동 정책 기사로 한국석유공사의 업무와 직접 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "498032545b551735",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "교권 보호 및 교육 정책 기사, 한국석유공사와 관련 없음",
+      "review_note": "1차 판단 D 그룹을 유지. 교육 정책 기사로 한국석유공사의 업무와 직접 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "021b9e1177120a0b",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "사관학교 통합 관련 국방 정책 기사, 한국석유공사와 관련 없음",
+      "review_note": "1차 판단 D 그룹을 유지. 국방 정책 기사로 한국석유공사의 업무와 직접 관련이 없음.",
+      "departments": []
+    }
+  ],
+  "final_relevant_count": 15,
+  "final_rejected_count": 160
+}

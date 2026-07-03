@@ -1,0 +1,44 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "93f1292faf5e9040",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "수소 관련 투자 계획 언급",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "SK 140조·삼성 60조·한화 55조 등 영남권 총 312조 투자···사천엔 ‘우주항공허브’ 조성, 삼성전자·SK·한화·현대차·두산·LG 등 6개 기업이 영남권에 반도체·인공지능·우주항공 분야를 중심으로 총 312조원을 투자한다.",
+          "evidence_type": "article",
+          "reason": "저탄소 추진처는 저탄소, 수소, 암모니아 등 에너지 전환 관련 사업을 담당하므로 수소 관련 투자 계획이 언급된 기사와 관련성이 있다."
+        }
+      ]
+    },
+    {
+      "article_id": "c565f710fa975d8c",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "김용범 “3대 메가에 4755조, 쏟아지는 의문 당연…스케일 커져야”, 김용범 청와대 정책실장이 “생산혁명의 시대에는 생산의 스케일만 커지는 것이 아니다”라며 “국가가 생각하는 스케일도 함께 커져야 한다”고 말했다.",
+          "evidence_type": "article",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당하므로 에너지 관련 정책이나 계획이 언급된 기사와 관련성이 있다."
+        }
+      ]
+    }
+  ]
+}
+```

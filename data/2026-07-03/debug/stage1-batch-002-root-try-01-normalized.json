@@ -1,0 +1,68 @@
+{
+  "raw_result_count": 1,
+  "accepted_result_count": 1,
+  "normalization": [
+    {
+      "article_id": "599cb3b39420331c",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "599cb3b39420331c",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "유가 관련 언급이 있어 에너지 안보와 관련 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "sentence",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.4,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "sentence",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "599cb3b39420331c",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "유가 관련 언급이 있어 에너지 안보와 관련 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "sentence",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.4,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "유가",
+            "evidence_type": "sentence",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      }
+    }
+  ]
+}

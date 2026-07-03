@@ -1,0 +1,390 @@
+{
+  "raw_result_count": 15,
+  "accepted_result_count": 15,
+  "normalization": [
+    {
+      "article_id": "191c56e72d9bf000",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "191c56e72d9bf000",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 투자 계획 언급",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "수소",
+            "evidence_type": "sentence",
+            "reason": "저탄소 사업 투자 계획 언급"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "투자 계획",
+            "evidence_type": "sentence",
+            "reason": "경영전략과 관련"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "191c56e72d9bf000",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 투자 계획 언급",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "수소",
+            "evidence_type": "sentence",
+            "reason": "저탄소 사업 투자 계획 언급"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "투자 계획",
+            "evidence_type": "sentence",
+            "reason": "경영전략과 관련"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "5a884a94f2007edb",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "5a884a94f2007edb",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "유가, 휘발유 언급",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "유가, 휘발유",
+            "evidence_type": "sentence",
+            "reason": "석유 사업 관련"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "소비기한",
+            "evidence_type": "sentence",
+            "reason": "석유 정보 서비스 관련"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "5a884a94f2007edb",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "유가, 휘발유 언급",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "유가, 휘발유",
+            "evidence_type": "sentence",
+            "reason": "석유 사업 관련"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "소비기한",
+            "evidence_type": "sentence",
+            "reason": "석유 정보 서비스 관련"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "edb73c5fd85b7e8d",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "edb73c5fd85b7e8d",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "edb73c5fd85b7e8d",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "50e249d34afc16c4",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "50e249d34afc16c4",
+        "candidate": false,
+        "confidence": 0.3,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "50e249d34afc16c4",
+        "candidate": false,
+        "confidence": 0.3,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "a1702b97252e65d5",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "a1702b97252e65d5",
+        "candidate": false,
+        "confidence": 0.2,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "a1702b97252e65d5",
+        "candidate": false,
+        "confidence": 0.2,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "e66fb185f46d5243",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "e66fb185f46d5243",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "e66fb185f46d5243",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "17f3286a3d214dc9",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "17f3286a3d214dc9",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "17f3286a3d214dc9",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "70493b596010cf5c",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "70493b596010cf5c",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "70493b596010cf5c",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "207d7265999f782c",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "207d7265999f782c",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "207d7265999f782c",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "8743ce7daa3dfb5d",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "8743ce7daa3dfb5d",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "8743ce7daa3dfb5d",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "b8d31194298b661e",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "b8d31194298b661e",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "b8d31194298b661e",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "101fa06c1cf1a930",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "101fa06c1cf1a930",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "101fa06c1cf1a930",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "7d64325c99d1ebfb",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "7d64325c99d1ebfb",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "7d64325c99d1ebfb",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "7e5193670f89f050",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "7e5193670f89f050",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "7e5193670f89f050",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "da6d6ea681da484b",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "da6d6ea681da484b",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "da6d6ea681da484b",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "내용이 에너지 관련이 아님",
+        "departments": []
+      }
+    }
+  ]
+}

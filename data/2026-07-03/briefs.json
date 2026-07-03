@@ -1,0 +1,693 @@
+{
+  "target_date": "2026-07-03",
+  "generated_at": "2026-07-03T16:56:58.449Z",
+  "analyzer": "knoc-two-pass-llm-v1",
+  "input_article_count": 296,
+  "relevant_article_count": 7,
+  "relevant_department_count": 4,
+  "pipeline": {
+    "stage0": {
+      "analyzer": "stage0-keyword-router-v1",
+      "keyword_hit_count": 53,
+      "keyword_miss_count": 243
+    },
+    "stage1": {
+      "enabled": true,
+      "status": "ok",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 296,
+      "analyzed_article_count": 296,
+      "candidate_count": 27,
+      "rejected_count": 154,
+      "warning_count": 18,
+      "error_count": 0
+    },
+    "stage2": {
+      "enabled": true,
+      "status": "ok",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 181,
+      "analyzed_article_count": 181,
+      "final_relevant_count": 15,
+      "final_rejected_count": 160,
+      "warning_count": 27,
+      "error_count": 0
+    }
+  },
+  "overall": {
+    "id": "overall",
+    "label": "전체",
+    "source": "llm",
+    "analysis_stage": "stage2",
+    "fallback_used": false,
+    "article_count": 7,
+    "item_count": 7,
+    "items": [
+      {
+        "id": "2a624be324a20706",
+        "article_id": "4dc0f3a24664872f",
+        "publisher": "경향신문",
+        "title": "독일 검찰 “노르트스트림 폭파, 우크라 정부 지시 따른 공작” 결론",
+        "url": "https://www.khan.co.kr/article/202607032219001/",
+        "published_at": "2026-07-03T13:19:00.000Z",
+        "score": 0.9,
+        "segment_text": "에너지 안보와 관련된 이슈로 저탄소추진처와 경영전략처의 업무와 관련이 있음",
+        "reason": "에너지 안보와 관련된 이슈로 저탄소추진처와 경영전략처의 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 저탄소추진처와 경영전략처의 업무 관련성 확인",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "96e561c680e1bfd3",
+        "article_id": "cd068f71376851bd",
+        "publisher": "경향신문",
+        "title": "독일 검찰 “노르트스트림 폭파, 우크라 정부 지시 따른 공작” 결론",
+        "url": "https://www.khan.co.kr/article/202607032219001",
+        "published_at": "2026-07-03T13:19:00.000Z",
+        "score": 0.9,
+        "segment_text": "에너지 안보와 관련된 이슈로 저탄소추진처와 경영전략처의 업무와 관련이 있음",
+        "reason": "에너지 안보와 관련된 이슈로 저탄소추진처와 경영전략처의 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 저탄소추진처와 경영전략처의 업무 관련성 확인",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "b0683c3c9afd010f",
+        "article_id": "1cc2de651e54d732",
+        "publisher": "경향신문",
+        "title": "오늘 놓치면 못받아요···고유가 피해지원금 깜빡했다면 오후 마감 전 신청 꼭!",
+        "url": "https://www.khan.co.kr/article/202607031034001",
+        "published_at": "2026-07-03T01:34:00.000Z",
+        "score": 0.9,
+        "segment_text": "고유가 피해지원금 관련 기사로 석유사업처와 유통사업처의 업무와 관련이 있음",
+        "reason": "고유가 피해지원금 관련 기사로 석유사업처와 유통사업처의 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 석유사업처와 유통사업처의 업무 관련성 확인",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "30d689c15ebdb040",
+        "article_id": "51b015979f57ab49",
+        "publisher": "경향신문",
+        "title": "[사설] 3대 메가프로젝트, 기후대응 등에 미칠 부작용 최소화해야",
+        "url": "https://www.khan.co.kr/article/202607031808001/",
+        "published_at": "2026-07-03T09:08:00.000Z",
+        "score": 0.8,
+        "segment_text": "에너지 관련 정책 이슈로 경영전략처의 업무와 관련이 있음",
+        "reason": "에너지 관련 정책 이슈로 경영전략처의 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 경영전략처의 업무 관련성 확인",
+        "departments": [
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "c35dd558d0af1d33",
+        "article_id": "10b71c79c5d6eb35",
+        "publisher": "경향신문",
+        "title": "[사설] 3대 메가프로젝트, 기후대응 등에 미칠 부작용 최소화해야",
+        "url": "https://www.khan.co.kr/article/202607031808001",
+        "published_at": "2026-07-03T09:08:00.000Z",
+        "score": 0.8,
+        "segment_text": "에너지 관련 정책 이슈로 경영전략처의 업무와 관련이 있음",
+        "reason": "에너지 관련 정책 이슈로 경영전략처의 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 경영전략처의 업무 관련성 확인",
+        "departments": [
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "b8e21b093c1d789f",
+        "article_id": "191c56e72d9bf000",
+        "publisher": "한겨레",
+        "title": "SK 140조·삼성 60조 영남 투자…“AI로 새 경부고속도로 만들 것”",
+        "url": "https://www.hani.co.kr/arti/economy/marketing/1266643.html",
+        "published_at": "2026-07-03T08:04:00.000Z",
+        "score": 0.8,
+        "segment_text": "에너지 관련 투자 계획 언급으로 저탄소추진처와 경영전략처의 업무와 관련이 있음",
+        "reason": "에너지 관련 투자 계획 언급으로 저탄소추진처와 경영전략처의 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 저탄소추진처와 경영전략처의 업무 관련성 확인",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "5df2ec2022d6b1e9",
+        "article_id": "93f1292faf5e9040",
+        "publisher": "경향신문",
+        "title": "[속보]SK 140조·삼성 60조·한화 55조 등 영남권 총 312조 투자···사천엔 ‘우주항공허브’ 조성",
+        "url": "https://www.khan.co.kr/article/202607031541001/",
+        "published_at": "2026-07-03T06:41:00.000Z",
+        "score": 0.8,
+        "segment_text": "수소 관련 투자 계획 언급으로 한국석유공사의 저탄소 사업과 관련성이 있음",
+        "reason": "수소 관련 투자 계획 언급으로 한국석유공사의 저탄소 사업과 관련성이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 세부 내용 검토 결과 저탄소 추진처의 업무와 관련성이 있어 최종적으로 포함함",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_review": {
+    "enabled": true,
+    "status": "ok",
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "analyzed_article_count": 181,
+    "brief_source_stage": "stage2",
+    "fallback_used": false,
+    "stages": {
+      "stage1": {
+        "enabled": true,
+        "status": "ok",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 296,
+        "analyzed_article_count": 296,
+        "candidate_count": 27,
+        "rejected_count": 154,
+        "warning_count": 18,
+        "error_count": 0
+      },
+      "stage2": {
+        "enabled": true,
+        "status": "ok",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 181,
+        "analyzed_article_count": 181,
+        "final_relevant_count": 15,
+        "final_rejected_count": 160,
+        "warning_count": 27,
+        "error_count": 0
+      }
+    }
+  },
+  "departments": [
+    {
+      "department_id": "secretariat",
+      "department": "비서팀",
+      "role": "사장 일정, 의전, 대내외 메시지, 지시사항 이행과 대외 접점 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "she",
+      "department": "SHE추진실",
+      "role": "전사 안전, 보건, 환경, 재난 대응, 중대재해 예방과 안전보건환경 관리체계를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "audit",
+      "department": "감사실",
+      "role": "감사계획과 감사 수행, 내부통제, 일상감사, 부패·비위 점검, 청렴 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "legal",
+      "department": "법무팀",
+      "role": "국내외 송무, 계약과 사업의 법률 검토, 규제 대응, 분쟁 대응, 지식재산권 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "planning_budget",
+      "department": "기획예산처",
+      "role": "이사회, 국회, 정부 대응, 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "strategy",
+      "department": "경영전략처",
+      "role": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+      "article_count": 5,
+      "segment_count": 5,
+      "items": [
+        {
+          "id": "6c45932fe0fea895",
+          "article_id": "51b015979f57ab49",
+          "publisher": "경향신문",
+          "title": "[사설] 3대 메가프로젝트, 기후대응 등에 미칠 부작용 최소화해야",
+          "url": "https://www.khan.co.kr/article/202607031808001/",
+          "published_at": "2026-07-03T09:08:00.000Z",
+          "score": 0.9,
+          "segment_text": "이재명 대통령이 3일 경남 진주시에서 열린 영남권 첨단산업 발전비전 국민보고회에서 축사를 하고 있다.",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 경영전략처의 업무 관련성 확인"
+        },
+        {
+          "id": "8bc63a23aa2a73ac",
+          "article_id": "10b71c79c5d6eb35",
+          "publisher": "경향신문",
+          "title": "[사설] 3대 메가프로젝트, 기후대응 등에 미칠 부작용 최소화해야",
+          "url": "https://www.khan.co.kr/article/202607031808001",
+          "published_at": "2026-07-03T09:08:00.000Z",
+          "score": 0.9,
+          "segment_text": "이재명 대통령이 3일 경남 진주시에서 열린 영남권 첨단산업 발전비전 국민보고회에서 축사를 하고 있다.",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 경영전략처의 업무 관련성 확인"
+        },
+        {
+          "id": "8559c18c1c2030ed",
+          "article_id": "4dc0f3a24664872f",
+          "publisher": "경향신문",
+          "title": "독일 검찰 “노르트스트림 폭파, 우크라 정부 지시 따른 공작” 결론",
+          "url": "https://www.khan.co.kr/article/202607032219001/",
+          "published_at": "2026-07-03T13:19:00.000Z",
+          "score": 0.7,
+          "segment_text": "천연가스관 노르트스트림 폭파 사건이 우크라이나 정부의 지시에 따라 계획·실행된 공작이었다고 독일 검찰이 결론 내렸다.",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 저탄소추진처와 경영전략처의 업무 관련성 확인"
+        },
+        {
+          "id": "1e82fd93c0f9b9da",
+          "article_id": "cd068f71376851bd",
+          "publisher": "경향신문",
+          "title": "독일 검찰 “노르트스트림 폭파, 우크라 정부 지시 따른 공작” 결론",
+          "url": "https://www.khan.co.kr/article/202607032219001",
+          "published_at": "2026-07-03T13:19:00.000Z",
+          "score": 0.7,
+          "segment_text": "천연가스관 노르트스트림 폭파 사건이 우크라이나 정부의 지시에 따라 계획·실행된 공작이었다고 독일 검찰이 결론 내렸다.",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 저탄소추진처와 경영전략처의 업무 관련성 확인"
+        },
+        {
+          "id": "f094732e2fe1d69c",
+          "article_id": "191c56e72d9bf000",
+          "publisher": "한겨레",
+          "title": "SK 140조·삼성 60조 영남 투자…“AI로 새 경부고속도로 만들 것”",
+          "url": "https://www.hani.co.kr/arti/economy/marketing/1266643.html",
+          "published_at": "2026-07-03T08:04:00.000Z",
+          "score": 0.7,
+          "segment_text": "투자 계획",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+          "evidence_type": "sentence",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 저탄소추진처와 경영전략처의 업무 관련성 확인"
+        }
+      ]
+    },
+    {
+      "department_id": "finance",
+      "department": "재무처",
+      "role": "자금 조달과 상환, 자금 집행, 결산, 세무, 환율·금리·부채 등 재무 리스크 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "esg",
+      "department": "ESG경영처",
+      "role": "ESG 경영, 윤리·인권, 사회공헌, 동반성장, 상생, 내부통제 지원 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "infosec",
+      "department": "정보보안팀",
+      "role": "정보보안 정책과 운영, 개인정보보호, 사이버 침해 대응, 정보유출 예방 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "general_affairs",
+      "department": "총무처",
+      "role": "문서와 기록물, 자산, 사옥, 숙소, 조달계약, 구매, 시설관리, 비상대비 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hr",
+      "department": "인재경영처",
+      "role": "조직, 인사, 채용, 평가, 교육훈련, 급여, 복리후생, 노사관계와 인력 운영을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "smart_data",
+      "department": "스마트데이터센터",
+      "role": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "asia_business",
+      "department": "아시아사업처",
+      "role": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "americas_europe_business",
+      "department": "미주/유럽사업처",
+      "role": "미주와 유럽 지역 E&P 사업, 해외광구, Capex/Opex, 사업 손익, 자금수지 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "domestic_business_development",
+      "department": "국내사업개발처",
+      "role": "국내 자원개발 사업, 국내 대륙붕, 가스전, 탐사·시추, 신규 국내 사업개발을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "low_carbon",
+      "department": "저탄소추진처",
+      "role": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
+      "article_count": 4,
+      "segment_count": 4,
+      "items": [
+        {
+          "id": "caa007e16a21bd75",
+          "article_id": "191c56e72d9bf000",
+          "publisher": "한겨레",
+          "title": "SK 140조·삼성 60조 영남 투자…“AI로 새 경부고속도로 만들 것”",
+          "url": "https://www.hani.co.kr/arti/economy/marketing/1266643.html",
+          "published_at": "2026-07-03T08:04:00.000Z",
+          "score": 0.9,
+          "segment_text": "수소",
+          "reason": "저탄소추진처는 CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
+          "evidence_type": "sentence",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 저탄소추진처와 경영전략처의 업무 관련성 확인"
+        },
+        {
+          "id": "da3faa161872776a",
+          "article_id": "4dc0f3a24664872f",
+          "publisher": "경향신문",
+          "title": "독일 검찰 “노르트스트림 폭파, 우크라 정부 지시 따른 공작” 결론",
+          "url": "https://www.khan.co.kr/article/202607032219001/",
+          "published_at": "2026-07-03T13:19:00.000Z",
+          "score": 0.8,
+          "segment_text": "천연가스관 노르트스트림 폭파 사건이 우크라이나 정부의 지시에 따라 계획·실행된 공작이었다고 독일 검찰이 결론 내렸다.",
+          "reason": "저탄소추진처는 CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 저탄소추진처와 경영전략처의 업무 관련성 확인"
+        },
+        {
+          "id": "88bbe58e8cdbb9d5",
+          "article_id": "cd068f71376851bd",
+          "publisher": "경향신문",
+          "title": "독일 검찰 “노르트스트림 폭파, 우크라 정부 지시 따른 공작” 결론",
+          "url": "https://www.khan.co.kr/article/202607032219001",
+          "published_at": "2026-07-03T13:19:00.000Z",
+          "score": 0.8,
+          "segment_text": "천연가스관 노르트스트림 폭파 사건이 우크라이나 정부의 지시에 따라 계획·실행된 공작이었다고 독일 검찰이 결론 내렸다.",
+          "reason": "저탄소추진처는 CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 저탄소추진처와 경영전략처의 업무 관련성 확인"
+        },
+        {
+          "id": "b34169e263c488e6",
+          "article_id": "93f1292faf5e9040",
+          "publisher": "경향신문",
+          "title": "[속보]SK 140조·삼성 60조·한화 55조 등 영남권 총 312조 투자···사천엔 ‘우주항공허브’ 조성",
+          "url": "https://www.khan.co.kr/article/202607031541001/",
+          "published_at": "2026-07-03T06:41:00.000Z",
+          "score": 0.8,
+          "segment_text": "삼성전자·SK·한화·현대차·두산·LG 등 6개 기업이 영남권에 반도체·인공지능·우주항공 분야를 중심으로 총 312조원을 투자한다.",
+          "reason": "저탄소 추진처는 저탄소, 수소, 암모니아 등 에너지 전환 관련 사업을 담당하므로 수소 관련 투자 계획이 언급된 기사와 관련성이 있다.",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 세부 내용 검토 결과 저탄소 추진처의 업무와 관련성이 있어 최종적으로 포함함"
+        }
+      ]
+    },
+    {
+      "department_id": "global_technology_center",
+      "department": "글로벌기술센터",
+      "role": "E&P 기술지원, 지질·저류층·시추 기술, 기술전략, 연구개발, 기술자료와 기술평가를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "stockpiling",
+      "department": "석유비축처",
+      "role": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "petroleum_business",
+      "department": "석유사업처",
+      "role": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "3126812122004c1f",
+          "article_id": "1cc2de651e54d732",
+          "publisher": "경향신문",
+          "title": "오늘 놓치면 못받아요···고유가 피해지원금 깜빡했다면 오후 마감 전 신청 꼭!",
+          "url": "https://www.khan.co.kr/article/202607031034001",
+          "published_at": "2026-07-03T01:34:00.000Z",
+          "score": 0.8,
+          "segment_text": "고유가 피해지원금, 온·오프라인 신청과 지급은 이날 오후 6시 마감되며, 기한 내 신청하지 않으면 고유가 피해지원금을 받을 수 없다.",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 석유사업처와 유통사업처의 업무 관련성 확인"
+        }
+      ]
+    },
+    {
+      "department_id": "distribution_business",
+      "department": "유통사업처",
+      "role": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "c3883c9f283c106d",
+          "article_id": "1cc2de651e54d732",
+          "publisher": "경향신문",
+          "title": "오늘 놓치면 못받아요···고유가 피해지원금 깜빡했다면 오후 마감 전 신청 꼭!",
+          "url": "https://www.khan.co.kr/article/202607031034001",
+          "published_at": "2026-07-03T01:34:00.000Z",
+          "score": 0.7,
+          "segment_text": "고유가 피해지원금, 온·오프라인 신청과 지급은 이날 오후 6시 마감되며, 기한 내 신청하지 않으면 고유가 피해지원금을 받을 수 없다.",
+          "reason": "유통사업처는 알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 석유사업처와 유통사업처의 업무 관련성 확인"
+        }
+      ]
+    },
+    {
+      "department_id": "energy_infra",
+      "department": "에너지인프라사업처",
+      "role": "에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hydrogen_ammonia",
+      "department": "수소암모니아사업단",
+      "role": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    }
+  ]
+}

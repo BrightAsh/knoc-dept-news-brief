@@ -1,0 +1,114 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "1cc2de651e54d732",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "1cc2de651e54d732",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "고유가 관련 지원금 기사로 석유공사와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "고유가 피해지원금, 온·오프라인 신청과 지급은 이날 오후 6시 마감되며, 기한 내 신청하지 않으면 고유가 피해지원금을 받을 수 없다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다."
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "고유가 피해지원금, 온·오프라인 신청과 지급은 이날 오후 6시 마감되며, 기한 내 신청하지 않으면 고유가 피해지원금을 받을 수 없다.",
+            "evidence_type": "paragraph",
+            "reason": "유통사업처는 알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "1cc2de651e54d732",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "고유가 관련 지원금 기사로 석유공사와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "고유가 피해지원금, 온·오프라인 신청과 지급은 이날 오후 6시 마감되며, 기한 내 신청하지 않으면 고유가 피해지원금을 받을 수 없다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다."
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "고유가 피해지원금, 온·오프라인 신청과 지급은 이날 오후 6시 마감되며, 기한 내 신청하지 않으면 고유가 피해지원금을 받을 수 없다.",
+            "evidence_type": "paragraph",
+            "reason": "유통사업처는 알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다."
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "4a843d81d0d9c5b1",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "4a843d81d0d9c5b1",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "공공기관 관련 기사로 석유공사와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "강원 동해시는 오는 9일까지 '청년채움 고용장려금 지원사업' 참여 기업을 모집한다고 3일 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "기획예산처는 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당한다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "4a843d81d0d9c5b1",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "공공기관 관련 기사로 석유공사와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "강원 동해시는 오는 9일까지 '청년채움 고용장려금 지원사업' 참여 기업을 모집한다고 3일 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "기획예산처는 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당한다."
+          }
+        ]
+      }
+    }
+  ]
+}
