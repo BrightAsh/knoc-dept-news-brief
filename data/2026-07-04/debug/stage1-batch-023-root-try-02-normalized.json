@@ -1,0 +1,170 @@
+{
+  "raw_result_count": 6,
+  "accepted_result_count": 6,
+  "normalization": [
+    {
+      "article_id": "666ccb97ea371d20",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "666ccb97ea371d20",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "666ccb97ea371d20",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "09a36598f3d22561",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "09a36598f3d22561",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "석유 관련 키워드(휘발유, 주유소) 언급",
+        "departments": [
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "stage0_keyword_hits"
+            ],
+            "evidence_text": "휘발유, 주유소",
+            "evidence_type": "keyword",
+            "reason": "유통사업처는 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 담당"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "09a36598f3d22561",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "석유 관련 키워드(휘발유, 주유소) 언급",
+        "departments": [
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "stage0_keyword_hits"
+            ],
+            "evidence_text": "휘발유, 주유소",
+            "evidence_type": "article",
+            "reason": "유통사업처는 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 담당"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "9409a79ed356df01",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "9409a79ed356df01",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "9409a79ed356df01",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "d41b847b92d757e6",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "d41b847b92d757e6",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "에너지 관련 키워드 언급",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "stage0_keyword_hits"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "keyword",
+            "reason": "저탄소추진처는 CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업 담당"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "d41b847b92d757e6",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "에너지 관련 키워드 언급",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "stage0_keyword_hits"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "article",
+            "reason": "저탄소추진처는 CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업 담당"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "7ad9d6b3fe72e70d",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "7ad9d6b3fe72e70d",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "7ad9d6b3fe72e70d",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "53b698eb9ac2fe75",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "53b698eb9ac2fe75",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "53b698eb9ac2fe75",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    }
+  ]
+}

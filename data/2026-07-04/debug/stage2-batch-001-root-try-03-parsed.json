@@ -1,0 +1,100 @@
+{
+  "results": [
+    {
+      "article_id": "2d680d2946137a14",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "석유 가격 관련 기사로 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+      "review_note": "C 그룹으로 1차 분류된 기사로 유통사업처와 스마트데이터센터 관련 내용이 있음",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s5"
+          ],
+          "evidence_text": "4일 한국석유공사 유가정보시스템 오피넷에 따르면 7월 첫째 주(6월 28일∼7월 2일) 전국 주유소 휘발유 평균 판매가는 지난주보다 리터(ℓ)당 55.7원 내린 1952.1원이었다.",
+          "evidence_type": "body_paragraph",
+          "reason": "석유유통과 관련된 가격 정보 제공은 유통사업처의 업무"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s5"
+          ],
+          "evidence_text": "4일 한국석유공사 유가정보시스템 오피넷에 따르면 7월 첫째 주(6월 28일∼7월 2일) 전국 주유소 휘발유 평균 판매가는 지난주보다 리터(ℓ)당 55.7원 내린 1952.1원이었다.",
+          "evidence_type": "body_paragraph",
+          "reason": "석유 가격 정보는 스마트데이터센터의 유가 정보 서비스와 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "dce5588ac5a43cdb",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "정유 관련 키워드 언급이지만 기사 내용이 석유공사 업무와 직접 관련이 없음",
+      "review_note": "C 그룹으로 1차 분류되었지만 기사 내용이 공사 업무와 관련이 없어 최종 제외",
+      "departments": []
+    },
+    {
+      "article_id": "00b21bd4eca9084c",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "에너지 관련 키워드 언급이지만 기사 내용이 석유공사 업무와 직접 관련이 없음",
+      "review_note": "C 그룹으로 1차 분류되었지만 기사 내용이 공사 업무와 관련이 없어 최종 제외",
+      "departments": []
+    },
+    {
+      "article_id": "6c95b55a3af7797b",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "LPG 언급으로 인해 석유공사와 관련 가능성이 있지만 기사 내용이 공사 업무와 직접 관련이 없음",
+      "review_note": "C 그룹으로 1차 분류되었지만 기사 내용이 공사 업무와 관련이 없어 최종 제외",
+      "departments": []
+    },
+    {
+      "article_id": "64e49f07353f13a7",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사 제목에 유가 관련 키워드가 포함되어 있지만 기사 내용이 석유공사 업무와 직접 관련이 없음",
+      "review_note": "C 그룹으로 1차 분류되었지만 기사 내용이 공사 업무와 관련이 없어 최종 제외",
+      "departments": []
+    },
+    {
+      "article_id": "09a36598f3d22561",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "석유 관련 키워드(휘발유, 주유소) 언급으로 유통사업처와 관련",
+      "review_note": "C 그룹으로 1차 분류된 기사로 유통사업처 관련 내용이 있음",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "stage0_keyword_hits"
+          ],
+          "evidence_text": "휘발유, 주유소",
+          "evidence_type": "article",
+          "reason": "유통사업처는 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 담당"
+        }
+      ]
+    },
+    {
+      "article_id": "ef7bad95438cf434",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "에너지 관련 키워드 언급이지만 기사 내용이 석유공사 업무와 직접 관련이 없음",
+      "review_note": "C 그룹으로 1차 분류되었지만 기사 내용이 공사 업무와 관련이 없어 최종 제외",
+      "departments": []
+    },
+    {
+      "article_id": "3e635d961b1aa4bf",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "에너지 관련 키워드 언급이지만 기사 내용이 석유공사 업무와 직접 관련이 없음",
+      "review_note": "C 그룹으로 1차 분류되었지만 기사 내용이 공사 업무와 관련이 없어 최종 제외",
+      "departments": []
+    }
+  ]
+}

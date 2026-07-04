@@ -1,0 +1,703 @@
+{
+  "target_date": "2026-07-04",
+  "generated_at": "2026-07-04T16:14:22.371Z",
+  "analyzer": "stage1-llm",
+  "enabled": true,
+  "provider": "groq",
+  "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "status": "ok",
+  "requested_article_count": 358,
+  "analyzed_article_count": 358,
+  "batch_size": 16,
+  "errors": [],
+  "warnings": [
+    "stage1-batch-001-root-try-01 returned 0 raw results and 0 normalized results.",
+    "stage1-batch-002-root-try-01 returned 0 raw results and 0 normalized results.",
+    "stage1-batch-003-root-try-01 returned 0 raw results and 0 normalized results.",
+    "stage1-batch-004-root-try-01 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 10s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 3s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-005-root-try-03 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 11s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 3s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-006-root-try-03 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 10s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 3s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-008-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 14s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-009-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-010-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-011-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 14s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 3s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-013-root-try-03 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 16s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-014-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 14s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 31s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-016-root-try-03 returned 0 raw results and 0 normalized results.",
+    "stage1-batch-017-root-try-01 returned 0 raw results and 0 normalized results.",
+    "stage1-batch-018-root-try-01 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-020-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 13s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "stage1-batch-021-root-try-02 returned 0 raw results and 0 normalized results.",
+    "Retry batch after LLM rate limit in 12s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 9s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300"
+  ],
+  "results": [
+    {
+      "article_id": "200868eb7ccee1bd",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "에너지 관련 언급이 있어 한국석유공사와 관련 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "하준경 청와대 경제성장수석이 정부의 3대 메가 프로젝트에 대해 \"옛날의 산업화와 비견될 만한 규모\"라고 말했다.",
+          "evidence_type": "article",
+          "reason": "에너지 관련 정책 언급으로 인해 전략 부서와 관련 가능성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "dd1183dad4ec3b45",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "에너지 관련 언급이 있어 한국석유공사와 관련 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "하준경 청와대 경제성장수석이 정부의 3대 메가 프로젝트에 대해 \"옛날의 산업화와 비견될 만한 규모\"라고 말했다.",
+          "evidence_type": "article",
+          "reason": "에너지 관련 정책 언급으로 인해 전략 부서와 관련 가능성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "6c95b55a3af7797b",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "LPG 언급으로 인해 한국석유공사와 관련 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "'유산→임신' 김서연♥로빈, 아기 심장소리에 '울컥' \"갑상선 저하증 진단..문제 없어\"(로부부)",
+          "evidence_type": "article",
+          "reason": "LPG 관련 언급으로 인해 석유사업처와 관련 가능성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "e0cc147df25b6990",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "8117e5bd7596f489",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "81724a0735ff1c5f",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "43e2ef0829dc3d87",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "13502defb86eb4b1",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2847e0cb6f1fe6f1",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "017de2c461d5db37",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "162ac7f9bc4aae04",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "54e99295f6cc36c1",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "37d952c2bc76984e",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "a84a534fa78f66a5",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "a8fc5de83a48f02a",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "a3ac3bdf6eee9bc0",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "160e37a5412b460b",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c87e1c256ae47cd1",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "a7446801228e810b",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "64e49f07353f13a7",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "기사 제목에 유가 관련 키워드가 포함되어 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "정보통신망법 시행에…주진우 “국민 입틀막법…헌법소송 나설 것”",
+          "evidence_type": "article",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "정보통신망법 시행에…주진우 “국민 입틀막법…헌법소송 나설 것”",
+          "evidence_type": "article",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "d94bd9d5ff7a4c8c",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "스포츠 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "e2b1c8d5a6cb333c",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "스포츠 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "bff8542dda5909f6",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "정치 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "c1b42530e36ccb09",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "일반 뉴스 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "6959ecdb92c223e0",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "일반 뉴스 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "a2e8bb472077d87b",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "사회 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "452bfe1762b34bc6",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "일반 뉴스 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "3d7d3c14dbace04b",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "일반 뉴스 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "4c0ee00c8ecfe20d",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "건강 관련 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "5e5eb4c0cc2a0959",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "건강 관련 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "a4aa6b23cc6b1cfc",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "문화 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "ebfce5aef5b5f886",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "정치 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "5297ddb7343e76be",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "정치 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "9053fd15f55ca8a1",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "정치 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "a8d0531d0f953efd",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "건강 관련 기사로 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "2d680d2946137a14",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 가격 관련 기사로 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "주유소 휘발윳값 한주 새 56원 내려 1952원…경유 1940원대",
+          "evidence_type": "article",
+          "reason": "석유유통과 관련된 가격 정보 제공은 유통사업처의 업무"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "주유소 휘발윳값 한주 새 56원 내려 1952원…경유 1940원대",
+          "evidence_type": "article",
+          "reason": "석유 가격 정보는 스마트데이터센터의 유가 정보 서비스와 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "cc92241481eedc95",
+      "candidate": false,
+      "confidence": 0.2,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "a307dd422604009d",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "에너지 언급 있지만 구체적인 관련 내용 없음",
+      "departments": []
+    },
+    {
+      "article_id": "738afb180f7ec0d8",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "산업부 언급 있지만 구체적인 관련 내용 없음",
+      "departments": []
+    },
+    {
+      "article_id": "eb3ce84dcbac5dcd",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "5eb0705d541c6683",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "dcc05facb4e2794f",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "0ba0843714dceb99",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "a0f1de933565187b",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "369e093fb914a376",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "25323d9ef3923419",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "e5d14b72b8b2d16a",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "e74dd5f3d3e77a4b",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "ba2f5466643b04d7",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "08aa7bf885e32cfa",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "기사 내용이 한국석유공사와 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "a09923b2ad50dcec",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "2ffb059fda727389",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "00b21bd4eca9084c",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 키워드 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "AI 쏠림에 지친 투자자들…“美보다 ‘평화배당’ 큰 유럽 증시 뜬다”",
+          "evidence_type": "article",
+          "reason": "에너지 관련 시장 동향 분석"
+        }
+      ]
+    },
+    {
+      "article_id": "0bf3e35833bc08bb",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "adcc6c90bf03430c",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e895cf9e2e0ac437",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "e2d0476145f53244",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "decbaba60e2d7ef8",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "289913611a6c4f3d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "a840b85ceccaabd5",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "a9172507d3018189",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "ef7bad95438cf434",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지 관련 키워드 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "“호남 반도체팹 유력 후보지”…이 동네 부동산 벌써 뛰고있다",
+          "evidence_type": "article",
+          "reason": "에너지 관련 시장 동향 분석"
+        }
+      ]
+    },
+    {
+      "article_id": "3e635d961b1aa4bf",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지 관련 키워드 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "6개월 만에 주가 7배…‘주성’ 회장이 장담한 반도체 신기술",
+          "evidence_type": "article",
+          "reason": "에너지 관련 시장 동향 분석"
+        }
+      ]
+    },
+    {
+      "article_id": "e2acb0763f228df8",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "ff16ff36d7557ba4",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "dce5588ac5a43cdb",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "정유 관련 키워드 언급",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "술집 여자에 3억 뜯겼다…‘공사’ 당한 유부남의 복수",
+          "evidence_type": "article",
+          "reason": "석유사업 전략 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "666ccb97ea371d20",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "09a36598f3d22561",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "석유 관련 키워드(휘발유, 주유소) 언급",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "stage0_keyword_hits"
+          ],
+          "evidence_text": "휘발유, 주유소",
+          "evidence_type": "article",
+          "reason": "유통사업처는 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 담당"
+        }
+      ]
+    },
+    {
+      "article_id": "9409a79ed356df01",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "d41b847b92d757e6",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지 관련 키워드 언급",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "stage0_keyword_hits"
+          ],
+          "evidence_text": "에너지",
+          "evidence_type": "article",
+          "reason": "저탄소추진처는 CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업 담당"
+        }
+      ]
+    },
+    {
+      "article_id": "7ad9d6b3fe72e70d",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "53b698eb9ac2fe75",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "",
+      "departments": []
+    }
+  ],
+  "candidate_count": 11,
+  "rejected_count": 61
+}

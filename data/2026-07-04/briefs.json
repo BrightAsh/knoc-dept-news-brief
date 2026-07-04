@@ -1,0 +1,381 @@
+{
+  "target_date": "2026-07-04",
+  "generated_at": "2026-07-04T16:22:01.996Z",
+  "analyzer": "knoc-two-pass-llm-v1",
+  "input_article_count": 358,
+  "relevant_article_count": 2,
+  "relevant_department_count": 2,
+  "pipeline": {
+    "stage0": {
+      "analyzer": "stage0-keyword-router-v1",
+      "keyword_hit_count": 26,
+      "keyword_miss_count": 332
+    },
+    "stage1": {
+      "enabled": true,
+      "status": "ok",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 358,
+      "analyzed_article_count": 358,
+      "candidate_count": 11,
+      "rejected_count": 61,
+      "warning_count": 39,
+      "error_count": 0
+    },
+    "stage2": {
+      "enabled": true,
+      "status": "ok",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 72,
+      "analyzed_article_count": 72,
+      "final_relevant_count": 2,
+      "final_rejected_count": 69,
+      "warning_count": 13,
+      "error_count": 0
+    }
+  },
+  "overall": {
+    "id": "overall",
+    "label": "전체",
+    "source": "llm",
+    "analysis_stage": "stage2",
+    "fallback_used": false,
+    "article_count": 2,
+    "item_count": 2,
+    "items": [
+      {
+        "id": "e325eb6decb7da9d",
+        "article_id": "2d680d2946137a14",
+        "publisher": "중앙일보",
+        "title": "주유소 휘발윳값 한주 새 56원 내려 1952원…경유 1940원대",
+        "url": "https://www.joongang.co.kr/article/25442387",
+        "published_at": "2026-07-04T00:05:21.000Z",
+        "score": 0.9,
+        "segment_text": "석유 가격 관련 기사로 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+        "reason": "석유 가격 관련 기사로 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로 유통사업처와 스마트데이터센터 관련 내용이 있음",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.95,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "e8949f81e3d994d3",
+        "article_id": "09a36598f3d22561",
+        "publisher": "중앙일보",
+        "title": "트럼프 ‘가상화폐 대박’ 논란에…美재무장관 “보이는 문제 없다”",
+        "url": "https://www.joongang.co.kr/article/25442361",
+        "published_at": "2026-07-03T17:11:19.000Z",
+        "score": 0.7,
+        "segment_text": "석유 관련 키워드(휘발유, 주유소) 언급으로 유통사업처와 관련",
+        "reason": "석유 관련 키워드(휘발유, 주유소) 언급으로 유통사업처와 관련",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사로 유통사업처 관련 내용이 있음",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_review": {
+    "enabled": true,
+    "status": "ok",
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "analyzed_article_count": 72,
+    "brief_source_stage": "stage2",
+    "fallback_used": false,
+    "stages": {
+      "stage1": {
+        "enabled": true,
+        "status": "ok",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 358,
+        "analyzed_article_count": 358,
+        "candidate_count": 11,
+        "rejected_count": 61,
+        "warning_count": 39,
+        "error_count": 0
+      },
+      "stage2": {
+        "enabled": true,
+        "status": "ok",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 72,
+        "analyzed_article_count": 72,
+        "final_relevant_count": 2,
+        "final_rejected_count": 69,
+        "warning_count": 13,
+        "error_count": 0
+      }
+    }
+  },
+  "departments": [
+    {
+      "department_id": "secretariat",
+      "department": "비서팀",
+      "role": "사장 일정, 의전, 대내외 메시지, 지시사항 이행과 대외 접점 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "she",
+      "department": "SHE추진실",
+      "role": "전사 안전, 보건, 환경, 재난 대응, 중대재해 예방과 안전보건환경 관리체계를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "audit",
+      "department": "감사실",
+      "role": "감사계획과 감사 수행, 내부통제, 일상감사, 부패·비위 점검, 청렴 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "legal",
+      "department": "법무팀",
+      "role": "국내외 송무, 계약과 사업의 법률 검토, 규제 대응, 분쟁 대응, 지식재산권 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "planning_budget",
+      "department": "기획예산처",
+      "role": "이사회, 국회, 정부 대응, 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "strategy",
+      "department": "경영전략처",
+      "role": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "finance",
+      "department": "재무처",
+      "role": "자금 조달과 상환, 자금 집행, 결산, 세무, 환율·금리·부채 등 재무 리스크 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "esg",
+      "department": "ESG경영처",
+      "role": "ESG 경영, 윤리·인권, 사회공헌, 동반성장, 상생, 내부통제 지원 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "infosec",
+      "department": "정보보안팀",
+      "role": "정보보안 정책과 운영, 개인정보보호, 사이버 침해 대응, 정보유출 예방 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "general_affairs",
+      "department": "총무처",
+      "role": "문서와 기록물, 자산, 사옥, 숙소, 조달계약, 구매, 시설관리, 비상대비 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hr",
+      "department": "인재경영처",
+      "role": "조직, 인사, 채용, 평가, 교육훈련, 급여, 복리후생, 노사관계와 인력 운영을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "smart_data",
+      "department": "스마트데이터센터",
+      "role": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "9a66fae73879f748",
+          "article_id": "2d680d2946137a14",
+          "publisher": "중앙일보",
+          "title": "주유소 휘발윳값 한주 새 56원 내려 1952원…경유 1940원대",
+          "url": "https://www.joongang.co.kr/article/25442387",
+          "published_at": "2026-07-04T00:05:21.000Z",
+          "score": 0.8,
+          "segment_text": "4일 한국석유공사 유가정보시스템 오피넷에 따르면 7월 첫째 주(6월 28일∼7월 2일) 전국 주유소 휘발유 평균 판매가는 지난주보다 리터(ℓ)당 55.7원 내린 1952.1원이었다.",
+          "reason": "석유 가격 정보는 스마트데이터센터의 유가 정보 서비스와 관련",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s5"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로 유통사업처와 스마트데이터센터 관련 내용이 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "asia_business",
+      "department": "아시아사업처",
+      "role": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "americas_europe_business",
+      "department": "미주/유럽사업처",
+      "role": "미주와 유럽 지역 E&P 사업, 해외광구, Capex/Opex, 사업 손익, 자금수지 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "domestic_business_development",
+      "department": "국내사업개발처",
+      "role": "국내 자원개발 사업, 국내 대륙붕, 가스전, 탐사·시추, 신규 국내 사업개발을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "low_carbon",
+      "department": "저탄소추진처",
+      "role": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "global_technology_center",
+      "department": "글로벌기술센터",
+      "role": "E&P 기술지원, 지질·저류층·시추 기술, 기술전략, 연구개발, 기술자료와 기술평가를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "stockpiling",
+      "department": "석유비축처",
+      "role": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "petroleum_business",
+      "department": "석유사업처",
+      "role": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "distribution_business",
+      "department": "유통사업처",
+      "role": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+      "article_count": 2,
+      "segment_count": 2,
+      "items": [
+        {
+          "id": "241382587a2b4e0a",
+          "article_id": "2d680d2946137a14",
+          "publisher": "중앙일보",
+          "title": "주유소 휘발윳값 한주 새 56원 내려 1952원…경유 1940원대",
+          "url": "https://www.joongang.co.kr/article/25442387",
+          "published_at": "2026-07-04T00:05:21.000Z",
+          "score": 0.95,
+          "segment_text": "4일 한국석유공사 유가정보시스템 오피넷에 따르면 7월 첫째 주(6월 28일∼7월 2일) 전국 주유소 휘발유 평균 판매가는 지난주보다 리터(ℓ)당 55.7원 내린 1952.1원이었다.",
+          "reason": "석유유통과 관련된 가격 정보 제공은 유통사업처의 업무",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s5"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로 유통사업처와 스마트데이터센터 관련 내용이 있음"
+        },
+        {
+          "id": "1ce6a7c14d56dc9e",
+          "article_id": "09a36598f3d22561",
+          "publisher": "중앙일보",
+          "title": "트럼프 ‘가상화폐 대박’ 논란에…美재무장관 “보이는 문제 없다”",
+          "url": "https://www.joongang.co.kr/article/25442361",
+          "published_at": "2026-07-03T17:11:19.000Z",
+          "score": 0.9,
+          "segment_text": "휘발유, 주유소",
+          "reason": "유통사업처는 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 담당",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "stage0_keyword_hits"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사로 유통사업처 관련 내용이 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "energy_infra",
+      "department": "에너지인프라사업처",
+      "role": "에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hydrogen_ammonia",
+      "department": "수소암모니아사업단",
+      "role": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    }
+  ]
+}
