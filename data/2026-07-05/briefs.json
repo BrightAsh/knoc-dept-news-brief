@@ -1,0 +1,904 @@
+{
+  "target_date": "2026-07-05",
+  "generated_at": "2026-07-05T16:30:14.932Z",
+  "analyzer": "knoc-two-pass-llm-v1",
+  "input_article_count": 426,
+  "relevant_article_count": 11,
+  "relevant_department_count": 4,
+  "pipeline": {
+    "stage0": {
+      "analyzer": "stage0-keyword-router-v1",
+      "keyword_hit_count": 64,
+      "keyword_miss_count": 362
+    },
+    "stage1": {
+      "enabled": true,
+      "status": "partial",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 426,
+      "analyzed_article_count": 394,
+      "candidate_count": 27,
+      "rejected_count": 104,
+      "warning_count": 36,
+      "error_count": 2
+    },
+    "stage2": {
+      "enabled": true,
+      "status": "ok",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 131,
+      "analyzed_article_count": 131,
+      "final_relevant_count": 14,
+      "final_rejected_count": 113,
+      "warning_count": 17,
+      "error_count": 0
+    }
+  },
+  "overall": {
+    "id": "overall",
+    "label": "전체",
+    "source": "llm",
+    "analysis_stage": "stage2",
+    "fallback_used": false,
+    "article_count": 11,
+    "item_count": 11,
+    "items": [
+      {
+        "id": "8750a65afbb89d2f",
+        "article_id": "2e9ecc27ca1d6986",
+        "publisher": "경향신문",
+        "title": "OPEC+, 5개월 연속 증산 합의···“내년에는 과잉 공급 예상”",
+        "url": "https://www.khan.co.kr/article/202607052115001/",
+        "published_at": "2026-07-05T12:15:00.000Z",
+        "score": 0.95,
+        "segment_text": "OPEC+의 석유 생산량 목표 확대 관련 기사로 한국석유공사의 석유사업과 관련이 있습니다.",
+        "reason": "OPEC+의 석유 생산량 목표 확대 관련 기사로 한국석유공사의 석유사업과 관련이 있습니다.",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.95,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "cd688ba98c4f9bc6",
+        "article_id": "032b9db284decc30",
+        "publisher": "경향신문",
+        "title": "OPEC+, 5개월 연속 증산 합의···“내년에는 과잉 공급 예상”",
+        "url": "https://www.khan.co.kr/article/202607052115001",
+        "published_at": "2026-07-05T12:15:00.000Z",
+        "score": 0.9,
+        "segment_text": "OPEC+의 석유 생산량 목표 확대 관련 기사로 한국석유공사의 석유사업과 관련이 있습니다.",
+        "reason": "OPEC+의 석유 생산량 목표 확대 관련 기사로 한국석유공사의 석유사업과 관련이 있습니다.",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.95,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "369fe3488e83233a",
+        "article_id": "63fde0574f82aef6",
+        "publisher": "한겨레",
+        "title": "“신상 아이폰은 그림의 떡”…칩플레이션·고환율 이중고",
+        "url": "https://www.hani.co.kr/arti/economy/economy_general/1266783.html",
+        "published_at": "2026-07-05T06:47:00.000Z",
+        "score": 0.9,
+        "segment_text": "석유, 유가, 국제유가 관련 이슈로 한국석유공사의 사업과 관련이 있습니다.",
+        "reason": "석유, 유가, 국제유가 관련 이슈로 한국석유공사의 사업과 관련이 있습니다.",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "7e24104c56a3cf1f",
+        "article_id": "c0cc77f486254b6b",
+        "publisher": "경향신문",
+        "title": "서남권 반도체 ‘속도전’에…안전성 검증 안 된 ‘SMR 띄우기’",
+        "url": "https://www.khan.co.kr/article/202607052136015",
+        "published_at": "2026-07-05T12:36:01.000Z",
+        "score": 0.88,
+        "segment_text": "에너지 관련 정책 및 사업과 관련이 있음",
+        "reason": "에너지 관련 정책 및 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 분류된 기사로, 에너지 관련 정책 및 사업과 관련이 있으므로 최종적으로 포함",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "ffbb7b8608fd7bee",
+        "article_id": "8c9b43ab396ca229",
+        "publisher": "경향신문",
+        "title": "서남권 반도체 클러스터 ‘속도전’ 키워드 된 SMR…제도 뒷받침·안전 보장이 관건",
+        "url": "https://www.khan.co.kr/article/202607051554001",
+        "published_at": "2026-07-05T06:54:00.000Z",
+        "score": 0.88,
+        "segment_text": "에너지 관련 정책 및 사업과 관련이 있음",
+        "reason": "에너지 관련 정책 및 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 분류된 기사로, 에너지 관련 정책 및 사업과 관련이 있으므로 최종적으로 포함",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "f7a9fdff9b0336e3",
+        "article_id": "61751989ce06d75d",
+        "publisher": "경향신문",
+        "title": "서남권 반도체 ‘속도전’에…안전성 검증 안 된 ‘SMR 띄우기’",
+        "url": "https://www.khan.co.kr/article/202607052136015/",
+        "published_at": "2026-07-05T12:36:01.000Z",
+        "score": 0.8,
+        "segment_text": "에너지 관련 정책 및 사업과 관련이 있음",
+        "reason": "에너지 관련 정책 및 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 에너지 관련 내용이 한국석유공사의 저탄소 추진 업무와 관련이 있음",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "e11af117887a7a47",
+        "article_id": "702b79a83c7923df",
+        "publisher": "경향신문",
+        "title": "2026 부산모빌리티쇼, 확 달라진 아반떼·맞춤 기능 PV5…기술력에 가성비 ‘DMi’",
+        "url": "https://www.khan.co.kr/article/202607052054005",
+        "published_at": "2026-07-05T11:54:00.000Z",
+        "score": 0.8,
+        "segment_text": "수소 관련 언급으로 에너지 전환 사업과 관련성이 있음",
+        "reason": "수소 관련 언급으로 에너지 전환 사업과 관련성이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 수소 관련 내용이 한국석유공사의 저탄소 추진 업무와 관련이 있음",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "aaac90ca68f45d36",
+        "article_id": "5dd5ef9b6a097b9f",
+        "publisher": "경향신문",
+        "title": "2026 부산모빌리티쇼, 확 달라진 아반떼·맞춤 기능 PV5…기술력에 가성비 ‘DMi’",
+        "url": "https://www.khan.co.kr/article/202607052054005/",
+        "published_at": "2026-07-05T11:54:00.000Z",
+        "score": 0.8,
+        "segment_text": "수소 관련 언급으로 에너지 전환 사업과 관련성이 있음",
+        "reason": "수소 관련 언급으로 에너지 전환 사업과 관련성이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 분류된 기사로, 수소 관련 언급으로 에너지 전환 사업과 관련성이 있으므로 최종적으로 포함",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "81c89b455dc00c3b",
+        "article_id": "7434f61e9daab1cd",
+        "publisher": "한겨레",
+        "title": "미국 250살 생일, 아수라장 돼도…트럼프 기어이 “멸공”",
+        "url": "https://www.hani.co.kr/arti/international/america/1266785.html",
+        "published_at": "2026-07-05T07:00:00.000Z",
+        "score": 0.8,
+        "segment_text": "정유 관련 언급이 있어 에너지 안보와 관련이 있음",
+        "reason": "정유 관련 언급이 있어 에너지 안보와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 정유 관련 내용이 한국석유공사의 석유사업 전략과 관련이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "cc1fbb02c7734591",
+        "article_id": "a5a96ad07b18eee3",
+        "publisher": "중앙일보",
+        "title": "러시아·이란·북한, 제재 회피 위한 암호화폐 사용 급증…지난해만 153조원 규모",
+        "url": "https://www.joongang.co.kr/article/25442505",
+        "published_at": "2026-07-05T06:40:49.000Z",
+        "score": 0.8,
+        "segment_text": "석유, 원유 관련 이슈로 한국석유공사의 사업과 관련이 있습니다.",
+        "reason": "석유, 원유 관련 이슈로 한국석유공사의 사업과 관련이 있습니다.",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "c7a736bac73e5720",
+        "article_id": "dd23ebe22edb093b",
+        "publisher": "중앙일보",
+        "title": "“에어컨 25.6도” 당부했다가…“공산주의자” 역풍 맞은 뉴욕 시장",
+        "url": "https://www.joongang.co.kr/article/25442508",
+        "published_at": "2026-07-05T06:50:58.000Z",
+        "score": 0.7,
+        "segment_text": "유가, 에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+        "reason": "유가, 에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 유가 관련 내용이 한국석유공사의 석유사업 전략과 관련이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_review": {
+    "enabled": true,
+    "status": "ok",
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "analyzed_article_count": 131,
+    "brief_source_stage": "stage2",
+    "fallback_used": false,
+    "stages": {
+      "stage1": {
+        "enabled": true,
+        "status": "partial",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 426,
+        "analyzed_article_count": 394,
+        "candidate_count": 27,
+        "rejected_count": 104,
+        "warning_count": 36,
+        "error_count": 2
+      },
+      "stage2": {
+        "enabled": true,
+        "status": "ok",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 131,
+        "analyzed_article_count": 131,
+        "final_relevant_count": 14,
+        "final_rejected_count": 113,
+        "warning_count": 17,
+        "error_count": 0
+      }
+    }
+  },
+  "departments": [
+    {
+      "department_id": "secretariat",
+      "department": "비서팀",
+      "role": "사장 일정, 의전, 대내외 메시지, 지시사항 이행과 대외 접점 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "she",
+      "department": "SHE추진실",
+      "role": "전사 안전, 보건, 환경, 재난 대응, 중대재해 예방과 안전보건환경 관리체계를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "audit",
+      "department": "감사실",
+      "role": "감사계획과 감사 수행, 내부통제, 일상감사, 부패·비위 점검, 청렴 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "legal",
+      "department": "법무팀",
+      "role": "국내외 송무, 계약과 사업의 법률 검토, 규제 대응, 분쟁 대응, 지식재산권 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "planning_budget",
+      "department": "기획예산처",
+      "role": "이사회, 국회, 정부 대응, 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "strategy",
+      "department": "경영전략처",
+      "role": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+      "article_count": 3,
+      "segment_count": 3,
+      "items": [
+        {
+          "id": "0225d1e618db0352",
+          "article_id": "61751989ce06d75d",
+          "publisher": "경향신문",
+          "title": "서남권 반도체 ‘속도전’에…안전성 검증 안 된 ‘SMR 띄우기’",
+          "url": "https://www.khan.co.kr/article/202607052136015/",
+          "published_at": "2026-07-05T12:36:01.000Z",
+          "score": 0.7,
+          "segment_text": "서남권 반도체 ‘속도전’에…안전성 검증 안 된 ‘SMR 띄우기’",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 에너지 관련 내용이 한국석유공사의 저탄소 추진 업무와 관련이 있음"
+        },
+        {
+          "id": "7c713621403ef9c8",
+          "article_id": "c0cc77f486254b6b",
+          "publisher": "경향신문",
+          "title": "서남권 반도체 ‘속도전’에…안전성 검증 안 된 ‘SMR 띄우기’",
+          "url": "https://www.khan.co.kr/article/202607052136015",
+          "published_at": "2026-07-05T12:36:01.000Z",
+          "score": 0.7,
+          "segment_text": "서남권 반도체 클러스터 ‘속도전’에…안전성 검증 안 된 ‘SMR 띄우기’",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 에너지 관련 정책 및 사업과 관련이 있으므로 최종적으로 포함"
+        },
+        {
+          "id": "3ab8c2549d24768f",
+          "article_id": "8c9b43ab396ca229",
+          "publisher": "경향신문",
+          "title": "서남권 반도체 클러스터 ‘속도전’ 키워드 된 SMR…제도 뒷받침·안전 보장이 관건",
+          "url": "https://www.khan.co.kr/article/202607051554001",
+          "published_at": "2026-07-05T06:54:00.000Z",
+          "score": 0.7,
+          "segment_text": "서남권 반도체 클러스터 ‘속도전’ 키워드 된 SMR…제도 뒷받침·안전 보장이 관건",
+          "reason": "경영전략처는 경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 에너지 관련 정책 및 사업과 관련이 있으므로 최종적으로 포함"
+        }
+      ]
+    },
+    {
+      "department_id": "finance",
+      "department": "재무처",
+      "role": "자금 조달과 상환, 자금 집행, 결산, 세무, 환율·금리·부채 등 재무 리스크 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "esg",
+      "department": "ESG경영처",
+      "role": "ESG 경영, 윤리·인권, 사회공헌, 동반성장, 상생, 내부통제 지원 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "infosec",
+      "department": "정보보안팀",
+      "role": "정보보안 정책과 운영, 개인정보보호, 사이버 침해 대응, 정보유출 예방 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "general_affairs",
+      "department": "총무처",
+      "role": "문서와 기록물, 자산, 사옥, 숙소, 조달계약, 구매, 시설관리, 비상대비 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hr",
+      "department": "인재경영처",
+      "role": "조직, 인사, 채용, 평가, 교육훈련, 급여, 복리후생, 노사관계와 인력 운영을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "smart_data",
+      "department": "스마트데이터센터",
+      "role": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
+      "article_count": 2,
+      "segment_count": 2,
+      "items": [
+        {
+          "id": "911e44f52518b14b",
+          "article_id": "63fde0574f82aef6",
+          "publisher": "한겨레",
+          "title": "“신상 아이폰은 그림의 떡”…칩플레이션·고환율 이중고",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1266783.html",
+          "published_at": "2026-07-05T06:47:00.000Z",
+          "score": 0.8,
+          "segment_text": "“신상 아이폰은 그림의 떡”…칩플레이션·고환율 이중고",
+          "reason": "스마트데이터센터의 유가·석유가격 정보 담당 역할과 관련이 있습니다.",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 유지"
+        },
+        {
+          "id": "9ad191923b82cd6b",
+          "article_id": "dd23ebe22edb093b",
+          "publisher": "중앙일보",
+          "title": "“에어컨 25.6도” 당부했다가…“공산주의자” 역풍 맞은 뉴욕 시장",
+          "url": "https://www.joongang.co.kr/article/25442508",
+          "published_at": "2026-07-05T06:50:58.000Z",
+          "score": 0.6,
+          "segment_text": "유가, 에너지 관련 이슈",
+          "reason": "스마트데이터센터의 유가·석유가격 정보 담당 역할과 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 유가 관련 내용이 한국석유공사의 석유사업 전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "asia_business",
+      "department": "아시아사업처",
+      "role": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "americas_europe_business",
+      "department": "미주/유럽사업처",
+      "role": "미주와 유럽 지역 E&P 사업, 해외광구, Capex/Opex, 사업 손익, 자금수지 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "domestic_business_development",
+      "department": "국내사업개발처",
+      "role": "국내 자원개발 사업, 국내 대륙붕, 가스전, 탐사·시추, 신규 국내 사업개발을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "low_carbon",
+      "department": "저탄소추진처",
+      "role": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
+      "article_count": 5,
+      "segment_count": 5,
+      "items": [
+        {
+          "id": "d473f7cbcad2f12c",
+          "article_id": "61751989ce06d75d",
+          "publisher": "경향신문",
+          "title": "서남권 반도체 ‘속도전’에…안전성 검증 안 된 ‘SMR 띄우기’",
+          "url": "https://www.khan.co.kr/article/202607052136015/",
+          "published_at": "2026-07-05T12:36:01.000Z",
+          "score": 0.9,
+          "segment_text": "정부 신규 대형 원전 공식화 불구 건설에 최소 7~8년, 임기 내 불가 공기 짧고 비용 낮은 SMR 부상",
+          "reason": "저탄소 추진 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 에너지 관련 내용이 한국석유공사의 저탄소 추진 업무와 관련이 있음"
+        },
+        {
+          "id": "0d1a5b33966e92a4",
+          "article_id": "c0cc77f486254b6b",
+          "publisher": "경향신문",
+          "title": "서남권 반도체 ‘속도전’에…안전성 검증 안 된 ‘SMR 띄우기’",
+          "url": "https://www.khan.co.kr/article/202607052136015",
+          "published_at": "2026-07-05T12:36:01.000Z",
+          "score": 0.9,
+          "segment_text": "정부가 서남권 반도체 클러스터 지원을 위한 신규 대형 원전 건설 방침을 사실상 못 박았다.",
+          "reason": "저탄소추진처는 에너지전환, 저탄소 신규사업을 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 에너지 관련 정책 및 사업과 관련이 있으므로 최종적으로 포함"
+        },
+        {
+          "id": "a81b0a2779e2e0c6",
+          "article_id": "702b79a83c7923df",
+          "publisher": "경향신문",
+          "title": "2026 부산모빌리티쇼, 확 달라진 아반떼·맞춤 기능 PV5…기술력에 가성비 ‘DMi’",
+          "url": "https://www.khan.co.kr/article/202607052054005",
+          "published_at": "2026-07-05T11:54:00.000Z",
+          "score": 0.9,
+          "segment_text": "수소",
+          "reason": "저탄소 추진 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 수소 관련 내용이 한국석유공사의 저탄소 추진 업무와 관련이 있음"
+        },
+        {
+          "id": "940a03d549251f6a",
+          "article_id": "5dd5ef9b6a097b9f",
+          "publisher": "경향신문",
+          "title": "2026 부산모빌리티쇼, 확 달라진 아반떼·맞춤 기능 PV5…기술력에 가성비 ‘DMi’",
+          "url": "https://www.khan.co.kr/article/202607052054005/",
+          "published_at": "2026-07-05T11:54:00.000Z",
+          "score": 0.9,
+          "segment_text": "수소",
+          "reason": "저탄소 추진 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 수소 관련 언급으로 에너지 전환 사업과 관련성이 있으므로 최종적으로 포함"
+        },
+        {
+          "id": "fa9a7d539631d067",
+          "article_id": "8c9b43ab396ca229",
+          "publisher": "경향신문",
+          "title": "서남권 반도체 클러스터 ‘속도전’ 키워드 된 SMR…제도 뒷받침·안전 보장이 관건",
+          "url": "https://www.khan.co.kr/article/202607051554001",
+          "published_at": "2026-07-05T06:54:00.000Z",
+          "score": 0.9,
+          "segment_text": "정부가 서남권 반도체 클러스터 지원을 위한 신규 대형 원전 건설 방침을 사실상 못 박았다.",
+          "reason": "저탄소추진처는 에너지전환, 저탄소 신규사업을 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 에너지 관련 정책 및 사업과 관련이 있으므로 최종적으로 포함"
+        }
+      ]
+    },
+    {
+      "department_id": "global_technology_center",
+      "department": "글로벌기술센터",
+      "role": "E&P 기술지원, 지질·저류층·시추 기술, 기술전략, 연구개발, 기술자료와 기술평가를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "stockpiling",
+      "department": "석유비축처",
+      "role": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "petroleum_business",
+      "department": "석유사업처",
+      "role": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+      "article_count": 6,
+      "segment_count": 6,
+      "items": [
+        {
+          "id": "8e62ca8b601f6f4c",
+          "article_id": "2e9ecc27ca1d6986",
+          "publisher": "경향신문",
+          "title": "OPEC+, 5개월 연속 증산 합의···“내년에는 과잉 공급 예상”",
+          "url": "https://www.khan.co.kr/article/202607052115001/",
+          "published_at": "2026-07-05T12:15:00.000Z",
+          "score": 0.95,
+          "segment_text": "로이터 통신은 5일 OPEC＋ 회원국들이 이날 화상회의를 열고 8월 석유 생산량을 7월 대비 하루 18만8000배럴 늘리기로 합의했다고 전했습니다.",
+          "reason": "석유 생산량 목표 확대는 한국석유공사의 석유사업 전략과 관련이 있습니다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 유지"
+        },
+        {
+          "id": "2d87c384928a309f",
+          "article_id": "032b9db284decc30",
+          "publisher": "경향신문",
+          "title": "OPEC+, 5개월 연속 증산 합의···“내년에는 과잉 공급 예상”",
+          "url": "https://www.khan.co.kr/article/202607052115001",
+          "published_at": "2026-07-05T12:15:00.000Z",
+          "score": 0.95,
+          "segment_text": "로이터 통신은 5일 OPEC＋ 회원국들이 이날 화상회의를 열고 8월 석유 생산량을 7월 대비 하루 18만8000배럴 늘리기로 합의했다고 전했습니다.",
+          "reason": "석유 생산량 목표 확대는 한국석유공사의 석유사업 전략과 관련이 있습니다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 유지"
+        },
+        {
+          "id": "fbe8ce8688a67c65",
+          "article_id": "7434f61e9daab1cd",
+          "publisher": "한겨레",
+          "title": "미국 250살 생일, 아수라장 돼도…트럼프 기어이 “멸공”",
+          "url": "https://www.hani.co.kr/arti/international/america/1266785.html",
+          "published_at": "2026-07-05T07:00:00.000Z",
+          "score": 0.9,
+          "segment_text": "미국 250살 생일, 아수라장 돼도…트럼프 기어이 “멸공”",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매 담당 역할과 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 정유 관련 내용이 한국석유공사의 석유사업 전략과 관련이 있음"
+        },
+        {
+          "id": "70bc708271b81086",
+          "article_id": "63fde0574f82aef6",
+          "publisher": "한겨레",
+          "title": "“신상 아이폰은 그림의 떡”…칩플레이션·고환율 이중고",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1266783.html",
+          "published_at": "2026-07-05T06:47:00.000Z",
+          "score": 0.9,
+          "segment_text": "최근 국제유가 하락에 정부가 석유 최고가격도 인하했지만, 하반기에도 가계에 미치는 고물가 압박은 당분간 지속할 전망이다.",
+          "reason": "석유사업처의 석유사업 전략, 원유·석유제품·LPG 구매와 판매 담당 역할과 관련이 있습니다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 유지"
+        },
+        {
+          "id": "4df9e556dbf07fd5",
+          "article_id": "a5a96ad07b18eee3",
+          "publisher": "중앙일보",
+          "title": "러시아·이란·북한, 제재 회피 위한 암호화폐 사용 급증…지난해만 153조원 규모",
+          "url": "https://www.joongang.co.kr/article/25442505",
+          "published_at": "2026-07-05T06:40:49.000Z",
+          "score": 0.9,
+          "segment_text": "러시아·이란·북한, 제재 회피 위한 암호화폐 사용 급증…지난해만 153조원 규모",
+          "reason": "석유사업처의 석유사업 전략, 원유·석유제품·LPG 구매와 판매 담당 역할과 관련이 있습니다.",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 유지"
+        },
+        {
+          "id": "7391ae496cdf9168",
+          "article_id": "dd23ebe22edb093b",
+          "publisher": "중앙일보",
+          "title": "“에어컨 25.6도” 당부했다가…“공산주의자” 역풍 맞은 뉴욕 시장",
+          "url": "https://www.joongang.co.kr/article/25442508",
+          "published_at": "2026-07-05T06:50:58.000Z",
+          "score": 0.8,
+          "segment_text": "“에어컨 25.6도” 당부했다가…“공산주의자” 역풍 맞은 뉴욕 시장",
+          "reason": "석유사업처의 석유사업 전략, 원유·석유제품·LPG 구매와 판매 담당 역할과 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 유가 관련 내용이 한국석유공사의 석유사업 전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "distribution_business",
+      "department": "유통사업처",
+      "role": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "energy_infra",
+      "department": "에너지인프라사업처",
+      "role": "에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hydrogen_ammonia",
+      "department": "수소암모니아사업단",
+      "role": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    }
+  ]
+}

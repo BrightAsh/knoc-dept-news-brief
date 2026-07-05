@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "article_id": "a37a560d5118d33b",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "기사에서 언급된 '탐사'와 '유가'가 한국석유공사의 해외자원개발 및 석유사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "미래 화성 탐사차에 장착할 ‘이상한 바퀴’",
+          "evidence_type": "sentence",
+          "reason": "해외자원개발 사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.4,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "미래 화성 탐사차에 장착할 ‘이상한 바퀴’",
+          "evidence_type": "sentence",
+          "reason": "석유사업과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "223006fc74dd2d34",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "기사에서 언급된 '공공기관'이 한국석유공사를 포함할 수 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "법원 “청문감사실 경찰관 이름도 정보공개 대상...알권리 보장”",
+          "evidence_type": "sentence",
+          "reason": "공공기관 운영과 관련이 있을 수 있음"
+        }
+      ]
+    }
+  ]
+}

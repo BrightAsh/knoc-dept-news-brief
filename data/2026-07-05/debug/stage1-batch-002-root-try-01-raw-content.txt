@@ -1,0 +1,39 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "e4bc028017c48b27",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유 관련 이슈로 한국석유공사의 업무와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "예멘 홍해 지나던 화물선…정체불명 무장 괴한에 피격, 석유",
+          "evidence_type": "sentence",
+          "reason": "석유 관련 이슈로 석유사업처의 업무와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "1ece1f393c37cccc",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "유가 관련 언급이지만 정치 이슈로 보임",
+      "departments": []
+    },
+    {
+      "article_id": "195ba9c3084884ad",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "유가 관련 언급이지만 정치 이슈로 보임",
+      "departments": []
+    }
+  ]
+}
+```

@@ -1,0 +1,128 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "e4bc028017c48b27",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "기사에 언급된 내용은 석유 관련 사건이지만, 한국석유공사의 업무와 직접적인 관련이 없어 보입니다.",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "2e9ecc27ca1d6986",
+      "final_relevant": true,
+      "confidence": 0.95,
+      "final_reason": "OPEC+의 석유 생산량 목표 확대 관련 기사로 한국석유공사의 석유사업과 관련이 있습니다.",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "로이터 통신은 5일 OPEC＋ 회원국들이 이날 화상회의를 열고 8월 석유 생산량을 7월 대비 하루 18만8000배럴 늘리기로 합의했다고 전했습니다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 생산량 목표 확대는 한국석유공사의 석유사업 전략과 관련이 있습니다."
+        }
+      ]
+    },
+    {
+      "article_id": "032b9db284decc30",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "OPEC+의 석유 생산량 목표 확대 관련 기사로 한국석유공사의 석유사업과 관련이 있습니다.",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "로이터 통신은 5일 OPEC＋ 회원국들이 이날 화상회의를 열고 8월 석유 생산량을 7월 대비 하루 18만8000배럴 늘리기로 합의했다고 전했습니다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 생산량 목표 확대는 한국석유공사의 석유사업 전략과 관련이 있습니다."
+        }
+      ]
+    },
+    {
+      "article_id": "fc2a732de36995f1",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "기사에 언급된 내용은 석유 및 에너지 관련이지만, 한국석유공사의 업무와 직접적인 관련이 없어 보입니다.",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "63fde0574f82aef6",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "석유, 유가, 국제유가 관련 이슈로 한국석유공사의 사업과 관련이 있습니다.",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "최근 국제유가 하락에 정부가 석유 최고가격도 인하했지만, 하반기에도 가계에 미치는 고물가 압박은 당분간 지속할 전망이다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처의 석유사업 전략, 원유·석유제품·LPG 구매와 판매 담당 역할과 관련이 있습니다."
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "“신상 아이폰은 그림의 떡”…칩플레이션·고환율 이중고",
+          "evidence_type": "article",
+          "reason": "스마트데이터센터의 유가·석유가격 정보 담당 역할과 관련이 있습니다."
+        }
+      ]
+    },
+    {
+      "article_id": "a5a96ad07b18eee3",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "석유, 원유 관련 이슈로 한국석유공사의 사업과 관련이 있습니다.",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "러시아·이란·북한, 제재 회피 위한 암호화폐 사용 급증…지난해만 153조원 규모",
+          "evidence_type": "article",
+          "reason": "석유사업처의 석유사업 전략, 원유·석유제품·LPG 구매와 판매 담당 역할과 관련이 있습니다."
+        }
+      ]
+    },
+    {
+      "article_id": "408b11da81b74c09",
+      "final_relevant": false,
+      "confidence": 0.4,
+      "final_reason": "기사에 언급된 내용은 에너지 관련 이슈로 보이지만, 유가 관련 언급이 명확하지 않아 한국석유공사의 업무와 직접적인 관련이 없어 보입니다.",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "624b06e946d3049b",
+      "final_relevant": false,
+      "confidence": 0.4,
+      "final_reason": "기사에 언급된 내용은 에너지 관련 이슈로 보이지만, 유가 관련 언급이 명확하지 않아 한국석유공사의 업무와 직접적인 관련이 없어 보입니다.",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    }
+  ]
+}
+```

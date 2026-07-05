@@ -1,0 +1,44 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "0097af857ecbfbaa",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 정책 언급으로 인해 한국석유공사와 간접적으로 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "정부가 반도체, 피지컬 인공지능(AI), AI 데이터센터에 대규모로 투자하는 ‘3대 메가 프로젝트’를 뒷받침할 전력 확보에 나섰다. 강훈식 대통령비서실장은 5일 동아일보와의 인터뷰에서 호남권 반도체 클러스터 사업과 관련해 “원전을 포함해 다 검토해야 되는 상황”이라며 “건축 예정 원전은 보통 7∼9년 걸리는데, 기간을 어떻게 줄일지도 논의해야 한다”고 말했다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 정책과 관련하여 원전 추가 건설에 대한 논의가 있어 저탄소추진처와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "933cf31fdcad52da",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "경유 언급으로 인해 석유 관련 정책과 간접적으로 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "살다 보면 예상치 못한, 그러나 다시는 그전으로 돌아갈 수 없는 경험을 하게 되는 경우가 있다. 아니, 그런 적 없다고?",
+          "evidence_type": "paragraph",
+          "reason": "경유와 관련된 내용은 없지만, 석유사업과 관련된 부서로 배정"
+        }
+      ]
+    }
+  ]
+}
+```
