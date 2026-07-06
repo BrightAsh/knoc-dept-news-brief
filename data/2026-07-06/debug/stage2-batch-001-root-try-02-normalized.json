@@ -1,0 +1,512 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "0288ca549d92a9f9",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "0288ca549d92a9f9",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "정유사들의 담합 및 갑질 행위에 대한 기사는 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정유 4사가 조직적으로 담합해 부당한 이득을 취한 사실이 검찰 수사로 드러났다. 이들 정유사는 2024년 7월부터 상호 가격 정보를 공유해 왔고, 그 담합을 통해 최소 14조2000억 원어치의 석유를 판매했다고 검찰은 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정유 4사가 조직적으로 담합해 부당한 이득을 취한 사실이 검찰 수사로 드러났다. 이들 정유사는 2024년 7월부터 상호 가격 정보를 공유해 왔고, 그 담합을 통해 최소 14조2000억 원어치의 석유를 판매했다고 검찰은 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당하는 유통사업처와 관련이 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정유 4사가 조직적으로 담합해 부당한 이득을 취한 사실이 검찰 수사로 드러났다. 이들 정유사는 2024년 7월부터 상호 가격 정보를 공유해 왔고, 그 담합을 통해 최소 14조2000억 원어치의 석유를 판매했다고 검찰은 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당하는 석유비축처와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "0288ca549d92a9f9",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "정유사들의 담합 및 갑질 행위에 대한 기사는 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정유 4사가 조직적으로 담합해 부당한 이득을 취한 사실이 검찰 수사로 드러났다. 이들 정유사는 2024년 7월부터 상호 가격 정보를 공유해 왔고, 그 담합을 통해 최소 14조2000억 원어치의 석유를 판매했다고 검찰은 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정유 4사가 조직적으로 담합해 부당한 이득을 취한 사실이 검찰 수사로 드러났다. 이들 정유사는 2024년 7월부터 상호 가격 정보를 공유해 왔고, 그 담합을 통해 최소 14조2000억 원어치의 석유를 판매했다고 검찰은 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당하는 유통사업처와 관련이 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정유 4사가 조직적으로 담합해 부당한 이득을 취한 사실이 검찰 수사로 드러났다. 이들 정유사는 2024년 7월부터 상호 가격 정보를 공유해 왔고, 그 담합을 통해 최소 14조2000억 원어치의 석유를 판매했다고 검찰은 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당하는 석유비축처와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "6f5682346d6ae85f",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "6f5682346d6ae85f",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "석유 관련 정보 제공 기사로 한국석유공사의 석유 정보 서비스와 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "전국 휘발윳값 3개월 만에 1800원대…경유도 하락세 지속",
+            "evidence_type": "article",
+            "reason": "석유 가격 정보 제공"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "전국 휘발윳값 3개월 만에 1800원대…경유도 하락세 지속",
+            "evidence_type": "article",
+            "reason": "석유 유통 관련 정보"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "6f5682346d6ae85f",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "석유 관련 정보 제공 기사로 한국석유공사의 석유 정보 서비스와 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "전국 휘발윳값 3개월 만에 1800원대…경유도 하락세 지속",
+            "evidence_type": "article",
+            "reason": "석유 가격 정보 제공"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "전국 휘발윳값 3개월 만에 1800원대…경유도 하락세 지속",
+            "evidence_type": "article",
+            "reason": "석유 유통 관련 정보"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "220f2fe6d446be1b",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "220f2fe6d446be1b",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "정유사들의 담합 및 갑질 행위에 대한 기사는 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정유사 HD현대오일뱅크와 SK에너지가 미·이란 전쟁 개전 직후 14조원대 가격 담합을 벌여 유가를 끌어올린 혐의로 재판에 넘겨졌다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처의 역할인 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정유사 HD현대오일뱅크와 SK에너지가 미·이란 전쟁 개전 직후 14조원대 가격 담합을 벌여 유가를 끌어올린 혐의로 재판에 넘겨졌다.",
+            "evidence_type": "paragraph",
+            "reason": "유통사업처의 역할인 알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "220f2fe6d446be1b",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "정유사들의 담합 및 갑질 행위에 대한 기사는 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정유사 HD현대오일뱅크와 SK에너지가 미·이란 전쟁 개전 직후 14조원대 가격 담합을 벌여 유가를 끌어올린 혐의로 재판에 넘겨졌다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처의 역할인 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정유사 HD현대오일뱅크와 SK에너지가 미·이란 전쟁 개전 직후 14조원대 가격 담합을 벌여 유가를 끌어올린 혐의로 재판에 넘겨졌다.",
+            "evidence_type": "paragraph",
+            "reason": "유통사업처의 역할인 알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "ca0049ce648073ca",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "ca0049ce648073ca",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "정유사들의 담합 및 갑질 행위에 대한 기사는 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정유사 HD현대오일뱅크와 SK에너지가 미·이란 전쟁 개전 직후 14조원대 가격 담합을 벌여 유가를 끌어올린 혐의로 재판에 넘겨졌다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처의 역할인 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정유사 HD현대오일뱅크와 SK에너지가 미·이란 전쟁 개전 직후 14조원대 가격 담합을 벌여 유가를 끌어올린 혐의로 재판에 넘겨졌다.",
+            "evidence_type": "paragraph",
+            "reason": "유통사업처의 역할인 알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "ca0049ce648073ca",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "정유사들의 담합 및 갑질 행위에 대한 기사는 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정유사 HD현대오일뱅크와 SK에너지가 미·이란 전쟁 개전 직후 14조원대 가격 담합을 벌여 유가를 끌어올린 혐의로 재판에 넘겨졌다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처의 역할인 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정유사 HD현대오일뱅크와 SK에너지가 미·이란 전쟁 개전 직후 14조원대 가격 담합을 벌여 유가를 끌어올린 혐의로 재판에 넘겨졌다.",
+            "evidence_type": "paragraph",
+            "reason": "유통사업처의 역할인 알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "2073569e05fc8f34",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "2073569e05fc8f34",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "정유사들의 유가 담합은 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있다.",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "정유사들의 유가 담합은 석유 구매와 판매, 트레이딩 업무를 담당하는 석유사업처의 업무와 관련이 있다.",
+            "evidence_type": "paragraph",
+            "reason": "정유사들의 유가 담합은 석유사업처의 석유 구매와 판매, 트레이딩 업무와 관련이 있다."
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "정유사들의 유가 담합은 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 업무를 담당하는 유통사업처의 업무와 관련이 있다.",
+            "evidence_type": "paragraph",
+            "reason": "정유사들의 유가 담합은 유통사업처의 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 업무와 관련이 있다."
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "정유사들의 유가 담합은 정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리 업무를 담당하는 석유비축처의 업무와 관련이 있다.",
+            "evidence_type": "paragraph",
+            "reason": "정유사들의 유가 담합은 석유비축처의 정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리 업무와 관련이 있다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "2073569e05fc8f34",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "정유사들의 유가 담합은 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있다.",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "정유사들의 유가 담합은 석유 구매와 판매, 트레이딩 업무를 담당하는 석유사업처의 업무와 관련이 있다.",
+            "evidence_type": "paragraph",
+            "reason": "정유사들의 유가 담합은 석유사업처의 석유 구매와 판매, 트레이딩 업무와 관련이 있다."
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "정유사들의 유가 담합은 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 업무를 담당하는 유통사업처의 업무와 관련이 있다.",
+            "evidence_type": "paragraph",
+            "reason": "정유사들의 유가 담합은 유통사업처의 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 업무와 관련이 있다."
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "정유사들의 유가 담합은 정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리 업무를 담당하는 석유비축처의 업무와 관련이 있다.",
+            "evidence_type": "paragraph",
+            "reason": "정유사들의 유가 담합은 석유비축처의 정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리 업무와 관련이 있다."
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "6c1f6f7e0e7ee4bb",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "6c1f6f7e0e7ee4bb",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "정유사들의 담합 및 갑질 관련 기사로 석유사업과 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "정유사들의 26조원대 담합·갑질 관련 기사",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "6c1f6f7e0e7ee4bb",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "정유사들의 담합 및 갑질 관련 기사로 석유사업과 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s3"
+            ],
+            "evidence_text": "정유사들의 26조원대 담합·갑질 관련 기사",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "209e83a2b1777b3e",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "209e83a2b1777b3e",
+        "final_relevant": false,
+        "confidence": 0.9,
+        "final_reason": "원유 관련 가짜 뉴스 단속 기사는 한국석유공사의 석유 수급 안정 업무와 관련성이 낮음",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단하지 않음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "209e83a2b1777b3e",
+        "final_relevant": false,
+        "confidence": 0.9,
+        "final_reason": "원유 관련 가짜 뉴스 단속 기사는 한국석유공사의 석유 수급 안정 업무와 관련성이 낮음",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단하지 않음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "bc627742ab77c1ea",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "bc627742ab77c1ea",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "석유, 원유, 유가, 에너지, 석유제품, 정유, 주유소 관련 기사로 한국석유공사의 석유사업, 유통사업, 가격 안정화 업무와 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "중동전쟁 틈탄 14조원대 유가담합... 자영주유소 갑질 기소",
+            "evidence_type": "article",
+            "reason": "석유제품, 정유, 주유소 관련 업무를 담당하는 석유사업처와 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "중동전쟁 틈탄 14조원대 유가담합... 자영주유소 갑질 기소",
+            "evidence_type": "article",
+            "reason": "주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 관련 업무를 담당하는 유통사업처와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "bc627742ab77c1ea",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "석유, 원유, 유가, 에너지, 석유제품, 정유, 주유소 관련 기사로 한국석유공사의 석유사업, 유통사업, 가격 안정화 업무와 관련이 있음",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "중동전쟁 틈탄 14조원대 유가담합... 자영주유소 갑질 기소",
+            "evidence_type": "article",
+            "reason": "석유제품, 정유, 주유소 관련 업무를 담당하는 석유사업처와 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "중동전쟁 틈탄 14조원대 유가담합... 자영주유소 갑질 기소",
+            "evidence_type": "article",
+            "reason": "주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 관련 업무를 담당하는 유통사업처와 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

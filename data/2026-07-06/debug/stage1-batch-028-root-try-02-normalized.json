@@ -1,0 +1,90 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "ea948889066630e2",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "ea948889066630e2",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "수소 관련 언급으로 에너지 전환 사업과 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.95,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "현대자동차가 '제18회 DMZ국제다큐멘터리영화제'를 공식 후원한다. 수소전기차 8대를 지원한다.",
+            "evidence_type": "paragraph",
+            "reason": "수소전기차 지원 언급으로 저탄소 추진처의 수소 암모니아 사업과 관련성이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "ea948889066630e2",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "수소 관련 언급으로 에너지 전환 사업과 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.95,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "현대자동차가 '제18회 DMZ국제다큐멘터리영화제'를 공식 후원한다. 수소전기차 8대를 지원한다.",
+            "evidence_type": "paragraph",
+            "reason": "수소전기차 지원 언급으로 저탄소 추진처의 수소 암모니아 사업과 관련성이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "e77bd160f32069be",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "e77bd160f32069be",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "공기업 언급으로 한국석유공사와 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "부산 행정효능감 위해 ‘서열파괴’…경남 공석인 정무직 인사 착수",
+            "evidence_type": "title",
+            "reason": "공기업 인사 관련 언급으로 경영전략처의 업무와 관련성이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "e77bd160f32069be",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "공기업 언급으로 한국석유공사와 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "부산 행정효능감 위해 ‘서열파괴’…경남 공석인 정무직 인사 착수",
+            "evidence_type": "article",
+            "reason": "공기업 인사 관련 언급으로 경영전략처의 업무와 관련성이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

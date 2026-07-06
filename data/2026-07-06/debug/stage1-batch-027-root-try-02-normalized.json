@@ -1,0 +1,390 @@
+{
+  "raw_result_count": 16,
+  "accepted_result_count": 16,
+  "normalization": [
+    {
+      "article_id": "8d92fd7db128c84b",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "8d92fd7db128c84b",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "8d92fd7db128c84b",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "fdd30d49fcdf6a4e",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "fdd30d49fcdf6a4e",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "fdd30d49fcdf6a4e",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "4c2e25294253807a",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "4c2e25294253807a",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유 가격과 관련된 내용으로 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "휘발유와 경유 등 경질유 가격을 담합했다는 의혹으로 제주농협과 서귀포농협에 20억원대의 과징금이 부과됐다.",
+            "evidence_type": "paragraph",
+            "reason": "석유유통과 관련된 내용으로 유통사업처의 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "4c2e25294253807a",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유 가격과 관련된 내용으로 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "휘발유와 경유 등 경질유 가격을 담합했다는 의혹으로 제주농협과 서귀포농협에 20억원대의 과징금이 부과됐다.",
+            "evidence_type": "paragraph",
+            "reason": "석유유통과 관련된 내용으로 유통사업처의 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "16ebcd206bc33335",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "16ebcd206bc33335",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "16ebcd206bc33335",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "b1d40bfe8bada725",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "b1d40bfe8bada725",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "b1d40bfe8bada725",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "f0e5348acf0cbcdd",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "f0e5348acf0cbcdd",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "f0e5348acf0cbcdd",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "eb5a6c09d75444a7",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "eb5a6c09d75444a7",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "국제유가와 관련된 내용으로 한국석유공사의 석유 비축 및 가격 안정화 사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "전쟁 전으로 돌아간 국제유가…공급 과잉 우려에 “연말 60달러대” 전망도",
+            "evidence_type": "title",
+            "reason": "석유 비축 및 가격 안정화와 관련된 내용으로 석유비축처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "전쟁 전으로 돌아간 국제유가…공급 과잉 우려에 “연말 60달러대” 전망도",
+            "evidence_type": "title",
+            "reason": "국제유가 변동은 석유사업 전략에 영향을 미칠 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "eb5a6c09d75444a7",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "국제유가와 관련된 내용으로 한국석유공사의 석유 비축 및 가격 안정화 사업과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "전쟁 전으로 돌아간 국제유가…공급 과잉 우려에 “연말 60달러대” 전망도",
+            "evidence_type": "article",
+            "reason": "석유 비축 및 가격 안정화와 관련된 내용으로 석유비축처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "전쟁 전으로 돌아간 국제유가…공급 과잉 우려에 “연말 60달러대” 전망도",
+            "evidence_type": "article",
+            "reason": "국제유가 변동은 석유사업 전략에 영향을 미칠 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "0f9596c17bb73f35",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "0f9596c17bb73f35",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "0f9596c17bb73f35",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "8168373233c76e59",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "8168373233c76e59",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "8168373233c76e59",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "b5af1d217fe7136e",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "b5af1d217fe7136e",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "b5af1d217fe7136e",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "ca80425e05a89e55",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "ca80425e05a89e55",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "ca80425e05a89e55",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "0228940c19650a91",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "0228940c19650a91",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "0228940c19650a91",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "e76b43592f7e3ba1",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "e76b43592f7e3ba1",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "e76b43592f7e3ba1",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "466158fc18f49228",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "466158fc18f49228",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "466158fc18f49228",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "2afb2bcac4b1bce0",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "2afb2bcac4b1bce0",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "2afb2bcac4b1bce0",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "ec62f754788b4d0c",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "ec62f754788b4d0c",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "ec62f754788b4d0c",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "",
+        "departments": []
+      }
+    }
+  ]
+}

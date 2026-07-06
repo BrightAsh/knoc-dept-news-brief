@@ -1,0 +1,88 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "08fee7c200eea523",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "정유사 담합 의혹 기소 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업 등 업무와 관련성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "검찰, ‘담합 의혹’ 4대 정유회사 법인 모두 기소",
+          "evidence_type": "paragraph",
+          "reason": "정유사 담합 의혹은 석유제품 구매 및 판매와 관련이 있으며, 한국석유공사의 석유사업, 유통사업, 비축사업 등 업무와 관련성이 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "검찰, ‘담합 의혹’ 4대 정유회사 법인 모두 기소",
+          "evidence_type": "paragraph",
+          "reason": "정유사 담합 의혹은 석유제품 유통과 관련이 있으며, 한국석유공사의 유통사업 업무와 관련성이 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "검찰, ‘담합 의혹’ 4대 정유회사 법인 모두 기소",
+          "evidence_type": "paragraph",
+          "reason": "정유사 담합 의혹은 석유제품 비축과 관련이 있으며, 한국석유공사의 비축사업 업무와 관련성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "acef4a56027181a3",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "정유사 유가 담합 및 갑질 관행 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업 등 업무와 관련성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "검찰, ‘유가 담합·갑질 관행’ 4대 정유사 기소…“트럼프 만세…전쟁으로 먹고사는 회사”",
+          "evidence_type": "paragraph",
+          "reason": "정유사 유가 담합 및 갑질 관행은 석유제품 구매 및 판매와 관련이 있으며, 한국석유공사의 석유사업, 유통사업, 비축사업 등 업무와 관련성이 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "검찰, ‘유가 담합·갑질 관행’ 4대 정유사 기소…“트럼프 만세…전쟁으로 먹고사는 회사”",
+          "evidence_type": "paragraph",
+          "reason": "정유사 유가 담합 및 갑질 관행은 석유제품 유통과 관련이 있으며, 한국석유공사의 유통사업 업무와 관련성이 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "검찰, ‘유가 담합·갑질 관행’ 4대 정유사 기소…“트럼프 만세…전쟁으로 먹고사는 회사”",
+          "evidence_type": "paragraph",
+          "reason": "정유사 유가 담합 및 갑질 관행은 석유제품 비축과 관련이 있으며, 한국석유공사의 비축사업 업무와 관련성이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

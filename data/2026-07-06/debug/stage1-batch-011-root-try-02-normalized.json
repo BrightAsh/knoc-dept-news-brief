@@ -1,0 +1,88 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "b85b4ee315cffdf8",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "b85b4ee315cffdf8",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "에너지 언급 있지만 공사 업무와 관련 없어보임",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "b85b4ee315cffdf8",
+        "candidate": false,
+        "confidence": 0.1,
+        "company_reason": "에너지 언급 있지만 공사 업무와 관련 없어보임",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "fabc9547c25e676b",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "fabc9547c25e676b",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "유가 언급으로 석유 가격 관련 부서 검토 필요",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "최저임금 부담 때문에 노동자들의 노동시간을 1.1% 줄인 양상도 발견된다. 그러나 22% 인상으로 대량 실업이 발생하거나 경제 파탄이 일어나지는 않았다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처는 석유제품 판매 관련 업무 담당"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.4,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "독일의 저임금 일자리인 미니잡이 1% 정도 줄었다. 그런데 미니잡 노동자 중 1%는 정규직으로 전환되기도 했다.",
+            "evidence_type": "paragraph",
+            "reason": "스마트데이터센터는 유가 정보 제공 관련 업무 담당"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "fabc9547c25e676b",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "유가 언급으로 석유 가격 관련 부서 검토 필요",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "최저임금 부담 때문에 노동자들의 노동시간을 1.1% 줄인 양상도 발견된다. 그러나 22% 인상으로 대량 실업이 발생하거나 경제 파탄이 일어나지는 않았다.",
+            "evidence_type": "paragraph",
+            "reason": "석유사업처는 석유제품 판매 관련 업무 담당"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.4,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "독일의 저임금 일자리인 미니잡이 1% 정도 줄었다. 그런데 미니잡 노동자 중 1%는 정규직으로 전환되기도 했다.",
+            "evidence_type": "paragraph",
+            "reason": "스마트데이터센터는 유가 정보 제공 관련 업무 담당"
+          }
+        ]
+      }
+    }
+  ]
+}

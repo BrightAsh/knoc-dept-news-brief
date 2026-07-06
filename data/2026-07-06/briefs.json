@@ -1,0 +1,1803 @@
+{
+  "target_date": "2026-07-06",
+  "generated_at": "2026-07-06T18:15:04.779Z",
+  "analyzer": "knoc-two-pass-llm-v1",
+  "input_article_count": 649,
+  "relevant_article_count": 23,
+  "relevant_department_count": 6,
+  "pipeline": {
+    "stage0": {
+      "analyzer": "stage0-keyword-router-v1",
+      "keyword_hit_count": 106,
+      "keyword_miss_count": 543
+    },
+    "stage1": {
+      "enabled": true,
+      "status": "partial",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 649,
+      "analyzed_article_count": 633,
+      "candidate_count": 55,
+      "rejected_count": 149,
+      "warning_count": 50,
+      "error_count": 1
+    },
+    "stage2": {
+      "enabled": true,
+      "status": "partial",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 204,
+      "analyzed_article_count": 152,
+      "final_relevant_count": 37,
+      "final_rejected_count": 114,
+      "warning_count": 36,
+      "error_count": 7
+    }
+  },
+  "overall": {
+    "id": "overall",
+    "label": "전체",
+    "source": "llm",
+    "analysis_stage": "stage2",
+    "fallback_used": false,
+    "article_count": 23,
+    "item_count": 23,
+    "items": [
+      {
+        "id": "c47b423b0cf1f80d",
+        "article_id": "fe6ee6ebf96c0ec1",
+        "publisher": "중앙일보",
+        "title": "제주 기름값 왜 비싼가 봤더니…제주 농협·주유소협회 기름값 짬짜미",
+        "url": "https://www.joongang.co.kr/article/25442761",
+        "published_at": "2026-07-06T06:12:52.000Z",
+        "score": 0.95,
+        "segment_text": "제주 지역 주유소 기름값 담합 관련 기사로 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+        "reason": "제주 지역 주유소 기름값 담합 관련 기사로 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단 유지",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.95,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "3d36250e767b84fb",
+        "article_id": "0288ca549d92a9f9",
+        "publisher": "동아일보",
+        "title": "[사설]이란전에 ‘트럼프 만세’ ‘2조 벌 듯’… 정유사들의 추한 짬짜미",
+        "url": "https://www.donga.com/news/Opinion/article/all/20260706/134247642/2",
+        "published_at": "2026-07-06T14:27:00.000Z",
+        "score": 0.9,
+        "segment_text": "정유사들의 담합 및 갑질 행위에 대한 기사는 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "reason": "정유사들의 담합 및 갑질 행위에 대한 기사는 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "29983f3c0b6ccde9",
+        "article_id": "220f2fe6d446be1b",
+        "publisher": "경향신문",
+        "title": "정유사들, 전쟁 틈타 14조 담합·갑질",
+        "url": "https://www.khan.co.kr/article/202607062145005/",
+        "published_at": "2026-07-06T12:45:00.000Z",
+        "score": 0.9,
+        "segment_text": "정유사들의 담합 및 갑질 행위에 대한 기사는 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "reason": "정유사들의 담합 및 갑질 행위에 대한 기사는 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "b670f6d42e7235bf",
+        "article_id": "ca0049ce648073ca",
+        "publisher": "경향신문",
+        "title": "정유사들, 전쟁 틈타 14조 담합·갑질",
+        "url": "https://www.khan.co.kr/article/202607062145005",
+        "published_at": "2026-07-06T12:45:00.000Z",
+        "score": 0.9,
+        "segment_text": "정유사들의 담합 및 갑질 행위에 대한 기사는 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "reason": "정유사들의 담합 및 갑질 행위에 대한 기사는 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "5611a5fb65e4dee1",
+        "article_id": "2073569e05fc8f34",
+        "publisher": "한겨레",
+        "title": "전쟁 전후 14조원대 유가 담합한 정유사들",
+        "url": "https://www.hani.co.kr/arti/society/society_general/1266999.html",
+        "published_at": "2026-07-06T12:16:00.000Z",
+        "score": 0.9,
+        "segment_text": "정유사들의 유가 담합은 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있다.",
+        "reason": "정유사들의 유가 담합은 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있다.",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "292348354df990ec",
+        "article_id": "e07f7b82684cf662",
+        "publisher": "경향신문",
+        "title": "‘제주 기름값 담합’ 농협에 과징금 20억",
+        "url": "https://www.khan.co.kr/article/202607062049015/",
+        "published_at": "2026-07-06T11:49:01.000Z",
+        "score": 0.9,
+        "segment_text": "석유 가격 관련 이슈로 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+        "reason": "석유 가격 관련 이슈로 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.95,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "fda85ac9326c78e5",
+        "article_id": "34846ca6b173bd61",
+        "publisher": "경향신문",
+        "title": "‘제주 기름값 담합’ 농협에 과징금 20억",
+        "url": "https://www.khan.co.kr/article/202607062049015",
+        "published_at": "2026-07-06T11:49:01.000Z",
+        "score": 0.9,
+        "segment_text": "석유 가격 관련 이슈로 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+        "reason": "석유 가격 관련 이슈로 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.95,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "24bfc40f0526eedc",
+        "article_id": "6c1f6f7e0e7ee4bb",
+        "publisher": "경향신문",
+        "title": "[사설]전쟁을 돈벌이 기회로 삼은 정유사들의 26조원대 담합·갑질",
+        "url": "https://www.khan.co.kr/article/202607061810011",
+        "published_at": "2026-07-06T09:10:01.000Z",
+        "score": 0.9,
+        "segment_text": "정유사들의 담합 및 갑질 관련 기사로 석유사업과 관련이 있음",
+        "reason": "정유사들의 담합 및 갑질 관련 기사로 석유사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "adfc635a6c200f10",
+        "article_id": "9de5dc566e8a71e8",
+        "publisher": "중앙일보",
+        "title": "동서발전, 내화성 높인 건물일체형 태양광 패널 실증 착수",
+        "url": "https://www.joongang.co.kr/article/25442820",
+        "published_at": "2026-07-06T08:47:00.000Z",
+        "score": 0.9,
+        "segment_text": "기사에 에너지 관련 이슈가 포함되어 있어 저탄소 관련 사업과 관련이 있음",
+        "reason": "기사에 에너지 관련 이슈가 포함되어 있어 저탄소 관련 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹에서 최종 검토 결과 관련성 있음",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "2b0a2563fe940df4",
+        "article_id": "6f5682346d6ae85f",
+        "publisher": "중앙일보",
+        "title": "전국 휘발윳값 3개월 만에 1800원대…경유도 하락세 지속",
+        "url": "https://www.joongang.co.kr/article/25442743",
+        "published_at": "2026-07-06T05:38:45.000Z",
+        "score": 0.9,
+        "segment_text": "석유 관련 정보 제공 기사로 한국석유공사의 석유 정보 서비스와 관련이 있음",
+        "reason": "석유 관련 정보 제공 기사로 한국석유공사의 석유 정보 서비스와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "03bb45ad67c9bab8",
+        "article_id": "4c2e25294253807a",
+        "publisher": "경향신문",
+        "title": "공정위, ‘제주 기름값 담합’ 농협·주유소협회에 과징금 20억 부과",
+        "url": "https://www.khan.co.kr/article/202607061408001",
+        "published_at": "2026-07-06T05:08:00.000Z",
+        "score": 0.9,
+        "segment_text": "제주 지역 주유소 기름값 담합 관련 기사로 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+        "reason": "제주 지역 주유소 기름값 담합 관련 기사로 한국석유공사의 석유유통 지원 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단 유지",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "d714406e0d61f6d6",
+        "article_id": "ea948889066630e2",
+        "publisher": "경향신문",
+        "title": "현대차, ‘제18회 DMZ 국제다큐멘터리영화제’ 후원…수소전기차 8대 지원",
+        "url": "https://www.khan.co.kr/article/202607061349001",
+        "published_at": "2026-07-06T04:49:00.000Z",
+        "score": 0.9,
+        "segment_text": "수소전기차 지원 언급으로 저탄소 추진처의 수소 암모니아 사업과 관련성이 있음",
+        "reason": "수소전기차 지원 언급으로 저탄소 추진처의 수소 암모니아 사업과 관련성이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.95,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "c8adaf4b2ee9ba56",
+        "article_id": "bc627742ab77c1ea",
+        "publisher": "중앙일보",
+        "title": "중동전쟁 틈탄 14조원대 유가담합... 자영주유소 갑질 기소",
+        "url": "https://www.joongang.co.kr/article/25442711",
+        "published_at": "2026-07-06T03:05:36.000Z",
+        "score": 0.9,
+        "segment_text": "석유, 원유, 유가, 에너지, 석유제품, 정유, 주유소 관련 기사로 한국석유공사의 석유사업, 유통사업, 가격 안정화 업무와 관련이 있음",
+        "reason": "석유, 원유, 유가, 에너지, 석유제품, 정유, 주유소 관련 기사로 한국석유공사의 석유사업, 유통사업, 가격 안정화 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "094e1a82b9759030",
+        "article_id": "08f3b21a5c11c4bf",
+        "publisher": "중앙일보",
+        "title": "콩이 석유를 대체한다고?! 지속가능성 컨퍼런스에서 찾은 키워드 3가지 [쿠킹]",
+        "url": "https://www.joongang.co.kr/article/25442679",
+        "published_at": "2026-07-06T01:17:45.000Z",
+        "score": 0.9,
+        "segment_text": "정유사 담합 의혹 기소 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업 등 업무와 관련성이 있음",
+        "reason": "정유사 담합 의혹 기소 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업 등 업무와 관련성이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "86337ef3d441e19b",
+        "article_id": "08fee7c200eea523",
+        "publisher": "중앙일보",
+        "title": "[속보] 檢, ‘담합 의혹’ 4대 정유회사 법인 모두 기소",
+        "url": "https://www.joongang.co.kr/article/25442676",
+        "published_at": "2026-07-06T01:12:44.000Z",
+        "score": 0.9,
+        "segment_text": "정유사 담합 의혹 기소 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업 등 업무와 관련성이 있음",
+        "reason": "정유사 담합 의혹 기소 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업 등 업무와 관련성이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "57d1d9c6cf66fd3a",
+        "article_id": "f325e96370a04e7c",
+        "publisher": "한겨레",
+        "title": "제주 ‘기름값 담합’ 과징금 20억원…주유소협회·농협 가담 적발",
+        "url": "https://www.hani.co.kr/arti/economy/economy_general/1266876.html",
+        "published_at": "2026-07-06T03:00:00.000Z",
+        "score": 0.85,
+        "segment_text": "제주 지역 주유소 기름값 담합 관련 기사로 한국석유공사의 유통사업, 가격 안정화 업무와 관련이 있음",
+        "reason": "제주 지역 주유소 기름값 담합 관련 기사로 한국석유공사의 유통사업, 가격 안정화 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단 유지",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "6df89df38fe1716c",
+        "article_id": "71cb8e19b6572dd8",
+        "publisher": "한겨레",
+        "title": "한국 vs 독일…최대 60조 캐나다 잠수함 사업자 7일 발표될 듯",
+        "url": "https://www.hani.co.kr/arti/international/america/1266859.html",
+        "published_at": "2026-07-06T01:34:00.000Z",
+        "score": 0.85,
+        "segment_text": "캐나다 잠수함 사업자 발표와 한국 기업의 참여로 인해 석유 수급과 관련된 사업에 한국 기업이 참여하며, 석유 사업 전략과 관련",
+        "reason": "캐나다 잠수함 사업자 발표와 한국 기업의 참여로 인해 석유 수급과 관련된 사업에 한국 기업이 참여하며, 석유 사업 전략과 관련",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "42f399bea0ec4b24",
+        "article_id": "acef4a56027181a3",
+        "publisher": "경향신문",
+        "title": "검찰, ‘유가 담합·갑질 관행’ 4대 정유사 기소…“트럼프 만세…전쟁으로 먹고사는 회사”",
+        "url": "https://www.khan.co.kr/article/202607061004001",
+        "published_at": "2026-07-06T01:04:00.000Z",
+        "score": 0.85,
+        "segment_text": "정유사 유가 담합 및 갑질 관행 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업 등 업무와 관련성이 있음",
+        "reason": "정유사 유가 담합 및 갑질 관행 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업 등 업무와 관련성이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "7256ec1a6b2fc901",
+        "article_id": "f4a7bca3fe06d371",
+        "publisher": "한겨레",
+        "title": "정유사들, 중동전 터지자 기름값 대폭 올려…“트럼프 만세”까지",
+        "url": "https://www.hani.co.kr/arti/society/society_general/1267002.html",
+        "published_at": "2026-07-06T12:40:00.000Z",
+        "score": 0.8,
+        "segment_text": "정유사들의 가격 담합에 대한 기사는 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "reason": "정유사들의 가격 담합에 대한 기사는 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "a0ba6ca3460a6420",
+        "article_id": "3193a0c8a93d205d",
+        "publisher": "중앙일보",
+        "title": "고려대 옥용식·이재혁 교수, 탄소중립 국제학회 한국 유치",
+        "url": "https://www.joongang.co.kr/article/25442805",
+        "published_at": "2026-07-06T07:57:00.000Z",
+        "score": 0.8,
+        "segment_text": "탄소중립, CCUS 관련 에너지 전환 사업으로 저탄소 추진처와 관련",
+        "reason": "탄소중립, CCUS 관련 에너지 전환 사업으로 저탄소 추진처와 관련",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "7a07275fd3faff2c",
+        "article_id": "36d10c96f2d72231",
+        "publisher": "한겨레",
+        "title": "청산 위기 홈플러스…건설사들 우발채무 8700억원도 위험 직면",
+        "url": "https://www.hani.co.kr/arti/economy/consumer/1266898.html",
+        "published_at": "2026-07-06T06:01:00.000Z",
+        "score": 0.8,
+        "segment_text": "유가 관련 이슈로 한국석유공사의 석유사업 전략과 관련이 있음",
+        "reason": "유가 관련 이슈로 한국석유공사의 석유사업 전략과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단 유지",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.85,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "793165533d6bad95",
+        "article_id": "eb5a6c09d75444a7",
+        "publisher": "중앙일보",
+        "title": "전쟁 전으로 돌아간 국제유가…공급 과잉 우려에 “연말 60달러대” 전망도",
+        "url": "https://www.joongang.co.kr/article/25442731",
+        "published_at": "2026-07-06T05:02:51.000Z",
+        "score": 0.8,
+        "segment_text": "국제유가 변동 관련 기사로 한국석유공사의 석유 비축 및 가격 안정화 사업과 관련이 있음",
+        "reason": "국제유가 변동 관련 기사로 한국석유공사의 석유 비축 및 가격 안정화 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단 유지",
+        "departments": [
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "ec56f64260298d32",
+        "article_id": "7a1128f62f69dcfc",
+        "publisher": "한겨레",
+        "title": "“유조차가 비싸 개인사업자래요”…노조 설립 신고 막힌 운송기사들",
+        "url": "https://www.hani.co.kr/arti/society/labor/1266929.html",
+        "published_at": "2026-07-06T07:55:00.000Z",
+        "score": 0.7,
+        "segment_text": "석유제품 유통 관련 기사로 한국석유공사의 석유제품 유통 사업과 관련이 있음",
+        "reason": "석유제품 유통 관련 기사로 한국석유공사의 석유제품 유통 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "1차 판단 유지",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_review": {
+    "enabled": true,
+    "status": "partial",
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "analyzed_article_count": 152,
+    "brief_source_stage": "stage2",
+    "fallback_used": false,
+    "stages": {
+      "stage1": {
+        "enabled": true,
+        "status": "partial",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 649,
+        "analyzed_article_count": 633,
+        "candidate_count": 55,
+        "rejected_count": 149,
+        "warning_count": 50,
+        "error_count": 1
+      },
+      "stage2": {
+        "enabled": true,
+        "status": "partial",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 204,
+        "analyzed_article_count": 152,
+        "final_relevant_count": 37,
+        "final_rejected_count": 114,
+        "warning_count": 36,
+        "error_count": 7
+      }
+    }
+  },
+  "departments": [
+    {
+      "department_id": "secretariat",
+      "department": "비서팀",
+      "role": "사장 일정, 의전, 대내외 메시지, 지시사항 이행과 대외 접점 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "she",
+      "department": "SHE추진실",
+      "role": "전사 안전, 보건, 환경, 재난 대응, 중대재해 예방과 안전보건환경 관리체계를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "audit",
+      "department": "감사실",
+      "role": "감사계획과 감사 수행, 내부통제, 일상감사, 부패·비위 점검, 청렴 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "legal",
+      "department": "법무팀",
+      "role": "국내외 송무, 계약과 사업의 법률 검토, 규제 대응, 분쟁 대응, 지식재산권 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "planning_budget",
+      "department": "기획예산처",
+      "role": "이사회, 국회, 정부 대응, 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "strategy",
+      "department": "경영전략처",
+      "role": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "30313916f8dd3c8b",
+          "article_id": "71cb8e19b6572dd8",
+          "publisher": "한겨레",
+          "title": "한국 vs 독일…최대 60조 캐나다 잠수함 사업자 7일 발표될 듯",
+          "url": "https://www.hani.co.kr/arti/international/america/1266859.html",
+          "published_at": "2026-07-06T01:34:00.000Z",
+          "score": 0.7,
+          "segment_text": "한국 vs 독일…최대 60조 캐나다 잠수함 사업자 7일 발표될 듯",
+          "reason": "사업 전략과 경쟁 구도와 관련",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정"
+        }
+      ]
+    },
+    {
+      "department_id": "finance",
+      "department": "재무처",
+      "role": "자금 조달과 상환, 자금 집행, 결산, 세무, 환율·금리·부채 등 재무 리스크 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "esg",
+      "department": "ESG경영처",
+      "role": "ESG 경영, 윤리·인권, 사회공헌, 동반성장, 상생, 내부통제 지원 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "infosec",
+      "department": "정보보안팀",
+      "role": "정보보안 정책과 운영, 개인정보보호, 사이버 침해 대응, 정보유출 예방 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "general_affairs",
+      "department": "총무처",
+      "role": "문서와 기록물, 자산, 사옥, 숙소, 조달계약, 구매, 시설관리, 비상대비 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hr",
+      "department": "인재경영처",
+      "role": "조직, 인사, 채용, 평가, 교육훈련, 급여, 복리후생, 노사관계와 인력 운영을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "smart_data",
+      "department": "스마트데이터센터",
+      "role": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "5134c5adb5ce8479",
+          "article_id": "6f5682346d6ae85f",
+          "publisher": "중앙일보",
+          "title": "전국 휘발윳값 3개월 만에 1800원대…경유도 하락세 지속",
+          "url": "https://www.joongang.co.kr/article/25442743",
+          "published_at": "2026-07-06T05:38:45.000Z",
+          "score": 0.8,
+          "segment_text": "전국 휘발윳값 3개월 만에 1800원대…경유도 하락세 지속",
+          "reason": "석유 가격 정보 제공",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단"
+        }
+      ]
+    },
+    {
+      "department_id": "asia_business",
+      "department": "아시아사업처",
+      "role": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "americas_europe_business",
+      "department": "미주/유럽사업처",
+      "role": "미주와 유럽 지역 E&P 사업, 해외광구, Capex/Opex, 사업 손익, 자금수지 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "domestic_business_development",
+      "department": "국내사업개발처",
+      "role": "국내 자원개발 사업, 국내 대륙붕, 가스전, 탐사·시추, 신규 국내 사업개발을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "low_carbon",
+      "department": "저탄소추진처",
+      "role": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
+      "article_count": 3,
+      "segment_count": 3,
+      "items": [
+        {
+          "id": "4fe8e9b03aa67fb0",
+          "article_id": "ea948889066630e2",
+          "publisher": "경향신문",
+          "title": "현대차, ‘제18회 DMZ 국제다큐멘터리영화제’ 후원…수소전기차 8대 지원",
+          "url": "https://www.khan.co.kr/article/202607061349001",
+          "published_at": "2026-07-06T04:49:00.000Z",
+          "score": 0.95,
+          "segment_text": "현대자동차가 '제18회 DMZ국제다큐멘터리영화제'를 공식 후원한다. 수소전기차 8대를 지원한다.",
+          "reason": "수소전기차 지원 언급으로 저탄소 추진처의 수소 암모니아 사업과 관련성이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 유지"
+        },
+        {
+          "id": "58ab3193eba50bf4",
+          "article_id": "9de5dc566e8a71e8",
+          "publisher": "중앙일보",
+          "title": "동서발전, 내화성 높인 건물일체형 태양광 패널 실증 착수",
+          "url": "https://www.joongang.co.kr/article/25442820",
+          "published_at": "2026-07-06T08:47:00.000Z",
+          "score": 0.9,
+          "segment_text": "동서발전, 내화성 높인 건물일체형 태양광 패널 실증 착수",
+          "reason": "에너지 전환 및 저탄소 관련 사업",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종 검토 결과 관련성 있음"
+        },
+        {
+          "id": "fd19538e21199372",
+          "article_id": "3193a0c8a93d205d",
+          "publisher": "중앙일보",
+          "title": "고려대 옥용식·이재혁 교수, 탄소중립 국제학회 한국 유치",
+          "url": "https://www.joongang.co.kr/article/25442805",
+          "published_at": "2026-07-06T07:57:00.000Z",
+          "score": 0.9,
+          "segment_text": "고려대 옥용식·이재혁 교수, 탄소중립 국제학회 한국 유치",
+          "reason": "저탄소 추진 관련 업무",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 유지"
+        }
+      ]
+    },
+    {
+      "department_id": "global_technology_center",
+      "department": "글로벌기술센터",
+      "role": "E&P 기술지원, 지질·저류층·시추 기술, 기술전략, 연구개발, 기술자료와 기술평가를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "stockpiling",
+      "department": "석유비축처",
+      "role": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당한다.",
+      "article_count": 6,
+      "segment_count": 6,
+      "items": [
+        {
+          "id": "7ae8737e3bf796ab",
+          "article_id": "eb5a6c09d75444a7",
+          "publisher": "중앙일보",
+          "title": "전쟁 전으로 돌아간 국제유가…공급 과잉 우려에 “연말 60달러대” 전망도",
+          "url": "https://www.joongang.co.kr/article/25442731",
+          "published_at": "2026-07-06T05:02:51.000Z",
+          "score": 0.7,
+          "segment_text": "전쟁 전으로 돌아간 국제유가…공급 과잉 우려에 “연말 60달러대” 전망도",
+          "reason": "석유 비축 및 가격 안정화와 관련된 내용으로 석유비축처의 업무와 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s5"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단 유지"
+        },
+        {
+          "id": "1e71711c4d64fbdd",
+          "article_id": "0288ca549d92a9f9",
+          "publisher": "동아일보",
+          "title": "[사설]이란전에 ‘트럼프 만세’ ‘2조 벌 듯’… 정유사들의 추한 짬짜미",
+          "url": "https://www.donga.com/news/Opinion/article/all/20260706/134247642/2",
+          "published_at": "2026-07-06T14:27:00.000Z",
+          "score": 0.6,
+          "segment_text": "정유 4사가 조직적으로 담합해 부당한 이득을 취한 사실이 검찰 수사로 드러났다. 이들 정유사는 2024년 7월부터 상호 가격 정보를 공유해 왔고, 그 담합을 통해 최소 14조2000억 원어치의 석유를 판매했다고 검찰은 밝혔다.",
+          "reason": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당하는 석유비축처와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단"
+        },
+        {
+          "id": "e8ad41b832d18480",
+          "article_id": "2073569e05fc8f34",
+          "publisher": "한겨레",
+          "title": "전쟁 전후 14조원대 유가 담합한 정유사들",
+          "url": "https://www.hani.co.kr/arti/society/society_general/1266999.html",
+          "published_at": "2026-07-06T12:16:00.000Z",
+          "score": 0.6,
+          "segment_text": "정유사들의 유가 담합은 정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리 업무를 담당하는 석유비축처의 업무와 관련이 있다.",
+          "reason": "정유사들의 유가 담합은 석유비축처의 정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리 업무와 관련이 있다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단"
+        },
+        {
+          "id": "4e7be5d70c0a81ef",
+          "article_id": "08f3b21a5c11c4bf",
+          "publisher": "중앙일보",
+          "title": "콩이 석유를 대체한다고?! 지속가능성 컨퍼런스에서 찾은 키워드 3가지 [쿠킹]",
+          "url": "https://www.joongang.co.kr/article/25442679",
+          "published_at": "2026-07-06T01:17:45.000Z",
+          "score": 0.6,
+          "segment_text": "검찰, ‘담합 의혹’ 4대 정유회사 법인 모두 기소",
+          "reason": "정유사 담합 의혹은 석유제품 비축과 관련이 있으며, 한국석유공사의 비축사업 업무와 관련성이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정"
+        },
+        {
+          "id": "c4ac0aacd945e850",
+          "article_id": "08fee7c200eea523",
+          "publisher": "중앙일보",
+          "title": "[속보] 檢, ‘담합 의혹’ 4대 정유회사 법인 모두 기소",
+          "url": "https://www.joongang.co.kr/article/25442676",
+          "published_at": "2026-07-06T01:12:44.000Z",
+          "score": 0.6,
+          "segment_text": "[속보] 檢, ‘담합 의혹’ 4대 정유회사 법인 모두 기소",
+          "reason": "정유사 담합 의혹은 석유제품 비축과 관련이 있으며, 한국석유공사의 비축사업 업무와 관련성이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정"
+        },
+        {
+          "id": "1e4b5bae38351adb",
+          "article_id": "acef4a56027181a3",
+          "publisher": "경향신문",
+          "title": "검찰, ‘유가 담합·갑질 관행’ 4대 정유사 기소…“트럼프 만세…전쟁으로 먹고사는 회사”",
+          "url": "https://www.khan.co.kr/article/202607061004001",
+          "published_at": "2026-07-06T01:04:00.000Z",
+          "score": 0.6,
+          "segment_text": "검찰, ‘유가 담합·갑질 관행’ 4대 정유사 기소…“트럼프 만세…전쟁으로 먹고사는 회사”",
+          "reason": "정유사 유가 담합 및 갑질 관행은 석유제품 비축과 관련이 있으며, 한국석유공사의 비축사업 업무와 관련성이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정"
+        }
+      ]
+    },
+    {
+      "department_id": "petroleum_business",
+      "department": "석유사업처",
+      "role": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+      "article_count": 14,
+      "segment_count": 14,
+      "items": [
+        {
+          "id": "6befcaa986edb8ce",
+          "article_id": "6c1f6f7e0e7ee4bb",
+          "publisher": "경향신문",
+          "title": "[사설]전쟁을 돈벌이 기회로 삼은 정유사들의 26조원대 담합·갑질",
+          "url": "https://www.khan.co.kr/article/202607061810011",
+          "published_at": "2026-07-06T09:10:01.000Z",
+          "score": 0.9,
+          "segment_text": "정유사들의 26조원대 담합·갑질 관련 기사",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단"
+        },
+        {
+          "id": "cffd628c44d37c7e",
+          "article_id": "36d10c96f2d72231",
+          "publisher": "한겨레",
+          "title": "청산 위기 홈플러스…건설사들 우발채무 8700억원도 위험 직면",
+          "url": "https://www.hani.co.kr/arti/economy/consumer/1266898.html",
+          "published_at": "2026-07-06T06:01:00.000Z",
+          "score": 0.85,
+          "segment_text": "청산 위기 홈플러스…건설사들 우발채무 8700억원도 위험 직면",
+          "reason": "유가와 관련된 기사로 석유사업처의 업무와 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단 유지"
+        },
+        {
+          "id": "4142520a8101ad1b",
+          "article_id": "0288ca549d92a9f9",
+          "publisher": "동아일보",
+          "title": "[사설]이란전에 ‘트럼프 만세’ ‘2조 벌 듯’… 정유사들의 추한 짬짜미",
+          "url": "https://www.donga.com/news/Opinion/article/all/20260706/134247642/2",
+          "published_at": "2026-07-06T14:27:00.000Z",
+          "score": 0.8,
+          "segment_text": "정유 4사가 조직적으로 담합해 부당한 이득을 취한 사실이 검찰 수사로 드러났다. 이들 정유사는 2024년 7월부터 상호 가격 정보를 공유해 왔고, 그 담합을 통해 최소 14조2000억 원어치의 석유를 판매했다고 검찰은 밝혔다.",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단"
+        },
+        {
+          "id": "0a8ff8344291581f",
+          "article_id": "220f2fe6d446be1b",
+          "publisher": "경향신문",
+          "title": "정유사들, 전쟁 틈타 14조 담합·갑질",
+          "url": "https://www.khan.co.kr/article/202607062145005/",
+          "published_at": "2026-07-06T12:45:00.000Z",
+          "score": 0.8,
+          "segment_text": "정유사 HD현대오일뱅크와 SK에너지가 미·이란 전쟁 개전 직후 14조원대 가격 담합을 벌여 유가를 끌어올린 혐의로 재판에 넘겨졌다.",
+          "reason": "석유사업처의 역할인 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단"
+        },
+        {
+          "id": "fe3a8c4bcfab63c5",
+          "article_id": "ca0049ce648073ca",
+          "publisher": "경향신문",
+          "title": "정유사들, 전쟁 틈타 14조 담합·갑질",
+          "url": "https://www.khan.co.kr/article/202607062145005",
+          "published_at": "2026-07-06T12:45:00.000Z",
+          "score": 0.8,
+          "segment_text": "정유사 HD현대오일뱅크와 SK에너지가 미·이란 전쟁 개전 직후 14조원대 가격 담합을 벌여 유가를 끌어올린 혐의로 재판에 넘겨졌다.",
+          "reason": "석유사업처의 역할인 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단"
+        },
+        {
+          "id": "50d1fc2e470ecdf1",
+          "article_id": "f4a7bca3fe06d371",
+          "publisher": "한겨레",
+          "title": "정유사들, 중동전 터지자 기름값 대폭 올려…“트럼프 만세”까지",
+          "url": "https://www.hani.co.kr/arti/society/society_general/1267002.html",
+          "published_at": "2026-07-06T12:40:00.000Z",
+          "score": 0.8,
+          "segment_text": "미국·이스라엘-이란 전쟁 발발 직후 국내 석유값 급등의 배경에는 일부 정유사의 가격 담합과 정유사의 주유소에 대한 우월적 지위 등이 복합적인 영향을 미친 것으로 드러났다.",
+          "reason": "석유사업처의 역할인 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정"
+        },
+        {
+          "id": "d9e9046d8ad6bc2e",
+          "article_id": "2073569e05fc8f34",
+          "publisher": "한겨레",
+          "title": "전쟁 전후 14조원대 유가 담합한 정유사들",
+          "url": "https://www.hani.co.kr/arti/society/society_general/1266999.html",
+          "published_at": "2026-07-06T12:16:00.000Z",
+          "score": 0.8,
+          "segment_text": "정유사들의 유가 담합은 석유 구매와 판매, 트레이딩 업무를 담당하는 석유사업처의 업무와 관련이 있다.",
+          "reason": "정유사들의 유가 담합은 석유사업처의 석유 구매와 판매, 트레이딩 업무와 관련이 있다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단"
+        },
+        {
+          "id": "5b4b8ae6de2c0b17",
+          "article_id": "bc627742ab77c1ea",
+          "publisher": "중앙일보",
+          "title": "중동전쟁 틈탄 14조원대 유가담합... 자영주유소 갑질 기소",
+          "url": "https://www.joongang.co.kr/article/25442711",
+          "published_at": "2026-07-06T03:05:36.000Z",
+          "score": 0.8,
+          "segment_text": "중동전쟁 틈탄 14조원대 유가담합... 자영주유소 갑질 기소",
+          "reason": "석유제품, 정유, 주유소 관련 업무를 담당하는 석유사업처와 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단"
+        },
+        {
+          "id": "e9150235fa112777",
+          "article_id": "71cb8e19b6572dd8",
+          "publisher": "한겨레",
+          "title": "한국 vs 독일…최대 60조 캐나다 잠수함 사업자 7일 발표될 듯",
+          "url": "https://www.hani.co.kr/arti/international/america/1266859.html",
+          "published_at": "2026-07-06T01:34:00.000Z",
+          "score": 0.8,
+          "segment_text": "최대 60조원에 이르는 이번 잠수함 수주전은 한국 한화오션·에이치디(HD)현대중공업 팀과 독일 티센크루프마린시스템즈(TKMS",
+          "reason": "원유 수급과 관련된 사업에 한국 기업이 참여하며, 석유 사업 전략과 관련",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정"
+        },
+        {
+          "id": "2fa11e357da5d30f",
+          "article_id": "08f3b21a5c11c4bf",
+          "publisher": "중앙일보",
+          "title": "콩이 석유를 대체한다고?! 지속가능성 컨퍼런스에서 찾은 키워드 3가지 [쿠킹]",
+          "url": "https://www.joongang.co.kr/article/25442679",
+          "published_at": "2026-07-06T01:17:45.000Z",
+          "score": 0.8,
+          "segment_text": "검찰, ‘담합 의혹’ 4대 정유회사 법인 모두 기소",
+          "reason": "정유사 담합 의혹은 석유제품 구매 및 판매와 관련이 있으며, 한국석유공사의 석유사업, 유통사업, 비축사업 등 업무와 관련성이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정"
+        },
+        {
+          "id": "6fbc1f83fa8e4db4",
+          "article_id": "08fee7c200eea523",
+          "publisher": "중앙일보",
+          "title": "[속보] 檢, ‘담합 의혹’ 4대 정유회사 법인 모두 기소",
+          "url": "https://www.joongang.co.kr/article/25442676",
+          "published_at": "2026-07-06T01:12:44.000Z",
+          "score": 0.8,
+          "segment_text": "[속보] 檢, ‘담합 의혹’ 4대 정유회사 법인 모두 기소",
+          "reason": "정유사 담합 의혹은 석유제품 구매 및 판매와 관련이 있으며, 한국석유공사의 석유사업, 유통사업, 비축사업 등 업무와 관련성이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정"
+        },
+        {
+          "id": "c9ee3a891cf6b733",
+          "article_id": "acef4a56027181a3",
+          "publisher": "경향신문",
+          "title": "검찰, ‘유가 담합·갑질 관행’ 4대 정유사 기소…“트럼프 만세…전쟁으로 먹고사는 회사”",
+          "url": "https://www.khan.co.kr/article/202607061004001",
+          "published_at": "2026-07-06T01:04:00.000Z",
+          "score": 0.8,
+          "segment_text": "검찰, ‘유가 담합·갑질 관행’ 4대 정유사 기소…“트럼프 만세…전쟁으로 먹고사는 회사”",
+          "reason": "정유사 유가 담합 및 갑질 관행은 석유제품 구매 및 판매와 관련이 있으며, 한국석유공사의 석유사업, 유통사업, 비축사업 등 업무와 관련성이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정"
+        },
+        {
+          "id": "b3c094e25d2bc3ea",
+          "article_id": "7a1128f62f69dcfc",
+          "publisher": "한겨레",
+          "title": "“유조차가 비싸 개인사업자래요”…노조 설립 신고 막힌 운송기사들",
+          "url": "https://www.hani.co.kr/arti/society/labor/1266929.html",
+          "published_at": "2026-07-06T07:55:00.000Z",
+          "score": 0.6,
+          "segment_text": "지에스칼텍스 석유제품 운송 외에는 다른 일을 할 수도 없고 회사의 배차 지시에 의해서만 화물을 운송하는데 노동조합 설립 신고가 반려될 줄 몰랐습니다.",
+          "reason": "석유제품 관련 사업",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단 유지"
+        },
+        {
+          "id": "8f904032c7db615b",
+          "article_id": "eb5a6c09d75444a7",
+          "publisher": "중앙일보",
+          "title": "전쟁 전으로 돌아간 국제유가…공급 과잉 우려에 “연말 60달러대” 전망도",
+          "url": "https://www.joongang.co.kr/article/25442731",
+          "published_at": "2026-07-06T05:02:51.000Z",
+          "score": 0.6,
+          "segment_text": "전쟁 전으로 돌아간 국제유가…공급 과잉 우려에 “연말 60달러대” 전망도",
+          "reason": "국제유가 변동은 석유사업 전략에 영향을 미칠 수 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s5"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단 유지"
+        }
+      ]
+    },
+    {
+      "department_id": "distribution_business",
+      "department": "유통사업처",
+      "role": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+      "article_count": 16,
+      "segment_count": 16,
+      "items": [
+        {
+          "id": "5ec6cccf8560cc4d",
+          "article_id": "e07f7b82684cf662",
+          "publisher": "경향신문",
+          "title": "‘제주 기름값 담합’ 농협에 과징금 20억",
+          "url": "https://www.khan.co.kr/article/202607062049015/",
+          "published_at": "2026-07-06T11:49:01.000Z",
+          "score": 0.95,
+          "segment_text": "휘발유와 경유 등 경질유 제품 가격을 담합했다는 의혹으로 제주농협과 서귀포농협에 20억원대의 과징금이 부과됐다. 공정거래위원회는 다음날 적용할 경질유 판매가격을 제주주유소협회에 미리 넘기고, 가격 인상과 유지에 적극적으로 가담한 제주농협과 서귀포농협에 과징금 총 20억2000만원을 부과했다고 6일 밝혔다.",
+          "reason": "석유유통과 관련된 부서로 가격 담합 이슈가 해당 부서의 업무와 직접 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정"
+        },
+        {
+          "id": "7e15e3eef3171fb6",
+          "article_id": "34846ca6b173bd61",
+          "publisher": "경향신문",
+          "title": "‘제주 기름값 담합’ 농협에 과징금 20억",
+          "url": "https://www.khan.co.kr/article/202607062049015",
+          "published_at": "2026-07-06T11:49:01.000Z",
+          "score": 0.95,
+          "segment_text": "휘발유와 경유 등 경질유 제품 가격을 담합했다는 의혹으로 제주농협과 서귀포농협에 20억원대의 과징금이 부과됐다. 공정거래위원회는 다음날 적용할 경질유 판매가격을 제주주유소협회에 미리 넘기고, 가격 인상과 유지에 적극적으로 가담한 제주농협과 서귀포농협에 과징금 총 20억2000만원을 부과했다고 6일 밝혔다.",
+          "reason": "석유유통과 관련된 부서로 가격 담합 이슈가 해당 부서의 업무와 직접 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정"
+        },
+        {
+          "id": "727b0071f12aa1f4",
+          "article_id": "fe6ee6ebf96c0ec1",
+          "publisher": "중앙일보",
+          "title": "제주 기름값 왜 비싼가 봤더니…제주 농협·주유소협회 기름값 짬짜미",
+          "url": "https://www.joongang.co.kr/article/25442761",
+          "published_at": "2026-07-06T06:12:52.000Z",
+          "score": 0.95,
+          "segment_text": "제주 기름값 왜 비싼가 봤더니…제주 농협·주유소협회 기름값 짬짜미",
+          "reason": "석유유통과 관련된 기사로 유통사업처의 업무와 직접 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s4",
+            "s8"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단 유지"
+        },
+        {
+          "id": "93f1a257d8fe7084",
+          "article_id": "7a1128f62f69dcfc",
+          "publisher": "한겨레",
+          "title": "“유조차가 비싸 개인사업자래요”…노조 설립 신고 막힌 운송기사들",
+          "url": "https://www.hani.co.kr/arti/society/labor/1266929.html",
+          "published_at": "2026-07-06T07:55:00.000Z",
+          "score": 0.8,
+          "segment_text": "지에스칼텍스 석유제품 운송 외에는 다른 일을 할 수도 없고 회사의 배차 지시에 의해서만 화물을 운송하는데 노동조합 설립 신고가 반려될 줄 몰랐습니다.",
+          "reason": "석유제품 유통 관련 업무",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단 유지"
+        },
+        {
+          "id": "0fed325b2d9794b7",
+          "article_id": "4c2e25294253807a",
+          "publisher": "경향신문",
+          "title": "공정위, ‘제주 기름값 담합’ 농협·주유소협회에 과징금 20억 부과",
+          "url": "https://www.khan.co.kr/article/202607061408001",
+          "published_at": "2026-07-06T05:08:00.000Z",
+          "score": 0.8,
+          "segment_text": "휘발유와 경유 등 경질유 가격을 담합했다는 의혹으로 제주농협과 서귀포농협에 20억원대의 과징금이 부과됐다.",
+          "reason": "석유유통과 관련된 내용으로 유통사업처의 업무와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3",
+            "s8"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단 유지"
+        },
+        {
+          "id": "8b2ef42584a6d959",
+          "article_id": "f325e96370a04e7c",
+          "publisher": "한겨레",
+          "title": "제주 ‘기름값 담합’ 과징금 20억원…주유소협회·농협 가담 적발",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1266876.html",
+          "published_at": "2026-07-06T03:00:00.000Z",
+          "score": 0.8,
+          "segment_text": "제주 ‘기름값 담합’ 과징금 20억원…주유소협회·농협 가담 적발",
+          "reason": "주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 관련 업무를 담당하는 유통사업처와 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s4"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "1차 판단 유지"
+        },
+        {
+          "id": "c94041997c99abb6",
+          "article_id": "0288ca549d92a9f9",
+          "publisher": "동아일보",
+          "title": "[사설]이란전에 ‘트럼프 만세’ ‘2조 벌 듯’… 정유사들의 추한 짬짜미",
+          "url": "https://www.donga.com/news/Opinion/article/all/20260706/134247642/2",
+          "published_at": "2026-07-06T14:27:00.000Z",
+          "score": 0.7,
+          "segment_text": "정유 4사가 조직적으로 담합해 부당한 이득을 취한 사실이 검찰 수사로 드러났다. 이들 정유사는 2024년 7월부터 상호 가격 정보를 공유해 왔고, 그 담합을 통해 최소 14조2000억 원어치의 석유를 판매했다고 검찰은 밝혔다.",
+          "reason": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당하는 유통사업처와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단"
+        },
+        {
+          "id": "eb429a8b8cbf7e5c",
+          "article_id": "220f2fe6d446be1b",
+          "publisher": "경향신문",
+          "title": "정유사들, 전쟁 틈타 14조 담합·갑질",
+          "url": "https://www.khan.co.kr/article/202607062145005/",
+          "published_at": "2026-07-06T12:45:00.000Z",
+          "score": 0.7,
+          "segment_text": "정유사 HD현대오일뱅크와 SK에너지가 미·이란 전쟁 개전 직후 14조원대 가격 담합을 벌여 유가를 끌어올린 혐의로 재판에 넘겨졌다.",
+          "reason": "유통사업처의 역할인 알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단"
+        },
+        {
+          "id": "4561163d860fc12a",
+          "article_id": "ca0049ce648073ca",
+          "publisher": "경향신문",
+          "title": "정유사들, 전쟁 틈타 14조 담합·갑질",
+          "url": "https://www.khan.co.kr/article/202607062145005",
+          "published_at": "2026-07-06T12:45:00.000Z",
+          "score": 0.7,
+          "segment_text": "정유사 HD현대오일뱅크와 SK에너지가 미·이란 전쟁 개전 직후 14조원대 가격 담합을 벌여 유가를 끌어올린 혐의로 재판에 넘겨졌다.",
+          "reason": "유통사업처의 역할인 알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단"
+        },
+        {
+          "id": "8a9b1fd21cb5a0c6",
+          "article_id": "f4a7bca3fe06d371",
+          "publisher": "한겨레",
+          "title": "정유사들, 중동전 터지자 기름값 대폭 올려…“트럼프 만세”까지",
+          "url": "https://www.hani.co.kr/arti/society/society_general/1267002.html",
+          "published_at": "2026-07-06T12:40:00.000Z",
+          "score": 0.7,
+          "segment_text": "미국·이스라엘-이란 전쟁 발발 직후 국내 석유값 급등의 배경에는 일부 정유사의 가격 담합과 정유사의 주유소에 대한 우월적 지위 등이 복합적인 영향을 미친 것으로 드러났다.",
+          "reason": "유통사업처의 역할인 알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정"
+        },
+        {
+          "id": "ac82adacfda645d9",
+          "article_id": "2073569e05fc8f34",
+          "publisher": "한겨레",
+          "title": "전쟁 전후 14조원대 유가 담합한 정유사들",
+          "url": "https://www.hani.co.kr/arti/society/society_general/1266999.html",
+          "published_at": "2026-07-06T12:16:00.000Z",
+          "score": 0.7,
+          "segment_text": "정유사들의 유가 담합은 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 업무를 담당하는 유통사업처의 업무와 관련이 있다.",
+          "reason": "정유사들의 유가 담합은 유통사업처의 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 업무와 관련이 있다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단"
+        },
+        {
+          "id": "f3b8aeb97678378f",
+          "article_id": "6f5682346d6ae85f",
+          "publisher": "중앙일보",
+          "title": "전국 휘발윳값 3개월 만에 1800원대…경유도 하락세 지속",
+          "url": "https://www.joongang.co.kr/article/25442743",
+          "published_at": "2026-07-06T05:38:45.000Z",
+          "score": 0.7,
+          "segment_text": "전국 휘발윳값 3개월 만에 1800원대…경유도 하락세 지속",
+          "reason": "석유 유통 관련 정보",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단"
+        },
+        {
+          "id": "792448435b71e2bc",
+          "article_id": "bc627742ab77c1ea",
+          "publisher": "중앙일보",
+          "title": "중동전쟁 틈탄 14조원대 유가담합... 자영주유소 갑질 기소",
+          "url": "https://www.joongang.co.kr/article/25442711",
+          "published_at": "2026-07-06T03:05:36.000Z",
+          "score": 0.7,
+          "segment_text": "중동전쟁 틈탄 14조원대 유가담합... 자영주유소 갑질 기소",
+          "reason": "주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 관련 업무를 담당하는 유통사업처와 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 분류된 기사를 정밀 검토하여 최종적으로 관련 기사로 판단"
+        },
+        {
+          "id": "5ba7b2869628ca08",
+          "article_id": "08f3b21a5c11c4bf",
+          "publisher": "중앙일보",
+          "title": "콩이 석유를 대체한다고?! 지속가능성 컨퍼런스에서 찾은 키워드 3가지 [쿠킹]",
+          "url": "https://www.joongang.co.kr/article/25442679",
+          "published_at": "2026-07-06T01:17:45.000Z",
+          "score": 0.7,
+          "segment_text": "검찰, ‘담합 의혹’ 4대 정유회사 법인 모두 기소",
+          "reason": "정유사 담합 의혹은 석유제품 유통과 관련이 있으며, 한국석유공사의 유통사업 업무와 관련성이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정"
+        },
+        {
+          "id": "b72a2fa310e7326d",
+          "article_id": "08fee7c200eea523",
+          "publisher": "중앙일보",
+          "title": "[속보] 檢, ‘담합 의혹’ 4대 정유회사 법인 모두 기소",
+          "url": "https://www.joongang.co.kr/article/25442676",
+          "published_at": "2026-07-06T01:12:44.000Z",
+          "score": 0.7,
+          "segment_text": "[속보] 檢, ‘담합 의혹’ 4대 정유회사 법인 모두 기소",
+          "reason": "정유사 담합 의혹은 석유제품 유통과 관련이 있으며, 한국석유공사의 유통사업 업무와 관련성이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정"
+        },
+        {
+          "id": "3046160025de1acf",
+          "article_id": "acef4a56027181a3",
+          "publisher": "경향신문",
+          "title": "검찰, ‘유가 담합·갑질 관행’ 4대 정유사 기소…“트럼프 만세…전쟁으로 먹고사는 회사”",
+          "url": "https://www.khan.co.kr/article/202607061004001",
+          "published_at": "2026-07-06T01:04:00.000Z",
+          "score": 0.7,
+          "segment_text": "검찰, ‘유가 담합·갑질 관행’ 4대 정유사 기소…“트럼프 만세…전쟁으로 먹고사는 회사”",
+          "reason": "정유사 유가 담합 및 갑질 관행은 석유제품 유통과 관련이 있으며, 한국석유공사의 유통사업 업무와 관련성이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 1차 판단을 참고하여, 더 자세한 기사 내용과 부서별 역할을 기준으로 최종 배정"
+        }
+      ]
+    },
+    {
+      "department_id": "energy_infra",
+      "department": "에너지인프라사업처",
+      "role": "에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hydrogen_ammonia",
+      "department": "수소암모니아사업단",
+      "role": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    }
+  ]
+}

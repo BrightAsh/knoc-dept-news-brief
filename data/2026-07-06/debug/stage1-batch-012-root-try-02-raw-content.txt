@@ -1,0 +1,50 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "7411cc27e3aeb724",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "공공기관 관련 이슈",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "공공기관",
+          "evidence_type": "sentence",
+          "reason": "공공기관 운영 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "6d3d1f09979c6679",
+      "candidate": false,
+      "confidence": 0.2,
+      "company_reason": "일반 언론 이슈",
+      "departments": []
+    },
+    {
+      "article_id": "1166b160a44fcd12",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지 관련 이슈",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "에너지",
+          "evidence_type": "sentence",
+          "reason": "에너지 관련 사업"
+        }
+      ]
+    }
+  ]
+}
+```

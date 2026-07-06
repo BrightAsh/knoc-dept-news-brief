@@ -1,0 +1,59 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "bc627742ab77c1ea",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유, 원유, 유가, 에너지, 석유제품, 정유, 주유소 관련 기사로 한국석유공사의 석유사업, 유통사업, 가격 안정화 업무와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "중동전쟁 틈탄 14조원대 유가담합... 자영주유소 갑질 기소",
+          "evidence_type": "title",
+          "reason": "석유제품, 정유, 주유소 관련 업무를 담당하는 석유사업처와 관련이 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "중동전쟁 틈탄 14조원대 유가담합... 자영주유소 갑질 기소",
+          "evidence_type": "title",
+          "reason": "주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 관련 업무를 담당하는 유통사업처와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "f325e96370a04e7c",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "제주 지역 주유소들의 기름값 담합 관련 기사로 한국석유공사의 유통사업, 가격 안정화 업무와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "제주 ‘기름값 담합’ 과징금 20억원…주유소협회·농협 가담 적발",
+          "evidence_type": "title",
+          "reason": "주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리 관련 업무를 담당하는 유통사업처와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "b2fe84fc47b62d86",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "유가 관련 언급이 있으나 구체적인 연결 고리가 없어 관련성이 낮음",
+      "departments": []
+    }
+  ]
+}
+```

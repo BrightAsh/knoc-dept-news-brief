@@ -1,0 +1,318 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "20745247e0d520f0",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "20745247e0d520f0",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "산업부 관련 언급이지만 한국석유공사와 직접 관련성이 없음",
+        "review_note": "C 그룹에서 최종 판단 부서 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "20745247e0d520f0",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "산업부 관련 언급이지만 한국석유공사와 직접 관련성이 없음",
+        "review_note": "C 그룹에서 최종 판단 부서 없음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "9c3e65d513e063f8",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "9c3e65d513e063f8",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "공공기관 운영 관련 기사로 한국석유공사의 경영 및 운영과 관련성이 있음",
+        "review_note": "C 그룹에서 최종 판단 부서 배정",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "이성훈 신임 LH 사장 “청년이 먼저 찾는 양질의 공공임대 선뵐 것”",
+            "evidence_type": "article",
+            "reason": "공공기관 운영 및 예산 관련 기사로 기획예산처의 업무와 연결됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "9c3e65d513e063f8",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "공공기관 운영 관련 기사로 한국석유공사의 경영 및 운영과 관련성이 있음",
+        "review_note": "C 그룹에서 최종 판단 부서 배정",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "이성훈 신임 LH 사장 “청년이 먼저 찾는 양질의 공공임대 선뵐 것”",
+            "evidence_type": "article",
+            "reason": "공공기관 운영 및 예산 관련 기사로 기획예산처의 업무와 연결됨"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "b645a82530eea69e",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "b645a82530eea69e",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 연구개발로 한국석유공사의 저탄소 추진과 관련성이 있음",
+        "review_note": "C 그룹에서 최종 판단 부서 배정",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "빛으로 붙잡고 원하는 대로 정렬···포스텍, 양자나노현미경 개발",
+            "evidence_type": "paragraph",
+            "reason": "에너지 관련 연구개발"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "b645a82530eea69e",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 연구개발로 한국석유공사의 저탄소 추진과 관련성이 있음",
+        "review_note": "C 그룹에서 최종 판단 부서 배정",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "빛으로 붙잡고 원하는 대로 정렬···포스텍, 양자나노현미경 개발",
+            "evidence_type": "paragraph",
+            "reason": "에너지 관련 연구개발"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "41ee83088f378b31",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "41ee83088f378b31",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 사업으로 한국석유공사의 석유사업과 관련성이 있음",
+        "review_note": "C 그룹에서 최종 판단 부서 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "LG, 협력사에 ‘상생결제 낙수율’ 국내 최대로 확대키로",
+            "evidence_type": "paragraph",
+            "reason": "에너지 관련 사업"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "41ee83088f378b31",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 사업으로 한국석유공사의 석유사업과 관련성이 있음",
+        "review_note": "C 그룹에서 최종 판단 부서 배정",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "LG, 협력사에 ‘상생결제 낙수율’ 국내 최대로 확대키로",
+            "evidence_type": "paragraph",
+            "reason": "에너지 관련 사업"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "e77bd160f32069be",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "e77bd160f32069be",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "공기업 인사 관련 기사로 한국석유공사의 경영전략과 관련성이 있음",
+        "review_note": "C 그룹에서 최종 판단 부서 배정",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "부산 행정효능감 위해 ‘서열파괴’…경남 공석인 정무직 인사 착수",
+            "evidence_type": "article",
+            "reason": "공기업 인사 관련 언급으로 경영전략처의 업무와 관련성이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "e77bd160f32069be",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "공기업 인사 관련 기사로 한국석유공사의 경영전략과 관련성이 있음",
+        "review_note": "C 그룹에서 최종 판단 부서 배정",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "부산 행정효능감 위해 ‘서열파괴’…경남 공석인 정무직 인사 착수",
+            "evidence_type": "article",
+            "reason": "공기업 인사 관련 언급으로 경영전략처의 업무와 관련성이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "7faf1e49315f55ae",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "7faf1e49315f55ae",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 사업으로 한국석유공사의 저탄소 추진과 관련성이 있음",
+        "review_note": "C 그룹에서 최종 판단 부서 배정",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "재생에너지 전력을 공급하는 태양광 프로젝트 사업",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 추진 관련 사업"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "7faf1e49315f55ae",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 사업으로 한국석유공사의 저탄소 추진과 관련성이 있음",
+        "review_note": "C 그룹에서 최종 판단 부서 배정",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "재생에너지 전력을 공급하는 태양광 프로젝트 사업",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 추진 관련 사업"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "c3fa67833edf3fdd",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "c3fa67833edf3fdd",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 사업으로 한국석유공사의 저탄소 추진과 관련성이 있음",
+        "review_note": "C 그룹에서 최종 판단 부서 배정",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "재생에너지 전력을 공급하는 태양광 프로젝트 사업",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 추진 관련 사업"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "c3fa67833edf3fdd",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 사업으로 한국석유공사의 저탄소 추진과 관련성이 있음",
+        "review_note": "C 그룹에서 최종 판단 부서 배정",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "재생에너지 전력을 공급하는 태양광 프로젝트 사업",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 추진 관련 사업"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "41ccc302297dfc3c",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "41ccc302297dfc3c",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 언급이지만 한국석유공사와 직접 관련성이 없음",
+        "review_note": "C 그룹에서 최종 판단 부서 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "41ccc302297dfc3c",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 언급이지만 한국석유공사와 직접 관련성이 없음",
+        "review_note": "C 그룹에서 최종 판단 부서 없음",
+        "departments": []
+      }
+    }
+  ]
+}

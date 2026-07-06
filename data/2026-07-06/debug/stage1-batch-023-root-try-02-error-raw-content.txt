@@ -1,0 +1,177 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "b3b6a54b7b9ca56d",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c83226ebc6016fae",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "dd7b0cab20b8e5fa",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "정유사, 유가, 국제유가, 에너지, 석유제품, 휘발유, 정유, 주유소 관련 언급으로 인해 한국석유공사의 석유사업, 유통사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "정유사 직원들, 유가, 국제유가, 에너지, 석유제품, 휘발유, 정유, 주유소",
+          "evidence_type": "article",
+          "reason": "석유사업, 유통사업 관련 언급"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "정유사 직원들, 유가, 국제유가, 에너지, 석유제품, 휘발유, 정유, 주유소",
+          "evidence_type": "article",
+          "reason": "유통사업 관련 언급"
+        }
+      ]
+    },
+    {
+      "article_id": "37ed6a6f9aa57906",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "0109ec4afd50f418",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "a74efe39967f1af8",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "baf6cf5e7865901e",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "공공기관 관련 언급으로 인해 한국석유공사의 경영전략, 기획예산과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "공공기관 콜센터 노동자들",
+          "evidence_type": "paragraph",
+          "reason": "기획예산 관련 언급"
+        }
+      ]
+    },
+    {
+      "article_id": "650d9e0af0a00125",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "석유비축 관련 언급으로 인해 한국석유공사의 석유비축, 에너지인프라사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "울산 비축기지 원유 북한 유입설, 석유비축",
+          "evidence_type": "paragraph",
+          "reason": "석유비축 관련 언급"
+        },
+        {
+          "department_id": "energy_infra",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "울산 비축기지 원유 북한 유입설, 석유비축",
+          "evidence_type": "paragraph",
+          "reason": "에너지인프라사업 관련 언급"
+        }
+      ]
+    },
+    {
+      "article_id": "5ca712463e8d1593",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "b57ba14c6acc5287",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "23fb3aff6bcd56db",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c687ac3f00b119d9",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "dd541a633af6dcfa",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "46a954999bcd7ff5",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "공기업 관련 언급으로 인해 한국석유공사의 경영전략, 인재경영과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "hr",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "직업계고 3학년 5만8000여명",
+          "evidence_type": "paragraph",
+          "reason": "인재경영 관련 언급"
+        }
+      ]
+    },
+    {
+      "article_id": "2b2b3a1bc0cee873",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "896486792b0d5bd0",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 언급으로 인해 한국석유공

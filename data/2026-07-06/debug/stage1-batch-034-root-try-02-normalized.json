@@ -1,0 +1,108 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "08f3b21a5c11c4bf",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "08f3b21a5c11c4bf",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유, 유가, 에너지 관련 언급으로 인해 한국석유공사와 관련이 있을 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "콩이 석유를 대체한다고?! 지속가능성 컨퍼런스에서 찾은 키워드 3가지 [쿠킹]",
+            "evidence_type": "title",
+            "reason": "석유 관련 언급으로 인해 석유사업처와 관련이 있을 가능성이 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "콩이 석유를 대체한다고?! 지속가능성 컨퍼런스에서 찾은 키워드 3가지 [쿠킹]",
+            "evidence_type": "title",
+            "reason": "에너지 관련 언급으로 인해 스마트데이터센터와 관련이 있을 가능성이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "08f3b21a5c11c4bf",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유, 유가, 에너지 관련 언급으로 인해 한국석유공사와 관련이 있을 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "콩이 석유를 대체한다고?! 지속가능성 컨퍼런스에서 찾은 키워드 3가지 [쿠킹]",
+            "evidence_type": "article",
+            "reason": "석유 관련 언급으로 인해 석유사업처와 관련이 있을 가능성이 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "콩이 석유를 대체한다고?! 지속가능성 컨퍼런스에서 찾은 키워드 3가지 [쿠킹]",
+            "evidence_type": "article",
+            "reason": "에너지 관련 언급으로 인해 스마트데이터센터와 관련이 있을 가능성이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "1880067278350318",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "1880067278350318",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "유가 언급이지만 기사 내용이 한국석유공사와 직접 관련이 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "1880067278350318",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "유가 언급이지만 기사 내용이 한국석유공사와 직접 관련이 없음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "3c4ecfd0af441b1d",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "3c4ecfd0af441b1d",
+        "candidate": false,
+        "confidence": 0.3,
+        "company_reason": "유가 언급이지만 기사 내용이 한국석유공사와 직접 관련이 없음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "3c4ecfd0af441b1d",
+        "candidate": false,
+        "confidence": 0.3,
+        "company_reason": "유가 언급이지만 기사 내용이 한국석유공사와 직접 관련이 없음",
+        "departments": []
+      }
+    }
+  ]
+}

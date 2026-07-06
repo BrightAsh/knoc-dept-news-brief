@@ -1,0 +1,85 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "0288ca549d92a9f9",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "정유사 담합 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "정유 4사가 조직적으로 담합해 부당한 이득을 취한 사실이 검찰 수사로 드러났다. 이들 정유사는 2024년 7월부터 상호 가격 정보를 공유해 왔고, 그 담합을 통해 최소 14조2000억 원어치의 석유를 판매했다고 검찰은 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "정유 4사가 조직적으로 담합해 부당한 이득을 취한 사실이 검찰 수사로 드러났다. 이들 정유사는 2024년 7월부터 상호 가격 정보를 공유해 왔고, 그 담합을 통해 최소 14조2000억 원어치의 석유를 판매했다고 검찰은 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당하는 유통사업처와 관련이 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "정유 4사가 조직적으로 담합해 부당한 이득을 취한 사실이 검찰 수사로 드러났다. 이들 정유사는 2024년 7월부터 상호 가격 정보를 공유해 왔고, 그 담합을 통해 최소 14조2000억 원어치의 석유를 판매했다고 검찰은 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당하는 석유비축처와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "c8d1bff1de2b0538",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "고용 없는 성장 관련 기사로 한국석유공사의 석유사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "반도체 초호황에도 고용시장 전망이 밝지 않다. 성장 온기가 실물 경기와 구직 시장으로 잘 퍼지지 않고 있기 때문이다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "7b7555c7b0f90f6a",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "사관학교 통합 발표 연기 관련 기사로 한국석유공사의 경영전략과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "국방부가 6일 육해공군 사관학교를 통합해 국군사관학교를 창설하는 기본 계획을 발표하려다 브리핑 1시간 40분 전 돌연 연기했다. 국방부는 안규백 장관이 청와대 일정에 참석하게 됐다며 브리핑 시점은 다시 공지하겠다고 했다.",
+          "evidence_type": "paragraph",
+          "reason": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당하는 경영전략처와 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,152 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "6f5682346d6ae85f",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "6f5682346d6ae85f",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유 관련 정보 제공",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "전국 휘발윳값 3개월 만에 1800원대…경유도 하락세 지속",
+            "evidence_type": "title",
+            "reason": "석유 가격 정보 제공"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "전국 휘발윳값 3개월 만에 1800원대…경유도 하락세 지속",
+            "evidence_type": "title",
+            "reason": "석유 유통 관련 정보"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "6f5682346d6ae85f",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "석유 관련 정보 제공",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "전국 휘발윳값 3개월 만에 1800원대…경유도 하락세 지속",
+            "evidence_type": "article",
+            "reason": "석유 가격 정보 제공"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "전국 휘발윳값 3개월 만에 1800원대…경유도 하락세 지속",
+            "evidence_type": "article",
+            "reason": "석유 유통 관련 정보"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "741c656c6bd2a2d7",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "741c656c6bd2a2d7",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 정보 제공",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "AI 랠리 비껴간 인도 증시, 다시 돈 몰린다",
+            "evidence_type": "title",
+            "reason": "에너지 시장 관련 정보"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "741c656c6bd2a2d7",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 정보 제공",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "AI 랠리 비껴간 인도 증시, 다시 돈 몰린다",
+            "evidence_type": "article",
+            "reason": "에너지 시장 관련 정보"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "e1c75a1d374eb308",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "e1c75a1d374eb308",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 정보 제공",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "백현이앤에스, 태양광 화재 예방 기술 재난안전제품 인증 획득",
+            "evidence_type": "title",
+            "reason": "저탄소 관련 정보"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "e1c75a1d374eb308",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 정보 제공",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "백현이앤에스, 태양광 화재 예방 기술 재난안전제품 인증 획득",
+            "evidence_type": "article",
+            "reason": "저탄소 관련 정보"
+          }
+        ]
+      }
+    }
+  ]
+}
