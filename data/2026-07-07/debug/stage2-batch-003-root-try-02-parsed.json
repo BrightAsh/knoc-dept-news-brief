@@ -1,0 +1,121 @@
+{
+  "results": [
+    {
+      "article_id": "b6034717e42e6379",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "에너지, 석유 관련 언급이지만, 한국석유공사의 구체적인 업무와 직접 관련이 없음",
+      "review_note": "1차 후보 기사에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "93d8cf4d52067011",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "수급 안정 관련 언급으로 한국석유공사의 석유 수급 안정 업무와 관련 있음",
+      "review_note": "1차 후보 기사로 유지",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "홍문표 aT 사장, 국내지역본부장회의 주재",
+          "evidence_type": "article",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "홍문표 aT 사장, 국내지역본부장회의 주재",
+          "evidence_type": "article",
+          "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "1b10f7c6266a53c2",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "유가 언급으로 에너지 관련 이슈 가능성이 있음",
+      "review_note": "1차 후보 기사로 유지",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "“중국 공산당법” “카톡도 감시 받아”…황당한 음모론 [오늘부터 7·7법]",
+          "evidence_type": "article",
+          "reason": "에너지 시장 동향 분석과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "“중국 공산당법” “카톡도 감시 받아”…황당한 음모론 [오늘부터 7·7법]",
+          "evidence_type": "article",
+          "reason": "석유 사업 전략과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "39f5e97843376e61",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "유가 관련 이슈지만 구체적인 한국석유공사 업무와 직접 관련이 없음",
+      "review_note": "1차 후보 기사에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "1fc182f58eb72e44",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "유가와 관련된 기사지만 구체적인 한국석유공사 업무와 직접 관련이 없음",
+      "review_note": "1차 후보 기사에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "53aa324b9af9916a",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "유가 관련 기사로 석유사업과 관련이 있음",
+      "review_note": "1차 후보 기사로 유지",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "국내 500대 기업의 비오너 전문경영인과 임원이 보유한 자사주의 가치가 1년여 만에 2배 이상 늘어 1조8000억원을 넘어선 것으로 나타났다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "ec4733387cec6547",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "중국의 ICBM 및 SLBM 시험발사와 관련하여 한국석유공사의 해외 자원개발, 에너지 안보 업무와 간접적 관련이 있지만 직접적 관련은 없음",
+      "review_note": "1차 후보 기사에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "a2287a4e628c1172",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "유가 관련 경제 기사지만 구체적인 한국석유공사 업무와 직접 관련이 없음",
+      "review_note": "1차 후보 기사에서 제외",
+      "departments": []
+    }
+  ]
+}

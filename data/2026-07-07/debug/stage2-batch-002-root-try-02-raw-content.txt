@@ -1,0 +1,114 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "76a31f685b3b7295",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "에너지, 유가 관련 경제 기사이지만 한국석유공사의 직접적인 언급이나 업무와 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었지만, 실제 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "81f2bc520ae84785",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "소비자물가지수 관련 기사이지만 한국석유공사의 직접적인 언급이나 업무와 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었지만, 실제 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "3b069215b15d7c1c",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "보험금 관련 기사이지만 한국석유공사의 직접적인 언급이나 업무와 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었지만, 실제 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "a46365da7be40692",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "에너지 관련 기사이지만 한국석유공사의 직접적인 언급이나 업무와 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었지만, 실제 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "d30370de17ddac47",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "이란의 LNG 및 천연가스 관련 언급으로 인해 에너지 안보와 관련이 있음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 실제 기사 내용과 한국석유공사의 에너지 안보 업무와 관련성이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "이란, 하메네이 장례 중 호르무즈 도발...상선 2척 미사일 공격",
+          "evidence_type": "sentence",
+          "reason": "에너지 전환 및 저탄소 관련 사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "이란, 하메네이 장례 중 호르무즈 도발...상선 2척 미사일 공격",
+          "evidence_type": "sentence",
+          "reason": "글로벌 에너지 이슈 및 위험 관리 관련 전략 수립과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "cf3a018ba2091e0a",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "수소 관련 기사로 한국석유공사의 수소 사업과 관련이 있음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 실제 기사 내용과 한국석유공사의 수소 사업 업무와 관련성이 있음",
+      "departments": [
+        {
+          "department_id": "hydrogen_ammonia",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "울산 1호 수소트램",
+          "evidence_type": "sentence",
+          "reason": "수소트램 관련 기사로 수소암모니아사업단 업무와 관련"
+        }
+      ]
+    },
+    {
+      "article_id": "faca3306c0d616a2",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "에너지 안보와 관련된 논의가 포함되어 있지만 한국석유공사의 직접적인 언급이나 업무와 관련이 없음",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었지만, 실제 기사 내용과 한국석유공사의 업무와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "6cd93d804e4e9384",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "원유라는 키워드가 한국석유공사의 석유사업과 관련이 있기 때문에",
+      "review_note": "1차 판단에서 C 그룹으로 분류되었으며, 실제 기사 내용과 한국석유공사의 석유 사업 업무와 관련성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "텍사스로 기업과 사람이 가는 이유 중 하나가 원유와 관련된 산업 때문일 수 있음",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처의 원유 관련 업무와 연결됨"
+        }
+      ]
+    }
+  ]
+}
+```

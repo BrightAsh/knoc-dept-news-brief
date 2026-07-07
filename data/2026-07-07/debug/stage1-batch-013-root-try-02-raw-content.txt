@@ -1,0 +1,51 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "28bbd088bf56210f",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "c888925112512cfe",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "8537248e6696de42",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "에너지, 석유 관련 이슈로 한국석유공사와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "우크라이나군이 국경에서 2500㎞ 떨어진 러시아 내륙 정유공장을 장거리 드론으로 맞혔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유, 정유 관련 내용으로 석유사업처와 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "우크라이나군이 국경에서 2500㎞ 떨어진 러시아 내륙 정유공장을 장거리 드론으로 맞혔다.",
+          "evidence_type": "article",
+          "reason": "에너지 안보와 관련하여 전략적 이슈로 경영전략처에서 검토가 필요함"
+        }
+      ]
+    }
+  ]
+}
+```

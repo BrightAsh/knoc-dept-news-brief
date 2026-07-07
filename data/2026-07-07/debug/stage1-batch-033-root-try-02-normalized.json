@@ -1,0 +1,112 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "27650e793c52a96b",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "27650e793c52a96b",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "유가, 국제유가, 휘발유, 주유소 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "stage0_keyword_hits"
+            ],
+            "evidence_text": "유가, 국제유가, 휘발유, 주유소",
+            "evidence_type": "keyword",
+            "reason": "스마트데이터센터는 유가, 석유가격 정보, 에너지 통계, 시장동향 분석을 담당하므로 관련성이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "stage0_keyword_hits"
+            ],
+            "evidence_text": "유가, 국제유가, 휘발유, 주유소",
+            "evidence_type": "keyword",
+            "reason": "유통사업처는 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당하므로 관련성이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "27650e793c52a96b",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "유가, 국제유가, 휘발유, 주유소 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "stage0_keyword_hits"
+            ],
+            "evidence_text": "유가, 국제유가, 휘발유, 주유소",
+            "evidence_type": "article",
+            "reason": "스마트데이터센터는 유가, 석유가격 정보, 에너지 통계, 시장동향 분석을 담당하므로 관련성이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "stage0_keyword_hits"
+            ],
+            "evidence_text": "유가, 국제유가, 휘발유, 주유소",
+            "evidence_type": "article",
+            "reason": "유통사업처는 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당하므로 관련성이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "da846cbcaab50c62",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "da846cbcaab50c62",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "코스피, 매도 사이드카, 급락 관련 내용은 에너지 시장과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "코스피, 매도 사이드카, 급락",
+            "evidence_type": "paragraph",
+            "reason": "스마트데이터센터는 시장동향 분석을 담당하므로 관련성이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "da846cbcaab50c62",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "코스피, 매도 사이드카, 급락 관련 내용은 에너지 시장과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "코스피, 매도 사이드카, 급락",
+            "evidence_type": "paragraph",
+            "reason": "스마트데이터센터는 시장동향 분석을 담당하므로 관련성이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

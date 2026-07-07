@@ -1,0 +1,48 @@
+{
+  "raw_result_count": 1,
+  "accepted_result_count": 1,
+  "normalization": [
+    {
+      "article_id": "e138c491613fb77a",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "e138c491613fb77a",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "에너지 관련 이슈이므로 후속 검토 필요",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "영국 “유럽이 장거리미사일 직접 만들자”···나토 정상회의서 계획 공개할 듯",
+            "evidence_type": "title",
+            "reason": "에너지 안보와 관련한 글로벌 이슈로 한국석유공사의 경영전략에 영향을 줄 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "e138c491613fb77a",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "에너지 관련 이슈이므로 후속 검토 필요",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "영국 “유럽이 장거리미사일 직접 만들자”···나토 정상회의서 계획 공개할 듯",
+            "evidence_type": "article",
+            "reason": "에너지 안보와 관련한 글로벌 이슈로 한국석유공사의 경영전략에 영향을 줄 수 있음"
+          }
+        ]
+      }
+    }
+  ]
+}
