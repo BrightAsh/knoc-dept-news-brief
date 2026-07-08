@@ -1,0 +1,70 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "40e24cb68a06d98b",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "40e24cb68a06d98b",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 안보 관련 언급",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "차세대 전력원으로 꼽히는 소형모듈원자로(SMR) 보급을 위해 힘을 모으기로 했다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 안보와 관련된 전략 수립 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "40e24cb68a06d98b",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 안보 관련 언급",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "차세대 전력원으로 꼽히는 소형모듈원자로(SMR) 보급을 위해 힘을 모으기로 했다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 안보와 관련된 전략 수립 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "58139cec77d5ec42",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "58139cec77d5ec42",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "석유 관련 언급이지만 직접적인 관련성은 낮음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "58139cec77d5ec42",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "석유 관련 언급이지만 직접적인 관련성은 낮음",
+        "departments": []
+      }
+    }
+  ]
+}

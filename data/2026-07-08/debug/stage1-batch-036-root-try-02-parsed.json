@@ -1,0 +1,42 @@
+{
+  "results": [
+    {
+      "article_id": "ec1ee445688eebdc",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "에너지 관련 이슈로 인해 한국석유공사와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "윤호중 행안부 장관, 호우 대비 7개 시도에 상황관리관 파견 지시",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 정책 및 관리와 관련하여 한국석유공사의 경영전략과 연결될 가능성이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "f97cc4659f337033",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "원유 관련 언급으로 인해 한국석유공사와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "[뷰리핑] 정청래·김민석 ‘자기 정치’ 신경전",
+          "evidence_type": "paragraph",
+          "reason": "원유 관련 언급으로 인해 한국석유공사의 석유사업과 연결될 가능성이 있음"
+        }
+      ]
+    }
+  ]
+}

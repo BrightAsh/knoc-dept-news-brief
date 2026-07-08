@@ -1,0 +1,169 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "62169162e66ba94c",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "가뭄 관련 이슈이나 한국석유공사의 직접적인 관련 부서가 없음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 부적합",
+      "departments": []
+    },
+    {
+      "article_id": "ec6c5fb5e23f43f4",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "주유소 언급으로 석유유통 관련 가능성이 있음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 적합",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s8"
+          ],
+          "evidence_text": "주유소 22억2050만원(10.5%)",
+          "evidence_type": "paragraph",
+          "reason": "석유유통과 관련된 부서"
+        }
+      ]
+    },
+    {
+      "article_id": "2795727f842f5df5",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "이란의 미군 시설 타격이 국제 유가에 미칠 영향으로 인해 한국석유공사와 관련이 있음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 적합",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "이란이 미국의 대규모 공습에 대한 보복으로 바레인과 쿠웨이트에 있는 미군 시설을 겨냥해 미사일과 드론 공격을 감행했다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "이란이 미국의 대규모 공습에 대한 보복으로 바레인과 쿠웨이트에 있는 미군 시설을 겨냥해 미사일과 드론 공격을 감행했다.",
+          "evidence_type": "paragraph",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "55663774026882dd",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "원-달러 환율과 국제유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 적합",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "원-달러 환율 약 두 달 만에 1500원 아래로…엔화 강세 등 영향",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "원-달러 환율 약 두 달 만에 1500원 아래로…엔화 강세 등 영향",
+          "evidence_type": "paragraph",
+          "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "원-달러 환율 약 두 달 만에 1500원 아래로…엔화 강세 등 영향",
+          "evidence_type": "paragraph",
+          "reason": "정부 비축유, 전략비축, 비축기지, 저장시설 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "c2b126d5bfa87c73",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "베네수엘라 지진 관련 기사이나 한국석유공사의 직접적인 관련 부서가 없음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 부적합",
+      "departments": []
+    },
+    {
+      "article_id": "e755b17ab0b3a713",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 적합",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "인공태양 유치한 나주, 핵융합 특구 추진···“특별법 특례 활용”",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 수소와 암모니아 도입·저장·유통 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "7b9bc1bfda81b522",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "경상수지 흑자 관련 기사이나 한국석유공사의 직접적인 관련 부서가 없음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 부적합",
+      "departments": []
+    },
+    {
+      "article_id": "a8092da712981239",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "에너지 안보 관련 이슈로 한국석유공사의 역할과 관련이 있음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 적합",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "한·미·일 3국이 인도·태평양 지역 국가를 상대로 공동으로 소형모듈원자로(SMR) 사업을 하기 위한 협력각서를 체결했다.",
+          "evidence_type": "article",
+          "reason": "SMR 사업은 에너지 전환과 관련이 있으며, 한국석유공사의 저탄소 추진 업무와 연결됨"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "한·미·일, SMR 사업 협력…인·태 시장 공동 진출",
+          "evidence_type": "article",
+          "reason": "에너지 관련 국제 협력은 한국석유공사의 경영전략과 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,66 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "480614906148a7ad",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "단순 유가 언급으로 경제, 정치 이슈로 보이기 때문에 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "ec6c5fb5e23f43f4",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "주유소 언급으로 석유유통 관련 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "주유소",
+          "evidence_type": "sentence",
+          "reason": "석유유통과 관련된 부서"
+        }
+      ]
+    },
+    {
+      "article_id": "62489b739cb2633b",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유, 원유 언급으로 에너지 안보 관련 가능성이 높음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "석유, 원유",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략과 관련된 부서"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "석유, 원유",
+          "evidence_type": "sentence",
+          "reason": "유가 정보 제공과 관련된 부서"
+        }
+      ]
+    },
+    {
+      "article_id": "839156be15ae4aef",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "에너지 언급이지만 구체적인 연결 고리가 없음",
+      "departments": []
+    }
+  ]
+}
+```

@@ -1,0 +1,109 @@
+{
+  "results": [
+    {
+      "article_id": "070f22f2baa848a6",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "원유, LNG, 천연가스 관련 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "원유, LNG 관련 언급",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "에너지 관련 언급",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 수소와 암모니아 도입·저장·유통 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "07887beb53bc845d",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "유가, 국제유가 관련 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "유가, 국제유가 관련 언급",
+          "evidence_type": "paragraph",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보 관련 업무"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "유가, 국제유가 관련 언급",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "c2b126d5bfa87c73",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "석유 관련 언급으로 인해 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "석유 관련 언급",
+          "evidence_type": "paragraph",
+          "reason": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업 관련 업무"
+        },
+        {
+          "department_id": "americas_europe_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "석유 관련 언급",
+          "evidence_type": "paragraph",
+          "reason": "미주와 유럽 지역 E&P 사업, 해외광구 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "2bad545f209e7d18",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "공공기관 언급이지만 에너지 관련 내용이 아님",
+      "departments": []
+    },
+    {
+      "article_id": "3c9d89a03263e148",
+      "candidate": false,
+      "confidence": 0.3,
+      "company_reason": "에너지 언급이지만 구체적인 내용이 아님",
+      "departments": []
+    },
+    {
+      "article_id": "d38afa888088b0f6",
+      "candidate": false,
+      "confidence": 0.2,
+      "company_reason": "에너지 언급이지만 구체적인 내용이 아님",
+      "departments": []
+    }
+  ]
+}

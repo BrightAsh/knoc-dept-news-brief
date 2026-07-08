@@ -1,0 +1,109 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "8dd1f68a748b9f68",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "에너지 공급과 관련된 내용이지만, 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "1차 판단에서 에너지 관련 이슈로 C 그룹에 포함되었으나, 실제 기사 내용은 한국석유공사의 업무와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "bb484dd7b79e6618",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "공공기관 평가 관련 내용이지만, 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "1차 판단에서 공공기관 관련 이슈로 C 그룹에 포함되었으나, 실제 기사 내용은 한국석유공사의 업무와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "fd66d6a152bdfb21",
+      "final_relevant": false,
+      "confidence": 0.88,
+      "final_reason": "공공기관 평가 관련 내용이지만, 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "1차 판단에서 공공기관 관련 이슈로 C 그룹에 포함되었으나, 실제 기사 내용은 한국석유공사의 업무와 직접 관련이 없음",
+      "departments": []
+    },
+    {
+      "article_id": "444c981b6dcde4d1",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "에너지 인프라 사업과 관련이 있음",
+      "review_note": "1차 판단에서 에너지 관련 이슈로 C 그룹에 포함되었으며, 실제 기사 내용은 한국석유공사의 에너지 인프라 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "energy_infra",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "정부, 반도체 산단 전력 부족 우려에 “호남 발전력 풍부…지역 간 추가 송전선 불필요”",
+          "evidence_type": "paragraph",
+          "reason": "에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "e3f8d8678e61a437",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "ESG 경영과 에너지 관련 정책",
+      "review_note": "1차 판단에서 에너지 관련 정책 및 ESG 경영으로 C 그룹에 포함되었으며, 실제 기사 내용은 한국석유공사의 ESG 경영과 에너지 관련 정책과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "연결자산 10조 이상 기업, 2028년부터 ‘온실가스 배출량’ 공시해야…‘ESG 공시 제도화’ 방안 발표",
+          "evidence_type": "article",
+          "reason": "에너지 관련 정책 및 ESG 경영과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "37e778c9bb3c11a2",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 사업",
+      "review_note": "1차 판단에서 에너지 관련 사업으로 C 그룹에 포함되었으며, 실제 기사 내용은 한국석유공사의 에너지 관련 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "현대엔지니어링이 미국 리튬·붕소 프로젝트에 참여하며 북미 핵심광물 플랜트 시장 공략에 나선다.",
+          "evidence_type": "paragraph",
+          "reason": "리튬, 붕소 프로젝트는 에너지 전환 관련 사업과 관련이 있다."
+        }
+      ]
+    },
+    {
+      "article_id": "18b0bfcb6c127eeb",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 사업",
+      "review_note": "1차 판단에서 에너지 관련 사업으로 C 그룹에 포함되었으며, 실제 기사 내용은 한국석유공사의 에너지 관련 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "현대엔지니어링, 3.1조원 미국 네바다 핵심광물 프로젝트 참여",
+          "evidence_type": "paragraph",
+          "reason": "핵심광물 프로젝트는 에너지 전환 관련 사업과 관련이 있다."
+        }
+      ]
+    }
+  ]
+}
+```

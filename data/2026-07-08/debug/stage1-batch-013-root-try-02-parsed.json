@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "article_id": "b6c39c70b051fbff",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "에너지 관련 정책이 언급되어 한국석유공사의 에너지 관련 사업과 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "정부가 ‘3대 메가프로젝트’에 필요한 전력을 적기에 공급하기 위해 전담 조직을 꾸리고, 호남권 반도체 클러스터에 필요한 전력 인프라를 2030년까지 구축하겠다고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지전환 및 저탄소 관련 사업과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "‘호남권 반도체 산단’에 조기 전력공급 추진…기후부 “신규 송전망 불필요”",
+          "evidence_type": "title",
+          "reason": "에너지 정책과 관련된 전략 수립과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "25d269c0297e1eab",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "원유 관련 언급으로 한국석유공사의 석유사업과 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s0"
+          ],
+          "evidence_text": "원유",
+          "evidence_type": "keyword",
+          "reason": "원유 관련 언급으로 석유사업과 직접적으로 관련이 있음"
+        }
+      ]
+    }
+  ]
+}

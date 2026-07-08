@@ -1,0 +1,123 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "dd07b1fa80577174",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "에너지 안보와 관련하여 한국석유공사의 저탄소 사업과 연결됨",
+      "review_note": "C 그룹에서 에너지 관련 정책으로 판단됨",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "한·미·일 3국이 인도·태평양 지역 국가를 상대로 공동으로 소형모듈원자로(SMR) 사업을 하기 위한 협력각서를 체결했다.",
+          "evidence_type": "article",
+          "reason": "SMR 사업은 에너지 전환과 관련이 있으며, 한국석유공사의 저탄소 추진 업무와 연결됨"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "한·미·일, SMR 사업 협력…인·태 시장 공동 진출",
+          "evidence_type": "article",
+          "reason": "에너지 관련 국제 협력은 한국석유공사의 경영전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "bd7bedc3fded27d5",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "에너지 관련 정책이지만 직접적인 관련 근거가 없음",
+      "review_note": "C 그룹에서 에너지 관련 정책으로 판단되었으나 직접적인 관련 근거가 없음",
+      "departments": []
+    },
+    {
+      "article_id": "a860d46a58bd293a",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "유가 변동이 한국석유공사의 석유 수급 안정 업무에 영향을 미칠 수 있음",
+      "review_note": "C 그룹에서 유가 변동 관련 기사로 판단됨",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "삼성전자와 에스케이(SK)하이닉스 영향력이 절대적인 코스피는 반도체 피크아웃 전망에 따라 거세게 흔들리는 모양새다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하므로 유가 변동에 따른 영향을 검토할 필요 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "삼성전자와 에스케이(SK)하이닉스 영향력이 절대적인 코스피는 반도체 피크아웃 전망에 따라 거세게 흔들리는 모양새다.",
+          "evidence_type": "paragraph",
+          "reason": "스마트데이터센터는 석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하므로 유가 변동에 따른 영향을 검토할 필요 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "565097a2921cbe0e",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "LNG, 천연가스 관련 언급이지만 직접적인 관련 근거가 없음",
+      "review_note": "C 그룹에서 LNG, 천연가스 관련 기사로 판단됨",
+      "departments": []
+    },
+    {
+      "article_id": "5362adce51d6edf4",
+      "final_relevant": false,
+      "confidence": 0.8,
+      "final_reason": "LNG, 천연가스 관련 언급이지만 직접적인 관련 근거가 없음",
+      "review_note": "C 그룹에서 LNG, 천연가스 관련 기사로 판단됨",
+      "departments": []
+    },
+    {
+      "article_id": "3c155022a1dec7e9",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "유가 관련 기사지만 직접적인 관련 근거가 없음",
+      "review_note": "C 그룹에서 유가 관련 기사로 판단됨",
+      "departments": []
+    },
+    {
+      "article_id": "98059096c632423f",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "천연가스 관련 이슈지만 직접적인 관련 근거가 없음",
+      "review_note": "C 그룹에서 천연가스 관련 기사로 판단됨",
+      "departments": []
+    },
+    {
+      "article_id": "56b5dd8c5d81bc46",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "에너지, 탄소중립 관련 이슈로 한국석유공사와 관련이 있음",
+      "review_note": "C 그룹에서 에너지, 탄소중립 관련 기사로 판단됨",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "정부가 지난해 추진한 국가 기후위기 적응 대책 사업의 97%가 '우수' 이상 등급을 받는 등 최근 5년간 전체 사업의 95% 안팎이 우수 이상으로 평가된 것으로 나타났다.",
+          "evidence_type": "paragraph",
+          "reason": "탄소중립과 관련된 이슈로 저탄소추진처와 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

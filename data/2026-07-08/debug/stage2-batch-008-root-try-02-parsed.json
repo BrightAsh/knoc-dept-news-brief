@@ -1,0 +1,123 @@
+{
+  "results": [
+    {
+      "article_id": "7c64c140d9bb7852",
+      "final_relevant": false,
+      "confidence": 0.2,
+      "final_reason": "에너지 관련 수익 언급이지만, 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "1차 후보 기사에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "d5766d1a499e4567",
+      "final_relevant": false,
+      "confidence": 0.3,
+      "final_reason": "공기업/에너지 관련 기사지만, 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "1차 후보 기사에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "e7f86b9aafbff6d1",
+      "final_relevant": false,
+      "confidence": 0.4,
+      "final_reason": "에너지 관련 경제 이슈지만, 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "1차 후보 기사에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "da2e104c3646c4bb",
+      "final_relevant": false,
+      "confidence": 0.4,
+      "final_reason": "에너지 관련 경제 이슈지만, 한국석유공사의 직접적인 업무와 관련이 없음",
+      "review_note": "1차 후보 기사에서 제외",
+      "departments": []
+    },
+    {
+      "article_id": "b6c39c70b051fbff",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "에너지 관련 정책이 언급되어 한국석유공사의 에너지 관련 사업과 연결될 가능성이 있음",
+      "review_note": "1차 후보 기사로 선정",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "정부가 ‘3대 메가프로젝트’에 필요한 전력을 적기에 공급하기 위해 전담 조직을 꾸리고, 호남권 반도체 클러스터에 필요한 전력 인프라를 2030년까지 구축하겠다고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지전환 및 저탄소 관련 사업과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "‘호남권 반도체 산단’에 조기 전력공급 추진…기후부 “신규 송전망 불필요”",
+          "evidence_type": "article",
+          "reason": "에너지 정책과 관련된 전략 수립과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "cf1e530ff5de568f",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "에너지 관련 기사로 한국석유공사의 저탄소 사업과 관련이 있을 수 있음",
+      "review_note": "1차 후보 기사로 선정",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "중국 ‘인공 태양’ 굴기, 한걸음 더…세계 최대 핵융합 자석 시험 성공",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "6c0fc8199e5cc5f9",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "에너지 관련 언급이 있어 한국석유공사의 사업과 관련이 있을 수 있음.",
+      "review_note": "1차 후보 기사로 선정",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "내 전기차가 발전소 된다…현대차그룹, 일반 가정에서 ‘V2G 실험’",
+          "evidence_type": "sentence",
+          "reason": "저탄소 관련 사업을 담당하는 저탄소추진처와 관련이 있을 수 있음."
+        }
+      ]
+    },
+    {
+      "article_id": "25a71ea295d64275",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "에너지 관련 정책 언급",
+      "review_note": "1차 후보 기사로 선정",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "당정, 지속가능성 공시 의무화…2028년 10조 이상 코스피 상장사부터",
+          "evidence_type": "article",
+          "reason": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당하는 경영전략처의 업무와 관련이 있을 수 있음"
+        }
+      ]
+    }
+  ]
+}
