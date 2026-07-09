@@ -1,0 +1,72 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "1dc898207bf5999e",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "중동 사태에 따른 고유가로 유류할증료가 가파르게 오르는 상황",
+          "evidence_type": "paragraph",
+          "reason": "고유가 관련 기사로 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "중동 사태에 따른 고유가로 유류할증료가 가파르게 오르는 상황",
+          "evidence_type": "paragraph",
+          "reason": "고유가 관련 기사로 유통사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "중동 사태에 따른 고유가로 유류할증료가 가파르게 오르는 상황",
+          "evidence_type": "paragraph",
+          "reason": "고유가 관련 기사로 비축사업과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "b7d45ce3dacb1276",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "원유, 유가, 휘발유 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "이란 외교부는 전날 \"미국은 지난 3주 동안 계속해서 MOU 제1항을 위반하고 있다\"고 날을 세웠다.",
+          "evidence_type": "paragraph",
+          "reason": "원유, 유가 관련 기사로 석유사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "이란 외교부는 전날 \"미국은 지난 3주 동안 계속해서 MOU 제1항을 위반하고 있다\"고 날을 세웠다.",
+          "evidence_type": "paragraph",
+          "reason": "유가 관련 기사로 유통사업과 관련이 있을 수 있음"
+        }
+      ]
+    }
+  ]
+}
+```

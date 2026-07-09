@@ -1,0 +1,352 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "c2dea601d60e8fdb",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "c2dea601d60e8fdb",
+        "final_relevant": false,
+        "confidence": 0.8,
+        "final_reason": "유전 관련 언급이 있으나, 기사 내용이 개인의 경험과 생각에 집중되어 있어 한국석유공사의 사업과 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "c2dea601d60e8fdb",
+        "final_relevant": false,
+        "confidence": 0.8,
+        "final_reason": "유전 관련 언급이 있으나, 기사 내용이 개인의 경험과 생각에 집중되어 있어 한국석유공사의 사업과 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "28d573af1645642a",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "28d573af1645642a",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "재생에너지 시장을 선점하기 위한 산업계의 움직임과 관련하여 에너지 전환 및 재생에너지 관련 사업과 연결됨",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "재생에너지 시장을 선점하라",
+            "evidence_type": "paragraph",
+            "reason": "에너지 전환 및 재생에너지 관련 사업"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "산업계가 호주를 주목하는 이유",
+            "evidence_type": "paragraph",
+            "reason": "경영전략 및 시장 분석"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "28d573af1645642a",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "재생에너지 시장을 선점하기 위한 산업계의 움직임과 관련하여 에너지 전환 및 재생에너지 관련 사업과 연결됨",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "재생에너지 시장을 선점하라",
+            "evidence_type": "paragraph",
+            "reason": "에너지 전환 및 재생에너지 관련 사업"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "산업계가 호주를 주목하는 이유",
+            "evidence_type": "paragraph",
+            "reason": "경영전략 및 시장 분석"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "67fbab950d7188cf",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "67fbab950d7188cf",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "수소 관련 기사로 한국석유공사의 저탄소 사업과 직접적으로 관련됨",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.95,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "선별 안 한 폐플라스틱도 청정수소로…세계 첫 촉매 공정 개발",
+            "evidence_type": "article",
+            "reason": "저탄소 추진처의 수소 관련 사업과 직접적으로 관련됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "67fbab950d7188cf",
+        "final_relevant": true,
+        "confidence": 0.9,
+        "final_reason": "수소 관련 기사로 한국석유공사의 저탄소 사업과 직접적으로 관련됨",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.95,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "선별 안 한 폐플라스틱도 청정수소로…세계 첫 촉매 공정 개발",
+            "evidence_type": "article",
+            "reason": "저탄소 추진처의 수소 관련 사업과 직접적으로 관련됨"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "6c33654240580f05",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "6c33654240580f05",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "유가 관련 이슈가 있으나, 기사 내용이 특정 사건에 집중되어 있어 한국석유공사의 사업과 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "6c33654240580f05",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "유가 관련 이슈가 있으나, 기사 내용이 특정 사건에 집중되어 있어 한국석유공사의 사업과 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "192db80ce0d610cc",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "192db80ce0d610cc",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지, 수소 관련 기사로 한국석유공사의 에너지 전환 관련 사업과 연결됨",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "현대자동차그룹이 충북 청주시에 자원순환형 청정 수소 생산 및 충전 복합시설을 구축하고 친환경 수소 생태계 조성에 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 추진처의 수소, 에너지전환, 저탄소 신규사업 관련 업무와 연결됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "192db80ce0d610cc",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지, 수소 관련 기사로 한국석유공사의 에너지 전환 관련 사업과 연결됨",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "현대자동차그룹이 충북 청주시에 자원순환형 청정 수소 생산 및 충전 복합시설을 구축하고 친환경 수소 생태계 조성에 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 추진처의 수소, 에너지전환, 저탄소 신규사업 관련 업무와 연결됨"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "dd7fcdc0a58d5757",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "dd7fcdc0a58d5757",
+        "final_relevant": true,
+        "confidence": 0.6,
+        "final_reason": "이란 관련 뉴스로 원유 수급에 영향 가능성으로 인해 석유사업 전략, 원유 구매와 판매, 트레이딩 관련 업무와 연결됨",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "이란의 원유 생산 및 수출 관련 이슈로 인해 국제 유가가 변동할 수 있음",
+            "evidence_type": "article",
+            "reason": "석유사업 전략, 원유 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.5,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "유가 변동에 따른 시장 동향 분석 필요",
+            "evidence_type": "article",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "dd7fcdc0a58d5757",
+        "final_relevant": true,
+        "confidence": 0.6,
+        "final_reason": "이란 관련 뉴스로 원유 수급에 영향 가능성으로 인해 석유사업 전략, 원유 구매와 판매, 트레이딩 관련 업무와 연결됨",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "이란의 원유 생산 및 수출 관련 이슈로 인해 국제 유가가 변동할 수 있음",
+            "evidence_type": "article",
+            "reason": "석유사업 전략, 원유 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.5,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "유가 변동에 따른 시장 동향 분석 필요",
+            "evidence_type": "article",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "0228778fb33c2942",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "0228778fb33c2942",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "원유와 관련된 기사로 한국석유공사의 석유사업 전략, 원유 구매와 판매, 트레이딩 업무와 관련이 있을 수 있음",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "이란 매체 “미국, 이란 부셰르 원자력발전소 인근 공격”",
+            "evidence_type": "article",
+            "reason": "원유 공급과 관련된 이슈로 석유사업처의 업무와 연결될 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "0228778fb33c2942",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "원유와 관련된 기사로 한국석유공사의 석유사업 전략, 원유 구매와 판매, 트레이딩 업무와 관련이 있을 수 있음",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "이란 매체 “미국, 이란 부셰르 원자력발전소 인근 공격”",
+            "evidence_type": "article",
+            "reason": "원유 공급과 관련된 이슈로 석유사업처의 업무와 연결될 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "a3c1c77836620326",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "a3c1c77836620326",
+        "final_relevant": false,
+        "confidence": 0.8,
+        "final_reason": "유가 관련 언급이 있으나, 기사 내용이 특정 사건에 집중되어 있어 한국석유공사의 사업과 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "a3c1c77836620326",
+        "final_relevant": false,
+        "confidence": 0.8,
+        "final_reason": "유가 관련 언급이 있으나, 기사 내용이 특정 사건에 집중되어 있어 한국석유공사의 사업과 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      }
+    }
+  ]
+}

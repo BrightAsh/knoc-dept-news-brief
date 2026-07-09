@@ -1,0 +1,43 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "39d46a058f04df3a",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "기사 제목에 '윤석열'이 등장하여 한국석유공사와 관련 가능성이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "윤석열 전 대통령에 대한 체포영장 집행을 막은 혐의로 기소된 전직 경호처 간부들이 1심에서 실형을 선고받고 법정 구속됐다.",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사의 경영전략과 정책 대응 관련 부서인 전략기획처의 역할과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "0c85c77408fa740f",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "기사 내용이 '유가'와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "고환율에 출국하는 한국인 줄고, ‘배우러’ 오는 외국인은 ‘역대 최다’···외국인 입국 1위 ‘베트남’",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사의 유가 정보 제공 및 시장 동향 분석과 관련 있는 스마트데이터센터의 역할과 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```
