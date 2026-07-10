@@ -1,0 +1,47 @@
+{
+  "results": [
+    {
+      "article_id": "362b86375e974364",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "에너지 관련 이슈로 한국석유공사와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "유가, 에너지",
+          "evidence_type": "paragraph",
+          "reason": "경영전략과 관련하여 에너지 이슈를 다루고 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "4c50d73672873e50",
+      "candidate": false,
+      "confidence": 0.2,
+      "company_reason": "에너지 관련 키워드가 등장하지만 기사 내용과 한국석유공사와의 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "5b6235525892f63f",
+      "candidate": true,
+      "confidence": 0.4,
+      "company_reason": "에너지 관련 시설에 대한 기사로 한국석유공사와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "energy_infra",
+          "relevance_score": 0.5,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "에너지 허브, 터미널, 저장탱크",
+          "evidence_type": "paragraph",
+          "reason": "에너지 인프라 사업과 관련하여 에너지 시설에 대해 다루고 있음"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "d080f0e71d78232d",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "에너지 관련 인사 정보가 포함되어 있어 한국석유공사와 간접적으로 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "산업통상부 인사 정보가 포함됨",
+          "evidence_type": "paragraph",
+          "reason": "산업통상부와 한국석유공사는 에너지 정책 및 사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "80a9ce9932b51d09",
+      "candidate": true,
+      "confidence": 0.4,
+      "company_reason": "유가라는 키워드가 포함되어 있어 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.5,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "유가라는 키워드가 포함됨",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사는 석유 사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "30a43fca49dc2ba7",
+      "candidate": true,
+      "confidence": 0.4,
+      "company_reason": "유가라는 키워드가 포함되어 있어 한국석유공사와 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.5,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "유가라는 키워드가 포함됨",
+          "evidence_type": "paragraph",
+          "reason": "한국석유공사는 석유 사업과 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```
