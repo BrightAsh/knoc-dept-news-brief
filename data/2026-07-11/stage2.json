@@ -1,0 +1,337 @@
+{
+  "target_date": "2026-07-11",
+  "generated_at": "2026-07-11T16:09:53.327Z",
+  "analyzer": "stage2-llm",
+  "enabled": true,
+  "provider": "groq",
+  "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "status": "ok",
+  "requested_article_count": 41,
+  "analyzed_article_count": 41,
+  "batch_size": 8,
+  "errors": [],
+  "warnings": [
+    "Retry batch after LLM rate limit in 23s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 8s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 16s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 16s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 17s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300",
+    "Retry batch after LLM rate limit in 6s: groq HTTP 429: {\"error\":{\"message\":\"Rate limit reached for model `meta-llama/llama-4-scout-17b-16e-instruct` in organization `org_01kt8crjyxfgwbc5zs5mp0qj3c` service tier `on_demand` on tokens per minute (TPM): Limit 300"
+  ],
+  "results": [
+    {
+      "article_id": "adc1dd7d7f978f2e",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "기사 내용이 국제 이슈에 집중되어 있고 한국석유공사와 직접 관련성이 낮음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "3b3b2d41004725ae",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사 내용이 화장실 냄새와 암모니아에 대한 설명으로 한국석유공사의 수소암모니아사업단과 관련이 있으나 직접적인 영향이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "9bbc91954419929e",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "기사 내용이 올리브유와 메밀국수 조합으로 한국석유공사의 유통 사업과 간접적으로 관련이 있으나 직접적인 영향이 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "5a20812ab118f571",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 과거 유행 상품 소개로 한국석유공사와 관련이 없음",
+      "review_note": "D 그룹 유지",
+      "departments": []
+    },
+    {
+      "article_id": "bf8865fffeb9be5e",
+      "final_relevant": false,
+      "confidence": 0.4,
+      "final_reason": "기사 내용이 대통령 순방과 방산 수출에 집중되어 한국석유공사와 직접 관련성이 낮음",
+      "review_note": "D 그룹 유지",
+      "departments": []
+    },
+    {
+      "article_id": "e7dda0c4ee039b1a",
+      "final_relevant": false,
+      "confidence": 0.3,
+      "final_reason": "기사 내용이 저출산위 관련 내용으로 한국석유공사와 관련이 없음",
+      "review_note": "D 그룹 유지",
+      "departments": []
+    },
+    {
+      "article_id": "a5699147620e4426",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "기사 내용이 한·몽 정상회담 내용으로 한국석유공사와 관련이 없음",
+      "review_note": "D 그룹 유지",
+      "departments": []
+    },
+    {
+      "article_id": "0d6dc46416ebe877",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "석유, 가스, 유가, 비축, 자원개발, 에너지안보, 공공기관 운영에 관련이 없습니다.",
+      "review_note": "D 그룹으로 분류되어 이미 제외된 기사입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "c98836e0d4d107b2",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "석유, 가스, 유가, 비축, 자원개발, 에너지안보, 공공기관 운영에 관련이 없습니다.",
+      "review_note": "D 그룹으로 분류되어 이미 제외된 기사입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "db167ce6e0fa8605",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "석유, 가스, 유가, 비축, 자원개발, 에너지안보, 공공기관 운영에 관련이 없습니다.",
+      "review_note": "D 그룹으로 분류되어 이미 제외된 기사입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "915bbd5c524fb7b0",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "부동산 정책 토론회 비판 기사는 석유, 가스, 유가, 비축, 자원개발, 에너지안보, 공공기관 운영에 관련이 없습니다.",
+      "review_note": "D 그룹으로 분류되어 이미 제외된 기사입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "01bf5aed4c532619",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "부동산 정책 토론회 비판 기사는 석유, 가스, 유가, 비축, 자원개발, 에너지안보, 공공기관 운영에 관련이 없습니다.",
+      "review_note": "D 그룹으로 분류되어 이미 제외된 기사입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "6dbe5db42cb118fa",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "석유, 가스, 유가, 비축, 자원개발, 에너지안보, 공공기관 운영에 관련이 없습니다.",
+      "review_note": "D 그룹으로 분류되어 이미 제외된 기사입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "2d2605400c8fbef4",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "석유, 가스, 유가, 비축, 자원개발, 에너지안보, 공공기관 운영에 관련이 없습니다.",
+      "review_note": "D 그룹으로 분류되어 이미 제외된 기사입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "bb208f9bdd77817d",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "석유, 가스, 유가, 비축, 자원개발, 에너지안보, 공공기관 운영에 관련이 없습니다.",
+      "review_note": "D 그룹으로 분류되어 이미 제외된 기사입니다.",
+      "departments": []
+    },
+    {
+      "article_id": "84c7be11a698fc99",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "일반 가드닝 정보 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹을 확인 결과 누락 가능성이 없어 보임",
+      "departments": []
+    },
+    {
+      "article_id": "a7551fc57c69a3c2",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "문화 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹을 확인 결과 누락 가능성이 없어 보임",
+      "departments": []
+    },
+    {
+      "article_id": "2c4d31148100ad98",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "문화 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹을 확인 결과 누락 가능성이 없어 보임",
+      "departments": []
+    },
+    {
+      "article_id": "72a2645c8a9dd4f5",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "SK하이닉스 나스닥 상장 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹을 확인 결과 누락 가능성이 없어 보임",
+      "departments": []
+    },
+    {
+      "article_id": "6f957b8ae0caff9d",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "인보사 투약 환자 손해배상 소송 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹을 확인 결과 누락 가능성이 없어 보임",
+      "departments": []
+    },
+    {
+      "article_id": "08adc00590a13de5",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "당뇨병 자기관리 관련 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹을 확인 결과 누락 가능성이 없어 보임",
+      "departments": []
+    },
+    {
+      "article_id": "413b0d251d3325eb",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "당뇨병 인구 증가 관련 기사로 한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹을 확인 결과 누락 가능성이 없어 보임",
+      "departments": []
+    },
+    {
+      "article_id": "0f6ffa5448ff06c5",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "대장암 절제 위치와 이상지질혈증 발생 위험 관련 연구 결과는 한국석유공사 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "e867aec43e618cb5",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "대장암 절제 위치와 이상지질혈증 발생 위험 관련 연구 결과는 한국석유공사 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "f2556bc48ed1c726",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "뒤로 걷기와 무릎 건강 관련 기사는 한국석유공사 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "53b8436f084dd5ff",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "뒤로 걷기와 무릎 건강 관련 기사는 한국석유공사 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "45076a30472ab875",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "비만치료제 관련 기사는 한국석유공사 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "81cecfa0f847750d",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "비만치료제 관련 기사는 한국석유공사 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "231cefb4ef17d703",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "폭염과 열대야 관련 기사는 한국석유공사 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "05ccbb328c961776",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "SK하이닉스 나스닥 상장 관련 기사는 한국석유공사 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹 그대로 유지",
+      "departments": []
+    },
+    {
+      "article_id": "a55bb55106e11214",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사가 SK하이닉스의 나스닥 상장 및 주가 변동에 관한 내용으로, 한국석유공사의 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹 그대로 유지. 기사가 석유, 가스, 유가, 비축, 자원개발, 에너지안보, 공공기관 운영에 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "e85e483483ec8c86",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사가 스페인 축구팀의 월드컵 4강 진출에 관한 내용으로, 한국석유공사의 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹 그대로 유지. 기사가 석유, 가스, 유가, 비축, 자원개발, 에너지안보, 공공기관 운영에 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "08b05fe494522db5",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사가 스페인 축구팀의 월드컵 4강 진출에 관한 내용으로, 한국석유공사의 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹 그대로 유지. 기사가 석유, 가스, 유가, 비축, 자원개발, 에너지안보, 공공기관 운영에 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "50b94b5449979ee0",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사가 프랑스 영화와 넷플릭스 시리즈에 관한 내용으로, 한국석유공사의 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹 그대로 유지. 기사가 석유, 가스, 유가, 비축, 자원개발, 에너지안보, 공공기관 운영에 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "4b669c4195c1a6c5",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사가 프랑스 영화와 넷플릭스 시리즈에 관한 내용으로, 한국석유공사의 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹 그대로 유지. 기사가 석유, 가스, 유가, 비축, 자원개발, 에너지안보, 공공기관 운영에 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "cabe52c7ca350f57",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사가 여름 입맛 지킴이 음식에 관한 내용으로, 한국석유공사의 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹 그대로 유지. 기사가 석유, 가스, 유가, 비축, 자원개발, 에너지안보, 공공기관 운영에 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "1ca7b5b3780279a7",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사가 이란의 새 최고지도자 모즈타바 하메네이의 장례식 불참에 관한 내용으로, 한국석유공사의 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹 그대로 유지. 기사가 석유, 가스, 유가, 비축, 자원개발, 에너지안보, 공공기관 운영에 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "8b4cc8c5496b2d2c",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사가 사관학교 통합에 관한 내용으로, 한국석유공사의 업무와 관련이 없음.",
+      "review_note": "1차 판단 D 그룹 그대로 유지. 기사가 석유, 가스, 유가, 비축, 자원개발, 에너지안보, 공공기관 운영에 관련이 없음.",
+      "departments": []
+    },
+    {
+      "article_id": "f166d4054587b434",
+      "final_relevant": false,
+      "confidence": 0,
+      "final_reason": "한국석유공사와 관련이 없음",
+      "review_note": "1차 판단 D 그룹을 유지함. 기사 내용이 한국석유공사의 업무와 관련이 없음",
+      "departments": []
+    }
+  ],
+  "final_relevant_count": 0,
+  "final_rejected_count": 39
+}

@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "article_id": "3b3b2d41004725ae",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "기사에서 암모니아 언급됨. 한국석유공사의 수소암모니아사업단과 관련 있을 가능성 있음",
+      "departments": [
+        {
+          "department_id": "hydrogen_ammonia",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "여름철만 되면 심해지는 화장실 냄새, 90%는 여기서 시작된다. 매일 변기를 닦는데도 이상하게 화장실 냄새가 사라지지 않는 경우가 있다. 특히 여름철에는 아침에 청소를 했는데도 오후만 되면 특유의 찌르는 듯한 냄새가 다시 올라올 때도 있다. 단순히 청소를 덜 해서가 아니다. 전문가들은 여름철 고온다습한 환경이 화장실 냄새를 만드는 화학 반응과 세균 증식을 동시에 가속하기 때문이라고 설명한다.",
+          "evidence_type": "paragraph",
+          "reason": "암모니아 관련 내용으로 수소암모니아사업단과 관련 있을 가능성 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "bf8865fffeb9be5e",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "원유 언급되었으나 기사 내용이 대통령 순방과 방산 수출에 집중되어 한국석유공사와 직접 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "e7dda0c4ee039b1a",
+      "candidate": false,
+      "confidence": 0.3,
+      "company_reason": "유가 언급되었으나 저출산위 관련 내용으로 한국석유공사와 직접 관련성이 낮음",
+      "departments": []
+    }
+  ]
+}
