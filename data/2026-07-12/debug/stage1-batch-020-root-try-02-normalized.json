@@ -1,0 +1,90 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "313c06b69d4fef38",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "313c06b69d4fef38",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "공공기관과 관련된 기사로 한국석유공사의 안전관리 또는 재난 대응과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "she",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "산림청은 12일 오전 10시를 기해 경북 경산시와 포항시에 '폭염중대경보'가 발령됨에 따라 해당 지역 산림 분야 야외작업을 전면 중지하도록 긴급 지시했다고 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "안전, 보건, 환경, 재난 대응과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "313c06b69d4fef38",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "공공기관과 관련된 기사로 한국석유공사의 안전관리 또는 재난 대응과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "she",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "산림청은 12일 오전 10시를 기해 경북 경산시와 포항시에 '폭염중대경보'가 발령됨에 따라 해당 지역 산림 분야 야외작업을 전면 중지하도록 긴급 지시했다고 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "안전, 보건, 환경, 재난 대응과 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "44c9776d948c784e",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "44c9776d948c784e",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "유가와 관련된 기사로 한국석유공사의 석유사업 또는 유통사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "여행만 다녔는데 재산 8억→12억…명퇴 57세 ‘돈 굴린 마법’",
+            "evidence_type": "title",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "44c9776d948c784e",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "유가와 관련된 기사로 한국석유공사의 석유사업 또는 유통사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "여행만 다녔는데 재산 8억→12억…명퇴 57세 ‘돈 굴린 마법’",
+            "evidence_type": "article",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩과 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

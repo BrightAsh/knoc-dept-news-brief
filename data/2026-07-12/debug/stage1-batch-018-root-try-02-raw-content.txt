@@ -1,0 +1,69 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "ce1b58399152c95c",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "우크라이나가 러시아의 에너지 인프라를 공격 대상으로 확대함에 따라 글로벌 에너지 안보에 영향을 미칠 수 있어 한국석유공사와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "우크라이나가 러시아 정유시설 등 에너지 인프라를 겨냥하던 원거리 타격을 유조선 등 선박으로까지 확대하고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "글로벌 에너지 안보와 관련된 전략 부서와 관련이 있음"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "우크라이나가 러시아 정유시설 등 에너지 인프라를 겨냥하던 원거리 타격을 유조선 등 선박으로까지 확대하고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "정유시설 등 에너지 인프라 공격으로 인해 석유 사업에 영향을 줄 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "cece40c997749614",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "이란의 호르무즈해협 통제권 확보 노력은 글로벌 에너지 안보와 관련이 있으며, 한국석유공사의 해외자원개발 및 에너지 수급 안정화 노력과 연결됨",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "이란이 ‘지역 패권국’으로서의 지위를 확고히 하기 위해 호르무즈해협 통제권에 집착한다는 분석이 나왔다.",
+          "evidence_type": "paragraph",
+          "reason": "해외자원개발 및 에너지 수급 안정화와 관련된 아시아사업처와 관련이 있음"
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "이란이 ‘지역 패권국’으로서의 지위를 확고히 하기 위해 호르무즈해협 통제권에 집착한다는 분석이 나왔다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 안보와 관련된 저탄소추진처와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "5e7fe382e6e9b6eb",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "에너지라는 키워드가 등장하지만, 기사 내용은 한국석유공사의 사업과 직접 관련이 없음",
+      "departments": []
+    }
+  ]
+}
+```

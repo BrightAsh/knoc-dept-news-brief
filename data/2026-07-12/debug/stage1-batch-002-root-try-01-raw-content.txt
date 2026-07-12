@@ -1,0 +1,76 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "19b16208d696d537",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "에너지 관련 정책 및 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "재생에너지 후퇴 우려",
+          "evidence_type": "paragraph",
+          "reason": "에너지 전환 및 저탄소 사업과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "‘탈원전’ 인사로 분류됐던 김 장관은 취임 이후 ‘감원전’을 거쳐 최근에는 원전 증설 가능성까지 열어뒀다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 정책 및 전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "c59a50dc3b516d19",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "에너지 관련 정책 및 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "김성환 기후에너지환경부 장관이 반도체와 인공지능 산업단지 전력 공급을 이유로 추가 원자력발전소 건설 검토 필요성을 언급하면서, 기후부의 재생에너지 중심 에너지 전환 기조가 후퇴하는 것 아니냐는 우려가 나온다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 전환 및 저탄소 사업과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "김 장관은 윤석열 정부의 제11차 전력수급기본계획에 포함됐던 신규 원전 2기 건설을 예정대로 추진하기로 한 직후 \"법적으로 확정된 계획을 정부가 바뀌었다고 해서 방향을 많이 틀 수 있는 것은 아니다\"라고 설명했다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 정책 및 전략과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "dc9ab7973d59445b",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "에너지 관련 언급이 있으나 직접적인 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "ff9dd3156c3dd073",
+      "candidate": false,
+      "confidence": 0.4,
+      "company_reason": "에너지 관련 언급이 있으나 직접적인 관련성이 낮음",
+      "departments": []
+    }
+  ]
+}
+```

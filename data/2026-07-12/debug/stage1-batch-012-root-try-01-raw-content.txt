@@ -1,0 +1,34 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "a5b92154971b0647",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 정보제공 등과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "서울 밤도 펄펄 끓는다…‘용광로 한반도’ 만든 범인 정체",
+          "evidence_type": "title",
+          "reason": "유가라는 키워드가 포함되어 있어 석유사업과 관련이 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "서울 밤도 펄펄 끓는다…‘용광로 한반도’ 만든 범인 정체",
+          "evidence_type": "title",
+          "reason": "유가라는 키워드가 포함되어 있어 유가 정보 제공과 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

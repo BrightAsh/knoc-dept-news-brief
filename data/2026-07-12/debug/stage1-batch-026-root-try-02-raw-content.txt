@@ -1,0 +1,85 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "6d08aa5005980270",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지 관련 이슈로 한국석유공사와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "중국의 전기차 굴기, 전기트럭도 절대 우위에 있다. 전기차 시장에서 글로벌 경쟁력을 키우고 있는 중국이 전기트럭 분야에서도 두각을 나타내고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 전환 및 전기차 관련 사업은 한국석유공사의 미래 에너지 사업과 관련이 있음"
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "중국의 전기차 굴기, 전기트럭도 절대 우위에 있다. 전기차 시장에서 글로벌 경쟁력을 키우고 있는 중국이 전기트럭 분야에서도 두각을 나타내고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 사업과 관련하여 한국석유공사의 에너지 전환 사업과 연결될 가능성 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "c0c19a1b8ea3290b",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "수소 관련 이슈로 한국석유공사와 연결될 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "hydrogen_ammonia",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "잠수복과 산소 발생기를 몸에 장착한 ‘마다가스카르 휘파람 바퀴벌레’가 사람의 원격 조종에 따라 물에 진입하고 있다. 전기 자극으로 원격 조종이 가능한 대형 곤충 ‘마다가스카르 휘파람 바퀴벌레’에 잠수복과 산소 발생기를 장착한 모습. 물속에서도 움직일 수 있다.",
+          "evidence_type": "paragraph",
+          "reason": "수소 및 암모니아 관련 사업과 연결될 가능성 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "0d21921462bc200b",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "유가 관련 이슈로 한국석유공사와 직접 연결됨",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "‘알테쉬’ 바닥에 태운다…유가 폭탄 LCC, 생존 전략 뜯어보니. 간편 로그인하고 한결 더 편리해진 나만의 중앙일보를 경험해보세요.",
+          "evidence_type": "paragraph",
+          "reason": "유가 변동은 한국석유공사의 석유사업에 직접적인 영향을 미침"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "‘알테쉬’ 바닥에 태운다…유가 폭탄 LCC, 생존 전략 뜯어보니. 간편 로그인하고 한결 더 편리해진 나만의 중앙일보를 경험해보세요.",
+          "evidence_type": "paragraph",
+          "reason": "유가 정보는 한국석유공사의 정보 제공 사업과 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,36 @@
+{
+  "results": [
+    {
+      "article_id": "61219d6726ce29ca",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "단순 유부남 교사 사건일 뿐, 한국석유공사와 관련이 없다.",
+      "departments": []
+    },
+    {
+      "article_id": "d39ae2e97ba6f884",
+      "candidate": false,
+      "confidence": 0.1,
+      "company_reason": "단순히 독서 시간표에 대한 이야기일 뿐, 한국석유공사와 관련이 없다.",
+      "departments": []
+    },
+    {
+      "article_id": "e472357a407ef1fc",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "에너지 관련 이슈로 보여 후속 검토가 필요하다.",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "공장이 뜨거우면 실적도 녹는다… 패션업계 덮친 폭염 리스크 [GMC]",
+          "evidence_type": "title",
+          "reason": "에너지 이슈와 관련이 있을 수 있으므로 저탄소추진처 검토가 필요하다."
+        }
+      ]
+    }
+  ]
+}
