@@ -1,0 +1,224 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "77980385a7990d6d",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "77980385a7990d6d",
+        "final_relevant": false,
+        "confidence": 0.85,
+        "final_reason": "에너지, 원유, 유가, LNG, 천연가스, 비축유 관련 언급이지만 기사 내용이 부동산 토론회 관련 논의로 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "77980385a7990d6d",
+        "final_relevant": false,
+        "confidence": 0.85,
+        "final_reason": "에너지, 원유, 유가, LNG, 천연가스, 비축유 관련 언급이지만 기사 내용이 부동산 토론회 관련 논의로 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "1dddd5651fa71caa",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "1dddd5651fa71caa",
+        "final_relevant": false,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 이슈지만 기사 내용이 반도체 기업 지원 정책으로 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "1dddd5651fa71caa",
+        "final_relevant": false,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 이슈지만 기사 내용이 반도체 기업 지원 정책으로 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "265735a5887223b3",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "265735a5887223b3",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "유가 관련 기사지만 기사 내용이 한화오션의 함정 수주전으로 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "265735a5887223b3",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "유가 관련 기사지만 기사 내용이 한화오션의 함정 수주전으로 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "e7555469e159155a",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "e7555469e159155a",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "북극 바다에서 발견한 '시한폭탄' 관련 기사로 한국석유공사의 해외자원개발 사업과 관련이 있음",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "department_id": "domestic_business_development",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "북극 바다서 발견한 ‘시한폭탄’ 정체",
+            "evidence_type": "sentence",
+            "reason": "국내외 자원개발 관련 부서로 탐사 관련 업무와 유사"
+          },
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "북극 바다서 발견한 ‘시한폭탄’ 정체",
+            "evidence_type": "sentence",
+            "reason": "해외자원개발 관련 부서로 탐사 관련 업무와 유사"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "e7555469e159155a",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "북극 바다에서 발견한 '시한폭탄' 관련 기사로 한국석유공사의 해외자원개발 사업과 관련이 있음",
+        "review_note": "C 그룹에서 유지",
+        "departments": [
+          {
+            "department_id": "domestic_business_development",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "북극 바다서 발견한 ‘시한폭탄’ 정체",
+            "evidence_type": "sentence",
+            "reason": "국내외 자원개발 관련 부서로 탐사 관련 업무와 유사"
+          },
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "북극 바다서 발견한 ‘시한폭탄’ 정체",
+            "evidence_type": "sentence",
+            "reason": "해외자원개발 관련 부서로 탐사 관련 업무와 유사"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "8a0f97ad94ebb298",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "8a0f97ad94ebb298",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "에너지 안보 관련 기사지만 기사 내용이 한·미·일 SMR 사업 협력각서 체결로 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "8a0f97ad94ebb298",
+        "final_relevant": false,
+        "confidence": 0.7,
+        "final_reason": "에너지 안보 관련 기사지만 기사 내용이 한·미·일 SMR 사업 협력각서 체결로 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "b8876bf854511b7e",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "b8876bf854511b7e",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "석유 관련 언급이 있지만 기사 내용이 북한의 중국행 탈북 관련 이슈로 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "b8876bf854511b7e",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "석유 관련 언급이 있지만 기사 내용이 북한의 중국행 탈북 관련 이슈로 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "bffc9a4c43aa17b1",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "bffc9a4c43aa17b1",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "석유 관련 언급이 있지만 기사 내용이 북한의 중국행 탈북 관련 이슈로 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "bffc9a4c43aa17b1",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "석유 관련 언급이 있지만 기사 내용이 북한의 중국행 탈북 관련 이슈로 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "0830f94f40088e7f",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "0830f94f40088e7f",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "유가 관련 언급이지만 기사 내용이 국내 증시 변동 관련 이슈로 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "0830f94f40088e7f",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "유가 관련 언급이지만 기사 내용이 국내 증시 변동 관련 이슈로 한국석유공사와 직접 관련이 없음",
+        "review_note": "C 그룹에서 제외",
+        "departments": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "522bf58ff7bf674b",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "522bf58ff7bf674b",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "에너지 관련 이슈가 언급되었지만, 한국석유공사의 업무와 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "522bf58ff7bf674b",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "에너지 관련 이슈가 언급되었지만, 한국석유공사의 업무와 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "8ede3fc0b1b74536",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "8ede3fc0b1b74536",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "에너지 관련 정책이 언급되었지만, 한국석유공사의 업무와 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "8ede3fc0b1b74536",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "에너지 관련 정책이 언급되었지만, 한국석유공사의 업무와 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "3ad2f396e2f7988c",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "3ad2f396e2f7988c",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "에너지 관련 정책이 언급되었지만, 한국석유공사의 업무와 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "3ad2f396e2f7988c",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "에너지 관련 정책이 언급되었지만, 한국석유공사의 업무와 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "efe05d05c502353f",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "efe05d05c502353f",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "에너지 관련 언급이 있었지만, 한국석유공사의 업무와 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "efe05d05c502353f",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "에너지 관련 언급이 있었지만, 한국석유공사의 업무와 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "64adacdbe9d56093",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "64adacdbe9d56093",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "에너지 관련 언급이 있었지만, 한국석유공사의 업무와 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "64adacdbe9d56093",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "에너지 관련 언급이 있었지만, 한국석유공사의 업무와 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "da835948acf05b96",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "da835948acf05b96",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 정책이 언급되어 한국석유공사의 경영전략과 관련이 있음",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "이재명 대통령이 13일 \"전력이 남아도는 시간에는 싸게 피크타임으로 부족할 때는 비싸게, 전기요금 체계를 바꿔야 한다”고 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 정책 및 이슈는 공사의 경영전략과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "da835948acf05b96",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 정책이 언급되어 한국석유공사의 경영전략과 관련이 있음",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "이재명 대통령이 13일 \"전력이 남아도는 시간에는 싸게 피크타임으로 부족할 때는 비싸게, 전기요금 체계를 바꿔야 한다”고 밝혔다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 정책 및 이슈는 공사의 경영전략과 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "ed9a8a0073bcf056",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "ed9a8a0073bcf056",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 이슈가 언급되어 한국석유공사의 경영전략과 관련이 있음",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "에너지 관련 이슈",
+            "evidence_type": "article",
+            "reason": "에너지 관련 정책이나 이슈는 한국석유공사의 경영전략과 관련이 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "ed9a8a0073bcf056",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 이슈가 언급되어 한국석유공사의 경영전략과 관련이 있음",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "에너지 관련 이슈",
+            "evidence_type": "article",
+            "reason": "에너지 관련 정책이나 이슈는 한국석유공사의 경영전략과 관련이 있을 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "9ff1885cb2d2082f",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "9ff1885cb2d2082f",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "에너지 정책 관련 언급이 있었지만, 한국석유공사의 업무와 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "9ff1885cb2d2082f",
+        "final_relevant": false,
+        "confidence": 0.6,
+        "final_reason": "에너지 정책 관련 언급이 있었지만, 한국석유공사의 업무와 직접적인 관련이 없음",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      }
+    }
+  ]
+}

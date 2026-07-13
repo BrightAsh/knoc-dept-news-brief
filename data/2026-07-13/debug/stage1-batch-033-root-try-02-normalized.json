@@ -1,0 +1,130 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "a559ab70fbb34ded",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "a559ab70fbb34ded",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "에너지, 석유, 원유, 석유제품 관련성이 없어 보인다.",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "a559ab70fbb34ded",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "에너지, 석유, 원유, 석유제품 관련성이 없어 보인다.",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "60dda6770b10b705",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "60dda6770b10b705",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 언급이 있어 한국석유공사와 연결 가능성이 있다.",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "sentence",
+            "reason": "에너지 관련 사업과 정책 담당 부서"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "sentence",
+            "reason": "경영전략과 정책 대응 담당 부서"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "60dda6770b10b705",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 언급이 있어 한국석유공사와 연결 가능성이 있다.",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "sentence",
+            "reason": "에너지 관련 사업과 정책 담당 부서"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "sentence",
+            "reason": "경영전략과 정책 대응 담당 부서"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "c2656f2f716c15d6",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "c2656f2f716c15d6",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "석유화학그룹 관련 언급이 있어 한국석유공사와 연결 가능성이 있다.",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "금호석유화학그룹",
+            "evidence_type": "sentence",
+            "reason": "석유 사업 전략과 운영 담당 부서"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "c2656f2f716c15d6",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "석유화학그룹 관련 언급이 있어 한국석유공사와 연결 가능성이 있다.",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "금호석유화학그룹",
+            "evidence_type": "sentence",
+            "reason": "석유 사업 전략과 운영 담당 부서"
+          }
+        ]
+      }
+    }
+  ]
+}

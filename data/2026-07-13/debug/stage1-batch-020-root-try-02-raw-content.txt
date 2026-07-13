@@ -1,0 +1,44 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "c6192c4e72dfb448",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "에너지 관련 정책 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "에너지 바우처 나오니까 더우면 아끼지 마시고 에어컨 켜세요. 한낮에는 밖에 다니지 마시고 물도 많이 드시고요.",
+          "evidence_type": "paragraph",
+          "reason": "에너지 정책 관련 언급이 있어 전략 부서와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "6ceee41e787353c9",
+      "candidate": true,
+      "confidence": 0.85,
+      "company_reason": "AI와 에너지 패권 언급",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "이재명 대통령은 13일 \"미래대응기금을 신설해 미래, 청년, 지방, 교육 등 국가의 미래를 좌우할 4대 분야에 집중 투자하겠다\"고 밝혔다.",
+          "evidence_type": "paragraph",
+          "reason": "AI와 에너지 패권 관련 언급이 있어 전략 부서와 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```
