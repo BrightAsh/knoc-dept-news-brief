@@ -1,0 +1,75 @@
+{
+  "results": [
+    {
+      "article_id": "f4768402d385f6d4",
+      "candidate": false,
+      "confidence": 0,
+      "company_reason": "에너지 관련 언급이지만 구체적인 내용이 없어 관련성이 낮음",
+      "departments": []
+    },
+    {
+      "article_id": "3f2118b5136b0c77",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "석유, 에너지, 자원개발 관련 언급이 있어 한국석유공사와 관련 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "정부 ‘F4 회의’ 확대 개편…국민성장펀드 6000억 추가 출시 [하반기 경제성장전략]",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "정부 ‘F4 회의’ 확대 개편…국민성장펀드 6000억 추가 출시 [하반기 경제성장전략]",
+          "evidence_type": "paragraph",
+          "reason": "경영전략, 경영목표, 운영계획 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "d19a11b3d72b8fe5",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "유가, 에너지 관련 언급이 있어 한국석유공사와 관련 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "올해 ‘3% 성장’ 정부 전망에도…고용은 뒷걸음질",
+          "evidence_type": "paragraph",
+          "reason": "유가·석유가격 정보, 에너지 통계 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "1cc6e2e1db3ab8fe",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "석유 관련 언급이 있어 한국석유공사와 관련 가능성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "[하반기 성장전략]정부, ‘3%’로 성장률 높이고 ‘3·4·5’ 비전 제시에도 ‘고용없는 성장’ 현실화",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "5b28b17cfe8e3288",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "유가 10% 급등 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "도널드 트럼프 미국 대통령이 대이란 해상 봉쇄 재개와 함께 호르무즈 통항 선박에 통행료 부과 방침을 밝히면서 13일 뉴욕증시가 하락했다. 유가가 10% 급등한 것과 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "석유사업, 유통사업, 비축사업과 관련이 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "도널드 트럼프 미국 대통령이 대이란 해상 봉쇄 재개와 함께 호르무즈 통항 선박에 통행료 부과 방침을 밝히면서 13일 뉴욕증시가 하락했다. 유가가 10% 급등한 것과 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "유통사업과 관련이 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "도널드 트럼프 미국 대통령이 대이란 해상 봉쇄 재개와 함께 호르무즈 통항 선박에 통행료 부과 방침을 밝히면서 13일 뉴욕증시가 하락했다. 유가가 10% 급등한 것과 관련이 있음",
+          "evidence_type": "paragraph",
+          "reason": "비축사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "c9ff9372f92ba305",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "트럼프의 호르무즈 통행료 부과 선언으로 유가 상승 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "이란의 호르무즈해협 폐쇄 선언에 도널드 트럼프 미국 대통령이 이란 해상봉쇄 재개 및 통행료 20% 부과를 선언해, 미-이란 전쟁 종전 양해각서가 사실상 붕괴하고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업과 관련이 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "이란의 호르무즈해협 폐쇄 선언에 도널드 트럼프 미국 대통령이 이란 해상봉쇄 재개 및 통행료 20% 부과를 선언해, 미-이란 전쟁 종전 양해각서가 사실상 붕괴하고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "유통사업과 관련이 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "이란의 호르무즈해협 폐쇄 선언에 도널드 트럼프 미국 대통령이 이란 해상봉쇄 재개 및 통행료 20% 부과를 선언해, 미-이란 전쟁 종전 양해각서가 사실상 붕괴하고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "비축사업과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "1aaaccc567eb1cee",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "UAE의 새로운 항만 건설 계획 관련 기사로 한국석유공사의 해외자원개발 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "아랍에미리트 두바이 소유 물류기업 DP월드가 UAE 동쪽 해안에 새로운 항구와 컨테이너 터미널을 만들 계획을 세우고 있다고 영국 일간 파이낸셜타임스가 13일 보도했다.",
+          "evidence_type": "paragraph",
+          "reason": "해외자원개발 사업과 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

@@ -1,0 +1,110 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "6acf814afa0cdce2",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "6acf814afa0cdce2",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "공공기관 언급으로 한국석유공사와 간접 관련이 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "공공임대주택 확충을 비롯해 비아파트 공급 확대, 지자체와 갈등 해소 대책 시급 등 다양한 의견이 쏟아졌다.",
+            "evidence_type": "paragraph",
+            "reason": "공공기관과 관련된 정책 및 사업 논의에 한국석유공사도 간접적으로 영향을 받을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "6acf814afa0cdce2",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "공공기관 언급으로 한국석유공사와 간접 관련이 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "공공임대주택 확충을 비롯해 비아파트 공급 확대, 지자체와 갈등 해소 대책 시급 등 다양한 의견이 쏟아졌다.",
+            "evidence_type": "paragraph",
+            "reason": "공공기관과 관련된 정책 및 사업 논의에 한국석유공사도 간접적으로 영향을 받을 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "80a7ea276c6d41eb",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "80a7ea276c6d41eb",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "석유, 원유, 정유 언급으로 한국석유공사와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s0"
+            ],
+            "evidence_text": "러시아 출혈 커져도…우크라에 지고 있다는 건 ‘오판’",
+            "evidence_type": "title",
+            "reason": "석유, 원유, 정유 관련 뉴스는 한국석유공사의 사업과 직접 관련이 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.4,
+            "evidence_segment_ids": [
+              "s0"
+            ],
+            "evidence_text": "석유, 원유, 정유 관련 뉴스는 한국석유공사의 정보 서비스와 통계 업무와 관련이 있음",
+            "evidence_type": "title",
+            "reason": "석유, 원유, 정유 관련 뉴스는 한국석유공사의 정보 서비스와 통계 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "80a7ea276c6d41eb",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "석유, 원유, 정유 언급으로 한국석유공사와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s0"
+            ],
+            "evidence_text": "러시아 출혈 커져도…우크라에 지고 있다는 건 ‘오판’",
+            "evidence_type": "article",
+            "reason": "석유, 원유, 정유 관련 뉴스는 한국석유공사의 사업과 직접 관련이 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.4,
+            "evidence_segment_ids": [
+              "s0"
+            ],
+            "evidence_text": "석유, 원유, 정유 관련 뉴스는 한국석유공사의 정보 서비스와 통계 업무와 관련이 있음",
+            "evidence_type": "article",
+            "reason": "석유, 원유, 정유 관련 뉴스는 한국석유공사의 정보 서비스와 통계 업무와 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

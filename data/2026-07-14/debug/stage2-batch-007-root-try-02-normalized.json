@@ -1,0 +1,254 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "7220e51e00eed543",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "7220e51e00eed543",
+        "final_relevant": false,
+        "confidence": 0.2,
+        "final_reason": "기사에 한국석유공사가 직접 언급되지 않았고, 공사의 사업·위험·정책·시장·운영과 실질적으로 연결되지 않음",
+        "review_note": "1차 후보 기사에서 최종 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "7220e51e00eed543",
+        "final_relevant": false,
+        "confidence": 0.2,
+        "final_reason": "기사에 한국석유공사가 직접 언급되지 않았고, 공사의 사업·위험·정책·시장·운영과 실질적으로 연결되지 않음",
+        "review_note": "1차 후보 기사에서 최종 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "5a0957029f690897",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "5a0957029f690897",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련성이 있음",
+        "review_note": "1차 후보 기사에서 최종 포함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "전기차 보조금, 에너지",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "5a0957029f690897",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련성이 있음",
+        "review_note": "1차 후보 기사에서 최종 포함",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "전기차 보조금, 에너지",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "1600acd51b85912e",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "1600acd51b85912e",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 기사로 한국석유공사의 사업과 관련이 있음",
+        "review_note": "1차 후보 기사에서 최종 포함",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "미국 6월 소비자물가 상승률 전년대비 3.5%로 둔화…예상치 하회",
+            "evidence_type": "article",
+            "reason": "스마트데이터센터는 석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하므로 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "1600acd51b85912e",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "에너지 관련 기사로 한국석유공사의 사업과 관련이 있음",
+        "review_note": "1차 후보 기사에서 최종 포함",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "미국 6월 소비자물가 상승률 전년대비 3.5%로 둔화…예상치 하회",
+            "evidence_type": "article",
+            "reason": "스마트데이터센터는 석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당하므로 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "0683a7666c804c98",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "0683a7666c804c98",
+        "final_relevant": false,
+        "confidence": 0.3,
+        "final_reason": "에너지 관련 사업에 대한 관심 증가는 한국석유공사의 사업과 직접 관련되지 않음",
+        "review_note": "1차 후보 기사에서 최종 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "0683a7666c804c98",
+        "final_relevant": false,
+        "confidence": 0.3,
+        "final_reason": "에너지 관련 사업에 대한 관심 증가는 한국석유공사의 사업과 직접 관련되지 않음",
+        "review_note": "1차 후보 기사에서 최종 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "6acf814afa0cdce2",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "6acf814afa0cdce2",
+        "final_relevant": false,
+        "confidence": 0.2,
+        "final_reason": "공공기관 언급으로 한국석유공사와 간접 관련이 있으나, 직접적인 관련성이 없음",
+        "review_note": "1차 후보 기사에서 최종 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "6acf814afa0cdce2",
+        "final_relevant": false,
+        "confidence": 0.2,
+        "final_reason": "공공기관 언급으로 한국석유공사와 간접 관련이 있으나, 직접적인 관련성이 없음",
+        "review_note": "1차 후보 기사에서 최종 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "0c818dc72715e92c",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "0c818dc72715e92c",
+        "final_relevant": false,
+        "confidence": 0.2,
+        "final_reason": "공공기관, 공기업 관련 이슈로 한국석유공사와 간접적 관련 가능성이 있으나 직접적인 관련성은 없음",
+        "review_note": "1차 후보 기사에서 최종 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "0c818dc72715e92c",
+        "final_relevant": false,
+        "confidence": 0.2,
+        "final_reason": "공공기관, 공기업 관련 이슈로 한국석유공사와 간접적 관련 가능성이 있으나 직접적인 관련성은 없음",
+        "review_note": "1차 후보 기사에서 최종 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "b02af6eb17c91be1",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "b02af6eb17c91be1",
+        "final_relevant": false,
+        "confidence": 0.2,
+        "final_reason": "공공기관 관련 이슈로 한국석유공사와 간접적 관련 가능성이 있으나 직접적인 관련성은 없음",
+        "review_note": "1차 후보 기사에서 최종 제외",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "b02af6eb17c91be1",
+        "final_relevant": false,
+        "confidence": 0.2,
+        "final_reason": "공공기관 관련 이슈로 한국석유공사와 간접적 관련 가능성이 있으나 직접적인 관련성은 없음",
+        "review_note": "1차 후보 기사에서 최종 제외",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "91c35433b47e2afc",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "91c35433b47e2afc",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "공공기관, 공기업 관련 이슈로 한국석유공사의 내부 관리 이슈와 유사한 측면이 있어 후속 검토 필요",
+        "review_note": "1차 후보 기사에서 최종 포함",
+        "departments": [
+          {
+            "department_id": "audit",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "김포 축구단인 김포FC 직원이 58억원 정도의 공금을 횡령한 정황이 드러나 경찰 수사와 함께 김포시가 특별감사를 진행하기로 했다.",
+            "evidence_type": "paragraph",
+            "reason": "한국석유공사 감사실의 내부 통제 및 감사 기능과 유사한 측면이 있어 후속 검토 필요"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "91c35433b47e2afc",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "공공기관, 공기업 관련 이슈로 한국석유공사의 내부 관리 이슈와 유사한 측면이 있어 후속 검토 필요",
+        "review_note": "1차 후보 기사에서 최종 포함",
+        "departments": [
+          {
+            "department_id": "audit",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "김포 축구단인 김포FC 직원이 58억원 정도의 공금을 횡령한 정황이 드러나 경찰 수사와 함께 김포시가 특별감사를 진행하기로 했다.",
+            "evidence_type": "paragraph",
+            "reason": "한국석유공사 감사실의 내부 통제 및 감사 기능과 유사한 측면이 있어 후속 검토 필요"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "e41bd5cd0156f22a",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "6c3d899b159657ab",
+      "candidate": false,
+      "confidence": 0.0,
+      "company_reason": "",
+      "departments": []
+    },
+    {
+      "article_id": "74cf6418e91be724",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "에너지, 정유 관련 이슈로 한국석유공사의 업무와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "우크라이나가 러시아 물류 요충지로 꼽히는 아조우해에 대한 드론 공격을 강화하자 러시아 정부는 대체 경로를 검토하기로 했다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 수급 및 에너지 안보와 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "러, 아조우해 우크라 공격 증가에 “수출 능력 차질 없어”···대체 경로 검토",
+          "evidence_type": "title, body_paragraph",
+          "reason": "경영전략과 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

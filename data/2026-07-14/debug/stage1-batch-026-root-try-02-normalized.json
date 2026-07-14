@@ -1,0 +1,192 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "d9862cf1ddc9b663",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "d9862cf1ddc9b663",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 스마트데이터센터의 유가 정보 제공 업무와 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "미국이 대이란 해상 봉쇄를 재개하고 호르무즈해협 통항 화물에 20% ‘통행료’ 부과를 예고하면서 국제유가가 한 달 만에 최고 수준으로 뛰었다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 변동은 석유 구매 및 판매 전략에 영향을 미치므로 석유사업처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "미국이 대이란 해상 봉쇄를 재개하고 호르무즈해협 통항 화물에 20% ‘통행료’ 부과를 예고하면서 국제유가가 한 달 만에 최고 수준으로 뛰었다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 변동은 석유 유통 및 가격 정책에 영향을 미치므로 유통사업처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국이 대이란 해상 봉쇄를 재개하고 호르무즈해협 통항 화물에 20% ‘통행료’ 부과를 예고하면서 국제유가가 한 달 만에 최고 수준으로 뛰었다. 14일(현지시각) 런던 인터콘티넨털(ICE) 선물거래소에서 국제 유가 기준인 브렌트유는 새벽 1시23분 기준 배럴당 85.",
+            "evidence_type": "paragraph",
+            "reason": "유가 정보는 스마트데이터센터의 유가 정보 제공 업무와 직접 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "d9862cf1ddc9b663",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 스마트데이터센터의 유가 정보 제공 업무와 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "미국이 대이란 해상 봉쇄를 재개하고 호르무즈해협 통항 화물에 20% ‘통행료’ 부과를 예고하면서 국제유가가 한 달 만에 최고 수준으로 뛰었다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 변동은 석유 구매 및 판매 전략에 영향을 미치므로 석유사업처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "미국이 대이란 해상 봉쇄를 재개하고 호르무즈해협 통항 화물에 20% ‘통행료’ 부과를 예고하면서 국제유가가 한 달 만에 최고 수준으로 뛰었다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 변동은 석유 유통 및 가격 정책에 영향을 미치므로 유통사업처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "미국이 대이란 해상 봉쇄를 재개하고 호르무즈해협 통항 화물에 20% ‘통행료’ 부과를 예고하면서 국제유가가 한 달 만에 최고 수준으로 뛰었다. 14일(현지시각) 런던 인터콘티넨털(ICE) 선물거래소에서 국제 유가 기준인 브렌트유는 새벽 1시23분 기준 배럴당 85.",
+            "evidence_type": "paragraph",
+            "reason": "유가 정보는 스마트데이터센터의 유가 정보 제공 업무와 직접 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "8c58628f8dbc433c",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "8c58628f8dbc433c",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "기사 내용이 한국석유공사와 관련이 없어 보임",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "8c58628f8dbc433c",
+        "candidate": false,
+        "confidence": 0.4,
+        "company_reason": "기사 내용이 한국석유공사와 관련이 없어 보임",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "7159c18af4340d02",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 3,
+      "raw_result": {
+        "article_id": "7159c18af4340d02",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "공공기관 관련 기사로 한국석유공사의 경영전략, 감사, 법무 업무와 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "참여연대 등 시민사회단체가 지방의원들의 수의계약 이해충돌 의혹에 대한 진상규명을 요구하고 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "공공기관 운영 및 예산 관련 이슈는 기획예산처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "audit",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "참여연대 등 시민사회단체가 지방의원들의 수의계약 이해충돌 의혹에 대한 진상규명을 요구하고 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "감사 업무와 관련이 있음"
+          },
+          {
+            "department_id": "legal",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "참여연대 등 시민사회단체가 지방의원들의 수의계약 이해충돌 의혹에 대한 진상규명을 요구하고 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "법무 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "7159c18af4340d02",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "공공기관 관련 기사로 한국석유공사의 경영전략, 감사, 법무 업무와 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "참여연대 등 시민사회단체가 지방의원들의 수의계약 이해충돌 의혹에 대한 진상규명을 요구하고 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "공공기관 운영 및 예산 관련 이슈는 기획예산처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "audit",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "참여연대 등 시민사회단체가 지방의원들의 수의계약 이해충돌 의혹에 대한 진상규명을 요구하고 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "감사 업무와 관련이 있음"
+          },
+          {
+            "department_id": "legal",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "참여연대 등 시민사회단체가 지방의원들의 수의계약 이해충돌 의혹에 대한 진상규명을 요구하고 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "법무 업무와 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

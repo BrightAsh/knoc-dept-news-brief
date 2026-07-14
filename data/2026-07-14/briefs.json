@@ -1,0 +1,2371 @@
+{
+  "target_date": "2026-07-14",
+  "generated_at": "2026-07-14T16:53:04.207Z",
+  "analyzer": "knoc-two-pass-llm-v1",
+  "input_article_count": 670,
+  "relevant_article_count": 31,
+  "relevant_department_count": 7,
+  "pipeline": {
+    "stage0": {
+      "analyzer": "stage0-keyword-router-v1",
+      "keyword_hit_count": 97,
+      "keyword_miss_count": 573
+    },
+    "stage1": {
+      "enabled": true,
+      "status": "partial",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 670,
+      "analyzed_article_count": 638,
+      "candidate_count": 61,
+      "rejected_count": 146,
+      "warning_count": 47,
+      "error_count": 2
+    },
+    "stage2": {
+      "enabled": true,
+      "status": "partial",
+      "provider": "groq",
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "requested_article_count": 207,
+      "analyzed_article_count": 120,
+      "final_relevant_count": 39,
+      "final_rejected_count": 81,
+      "warning_count": 38,
+      "error_count": 11
+    }
+  },
+  "overall": {
+    "id": "overall",
+    "label": "전체",
+    "source": "llm",
+    "analysis_stage": "stage2",
+    "fallback_used": false,
+    "article_count": 31,
+    "item_count": 31,
+    "items": [
+      {
+        "id": "bb0f861755ce399b",
+        "article_id": "a968157dee505033",
+        "publisher": "한겨레",
+        "title": "이란 “미군, 부셰르 등 해안도시 또 타격”…오만 외교 “이 전쟁은 재앙”",
+        "url": "https://www.hani.co.kr/arti/international/arabafrica/1268292.html",
+        "published_at": "2026-07-14T13:39:00.000Z",
+        "score": 0.9,
+        "segment_text": "이란의 미군 공격과 관련된 기사는 한국석유공사의 해외 자원 개발 및 에너지 안보와 관련이 있을 수 있음",
+        "reason": "이란의 미군 공격과 관련된 기사는 한국석유공사의 해외 자원 개발 및 에너지 안보와 관련이 있을 수 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "id": "asia_business",
+            "name": "아시아사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "b7d035a2cafd0156",
+        "article_id": "c19cca923e7a6e74",
+        "publisher": "경향신문",
+        "title": "트럼프 “호르무즈 운송량 20% 통항료 내라”",
+        "url": "https://www.khan.co.kr/article/202607142152005/",
+        "published_at": "2026-07-14T12:52:00.000Z",
+        "score": 0.9,
+        "segment_text": "트럼프의 호르무즈 해협 통항료 부과 선언과 관련된 기사는 한국석유공사의 해외 자원 개발 및 에너지 안보와 관련이 있음",
+        "reason": "트럼프의 호르무즈 해협 통항료 부과 선언과 관련된 기사는 한국석유공사의 해외 자원 개발 및 에너지 안보와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "asia_business",
+            "name": "아시아사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "ea04839b81deed11",
+        "article_id": "f2872bfd1d404f9d",
+        "publisher": "경향신문",
+        "title": "트럼프 “호르무즈 운송량 20% 통항료 내라”",
+        "url": "https://www.khan.co.kr/article/202607142152005",
+        "published_at": "2026-07-14T12:52:00.000Z",
+        "score": 0.9,
+        "segment_text": "트럼프의 호르무즈 해협 통항료 부과 선언과 관련된 기사는 한국석유공사의 해외 자원 개발 및 에너지 안보와 관련이 있음",
+        "reason": "트럼프의 호르무즈 해협 통항료 부과 선언과 관련된 기사는 한국석유공사의 해외 자원 개발 및 에너지 안보와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "asia_business",
+            "name": "아시아사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "dae4d5b1d17872f5",
+        "article_id": "da17c9787ebaf644",
+        "publisher": "경향신문",
+        "title": "[포토뉴스]수소전기차 ‘2027 넥쏘’ 실구매가 3000만원대부터",
+        "url": "https://www.khan.co.kr/article/202607142041005/",
+        "published_at": "2026-07-14T11:41:00.000Z",
+        "score": 0.9,
+        "segment_text": "수소전기차 관련 기사로 한국석유공사의 수소 사업과 관련이 있음",
+        "reason": "수소전기차 관련 기사로 한국석유공사의 수소 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 저탄소 추진처 업무와 연결됨을 확인",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "b6e65609803a81e7",
+        "article_id": "00c511c211321df6",
+        "publisher": "경향신문",
+        "title": "[포토뉴스]수소전기차 ‘2027 넥쏘’ 실구매가 3000만원대부터",
+        "url": "https://www.khan.co.kr/article/202607142041005",
+        "published_at": "2026-07-14T11:41:00.000Z",
+        "score": 0.9,
+        "segment_text": "수소전기차 관련 기사로 한국석유공사의 수소 사업과 관련이 있음",
+        "reason": "수소전기차 관련 기사로 한국석유공사의 수소 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹에서 최종 분류로 변경",
+        "departments": [
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "cd9e7b128d708322",
+        "article_id": "f54d5ee66621788e",
+        "publisher": "경향신문",
+        "title": "강경화 주미대사 일시 귀국···쿠팡·대미투자 등 한·미 현안 논의할 듯",
+        "url": "https://www.khan.co.kr/article/202607141938001",
+        "published_at": "2026-07-14T10:38:00.000Z",
+        "score": 0.9,
+        "segment_text": "유가, 정유 언급으로 후속 검토 필요",
+        "reason": "유가, 정유 언급으로 후속 검토 필요",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.95,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "d799e5da016f122f",
+        "article_id": "12b0eadf8e0b56fa",
+        "publisher": "중앙일보",
+        "title": "“풀리나 했더니 또” 호르무즈 재봉쇄에 정유업계 긴장…“9월부터는 위험”",
+        "url": "https://www.joongang.co.kr/article/25445022",
+        "published_at": "2026-07-14T08:20:55.000Z",
+        "score": 0.9,
+        "segment_text": "유가 상승 관련 기사로 한국석유공사의 석유 비축 및 유통 사업과 관련이 있음",
+        "reason": "유가 상승 관련 기사로 한국석유공사의 석유 비축 및 유통 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "c93979aa6e068aaa",
+        "article_id": "e0de2819bba25f9f",
+        "publisher": "경향신문",
+        "title": "‘이란은 안되고 미국은 된다’…트럼프가 더 꼬아둔 호르무즈 해법",
+        "url": "https://www.khan.co.kr/article/202607141712011",
+        "published_at": "2026-07-14T08:12:01.000Z",
+        "score": 0.9,
+        "segment_text": "원유 관련 이슈로 한국석유공사의 석유 수급 안정화 업무와 관련성이 있음",
+        "reason": "원유 관련 이슈로 한국석유공사의 석유 수급 안정화 업무와 관련성이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "580abecad913f67e",
+        "article_id": "0af5197628908202",
+        "publisher": "중앙일보",
+        "title": "예멘까지 번진 전쟁, 유조선 피격 UAE는 새 항구 건설…이란전 불똥에 걸프국 몸살",
+        "url": "https://www.joongang.co.kr/article/25444956",
+        "published_at": "2026-07-14T06:04:04.000Z",
+        "score": 0.9,
+        "segment_text": "원유 피 언급으로 인해 에너지 안보와 석유 수급에 영향이 있을 수 있음",
+        "reason": "원유 피 언급으로 인해 에너지 안보와 석유 수급에 영향이 있을 수 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "631407e0df1bc9aa",
+        "article_id": "d9862cf1ddc9b663",
+        "publisher": "한겨레",
+        "title": "미국 ‘호르무즈 통행료’ 예고…국제유가 한 달 만에 최고치",
+        "url": "https://www.hani.co.kr/arti/international/international_general/1268191.html",
+        "published_at": "2026-07-14T05:34:00.000Z",
+        "score": 0.9,
+        "segment_text": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 스마트데이터센터의 유가 정보 제공 업무와 관련성이 있음",
+        "reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 스마트데이터센터의 유가 정보 제공 업무와 관련성이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "60946ede268b2b6f",
+        "article_id": "b72a819cc85556da",
+        "publisher": "한겨레",
+        "title": "호르무즈해협 재봉쇄 위기…정부 “7~8월 원유 100% 이상 확보”",
+        "url": "https://www.hani.co.kr/arti/economy/economy_general/1268153.html",
+        "published_at": "2026-07-14T02:30:00.000Z",
+        "score": 0.9,
+        "segment_text": "원유 확보와 관련된 기사로 한국석유공사의 석유 수급 안정 업무와 관련이 있음",
+        "reason": "원유 확보와 관련된 기사로 한국석유공사의 석유 수급 안정 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "1b759662e083d1f8",
+        "article_id": "f27bac6a2c8a68cb",
+        "publisher": "중앙일보",
+        "title": "트럼프가 꺼낸 20% 통행료 “1척당 450억”…호르무즈 선박들 “강도냐”",
+        "url": "https://www.joongang.co.kr/article/25444887",
+        "published_at": "2026-07-14T02:12:46.000Z",
+        "score": 0.9,
+        "segment_text": "트럼프의 호르무즈 해협 통행료 20% 부과 선언으로 유가 상승 가능성이 있으며, 이는 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "reason": "트럼프의 호르무즈 해협 통행료 20% 부과 선언으로 유가 상승 가능성이 있으며, 이는 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 분류된 기사로, 유가 상승 관련 이슈로 한국석유공사의 사업과 관련성이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "dae49d91b0c55e8d",
+        "article_id": "5b28b17cfe8e3288",
+        "publisher": "경향신문",
+        "title": "트럼프 ‘호르무즈 통행료’ 예고에…나스닥 1.6% 하락, 유가 10% 급등",
+        "url": "https://www.khan.co.kr/article/202607140806001",
+        "published_at": "2026-07-13T23:06:00.000Z",
+        "score": 0.9,
+        "segment_text": "유가 급등 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "reason": "유가 급등 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "f969f9d2270f4fb4",
+        "article_id": "c9ff9372f92ba305",
+        "publisher": "한겨레",
+        "title": "트럼프, 호르무즈 ‘20% 통행료’ 폭탄…사실상 종전 MOU 파기",
+        "url": "https://www.hani.co.kr/arti/international/international_general/1268112.html",
+        "published_at": "2026-07-13T22:56:00.000Z",
+        "score": 0.9,
+        "segment_text": "트럼프의 호르무즈 해협 통행료 20% 부과 선언으로 유가 상승 가능성이 있으며, 이는 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "reason": "트럼프의 호르무즈 해협 통행료 20% 부과 선언으로 유가 상승 가능성이 있으며, 이는 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 분류된 기사로, 유가 상승 관련 이슈로 한국석유공사의 사업과 관련성이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "c7605d3bbc439999",
+        "article_id": "9b68c6adbe31684c",
+        "publisher": "중앙일보",
+        "title": "트럼프 “통행료 20% 받겠다” 일방 선언…국제유가 10% 급등",
+        "url": "https://www.joongang.co.kr/article/25444854",
+        "published_at": "2026-07-13T20:49:03.000Z",
+        "score": 0.9,
+        "segment_text": "국제유가 급등 관련 기사로, 한국석유공사의 석유사업 및 비축 사업과 관련이 있음",
+        "reason": "국제유가 급등 관련 기사로, 한국석유공사의 석유사업 및 비축 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "26464986cd5f03b6",
+        "article_id": "ff5d3e3949bf5798",
+        "publisher": "경향신문",
+        "title": "이란도 조롱할 만큼 터무니없는 20% 통항료···실현 가능성 낮지만, 점점 멀어지는 자유통항 원칙",
+        "url": "https://www.khan.co.kr/article/202607141419001",
+        "published_at": "2026-07-14T05:19:00.000Z",
+        "score": 0.85,
+        "segment_text": "원유와 석유 관련 국제 이슈로 한국석유공사의 해외자원개발과 석유 수급 안정 업무와 관련성이 있음",
+        "reason": "원유와 석유 관련 국제 이슈로 한국석유공사의 해외자원개발과 석유 수급 안정 업무와 관련성이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "id": "asia_business",
+            "name": "아시아사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "927504b37e3bb787",
+        "article_id": "1f0bfb55e5a04b1a",
+        "publisher": "중앙일보",
+        "title": "트럼프 “호르무즈 20% 내라”…‘통행료 없다’던 美 원칙 뒤집어",
+        "url": "https://www.joongang.co.kr/article/25444931",
+        "published_at": "2026-07-14T05:06:51.000Z",
+        "score": 0.85,
+        "segment_text": "석유, 원유, LNG 관련 국제 이슈로 한국석유공사의 해외자원개발과 석유 수급 안정 업무와 관련성이 있음",
+        "reason": "석유, 원유, LNG 관련 국제 이슈로 한국석유공사의 해외자원개발과 석유 수급 안정 업무와 관련성이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "id": "asia_business",
+            "name": "아시아사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "2359b5ba207cc01d",
+        "article_id": "09f9c58f35deddab",
+        "publisher": "경향신문",
+        "title": "트럼프 “호르무즈 20% 통항료 받겠다”···느닷없이 “안전 보장 비용” 징수 일방적 선언",
+        "url": "https://www.khan.co.kr/article/202607140631001",
+        "published_at": "2026-07-13T21:31:00.000Z",
+        "score": 0.85,
+        "segment_text": "원유 수급과 관련된 기사로, 한국석유공사의 석유비축 및 국내외 석유·가스 자원개발 사업과 관련이 있음",
+        "reason": "원유 수급과 관련된 기사로, 한국석유공사의 석유비축 및 국내외 석유·가스 자원개발 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "stockpiling",
+            "name": "석유비축처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "0dee4cb6a204a1c3",
+        "article_id": "5c939324c552f21d",
+        "publisher": "한겨레",
+        "title": "미 연준 의장 “높은 인플레 용납 않겠다”…6월 소비자물가지수 상승폭 둔화",
+        "url": "https://www.hani.co.kr/arti/international/america/1268294.html",
+        "published_at": "2026-07-14T14:43:00.000Z",
+        "score": 0.8,
+        "segment_text": "미국의 소비자물가 하락과 에너지 가격 관련 기사는 한국석유공사의 석유사업 및 유통사업과 관련이 있음",
+        "reason": "미국의 소비자물가 하락과 에너지 가격 관련 기사는 한국석유공사의 석유사업 및 유통사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 분류된 기사로, 에너지 관련 이슈로 한국석유공사와 관련성이 있음",
+        "departments": [
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.7,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "14f23a8017c88b31",
+        "article_id": "2552afdb342c4704",
+        "publisher": "동아일보",
+        "title": "美 6월 소비자물가, 6년만에 하락…연준 금리인상 가능성 약화",
+        "url": "https://www.donga.com/news/Inter/article/all/20260714/134300140/1",
+        "published_at": "2026-07-14T13:20:00.000Z",
+        "score": 0.8,
+        "segment_text": "미국의 소비자물가 하락과 에너지 가격 관련 기사는 한국석유공사의 석유사업 및 유통사업과 관련이 있음",
+        "reason": "미국의 소비자물가 하락과 에너지 가격 관련 기사는 한국석유공사의 석유사업 및 유통사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 분류된 기사로, 에너지 관련 이슈로 한국석유공사와 관련성이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "7b483f289a8d2f7d",
+        "article_id": "4cb97613d6b30bec",
+        "publisher": "한겨레",
+        "title": "정부-전력연맹, 한전KPS 하청 노동자 직고용 합의",
+        "url": "https://www.hani.co.kr/arti/society/labor/1268290.html",
+        "published_at": "2026-07-14T12:25:00.000Z",
+        "score": 0.8,
+        "segment_text": "에너지 공기업 관련 이슈로 한국석유공사의 업무와 관련이 있음",
+        "reason": "에너지 공기업 관련 이슈로 한국석유공사의 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹에서 최종 분류로 변경",
+        "departments": [
+          {
+            "id": "strategy",
+            "name": "경영전략처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "11088be63e019505",
+        "article_id": "6c10fe625cb852bd",
+        "publisher": "경향신문",
+        "title": "오뚜기, 카레·당면 등 인상…식료품값 줄줄이 오르나",
+        "url": "https://www.khan.co.kr/article/202607142032015/",
+        "published_at": "2026-07-14T11:32:01.000Z",
+        "score": 0.8,
+        "segment_text": "유가 상승으로 인한 식료품 가격 인상 기사로 한국석유공사의 석유사업처 업무와 관련이 있음",
+        "reason": "유가 상승으로 인한 식료품 가격 인상 기사로 한국석유공사의 석유사업처 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 분류된 기사로, 유가 상승 관련 이슈로 한국석유공사의 사업과 관련성이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "62331f37d96188da",
+        "article_id": "40516f0e789de27d",
+        "publisher": "경향신문",
+        "title": "사우디·예멘 후티, 휴전 4년 만 충돌···호르무즈 너머 홍해까지 드리우는 분쟁의 그림자",
+        "url": "https://www.khan.co.kr/article/202607141716001",
+        "published_at": "2026-07-14T08:16:00.000Z",
+        "score": 0.8,
+        "segment_text": "원유 관련 기사로 한국석유공사의 해외 자원 개발 사업과 관련이 있음",
+        "reason": "원유 관련 기사로 한국석유공사의 해외 자원 개발 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": []
+      },
+      {
+        "id": "1945e9d39c8871b7",
+        "article_id": "74cf6418e91be724",
+        "publisher": "경향신문",
+        "title": "러, 아조우해 우크라 공격 증가에 “수출 능력 차질 없어”···대체 경로 검토",
+        "url": "https://www.khan.co.kr/article/202607141601001",
+        "published_at": "2026-07-14T07:01:00.000Z",
+        "score": 0.8,
+        "segment_text": "에너지, 정유 관련 이슈로 한국석유공사의 업무와 관련이 있음",
+        "reason": "에너지, 정유 관련 이슈로 한국석유공사의 업무와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹에서 최종 분류로 변경",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "155c0cdcb59e2af8",
+        "article_id": "58becd1cdb6564ff",
+        "publisher": "경향신문",
+        "title": "‘카레·케첩 17%↑’ 오뚜기가 쏘아 올린 신호탄…식품업계 ‘눈치보기’ 끝났나",
+        "url": "https://www.khan.co.kr/article/202607141543011",
+        "published_at": "2026-07-14T06:43:01.000Z",
+        "score": 0.8,
+        "segment_text": "유가 상승이 식품 가격 인상에 영향을 미치고 있어 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "reason": "유가 상승이 식품 가격 인상에 영향을 미치고 있어 한국석유공사의 석유사업, 유통사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 유통사업, 석유사업 부서와 관련 있음을 확인",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.9,
+            "source": "llm"
+          },
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "ec9e6d0a36a71189",
+        "article_id": "90ecfc75f67692b7",
+        "publisher": "한겨레",
+        "title": "“수호자처럼 굴더니”…트럼프 ‘내로남불’ 통행료 20% 징수 선언",
+        "url": "https://www.hani.co.kr/arti/international/arabafrica/1268184.html",
+        "published_at": "2026-07-14T05:12:00.000Z",
+        "score": 0.8,
+        "segment_text": "원유 관련 국제 이슈로 한국석유공사의 해외자원개발과 석유 수급 안정 업무와 관련성이 있음",
+        "reason": "원유 관련 국제 이슈로 한국석유공사의 해외자원개발과 석유 수급 안정 업무와 관련성이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함",
+        "departments": [
+          {
+            "id": "asia_business",
+            "name": "아시아사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "e4e7e3377c021a7c",
+        "article_id": "af175f44f0266a75",
+        "publisher": "한겨레",
+        "title": "트럼프 “호르무즈해협 화물 운송에 20% 통행료 받을 것”",
+        "url": "https://www.hani.co.kr/arti/international/international_general/1268102.html",
+        "published_at": "2026-07-13T15:22:00.000Z",
+        "score": 0.8,
+        "segment_text": "트럼프의 호르무즈 해협 통행료 20% 부과 선언으로 유가 상승 가능성이 있으며, 이는 한국석유공사의 석유사업과 관련이 있음",
+        "reason": "트럼프의 호르무즈 해협 통행료 20% 부과 선언으로 유가 상승 가능성이 있으며, 이는 한국석유공사의 석유사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 분류된 기사로, 유가 상승 관련 이슈로 한국석유공사의 사업과 관련성이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.7,
+            "source": "llm"
+          },
+          {
+            "id": "low_carbon",
+            "name": "저탄소추진처",
+            "score": 0.4,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "8379b118e821fe7f",
+        "article_id": "c47cd12fd41b4d07",
+        "publisher": "경향신문",
+        "title": "오뚜기, 카레·당면 등 인상…식료품값 줄줄이 오르나",
+        "url": "https://www.khan.co.kr/article/202607142032015",
+        "published_at": "2026-07-14T11:32:01.000Z",
+        "score": 0.7,
+        "segment_text": "유가 상승이 한국석유공사의 석유 비축 및 유통 사업에 영향을 줄 수 있음",
+        "reason": "유가 상승이 한국석유공사의 석유 비축 및 유통 사업에 영향을 줄 수 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 석유 비축 및 유통 사업과 관련 있음을 확인",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "7acbb78eea5a2833",
+        "article_id": "80a7ea276c6d41eb",
+        "publisher": "한겨레",
+        "title": "러시아 출혈 커져도…우크라에 지고 있다는 건 ‘오판’",
+        "url": "https://www.hani.co.kr/arti/international/international_general/1268263.html",
+        "published_at": "2026-07-14T09:09:00.000Z",
+        "score": 0.7,
+        "segment_text": "석유, 원유, 정유 언급으로 한국석유공사와 관련이 있음",
+        "reason": "석유, 원유, 정유 언급으로 한국석유공사와 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹으로 분류된 기사로, 석유 관련 이슈로 한국석유공사와 관련성이 있음",
+        "departments": [
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "smart_data",
+            "name": "스마트데이터센터",
+            "score": 0.4,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "dc7bfa39236cf24f",
+        "article_id": "3f2118b5136b0c77",
+        "publisher": "중앙일보",
+        "title": "정부 ‘F4 회의’ 확대 개편…국민성장펀드 6000억 추가 출시 [하반기 경제성장전략]",
+        "url": "https://www.joongang.co.kr/article/25444898",
+        "published_at": "2026-07-14T02:38:44.000Z",
+        "score": 0.7,
+        "segment_text": "UAE의 새로운 항만 건설 계획 관련 기사로 한국석유공사의 해외자원개발 사업과 관련이 있음",
+        "reason": "UAE의 새로운 항만 건설 계획 관련 기사로 한국석유공사의 해외자원개발 사업과 관련이 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 해외자원개발 사업과 관련 있음을 확인",
+        "departments": [
+          {
+            "id": "asia_business",
+            "name": "아시아사업처",
+            "score": 0.8,
+            "source": "llm"
+          }
+        ]
+      },
+      {
+        "id": "273c3d77aae39ce6",
+        "article_id": "1aaaccc567eb1cee",
+        "publisher": "경향신문",
+        "title": "“호르무즈 의존도 ‘0’으로”···UAE의 ‘결단’ 새 항만 건설 ‘돌파구’",
+        "url": "https://www.khan.co.kr/article/202607140711001",
+        "published_at": "2026-07-13T22:11:00.000Z",
+        "score": 0.7,
+        "segment_text": "유가 상승이 한국석유공사의 석유 비축 및 유통 사업에 영향을 줄 수 있음",
+        "reason": "유가 상승이 한국석유공사의 석유 비축 및 유통 사업에 영향을 줄 수 있음",
+        "evidence_type": "article",
+        "source": "llm",
+        "analysis_stage": "stage2",
+        "stage0_group": "A",
+        "stage1_group": "C",
+        "review_note": "C 그룹 기사를 정밀 검토하여 석유 비축 및 유통 사업과 관련 있음을 확인",
+        "departments": [
+          {
+            "id": "distribution_business",
+            "name": "유통사업처",
+            "score": 0.8,
+            "source": "llm"
+          },
+          {
+            "id": "petroleum_business",
+            "name": "석유사업처",
+            "score": 0.6,
+            "source": "llm"
+          }
+        ]
+      }
+    ]
+  },
+  "llm_review": {
+    "enabled": true,
+    "status": "partial",
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "analyzed_article_count": 120,
+    "brief_source_stage": "stage2",
+    "fallback_used": false,
+    "stages": {
+      "stage1": {
+        "enabled": true,
+        "status": "partial",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 670,
+        "analyzed_article_count": 638,
+        "candidate_count": 61,
+        "rejected_count": 146,
+        "warning_count": 47,
+        "error_count": 2
+      },
+      "stage2": {
+        "enabled": true,
+        "status": "partial",
+        "provider": "groq",
+        "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+        "requested_article_count": 207,
+        "analyzed_article_count": 120,
+        "final_relevant_count": 39,
+        "final_rejected_count": 81,
+        "warning_count": 38,
+        "error_count": 11
+      }
+    }
+  },
+  "departments": [
+    {
+      "department_id": "secretariat",
+      "department": "비서팀",
+      "role": "사장 일정, 의전, 대내외 메시지, 지시사항 이행과 대외 접점 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "she",
+      "department": "SHE추진실",
+      "role": "전사 안전, 보건, 환경, 재난 대응, 중대재해 예방과 안전보건환경 관리체계를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "audit",
+      "department": "감사실",
+      "role": "감사계획과 감사 수행, 내부통제, 일상감사, 부패·비위 점검, 청렴 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "legal",
+      "department": "법무팀",
+      "role": "국내외 송무, 계약과 사업의 법률 검토, 규제 대응, 분쟁 대응, 지식재산권 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "planning_budget",
+      "department": "기획예산처",
+      "role": "이사회, 국회, 정부 대응, 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "strategy",
+      "department": "경영전략처",
+      "role": "경영전략, 경영목표, 운영계획, 경영평가, 혁신, 홍보, 언론대응, 기업문화 업무를 담당한다.",
+      "article_count": 1,
+      "segment_count": 1,
+      "items": [
+        {
+          "id": "ab1aab94a9a6f0a0",
+          "article_id": "4cb97613d6b30bec",
+          "publisher": "한겨레",
+          "title": "정부-전력연맹, 한전KPS 하청 노동자 직고용 합의",
+          "url": "https://www.hani.co.kr/arti/society/labor/1268290.html",
+          "published_at": "2026-07-14T12:25:00.000Z",
+          "score": 0.8,
+          "segment_text": "정부-전력연맹, 한전KPS 하청 노동자 직고용 합의",
+          "reason": "에너지 공기업 관련 이슈",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종 분류로 변경"
+        }
+      ]
+    },
+    {
+      "department_id": "finance",
+      "department": "재무처",
+      "role": "자금 조달과 상환, 자금 집행, 결산, 세무, 환율·금리·부채 등 재무 리스크 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "esg",
+      "department": "ESG경영처",
+      "role": "ESG 경영, 윤리·인권, 사회공헌, 동반성장, 상생, 내부통제 지원 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "infosec",
+      "department": "정보보안팀",
+      "role": "정보보안 정책과 운영, 개인정보보호, 사이버 침해 대응, 정보유출 예방 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "general_affairs",
+      "department": "총무처",
+      "role": "문서와 기록물, 자산, 사옥, 숙소, 조달계약, 구매, 시설관리, 비상대비 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hr",
+      "department": "인재경영처",
+      "role": "조직, 인사, 채용, 평가, 교육훈련, 급여, 복리후생, 노사관계와 인력 운영을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "smart_data",
+      "department": "스마트데이터센터",
+      "role": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석을 담당한다.",
+      "article_count": 4,
+      "segment_count": 4,
+      "items": [
+        {
+          "id": "d992454bcdf4cc2b",
+          "article_id": "5c939324c552f21d",
+          "publisher": "한겨레",
+          "title": "미 연준 의장 “높은 인플레 용납 않겠다”…6월 소비자물가지수 상승폭 둔화",
+          "url": "https://www.hani.co.kr/arti/international/america/1268294.html",
+          "published_at": "2026-07-14T14:43:00.000Z",
+          "score": 0.9,
+          "segment_text": "미 연준 의장 “높은 인플레 용납 않겠다”…6월 소비자물가지수 상승폭 둔화, 소비자물가지수(CPI) 언급",
+          "reason": "석유정보 서비스와 Opinet 운영, 유가·석유가격 정보, 에너지 통계, 시장동향 분석 담당 부서인 스마트데이터센터와 관련",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 에너지 관련 이슈로 한국석유공사와 관련성이 있음"
+        },
+        {
+          "id": "717f52b14d7fefb3",
+          "article_id": "d9862cf1ddc9b663",
+          "publisher": "한겨레",
+          "title": "미국 ‘호르무즈 통행료’ 예고…국제유가 한 달 만에 최고치",
+          "url": "https://www.hani.co.kr/arti/international/international_general/1268191.html",
+          "published_at": "2026-07-14T05:34:00.000Z",
+          "score": 0.9,
+          "segment_text": "미국이 대이란 해상 봉쇄를 재개하고 호르무즈해협 통항 화물에 20% ‘통행료’ 부과를 예고하면서 국제유가가 한 달 만에 최고 수준으로 뛰었다. 14일(현지시각) 런던 인터콘티넨털(ICE) 선물거래소에서 국제 유가 기준인 브렌트유는 새벽 1시23분 기준 배럴당 85.",
+          "reason": "유가 정보는 스마트데이터센터의 유가 정보 제공 업무와 직접 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "170f1049f97b22b3",
+          "article_id": "e0de2819bba25f9f",
+          "publisher": "경향신문",
+          "title": "‘이란은 안되고 미국은 된다’…트럼프가 더 꼬아둔 호르무즈 해법",
+          "url": "https://www.khan.co.kr/article/202607141712011",
+          "published_at": "2026-07-14T08:12:01.000Z",
+          "score": 0.6,
+          "segment_text": "원유",
+          "reason": "유가 정보 제공, 시장 동향 분석 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "b78e3e68a3600a67",
+          "article_id": "80a7ea276c6d41eb",
+          "publisher": "한겨레",
+          "title": "러시아 출혈 커져도…우크라에 지고 있다는 건 ‘오판’",
+          "url": "https://www.hani.co.kr/arti/international/international_general/1268263.html",
+          "published_at": "2026-07-14T09:09:00.000Z",
+          "score": 0.4,
+          "segment_text": "석유, 원유, 정유 관련 뉴스는 한국석유공사의 정보 서비스와 통계 업무와 관련이 있음",
+          "reason": "석유, 원유, 정유 관련 뉴스는 한국석유공사의 정보 서비스와 통계 업무와 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s0"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 석유 관련 이슈로 한국석유공사와 관련성이 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "asia_business",
+      "department": "아시아사업처",
+      "role": "아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당한다.",
+      "article_count": 7,
+      "segment_count": 7,
+      "items": [
+        {
+          "id": "d7ae23ee29255f2f",
+          "article_id": "a968157dee505033",
+          "publisher": "한겨레",
+          "title": "이란 “미군, 부셰르 등 해안도시 또 타격”…오만 외교 “이 전쟁은 재앙”",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1268292.html",
+          "published_at": "2026-07-14T13:39:00.000Z",
+          "score": 0.8,
+          "segment_text": "이란 “미군, 부셰르 등 해안도시 또 타격”…오만 외교 “이 전쟁은 재앙”",
+          "reason": "이란의 미군 공격과 관련된 기사는 한국석유공사의 해외 자원 개발 및 에너지 안보와 관련이 있을 수 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함"
+        },
+        {
+          "id": "a9e87b3959eaba88",
+          "article_id": "c19cca923e7a6e74",
+          "publisher": "경향신문",
+          "title": "트럼프 “호르무즈 운송량 20% 통항료 내라”",
+          "url": "https://www.khan.co.kr/article/202607142152005/",
+          "published_at": "2026-07-14T12:52:00.000Z",
+          "score": 0.8,
+          "segment_text": "트럼프 “호르무즈 운송량 20% 통항료 내라”",
+          "reason": "아시아사업처는 아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당한다.",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "6dc869d94541a88c",
+          "article_id": "f2872bfd1d404f9d",
+          "publisher": "경향신문",
+          "title": "트럼프 “호르무즈 운송량 20% 통항료 내라”",
+          "url": "https://www.khan.co.kr/article/202607142152005",
+          "published_at": "2026-07-14T12:52:00.000Z",
+          "score": 0.8,
+          "segment_text": "트럼프 “호르무즈 운송량 20% 통항료 내라”",
+          "reason": "아시아사업처는 아시아와 중동 지역 E&P 사업, 해외자원개발 사업, 해외출자회사, 사업 예산·평가·손익 관리를 담당한다.",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "c42713beecdfbaf6",
+          "article_id": "3f2118b5136b0c77",
+          "publisher": "중앙일보",
+          "title": "정부 ‘F4 회의’ 확대 개편…국민성장펀드 6000억 추가 출시 [하반기 경제성장전략]",
+          "url": "https://www.joongang.co.kr/article/25444898",
+          "published_at": "2026-07-14T02:38:44.000Z",
+          "score": 0.8,
+          "segment_text": "아랍에미리트 두바이 소유 물류기업 DP월드가 UAE 동쪽 해안에 새로운 항구와 컨테이너 터미널을 만들 계획을 세우고 있다고 영국 일간 파이낸셜타임스가 13일 보도했다.",
+          "reason": "해외자원개발 사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 해외자원개발 사업과 관련 있음을 확인"
+        },
+        {
+          "id": "bb5b37c80376f4a7",
+          "article_id": "ff5d3e3949bf5798",
+          "publisher": "경향신문",
+          "title": "이란도 조롱할 만큼 터무니없는 20% 통항료···실현 가능성 낮지만, 점점 멀어지는 자유통항 원칙",
+          "url": "https://www.khan.co.kr/article/202607141419001",
+          "published_at": "2026-07-14T05:19:00.000Z",
+          "score": 0.7,
+          "segment_text": "이란도 조롱할 만큼 터무니없는 20% 통항료···실현 가능성 낮지만, 점점 멀어지는 자유통항 원칙",
+          "reason": "해외자원개발과 국제 석유 거래와 관련한 업무와 연결됨",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함"
+        },
+        {
+          "id": "d51b00f4cc4fff36",
+          "article_id": "90ecfc75f67692b7",
+          "publisher": "한겨레",
+          "title": "“수호자처럼 굴더니”…트럼프 ‘내로남불’ 통행료 20% 징수 선언",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1268184.html",
+          "published_at": "2026-07-14T05:12:00.000Z",
+          "score": 0.7,
+          "segment_text": "“수호자처럼 굴더니”…트럼프 ‘내로남불’ 통행료 20% 징수 선언",
+          "reason": "해외자원개발과 국제 석유 거래와 관련한 업무와 연결됨",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함"
+        },
+        {
+          "id": "bde9b824dd33c7b9",
+          "article_id": "1f0bfb55e5a04b1a",
+          "publisher": "중앙일보",
+          "title": "트럼프 “호르무즈 20% 내라”…‘통행료 없다’던 美 원칙 뒤집어",
+          "url": "https://www.joongang.co.kr/article/25444931",
+          "published_at": "2026-07-14T05:06:51.000Z",
+          "score": 0.7,
+          "segment_text": "트럼프 “호르무즈 20% 내라”…‘통행료 없다’던 美 원칙 뒤집어",
+          "reason": "해외자원개발과 국제 석유 거래와 관련한 업무와 연결됨",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함"
+        }
+      ]
+    },
+    {
+      "department_id": "americas_europe_business",
+      "department": "미주/유럽사업처",
+      "role": "미주와 유럽 지역 E&P 사업, 해외광구, Capex/Opex, 사업 손익, 자금수지 관리를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "domestic_business_development",
+      "department": "국내사업개발처",
+      "role": "국내 자원개발 사업, 국내 대륙붕, 가스전, 탐사·시추, 신규 국내 사업개발을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "low_carbon",
+      "department": "저탄소추진처",
+      "role": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당한다.",
+      "article_count": 6,
+      "segment_count": 6,
+      "items": [
+        {
+          "id": "7ef0d6cfb5995d71",
+          "article_id": "00c511c211321df6",
+          "publisher": "경향신문",
+          "title": "[포토뉴스]수소전기차 ‘2027 넥쏘’ 실구매가 3000만원대부터",
+          "url": "https://www.khan.co.kr/article/202607142041005",
+          "published_at": "2026-07-14T11:41:00.000Z",
+          "score": 0.9,
+          "segment_text": "현대자동차가 기본 등급의 상품성을 강화하고 선택 사양의 폭을 넓힌 수소전기차 ‘2027 넥쏘’를 14일 출시했다.",
+          "reason": "수소전기차와 관련하여 한국석유공사의 저탄소 추진처 업무와 연결될 가능성이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종 분류로 변경"
+        },
+        {
+          "id": "7d48955fecbb5807",
+          "article_id": "da17c9787ebaf644",
+          "publisher": "경향신문",
+          "title": "[포토뉴스]수소전기차 ‘2027 넥쏘’ 실구매가 3000만원대부터",
+          "url": "https://www.khan.co.kr/article/202607142041005/",
+          "published_at": "2026-07-14T11:41:00.000Z",
+          "score": 0.8,
+          "segment_text": "현대자동차가 기본 등급의 상품성을 강화하고 선택 사양의 폭을 넓힌 수소전기차 ‘2027 넥쏘’를 14일 출시했다.",
+          "reason": "수소전기차와 관련하여 한국석유공사의 저탄소 추진처 업무와 연결될 가능성이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 저탄소 추진처 업무와 연결됨을 확인"
+        },
+        {
+          "id": "c61d1a3e8185c317",
+          "article_id": "a968157dee505033",
+          "publisher": "한겨레",
+          "title": "이란 “미군, 부셰르 등 해안도시 또 타격”…오만 외교 “이 전쟁은 재앙”",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1268292.html",
+          "published_at": "2026-07-14T13:39:00.000Z",
+          "score": 0.6,
+          "segment_text": "이란 “미군, 부셰르 등 해안도시 또 타격”…오만 외교 “이 전쟁은 재앙”",
+          "reason": "에너지 안보와 관련하여 한국석유공사의 저탄소 사업과 연결될 가능성 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함"
+        },
+        {
+          "id": "d5ad896b4d6842c8",
+          "article_id": "c19cca923e7a6e74",
+          "publisher": "경향신문",
+          "title": "트럼프 “호르무즈 운송량 20% 통항료 내라”",
+          "url": "https://www.khan.co.kr/article/202607142152005/",
+          "published_at": "2026-07-14T12:52:00.000Z",
+          "score": 0.6,
+          "segment_text": "트럼프 “호르무즈 운송량 20% 통항료 내라”",
+          "reason": "에너지 안보와 관련하여 한국석유공사의 저탄소 사업과 연결될 가능성 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "0f5d26d4d0c1c164",
+          "article_id": "f2872bfd1d404f9d",
+          "publisher": "경향신문",
+          "title": "트럼프 “호르무즈 운송량 20% 통항료 내라”",
+          "url": "https://www.khan.co.kr/article/202607142152005",
+          "published_at": "2026-07-14T12:52:00.000Z",
+          "score": 0.6,
+          "segment_text": "트럼프 “호르무즈 운송량 20% 통항료 내라”",
+          "reason": "에너지 안보와 관련하여 한국석유공사의 저탄소 사업과 연결될 가능성 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "828afb76c9400540",
+          "article_id": "af175f44f0266a75",
+          "publisher": "한겨레",
+          "title": "트럼프 “호르무즈해협 화물 운송에 20% 통행료 받을 것”",
+          "url": "https://www.hani.co.kr/arti/international/international_general/1268102.html",
+          "published_at": "2026-07-13T15:22:00.000Z",
+          "score": 0.4,
+          "segment_text": "트럼프 “호르무즈해협 화물 운송에 20% 통행료 받을 것”",
+          "reason": "에너지 안보와 관련된 이슈로, 한국석유공사의 저탄소 사업과 관련성이 있을 수 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 유가 상승 관련 이슈로 한국석유공사의 사업과 관련성이 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "global_technology_center",
+      "department": "글로벌기술센터",
+      "role": "E&P 기술지원, 지질·저류층·시추 기술, 기술전략, 연구개발, 기술자료와 기술평가를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "stockpiling",
+      "department": "석유비축처",
+      "role": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당한다.",
+      "article_count": 7,
+      "segment_count": 7,
+      "items": [
+        {
+          "id": "9b80900c0cd39c9a",
+          "article_id": "9b68c6adbe31684c",
+          "publisher": "중앙일보",
+          "title": "트럼프 “통행료 20% 받겠다” 일방 선언…국제유가 10% 급등",
+          "url": "https://www.joongang.co.kr/article/25444854",
+          "published_at": "2026-07-13T20:49:03.000Z",
+          "score": 0.8,
+          "segment_text": "트럼프 “통행료 20% 받겠다” 일방 선언…국제유가 10% 급등",
+          "reason": "석유비축처는 정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "0f43daa7af8b052e",
+          "article_id": "0af5197628908202",
+          "publisher": "중앙일보",
+          "title": "예멘까지 번진 전쟁, 유조선 피격 UAE는 새 항구 건설…이란전 불똥에 걸프국 몸살",
+          "url": "https://www.joongang.co.kr/article/25444956",
+          "published_at": "2026-07-14T06:04:04.000Z",
+          "score": 0.7,
+          "segment_text": "원유",
+          "reason": "전략 비축유 관리 업무 관련성",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "754f3d4eb4ec8a05",
+          "article_id": "b72a819cc85556da",
+          "publisher": "한겨레",
+          "title": "호르무즈해협 재봉쇄 위기…정부 “7~8월 원유 100% 이상 확보”",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1268153.html",
+          "published_at": "2026-07-14T02:30:00.000Z",
+          "score": 0.7,
+          "segment_text": "정부 “7~8월 원유 100% 이상 확보”",
+          "reason": "원유 확보와 관련된 기사로 석유비축처의 업무와 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "3d54ed7021f781b3",
+          "article_id": "f27bac6a2c8a68cb",
+          "publisher": "중앙일보",
+          "title": "트럼프가 꺼낸 20% 통행료 “1척당 450억”…호르무즈 선박들 “강도냐”",
+          "url": "https://www.joongang.co.kr/article/25444887",
+          "published_at": "2026-07-14T02:12:46.000Z",
+          "score": 0.7,
+          "segment_text": "트럼프가 꺼낸 20% 통행료 “1척당 450억”…호르무즈 선박들 “강도냐”, 도널드 트럼프 미국 대통령이 호르무즈 해협을 통과하는 모든 선박에 안전보장 통행료 명목으로 선적된 화물의 20%를 받겠다고 선언한 가운데 초대형 유조선 기준 해당 비용이 척당 450억원에 이를 것이라는 분석이 나왔다.",
+          "reason": "유가와 관련된 이슈로 비축사업과 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s4",
+            "s5"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 유가 상승 관련 이슈로 한국석유공사의 사업과 관련성이 있음"
+        },
+        {
+          "id": "85e9f7c630437d67",
+          "article_id": "09f9c58f35deddab",
+          "publisher": "경향신문",
+          "title": "트럼프 “호르무즈 20% 통항료 받겠다”···느닷없이 “안전 보장 비용” 징수 일방적 선언",
+          "url": "https://www.khan.co.kr/article/202607140631001",
+          "published_at": "2026-07-13T21:31:00.000Z",
+          "score": 0.7,
+          "segment_text": "트럼프 “호르무즈 20% 통항료 받겠다”···느닷없이 “안전 보장 비용” 징수 일방적 선언, 도널드 트럼프 미국 대통령이 대이란 해상 봉쇄를 재개하는 동시에, 호르무즈 해협을 통과하는 선박의 안전을 보장하는 대가로 화물 운송량의 20%를 통힝료로 받겠다고 선언했다.",
+          "reason": "석유비축처는 정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리를 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함"
+        },
+        {
+          "id": "e1c4d0b93af32c84",
+          "article_id": "5b28b17cfe8e3288",
+          "publisher": "경향신문",
+          "title": "트럼프 ‘호르무즈 통행료’ 예고에…나스닥 1.6% 하락, 유가 10% 급등",
+          "url": "https://www.khan.co.kr/article/202607140806001",
+          "published_at": "2026-07-13T23:06:00.000Z",
+          "score": 0.6,
+          "segment_text": "도널드 트럼프 미국 대통령이 대이란 해상 봉쇄 재개와 함께 호르무즈 통항 선박에 통행료 부과 방침을 밝히면서 13일 뉴욕증시가 하락했다. 유가가 10% 급등한 것과 관련이 있음",
+          "reason": "비축사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함"
+        },
+        {
+          "id": "570a68d97d90f695",
+          "article_id": "c9ff9372f92ba305",
+          "publisher": "한겨레",
+          "title": "트럼프, 호르무즈 ‘20% 통행료’ 폭탄…사실상 종전 MOU 파기",
+          "url": "https://www.hani.co.kr/arti/international/international_general/1268112.html",
+          "published_at": "2026-07-13T22:56:00.000Z",
+          "score": 0.6,
+          "segment_text": "이란의 호르무즈해협 폐쇄 선언에 도널드 트럼프 미국 대통령이 이란 해상봉쇄 재개 및 통행료 20% 부과를 선언해, 미-이란 전쟁 종전 양해각서가 사실상 붕괴하고 있다.",
+          "reason": "비축사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 유가 상승 관련 이슈로 한국석유공사의 사업과 관련성이 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "petroleum_business",
+      "department": "석유사업처",
+      "role": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+      "article_count": 23,
+      "segment_count": 23,
+      "items": [
+        {
+          "id": "70181d3af7d6f1d8",
+          "article_id": "f54d5ee66621788e",
+          "publisher": "경향신문",
+          "title": "강경화 주미대사 일시 귀국···쿠팡·대미투자 등 한·미 현안 논의할 듯",
+          "url": "https://www.khan.co.kr/article/202607141938001",
+          "published_at": "2026-07-14T10:38:00.000Z",
+          "score": 0.95,
+          "segment_text": "유가, 정유",
+          "reason": "유가 및 정유 사업에 한국석유공사의 역할이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함"
+        },
+        {
+          "id": "4dcca3e9db89a95f",
+          "article_id": "74cf6418e91be724",
+          "publisher": "경향신문",
+          "title": "러, 아조우해 우크라 공격 증가에 “수출 능력 차질 없어”···대체 경로 검토",
+          "url": "https://www.khan.co.kr/article/202607141601001",
+          "published_at": "2026-07-14T07:01:00.000Z",
+          "score": 0.9,
+          "segment_text": "우크라이나가 러시아 물류 요충지로 꼽히는 아조우해에 대한 드론 공격을 강화하자 러시아 정부는 대체 경로를 검토하기로 했다.",
+          "reason": "석유 수급 및 에너지 안보와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹에서 최종 분류로 변경"
+        },
+        {
+          "id": "0ea1b43f6f595977",
+          "article_id": "58becd1cdb6564ff",
+          "publisher": "경향신문",
+          "title": "‘카레·케첩 17%↑’ 오뚜기가 쏘아 올린 신호탄…식품업계 ‘눈치보기’ 끝났나",
+          "url": "https://www.khan.co.kr/article/202607141543011",
+          "published_at": "2026-07-14T06:43:01.000Z",
+          "score": 0.9,
+          "segment_text": "고환율·고유가와 중동사태 여파로 경영 압박에 시달리던 국내 주요 식품업체들이 줄지어 가격인상에 나설 지 관심이 모아지고 있다.",
+          "reason": "유가 상승이 석유사업에 미치는 영향",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 유통사업, 석유사업 부서와 관련 있음을 확인"
+        },
+        {
+          "id": "dd7199c96a6e1acc",
+          "article_id": "f27bac6a2c8a68cb",
+          "publisher": "중앙일보",
+          "title": "트럼프가 꺼낸 20% 통행료 “1척당 450억”…호르무즈 선박들 “강도냐”",
+          "url": "https://www.joongang.co.kr/article/25444887",
+          "published_at": "2026-07-14T02:12:46.000Z",
+          "score": 0.9,
+          "segment_text": "트럼프가 꺼낸 20% 통행료 “1척당 450억”…호르무즈 선박들 “강도냐”, 도널드 트럼프 미국 대통령이 호르무즈 해협을 통과하는 모든 선박에 안전보장 통행료 명목으로 선적된 화물의 20%를 받겠다고 선언한 가운데 초대형 유조선 기준 해당 비용이 척당 450억원에 이를 것이라는 분석이 나왔다.",
+          "reason": "유가와 관련된 이슈로 석유사업과 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s4",
+            "s5"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 유가 상승 관련 이슈로 한국석유공사의 사업과 관련성이 있음"
+        },
+        {
+          "id": "16573d3f1173f22d",
+          "article_id": "9b68c6adbe31684c",
+          "publisher": "중앙일보",
+          "title": "트럼프 “통행료 20% 받겠다” 일방 선언…국제유가 10% 급등",
+          "url": "https://www.joongang.co.kr/article/25444854",
+          "published_at": "2026-07-13T20:49:03.000Z",
+          "score": 0.9,
+          "segment_text": "트럼프 “통행료 20% 받겠다” 일방 선언…국제유가 10% 급등",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "f73a853636cda08e",
+          "article_id": "6c10fe625cb852bd",
+          "publisher": "경향신문",
+          "title": "오뚜기, 카레·당면 등 인상…식료품값 줄줄이 오르나",
+          "url": "https://www.khan.co.kr/article/202607142032015/",
+          "published_at": "2026-07-14T11:32:01.000Z",
+          "score": 0.8,
+          "segment_text": "고환율·고유가와 중동사태로 원가 부담에 시달리던 국내 주요 식품업체들이 줄지어 가격 인상에 나설지 관심이 모아지고 있다.",
+          "reason": "유가 상승으로 인한 식료품 가격 인상과 관련하여 한국석유공사의 석유사업처 업무와 연결될 가능성이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 유가 상승 관련 이슈로 한국석유공사의 사업과 관련성이 있음"
+        },
+        {
+          "id": "562ed4e29e99e5a0",
+          "article_id": "80a7ea276c6d41eb",
+          "publisher": "한겨레",
+          "title": "러시아 출혈 커져도…우크라에 지고 있다는 건 ‘오판’",
+          "url": "https://www.hani.co.kr/arti/international/international_general/1268263.html",
+          "published_at": "2026-07-14T09:09:00.000Z",
+          "score": 0.8,
+          "segment_text": "러시아 출혈 커져도…우크라에 지고 있다는 건 ‘오판’",
+          "reason": "석유, 원유, 정유 관련 뉴스는 한국석유공사의 사업과 직접 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s0"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 석유 관련 이슈로 한국석유공사와 관련성이 있음"
+        },
+        {
+          "id": "8e98afd43ba355a8",
+          "article_id": "12b0eadf8e0b56fa",
+          "publisher": "중앙일보",
+          "title": "“풀리나 했더니 또” 호르무즈 재봉쇄에 정유업계 긴장…“9월부터는 위험”",
+          "url": "https://www.joongang.co.kr/article/25445022",
+          "published_at": "2026-07-14T08:20:55.000Z",
+          "score": 0.8,
+          "segment_text": "정유사들은 지난 3월 이후 우회 항로와 원유 수입선 다변화로 대응해왔지만 미봉책에 불과해 봉쇄가 길어질 경우 수급과 비용 부담이 커질 수 있다",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s6"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "5ee0728915922366",
+          "article_id": "e0de2819bba25f9f",
+          "publisher": "경향신문",
+          "title": "‘이란은 안되고 미국은 된다’…트럼프가 더 꼬아둔 호르무즈 해법",
+          "url": "https://www.khan.co.kr/article/202607141712011",
+          "published_at": "2026-07-14T08:12:01.000Z",
+          "score": 0.8,
+          "segment_text": "원유",
+          "reason": "석유사업 전략, 원유 구매와 판매, 트레이딩 관련 업무",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "a2c4987caa0fd8db",
+          "article_id": "0af5197628908202",
+          "publisher": "중앙일보",
+          "title": "예멘까지 번진 전쟁, 유조선 피격 UAE는 새 항구 건설…이란전 불똥에 걸프국 몸살",
+          "url": "https://www.joongang.co.kr/article/25444956",
+          "published_at": "2026-07-14T06:04:04.000Z",
+          "score": 0.8,
+          "segment_text": "유조선 피격",
+          "reason": "원유 수급에 영향이 있을 수 있는 유조선 피격 사건 언급",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "e14fdee8369c9a98",
+          "article_id": "d9862cf1ddc9b663",
+          "publisher": "한겨레",
+          "title": "미국 ‘호르무즈 통행료’ 예고…국제유가 한 달 만에 최고치",
+          "url": "https://www.hani.co.kr/arti/international/international_general/1268191.html",
+          "published_at": "2026-07-14T05:34:00.000Z",
+          "score": 0.8,
+          "segment_text": "미국이 대이란 해상 봉쇄를 재개하고 호르무즈해협 통항 화물에 20% ‘통행료’ 부과를 예고하면서 국제유가가 한 달 만에 최고 수준으로 뛰었다.",
+          "reason": "유가 변동은 석유 구매 및 판매 전략에 영향을 미치므로 석유사업처의 업무와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "463025afc9892338",
+          "article_id": "b72a819cc85556da",
+          "publisher": "한겨레",
+          "title": "호르무즈해협 재봉쇄 위기…정부 “7~8월 원유 100% 이상 확보”",
+          "url": "https://www.hani.co.kr/arti/economy/economy_general/1268153.html",
+          "published_at": "2026-07-14T02:30:00.000Z",
+          "score": 0.8,
+          "segment_text": "정부 “7~8월 원유 100% 이상 확보”",
+          "reason": "원유 확보와 관련된 기사로 석유사업처의 업무와 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "963adeb2f28bbb58",
+          "article_id": "5b28b17cfe8e3288",
+          "publisher": "경향신문",
+          "title": "트럼프 ‘호르무즈 통행료’ 예고에…나스닥 1.6% 하락, 유가 10% 급등",
+          "url": "https://www.khan.co.kr/article/202607140806001",
+          "published_at": "2026-07-13T23:06:00.000Z",
+          "score": 0.8,
+          "segment_text": "도널드 트럼프 미국 대통령이 대이란 해상 봉쇄 재개와 함께 호르무즈 통항 선박에 통행료 부과 방침을 밝히면서 13일 뉴욕증시가 하락했다. 유가가 10% 급등한 것과 관련이 있음",
+          "reason": "석유사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함"
+        },
+        {
+          "id": "ab6f564f135e57b2",
+          "article_id": "c9ff9372f92ba305",
+          "publisher": "한겨레",
+          "title": "트럼프, 호르무즈 ‘20% 통행료’ 폭탄…사실상 종전 MOU 파기",
+          "url": "https://www.hani.co.kr/arti/international/international_general/1268112.html",
+          "published_at": "2026-07-13T22:56:00.000Z",
+          "score": 0.8,
+          "segment_text": "이란의 호르무즈해협 폐쇄 선언에 도널드 트럼프 미국 대통령이 이란 해상봉쇄 재개 및 통행료 20% 부과를 선언해, 미-이란 전쟁 종전 양해각서가 사실상 붕괴하고 있다.",
+          "reason": "석유사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 유가 상승 관련 이슈로 한국석유공사의 사업과 관련성이 있음"
+        },
+        {
+          "id": "0ebfb20ebbdc2913",
+          "article_id": "09f9c58f35deddab",
+          "publisher": "경향신문",
+          "title": "트럼프 “호르무즈 20% 통항료 받겠다”···느닷없이 “안전 보장 비용” 징수 일방적 선언",
+          "url": "https://www.khan.co.kr/article/202607140631001",
+          "published_at": "2026-07-13T21:31:00.000Z",
+          "score": 0.8,
+          "segment_text": "트럼프 “호르무즈 20% 통항료 받겠다”···느닷없이 “안전 보장 비용” 징수 일방적 선언, 도널드 트럼프 미국 대통령이 대이란 해상 봉쇄를 재개하는 동시에, 호르무즈 해협을 통과하는 선박의 안전을 보장하는 대가로 화물 운송량의 20%를 통힝료로 받겠다고 선언했다.",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함"
+        },
+        {
+          "id": "5b63971fd39bb79e",
+          "article_id": "5c939324c552f21d",
+          "publisher": "한겨레",
+          "title": "미 연준 의장 “높은 인플레 용납 않겠다”…6월 소비자물가지수 상승폭 둔화",
+          "url": "https://www.hani.co.kr/arti/international/america/1268294.html",
+          "published_at": "2026-07-14T14:43:00.000Z",
+          "score": 0.7,
+          "segment_text": "미 연준 의장 “높은 인플레 용납 않겠다”…6월 소비자물가지수 상승폭 둔화, 소비자물가지수(CPI) 언급",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 담당 부서인 석유사업처와 관련",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 에너지 관련 이슈로 한국석유공사와 관련성이 있음"
+        },
+        {
+          "id": "cb1a1bd585aa0019",
+          "article_id": "2552afdb342c4704",
+          "publisher": "동아일보",
+          "title": "美 6월 소비자물가, 6년만에 하락…연준 금리인상 가능성 약화",
+          "url": "https://www.donga.com/news/Inter/article/all/20260714/134300140/1",
+          "published_at": "2026-07-14T13:20:00.000Z",
+          "score": 0.7,
+          "segment_text": "美 6월 소비자물가, 6년만에 하락…연준 금리인상 가능성 약화",
+          "reason": "미국의 소비자물가 하락과 에너지 가격 관련 기사는 한국석유공사의 석유사업 및 유통사업과 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 에너지 관련 이슈로 한국석유공사와 관련성이 있음"
+        },
+        {
+          "id": "4e6441efadb19c40",
+          "article_id": "af175f44f0266a75",
+          "publisher": "한겨레",
+          "title": "트럼프 “호르무즈해협 화물 운송에 20% 통행료 받을 것”",
+          "url": "https://www.hani.co.kr/arti/international/international_general/1268102.html",
+          "published_at": "2026-07-13T15:22:00.000Z",
+          "score": 0.7,
+          "segment_text": "트럼프 “호르무즈해협 화물 운송에 20% 통행료 받을 것”",
+          "reason": "호르무즈해협은 석유 수송에 중요한 해상로로, 통행료 부과는 석유 가격에 영향을 줄 수 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 유가 상승 관련 이슈로 한국석유공사의 사업과 관련성이 있음"
+        },
+        {
+          "id": "a7e4c33977a3076d",
+          "article_id": "c47cd12fd41b4d07",
+          "publisher": "경향신문",
+          "title": "오뚜기, 카레·당면 등 인상…식료품값 줄줄이 오르나",
+          "url": "https://www.khan.co.kr/article/202607142032015",
+          "published_at": "2026-07-14T11:32:01.000Z",
+          "score": 0.6,
+          "segment_text": "고환율·고유가와 중동사태로 원가 부담에 시달리던 국내 주요 식품업체들이 줄지어 가격 인상에 나설지 관심이 모아지고 있다.",
+          "reason": "유가 상승이 석유 사업에 영향을 줄 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 석유 비축 및 유통 사업과 관련 있음을 확인"
+        },
+        {
+          "id": "d67dee348050a7bf",
+          "article_id": "ff5d3e3949bf5798",
+          "publisher": "경향신문",
+          "title": "이란도 조롱할 만큼 터무니없는 20% 통항료···실현 가능성 낮지만, 점점 멀어지는 자유통항 원칙",
+          "url": "https://www.khan.co.kr/article/202607141419001",
+          "published_at": "2026-07-14T05:19:00.000Z",
+          "score": 0.6,
+          "segment_text": "이란도 조롱할 만큼 터무니없는 20% 통항료···실현 가능성 낮지만, 점점 멀어지는 자유통항 원칙",
+          "reason": "석유 거래와 관련한 업무와 연결됨",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함"
+        },
+        {
+          "id": "6fbedef37468c7ee",
+          "article_id": "90ecfc75f67692b7",
+          "publisher": "한겨레",
+          "title": "“수호자처럼 굴더니”…트럼프 ‘내로남불’ 통행료 20% 징수 선언",
+          "url": "https://www.hani.co.kr/arti/international/arabafrica/1268184.html",
+          "published_at": "2026-07-14T05:12:00.000Z",
+          "score": 0.6,
+          "segment_text": "“수호자처럼 굴더니”…트럼프 ‘내로남불’ 통행료 20% 징수 선언",
+          "reason": "석유 거래와 관련한 업무와 연결됨",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함"
+        },
+        {
+          "id": "a42a334bd2e6c5bf",
+          "article_id": "1f0bfb55e5a04b1a",
+          "publisher": "중앙일보",
+          "title": "트럼프 “호르무즈 20% 내라”…‘통행료 없다’던 美 원칙 뒤집어",
+          "url": "https://www.joongang.co.kr/article/25444931",
+          "published_at": "2026-07-14T05:06:51.000Z",
+          "score": 0.6,
+          "segment_text": "트럼프 “호르무즈 20% 내라”…‘통행료 없다’던 美 원칙 뒤집어",
+          "reason": "석유 거래와 관련한 업무와 연결됨",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함"
+        },
+        {
+          "id": "edee89f3bb4a4fcc",
+          "article_id": "1aaaccc567eb1cee",
+          "publisher": "경향신문",
+          "title": "“호르무즈 의존도 ‘0’으로”···UAE의 ‘결단’ 새 항만 건설 ‘돌파구’",
+          "url": "https://www.khan.co.kr/article/202607140711001",
+          "published_at": "2026-07-13T22:11:00.000Z",
+          "score": 0.6,
+          "segment_text": "고환율·고유가와 중동사태로 원가 부담에 시달리던 국내 주요 식품업체들이 줄지어 가격 인상에 나설지 관심이 모아지고 있다.",
+          "reason": "유가 상승이 석유 사업에 영향을 줄 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 석유 비축 및 유통 사업과 관련 있음을 확인"
+        }
+      ]
+    },
+    {
+      "department_id": "distribution_business",
+      "department": "유통사업처",
+      "role": "알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+      "article_count": 9,
+      "segment_count": 9,
+      "items": [
+        {
+          "id": "13e3abf4acc98716",
+          "article_id": "c47cd12fd41b4d07",
+          "publisher": "경향신문",
+          "title": "오뚜기, 카레·당면 등 인상…식료품값 줄줄이 오르나",
+          "url": "https://www.khan.co.kr/article/202607142032015",
+          "published_at": "2026-07-14T11:32:01.000Z",
+          "score": 0.8,
+          "segment_text": "고환율·고유가와 중동사태로 원가 부담에 시달리던 국내 주요 식품업체들이 줄지어 가격 인상에 나설지 관심이 모아지고 있다.",
+          "reason": "유가 상승이 석유 유통 사업에 영향을 줄 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 석유 비축 및 유통 사업과 관련 있음을 확인"
+        },
+        {
+          "id": "dc9fe172a0d62d5d",
+          "article_id": "58becd1cdb6564ff",
+          "publisher": "경향신문",
+          "title": "‘카레·케첩 17%↑’ 오뚜기가 쏘아 올린 신호탄…식품업계 ‘눈치보기’ 끝났나",
+          "url": "https://www.khan.co.kr/article/202607141543011",
+          "published_at": "2026-07-14T06:43:01.000Z",
+          "score": 0.8,
+          "segment_text": "고환율·고유가와 중동사태 여파로 경영 압박에 시달리던 국내 주요 식품업체들이 줄지어 가격인상에 나설 지 관심이 모아지고 있다.",
+          "reason": "유가 상승이 유통사업에 미치는 영향",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 유통사업, 석유사업 부서와 관련 있음을 확인"
+        },
+        {
+          "id": "f3da1236d4223e5c",
+          "article_id": "f27bac6a2c8a68cb",
+          "publisher": "중앙일보",
+          "title": "트럼프가 꺼낸 20% 통행료 “1척당 450억”…호르무즈 선박들 “강도냐”",
+          "url": "https://www.joongang.co.kr/article/25444887",
+          "published_at": "2026-07-14T02:12:46.000Z",
+          "score": 0.8,
+          "segment_text": "트럼프가 꺼낸 20% 통행료 “1척당 450억”…호르무즈 선박들 “강도냐”, 도널드 트럼프 미국 대통령이 호르무즈 해협을 통과하는 모든 선박에 안전보장 통행료 명목으로 선적된 화물의 20%를 받겠다고 선언한 가운데 초대형 유조선 기준 해당 비용이 척당 450억원에 이를 것이라는 분석이 나왔다.",
+          "reason": "유가와 관련된 이슈로 유통사업과 관련이 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s4",
+            "s5"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 유가 상승 관련 이슈로 한국석유공사의 사업과 관련성이 있음"
+        },
+        {
+          "id": "dbe1a8d3dac96bf0",
+          "article_id": "1aaaccc567eb1cee",
+          "publisher": "경향신문",
+          "title": "“호르무즈 의존도 ‘0’으로”···UAE의 ‘결단’ 새 항만 건설 ‘돌파구’",
+          "url": "https://www.khan.co.kr/article/202607140711001",
+          "published_at": "2026-07-13T22:11:00.000Z",
+          "score": 0.8,
+          "segment_text": "고환율·고유가와 중동사태로 원가 부담에 시달리던 국내 주요 식품업체들이 줄지어 가격 인상에 나설지 관심이 모아지고 있다.",
+          "reason": "유가 상승이 석유 유통 사업에 영향을 줄 수 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 석유 비축 및 유통 사업과 관련 있음을 확인"
+        },
+        {
+          "id": "ed9a87f2280bb627",
+          "article_id": "12b0eadf8e0b56fa",
+          "publisher": "중앙일보",
+          "title": "“풀리나 했더니 또” 호르무즈 재봉쇄에 정유업계 긴장…“9월부터는 위험”",
+          "url": "https://www.joongang.co.kr/article/25445022",
+          "published_at": "2026-07-14T08:20:55.000Z",
+          "score": 0.7,
+          "segment_text": "정유사들은 지난 3월 이후 우회 항로와 원유 수입선 다변화로 대응해왔지만 미봉책에 불과해 봉쇄가 길어질 경우 수급과 비용 부담이 커질 수 있다",
+          "reason": "유통사업처는 알뜰주유소, 석유유통, 주유소 공급, 소비자가격, 유류세, 석유류 구매·수입과 유통망 관리를 담당한다.",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s6"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "f748cfef02c4118f",
+          "article_id": "d9862cf1ddc9b663",
+          "publisher": "한겨레",
+          "title": "미국 ‘호르무즈 통행료’ 예고…국제유가 한 달 만에 최고치",
+          "url": "https://www.hani.co.kr/arti/international/international_general/1268191.html",
+          "published_at": "2026-07-14T05:34:00.000Z",
+          "score": 0.7,
+          "segment_text": "미국이 대이란 해상 봉쇄를 재개하고 호르무즈해협 통항 화물에 20% ‘통행료’ 부과를 예고하면서 국제유가가 한 달 만에 최고 수준으로 뛰었다.",
+          "reason": "유가 변동은 석유 유통 및 가격 정책에 영향을 미치므로 유통사업처의 업무와 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": ""
+        },
+        {
+          "id": "feaf6c85d04c2e4b",
+          "article_id": "5b28b17cfe8e3288",
+          "publisher": "경향신문",
+          "title": "트럼프 ‘호르무즈 통행료’ 예고에…나스닥 1.6% 하락, 유가 10% 급등",
+          "url": "https://www.khan.co.kr/article/202607140806001",
+          "published_at": "2026-07-13T23:06:00.000Z",
+          "score": 0.7,
+          "segment_text": "도널드 트럼프 미국 대통령이 대이란 해상 봉쇄 재개와 함께 호르무즈 통항 선박에 통행료 부과 방침을 밝히면서 13일 뉴욕증시가 하락했다. 유가가 10% 급등한 것과 관련이 있음",
+          "reason": "유통사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹 기사를 정밀 검토하여 관련 부서를 배정함"
+        },
+        {
+          "id": "7e27dd41b42c5c51",
+          "article_id": "c9ff9372f92ba305",
+          "publisher": "한겨레",
+          "title": "트럼프, 호르무즈 ‘20% 통행료’ 폭탄…사실상 종전 MOU 파기",
+          "url": "https://www.hani.co.kr/arti/international/international_general/1268112.html",
+          "published_at": "2026-07-13T22:56:00.000Z",
+          "score": 0.7,
+          "segment_text": "이란의 호르무즈해협 폐쇄 선언에 도널드 트럼프 미국 대통령이 이란 해상봉쇄 재개 및 통행료 20% 부과를 선언해, 미-이란 전쟁 종전 양해각서가 사실상 붕괴하고 있다.",
+          "reason": "유통사업과 관련이 있음",
+          "evidence_type": "paragraph",
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 유가 상승 관련 이슈로 한국석유공사의 사업과 관련성이 있음"
+        },
+        {
+          "id": "bfc43cd02d4e6e8e",
+          "article_id": "2552afdb342c4704",
+          "publisher": "동아일보",
+          "title": "美 6월 소비자물가, 6년만에 하락…연준 금리인상 가능성 약화",
+          "url": "https://www.donga.com/news/Inter/article/all/20260714/134300140/1",
+          "published_at": "2026-07-14T13:20:00.000Z",
+          "score": 0.6,
+          "segment_text": "美 6월 소비자물가, 6년만에 하락…연준 금리인상 가능성 약화",
+          "reason": "에너지 가격 변동이 석유 유통 사업에 영향을 줄 수 있음",
+          "evidence_type": "article",
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "source": "llm",
+          "analysis_stage": "stage2",
+          "stage0_group": "A",
+          "stage1_group": "C",
+          "review_note": "C 그룹으로 분류된 기사로, 에너지 관련 이슈로 한국석유공사와 관련성이 있음"
+        }
+      ]
+    },
+    {
+      "department_id": "energy_infra",
+      "department": "에너지인프라사업처",
+      "role": "에너지허브, 터미널, 저장탱크, 신규 비축시설, 시설공사 설계·발주·현장관리와 건설 업무를 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    },
+    {
+      "department_id": "hydrogen_ammonia",
+      "department": "수소암모니아사업단",
+      "role": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴, 공급망과 비축 기반 구축을 담당한다.",
+      "article_count": 0,
+      "segment_count": 0,
+      "items": []
+    }
+  ]
+}

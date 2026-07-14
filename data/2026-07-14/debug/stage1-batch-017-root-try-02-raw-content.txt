@@ -1,0 +1,62 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "e0de2819bba25f9f",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "원유 관련 이슈로 한국석유공사의 석유 수급 안정화 업무와 관련성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "원유",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "원유",
+          "evidence_type": "paragraph",
+          "reason": "유가 정보 제공, 시장 동향 분석 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "2b1c481436719a37",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유가 관련 이슈로 한국석유공사의 석유 수급 안정화 업무와 관련성이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "유가",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "유가",
+          "evidence_type": "paragraph",
+          "reason": "유가 정보 제공, 시장 동향 분석 관련 업무"
+        }
+      ]
+    }
+  ]
+}
+```

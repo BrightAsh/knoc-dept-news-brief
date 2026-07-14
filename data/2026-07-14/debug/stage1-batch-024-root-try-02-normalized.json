@@ -1,0 +1,68 @@
+{
+  "raw_result_count": 1,
+  "accepted_result_count": 1,
+  "normalization": [
+    {
+      "article_id": "0af5197628908202",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "0af5197628908202",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "원유 피 언급으로 인해 에너지 안보와 석유 수급에 영향이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "유조선 피격",
+            "evidence_type": "paragraph",
+            "reason": "원유 수급에 영향이 있을 수 있는 유조선 피격 사건 언급"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "원유",
+            "evidence_type": "paragraph",
+            "reason": "전략 비축유 관리 업무 관련성"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "0af5197628908202",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "원유 피 언급으로 인해 에너지 안보와 석유 수급에 영향이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "유조선 피격",
+            "evidence_type": "paragraph",
+            "reason": "원유 수급에 영향이 있을 수 있는 유조선 피격 사건 언급"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "원유",
+            "evidence_type": "paragraph",
+            "reason": "전략 비축유 관리 업무 관련성"
+          }
+        ]
+      }
+    }
+  ]
+}

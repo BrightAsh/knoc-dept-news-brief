@@ -1,0 +1,68 @@
+{
+  "raw_result_count": 1,
+  "accepted_result_count": 1,
+  "normalization": [
+    {
+      "article_id": "b72a819cc85556da",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "b72a819cc85556da",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "원유 확보와 관련된 기사로 한국석유공사의 석유 수급 안정 업무와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "정부 “7~8월 원유 100% 이상 확보”",
+            "evidence_type": "summary_sentence",
+            "reason": "원유 확보와 관련된 기사로 석유사업처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "정부 “7~8월 원유 100% 이상 확보”",
+            "evidence_type": "summary_sentence",
+            "reason": "원유 확보와 관련된 기사로 석유비축처의 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "b72a819cc85556da",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "원유 확보와 관련된 기사로 한국석유공사의 석유 수급 안정 업무와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "정부 “7~8월 원유 100% 이상 확보”",
+            "evidence_type": "article",
+            "reason": "원유 확보와 관련된 기사로 석유사업처의 업무와 관련이 있음"
+          },
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "정부 “7~8월 원유 100% 이상 확보”",
+            "evidence_type": "article",
+            "reason": "원유 확보와 관련된 기사로 석유비축처의 업무와 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

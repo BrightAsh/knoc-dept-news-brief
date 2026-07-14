@@ -1,0 +1,132 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "05d2ff6cdd58c1c7",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "05d2ff6cdd58c1c7",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "에너지 관련 언급이 있어 후속 검토 필요",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "paragraph",
+            "reason": "에너지 관련 정책 논의에 한국석유공사의 역할이 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "05d2ff6cdd58c1c7",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "에너지 관련 언급이 있어 후속 검토 필요",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지",
+            "evidence_type": "paragraph",
+            "reason": "에너지 관련 정책 논의에 한국석유공사의 역할이 있을 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "7220e51e00eed543",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "7220e51e00eed543",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "공공기관 언급으로 후속 검토 필요",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "공공기관",
+            "evidence_type": "paragraph",
+            "reason": "공공기관 운영 및 예산 관련 논의에 한국석유공사의 역할이 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "7220e51e00eed543",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "공공기관 언급으로 후속 검토 필요",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "공공기관",
+            "evidence_type": "paragraph",
+            "reason": "공공기관 운영 및 예산 관련 논의에 한국석유공사의 역할이 있을 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "f54d5ee66621788e",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "f54d5ee66621788e",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "유가, 정유 언급으로 후속 검토 필요",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.95,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "유가, 정유",
+            "evidence_type": "paragraph",
+            "reason": "유가 및 정유 사업에 한국석유공사의 역할이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "f54d5ee66621788e",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "유가, 정유 언급으로 후속 검토 필요",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.95,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "유가, 정유",
+            "evidence_type": "paragraph",
+            "reason": "유가 및 정유 사업에 한국석유공사의 역할이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

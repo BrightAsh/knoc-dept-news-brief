@@ -1,0 +1,112 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "5a0957029f690897",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "5a0957029f690897",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "전기차 보조금, 에너지",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "5a0957029f690897",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "전기차 보조금, 에너지",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "ad86d7af1d8862af",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "ad86d7af1d8862af",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "탐사 관련 이슈로 한국석유공사의 해외자원개발 사업과 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "global_technology_center",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "탐사",
+            "evidence_type": "title",
+            "reason": "E&P 기술지원, 지질·저류층·시추 기술 관련 업무"
+          },
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "탐사",
+            "evidence_type": "title",
+            "reason": "아시아와 중동 지역 E&P 사업 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "ad86d7af1d8862af",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "탐사 관련 이슈로 한국석유공사의 해외자원개발 사업과 관련성이 있음",
+        "departments": [
+          {
+            "department_id": "global_technology_center",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "탐사",
+            "evidence_type": "article",
+            "reason": "E&P 기술지원, 지질·저류층·시추 기술 관련 업무"
+          },
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "탐사",
+            "evidence_type": "article",
+            "reason": "아시아와 중동 지역 E&P 사업 관련 업무"
+          }
+        ]
+      }
+    }
+  ]
+}
