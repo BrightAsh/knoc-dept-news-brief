@@ -1,0 +1,172 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "9b2d2e8335706610",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "9b2d2e8335706610",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "공공기관 관련 이슈는 한국석유공사의 경영전략, 예산, 운영 등과 관련될 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "이재명 대통령 취임 이후 두 번째 부처별 업무보고가 15일부터 시작한다.",
+            "evidence_type": "paragraph",
+            "reason": "공공기관 업무보고는 기획예산처의 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "9b2d2e8335706610",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "공공기관 관련 이슈는 한국석유공사의 경영전략, 예산, 운영 등과 관련될 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "이재명 대통령 취임 이후 두 번째 부처별 업무보고가 15일부터 시작한다.",
+            "evidence_type": "paragraph",
+            "reason": "공공기관 업무보고는 기획예산처의 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "62529d76e9a5a858",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "62529d76e9a5a858",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "이란 관련 이슈는 한국석유공사의 해외자원개발, 석유 수급 등과 관련될 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "미군이 이란에 대한 해양 봉쇄를 다시 시작했다.",
+            "evidence_type": "paragraph",
+            "reason": "이란 관련 이슈는 아시아사업처의 해외자원개발 업무와 관련이 있음"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "미군은 봉쇄 한시간 전부터 이란에 대한 나흘째 공격을 이어갔고, 이란도 주변 미군기지를 겨냥해 보복에 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "이란 관련 이슈는 석유사업처의 석유 수급 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "62529d76e9a5a858",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "이란 관련 이슈는 한국석유공사의 해외자원개발, 석유 수급 등과 관련될 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "미군이 이란에 대한 해양 봉쇄를 다시 시작했다.",
+            "evidence_type": "paragraph",
+            "reason": "이란 관련 이슈는 아시아사업처의 해외자원개발 업무와 관련이 있음"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "미군은 봉쇄 한시간 전부터 이란에 대한 나흘째 공격을 이어갔고, 이란도 주변 미군기지를 겨냥해 보복에 나섰다.",
+            "evidence_type": "paragraph",
+            "reason": "이란 관련 이슈는 석유사업처의 석유 수급 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "94b7523cb76dd6e6",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "94b7523cb76dd6e6",
+        "candidate": true,
+        "confidence": 0.4,
+        "company_reason": "유가 관련 이슈는 한국석유공사의 석유 수급, 가격 관리 등과 관련될 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "페미니즘이 새로운 에프워드가 된 시대, 여성의 관점으로 금기에 반기를 드는 칼럼 입니다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 관련 이슈는 스마트데이터센터의 유가 정보 제공 업무와 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "즉 '남돌을 좋아하면서 페미니스트일 수 있을까 '란 문제의식은 혼자만의 것이 아니었다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 관련 이슈는 유통사업처의 석유 유통 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "94b7523cb76dd6e6",
+        "candidate": true,
+        "confidence": 0.4,
+        "company_reason": "유가 관련 이슈는 한국석유공사의 석유 수급, 가격 관리 등과 관련될 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "페미니즘이 새로운 에프워드가 된 시대, 여성의 관점으로 금기에 반기를 드는 칼럼 입니다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 관련 이슈는 스마트데이터센터의 유가 정보 제공 업무와 관련이 있음"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "즉 '남돌을 좋아하면서 페미니스트일 수 있을까 '란 문제의식은 혼자만의 것이 아니었다.",
+            "evidence_type": "paragraph",
+            "reason": "유가 관련 이슈는 유통사업처의 석유 유통 업무와 관련이 있음"
+          }
+        ]
+      }
+    }
+  ]
+}

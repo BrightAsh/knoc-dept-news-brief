@@ -1,0 +1,114 @@
+{
+  "results": [
+    {
+      "article_id": "992e19c9918aaf97",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "유가 관련 이슈지만 한국석유공사의 석유 사업과 직접 관련 근거가 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "1c2fb4388e56bc6d",
+      "final_relevant": false,
+      "confidence": 0.6,
+      "final_reason": "유가 관련 내용이 있지만 한국석유공사의 석유사업과 직접 관련 근거가 없음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "9fdb60b2130fd3ef",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지, LNG, 천연가스 관련 이슈로 한국석유공사의 사업과 관련이 있음",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "정부가 추진하는 반도체·인공지능 산업 육성 정책인 '3대 메가프로젝트'에 필요한 전력을 화석연료 중심으로 조달할 경우 2040년까지 온실가스가 최대 약 6억8000만t 추가 배출될 수 있다는 분석이 나왔다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하는 석유사업처와 관련이 있음"
+        },
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "정부가 추진하는 반도체·인공지능 산업 육성 정책인 '3대 메가프로젝트'에 필요한 전력을 화석연료 중심으로 조달할 경우 2040년까지 온실가스가 최대 약 6억8000만t 추가 배출될 수 있다는 분석이 나왔다.",
+          "evidence_type": "paragraph",
+          "reason": "CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당하는 저탄소추진처와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "bfc5274e7bd05171",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "유가 관련 이슈지만 한국석유공사의 석유 수급, 가격 관리 등과 관련될 가능성이 낮음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "94b7523cb76dd6e6",
+      "final_relevant": false,
+      "confidence": 0.4,
+      "final_reason": "유가 관련 이슈지만 한국석유공사의 석유 수급, 가격 관리 등과 관련될 가능성이 낮음",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "0d7e71d37154669a",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "에너지 관련 정책 및 시장 동향과 관련이 있음",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "국내 승용차 시장에서 친환경차의 판매 점유율이 빠르게 높아지고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "친환경차 판매 증가는 에너지 전환 및 저탄소 정책과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "지난달 국내 판매 승용차 10대 중 6대는 ‘친환경차’",
+          "evidence_type": "article",
+          "reason": "에너지 관련 시장 동향 파악은 경영전략 수립에 필요함"
+        }
+      ]
+    },
+    {
+      "article_id": "8ac45dced359a18c",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "국민성장펀드 투자규모 확대 관련 공공기관 언급",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "이재명 정부의 첨단산업 육성 펀드인 '국민성장펀드'가 총투자 규모를 5년간 150조원에서 200조원으로 확대하고, 우주·항공 산업에도 투자한다.",
+          "evidence_type": "article",
+          "reason": "국민성장펀드 투자규모 확대는 공공기관의 예산 및 정책과 관련이 있으므로 기획예산처의 업무와 연결됨"
+        }
+      ]
+    }
+  ]
+}

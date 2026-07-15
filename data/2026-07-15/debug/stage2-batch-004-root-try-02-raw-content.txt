@@ -1,0 +1,105 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "cdc22cdda5090cc5",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "기사는 트럼프 대통령의 호르무즈 해협 통항료 징수 결정 번복에 대해 다루고 있으나, 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 관련이 없음.",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "9efe48c88831599d",
+      "final_relevant": true,
+      "confidence": 0.9,
+      "final_reason": "기사는 비축유 관련 허위사실 유포에 대해 다루고 있으며, 한국석유공사의 석유비축처 업무와 관련이 있음.",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "석유공사에서 관리하는 비축유 관련 기사로, 허위사실 유포에 대한 대응이 필요함.",
+          "evidence_type": "paragraph",
+          "reason": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리"
+        }
+      ]
+    },
+    {
+      "article_id": "62529d76e9a5a858",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "기사는 이란과 미국의 충돌에 대해 다루고 있으나, 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 관련이 없음.",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "f42c9edfe11afaf3",
+      "final_relevant": false,
+      "confidence": 0.9,
+      "final_reason": "기사는 유전이라는 키워드가 언급되지만, 기사 내용이 한국석유공사의 해외자원개발 사업과 직접 관련이 없음.",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "86e418503a98bc20",
+      "final_relevant": false,
+      "confidence": 0.7,
+      "final_reason": "기사는 중국 경제 성장률에 대해 다루고 있으나, 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 관련이 없음.",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "c979c4b03a6c1b13",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "기사는 유가 관련 언급으로 한국석유공사와 연결되며, 석유사업처의 업무와 관련이 있음.",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "유가 관련 언급으로 석유사업처와 연결됨",
+          "evidence_type": "paragraph",
+          "reason": "석유 수급 안정과 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "9f5203ef5cf46115",
+      "final_relevant": false,
+      "confidence": 0.5,
+      "final_reason": "기사는 취업자 수와 제조업, 건설업에 대해 다루고 있으나, 한국석유공사의 직접적인 사업이나 위험, 정책, 시장, 운영과 관련이 없음.",
+      "review_note": "C 그룹에서 D 그룹으로 변경",
+      "departments": []
+    },
+    {
+      "article_id": "a9672b21186f6847",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "기사는 재생에너지 정책 및 사업과 관련이 있으며, 한국석유공사의 저탄소추진처 업무와 관련이 있음.",
+      "review_note": "C 그룹 유지",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "재생에너지 발전사업자와 기업을 연결하는 전력구매계약(PPA) 중개플랫폼 구축",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 추진 관련 업무와 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

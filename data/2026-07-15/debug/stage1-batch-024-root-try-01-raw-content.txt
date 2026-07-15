@@ -1,0 +1,62 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "1b4150c7da36cfd9",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "나프타 수입 관련 기사로 한국석유공사의 석유사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.95,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "나프타 수입 77%가 중동산 “위기 반복될 것···플라스틱 순환경제 구축해야”",
+          "evidence_type": "paragraph",
+          "reason": "석유사업처는 석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무를 담당하므로 나프타 수입 관련 기사와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "7566d2f859c6e855",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "재생에너지 전력 거래 기사로 한국석유공사의 에너지 전환 사업과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.85,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "재생에너지 전력, 온라인에서 쉽게 사고판다…기후부, 중개플랫폼 시범 운영",
+          "evidence_type": "paragraph",
+          "reason": "저탄소추진처는 CCS와 CCUS, 탄소포집·저장, 해상풍력, 에너지전환, 저탄소 신규사업을 담당하므로 재생에너지 전력 거래 기사와 관련이 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "86e418503a98bc20",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "중국 경제 성장률 관련 기사로 한국석유공사의 석유사업과 간접적으로 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "中 2분기 성장률 4.3%…2022년 제로코로나 해제 후 최저치",
+          "evidence_type": "title",
+          "reason": "중국 경제 성장률은 유가와 석유제품 수요에 영향을 미칠 수 있으므로 간접적으로 관련이 있음"
+        }
+      ]
+    }
+  ]
+}
+```

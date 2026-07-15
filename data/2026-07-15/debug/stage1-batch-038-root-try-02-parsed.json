@@ -1,0 +1,62 @@
+{
+  "results": [
+    {
+      "article_id": "7171b2b4ea79f29a",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "이란과 미군 기지 공습 관련 기사는 한국석유공사의 해외 자원 개발 및 석유 수급 안정과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "asia_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "미국·이란 교전 나흘째···이란, 바레인·쿠웨이트 미군 기지 공습",
+          "evidence_type": "paragraph",
+          "reason": "아시아 지역 E&P 사업 및 해외자원개발 사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "미국의 호르무즈 연안 도시 공격에 대한 보복으로 이란은 바레인과 쿠웨이트에 있는 미군 기지를 공습했다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 수급 안정과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "daacb2962bf8dac0",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "유가 관련 기사는 한국석유공사의 석유 수급 안정과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s3"
+          ],
+          "evidence_text": "6월 취업자 6만3000명 증가···청년 고용 26개월째 뒷걸음",
+          "evidence_type": "paragraph",
+          "reason": "석유 수급 안정과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "6월 취업자 수가 전년 동월 대비 6만3000명 증가하는 데 그쳤다.",
+          "evidence_type": "paragraph",
+          "reason": "유가 정보 제공 및 시장 동향 분석과 관련이 있을 수 있음"
+        }
+      ]
+    }
+  ]
+}

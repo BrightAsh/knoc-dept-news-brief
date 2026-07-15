@@ -1,0 +1,192 @@
+{
+  "raw_result_count": 5,
+  "accepted_result_count": 5,
+  "normalization": [
+    {
+      "article_id": "2109679ec3997824",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "2109679ec3997824",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "단순히 공공기관 언급만 있고 한국석유공사와 직접 관련이 없어보임",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "2109679ec3997824",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "단순히 공공기관 언급만 있고 한국석유공사와 직접 관련이 없어보임",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "d9db2bfb564f3446",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "d9db2bfb564f3446",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 정책 언급으로 한국석유공사와 간접 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지 관련 정책 언급",
+            "evidence_type": "paragraph",
+            "reason": "경영전략과 관련があるため"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "d9db2bfb564f3446",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 정책 언급으로 한국석유공사와 간접 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지 관련 정책 언급",
+            "evidence_type": "paragraph",
+            "reason": "경영전략과 관련があるため"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "aca6e1563542a978",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "aca6e1563542a978",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "주유소 언급이지만 한국석유공사와 직접 관련이 없어보임",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "aca6e1563542a978",
+        "candidate": false,
+        "confidence": 0,
+        "company_reason": "주유소 언급이지만 한국석유공사와 직접 관련이 없어보임",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "ce62d128f9d077db",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "ce62d128f9d077db",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "공기업 언급으로 한국석유공사와 간접 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "공기업 언급",
+            "evidence_type": "paragraph",
+            "reason": "예산 및 기획과 관련があるため"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "ce62d128f9d077db",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "공기업 언급으로 한국석유공사와 간접 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "공기업 언급",
+            "evidence_type": "paragraph",
+            "reason": "예산 및 기획과 관련があるため"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "8a60186b4114748d",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "8a60186b4114748d",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "석유 및 에너지 언급으로 한국석유공사와 직접 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "석유 및 에너지 언급",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 및 에너지 전환과 관련があるため"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "석유 언급",
+            "evidence_type": "paragraph",
+            "reason": "석유 사업과 관련があるため"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "8a60186b4114748d",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "석유 및 에너지 언급으로 한국석유공사와 직접 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "석유 및 에너지 언급",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 및 에너지 전환과 관련があるため"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "석유 언급",
+            "evidence_type": "paragraph",
+            "reason": "석유 사업과 관련があるため"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "article_id": "9f5203ef5cf46115",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "석유 관련 취업자 수 언급",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "제조업·건설업 취업자 수가 2년 이상 동반 감소세를 이어가면서 부진이 장기화하는 모습이다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 관련 산업의 취업자 수 감소세는 석유공사의 사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "제조업·건설업 취업자 수가 2년 이상 동반 감소세를 이어가면서 부진이 장기화하는 모습이다.",
+          "evidence_type": "paragraph",
+          "reason": "석유 관련 산업의 취업자 수 감소세는 석유공사의 석유 사업과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "3596f07758dca7e3",
+      "candidate": true,
+      "confidence": 0.4,
+      "company_reason": "에너지 관련 건강 정보 제공",
+      "departments": [
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "유난히 더위 타고 가슴 두근…여름 탓 아닌 ‘갑상선 이상’ 신호일 수도",
+          "evidence_type": "title",
+          "reason": "에너지 관련 건강 정보는 석유공사의 정보 서비스와 관련이 있을 수 있음"
+        }
+      ]
+    }
+  ]
+}

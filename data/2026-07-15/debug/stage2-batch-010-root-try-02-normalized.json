@@ -1,0 +1,226 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "cc656ce81e92ba7f",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "cc656ce81e92ba7f",
+        "final_relevant": false,
+        "confidence": 0.2,
+        "final_reason": "에너지 관련 연구이나 한국석유공사의 직접적인 관련성이 불명확함",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "cc656ce81e92ba7f",
+        "final_relevant": false,
+        "confidence": 0.2,
+        "final_reason": "에너지 관련 연구이나 한국석유공사의 직접적인 관련성이 불명확함",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "2c4a96c32dc4a422",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "2c4a96c32dc4a422",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "공공기관 관련 내용이 한국석유공사의 경영전략, 예산, 운영 등과 관련됨",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "이재명 대통령 취임 이후 두 번째 부처별 업무보고가 15일부터 시작한다.",
+            "evidence_type": "paragraph",
+            "reason": "공공기관 업무보고는 기획예산처의 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "2c4a96c32dc4a422",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "공공기관 관련 내용이 한국석유공사의 경영전략, 예산, 운영 등과 관련됨",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "이재명 대통령 취임 이후 두 번째 부처별 업무보고가 15일부터 시작한다.",
+            "evidence_type": "paragraph",
+            "reason": "공공기관 업무보고는 기획예산처의 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "4b0842888d0459d5",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "4b0842888d0459d5",
+        "final_relevant": false,
+        "confidence": 0.3,
+        "final_reason": "에너지 관련 기사이나 한국석유공사와의 직접적인 관련성이 불명확함",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "4b0842888d0459d5",
+        "final_relevant": false,
+        "confidence": 0.3,
+        "final_reason": "에너지 관련 기사이나 한국석유공사와의 직접적인 관련성이 불명확함",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "9b2d2e8335706610",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "9b2d2e8335706610",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "공공기관 관련 이슈는 한국석유공사의 경영전략, 예산, 운영 등과 관련됨",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "이재명 대통령 취임 이후 두 번째 부처별 업무보고가 15일부터 시작한다.",
+            "evidence_type": "paragraph",
+            "reason": "공공기관 업무보고는 기획예산처의 업무와 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "9b2d2e8335706610",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "공공기관 관련 이슈는 한국석유공사의 경영전략, 예산, 운영 등과 관련됨",
+        "review_note": "C 그룹 유지",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "이재명 대통령 취임 이후 두 번째 부처별 업무보고가 15일부터 시작한다.",
+            "evidence_type": "paragraph",
+            "reason": "공공기관 업무보고는 기획예산처의 업무와 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "3596f07758dca7e3",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "3596f07758dca7e3",
+        "final_relevant": false,
+        "confidence": 0.2,
+        "final_reason": "에너지 관련 건강 정보이나 한국석유공사의 직접적인 관련성이 불명확함",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "3596f07758dca7e3",
+        "final_relevant": false,
+        "confidence": 0.2,
+        "final_reason": "에너지 관련 건강 정보이나 한국석유공사의 직접적인 관련성이 불명확함",
+        "review_note": "C 그룹에서 D 그룹으로 변경",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "cdbb9664091070cc",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "cdbb9664091070cc",
+        "final_relevant": false,
+        "confidence": 0.1,
+        "final_reason": "탐사, 시추 관련 언급이나 한국석유공사와의 직접적인 관련성이 불명확함",
+        "review_note": "D 그룹 유지",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "cdbb9664091070cc",
+        "final_relevant": false,
+        "confidence": 0.1,
+        "final_reason": "탐사, 시추 관련 언급이나 한국석유공사와의 직접적인 관련성이 불명확함",
+        "review_note": "D 그룹 유지",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "457aca7ef21e7bdd",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "457aca7ef21e7bdd",
+        "final_relevant": false,
+        "confidence": 0.1,
+        "final_reason": "유가 관련성 있으나 일반 기사로 한국석유공사와 관련성이 낮음",
+        "review_note": "D 그룹 유지",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "457aca7ef21e7bdd",
+        "final_relevant": false,
+        "confidence": 0.1,
+        "final_reason": "유가 관련성 있으나 일반 기사로 한국석유공사와 관련성이 낮음",
+        "review_note": "D 그룹 유지",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "80bc295c3bbbcea2",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "80bc295c3bbbcea2",
+        "final_relevant": false,
+        "confidence": 0,
+        "final_reason": "",
+        "review_note": "D 그룹 유지",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "80bc295c3bbbcea2",
+        "final_relevant": false,
+        "confidence": 0,
+        "final_reason": "",
+        "review_note": "D 그룹 유지",
+        "departments": []
+      }
+    }
+  ]
+}

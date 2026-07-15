@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "article_id": "4b3746cbf78c75ba",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "기사에서 '유가'가 언급되어 에너지 관련 이슈로 보임",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "유가",
+          "evidence_type": "sentence",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "bb3eb9d66983c7a1",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "기사에서 '에너지'가 언급되어 에너지 관련 이슈로 보임",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "에너지",
+          "evidence_type": "sentence",
+          "reason": "저탄소 수소와 암모니아 도입·저장·유통, 해외 공급처 발굴 관련 업무"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.5,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "에너지",
+          "evidence_type": "sentence",
+          "reason": "경영전략, 경영목표, 운영계획 관련 업무"
+        }
+      ]
+    }
+  ]
+}

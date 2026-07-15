@@ -1,0 +1,198 @@
+{
+  "raw_result_count": 3,
+  "accepted_result_count": 3,
+  "normalization": [
+    {
+      "article_id": "0d7e71d37154669a",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "0d7e71d37154669a",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "에너지 관련 정책 및 시장 동향과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "국내 승용차 시장에서 친환경차의 판매 점유율이 빠르게 높아지고 있다.",
+            "evidence_type": "paragraph",
+            "reason": "친환경차 판매 증가는 에너지 전환 및 저탄소 정책과 관련이 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "지난달 국내 판매 승용차 10대 중 6대는 ‘친환경차’",
+            "evidence_type": "title",
+            "reason": "에너지 관련 시장 동향 파악은 경영전략 수립에 필요함"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "0d7e71d37154669a",
+        "candidate": true,
+        "confidence": 0.9,
+        "company_reason": "에너지 관련 정책 및 시장 동향과 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "국내 승용차 시장에서 친환경차의 판매 점유율이 빠르게 높아지고 있다.",
+            "evidence_type": "paragraph",
+            "reason": "친환경차 판매 증가는 에너지 전환 및 저탄소 정책과 관련이 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "지난달 국내 판매 승용차 10대 중 6대는 ‘친환경차’",
+            "evidence_type": "article",
+            "reason": "에너지 관련 시장 동향 파악은 경영전략 수립에 필요함"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "86fea401297805cc",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "86fea401297805cc",
+        "candidate": true,
+        "confidence": 0.85,
+        "company_reason": "재생에너지 전력 거래는 에너지 안보와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정부가 재생에너지로 생산한 전력을 발전사업자와 기업이 온라인에서 사고팔 수 있는 시스템을 시범 운영한다.",
+            "evidence_type": "paragraph",
+            "reason": "재생에너지 전력 거래는 저탄소 정책과 관련이 있음"
+          },
+          {
+            "department_id": "energy_infra",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "발전사업자·기업, 온라인서 ‘재생에너지 전력’ 직접 거래한다",
+            "evidence_type": "title",
+            "reason": "에너지 인프라 구축과 관련이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "86fea401297805cc",
+        "candidate": true,
+        "confidence": 0.85,
+        "company_reason": "재생에너지 전력 거래는 에너지 안보와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "정부가 재생에너지로 생산한 전력을 발전사업자와 기업이 온라인에서 사고팔 수 있는 시스템을 시범 운영한다.",
+            "evidence_type": "paragraph",
+            "reason": "재생에너지 전력 거래는 저탄소 정책과 관련이 있음"
+          },
+          {
+            "department_id": "energy_infra",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "발전사업자·기업, 온라인서 ‘재생에너지 전력’ 직접 거래한다",
+            "evidence_type": "article",
+            "reason": "에너지 인프라 구축과 관련이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "55135d3598e999db",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "55135d3598e999db",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "AI 및 반도체 클러스터는 에너지 수요와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "신한SOL클러스터는 지역의 전략산업을 중심으로 발굴한 기업에 자금 수요 진단부터 금융 지원까지 종합적인 금융 서비스를 제공하는 플랫폼이다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 효율화 및 저탄소 정책과 관련이 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "신한은행, 전남광주에 ‘AI·반도체’ SOL클러스터",
+            "evidence_type": "title",
+            "reason": "에너지 관련 시장 동향 파악은 경영전략 수립에 필요함"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "55135d3598e999db",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "AI 및 반도체 클러스터는 에너지 수요와 관련이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "신한SOL클러스터는 지역의 전략산업을 중심으로 발굴한 기업에 자금 수요 진단부터 금융 지원까지 종합적인 금융 서비스를 제공하는 플랫폼이다.",
+            "evidence_type": "paragraph",
+            "reason": "에너지 효율화 및 저탄소 정책과 관련이 있음"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "신한은행, 전남광주에 ‘AI·반도체’ SOL클러스터",
+            "evidence_type": "article",
+            "reason": "에너지 관련 시장 동향 파악은 경영전략 수립에 필요함"
+          }
+        ]
+      }
+    }
+  ]
+}
