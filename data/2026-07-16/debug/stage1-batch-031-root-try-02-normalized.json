@@ -1,0 +1,236 @@
+{
+  "raw_result_count": 5,
+  "accepted_result_count": 5,
+  "normalization": [
+    {
+      "article_id": "60bb3508b18bb388",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "60bb3508b18bb388",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "원유, 유가, 국제유가, 에너지 관련 이슈는 한국석유공사의 업무와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "트럼프, ‘지상군 투입’ 검토…이란, 홍해 봉쇄 ‘원유 볼모’ 맞대응?",
+            "evidence_type": "title",
+            "reason": "원유 볼모로 언급된 점, 국제유가 영향을 줄 수 있는 이슈로 보여짐"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "트럼프, ‘지상군 투입’ 검토…이란, 홍해 봉쇄 ‘원유 볼모’ 맞대응?",
+            "evidence_type": "title",
+            "reason": "유가 영향을 줄 수 있는 이슈로 보여짐, 유가 정보 제공 업무 관련성"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "60bb3508b18bb388",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "원유, 유가, 국제유가, 에너지 관련 이슈는 한국석유공사의 업무와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "트럼프, ‘지상군 투입’ 검토…이란, 홍해 봉쇄 ‘원유 볼모’ 맞대응?",
+            "evidence_type": "article",
+            "reason": "원유 볼모로 언급된 점, 국제유가 영향을 줄 수 있는 이슈로 보여짐"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "트럼프, ‘지상군 투입’ 검토…이란, 홍해 봉쇄 ‘원유 볼모’ 맞대응?",
+            "evidence_type": "article",
+            "reason": "유가 영향을 줄 수 있는 이슈로 보여짐, 유가 정보 제공 업무 관련성"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "6625d7c887715461",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "6625d7c887715461",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "유가 관련 이슈는 한국석유공사의 업무와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "미 민주당 의원 절반, 이스라엘 지원금 전액 삭감안 찬성표",
+            "evidence_type": "title",
+            "reason": "유가 영향을 줄 수 있는 이슈로 보여짐, 유가 정보 제공 업무 관련성"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "6625d7c887715461",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "유가 관련 이슈는 한국석유공사의 업무와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "미 민주당 의원 절반, 이스라엘 지원금 전액 삭감안 찬성표",
+            "evidence_type": "article",
+            "reason": "유가 영향을 줄 수 있는 이슈로 보여짐, 유가 정보 제공 업무 관련성"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "9602038aa8fbb0cb",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "9602038aa8fbb0cb",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "석유 관련 언급은 한국석유공사의 업무와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "신현송 총재, ‘최종 금리 3.5%’ 전망에 “물가상승률 확신 들 때까지 대응”",
+            "evidence_type": "title",
+            "reason": "석유 언급되어 있음, 물가상승률 관련해서도 간접적으로 영향 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "9602038aa8fbb0cb",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "석유 관련 언급은 한국석유공사의 업무와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "신현송 총재, ‘최종 금리 3.5%’ 전망에 “물가상승률 확신 들 때까지 대응”",
+            "evidence_type": "article",
+            "reason": "석유 언급되어 있음, 물가상승률 관련해서도 간접적으로 영향 있을 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "f6876a4fa7ef33d6",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "f6876a4fa7ef33d6",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "에너지 관련 언급은 한국석유공사의 업무와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "에너지기술평가원, 우즈벡 친환경 에너지 전환 이끈다",
+            "evidence_type": "title",
+            "reason": "에너지 관련 언급되어 있음, 친환경 에너지 관련 업무와 유사"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "f6876a4fa7ef33d6",
+        "candidate": true,
+        "confidence": 0.6,
+        "company_reason": "에너지 관련 언급은 한국석유공사의 업무와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "에너지기술평가원, 우즈벡 친환경 에너지 전환 이끈다",
+            "evidence_type": "article",
+            "reason": "에너지 관련 언급되어 있음, 친환경 에너지 관련 업무와 유사"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "a144edf58b1fc6b1",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "a144edf58b1fc6b1",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "에너지 관련 언급은 한국석유공사의 업무와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "인천대, ‘인천국제해양포럼’서 해양·물류 성과 소개",
+            "evidence_type": "title",
+            "reason": "에너지 관련 언급되어 있음, 해양 관련 업무와 유사"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "a144edf58b1fc6b1",
+        "candidate": true,
+        "confidence": 0.5,
+        "company_reason": "에너지 관련 언급은 한국석유공사의 업무와 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "인천대, ‘인천국제해양포럼’서 해양·물류 성과 소개",
+            "evidence_type": "article",
+            "reason": "에너지 관련 언급되어 있음, 해양 관련 업무와 유사"
+          }
+        ]
+      }
+    }
+  ]
+}

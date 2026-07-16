@@ -1,0 +1,50 @@
+{
+  "results": [
+    {
+      "article_id": "bb9f9946b3cb869e",
+      "candidate": true,
+      "confidence": 0.9,
+      "company_reason": "석유공장과 관련된 기사로, 석유 수급 및 에너지 안보와 관련이 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "러시아 우랄산맥 인근 바시코르토스탄 공화국 살라바트시에 있는 정유공장이 우크라이나의 드론 공격으로 가동을 중단한 것으로 알려졌다.",
+          "evidence_type": "paragraph",
+          "reason": "정유공장의 운영 및 석유 수급과 관련이 있음"
+        },
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "우크라 드론, 국경서 1400km 떨어진 러 대형 정유공장 타격",
+          "evidence_type": "title",
+          "reason": "석유공장의 공격으로 인한 영향 분석 및 전략 수립 필요"
+        }
+      ]
+    },
+    {
+      "article_id": "bbe4a4330c9719fa",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "공공기관 관련 기사로, 한국석유공사와 유사한 공공기관의 운영과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "“심평원 떨어졌죠” “벼르는 이 많다”…李 말에 ‘빵’ 터진 업무보고",
+          "evidence_type": "title",
+          "reason": "공공기관 운영 및 예산 관리와 관련이 있음"
+        }
+      ]
+    }
+  ]
+}

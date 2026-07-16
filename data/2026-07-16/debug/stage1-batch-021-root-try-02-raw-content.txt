@@ -1,0 +1,60 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "2802edac08fd80f9",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "공공기관 관련 이슈",
+      "departments": [
+        {
+          "department_id": "planning_budget",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "공공기관",
+          "evidence_type": "sentence",
+          "reason": "공공기관 관련 기사로 한국석유공사 기획예산처의 업무와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "c9dfdddc5f686e28",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "공공기관 관련 이슈",
+      "departments": [
+        {
+          "department_id": "she",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "안전보건경영시스템 인증",
+          "evidence_type": "sentence",
+          "reason": "안전보건경영시스템 인증 관련 기사로 한국석유공사 SHE추진실의 업무와 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "c05d0bc5decc8bb7",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "석유 수급 안정 관련 이슈",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "수급 안정",
+          "evidence_type": "sentence",
+          "reason": "석유 수급 안정 관련 기사로 한국석유공사 석유사업처의 업무와 관련이 있을 수 있음"
+        }
+      ]
+    }
+  ]
+}
+```

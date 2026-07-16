@@ -1,0 +1,63 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "6fd459739bb35453",
+      "candidate": true,
+      "confidence": 0.8,
+      "company_reason": "기사에서 언급된 '수소'라는 키워드가 한국석유공사의 수소암모니아사업단과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "hydrogen_ammonia",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "김의겸, ‘새만금 특별지자체연합 특별법’ 발의···“군산·김제·부안 경제공동체 구축”",
+          "evidence_type": "paragraph",
+          "reason": "새만금 지역은 한국석유공사의 수소 및 암모니아 관련 사업과 지리적으로 연관성이 있으며, 경제공동체 구축 논의는 공사의 사업 영역 확장 가능성을 시사함"
+        }
+      ]
+    },
+    {
+      "article_id": "438543975c319e52",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "기사에서 언급된 '에너지'라는 키워드가 한국석유공사의 주요 사업 영역과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "‘테토남’이 곧 전투력? 30세 이상 미군, 매년 ‘이 검사’ 받는다",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 이슈는 한국석유공사의 경영전략과 관련이 있을 수 있음"
+        }
+      ]
+    },
+    {
+      "article_id": "b6da8330462cf4ab",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "기사에서 언급된 '에너지'라는 키워드가 한국석유공사의 주요 사업 영역과 관련이 있음",
+      "departments": [
+        {
+          "department_id": "strategy",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1",
+            "s2"
+          ],
+          "evidence_text": "與, 고민정·김민석·송영길·정청래 후보 당대표 등록 완료",
+          "evidence_type": "paragraph",
+          "reason": "에너지 관련 이슈는 한국석유공사의 경영전략과 관련이 있을 수 있음"
+        }
+      ]
+    }
+  ]
+}
+```

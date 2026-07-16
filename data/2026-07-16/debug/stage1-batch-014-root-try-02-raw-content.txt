@@ -1,0 +1,72 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "344eb0c473c292f0",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "기사에서 휘발유 언급",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "휘발유",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "1ab13ae16eed2132",
+      "candidate": true,
+      "confidence": 0.7,
+      "company_reason": "기사에서 원유, 유가, 비축유 언급",
+      "departments": [
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "원유, 비축유",
+          "evidence_type": "paragraph",
+          "reason": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리"
+        },
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "원유, 유가",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "2095b7c1fa41a588",
+      "candidate": true,
+      "confidence": 0.6,
+      "company_reason": "기사에서 에너지 언급",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "에너지",
+          "evidence_type": "paragraph",
+          "reason": "저탄소 신규사업, 에너지전환, 해상풍력"
+        }
+      ]
+    }
+  ]
+}
+```

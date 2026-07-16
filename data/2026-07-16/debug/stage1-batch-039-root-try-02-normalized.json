@@ -1,0 +1,90 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "3ca7460834a4157d",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "3ca7460834a4157d",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "공공기관 관련 이슈로 한국석유공사와 연결될 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "공공기관장들을 부당하게 사퇴시켰다는 '블랙리스트' 의혹 사건",
+            "evidence_type": "paragraph",
+            "reason": "기획예산처는 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당하므로 공공기관 관련 이슈와 연결됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "3ca7460834a4157d",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "공공기관 관련 이슈로 한국석유공사와 연결될 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "planning_budget",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "공공기관장들을 부당하게 사퇴시켰다는 '블랙리스트' 의혹 사건",
+            "evidence_type": "paragraph",
+            "reason": "기획예산처는 예산 편성·통제, 경영계획과 공공기관 관련 대외 대응을 담당하므로 공공기관 관련 이슈와 연결됨"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "6760f5cb8f287980",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "6760f5cb8f287980",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 연구 성과로 한국석유공사와 연결될 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "차세대 반도체의 우주 환경 신뢰성을 규명하는 데 성공했다",
+            "evidence_type": "paragraph",
+            "reason": "저탄소추진처는 에너지전환, 저탄소 신규사업을 담당하므로 에너지 관련 연구 성과와 연결됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "6760f5cb8f287980",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 연구 성과로 한국석유공사와 연결될 가능성이 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "차세대 반도체의 우주 환경 신뢰성을 규명하는 데 성공했다",
+            "evidence_type": "paragraph",
+            "reason": "저탄소추진처는 에너지전환, 저탄소 신규사업을 담당하므로 에너지 관련 연구 성과와 연결됨"
+          }
+        ]
+      }
+    }
+  ]
+}

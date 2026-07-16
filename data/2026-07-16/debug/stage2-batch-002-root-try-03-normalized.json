@@ -1,0 +1,366 @@
+{
+  "raw_result_count": 8,
+  "accepted_result_count": 8,
+  "normalization": [
+    {
+      "article_id": "1ab13ae16eed2132",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "1ab13ae16eed2132",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "원유, 유가 관련 이슈로 한국석유공사의 석유사업 및 비축사업과 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 원유 및 유가 관련 언급이 있음",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "원유, 비축유",
+            "evidence_type": "paragraph",
+            "reason": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "원유, 유가",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "1ab13ae16eed2132",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "원유, 유가 관련 이슈로 한국석유공사의 석유사업 및 비축사업과 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 원유 및 유가 관련 언급이 있음",
+        "departments": [
+          {
+            "department_id": "stockpiling",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "원유, 비축유",
+            "evidence_type": "paragraph",
+            "reason": "정부 비축유, 전략비축, 비축기지, 저장시설, 입출하, 비축시설 안전·소방·재난·환경 관리"
+          },
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "원유, 유가",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩, 구매계약, 공동비축 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "3a81e22600fd4ca8",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "3a81e22600fd4ca8",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "원유 관련 이슈로 한국석유공사의 석유사업과 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 원유 관련 언급이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "원유와 관련된 국제 이슈로 석유사업 전략과 관련이 있을 수 있음",
+            "evidence_type": "article",
+            "reason": "석유사업처는 석유사업 전략, 원유 구매와 판매, 트레이딩 등을 담당하므로 관련성이 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "3a81e22600fd4ca8",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "원유 관련 이슈로 한국석유공사의 석유사업과 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 원유 관련 언급이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "원유와 관련된 국제 이슈로 석유사업 전략과 관련이 있을 수 있음",
+            "evidence_type": "article",
+            "reason": "석유사업처는 석유사업 전략, 원유 구매와 판매, 트레이딩 등을 담당하므로 관련성이 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "c1976200fc7735b2",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "c1976200fc7735b2",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "에너지 안보, LNG 관련 언급으로 한국석유공사의 사업과 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 에너지 안보 및 LNG 관련 언급이 있음",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "에너지 안보, LNG 관련 언급으로 전략 담당 부서와 관련이 있을 수 있음",
+            "evidence_type": "paragraph",
+            "reason": "에너지 안보, LNG 관련 언급으로 전략 담당 부서와 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지저장장치와 풍력으로 대체해나갈 수 있다는 의견이 나왔다.",
+            "evidence_type": "sentence",
+            "reason": "에너지 통계, 시장동향 분석과 관련이 있을 수 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "c1976200fc7735b2",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "에너지 안보, LNG 관련 언급으로 한국석유공사의 사업과 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 에너지 안보 및 LNG 관련 언급이 있음",
+        "departments": [
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2"
+            ],
+            "evidence_text": "에너지 안보, LNG 관련 언급으로 전략 담당 부서와 관련이 있을 수 있음",
+            "evidence_type": "paragraph",
+            "reason": "에너지 안보, LNG 관련 언급으로 전략 담당 부서와 관련이 있을 수 있음"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "에너지저장장치와 풍력으로 대체해나갈 수 있다는 의견이 나왔다.",
+            "evidence_type": "sentence",
+            "reason": "에너지 통계, 시장동향 분석과 관련이 있을 수 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "e57b09f62c0341d9",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 1,
+      "raw_result": {
+        "article_id": "e57b09f62c0341d9",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "이란과 미국의 무력 충돌이 국제 유가에 미치는 영향이 있을 수 있으므로, 공사의 역할과 관련이 있다.",
+        "review_note": "C 그룹으로 분류된 기사로, 이란과 미국의 무력 충돌 관련 언급이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "미 공습 닷새째…이란 “종전 합의 지킬 이유 없어…맞대응 예고”",
+            "evidence_type": "article",
+            "reason": "국제 유가의 변동은 석유 사업에 영향을 미치므로, 공사의 석유 사업 전략과 관련이 있다."
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "e57b09f62c0341d9",
+        "final_relevant": true,
+        "confidence": 0.7,
+        "final_reason": "이란과 미국의 무력 충돌이 국제 유가에 미치는 영향이 있을 수 있으므로, 공사의 역할과 관련이 있다.",
+        "review_note": "C 그룹으로 분류된 기사로, 이란과 미국의 무력 충돌 관련 언급이 있음",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s1"
+            ],
+            "evidence_text": "미 공습 닷새째…이란 “종전 합의 지킬 이유 없어…맞대응 예고”",
+            "evidence_type": "article",
+            "reason": "국제 유가의 변동은 석유 사업에 영향을 미치므로, 공사의 석유 사업 전략과 관련이 있다."
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "aee593e95307203a",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "aee593e95307203a",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "세제 개편 제안으로 한국석유공사의 석유사업 및 유통사업과 관련성이 낮음",
+        "review_note": "C 그룹으로 분류된 기사로, 세제 개편 제안 관련 언급이 있음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "aee593e95307203a",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "세제 개편 제안으로 한국석유공사의 석유사업 및 유통사업과 관련성이 낮음",
+        "review_note": "C 그룹으로 분류된 기사로, 세제 개편 제안 관련 언급이 있음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "6e2a89d2279e1aef",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "6e2a89d2279e1aef",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지, 자원개발, 유전 관련 인사 정보가 포함되어 있어 한국석유공사의 해외자원개발 사업과 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 에너지, 자원개발, 유전 관련 인사 정보가 포함되어 있음",
+        "departments": [
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "오늘의 인사-외교부 외",
+            "evidence_type": "article",
+            "reason": "해외자원개발 사업과 관련된 인사 정보가 포함되어 있음"
+          },
+          {
+            "department_id": "americas_europe_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "오늘의 인사-외교부 외",
+            "evidence_type": "article",
+            "reason": "해외자원개발 사업과 관련된 인사 정보가 포함되어 있음"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "6e2a89d2279e1aef",
+        "final_relevant": true,
+        "confidence": 0.8,
+        "final_reason": "에너지, 자원개발, 유전 관련 인사 정보가 포함되어 있어 한국석유공사의 해외자원개발 사업과 관련이 있음",
+        "review_note": "C 그룹으로 분류된 기사로, 에너지, 자원개발, 유전 관련 인사 정보가 포함되어 있음",
+        "departments": [
+          {
+            "department_id": "asia_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "오늘의 인사-외교부 외",
+            "evidence_type": "article",
+            "reason": "해외자원개발 사업과 관련된 인사 정보가 포함되어 있음"
+          },
+          {
+            "department_id": "americas_europe_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s1",
+              "s2",
+              "s3"
+            ],
+            "evidence_text": "오늘의 인사-외교부 외",
+            "evidence_type": "article",
+            "reason": "해외자원개발 사업과 관련된 인사 정보가 포함되어 있음"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "aeaa7563e6b8f89b",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "aeaa7563e6b8f89b",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련성이 낮음",
+        "review_note": "C 그룹으로 분류된 기사로, 유가 관련 언급이 있음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "aeaa7563e6b8f89b",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련성이 낮음",
+        "review_note": "C 그룹으로 분류된 기사로, 유가 관련 언급이 있음",
+        "departments": []
+      }
+    },
+    {
+      "article_id": "02915c34a0465075",
+      "accepted": true,
+      "candidate": false,
+      "department_count": 0,
+      "raw_result": {
+        "article_id": "02915c34a0465075",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "유전 관련 언급으로 한국석유공사의 사업과 관련성이 낮음",
+        "review_note": "C 그룹으로 분류된 기사로, 유전 관련 언급이 있음",
+        "departments": []
+      },
+      "normalized": {
+        "article_id": "02915c34a0465075",
+        "final_relevant": false,
+        "confidence": 0.5,
+        "final_reason": "유전 관련 언급으로 한국석유공사의 사업과 관련성이 낮음",
+        "review_note": "C 그룹으로 분류된 기사로, 유전 관련 언급이 있음",
+        "departments": []
+      }
+    }
+  ]
+}

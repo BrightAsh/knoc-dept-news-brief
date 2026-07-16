@@ -1,0 +1,44 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "aeaa7563e6b8f89b",
+      "candidate": true,
+      "confidence": 0.5,
+      "company_reason": "유가 관련 기사로 한국석유공사의 석유사업, 유통사업, 비축사업과 관련이 있을 수 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "김태효 前안보실 1차장 구속 유지…법원, 적부심 청구 기각",
+          "evidence_type": "summary_sentence",
+          "reason": "유가라는 키워드가 언급되어 석유사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "김태효 前안보실 1차장 구속 유지…법원, 적부심 청구 기각",
+          "evidence_type": "summary_sentence",
+          "reason": "유가라는 키워드가 언급되어 유통사업과 관련이 있을 수 있음"
+        },
+        {
+          "department_id": "stockpiling",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "김태효 前안보실 1차장 구속 유지…법원, 적부심 청구 기각",
+          "evidence_type": "summary_sentence",
+          "reason": "유가라는 키워드가 언급되어 비축사업과 관련이 있을 수 있음"
+        }
+      ]
+    }
+  ]
+}
+```

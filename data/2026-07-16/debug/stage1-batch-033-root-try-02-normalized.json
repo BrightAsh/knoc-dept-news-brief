@@ -1,0 +1,68 @@
+{
+  "raw_result_count": 1,
+  "accepted_result_count": 1,
+  "normalization": [
+    {
+      "article_id": "0f7e66be6ace96d4",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "0f7e66be6ace96d4",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "신규 소형모듈원전(SMR) 도입을 검토하는 가운데",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 추진 관련 업무와 연결됨"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "정부 일정에 맞춰 안전규제 체계와 법·제도 정비에 속도를 낼 방침이다.",
+            "evidence_type": "paragraph",
+            "reason": "경영전략과 정책 대응 관련 업무와 연결됨"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "0f7e66be6ace96d4",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 이슈로 한국석유공사의 사업과 관련이 있을 수 있음",
+        "departments": [
+          {
+            "department_id": "low_carbon",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "신규 소형모듈원전(SMR) 도입을 검토하는 가운데",
+            "evidence_type": "paragraph",
+            "reason": "저탄소 추진 관련 업무와 연결됨"
+          },
+          {
+            "department_id": "strategy",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "정부 일정에 맞춰 안전규제 체계와 법·제도 정비에 속도를 낼 방침이다.",
+            "evidence_type": "paragraph",
+            "reason": "경영전략과 정책 대응 관련 업무와 연결됨"
+          }
+        ]
+      }
+    }
+  ]
+}
