@@ -1,0 +1,130 @@
+{
+  "raw_result_count": 2,
+  "accepted_result_count": 2,
+  "normalization": [
+    {
+      "article_id": "23d500da398a873f",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "23d500da398a873f",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 키워드(유가, 에너지) 언급",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "어닝 서프라이즈 8선",
+            "evidence_type": "article",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "어닝 서프라이즈 8선",
+            "evidence_type": "article",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "23d500da398a873f",
+        "candidate": true,
+        "confidence": 0.8,
+        "company_reason": "에너지 관련 키워드(유가, 에너지) 언급",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.9,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "어닝 서프라이즈 8선",
+            "evidence_type": "article",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "smart_data",
+            "relevance_score": 0.7,
+            "evidence_segment_ids": [
+              "s3"
+            ],
+            "evidence_text": "어닝 서프라이즈 8선",
+            "evidence_type": "article",
+            "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+          }
+        ]
+      }
+    },
+    {
+      "article_id": "32e91c9fd19672c9",
+      "accepted": true,
+      "candidate": true,
+      "department_count": 2,
+      "raw_result": {
+        "article_id": "32e91c9fd19672c9",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 키워드(에너지) 언급",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "고카페인 에너지 음료",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "고카페인 에너지 음료",
+            "evidence_type": "paragraph",
+            "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+          }
+        ]
+      },
+      "normalized": {
+        "article_id": "32e91c9fd19672c9",
+        "candidate": true,
+        "confidence": 0.7,
+        "company_reason": "에너지 관련 키워드(에너지) 언급",
+        "departments": [
+          {
+            "department_id": "petroleum_business",
+            "relevance_score": 0.8,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "고카페인 에너지 음료",
+            "evidence_type": "paragraph",
+            "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+          },
+          {
+            "department_id": "distribution_business",
+            "relevance_score": 0.6,
+            "evidence_segment_ids": [
+              "s2"
+            ],
+            "evidence_text": "고카페인 에너지 음료",
+            "evidence_type": "paragraph",
+            "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+          }
+        ]
+      }
+    }
+  ]
+}

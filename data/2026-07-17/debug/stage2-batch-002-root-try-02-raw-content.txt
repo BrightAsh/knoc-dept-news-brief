@@ -1,0 +1,156 @@
+```json
+{
+  "results": [
+    {
+      "article_id": "9ad5984bfcec3344",
+      "final_relevant": false,
+      "confidence": 0.2,
+      "final_reason": "한국석유공사와 관련한 내용이 없음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 없음",
+      "departments": []
+    },
+    {
+      "article_id": "23d500da398a873f",
+      "final_relevant": true,
+      "confidence": 0.8,
+      "final_reason": "에너지 관련 키워드(유가, 에너지) 언급으로 석유사업과 관련 있음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "어닝 서프라이즈 8선",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "smart_data",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s3"
+          ],
+          "evidence_text": "어닝 서프라이즈 8선",
+          "evidence_type": "paragraph",
+          "reason": "유가·석유가격 정보, 에너지 통계, 시장동향 분석 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "a6db312d88328a37",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "석유 관련 키워드 언급으로 석유유통과 관련 있음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.9,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "수입차 판매가 빠르게 늘고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s2",
+            "s3"
+          ],
+          "evidence_text": "수입차 판매가 빠르게 늘고 있다.",
+          "evidence_type": "paragraph",
+          "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "45126f01c67d8c96",
+      "final_relevant": false,
+      "confidence": 0.3,
+      "final_reason": "공공기관 이전 이슈는 한국석유공사와 직접 관련이 없음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 없음",
+      "departments": []
+    },
+    {
+      "article_id": "32e91c9fd19672c9",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "에너지 관련 키워드(에너지) 언급으로 석유사업과 관련 있음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 있음",
+      "departments": [
+        {
+          "department_id": "petroleum_business",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "고카페인 에너지 음료",
+          "evidence_type": "paragraph",
+          "reason": "석유사업 전략, 원유·석유제품·LPG 구매와 판매, 트레이딩 관련 업무"
+        },
+        {
+          "department_id": "distribution_business",
+          "relevance_score": 0.6,
+          "evidence_segment_ids": [
+            "s2"
+          ],
+          "evidence_text": "고카페인 에너지 음료",
+          "evidence_type": "paragraph",
+          "reason": "석유유통, 주유소 공급, 소비자가격, 유류세 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "408fdd6ca6fcf728",
+      "final_relevant": false,
+      "confidence": 0.2,
+      "final_reason": "한국석유공사와 관련한 내용이 없음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 없음",
+      "departments": []
+    },
+    {
+      "article_id": "f9e9192637fe1fe2",
+      "final_relevant": true,
+      "confidence": 0.7,
+      "final_reason": "에너지 관련 기사로 한국석유공사의 에너지전환, 저탄소, 수소암모니아 사업 등과 관련이 있을 수 있음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 있음",
+      "departments": [
+        {
+          "department_id": "low_carbon",
+          "relevance_score": 0.8,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "에너지",
+          "evidence_type": "article",
+          "reason": "저탄소, 수소, 암모니아, 에너지전환 관련 업무"
+        },
+        {
+          "department_id": "hydrogen_ammonia",
+          "relevance_score": 0.7,
+          "evidence_segment_ids": [
+            "s1"
+          ],
+          "evidence_text": "에너지",
+          "evidence_type": "article",
+          "reason": "수소와 암모니아 도입·저장·유통, 해외 공급처 발굴 관련 업무"
+        }
+      ]
+    },
+    {
+      "article_id": "8fe78d4ec3ae44ea",
+      "final_relevant": false,
+      "confidence": 0.1,
+      "final_reason": "인천 공항 통합 이슈는 한국석유공사와 직접 관련이 없음",
+      "review_note": "1차 판단 C 그룹에서 최종 판단 결과 관련성 없음",
+      "departments": []
+    }
+  ]
+}
+```
