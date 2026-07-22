@@ -1,0 +1,53 @@
+{
+  "stage": "stage1",
+  "batch_number": 24,
+  "batch_count": 41,
+  "split_path": "root",
+  "attempt": 1,
+  "article_ids": [
+    "27e434bd5cb8e003",
+    "d3848fc51ebe22d4",
+    "b3652fb23dcf5917",
+    "823b4394312ccba3",
+    "dd0090bd432071f5",
+    "73c52299aabc4254",
+    "0d943210f2ee38ec",
+    "c860914648374b3b",
+    "8b62c11e05febe9c",
+    "f2d9fb233d422524",
+    "30f0709e5f23be32",
+    "56406de75a3f0134",
+    "64d8c6e262bde875",
+    "8c284528c8da4697",
+    "4d7d730fb8713f47",
+    "df00df5e6da3802b"
+  ],
+  "message": "groq HTTP 404: {\"error\":{\"message\":\"The model `meta-llama/llama-4-scout-17b-16e-instruct` does not exist or you do not have access to it.\",\"type\":\"invalid_request_error\",\"code\":\"model_not_found\"}}\n",
+  "name": "Error",
+  "llm_debug": {
+    "provider": "groq",
+    "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+    "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+    "request": {
+      "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+      "temperature": 0.05,
+      "max_tokens": 1400,
+      "message_count": 2,
+      "messages": [
+        {
+          "role": "system",
+          "char_count": 134,
+          "preview": "너는 한국석유공사(KNOC)의 언론 모니터링 1차 분류 담당자다. 0차 키워드는 A/B 라우팅 참고용일 뿐이며, 최종 판단은 기사 문맥과 한국석유공사의 역할, 부서별 업무 설명을 기준으로 한다. 반드시 유효한 JSON 객체 하나만 반환한다."
+        },
+        {
+          "role": "user",
+          "char_count": 17272,
+          "preview": "{\n  \"task\": \"각 기사를 1차 검토하라. A 그룹은 키워드 히트 기사이므로 실제 관련성이 있는지 검토하고, B 그룹은 키워드가 없더라도 문맥상 한국석유공사와 연결될 가능성이 있는지 찾아라. 관련 가능성이 있으면 candidate=true로 두고 관련 부서를 배정하라.\",\n  \"knoc_context\": {\n    \"name\": \"한국석유공사\",\n    \"aliases\": [\n      \"KNOC\",\n      \"Korea National Oil Corporation\",\n      \"석유공사\"\n    ],\n    \"role\": \"한국석유공사는 대한민국의 에너지 안보와 석유 수급 안정을 위해 석유비축, 국내외 석유·가스 자원개발, 석유정보 제공, 석유유통 지원, 저탄소·수소·암모니아 등 에너지 전환 관련 사업을 수행하는 공공기관이다.\",\n    \"classification_policy\": [\n      \"기사에 한국석유공사가 직접 언급되지 않아도, 공사의 사업·위험·정책·시장·"
+        }
+      ]
+    },
+    "http_status": 404,
+    "raw_response": "[saved as stage1-batch-024-root-try-01-error-raw-response.json]",
+    "error_type": "http"
+  }
+}
